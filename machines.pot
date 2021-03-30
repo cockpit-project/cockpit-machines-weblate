@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 05:18+0000\n"
+"POT-Creation-Date: 2021-03-30 18:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,13 +76,13 @@ msgstr ""
 msgid "$0 virtual network interface settings"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:227
 #: src/components/vm/disks/diskEdit.jsx:109
+#: src/components/vm/disks/vmDisksCard.jsx:227
 msgid "Access"
 msgstr ""
 
-#: src/components/networks/network.jsx:171
 #: src/components/storagePools/storagePool.jsx:165
+#: src/components/networks/network.jsx:171
 msgid "Activate"
 msgstr ""
 
@@ -90,8 +90,8 @@ msgstr ""
 msgid "Activate the storage pool to administer volumes"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:610
 #: src/components/vm/nics/nicAdd.jsx:169
+#: src/components/vm/disks/diskAdd.jsx:610
 msgid "Add"
 msgstr ""
 
@@ -112,10 +112,10 @@ msgstr ""
 msgid "Additional"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:120
-#: src/components/networks/networkOverviewTab.jsx:145
 #: src/components/vm/nics/vmNicsCard.jsx:187
 #: src/components/vm/consoles/desktopConsole.jsx:47
+#: src/components/networks/networkOverviewTab.jsx:120
+#: src/components/networks/networkOverviewTab.jsx:145
 msgid "Address"
 msgstr ""
 
@@ -134,12 +134,12 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:107 src/components/vm/nics/nicAdd.jsx:61
+#: src/components/vm/nics/nicAdd.jsx:61 src/components/vm/disks/diskAdd.jsx:107
 msgid "Always attach"
 msgstr ""
 
-#: src/components/vm/overview/cpuTypeModal.jsx:65
 #: src/components/vm/overview/vcpuModal.jsx:251
+#: src/components/vm/overview/cpuTypeModal.jsx:65
 msgid "Apply"
 msgstr ""
 
@@ -155,9 +155,9 @@ msgstr ""
 msgid "Automatically start libvirt on boot"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:94
 #: src/components/vm/overview/vmOverviewCard.jsx:245
 #: src/components/storagePools/storagePoolOverviewTab.jsx:73
+#: src/components/networks/networkOverviewTab.jsx:94
 msgid "Autostart"
 msgstr ""
 
@@ -174,12 +174,12 @@ msgstr ""
 msgid "Boot order settings could not be saved"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:160
-#: src/components/vm/disks/vmDisksCard.jsx:225
-#: src/components/vm/disks/diskEdit.jsx:85
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:112
 #: src/components/vm/overview/bootOrder.jsx:135
+#: src/components/vm/disks/diskAdd.jsx:160
+#: src/components/vm/disks/diskEdit.jsx:85
+#: src/components/vm/disks/vmDisksCard.jsx:225
 msgid "Bus"
 msgstr ""
 
@@ -200,29 +200,29 @@ msgid "CPU type"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:75
 #: src/components/vm/disks/diskEdit.jsx:59
+#: src/components/vm/disks/vmDiskColumns.jsx:75
 msgid "Cache"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:407
-#: src/components/create-vm-dialog/createVmDialog.jsx:1086
+#: src/components/common/deleteResource.jsx:68
+#: src/components/vm/vmCloneDialog.jsx:75
+#: src/components/vm/nics/nicEdit.jsx:165 src/components/vm/nics/nicAdd.jsx:172
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/deleteDialog.jsx:140
+#: src/components/vm/overview/bootOrder.jsx:291
+#: src/components/vm/overview/firmware.jsx:66
+#: src/components/vm/overview/vcpuModal.jsx:254
+#: src/components/vm/overview/cpuTypeModal.jsx:68
+#: src/components/vm/overview/memoryModal.jsx:142
 #: src/components/vm/disks/diskAdd.jsx:613
 #: src/components/vm/disks/diskEdit.jsx:239
-#: src/components/vm/deleteDialog.jsx:140 src/components/vm/nics/nicAdd.jsx:172
-#: src/components/vm/nics/nicEdit.jsx:165
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
-#: src/components/vm/overview/bootOrder.jsx:291
-#: src/components/vm/overview/cpuTypeModal.jsx:68
-#: src/components/vm/overview/vcpuModal.jsx:254
-#: src/components/vm/overview/firmware.jsx:66
-#: src/components/vm/overview/memoryModal.jsx:142
-#: src/components/vm/vmCloneDialog.jsx:75
-#: src/components/common/deleteResource.jsx:68
-#: src/components/storagePools/createStoragePoolDialog.jsx:440
 #: src/components/storagePools/storageVolumeCreate.jsx:105
+#: src/components/storagePools/createStoragePoolDialog.jsx:440
 #: src/components/storagePools/storagePoolDelete.jsx:224
+#: src/components/create-vm-dialog/createVmDialog.jsx:1086
+#: src/components/networks/createNetworkDialog.jsx:407
 msgid "Cancel"
 msgstr ""
 
@@ -234,10 +234,10 @@ msgstr ""
 msgid "Change firmware"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:218
+#: src/components/common/warningInactive.jsx:12
 #: src/components/vm/nics/nicEdit.jsx:151
 #: src/components/vm/overview/vcpuModal.jsx:176
-#: src/components/common/warningInactive.jsx:12
+#: src/components/vm/disks/diskEdit.jsx:218
 msgid "Changes will take effect after shutting down the VM"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:289 src/components/vm/vmCloneDialog.jsx:72
+#: src/components/vm/vmCloneDialog.jsx:72 src/components/vm/vmActions.jsx:289
 msgid "Clone"
 msgstr ""
 
@@ -279,11 +279,11 @@ msgstr ""
 msgid "Connecting to virtualization service"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/networks/networkList.jsx:78
 #: src/components/common/machinesConnectionSelector.jsx:33
 #: src/components/vms/hostvmslist.jsx:136
 #: src/components/storagePools/storagePoolList.jsx:75
+#: src/components/networks/createNetworkDialog.jsx:43
+#: src/components/networks/networkList.jsx:78
 msgid "Connection"
 msgstr ""
 
@@ -304,11 +304,11 @@ msgstr ""
 msgid "Crashed"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:404
-#: src/components/create-vm-dialog/createVmDialog.jsx:1081
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
-#: src/components/storagePools/createStoragePoolDialog.jsx:437
 #: src/components/storagePools/storageVolumeCreate.jsx:102
+#: src/components/storagePools/createStoragePoolDialog.jsx:437
+#: src/components/create-vm-dialog/createVmDialog.jsx:1081
+#: src/components/networks/createNetworkDialog.jsx:404
 msgid "Create"
 msgstr ""
 
@@ -398,17 +398,17 @@ msgstr ""
 msgid "DHCP range"
 msgstr ""
 
-#: src/components/networks/network.jsx:167
 #: src/components/storagePools/storagePool.jsx:156
+#: src/components/networks/network.jsx:167
 msgid "Deactivate"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:137 src/components/vm/vmActions.jsx:323
-#: src/components/vm/vmActions.jsx:330
 #: src/components/common/deleteResource.jsx:60
 #: src/components/common/deleteResource.jsx:65
 #: src/components/common/deleteResource.jsx:94
 #: src/components/common/deleteResource.jsx:104
+#: src/components/vm/deleteDialog.jsx:137 src/components/vm/vmActions.jsx:323
+#: src/components/vm/vmActions.jsx:330
 #: src/components/storagePools/storagePoolDelete.jsx:193
 #: src/components/storagePools/storagePoolDelete.jsx:203
 #: src/components/storagePools/storagePoolDelete.jsx:221
@@ -458,13 +458,13 @@ msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:154
-#: src/components/networks/networkList.jsx:77
+#: src/components/vm/overview/bootOrder.jsx:92
+#: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:252
 #: src/components/vm/disks/vmDisksCard.jsx:211
 #: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/overview/bootOrder.jsx:92
-#: src/components/vm/overview/bootOrder.jsx:99
+#: src/components/networks/createNetworkDialog.jsx:154
+#: src/components/networks/networkList.jsx:77
 msgid "Device"
 msgstr ""
 
@@ -526,8 +526,8 @@ msgstr ""
 msgid "Dying"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:225
 #: src/components/vm/nics/vmNicsCard.jsx:281
+#: src/components/vm/disks/diskEdit.jsx:225
 msgid "Edit"
 msgstr ""
 
@@ -580,8 +580,8 @@ msgstr ""
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
 #: src/components/vm/overview/bootOrder.jsx:91
+#: src/components/vm/disks/vmDiskColumns.jsx:42
 msgid "File"
 msgstr ""
 
@@ -606,8 +606,8 @@ msgstr ""
 msgid "Force shut down"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreateBody.jsx:70
 #: src/components/storagePools/createStoragePoolDialog.jsx:201
+#: src/components/storagePools/storageVolumeCreateBody.jsx:70
 msgid "Format"
 msgstr ""
 
@@ -619,8 +619,8 @@ msgstr ""
 msgid "Forwarding mode"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:85
 #: src/components/vm/overview/vmOverviewCard.jsx:202
+#: src/components/networks/networkOverviewTab.jsx:85
 msgid "General"
 msgstr ""
 
@@ -628,11 +628,11 @@ msgstr ""
 msgid "Generate automatically"
 msgstr ""
 
+#: src/components/vm/overview/memorySelectRow.jsx:87
+#: src/components/vm/disks/vmDisksCard.jsx:51
+#: src/components/storagePools/storageVolumeCreateBody.jsx:104
 #: src/components/create-vm-dialog/createVmDialog.jsx:621
 #: src/components/create-vm-dialog/createVmDialog.jsx:716
-#: src/components/vm/disks/vmDisksCard.jsx:51
-#: src/components/vm/overview/memorySelectRow.jsx:87
-#: src/components/storagePools/storageVolumeCreateBody.jsx:104
 msgid "GiB"
 msgstr ""
 
@@ -644,10 +644,10 @@ msgstr ""
 msgid "Hide additional options"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:47
 #: src/components/vm/overview/bootOrder.jsx:96
-#: src/components/storagePools/storagePoolOverviewTab.jsx:36
+#: src/components/vm/disks/vmDiskColumns.jsx:47
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
+#: src/components/storagePools/storagePoolOverviewTab.jsx:36
 msgid "Host"
 msgstr ""
 
@@ -844,7 +844,7 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:35 src/components/vm/nics/nicEdit.jsx:37
+#: src/components/vm/nics/nicEdit.jsx:37 src/components/vm/nics/nicAdd.jsx:35
 #: src/components/vm/nics/vmNicsCard.jsx:216
 msgid "MAC address"
 msgstr ""
@@ -895,9 +895,9 @@ msgstr ""
 msgid "Maximum transmission unit"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:605
 #: src/components/vm/vmUsageCard.jsx:60
 #: src/components/vm/overview/vmOverviewCard.jsx:220
+#: src/components/create-vm-dialog/createVmDialog.jsx:605
 msgid "Memory"
 msgstr ""
 
@@ -910,10 +910,10 @@ msgstr ""
 msgid "Memory must not be 0"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:619
-#: src/components/create-vm-dialog/createVmDialog.jsx:714
 #: src/components/vm/overview/memorySelectRow.jsx:85
 #: src/components/storagePools/storageVolumeCreateBody.jsx:102
+#: src/components/create-vm-dialog/createVmDialog.jsx:619
+#: src/components/create-vm-dialog/createVmDialog.jsx:714
 msgid "MiB"
 msgstr ""
 
@@ -938,17 +938,17 @@ msgstr ""
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:120
-#: src/components/networks/networkList.jsx:76
-#: src/components/create-vm-dialog/createVmDialog.jsx:197
+#: src/components/vms/hostvmslist.jsx:135
+#: src/components/vm/vmCloneDialog.jsx:80
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:40
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:116
-#: src/components/vm/vmCloneDialog.jsx:80
-#: src/components/vms/hostvmslist.jsx:135
-#: src/components/storagePools/storagePoolList.jsx:73
-#: src/components/storagePools/storageVolumeCreateBody.jsx:40
 #: src/components/storagePools/storagePoolVolumesTab.jsx:79
 #: src/components/storagePools/createStoragePoolDialog.jsx:45
+#: src/components/storagePools/storagePoolList.jsx:73
+#: src/components/storagePools/storageVolumeCreateBody.jsx:40
+#: src/components/create-vm-dialog/createVmDialog.jsx:197
+#: src/components/networks/createNetworkDialog.jsx:120
+#: src/components/networks/networkList.jsx:76
 msgid "Name"
 msgstr ""
 
@@ -956,14 +956,14 @@ msgstr ""
 msgid "Name contains invalid characters"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:135
 #: src/components/vm/vmCloneDialog.jsx:39
 #: src/components/storagePools/storageVolumeCreate.jsx:61
+#: src/components/create-vm-dialog/createVmDialog.jsx:135
 msgid "Name must not be empty"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:55
 #: src/components/storagePools/createStoragePoolDialog.jsx:46
+#: src/components/networks/createNetworkDialog.jsx:55
 msgid "Name should not be empty"
 msgstr ""
 
@@ -991,7 +991,7 @@ msgstr ""
 msgid "Network file system"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:123 src/components/vm/nics/nicEdit.jsx:120
+#: src/components/vm/nics/nicEdit.jsx:120 src/components/vm/nics/nicAdd.jsx:123
 msgid "Network interface settings could not be saved"
 msgstr ""
 
@@ -999,10 +999,10 @@ msgstr ""
 msgid "Network selection does not support PXE."
 msgstr ""
 
+#: src/components/vm/vmDetailsPage.jsx:141
 #: src/components/networks/networkList.jsx:59
 #: src/components/networks/networkList.jsx:66
 #: src/components/networks/networkList.jsx:73
-#: src/components/vm/vmDetailsPage.jsx:141
 msgid "Networks"
 msgstr ""
 
@@ -1122,9 +1122,9 @@ msgstr ""
 msgid "Operation is in progress"
 msgstr ""
 
-#: src/components/networks/network.jsx:74
 #: src/components/vm/vmDetailsPage.jsx:104
 #: src/components/storagePools/storagePool.jsx:69
+#: src/components/networks/network.jsx:74
 msgid "Overview"
 msgstr ""
 
@@ -1132,8 +1132,8 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:41
 #: src/components/vm/deleteDialog.jsx:45
+#: src/components/vm/disks/diskEdit.jsx:41
 msgid "Path"
 msgstr ""
 
@@ -1161,12 +1161,12 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:104 src/components/vm/nics/nicAdd.jsx:58
+#: src/components/vm/nics/nicAdd.jsx:58 src/components/vm/disks/diskAdd.jsx:104
 msgid "Persistence"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:89
 #: src/components/storagePools/storagePoolOverviewTab.jsx:68
+#: src/components/networks/networkOverviewTab.jsx:89
 msgid "Persistent"
 msgstr ""
 
@@ -1198,10 +1198,10 @@ msgstr ""
 msgid "Plug"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:116
-#: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/deleteDialog.jsx:53
 #: src/components/vm/overview/bootOrder.jsx:94
+#: src/components/vm/disks/diskAdd.jsx:116
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 msgid "Pool"
 msgstr ""
 
@@ -1218,10 +1218,10 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:48
 #: src/components/vm/nics/vmNicsCard.jsx:188
 #: src/components/vm/overview/bootOrder.jsx:97
 #: src/components/vm/overview/bootOrder.jsx:113
+#: src/components/vm/disks/vmDiskColumns.jsx:48
 msgid "Port"
 msgstr ""
 
@@ -1260,14 +1260,14 @@ msgstr ""
 msgid "Profile"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:44
 #: src/components/vm/overview/bootOrder.jsx:93
 #: src/components/vm/overview/bootOrder.jsx:142
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Protocol"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:255
 #: src/components/vm/disks/diskEdit.jsx:117
+#: src/components/vm/disks/vmDisksCard.jsx:255
 msgid "Read-only"
 msgstr ""
 
@@ -1292,8 +1292,8 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:192
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:68
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:192
 msgid "Revert"
 msgstr ""
 
@@ -1328,8 +1328,8 @@ msgstr ""
 msgid "Run unattended installation"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:101
 #: src/components/vm/overview/vmOverviewCard.jsx:153
+#: src/components/networks/networkOverviewTab.jsx:101
 msgid "Run when host boots"
 msgstr ""
 
@@ -1349,11 +1349,11 @@ msgstr ""
 msgid "SPICE port"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:236
 #: src/components/vm/nics/nicEdit.jsx:162
 #: src/components/vm/overview/bootOrder.jsx:288
 #: src/components/vm/overview/firmware.jsx:63
 #: src/components/vm/overview/memoryModal.jsx:139
+#: src/components/vm/disks/diskEdit.jsx:236
 msgid "Save"
 msgstr ""
 
@@ -1411,10 +1411,10 @@ msgstr ""
 msgid "Shutting down"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:699
+#: src/components/storagePools/storagePoolVolumesTab.jsx:79
 #: src/components/storagePools/storagePoolList.jsx:74
 #: src/components/storagePools/storageVolumeCreateBody.jsx:86
-#: src/components/storagePools/storagePoolVolumesTab.jsx:79
+#: src/components/create-vm-dialog/createVmDialog.jsx:699
 msgid "Size"
 msgstr ""
 
@@ -1430,10 +1430,10 @@ msgstr ""
 msgid "Sockets"
 msgstr ""
 
+#: src/components/vm/nics/nicBody.jsx:136
+#: src/components/vm/nics/vmNicsCard.jsx:235
 #: src/components/vm/disks/diskAdd.jsx:551
 #: src/components/vm/disks/vmDisksCard.jsx:229
-#: src/components/vm/nics/vmNicsCard.jsx:235
-#: src/components/vm/nics/nicBody.jsx:136
 #: src/components/storagePools/storagePoolOverviewTab.jsx:53
 msgid "Source"
 msgstr ""
@@ -1442,10 +1442,10 @@ msgstr ""
 msgid "Source format"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:43
-#: src/components/storagePools/storagePoolOverviewTab.jsx:48
 #: src/components/storagePools/createStoragePoolDialog.jsx:173
 #: src/components/storagePools/createStoragePoolDialog.jsx:191
+#: src/components/storagePools/storagePoolOverviewTab.jsx:43
+#: src/components/storagePools/storagePoolOverviewTab.jsx:48
 msgid "Source path"
 msgstr ""
 
@@ -1483,11 +1483,11 @@ msgstr ""
 msgid "Startup"
 msgstr ""
 
-#: src/components/networks/networkList.jsx:80
+#: src/components/vms/hostvmslist.jsx:95 src/components/vms/hostvmslist.jsx:137
 #: src/components/vm/nics/vmNicsCard.jsx:261
 #: src/components/vm/overview/vmOverviewCard.jsx:206
-#: src/components/vms/hostvmslist.jsx:95 src/components/vms/hostvmslist.jsx:137
 #: src/components/storagePools/storagePoolList.jsx:76
+#: src/components/networks/networkList.jsx:80
 msgid "State"
 msgstr ""
 
@@ -1511,10 +1511,10 @@ msgstr ""
 msgid "Storage pool name"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:674
 #: src/components/storagePools/storagePoolList.jsx:56
 #: src/components/storagePools/storagePoolList.jsx:63
 #: src/components/storagePools/storagePoolList.jsx:70
+#: src/components/create-vm-dialog/createVmDialog.jsx:674
 msgid "Storage pools"
 msgstr ""
 
@@ -1551,8 +1551,8 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:63
 #: src/components/storagePools/createStoragePoolDialog.jsx:102
+#: src/components/storagePools/storagePoolOverviewTab.jsx:63
 msgid "Target path"
 msgstr ""
 
@@ -1568,8 +1568,8 @@ msgstr ""
 msgid "The VM is running and will be forced off before deletion."
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:292
 #: src/components/vm/nics/vmNicsCard.jsx:297
+#: src/components/vm/disks/vmDisksCard.jsx:292
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
@@ -1634,8 +1634,8 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:134
 #: src/components/vm/overview/bootOrder.jsx:141
 #: src/components/vm/overview/bootOrder.jsx:147
-#: src/components/storagePools/storagePoolOverviewTab.jsx:78
 #: src/components/storagePools/createStoragePoolDialog.jsx:80
+#: src/components/storagePools/storagePoolOverviewTab.jsx:78
 msgid "Type"
 msgstr ""
 
@@ -1797,12 +1797,12 @@ msgstr ""
 msgid "Virtual Machines"
 msgstr ""
 
-#: src/components/networks/networkList.jsx:56
-#: src/components/vm/vmDetailsPage.jsx:83
-#: src/components/vm/vmDetailsPage.jsx:181
 #: src/components/vms/hostvmslist.jsx:125
 #: src/components/vms/hostvmslist.jsx:132
+#: src/components/vm/vmDetailsPage.jsx:83
+#: src/components/vm/vmDetailsPage.jsx:181
 #: src/components/storagePools/storagePoolList.jsx:53
+#: src/components/networks/networkList.jsx:56
 msgid "Virtual machines"
 msgstr ""
 
@@ -1822,11 +1822,11 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:685
-#: src/components/vm/disks/diskAdd.jsx:86
-#: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/deleteDialog.jsx:50
 #: src/components/vm/overview/bootOrder.jsx:95
+#: src/components/vm/disks/diskAdd.jsx:86
+#: src/components/vm/disks/vmDiskColumns.jsx:46
+#: src/components/create-vm-dialog/createVmDialog.jsx:685
 msgid "Volume"
 msgstr ""
 
@@ -1846,13 +1846,13 @@ msgstr ""
 msgid "WWPN"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:255
 #: src/components/vm/disks/diskEdit.jsx:125
+#: src/components/vm/disks/vmDisksCard.jsx:255
 msgid "Writeable"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:255
 #: src/components/vm/disks/diskEdit.jsx:134
+#: src/components/vm/disks/vmDisksCard.jsx:255
 msgid "Writeable and shared"
 msgstr ""
 
@@ -1864,8 +1864,8 @@ msgstr ""
 msgid "You need to select the most closely matching operating system"
 msgstr ""
 
-#: src/components/networks/network.jsx:56
 #: src/components/storagePools/storagePool.jsx:58
+#: src/components/networks/network.jsx:56
 msgid "active"
 msgstr ""
 
@@ -1960,9 +1960,9 @@ msgstr ""
 msgid "network"
 msgstr ""
 
-#: src/helpers.js:262 src/components/networks/networkOverviewTab.jsx:90
-#: src/components/storagePools/storagePoolOverviewTab.jsx:69
+#: src/helpers.js:262 src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
+#: src/components/networks/networkOverviewTab.jsx:90
 msgid "no"
 msgstr ""
 
@@ -2044,8 +2044,8 @@ msgstr ""
 msgid "vm"
 msgstr ""
 
-#: src/helpers.js:261 src/components/networks/networkOverviewTab.jsx:90
-#: src/components/storagePools/storagePoolOverviewTab.jsx:69
+#: src/helpers.js:261 src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
+#: src/components/networks/networkOverviewTab.jsx:90
 msgid "yes"
 msgstr ""
