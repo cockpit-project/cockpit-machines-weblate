@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 18:26+0000\n"
+"POT-Creation-Date: 2021-05-18 18:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,12 @@ msgstr ""
 msgid "$0 virtual network interface settings"
 msgstr ""
 
+#: src/components/vm/vmMigrateDialog.jsx:76
+msgid ""
+"A copy of the VM will run on the destination and will disappear when it is "
+"shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.jsx:227
 #: src/components/vm/disks/diskEdit.jsx:112
 msgid "Access"
@@ -132,6 +138,12 @@ msgstr ""
 
 #: src/components/vms/hostvmslist.jsx:63 src/components/vms/hostvmslist.jsx:80
 msgid "All"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:176
+msgid ""
+"All VM activity, including storage, will be temporary. This will result in "
+"data loss on the destination host."
 msgstr ""
 
 #: src/components/vm/nics/nicAdd.jsx:61 src/components/vm/disks/diskAdd.jsx:105
@@ -220,6 +232,7 @@ msgstr ""
 #: src/components/vm/deleteDialog.jsx:140
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/vmMigrateDialog.jsx:191
 #: src/components/storagePools/createStoragePoolDialog.jsx:438
 #: src/components/storagePools/storagePoolDelete.jsx:224
 #: src/components/storagePools/storageVolumeCreate.jsx:105
@@ -251,7 +264,7 @@ msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:289 src/components/vm/vmCloneDialog.jsx:72
+#: src/components/vm/vmActions.jsx:291 src/components/vm/vmCloneDialog.jsx:72
 msgid "Clone"
 msgstr ""
 
@@ -290,6 +303,11 @@ msgstr ""
 #: src/components/vm/vmDetailsPage.jsx:89
 #: src/components/vm/vmDetailsPage.jsx:117
 msgid "Console"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:106
+#: src/components/vm/vmMigrateDialog.jsx:121
+msgid "Copy storage"
 msgstr ""
 
 #: src/components/vm/overview/vcpuModal.jsx:225
@@ -407,7 +425,7 @@ msgstr ""
 #: src/components/common/deleteResource.jsx:65
 #: src/components/common/deleteResource.jsx:94
 #: src/components/common/deleteResource.jsx:104
-#: src/components/vm/vmActions.jsx:323 src/components/vm/vmActions.jsx:330
+#: src/components/vm/vmActions.jsx:346 src/components/vm/vmActions.jsx:353
 #: src/components/vm/deleteDialog.jsx:137
 #: src/components/storagePools/storagePoolDelete.jsx:193
 #: src/components/storagePools/storagePoolDelete.jsx:203
@@ -450,6 +468,14 @@ msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:100
 msgid "Desktop viewer"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:47
+msgid "Destination URI"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:139
+msgid "Destination URI must not be empty"
 msgstr ""
 
 #: src/components/storagePools/storagePoolDelete.jsx:152
@@ -518,6 +544,11 @@ msgstr ""
 msgid "Disks"
 msgstr ""
 
+#: src/components/vm/vmMigrateDialog.jsx:174
+msgid ""
+"Do not run this VM on the origin and destination hosts at the same time."
+msgstr ""
+
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:150
 msgid "Domain has crashed"
 msgstr ""
@@ -528,6 +559,10 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:300
 msgid "Download an OS"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:65
+msgid "Duration"
 msgstr ""
 
 #: src/helpers.js:219
@@ -554,6 +589,10 @@ msgstr ""
 #: src/components/networks/createNetworkDialog.jsx:85
 #: src/components/networks/createNetworkDialog.jsx:113
 msgid "End should not be empty"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:53
+msgid "Example, $0"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:243
@@ -606,11 +645,11 @@ msgstr ""
 msgid "Firmware"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:254
+#: src/components/vm/vmActions.jsx:256
 msgid "Force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:228
+#: src/components/vm/vmActions.jsx:230
 msgid "Force shut down"
 msgstr ""
 
@@ -625,6 +664,13 @@ msgstr ""
 
 #: src/components/networks/networkList.jsx:77
 msgid "Forwarding mode"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:107
+msgid ""
+"Full disk images and the domain's memory will be migrated. Only non-shared, "
+"writable disk images will be transferred. Unused storage will remain on the "
+"origin after migration."
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:85
@@ -759,7 +805,7 @@ msgstr ""
 msgid "Initiator IQN should not be empty"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:280
+#: src/components/vm/vmActions.jsx:282
 msgid "Install"
 msgstr ""
 
@@ -925,6 +971,19 @@ msgstr ""
 #: src/components/vm/overview/memorySelectRow.jsx:85
 #: src/components/storagePools/storageVolumeCreateBody.jsx:102
 msgid "MiB"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:322
+#: src/components/vm/vmMigrateDialog.jsx:188
+msgid "Migrate"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:198
+msgid "Migrate VM to another host"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:154
+msgid "Migration failed"
 msgstr ""
 
 #: src/components/vm/overview/cpuTypeModal.jsx:32
@@ -1163,12 +1222,16 @@ msgstr ""
 msgid "Path to file on host's file system"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:189
+#: src/components/vm/vmActions.jsx:191
 msgid "Pause"
 msgstr ""
 
 #: src/helpers.js:215
 msgid "Paused"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:71
+msgid "Permanent (default)"
 msgstr ""
 
 #: src/components/vm/nics/nicAdd.jsx:58 src/components/vm/disks/diskAdd.jsx:102
@@ -1277,7 +1340,7 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:247
+#: src/components/vm/vmActions.jsx:249
 msgid "Reboot"
 msgstr ""
 
@@ -1294,7 +1357,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:200
+#: src/components/vm/vmActions.jsx:202
 msgid "Resume"
 msgstr ""
 
@@ -1326,7 +1389,7 @@ msgstr ""
 msgid "Routed network"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:269
+#: src/components/vm/vmActions.jsx:271
 msgid "Run"
 msgstr ""
 
@@ -1371,7 +1434,7 @@ msgstr ""
 msgid "Send key"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:236
+#: src/components/vm/vmActions.jsx:238
 msgid "Send non-maskable interrupt"
 msgstr ""
 
@@ -1397,11 +1460,15 @@ msgid ""
 "VM when creating it"
 msgstr ""
 
+#: src/components/vm/vmMigrateDialog.jsx:102
+msgid "Shared storage"
+msgstr ""
+
 #: src/components/vm/disks/diskAdd.jsx:142
 msgid "Show additional options"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:214 src/components/vm/vmActions.jsx:221
+#: src/components/vm/vmActions.jsx:216 src/components/vm/vmActions.jsx:223
 msgid "Shut down"
 msgstr ""
 
@@ -1498,7 +1565,12 @@ msgid "State"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:672
+#: src/components/vm/vmMigrateDialog.jsx:96
 msgid "Storage"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:116
+msgid "Storage is at a shared location"
 msgstr ""
 
 #: src/components/storagePools/storagePool.jsx:118
@@ -1566,6 +1638,14 @@ msgstr ""
 msgid "Target path should not be empty"
 msgstr ""
 
+#: src/components/vm/vmMigrateDialog.jsx:75
+msgid "Temporary"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:85
+msgid "Temporary migration"
+msgstr ""
+
 #: src/components/common/deleteResource.jsx:47
 msgid "The $0 could not be deleted"
 msgstr ""
@@ -1581,6 +1661,12 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:157
 msgid "The directory on the server being exported"
+msgstr ""
+
+#: src/components/vm/vmMigrateDialog.jsx:72
+msgid ""
+"The migrated VM configuration is removed from the source host. The "
+"destination host is considered the new home of the VM."
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:78
@@ -1605,7 +1691,7 @@ msgstr ""
 msgid "The storage pool could not be deleted"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:319
+#: src/components/vm/vmActions.jsx:342
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
@@ -1694,6 +1780,13 @@ msgstr ""
 msgid "Use existing"
 msgstr ""
 
+#: src/components/vm/vmMigrateDialog.jsx:103
+msgid ""
+"Use the same location on both the origin and destination hosts for your "
+"storage. This can be a shared storage pool, NFS, or any other method of "
+"sharing storage."
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.jsx:221
 msgid "Used"
 msgstr ""
@@ -1730,11 +1823,11 @@ msgstr ""
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:110
+#: src/components/vm/vmActions.jsx:112
 msgid "VM $0 failed to force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:163
+#: src/components/vm/vmActions.jsx:165
 msgid "VM $0 failed to force shutdown"
 msgstr ""
 
@@ -1742,31 +1835,31 @@ msgstr ""
 msgid "VM $0 failed to get deleted"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:88 src/libvirt-common.js:1130
+#: src/components/vm/vmActions.jsx:90 src/libvirt-common.js:1130
 msgid "VM $0 failed to get installed"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:137
+#: src/components/vm/vmActions.jsx:139
 msgid "VM $0 failed to pause"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:98
+#: src/components/vm/vmActions.jsx:100
 msgid "VM $0 failed to reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:149
+#: src/components/vm/vmActions.jsx:151
 msgid "VM $0 failed to resume"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:175
+#: src/components/vm/vmActions.jsx:177
 msgid "VM $0 failed to send NMI"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:125
+#: src/components/vm/vmActions.jsx:127
 msgid "VM $0 failed to shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:80
+#: src/components/vm/vmActions.jsx:82
 msgid "VM $0 failed to start"
 msgstr ""
 
@@ -2024,7 +2117,7 @@ msgstr ""
 msgid "view more..."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:298
+#: src/components/vm/vmActions.jsx:300
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
