@@ -16,7 +16,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-07 18:15+0000\n"
+"POT-Creation-Date: 2021-09-14 10:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,7 +236,7 @@ msgstr ""
 #: src/components/storagePools/storageVolumeCreate.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.jsx:438
 #: src/components/common/deleteResource.jsx:69
-#: src/components/create-vm-dialog/createVmDialog.jsx:1092
+#: src/components/create-vm-dialog/createVmDialog.jsx:1090
 #: src/components/networks/createNetworkDialog.jsx:415
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:145
@@ -246,6 +246,7 @@ msgstr ""
 #: src/components/vm/overview/firmware.jsx:66
 #: src/components/vm/overview/vcpuModal.jsx:262
 #: src/components/vm/overview/memoryModal.jsx:154
+#: src/components/vm/vmRenameDialog.jsx:61
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/nics/nicAdd.jsx:169 src/components/vm/nics/nicEdit.jsx:179
 #: src/components/vm/vmMigrateDialog.jsx:217
@@ -288,7 +289,7 @@ msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:299 src/components/vm/vmCloneDialog.jsx:72
+#: src/components/vm/vmActions.jsx:302 src/components/vm/vmCloneDialog.jsx:72
 msgid "Clone"
 msgstr ""
 
@@ -348,13 +349,13 @@ msgstr ""
 
 #: src/components/storagePools/storageVolumeCreate.jsx:100
 #: src/components/storagePools/createStoragePoolDialog.jsx:435
-#: src/components/create-vm-dialog/createVmDialog.jsx:1087
+#: src/components/create-vm-dialog/createVmDialog.jsx:1085
 #: src/components/networks/createNetworkDialog.jsx:412
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 msgid "Create"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1165
+#: src/components/create-vm-dialog/createVmDialog.jsx:1139
 msgid "Create VM"
 msgstr ""
 
@@ -366,7 +367,7 @@ msgstr ""
 msgid "Create new"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1080
+#: src/components/create-vm-dialog/createVmDialog.jsx:1078
 msgid "Create new virtual machine"
 msgstr ""
 
@@ -452,8 +453,8 @@ msgstr ""
 #: src/components/common/deleteResource.jsx:66
 #: src/components/common/deleteResource.jsx:95
 #: src/components/common/deleteResource.jsx:105
-#: src/components/vm/deleteDialog.jsx:143 src/components/vm/vmActions.jsx:354
-#: src/components/vm/vmActions.jsx:361
+#: src/components/vm/deleteDialog.jsx:143 src/components/vm/vmActions.jsx:379
+#: src/components/vm/vmActions.jsx:386
 msgid "Delete"
 msgstr ""
 
@@ -672,12 +673,16 @@ msgstr ""
 msgid "Failed to enable virtualization service"
 msgstr ""
 
-#: src/app.jsx:121
+#: src/app.jsx:127
 msgid "Failed to fetch some resources"
 msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:129
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
+msgstr ""
+
+#: src/components/vm/vmRenameDialog.jsx:44
+msgid "Failed to rename VM $0"
 msgstr ""
 
 #: src/components/vm/consoles/vnc.jsx:130
@@ -714,11 +719,11 @@ msgstr ""
 msgid "Firmware"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:264
+#: src/components/vm/vmActions.jsx:267
 msgid "Force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:238
+#: src/components/vm/vmActions.jsx:241
 msgid "Force shut down"
 msgstr ""
 
@@ -763,7 +768,7 @@ msgstr ""
 msgid "GiB"
 msgstr ""
 
-#: src/app.jsx:191
+#: src/app.jsx:219
 msgid "Go to VMs list"
 msgstr ""
 
@@ -861,15 +866,15 @@ msgstr ""
 msgid "Immediately start VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1087
+#: src/components/create-vm-dialog/createVmDialog.jsx:1085
 msgid "Import"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1165
+#: src/components/create-vm-dialog/createVmDialog.jsx:1139
 msgid "Import VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1080
+#: src/components/create-vm-dialog/createVmDialog.jsx:1078
 msgid "Import a virtual machine"
 msgstr ""
 
@@ -887,7 +892,7 @@ msgstr ""
 msgid "Initiator IQN should not be empty"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:290
+#: src/components/vm/vmActions.jsx:293
 msgid "Install"
 msgstr ""
 
@@ -907,8 +912,12 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.jsx:124
+#: src/components/vm/nics/nicBody.jsx:148
 msgid "Interface type"
+msgstr ""
+
+#: src/components/vm/nics/nicBody.jsx:150
+msgid "Interface type help"
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:66
@@ -1068,7 +1077,7 @@ msgstr ""
 msgid "MiB"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:330
+#: src/components/vm/vmActions.jsx:333
 #: src/components/vm/vmMigrateDialog.jsx:214
 msgid "Migrate"
 msgstr ""
@@ -1087,7 +1096,7 @@ msgid "Mode"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:166
-#: src/components/vm/nics/nicBody.jsx:45
+#: src/components/vm/nics/nicBody.jsx:49
 msgid "Model"
 msgstr ""
 
@@ -1191,6 +1200,14 @@ msgstr ""
 msgid "Networks"
 msgstr ""
 
+#: src/components/vm/vmRenameDialog.jsx:70
+msgid "New name"
+msgstr ""
+
+#: src/components/vm/vmRenameDialog.jsx:72
+msgid "New name must not be empty"
+msgstr ""
+
 #: src/components/storagePools/storageVolumeCreateBody.jsx:43
 msgid "New volume name"
 msgstr ""
@@ -1223,7 +1240,7 @@ msgstr ""
 msgid "No host devices assigned to this VM"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.jsx:112
+#: src/components/vm/nics/nicBody.jsx:135
 msgid "No network devices"
 msgstr ""
 
@@ -1267,7 +1284,7 @@ msgstr ""
 msgid "No storage volumes defined for this storage pool"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.jsx:110
+#: src/components/vm/nics/nicBody.jsx:133
 msgid "No virtual networks"
 msgstr ""
 
@@ -1347,7 +1364,7 @@ msgstr ""
 msgid "Path to file on host's file system"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:199
+#: src/components/vm/vmActions.jsx:202
 msgid "Pause"
 msgstr ""
 
@@ -1465,12 +1482,28 @@ msgstr ""
 msgid "Protocol"
 msgstr ""
 
+#: src/components/vm/nics/nicBody.jsx:95
+msgid ""
+"Provides a bridge from the guest virtual machine directly onto the LAN. This "
+"needs a bridge device on the host with one or more physical NICs."
+msgstr ""
+
+#: src/components/vm/nics/nicBody.jsx:86
+msgid ""
+"Provides a connection whose details are described by the named network "
+"definition."
+msgstr ""
+
+#: src/components/vm/nics/nicBody.jsx:109
+msgid "Provides a virtual LAN with NAT to the outside world."
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.jsx:253
 #: src/components/vm/disks/diskEdit.jsx:120
 msgid "Read-only"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:257
+#: src/components/vm/vmActions.jsx:260
 msgid "Reboot"
 msgstr ""
 
@@ -1489,7 +1522,15 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:210
+#: src/components/vm/vmActions.jsx:354 src/components/vm/vmRenameDialog.jsx:58
+msgid "Rename"
+msgstr ""
+
+#: src/components/vm/vmRenameDialog.jsx:50
+msgid "Rename VM $0"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:213
 msgid "Resume"
 msgstr ""
 
@@ -1521,7 +1562,7 @@ msgstr ""
 msgid "Routed network"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:279
+#: src/components/vm/vmActions.jsx:282
 msgid "Run"
 msgstr ""
 
@@ -1566,7 +1607,7 @@ msgstr ""
 msgid "Send key"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:246
+#: src/components/vm/vmActions.jsx:249
 msgid "Send non-maskable interrupt"
 msgstr ""
 
@@ -1622,7 +1663,7 @@ msgstr ""
 msgid "Show additional options"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:224 src/components/vm/vmActions.jsx:231
+#: src/components/vm/vmActions.jsx:227 src/components/vm/vmActions.jsx:234
 msgid "Shut down"
 msgstr ""
 
@@ -1665,7 +1706,7 @@ msgstr ""
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:53
 #: src/components/vm/hostdevs/hostDevCard.jsx:184
-#: src/components/vm/nics/nicBody.jsx:140
+#: src/components/vm/nics/nicBody.jsx:179
 #: src/components/vm/nics/vmNicsCard.jsx:282
 #: src/components/vm/disks/diskAdd.jsx:592
 #: src/components/vm/disks/vmDisksCard.jsx:227
@@ -1876,8 +1917,20 @@ msgstr ""
 msgid "The tag name to be used by the guest to mount this export point."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:350
+#: src/components/vm/vmActions.jsx:375
 msgid "This VM is transient. Shut it down if you wish to delete it."
+msgstr ""
+
+#: src/components/vm/nics/nicBody.jsx:85
+msgid ""
+"This is the recommended config for general guest connectivity on hosts with "
+"dynamic / wireless networking configs."
+msgstr ""
+
+#: src/components/vm/nics/nicBody.jsx:94
+msgid ""
+"This is the recommended config for general guest connectivity on hosts with "
+"static wired networking configs."
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:696
@@ -1997,6 +2050,12 @@ msgstr ""
 msgid "User password must not be empty when user login is set"
 msgstr ""
 
+#: src/components/vm/nics/nicBody.jsx:100
+msgid ""
+"Uses the macvtap driver to attach the guest's NIC directly to a specified "
+"physical interface of the host machine."
+msgstr ""
+
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:247
 msgid "Using virtiofs requires setting up shared memory"
 msgstr ""
@@ -2009,15 +2068,15 @@ msgstr ""
 msgid "VM $0 already exists"
 msgstr ""
 
-#: src/app.jsx:187
+#: src/app.jsx:215
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:120
+#: src/components/vm/vmActions.jsx:123
 msgid "VM $0 failed to force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:173
+#: src/components/vm/vmActions.jsx:176
 msgid "VM $0 failed to force shutdown"
 msgstr ""
 
@@ -2025,31 +2084,31 @@ msgstr ""
 msgid "VM $0 failed to get deleted"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:97
+#: src/components/vm/vmActions.jsx:100
 msgid "VM $0 failed to get installed"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:147
+#: src/components/vm/vmActions.jsx:150
 msgid "VM $0 failed to pause"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:108
+#: src/components/vm/vmActions.jsx:111
 msgid "VM $0 failed to reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:159
+#: src/components/vm/vmActions.jsx:162
 msgid "VM $0 failed to resume"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:185
+#: src/components/vm/vmActions.jsx:188
 msgid "VM $0 failed to send NMI"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:135
+#: src/components/vm/vmActions.jsx:138
 msgid "VM $0 failed to shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:89
+#: src/components/vm/vmActions.jsx:92
 msgid "VM $0 failed to start"
 msgstr ""
 
@@ -2336,13 +2395,13 @@ msgstr ""
 msgid "view more..."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:308
+#: src/components/vm/vmActions.jsx:311
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1171
+#: src/components/create-vm-dialog/createVmDialog.jsx:1145
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
