@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 02:54+0000\n"
+"POT-Creation-Date: 2021-10-15 02:54+0000\n"
 "PO-Revision-Date: 2020-05-09 14:40+0000\n"
 "Last-Translator: Ahmad Haghighi <haghighi.ahmad@gmail.com>\n"
 "Language-Team: Persian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -97,10 +97,15 @@ msgstr ""
 msgid "Activate the storage pool to administer volumes"
 msgstr ""
 
+#: src/components/networks/networkOverviewTab.jsx:200
 #: src/components/vm/nics/nicAdd.jsx:196
 #: src/components/vm/disks/diskAdd.jsx:664
 #: src/components/vm/hostdevs/hostDevAdd.jsx:214
 msgid "Add"
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:195
+msgid "Add a DHCP static host entry"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:90
@@ -133,8 +138,8 @@ msgstr ""
 msgid "Additional"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:103
-#: src/components/networks/networkOverviewTab.jsx:128
+#: src/components/networks/networkOverviewTab.jsx:105
+#: src/components/networks/networkOverviewTab.jsx:125
 #: src/components/vm/nics/vmNicsCard.jsx:226
 #: src/components/vm/consoles/desktopConsole.jsx:47
 msgid "Address"
@@ -182,7 +187,7 @@ msgid "Automatic"
 msgstr ""
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:73
-#: src/components/networks/networkOverviewTab.jsx:80
+#: src/components/networks/networkOverviewTab.jsx:82
 #: src/components/vm/overview/vmOverviewCard.jsx:215
 msgid "Autostart"
 msgstr ""
@@ -240,6 +245,7 @@ msgstr ""
 #: src/components/storagePools/storageVolumeCreate.jsx:103
 #: src/components/storagePools/storagePoolDelete.jsx:225
 #: src/components/networks/createNetworkDialog.jsx:413
+#: src/components/networks/networkOverviewTab.jsx:203
 #: src/components/create-vm-dialog/createVmDialog.jsx:1090
 #: src/components/vm/vmMigrateDialog.jsx:217
 #: src/components/vm/deleteDialog.jsx:146
@@ -432,9 +438,8 @@ msgstr ""
 msgid "Custom path"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:113
-#: src/components/networks/networkOverviewTab.jsx:138
-msgid "DHCP range"
+#: src/components/networks/networkOverviewTab.jsx:238
+msgid "DHCP Settings"
 msgstr ""
 
 #: src/components/storagePools/storagePool.jsx:157
@@ -679,6 +684,10 @@ msgstr ""
 msgid "Failed to rename VM $0"
 msgstr ""
 
+#: src/components/networks/networkOverviewTab.jsx:198
+msgid "Failed to save network settings"
+msgstr ""
+
 #: src/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr ""
@@ -737,7 +746,7 @@ msgstr ""
 msgid "Function"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:71
+#: src/components/networks/networkOverviewTab.jsx:73
 #: src/components/vm/overview/vmOverviewCard.jsx:173
 msgid "General"
 msgstr ""
@@ -798,8 +807,13 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
+#: src/components/networks/networkOverviewTab.jsx:218
 #: src/components/vm/nics/vmNicsCard.jsx:259
 msgid "IP address"
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:219
+msgid "IP address must not be empty"
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:182
@@ -807,7 +821,7 @@ msgid "IP configuration"
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:243
-#: src/components/networks/networkOverviewTab.jsx:99
+#: src/components/networks/networkOverviewTab.jsx:101
 msgid "IPv4 address"
 msgstr ""
 
@@ -832,7 +846,7 @@ msgid "IPv4 only"
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:275
-#: src/components/networks/networkOverviewTab.jsx:124
+#: src/components/networks/networkOverviewTab.jsx:121
 msgid "IPv6 address"
 msgstr ""
 
@@ -996,10 +1010,15 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
+#: src/components/networks/networkOverviewTab.jsx:210
 #: src/components/vm/nics/nicAdd.jsx:62
 #: src/components/vm/nics/vmNicsCard.jsx:257
 #: src/components/vm/nics/nicEdit.jsx:43
 msgid "MAC address"
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:211
+msgid "MAC address must not be empty"
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:91
@@ -1044,7 +1063,7 @@ msgid ""
 "between 1 and $0"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:90
+#: src/components/networks/networkOverviewTab.jsx:92
 msgid "Maximum transmission unit"
 msgstr ""
 
@@ -1151,11 +1170,11 @@ msgstr ""
 msgid "Name should not be empty"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:41
+#: src/components/networks/networkOverviewTab.jsx:46
 msgid "Name: "
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:108
+#: src/components/networks/networkOverviewTab.jsx:110
 msgid "Netmask"
 msgstr ""
 
@@ -1380,7 +1399,7 @@ msgid "Persistence"
 msgstr ""
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:68
-#: src/components/networks/networkOverviewTab.jsx:75
+#: src/components/networks/networkOverviewTab.jsx:77
 msgid "Persistent"
 msgstr ""
 
@@ -1443,7 +1462,7 @@ msgstr ""
 msgid "Preferred number of sockets to expose to the guest."
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:133
+#: src/components/networks/networkOverviewTab.jsx:130
 msgid "Prefix"
 msgstr ""
 
@@ -1496,6 +1515,10 @@ msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:123
 msgid "Provides a virtual LAN with NAT to the outside world."
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:242
+msgid "Range"
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:122
@@ -1572,7 +1595,7 @@ msgstr ""
 msgid "Run unattended installation"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:85
+#: src/components/networks/networkOverviewTab.jsx:87
 #: src/components/vm/overview/vmOverviewCard.jsx:125
 msgid "Run when host boots"
 msgstr ""
@@ -1769,6 +1792,10 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.jsx:311
 #: src/components/vm/overview/vmOverviewCard.jsx:177
 msgid "State"
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:250
+msgid "Static host entries"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:677
@@ -2223,6 +2250,10 @@ msgstr ""
 msgid "active"
 msgstr ""
 
+#: src/components/networks/networkOverviewTab.jsx:154
+msgid "add entry"
+msgstr ""
+
 #: src/helpers.js:256
 msgid "bridge"
 msgstr ""
@@ -2340,12 +2371,16 @@ msgstr ""
 
 #: src/helpers.js:278 src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:76
+#: src/components/networks/networkOverviewTab.jsx:78
 msgid "no"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:124
 msgid "no state saved"
+msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:258
+msgid "none"
 msgstr ""
 
 #: src/manifest.json:0
@@ -2428,7 +2463,7 @@ msgstr ""
 
 #: src/helpers.js:277 src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:76
+#: src/components/networks/networkOverviewTab.jsx:78
 msgid "yes"
 msgstr ""
 
