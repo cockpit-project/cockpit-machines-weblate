@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-15 02:54+0000\n"
-"PO-Revision-Date: 2021-09-23 12:05+0000\n"
+"PO-Revision-Date: 2021-10-17 13:05+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,7 +108,7 @@ msgstr "Přidat"
 
 #: src/components/networks/networkOverviewTab.jsx:195
 msgid "Add a DHCP static host entry"
-msgstr ""
+msgstr "Přidat statickou DHCP položku pro hostitele"
 
 #: src/components/vm/disks/vmDisksCard.jsx:90
 #: src/components/vm/disks/diskAdd.jsx:655
@@ -117,10 +117,8 @@ msgstr "Přidat disk"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:47
 #: src/components/vm/hostdevs/hostDevAdd.jsx:230
-#, fuzzy
-#| msgid "host device"
 msgid "Add host device"
-msgstr "zařízení hostitele"
+msgstr "Přidat zařízení hostitele"
 
 #: src/components/vm/nics/vmNicsCard.jsx:85
 msgid "Add network interface"
@@ -463,10 +461,8 @@ msgid "Custom path"
 msgstr "Uživatelsky určený popis umístění"
 
 #: src/components/networks/networkOverviewTab.jsx:238
-#, fuzzy
-#| msgid "DHCP range"
 msgid "DHCP Settings"
-msgstr "DHCP rozsah"
+msgstr "Nastavení pro DHCP"
 
 #: src/components/storagePools/storagePool.jsx:157
 #: src/components/networks/network.jsx:168
@@ -735,7 +731,7 @@ msgstr "Nepodařilo se přejmenovat virt. stroj $0"
 
 #: src/components/networks/networkOverviewTab.jsx:198
 msgid "Failed to save network settings"
-msgstr ""
+msgstr "Nepodařilo se uložit nastavení sítě"
 
 #: src/components/vm/consoles/vnc.jsx:130
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -850,10 +846,8 @@ msgid "Host device"
 msgstr "Zařízení hostitele"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:194
-#, fuzzy
-#| msgid "Boot order settings could not be saved"
 msgid "Host device could not be attached"
-msgstr "Nastavení pořadí zavádění se nepodařilo uložit"
+msgstr "Zařízení hostitele se nepodařilo uložit"
 
 #: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
@@ -887,10 +881,8 @@ msgid "IP address"
 msgstr "IP adresa"
 
 #: src/components/networks/networkOverviewTab.jsx:219
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "IP address must not be empty"
-msgstr "Název je třeba vyplnit"
+msgstr "IP adresu je třeba vyplnit"
 
 #: src/components/networks/createNetworkDialog.jsx:182
 msgid "IP configuration"
@@ -966,6 +958,9 @@ msgid ""
 "If the switch is not VEPA-capable, communication between guest virtual "
 "machines, or between a guests and the host is not possible."
 msgstr ""
+"Ve výchozím „vepa“ režimu je přepínání (switch) předáváno na externí "
+"ethernetový přepínač. Pokud přepínač VEPA neumí, komunikace mezi virtuálními "
+"stroji nebo mezi virtuálními stroji a jejich hostitelem není možná."
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:139
 msgid "Initiator"
@@ -1084,10 +1079,8 @@ msgstr "Místní instalační médium (ISO obraz nebo instalační strom distrib
 # auto translated by TM merge from project: system-config-printer, version:
 # master, DocId: system-config-printer
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#, fuzzy
-#| msgid "Connection"
 msgid "Location"
-msgstr "Spojení"
+msgstr "Umístění"
 
 #: src/components/vm/overview/bootOrder.jsx:103
 msgid "MAC"
@@ -1103,10 +1096,8 @@ msgid "MAC address"
 msgstr "MAC adresa"
 
 #: src/components/networks/networkOverviewTab.jsx:211
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "MAC address must not be empty"
-msgstr "Název je třeba vyplnit"
+msgstr "MAC adresu je třeba vyplnit"
 
 #: src/components/vm/disks/diskEdit.jsx:91
 msgid "Machine must be shut off before changing bus type"
@@ -1462,7 +1453,7 @@ msgstr "Přehled"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:57
 msgid "PCI"
-msgstr ""
+msgstr "PCI"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:151
 msgid "Parent snapshot"
@@ -1641,10 +1632,8 @@ msgid "Provides a virtual LAN with NAT to the outside world."
 msgstr "Poskytuje virtuální místní síť s NAT překladem pro vnější svět."
 
 #: src/components/networks/networkOverviewTab.jsx:242
-#, fuzzy
-#| msgid "Change"
 msgid "Range"
-msgstr "Změnit"
+msgstr "Rozsah"
 
 #: src/components/vm/disks/diskEdit.jsx:122
 #: src/components/vm/disks/vmDisksCard.jsx:260
@@ -1949,7 +1938,7 @@ msgstr "Stav"
 
 #: src/components/networks/networkOverviewTab.jsx:250
 msgid "Static host entries"
-msgstr ""
+msgstr "Statické položky hostitelů"
 
 # auto translated by TM merge from project: virt-manager, version: master,
 # DocId: virt-manager
@@ -2031,7 +2020,7 @@ msgstr "Systém"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:128
 msgid "Table of selectable host devices"
-msgstr ""
+msgstr "Tabulka zařízení hostitele, která je možné vybrat"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
@@ -2139,7 +2128,7 @@ msgstr ""
 #: src/components/vm/nics/nicBody.jsx:101
 msgid ""
 "This is the recommended config for high performance or enhanced security."
-msgstr ""
+msgstr "Toto je doporučené nastavení pro vyšší výkon nebo lepší zabezpečení."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:696
 msgid "This volume is already used by another VM."
@@ -2189,7 +2178,7 @@ msgstr "URL (ISO obraz nebo instalační strom distribuce)"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:52
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:148
 msgid "UUID"
@@ -2197,7 +2186,7 @@ msgstr "UUID"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:133
 msgid "Undefined"
-msgstr ""
+msgstr "Neurčeno"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:210
 msgid "Unique name"
@@ -2447,7 +2436,7 @@ msgstr "aktivní"
 
 #: src/components/networks/networkOverviewTab.jsx:154
 msgid "add entry"
-msgstr ""
+msgstr "Přidat položku"
 
 # auto translated by TM merge from project: libguestfs, version: master,
 # DocId: po/libguestfs
@@ -2582,7 +2571,7 @@ msgstr "neuložen žádný stav"
 
 #: src/components/networks/networkOverviewTab.jsx:258
 msgid "none"
-msgstr ""
+msgstr "žádné"
 
 #: src/manifest.json:0
 msgid "pxe"
