@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-18 03:03+0000\n"
+"POT-Creation-Date: 2022-01-13 03:03+0000\n"
 "PO-Revision-Date: 2021-11-21 19:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -186,26 +186,25 @@ msgstr "자동"
 msgid "Autostart"
 msgstr "자동 시작"
 
-#: src/helpers.js:237
+#: src/helpers.js:231
 msgid "Blocked"
 msgstr "차단됩니다"
 
-#: src/components/vm/overview/bootOrder.jsx:285
 #: src/components/vm/overview/vmOverviewCard.jsx:216
 msgid "Boot order"
 msgstr "부팅 순서"
 
-#: src/components/vm/overview/bootOrder.jsx:221
+#: src/components/vm/overview/bootOrder.jsx:242
 msgid "Boot order settings could not be saved"
 msgstr "부팅 순서 설정을 저장 할 수 없습니다"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:118
 #: src/components/vm/hostdevs/hostDevCard.jsx:136
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
-#: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/overview/bootOrder.jsx:113
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:140
+#: src/components/vm/overview/bootOrder.jsx:115
+#: src/components/vm/overview/bootOrder.jsx:127
+#: src/components/vm/overview/bootOrder.jsx:146
+#: src/components/vm/overview/bootOrder.jsx:154
 #: src/components/vm/disks/diskEdit.jsx:89
 #: src/components/vm/disks/vmDisksCard.jsx:230
 #: src/components/vm/disks/diskAdd.jsx:167
@@ -253,7 +252,7 @@ msgstr "캐쉬"
 #: src/components/vm/overview/firmware.jsx:66
 #: src/components/vm/overview/cpuTypeModal.jsx:68
 #: src/components/vm/overview/memoryModal.jsx:154
-#: src/components/vm/overview/bootOrder.jsx:297
+#: src/components/vm/overview/bootOrder.jsx:315
 #: src/components/vm/disks/diskEdit.jsx:262
 #: src/components/vm/disks/diskAdd.jsx:667
 #: src/components/vm/nics/nicEdit.jsx:177 src/components/vm/nics/nicAdd.jsx:199
@@ -263,6 +262,12 @@ msgstr "취소"
 #: src/components/vm/disks/vmDisksCard.jsx:228
 msgid "Capacity"
 msgstr "용량"
+
+#: src/components/vm/overview/bootOrder.jsx:307
+#, fuzzy
+#| msgid "Boot order"
+msgid "Change boot order"
+msgstr "부팅 순서"
 
 #: src/components/vm/overview/firmware.jsx:58
 msgid "Change firmware"
@@ -345,7 +350,7 @@ msgstr "소켓당 코어 수"
 msgid "Could not revert to snapshot"
 msgstr "스냅샷으로 전환 할 수 없습니다"
 
-#: src/helpers.js:234
+#: src/helpers.js:228
 msgid "Crashed"
 msgstr "충돌"
 
@@ -521,8 +526,8 @@ msgstr "삭제를 시도하기 전에 VM에서 이 풀을 사용하는 디스크
 #: src/components/vm/hostdevs/hostDevCard.jsx:117
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/vm/overview/bootOrder.jsx:93
-#: src/components/vm/overview/bootOrder.jsx:100
+#: src/components/vm/overview/bootOrder.jsx:107
+#: src/components/vm/overview/bootOrder.jsx:114
 #: src/components/vm/disks/vmDisksCard.jsx:216
 #: src/components/vm/disks/vmDiskColumns.jsx:50
 #: src/components/vm/disks/diskAdd.jsx:283
@@ -588,7 +593,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr "동시에 출발지와 대상 호스트에서 이 VM을 동작하지 마세요."
 
-#: src/components/vm/overview/bootOrder.jsx:133
+#: src/components/vm/overview/bootOrder.jsx:147
 msgid "Domain"
 msgstr "도메인"
 
@@ -608,7 +613,7 @@ msgstr "OS 내려받기"
 msgid "Duration"
 msgstr "지속기간"
 
-#: src/helpers.js:235
+#: src/helpers.js:229
 msgid "Dying"
 msgstr "종료 중"
 
@@ -698,7 +703,7 @@ msgstr "키 Ctrl+Alt+$0를 VM $1으로 보내지 못했습니다"
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "최대 가상 CPU 수 보다 적은 수를 활성화해야 합니다."
 
-#: src/components/vm/overview/bootOrder.jsx:92
+#: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/disks/vmDiskColumns.jsx:49
 msgid "File"
 msgstr "파일"
@@ -748,7 +753,7 @@ msgstr ""
 "원본에 남아 있습니다."
 
 # ctx::sourcefile::Navigation Menu
-#: src/components/vm/overview/bootOrder.jsx:134
+#: src/components/vm/overview/bootOrder.jsx:148
 msgid "Function"
 msgstr "기능"
 
@@ -780,7 +785,7 @@ msgstr "추가 선택 숨기기"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/storagePools/storagePoolOverviewTab.jsx:36
-#: src/components/vm/overview/bootOrder.jsx:97
+#: src/components/vm/overview/bootOrder.jsx:111
 #: src/components/vm/disks/vmDiskColumns.jsx:54
 msgid "Host"
 msgstr "호스트"
@@ -864,7 +869,7 @@ msgstr "IPv6 네트워크는 비워둘 수 없습니다"
 msgid "IPv6 only"
 msgstr "IPv6만"
 
-#: src/helpers.js:230
+#: src/helpers.js:224
 msgid "Idle"
 msgstr "유휴"
 
@@ -1023,7 +1028,7 @@ msgstr "위치"
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
-#: src/components/vm/overview/bootOrder.jsx:107
+#: src/components/vm/overview/bootOrder.jsx:121
 msgid "MAC"
 msgstr "MAC"
 
@@ -1247,7 +1252,7 @@ msgstr "새 볼륨 이름"
 msgid "No VM is running or defined on this host"
 msgstr "이 호스트에서 실행 중이거나 정의된 가상 머신이 없습니다"
 
-#: src/components/vm/overview/bootOrder.jsx:322
+#: src/components/vm/overview/bootOrder.jsx:340
 msgid "No boot device found"
 msgstr "부팅 장치를 찾을 수 없습니다"
 
@@ -1295,7 +1300,7 @@ msgstr "원인 개체 없음"
 msgid "No snapshots defined for this VM"
 msgstr "이 VM에 대해 정의된 스냅샷 없음"
 
-#: src/helpers.js:238
+#: src/helpers.js:232
 msgid "No state"
 msgstr "상태 없음"
 
@@ -1337,7 +1342,7 @@ msgstr ""
 msgid "None"
 msgstr "없음"
 
-#: src/helpers.js:268
+#: src/helpers.js:262
 msgid "None (isolated network)"
 msgstr "없음(격리된 네트워크)"
 
@@ -1350,12 +1355,12 @@ msgstr ""
 "여 볼륨을 삭제하십시오."
 
 #: src/components/vm/overview/memoryModal.jsx:139
-#: src/components/vm/overview/bootOrder.jsx:344
+#: src/components/vm/overview/bootOrder.jsx:362
 #: src/components/vm/nics/nicEdit.jsx:40
 msgid "Only editable when the guest is shut off"
 msgstr "게스트가 종료된 경우에만 편집할 수 있습니다"
 
-#: src/helpers.js:266
+#: src/helpers.js:260
 msgid "Open"
 msgstr "열기"
 
@@ -1410,7 +1415,7 @@ msgstr "호스트 파일 시스템에서 파일의 경로"
 msgid "Pause"
 msgstr "일시정지"
 
-#: src/helpers.js:231
+#: src/helpers.js:225
 msgid "Paused"
 msgstr "일시정지"
 
@@ -1452,7 +1457,7 @@ msgid "Please start the virtual machine to access its console."
 msgstr "가상 머신을 시작하여 콘솔에 접근하세요."
 
 #: src/components/vm/deleteDialog.jsx:54
-#: src/components/vm/overview/bootOrder.jsx:95
+#: src/components/vm/overview/bootOrder.jsx:109
 #: src/components/vm/disks/vmDiskColumns.jsx:52
 #: src/components/vm/disks/diskAdd.jsx:116
 msgid "Pool"
@@ -1474,8 +1479,8 @@ msgstr "풀 유형이 볼륨 생성을 지원하지 않습니다"
 msgid "Pool's volumes are used by VMs "
 msgstr "풀 볼륨은 VM에서 사용됩니다 "
 
-#: src/components/vm/overview/bootOrder.jsx:98
-#: src/components/vm/overview/bootOrder.jsx:114
+#: src/components/vm/overview/bootOrder.jsx:112
+#: src/components/vm/overview/bootOrder.jsx:128
 #: src/components/vm/disks/vmDiskColumns.jsx:55
 #: src/components/vm/nics/vmNicsCard.jsx:227
 msgid "Port"
@@ -1505,13 +1510,13 @@ msgstr ""
 "이전에 촬영한 스냅샷을 사용하면 문제가 발생했을 때 이전 상태로 돌아갈 수 있습"
 "니다"
 
-#: src/helpers.js:271
+#: src/helpers.js:265
 msgid "Private"
 msgstr "비공개"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:125
-#: src/components/vm/overview/bootOrder.jsx:131
+#: src/components/vm/overview/bootOrder.jsx:139
+#: src/components/vm/overview/bootOrder.jsx:145
 msgid "Product"
 msgstr "제품"
 
@@ -1520,8 +1525,8 @@ msgid "Profile"
 msgstr "프로파일"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:143
-#: src/components/vm/overview/bootOrder.jsx:94
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.jsx:108
+#: src/components/vm/overview/bootOrder.jsx:161
 #: src/components/vm/disks/vmDiskColumns.jsx:51
 msgid "Protocol"
 msgstr "프로토콜"
@@ -1630,7 +1635,7 @@ msgstr "무인 설치 실행"
 msgid "Run when host boots"
 msgstr "호스트 부팅 시 실행"
 
-#: src/helpers.js:229
+#: src/helpers.js:223
 msgid "Running"
 msgstr "작동중"
 
@@ -1648,7 +1653,7 @@ msgstr "SPICE 포트"
 
 #: src/components/vm/overview/firmware.jsx:63
 #: src/components/vm/overview/memoryModal.jsx:151
-#: src/components/vm/overview/bootOrder.jsx:294
+#: src/components/vm/overview/bootOrder.jsx:312
 #: src/components/vm/disks/diskEdit.jsx:259
 #: src/components/vm/nics/nicEdit.jsx:174
 msgid "Save"
@@ -1674,7 +1679,7 @@ msgstr "직렬 콘솔"
 msgid "Serial console ($0)"
 msgstr "시리얼 콘솔 ($0)"
 
-#: src/components/common/machinesConnectionSelector.jsx:43 src/helpers.js:226
+#: src/components/common/machinesConnectionSelector.jsx:43 src/helpers.js:220
 msgid "Session"
 msgstr "세션"
 
@@ -1729,7 +1734,7 @@ msgstr "추가 옵션 표시"
 msgid "Shut down"
 msgstr "종료"
 
-#: src/helpers.js:233
+#: src/helpers.js:227
 msgid "Shut off"
 msgstr "종료"
 
@@ -1737,7 +1742,7 @@ msgstr "종료"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "펌웨어 구성을 편집하려면 VM을 종료하십시오"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:232
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:226
 msgid "Shutting down"
 msgstr "종료 중"
 
@@ -1751,7 +1756,7 @@ msgstr "크기"
 #: src/components/vm/hostdevs/hostDevCard.jsx:130
 #: src/components/vm/hostdevs/hostDevCard.jsx:137
 #: src/components/vm/hostdevs/hostDevAdd.jsx:101
-#: src/components/vm/overview/bootOrder.jsx:135
+#: src/components/vm/overview/bootOrder.jsx:149
 msgid "Slot"
 msgstr "슬롯"
 
@@ -1899,13 +1904,13 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr "저장소 볼륨은 이 호스트와 대상 호스트 사이에서 공유되어야 합니다."
 
-#: src/helpers.js:236
+#: src/helpers.js:230
 msgid "Suspended (PM)"
 msgstr "일시 정지됩니다(PM)"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
-#: src/components/common/machinesConnectionSelector.jsx:38 src/helpers.js:225
+#: src/components/common/machinesConnectionSelector.jsx:38 src/helpers.js:219
 msgid "System"
 msgstr "시스템"
 
@@ -1914,7 +1919,7 @@ msgid "Table of selectable host devices"
 msgstr "선택 할 수 있는 호스트 장치의 표"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "대상"
 
@@ -2039,17 +2044,17 @@ msgstr "문제 해결"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:78
 #: src/components/vm/hostdevs/hostDevCard.jsx:171
 #: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/overview/bootOrder.jsx:112
-#: src/components/vm/overview/bootOrder.jsx:123
-#: src/components/vm/overview/bootOrder.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:139
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:152
+#: src/components/vm/overview/bootOrder.jsx:126
+#: src/components/vm/overview/bootOrder.jsx:137
+#: src/components/vm/overview/bootOrder.jsx:143
+#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:160
+#: src/components/vm/overview/bootOrder.jsx:166
 #: src/components/vm/nics/vmNicsCard.jsx:234
 msgid "Type"
 msgstr "유형"
 
-#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:167
 msgid "Type ID"
 msgstr "ID 입력"
 
@@ -2077,7 +2082,7 @@ msgstr "고유한 이름"
 msgid "Unique network name"
 msgstr "고유한 네트워크 이름"
 
-#: src/components/vm/overview/bootOrder.jsx:142
+#: src/components/vm/overview/bootOrder.jsx:156
 msgid "Unit"
 msgstr "단위"
 
@@ -2222,8 +2227,8 @@ msgstr "VNC 포트"
 # document keys
 #: src/components/vm/hostdevs/hostDevCard.jsx:198
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:124
-#: src/components/vm/overview/bootOrder.jsx:130
+#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.jsx:144
 msgid "Vendor"
 msgstr "제조사"
 
@@ -2258,7 +2263,7 @@ msgstr "가상화 서비스(libvirt)가 활성화되어 있지 않습니다"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:694
 #: src/components/vm/deleteDialog.jsx:51
-#: src/components/vm/overview/bootOrder.jsx:96
+#: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/vm/disks/vmDiskColumns.jsx:53
 #: src/components/vm/disks/diskAdd.jsx:82
 msgid "Volume"
@@ -2277,7 +2282,7 @@ msgid "Volume group name should not be empty"
 msgstr "볼륨 그룹 이름은 비워둘 수 없습니다"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:144
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.jsx:162
 msgid "WWPN"
 msgstr "WWPN"
 
@@ -2308,47 +2313,47 @@ msgstr "활성"
 msgid "add entry"
 msgstr "항목 추가"
 
-#: src/helpers.js:256
+#: src/helpers.js:250
 msgid "bridge"
 msgstr "브릿지"
 
-#: src/helpers.js:242
+#: src/helpers.js:236
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/components/vm/overview/cpuTypeModal.jsx:50 src/helpers.js:249
+#: src/components/vm/overview/cpuTypeModal.jsx:50 src/helpers.js:243
 msgid "custom"
 msgstr "사용자 지정"
 
-#: src/helpers.js:254
+#: src/helpers.js:248
 msgid "direct"
 msgstr "직접"
 
-#: src/helpers.js:221
+#: src/helpers.js:215
 msgid "disabled"
 msgstr "비활성화됩니다"
 
-#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:241
-#: src/helpers.js:244
+#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:235
+#: src/helpers.js:238
 msgid "disk"
 msgstr "디스크"
 
-#: src/helpers.js:282
+#: src/helpers.js:276
 msgid "down"
 msgstr "아래로"
 
-#: src/components/vm/overview/bootOrder.jsx:336
+#: src/components/vm/overview/bootOrder.jsx:354
 #: src/components/vm/overview/vmOverviewCard.jsx:135
 #: src/components/vm/overview/vmOverviewCard.jsx:146
 #: src/components/vm/overview/vmOverviewCard.jsx:154
 msgid "edit"
 msgstr "편집"
 
-#: src/helpers.js:222
+#: src/helpers.js:216
 msgid "enabled"
 msgstr "활성화됩니다"
 
-#: src/helpers.js:258
+#: src/helpers.js:252
 msgid "ethernet"
 msgstr "이더넷"
 
@@ -2356,19 +2361,19 @@ msgstr "이더넷"
 msgid "filesystem"
 msgstr "파일 시스템"
 
-#: src/helpers.js:250
+#: src/helpers.js:244
 msgid "host"
 msgstr "호스트"
 
-#: src/helpers.js:246
+#: src/helpers.js:240
 msgid "host device"
 msgstr "호스트 장치"
 
-#: src/helpers.js:251
+#: src/helpers.js:245
 msgid "host passthrough"
 msgstr "호스트 통과"
 
-#: src/helpers.js:259
+#: src/helpers.js:253
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -2396,7 +2401,7 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt"
 
-#: src/helpers.js:260
+#: src/helpers.js:254
 msgid "mcast"
 msgstr "mcast"
 
@@ -2415,7 +2420,7 @@ msgstr "적재점: 게스트 안에서 적재점"
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "적재 태그: 내보낸 적재점과 연결된 태그"
 
-#: src/helpers.js:243 src/helpers.js:255
+#: src/helpers.js:237 src/helpers.js:249
 msgid "network"
 msgstr "네트워크"
 
@@ -2425,7 +2430,7 @@ msgstr "네트워크 연결장치"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:278
+#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:272
 msgid "no"
 msgstr "아니요"
 
@@ -2449,11 +2454,11 @@ msgstr "qcow2"
 msgid "qemu"
 msgstr "qemu"
 
-#: src/helpers.js:245
+#: src/helpers.js:239
 msgid "redirected device"
 msgstr "리디렉트된 장치"
 
-#: src/helpers.js:261
+#: src/helpers.js:255
 msgid "server"
 msgstr "서버"
 
@@ -2461,15 +2466,15 @@ msgstr "서버"
 msgid "snapshot"
 msgstr "스냅샷"
 
-#: src/helpers.js:262
+#: src/helpers.js:256
 msgid "udp"
 msgstr "udp"
 
-#: src/helpers.js:281
+#: src/helpers.js:275
 msgid "up"
 msgstr "위로"
 
-#: src/helpers.js:257
+#: src/helpers.js:251
 msgid "user"
 msgstr "사용자"
 
@@ -2488,7 +2493,7 @@ msgstr "vCPU 최대"
 msgid "vCPUs"
 msgstr "vCPU"
 
-#: src/helpers.js:263
+#: src/helpers.js:257
 msgid "vhostuser"
 msgstr "가상 호스트 사용자"
 
@@ -2521,7 +2526,7 @@ msgstr "vm"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:277
+#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:271
 msgid "yes"
 msgstr "예"
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-18 03:03+0000\n"
+"POT-Creation-Date: 2022-01-13 03:03+0000\n"
 "PO-Revision-Date: 2021-05-31 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -194,26 +194,25 @@ msgstr "Автоматически"
 msgid "Autostart"
 msgstr "Автозапуск"
 
-#: src/helpers.js:237
+#: src/helpers.js:231
 msgid "Blocked"
 msgstr "Заблокировано"
 
-#: src/components/vm/overview/bootOrder.jsx:285
 #: src/components/vm/overview/vmOverviewCard.jsx:216
 msgid "Boot order"
 msgstr "Порядок загрузки"
 
-#: src/components/vm/overview/bootOrder.jsx:221
+#: src/components/vm/overview/bootOrder.jsx:242
 msgid "Boot order settings could not be saved"
 msgstr "Не удалось сохранить параметры порядка загрузки"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:118
 #: src/components/vm/hostdevs/hostDevCard.jsx:136
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
-#: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/overview/bootOrder.jsx:113
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:140
+#: src/components/vm/overview/bootOrder.jsx:115
+#: src/components/vm/overview/bootOrder.jsx:127
+#: src/components/vm/overview/bootOrder.jsx:146
+#: src/components/vm/overview/bootOrder.jsx:154
 #: src/components/vm/disks/diskEdit.jsx:89
 #: src/components/vm/disks/vmDisksCard.jsx:230
 #: src/components/vm/disks/diskAdd.jsx:167
@@ -261,7 +260,7 @@ msgstr "Кэш"
 #: src/components/vm/overview/firmware.jsx:66
 #: src/components/vm/overview/cpuTypeModal.jsx:68
 #: src/components/vm/overview/memoryModal.jsx:154
-#: src/components/vm/overview/bootOrder.jsx:297
+#: src/components/vm/overview/bootOrder.jsx:315
 #: src/components/vm/disks/diskEdit.jsx:262
 #: src/components/vm/disks/diskAdd.jsx:667
 #: src/components/vm/nics/nicEdit.jsx:177 src/components/vm/nics/nicAdd.jsx:199
@@ -271,6 +270,12 @@ msgstr "Отмена"
 #: src/components/vm/disks/vmDisksCard.jsx:228
 msgid "Capacity"
 msgstr "Ёмкость"
+
+#: src/components/vm/overview/bootOrder.jsx:307
+#, fuzzy
+#| msgid "Boot order"
+msgid "Change boot order"
+msgstr "Порядок загрузки"
 
 #: src/components/vm/overview/firmware.jsx:58
 msgid "Change firmware"
@@ -361,7 +366,7 @@ msgstr "Количество ядер на сокет"
 msgid "Could not revert to snapshot"
 msgstr "Не удалось вернуться к снимку"
 
-#: src/helpers.js:234
+#: src/helpers.js:228
 msgid "Crashed"
 msgstr "Аварийное завершение"
 
@@ -549,8 +554,8 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:117
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/vm/overview/bootOrder.jsx:93
-#: src/components/vm/overview/bootOrder.jsx:100
+#: src/components/vm/overview/bootOrder.jsx:107
+#: src/components/vm/overview/bootOrder.jsx:114
 #: src/components/vm/disks/vmDisksCard.jsx:216
 #: src/components/vm/disks/vmDiskColumns.jsx:50
 #: src/components/vm/disks/diskAdd.jsx:283
@@ -622,7 +627,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:133
+#: src/components/vm/overview/bootOrder.jsx:147
 msgid "Domain"
 msgstr ""
 
@@ -644,7 +649,7 @@ msgstr "Загрузить ОС"
 msgid "Duration"
 msgstr "Описание"
 
-#: src/helpers.js:235
+#: src/helpers.js:229
 msgid "Dying"
 msgstr "Умирающий"
 
@@ -742,7 +747,7 @@ msgstr ""
 "Количество включённых виртуальных ЦП должно быть меньше их максимального "
 "числа."
 
-#: src/components/vm/overview/bootOrder.jsx:92
+#: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/disks/vmDiskColumns.jsx:49
 msgid "File"
 msgstr "Файл"
@@ -791,7 +796,7 @@ msgid ""
 msgstr ""
 
 # ctx::sourcefile::Navigation Menu
-#: src/components/vm/overview/bootOrder.jsx:134
+#: src/components/vm/overview/bootOrder.jsx:148
 #, fuzzy
 #| msgid "Connection"
 msgid "Function"
@@ -825,7 +830,7 @@ msgstr "Скрыть дополнительные параметры"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/storagePools/storagePoolOverviewTab.jsx:36
-#: src/components/vm/overview/bootOrder.jsx:97
+#: src/components/vm/overview/bootOrder.jsx:111
 #: src/components/vm/disks/vmDiskColumns.jsx:54
 msgid "Host"
 msgstr "Узел"
@@ -915,7 +920,7 @@ msgstr "Сеть IPv6 не должна быть пустой"
 msgid "IPv6 only"
 msgstr "Только IPv6"
 
-#: src/helpers.js:230
+#: src/helpers.js:224
 msgid "Idle"
 msgstr "Неактивный"
 
@@ -1084,7 +1089,7 @@ msgstr "Подключение"
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
-#: src/components/vm/overview/bootOrder.jsx:107
+#: src/components/vm/overview/bootOrder.jsx:121
 msgid "MAC"
 msgstr "MAC"
 
@@ -1326,7 +1331,7 @@ msgstr "Новое имя тома"
 msgid "No VM is running or defined on this host"
 msgstr "На данном узле нет запущенных или определённых виртуальных машин"
 
-#: src/components/vm/overview/bootOrder.jsx:322
+#: src/components/vm/overview/bootOrder.jsx:340
 msgid "No boot device found"
 msgstr "Загрузочное устройство не найдено"
 
@@ -1380,7 +1385,7 @@ msgstr "Родительский элемент"
 msgid "No snapshots defined for this VM"
 msgstr "Отсутствуют диски, определённые для этой виртуальной машины"
 
-#: src/helpers.js:238
+#: src/helpers.js:232
 #, fuzzy
 msgid "No state"
 msgstr "Нет хранилища"
@@ -1425,7 +1430,7 @@ msgstr ""
 msgid "None"
 msgstr "Нет"
 
-#: src/helpers.js:268
+#: src/helpers.js:262
 msgid "None (isolated network)"
 msgstr "Нет (изолированная сеть)"
 
@@ -1438,12 +1443,12 @@ msgstr ""
 "отсоедините диски, чтобы разрешить удаление тома."
 
 #: src/components/vm/overview/memoryModal.jsx:139
-#: src/components/vm/overview/bootOrder.jsx:344
+#: src/components/vm/overview/bootOrder.jsx:362
 #: src/components/vm/nics/nicEdit.jsx:40
 msgid "Only editable when the guest is shut off"
 msgstr "Может редактироваться, только когда гостевая система выключена"
 
-#: src/helpers.js:266
+#: src/helpers.js:260
 msgid "Open"
 msgstr "Открытая"
 
@@ -1501,7 +1506,7 @@ msgstr "Путь к файлу ISO в файловой системе узла"
 msgid "Pause"
 msgstr "Приостановить"
 
-#: src/helpers.js:231
+#: src/helpers.js:225
 #, fuzzy
 msgid "Paused"
 msgstr "Приостановить"
@@ -1544,7 +1549,7 @@ msgid "Please start the virtual machine to access its console."
 msgstr "Запустите виртуальную машину, чтобы получить доступ к её консоли."
 
 #: src/components/vm/deleteDialog.jsx:54
-#: src/components/vm/overview/bootOrder.jsx:95
+#: src/components/vm/overview/bootOrder.jsx:109
 #: src/components/vm/disks/vmDiskColumns.jsx:52
 #: src/components/vm/disks/diskAdd.jsx:116
 msgid "Pool"
@@ -1568,8 +1573,8 @@ msgstr "Тип пула не поддерживает создание томо�
 msgid "Pool's volumes are used by VMs "
 msgstr "Тома пула используются виртуальными машинами "
 
-#: src/components/vm/overview/bootOrder.jsx:98
-#: src/components/vm/overview/bootOrder.jsx:114
+#: src/components/vm/overview/bootOrder.jsx:112
+#: src/components/vm/overview/bootOrder.jsx:128
 #: src/components/vm/disks/vmDiskColumns.jsx:55
 #: src/components/vm/nics/vmNicsCard.jsx:227
 msgid "Port"
@@ -1597,13 +1602,13 @@ msgid ""
 "something goes wrong"
 msgstr ""
 
-#: src/helpers.js:271
+#: src/helpers.js:265
 msgid "Private"
 msgstr "Частная"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:125
-#: src/components/vm/overview/bootOrder.jsx:131
+#: src/components/vm/overview/bootOrder.jsx:139
+#: src/components/vm/overview/bootOrder.jsx:145
 msgid "Product"
 msgstr "Продукт"
 
@@ -1612,8 +1617,8 @@ msgid "Profile"
 msgstr "Профиль"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:143
-#: src/components/vm/overview/bootOrder.jsx:94
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.jsx:108
+#: src/components/vm/overview/bootOrder.jsx:161
 #: src/components/vm/disks/vmDiskColumns.jsx:51
 msgid "Protocol"
 msgstr "Протокол"
@@ -1722,7 +1727,7 @@ msgstr "Запустить автоматическую установку"
 msgid "Run when host boots"
 msgstr "Выполнять при загрузке узла"
 
-#: src/helpers.js:229
+#: src/helpers.js:223
 msgid "Running"
 msgstr "Работает"
 
@@ -1743,7 +1748,7 @@ msgstr "Порт SPICE:"
 
 #: src/components/vm/overview/firmware.jsx:63
 #: src/components/vm/overview/memoryModal.jsx:151
-#: src/components/vm/overview/bootOrder.jsx:294
+#: src/components/vm/overview/bootOrder.jsx:312
 #: src/components/vm/disks/diskEdit.jsx:259
 #: src/components/vm/nics/nicEdit.jsx:174
 msgid "Save"
@@ -1772,7 +1777,7 @@ msgstr "Последовательная консоль"
 msgid "Serial console ($0)"
 msgstr "Последовательная консоль"
 
-#: src/components/common/machinesConnectionSelector.jsx:43 src/helpers.js:226
+#: src/components/common/machinesConnectionSelector.jsx:43 src/helpers.js:220
 msgid "Session"
 msgstr "Сеанс"
 
@@ -1832,7 +1837,7 @@ msgstr "Показать дополнительные параметры"
 msgid "Shut down"
 msgstr "Завершение работы"
 
-#: src/helpers.js:233
+#: src/helpers.js:227
 #, fuzzy
 msgid "Shut off"
 msgstr "отключена"
@@ -1841,7 +1846,7 @@ msgstr "отключена"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Выключите ВМ для редактирования конфигурации микропрограммы"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:232
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:226
 #, fuzzy
 msgid "Shutting down"
 msgstr "Выключить"
@@ -1856,7 +1861,7 @@ msgstr "Размер"
 #: src/components/vm/hostdevs/hostDevCard.jsx:130
 #: src/components/vm/hostdevs/hostDevCard.jsx:137
 #: src/components/vm/hostdevs/hostDevAdd.jsx:101
-#: src/components/vm/overview/bootOrder.jsx:135
+#: src/components/vm/overview/bootOrder.jsx:149
 msgid "Slot"
 msgstr ""
 
@@ -2012,13 +2017,13 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
-#: src/helpers.js:236
+#: src/helpers.js:230
 msgid "Suspended (PM)"
 msgstr "приостановлено (PM)"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager, author ypoyarko
-#: src/components/common/machinesConnectionSelector.jsx:38 src/helpers.js:225
+#: src/components/common/machinesConnectionSelector.jsx:38 src/helpers.js:219
 msgid "System"
 msgstr "Система"
 
@@ -2028,7 +2033,7 @@ msgstr ""
 
 # Этап передачи событий
 #: src/components/vm/hostdevs/hostDevCard.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "Цель"
 
@@ -2151,17 +2156,17 @@ msgstr "Устранить неполадки"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:78
 #: src/components/vm/hostdevs/hostDevCard.jsx:171
 #: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/overview/bootOrder.jsx:112
-#: src/components/vm/overview/bootOrder.jsx:123
-#: src/components/vm/overview/bootOrder.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:139
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:152
+#: src/components/vm/overview/bootOrder.jsx:126
+#: src/components/vm/overview/bootOrder.jsx:137
+#: src/components/vm/overview/bootOrder.jsx:143
+#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:160
+#: src/components/vm/overview/bootOrder.jsx:166
 #: src/components/vm/nics/vmNicsCard.jsx:234
 msgid "Type"
 msgstr "Тип"
 
-#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:167
 msgid "Type ID"
 msgstr "Идентификатор типа"
 
@@ -2189,7 +2194,7 @@ msgstr "Уникальное имя"
 msgid "Unique network name"
 msgstr "Уникальное сетевое имя"
 
-#: src/components/vm/overview/bootOrder.jsx:142
+#: src/components/vm/overview/bootOrder.jsx:156
 msgid "Unit"
 msgstr "Устройство"
 
@@ -2337,8 +2342,8 @@ msgstr "Порт VNC:"
 # document keys
 #: src/components/vm/hostdevs/hostDevCard.jsx:198
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:124
-#: src/components/vm/overview/bootOrder.jsx:130
+#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.jsx:144
 msgid "Vendor"
 msgstr "Производитель"
 
@@ -2374,7 +2379,7 @@ msgstr "Служба виртуализации (libvirt) не активна"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:694
 #: src/components/vm/deleteDialog.jsx:51
-#: src/components/vm/overview/bootOrder.jsx:96
+#: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/vm/disks/vmDiskColumns.jsx:53
 #: src/components/vm/disks/diskAdd.jsx:82
 msgid "Volume"
@@ -2393,7 +2398,7 @@ msgid "Volume group name should not be empty"
 msgstr "Имя группы томов не должно быть пустым"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:144
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.jsx:162
 msgid "WWPN"
 msgstr "WWPN"
 
@@ -2424,47 +2429,47 @@ msgstr "активно"
 msgid "add entry"
 msgstr ""
 
-#: src/helpers.js:256
+#: src/helpers.js:250
 msgid "bridge"
 msgstr "мост"
 
-#: src/helpers.js:242
+#: src/helpers.js:236
 msgid "cdrom"
 msgstr "дисковод для компакт-дисков"
 
-#: src/components/vm/overview/cpuTypeModal.jsx:50 src/helpers.js:249
+#: src/components/vm/overview/cpuTypeModal.jsx:50 src/helpers.js:243
 msgid "custom"
 msgstr "другой"
 
-#: src/helpers.js:254
+#: src/helpers.js:248
 msgid "direct"
 msgstr "direct"
 
-#: src/helpers.js:221
+#: src/helpers.js:215
 msgid "disabled"
 msgstr "отключён"
 
-#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:241
-#: src/helpers.js:244
+#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:235
+#: src/helpers.js:238
 msgid "disk"
 msgstr "диск"
 
-#: src/helpers.js:282
+#: src/helpers.js:276
 msgid "down"
 msgstr "не работает"
 
-#: src/components/vm/overview/bootOrder.jsx:336
+#: src/components/vm/overview/bootOrder.jsx:354
 #: src/components/vm/overview/vmOverviewCard.jsx:135
 #: src/components/vm/overview/vmOverviewCard.jsx:146
 #: src/components/vm/overview/vmOverviewCard.jsx:154
 msgid "edit"
 msgstr "редактировать"
 
-#: src/helpers.js:222
+#: src/helpers.js:216
 msgid "enabled"
 msgstr "включено"
 
-#: src/helpers.js:258
+#: src/helpers.js:252
 msgid "ethernet"
 msgstr "ethernet"
 
@@ -2474,20 +2479,20 @@ msgstr "ethernet"
 msgid "filesystem"
 msgstr "Сетевая файловая система"
 
-#: src/helpers.js:250
+#: src/helpers.js:244
 msgid "host"
 msgstr "узел"
 
-#: src/helpers.js:246
+#: src/helpers.js:240
 msgid "host device"
 msgstr "главное устройство"
 
-#: src/helpers.js:251
+#: src/helpers.js:245
 #, fuzzy
 msgid "host passthrough"
 msgstr "к адресу узла"
 
-#: src/helpers.js:259
+#: src/helpers.js:253
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -2515,7 +2520,7 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt"
 
-#: src/helpers.js:260
+#: src/helpers.js:254
 msgid "mcast"
 msgstr "mcast"
 
@@ -2534,7 +2539,7 @@ msgstr ""
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
-#: src/helpers.js:243 src/helpers.js:255
+#: src/helpers.js:237 src/helpers.js:249
 msgid "network"
 msgstr "сеть"
 
@@ -2546,7 +2551,7 @@ msgstr "Добавить сетевой интерфейс"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:278
+#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:272
 msgid "no"
 msgstr "нет"
 
@@ -2570,11 +2575,11 @@ msgstr "qcow2"
 msgid "qemu"
 msgstr "qemu"
 
-#: src/helpers.js:245
+#: src/helpers.js:239
 msgid "redirected device"
 msgstr "перенаправленное устройство"
 
-#: src/helpers.js:261
+#: src/helpers.js:255
 msgid "server"
 msgstr "сервер"
 
@@ -2583,15 +2588,15 @@ msgstr "сервер"
 msgid "snapshot"
 msgstr "Создание моментального снимка"
 
-#: src/helpers.js:262
+#: src/helpers.js:256
 msgid "udp"
 msgstr "udp"
 
-#: src/helpers.js:281
+#: src/helpers.js:275
 msgid "up"
 msgstr "работает"
 
-#: src/helpers.js:257
+#: src/helpers.js:251
 msgid "user"
 msgstr "пользователь"
 
@@ -2608,7 +2613,7 @@ msgstr "Наибольшее количество виртуальных ЦП"
 msgid "vCPUs"
 msgstr "Виртуальные ЦП"
 
-#: src/helpers.js:263
+#: src/helpers.js:257
 msgid "vhostuser"
 msgstr "vhostuser"
 
@@ -2649,7 +2654,7 @@ msgstr "ВМ"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:69
 #: src/components/storagePools/storagePoolOverviewTab.jsx:74
-#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:277
+#: src/components/networks/networkOverviewTab.jsx:78 src/helpers.js:271
 msgid "yes"
 msgstr "да"
 
