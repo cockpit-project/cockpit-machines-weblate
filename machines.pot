@@ -17,7 +17,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-12 05:58+0000\n"
+"POT-Creation-Date: 2022-01-13 03:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,22 +193,21 @@ msgstr ""
 msgid "Blocked"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:290
 #: src/components/vm/overview/vmOverviewCard.jsx:216
 msgid "Boot order"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:226
+#: src/components/vm/overview/bootOrder.jsx:242
 msgid "Boot order settings could not be saved"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:118
 #: src/components/vm/hostdevs/hostDevCard.jsx:136
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
-#: src/components/vm/overview/bootOrder.jsx:106
-#: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:145
+#: src/components/vm/overview/bootOrder.jsx:115
+#: src/components/vm/overview/bootOrder.jsx:127
+#: src/components/vm/overview/bootOrder.jsx:146
+#: src/components/vm/overview/bootOrder.jsx:154
 #: src/components/vm/disks/diskEdit.jsx:89
 #: src/components/vm/disks/vmDisksCard.jsx:230
 #: src/components/vm/disks/diskAdd.jsx:167
@@ -256,7 +255,7 @@ msgstr ""
 #: src/components/vm/overview/firmware.jsx:66
 #: src/components/vm/overview/cpuTypeModal.jsx:68
 #: src/components/vm/overview/memoryModal.jsx:154
-#: src/components/vm/overview/bootOrder.jsx:302
+#: src/components/vm/overview/bootOrder.jsx:315
 #: src/components/vm/disks/diskEdit.jsx:262
 #: src/components/vm/disks/diskAdd.jsx:667
 #: src/components/vm/nics/nicEdit.jsx:177 src/components/vm/nics/nicAdd.jsx:199
@@ -265,6 +264,10 @@ msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:228
 msgid "Capacity"
+msgstr ""
+
+#: src/components/vm/overview/bootOrder.jsx:307
+msgid "Change boot order"
 msgstr ""
 
 #: src/components/vm/overview/firmware.jsx:58
@@ -521,8 +524,8 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:117
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/vm/overview/bootOrder.jsx:98
-#: src/components/vm/overview/bootOrder.jsx:105
+#: src/components/vm/overview/bootOrder.jsx:107
+#: src/components/vm/overview/bootOrder.jsx:114
 #: src/components/vm/disks/vmDisksCard.jsx:216
 #: src/components/vm/disks/vmDiskColumns.jsx:50
 #: src/components/vm/disks/diskAdd.jsx:283
@@ -588,7 +591,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.jsx:147
 msgid "Domain"
 msgstr ""
 
@@ -698,7 +701,7 @@ msgstr ""
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:97
+#: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/disks/vmDiskColumns.jsx:49
 msgid "File"
 msgstr ""
@@ -744,7 +747,7 @@ msgid ""
 "origin after migration."
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:139
+#: src/components/vm/overview/bootOrder.jsx:148
 msgid "Function"
 msgstr ""
 
@@ -776,7 +779,7 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/storagePools/storagePoolOverviewTab.jsx:36
-#: src/components/vm/overview/bootOrder.jsx:102
+#: src/components/vm/overview/bootOrder.jsx:111
 #: src/components/vm/disks/vmDiskColumns.jsx:54
 msgid "Host"
 msgstr ""
@@ -1008,7 +1011,7 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:112
+#: src/components/vm/overview/bootOrder.jsx:121
 msgid "MAC"
 msgstr ""
 
@@ -1230,7 +1233,7 @@ msgstr ""
 msgid "No VM is running or defined on this host"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:327
+#: src/components/vm/overview/bootOrder.jsx:340
 msgid "No boot device found"
 msgstr ""
 
@@ -1329,7 +1332,7 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/overview/memoryModal.jsx:139
-#: src/components/vm/overview/bootOrder.jsx:349
+#: src/components/vm/overview/bootOrder.jsx:362
 #: src/components/vm/nics/nicEdit.jsx:40
 msgid "Only editable when the guest is shut off"
 msgstr ""
@@ -1429,7 +1432,7 @@ msgid "Please start the virtual machine to access its console."
 msgstr ""
 
 #: src/components/vm/deleteDialog.jsx:54
-#: src/components/vm/overview/bootOrder.jsx:100
+#: src/components/vm/overview/bootOrder.jsx:109
 #: src/components/vm/disks/vmDiskColumns.jsx:52
 #: src/components/vm/disks/diskAdd.jsx:116
 msgid "Pool"
@@ -1451,8 +1454,8 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:103
-#: src/components/vm/overview/bootOrder.jsx:119
+#: src/components/vm/overview/bootOrder.jsx:112
+#: src/components/vm/overview/bootOrder.jsx:128
 #: src/components/vm/disks/vmDiskColumns.jsx:55
 #: src/components/vm/nics/vmNicsCard.jsx:227
 msgid "Port"
@@ -1485,8 +1488,8 @@ msgid "Private"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:130
-#: src/components/vm/overview/bootOrder.jsx:136
+#: src/components/vm/overview/bootOrder.jsx:139
+#: src/components/vm/overview/bootOrder.jsx:145
 msgid "Product"
 msgstr ""
 
@@ -1495,8 +1498,8 @@ msgid "Profile"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:143
-#: src/components/vm/overview/bootOrder.jsx:99
-#: src/components/vm/overview/bootOrder.jsx:152
+#: src/components/vm/overview/bootOrder.jsx:108
+#: src/components/vm/overview/bootOrder.jsx:161
 #: src/components/vm/disks/vmDiskColumns.jsx:51
 msgid "Protocol"
 msgstr ""
@@ -1618,7 +1621,7 @@ msgstr ""
 
 #: src/components/vm/overview/firmware.jsx:63
 #: src/components/vm/overview/memoryModal.jsx:151
-#: src/components/vm/overview/bootOrder.jsx:299
+#: src/components/vm/overview/bootOrder.jsx:312
 #: src/components/vm/disks/diskEdit.jsx:259
 #: src/components/vm/nics/nicEdit.jsx:174
 msgid "Save"
@@ -1718,7 +1721,7 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:130
 #: src/components/vm/hostdevs/hostDevCard.jsx:137
 #: src/components/vm/hostdevs/hostDevAdd.jsx:101
-#: src/components/vm/overview/bootOrder.jsx:140
+#: src/components/vm/overview/bootOrder.jsx:149
 msgid "Slot"
 msgstr ""
 
@@ -1877,7 +1880,7 @@ msgid "Table of selectable host devices"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:146
+#: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr ""
 
@@ -1996,17 +1999,17 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.jsx:78
 #: src/components/vm/hostdevs/hostDevCard.jsx:171
 #: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/overview/bootOrder.jsx:117
-#: src/components/vm/overview/bootOrder.jsx:128
-#: src/components/vm/overview/bootOrder.jsx:134
-#: src/components/vm/overview/bootOrder.jsx:144
-#: src/components/vm/overview/bootOrder.jsx:151
-#: src/components/vm/overview/bootOrder.jsx:157
+#: src/components/vm/overview/bootOrder.jsx:126
+#: src/components/vm/overview/bootOrder.jsx:137
+#: src/components/vm/overview/bootOrder.jsx:143
+#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:160
+#: src/components/vm/overview/bootOrder.jsx:166
 #: src/components/vm/nics/vmNicsCard.jsx:234
 msgid "Type"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:158
+#: src/components/vm/overview/bootOrder.jsx:167
 msgid "Type ID"
 msgstr ""
 
@@ -2034,7 +2037,7 @@ msgstr ""
 msgid "Unique network name"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.jsx:156
 msgid "Unit"
 msgstr ""
 
@@ -2172,8 +2175,8 @@ msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:198
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:129
-#: src/components/vm/overview/bootOrder.jsx:135
+#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.jsx:144
 msgid "Vendor"
 msgstr ""
 
@@ -2208,7 +2211,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:694
 #: src/components/vm/deleteDialog.jsx:51
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/vm/disks/vmDiskColumns.jsx:53
 #: src/components/vm/disks/diskAdd.jsx:82
 msgid "Volume"
@@ -2227,7 +2230,7 @@ msgid "Volume group name should not be empty"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:144
-#: src/components/vm/overview/bootOrder.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:162
 msgid "WWPN"
 msgstr ""
 
@@ -2287,7 +2290,7 @@ msgstr ""
 msgid "down"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:341
+#: src/components/vm/overview/bootOrder.jsx:354
 #: src/components/vm/overview/vmOverviewCard.jsx:135
 #: src/components/vm/overview/vmOverviewCard.jsx:146
 #: src/components/vm/overview/vmOverviewCard.jsx:154
