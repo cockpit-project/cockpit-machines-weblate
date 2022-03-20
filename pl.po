@@ -12,17 +12,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-20 02:59+0000\n"
-"PO-Revision-Date: 2022-01-14 16:35+0000\n"
+"PO-Revision-Date: 2022-03-20 11:25+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: src/components/vm/overview/cpuTypeModal.jsx:60
 msgid "$0 CPU configuration"
@@ -74,10 +74,8 @@ msgid "$0 virtual network interface settings"
 msgstr "Ustawienia wirtualnego interfejsu sieciowego $0"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:234
-#, fuzzy
-#| msgid "host device"
 msgid "$1 host device"
-msgstr "urządzenie gospodarza"
+msgstr "Urządzenie gospodarza $1"
 
 #: src/components/vm/vmMigrateDialog.jsx:75
 msgid ""
@@ -180,6 +178,8 @@ msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
 msgstr ""
+"Dozwolone znaki: podstawowy alfabet łaciński, cyfry i ograniczone znaki "
+"interpunkcyjne (-, _, +, .)"
 
 #: src/components/vm/disks/diskAdd.jsx:110 src/components/vm/nics/nicAdd.jsx:88
 msgid "Always attach"
@@ -590,10 +590,8 @@ msgid "Disk failed to be created"
 msgstr "Utworzenie dysku się nie powiodło"
 
 #: src/components/vm/disks/diskAdd.jsx:229
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Disk identifier"
-msgstr "Plik obrazu dysku"
+msgstr "Identyfikator dysku"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:316
 msgid "Disk image"
@@ -1089,14 +1087,10 @@ msgid "Machine must be shut off before changing cache mode"
 msgstr "Maszyna musi być wyłączona przed zmianą trybu pamięci podręcznej"
 
 #: org.cockpit-project.machines.metainfo.xml:5
-#, fuzzy
-#| msgid "Virtual Machines"
 msgid "Machines"
-msgstr "Maszyny wirtualne"
+msgstr "Maszyny"
 
 #: org.cockpit-project.machines.metainfo.xml:6
-#, fuzzy
-#| msgid "Managing virtual machines"
 msgid "Manage your virtual machines"
 msgstr "Zarządzanie maszynami wirtualnymi"
 
@@ -1325,10 +1319,8 @@ msgid "No disks defined for this VM"
 msgstr "Nie określono dysków dla tej maszyny wirtualnej"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:198
-#, fuzzy
-#| msgid "No boot device found"
 msgid "No host device selected"
-msgstr "Nie odnaleziono żadnego urządzenia startowego"
+msgstr "Nie wybrano urządzenia gospodarza"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:293
 msgid "No host devices assigned to this VM"
@@ -1735,10 +1727,8 @@ msgid "Send non-maskable interrupt"
 msgstr "Wyślij niemaskowalne przerwanie"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:83
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial"
-msgstr "Konsola szeregowa"
+msgstr "Numer seryjny"
 
 #: src/components/vm/consoles/consoles.jsx:112
 msgid "Serial console"
@@ -2109,6 +2099,8 @@ msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
 "control the virtual machines of the libvirt subsystem."
 msgstr ""
+"To narzędzia zarządza maszynami wirtualnymi. Za jego pomocą można tworzyć, "
+"monitorować i sterować maszynami wirtualnymi podsystemu libvirt."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:696
 msgid "This volume is already used by another VM."
@@ -2191,7 +2183,7 @@ msgstr "Nieznane oprogramowanie sprzętowe"
 #: src/components/vm/hostdevs/hostDevCard.jsx:124
 #: src/components/vm/hostdevs/hostDevCard.jsx:125
 msgid "Unspecified"
-msgstr ""
+msgstr "Nieokreślone"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:644
 msgid "Up to $0 $1 available on the default location"
@@ -2560,7 +2552,7 @@ msgstr "przekierowane urządzenie"
 
 #: src/components/vm/disks/diskAdd.jsx:231
 msgid "serial number"
-msgstr ""
+msgstr "numer seryjny"
 
 #: src/helpers.js:255
 msgid "server"
