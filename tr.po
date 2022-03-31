@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 03:05+0000\n"
+"POT-Creation-Date: 2022-03-31 03:19+0000\n"
 "PO-Revision-Date: 2022-03-21 15:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -662,12 +662,6 @@ msgstr "Geçici ağ arayüzlerini düzenlemeye izin verilmiyor"
 msgid "Emulated machine"
 msgstr "Benzetilmiş makine"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:244
-msgid "Enable/disable extended attributes (xattr) on files and directories"
-msgstr ""
-"Dosyalarda ve dizinlerde genişletilmiş öznitelikleri (xattr) etkinleştir/"
-"devre dışı bırak"
-
 #: src/components/networks/createNetworkDialog.jsx:225
 msgid "End"
 msgstr "Bitiş"
@@ -688,6 +682,12 @@ msgstr "Anamakinenin dosya sisteminde varolan disk kalıbı"
 #: src/components/vm/vmDetailsPage.jsx:159
 msgid "Expand"
 msgstr "Genişlet"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
+#, fuzzy
+#| msgid "Edit $0 attributes"
+msgid "Extended attributes"
+msgstr "$0 özniteliklerini düzenle"
 
 #: src/components/common/stateIcon.jsx:60
 msgid "Failed"
@@ -2175,6 +2175,14 @@ msgstr "Kullanım"
 #: src/components/vm/disks/diskAdd.jsx:659
 msgid "Use existing"
 msgstr "Varolanı kullan"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:244
+#, fuzzy
+#| msgid "Enable/disable extended attributes (xattr) on files and directories"
+msgid "Use extended attributes on files and directories"
+msgstr ""
+"Dosyalarda ve dizinlerde genişletilmiş öznitelikleri (xattr) etkinleştir/"
+"devre dışı bırak"
 
 #: src/components/vm/vmMigrateDialog.jsx:102
 msgid ""
