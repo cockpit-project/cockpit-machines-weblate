@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-21 03:51+0000\n"
+"POT-Creation-Date: 2022-04-24 03:18+0000\n"
 "PO-Revision-Date: 2020-05-05 03:40+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/cockpit/"
@@ -85,12 +85,6 @@ msgstr "Detalls del problema"
 #, fuzzy
 msgid "$0 virtual network interface settings"
 msgstr "Afegeix una interfície de xarxa virtual"
-
-#: src/components/vm/hostdevs/hostDevCard.jsx:234
-#, fuzzy
-#| msgid "Devices"
-msgid "$1 host device"
-msgstr "Dispositius"
 
 #: src/components/vm/vmMigrateDialog.jsx:75
 msgid ""
@@ -521,7 +515,6 @@ msgstr ""
 msgid "Deactivate"
 msgstr "Desactiva"
 
-#: src/components/common/deleteResource.jsx:66
 #: src/components/common/deleteResource.jsx:71
 #: src/components/common/deleteResource.jsx:109
 #: src/components/storagePools/storagePoolDelete.jsx:186
@@ -546,6 +539,21 @@ msgstr "Suprimeix els fitxers d'emmagatzematge associats:"
 #: src/components/storagePools/storagePoolDelete.jsx:165
 msgid "Delete content"
 msgstr ""
+
+#: src/components/networks/network.jsx:134
+msgid "Delete network $0"
+msgstr ""
+
+#: src/components/vm/nics/vmNicsCard.jsx:376
+#, fuzzy
+#| msgid "Add network interface"
+msgid "Delete network interface $0"
+msgstr "Afegeix una interfície de xarxa"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
+#, fuzzy
+msgid "Delete snapshot $0"
+msgstr "Crea una instantània"
 
 #: src/components/storagePools/storagePoolDelete.jsx:179
 msgid "Delete storage pool $0"
@@ -626,6 +634,10 @@ msgstr "Desconnecta"
 
 #: src/components/vm/consoles/serialConsole.jsx:85
 msgid "Disconnected from serial console. Click the connect button."
+msgstr ""
+
+#: src/components/vm/disks/vmDisksCard.jsx:288
+msgid "Disk $0 could not be removed"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:280
@@ -805,6 +817,10 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:106
 msgid "File"
 msgstr "Fitxer"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
+msgid "Filesystem $0 could not be removed"
+msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:57
 msgid "Filesystem directory"
@@ -1303,6 +1319,10 @@ msgstr ""
 msgid "Name"
 msgstr "Nom"
 
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:94
+msgid "Name already exists"
+msgstr ""
+
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
 #, fuzzy
 msgid "Name contains invalid characters"
@@ -1316,6 +1336,7 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
 #: src/components/networks/createNetworkDialog.jsx:53
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:96
 msgid "Name should not be empty"
 msgstr "El nom no pot estar en blanc"
 
@@ -1326,6 +1347,12 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:151
 msgid "Netmask"
 msgstr ""
+
+#: src/components/networks/network.jsx:135
+#, fuzzy
+#| msgid "Name should not be empty"
+msgid "Network $0 could not be deleted"
+msgstr "El nom no pot estar en blanc"
 
 #: src/components/networks/network.jsx:98
 msgid "Network $0 failed to get activated"
@@ -1342,6 +1369,12 @@ msgstr ""
 #: src/components/storagePools/createStoragePoolDialog.jsx:58
 msgid "Network file system"
 msgstr ""
+
+#: src/components/vm/nics/vmNicsCard.jsx:377
+#, fuzzy
+#| msgid "Name should not be empty"
+msgid "Network interface $0 could not be deleted"
+msgstr "El nom no pot estar en blanc"
 
 #: src/components/vm/nics/nicAdd.jsx:155 src/components/vm/nics/nicEdit.jsx:131
 msgid "Network interface settings could not be saved"
@@ -1711,14 +1744,36 @@ msgid "Remote viewer details"
 msgstr "Més detalls"
 
 #: src/components/networks/networkOverviewTab.jsx:72
-#: src/components/vm/disks/vmDisksCard.jsx:288
+#: src/components/vm/disks/vmDisksCard.jsx:286
 #: src/components/vm/disks/vmDisksCard.jsx:298
 #: src/components/vm/hostdevs/hostDevCard.jsx:232
 #: src/components/vm/hostdevs/hostDevCard.jsx:289
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:59
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "Remove"
 msgstr "Suprimeix"
+
+#: src/components/vm/disks/vmDisksCard.jsx:287
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove disk $0"
+msgstr "Suprimeix"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
+#, fuzzy
+#| msgid "System"
+msgid "Remove filesystem $0"
+msgstr "Sistema"
+
+#: src/components/vm/hostdevs/hostDevCard.jsx:234
+#, fuzzy
+#| msgid "Devices"
+msgid "Remove host device"
+msgstr "Dispositius"
+
+#: src/components/networks/networkOverviewTab.jsx:65
+msgid "Remove static host from DHCP"
+msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:63 src/components/vm/vmActions.jsx:354
 msgid "Rename"
@@ -1906,6 +1961,12 @@ msgstr "Mida"
 msgid "Slot"
 msgstr ""
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:182
+#, fuzzy
+#| msgid "Name should not be empty"
+msgid "Snapshot $0 could not be deleted"
+msgstr "El nom no pot estar en blanc"
+
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
 msgstr ""
@@ -1988,6 +2049,12 @@ msgstr "Estat"
 #: src/components/networks/networkOverviewTab.jsx:291
 msgid "Static host entries"
 msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:66
+#, fuzzy
+#| msgid "Name should not be empty"
+msgid "Static host from DHCP could not be removed"
+msgstr "El nom no pot estar en blanc"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
 #: src/components/vm/vmMigrateDialog.jsx:94
@@ -2091,10 +2158,6 @@ msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:85
 msgid "Temporary migration"
-msgstr ""
-
-#: src/components/common/deleteResource.jsx:52
-msgid "The $0 could not be deleted"
 msgstr ""
 
 #: src/components/vm/deleteDialog.jsx:81
@@ -2502,8 +2565,7 @@ msgstr "directe"
 msgid "disabled"
 msgstr "inhabilitat"
 
-#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:235
-#: src/helpers.js:238
+#: src/helpers.js:235 src/helpers.js:238
 msgid "disk"
 msgstr "disc"
 
@@ -2525,12 +2587,6 @@ msgstr "habilitat"
 #: src/helpers.js:252
 msgid "ethernet"
 msgstr "ethernet"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "System"
-msgid "filesystem"
-msgstr "Sistema"
 
 #: src/helpers.js:244
 msgid "host"
@@ -2565,6 +2621,13 @@ msgstr ""
 msgid "iSCSI target IQN"
 msgstr ""
 
+#: src/components/storagePools/storagePool.jsx:64
+#: src/components/networks/network.jsx:56
+#, fuzzy
+#| msgid "active"
+msgid "inactive"
+msgstr "actiu"
+
 #: src/manifest.json:0
 msgid "iso"
 msgstr ""
@@ -2595,12 +2658,6 @@ msgstr ""
 #: src/helpers.js:237 src/helpers.js:249
 msgid "network"
 msgstr "xarxa"
-
-#: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "Add network interface"
-msgid "network interface"
-msgstr "Afegeix una interfície de xarxa"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
@@ -2645,15 +2702,6 @@ msgstr ""
 #: src/helpers.js:255
 msgid "server"
 msgstr "servidor"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-msgid "snapshot"
-msgstr "Crea una instantània"
-
-#: src/components/networks/networkOverviewTab.jsx:65
-msgid "static host from DHCP"
-msgstr ""
 
 #: src/helpers.js:256
 msgid "udp"
@@ -2714,6 +2762,10 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:119 src/helpers.js:271
 msgid "yes"
 msgstr "sí"
+
+#, fuzzy
+#~ msgid "snapshot"
+#~ msgstr "Crea una instantània"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Inicia automàticament la MV"

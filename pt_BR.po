@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-21 03:51+0000\n"
+"POT-Creation-Date: 2022-04-24 03:18+0000\n"
 "PO-Revision-Date: 2021-03-18 07:12+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -96,12 +96,6 @@ msgstr "$0 detalhes de vCPU"
 #: src/components/vm/nics/nicEdit.jsx:167
 msgid "$0 virtual network interface settings"
 msgstr "$0 configurações de interface de rede virtual"
-
-#: src/components/vm/hostdevs/hostDevCard.jsx:234
-#, fuzzy
-#| msgid "Host device"
-msgid "$1 host device"
-msgstr "Dispositivo Host"
 
 #: src/components/vm/vmMigrateDialog.jsx:75
 msgid ""
@@ -550,7 +544,6 @@ msgstr "Intervalo DHCP"
 msgid "Deactivate"
 msgstr "Desativar"
 
-#: src/components/common/deleteResource.jsx:66
 #: src/components/common/deleteResource.jsx:71
 #: src/components/common/deleteResource.jsx:109
 #: src/components/storagePools/storagePoolDelete.jsx:186
@@ -577,6 +570,22 @@ msgstr "Excluir arquivos de armazenamento associados:"
 #: src/components/storagePools/storagePoolDelete.jsx:165
 msgid "Delete content"
 msgstr "Remover conteúdo"
+
+#: src/components/networks/network.jsx:134
+#, fuzzy
+msgid "Delete network $0"
+msgstr "Rede isolada"
+
+#: src/components/vm/nics/vmNicsCard.jsx:376
+#, fuzzy
+#| msgid "Add network interface"
+msgid "Delete network interface $0"
+msgstr "Adicionar Interface de Rede"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
+#, fuzzy
+msgid "Delete snapshot $0"
+msgstr "Reverter para o snapshot $0"
 
 #: src/components/storagePools/storagePoolDelete.jsx:179
 #, fuzzy
@@ -661,6 +670,11 @@ msgstr "Desconectar"
 #, fuzzy
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Desconectado do console serial. Clique no botão conectar."
+
+#: src/components/vm/disks/vmDisksCard.jsx:288
+#, fuzzy
+msgid "Disk $0 could not be removed"
+msgstr "Não foi possível salvar as configurações do disco"
 
 #: src/components/vm/disks/vmDisksCard.jsx:280
 msgid "Disk $0 fail to get detached from VM $1"
@@ -842,6 +856,11 @@ msgstr "Menos do que o número máximo de CPUs virtuais deve ser ativado."
 #: src/components/vm/overview/bootOrder.jsx:106
 msgid "File"
 msgstr "Arquivo"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
+#, fuzzy
+msgid "Filesystem $0 could not be removed"
+msgstr "Não foi possível salvar as configurações do disco"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:57
 msgid "Filesystem directory"
@@ -1361,6 +1380,10 @@ msgstr ""
 msgid "Name"
 msgstr "Nome"
 
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:94
+msgid "Name already exists"
+msgstr ""
+
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
 msgid "Name contains invalid characters"
 msgstr "O nome contém caracteres inválidos"
@@ -1373,6 +1396,7 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
 #: src/components/networks/createNetworkDialog.jsx:53
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:96
 msgid "Name should not be empty"
 msgstr "O nome não deve estar vazio"
 
@@ -1383,6 +1407,11 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:151
 msgid "Netmask"
 msgstr ""
+
+#: src/components/networks/network.jsx:135
+#, fuzzy
+msgid "Network $0 could not be deleted"
+msgstr "O pool de armazenamento não pode ser apagado"
 
 #: src/components/networks/network.jsx:98
 msgid "Network $0 failed to get activated"
@@ -1400,6 +1429,11 @@ msgstr "Boot por Rede (PXE)"
 #: src/components/storagePools/createStoragePoolDialog.jsx:58
 msgid "Network file system"
 msgstr "Sistema de arquivos de rede"
+
+#: src/components/vm/nics/vmNicsCard.jsx:377
+#, fuzzy
+msgid "Network interface $0 could not be deleted"
+msgstr "O pool de armazenamento não pode ser apagado"
 
 #: src/components/vm/nics/nicAdd.jsx:155 src/components/vm/nics/nicEdit.jsx:131
 msgid "Network interface settings could not be saved"
@@ -1778,14 +1812,36 @@ msgid "Remote viewer details"
 msgstr "Detalhes do visualizador remoto"
 
 #: src/components/networks/networkOverviewTab.jsx:72
-#: src/components/vm/disks/vmDisksCard.jsx:288
+#: src/components/vm/disks/vmDisksCard.jsx:286
 #: src/components/vm/disks/vmDisksCard.jsx:298
 #: src/components/vm/hostdevs/hostDevCard.jsx:232
 #: src/components/vm/hostdevs/hostDevCard.jsx:289
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:59
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "Remove"
 msgstr "Remover"
+
+#: src/components/vm/disks/vmDisksCard.jsx:287
+#, fuzzy
+#| msgid "Removing $0"
+msgid "Remove disk $0"
+msgstr "Removendo $0"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
+#, fuzzy
+#| msgid "Network file system"
+msgid "Remove filesystem $0"
+msgstr "Sistema de arquivos de rede"
+
+#: src/components/vm/hostdevs/hostDevCard.jsx:234
+#, fuzzy
+#| msgid "Host device"
+msgid "Remove host device"
+msgstr "Dispositivo Host"
+
+#: src/components/networks/networkOverviewTab.jsx:65
+msgid "Remove static host from DHCP"
+msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:63 src/components/vm/vmActions.jsx:354
 msgid "Rename"
@@ -1971,6 +2027,11 @@ msgstr "Tamanho"
 msgid "Slot"
 msgstr ""
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:182
+#, fuzzy
+msgid "Snapshot $0 could not be deleted"
+msgstr "Volumes de armazenamento não pode ser apagados"
+
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 #, fuzzy
 msgid "Snapshot failed to be created"
@@ -2056,6 +2117,11 @@ msgstr "Estado"
 #: src/components/networks/networkOverviewTab.jsx:291
 msgid "Static host entries"
 msgstr ""
+
+#: src/components/networks/networkOverviewTab.jsx:66
+#, fuzzy
+msgid "Static host from DHCP could not be removed"
+msgstr "Volumes de armazenamento não pode ser apagados"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
 #: src/components/vm/vmMigrateDialog.jsx:94
@@ -2163,10 +2229,6 @@ msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:85
 msgid "Temporary migration"
-msgstr ""
-
-#: src/components/common/deleteResource.jsx:52
-msgid "The $0 could not be deleted"
 msgstr ""
 
 #: src/components/vm/deleteDialog.jsx:81
@@ -2578,8 +2640,7 @@ msgstr "direto"
 msgid "disabled"
 msgstr "desabilitado"
 
-#: src/components/vm/disks/vmDisksCard.jsx:286 src/helpers.js:235
-#: src/helpers.js:238
+#: src/helpers.js:235 src/helpers.js:238
 msgid "disk"
 msgstr "disco"
 
@@ -2601,12 +2662,6 @@ msgstr "habilitado"
 #: src/helpers.js:252
 msgid "ethernet"
 msgstr "ethernet"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "Network file system"
-msgid "filesystem"
-msgstr "Sistema de arquivos de rede"
 
 #: src/helpers.js:244
 msgid "host"
@@ -2641,6 +2696,13 @@ msgstr ""
 msgid "iSCSI target IQN"
 msgstr ""
 
+#: src/components/storagePools/storagePool.jsx:64
+#: src/components/networks/network.jsx:56
+#, fuzzy
+#| msgid "active"
+msgid "inactive"
+msgstr "ativo"
+
 #: src/manifest.json:0
 msgid "iso"
 msgstr ""
@@ -2671,12 +2733,6 @@ msgstr ""
 #: src/helpers.js:237 src/helpers.js:249
 msgid "network"
 msgstr "rede"
-
-#: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "Add network interface"
-msgid "network interface"
-msgstr "Adicionar Interface de Rede"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
@@ -2721,15 +2777,6 @@ msgstr ""
 #: src/helpers.js:255
 msgid "server"
 msgstr "servidor"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-msgid "snapshot"
-msgstr "Criar Snapshot"
-
-#: src/components/networks/networkOverviewTab.jsx:65
-msgid "static host from DHCP"
-msgstr ""
 
 #: src/helpers.js:256
 msgid "udp"
@@ -2798,6 +2845,10 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:119 src/helpers.js:271
 msgid "yes"
 msgstr "sim"
+
+#, fuzzy
+#~ msgid "snapshot"
+#~ msgstr "Criar Snapshot"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Imediatamente Iniciar VM"
@@ -3131,9 +3182,6 @@ msgstr "sim"
 
 #~ msgid "Removals:"
 #~ msgstr "Remoções:"
-
-#~ msgid "Removing $0"
-#~ msgstr "Removendo $0"
 
 #~ msgid "Sealed-case PC"
 #~ msgstr "PC com caixa vedada"
