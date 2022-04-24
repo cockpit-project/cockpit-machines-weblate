@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-21 03:51+0000\n"
-"PO-Revision-Date: 2022-03-21 15:16+0000\n"
+"PO-Revision-Date: 2022-04-24 21:17+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ka/>\n"
@@ -18,20 +18,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:619
-#, fuzzy
-#| msgid "Up to $0 $1 available on the default location"
 msgid "$0 $1 available at default location"
-msgstr "ნაგულისხმევ მდებარეობაზე ხელმისაწვდომია $0-მდე $1"
+msgstr "$0 $1 ხელმისაწვდომია ნაგულისხმებ მდებარეობაზე"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:186
 #: src/components/create-vm-dialog/createVmDialog.jsx:571
-#, fuzzy
-#| msgid "Up to $0 $1 available on the host"
 msgid "$0 $1 available on host"
-msgstr "ჰოსტზე ხელმისაწვდომია $0-მდე $1-ი"
+msgstr "ჰოსტზე ხელმისაწვდომია $0 $1"
 
 #: src/components/vm/overview/cpuTypeModal.jsx:60
 msgid "$0 CPU configuration"
@@ -50,11 +46,8 @@ msgstr[0] "$0 ცალი საცავის პული"
 msgstr[1] "$0 საცავის პული"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:953
-#, fuzzy
-#| msgid ""
-#| "The selected operating system does not support unattended installation"
 msgid "$0 does not support unattended installation."
-msgstr "არჩეული ოპერაციულ სისტემას ავტომატური დაყენების საშუალება არ გააჩნია"
+msgstr "$0-ს ოპერაციულ სისტემას ავტომატური დაყენების საშუალება არ გააჩნია."
 
 #: src/components/vm/consoles/desktopConsole.jsx:61
 msgid ""
@@ -212,16 +205,16 @@ msgid ""
 "Automated installs are only available when downloading an image or using "
 "cloud-init."
 msgstr ""
+"ავტომატური დაყენება ხელმისაწვდომია მხოლოდ გამოსახულების გადმოწერისას ან "
+"cloud-init-ით."
 
 #: src/components/networks/createNetworkDialog.jsx:166
 msgid "Automatic"
 msgstr "ავტომატური"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1063
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automation"
-msgstr "ავტომატური"
+msgstr "ავტომატიზაცია"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:71
 #: src/components/networks/networkOverviewTab.jsx:123
@@ -413,16 +406,12 @@ msgid "Create a clone VM based on $0"
 msgstr "$0-ის ასლზე დაფუძნებული ვმ-ის შექმნა"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1088
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and edit"
-msgstr "ახლის შექმნა"
+msgstr "შექმნა და ჩასწორება"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1113
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and run"
-msgstr "ახლის შექმნა"
+msgstr "შექმნა და გაშვება"
 
 #: src/components/vm/disks/diskAdd.jsx:659
 msgid "Create new"
@@ -465,10 +454,8 @@ msgid "Creating VM"
 msgstr "ვმ-ის შექმნა"
 
 #: src/app.jsx:234
-#, fuzzy
-#| msgid "Creating VM"
 msgid "Creating VM $0"
-msgstr "ვმ-ის შექმნა"
+msgstr "ვმ-ის შექმნა: $0"
 
 #: src/components/vms/hostvmslist.jsx:48
 msgid "Creating VM installation"
@@ -586,7 +573,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1059
 msgid "Details"
-msgstr ""
+msgstr "დეტალები"
 
 #: src/components/networks/createNetworkDialog.jsx:160
 #: src/components/networks/networkList.jsx:75
@@ -723,6 +710,7 @@ msgstr "ბოლო ცარიელი არ შეიძლება ი�
 #: src/components/create-vm-dialog/createVmDialog.jsx:951
 msgid "Enter root and/or user information to enable unattended installation."
 msgstr ""
+"ავტომატური დაყენებისთვის შეიყვანეთ root-ის ან/და მომხმარებლის ინფორმაცია."
 
 #: src/components/vm/vmMigrateDialog.jsx:53
 msgid "Example, $0"
@@ -737,10 +725,8 @@ msgid "Expand"
 msgstr "გაფართოება"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
-#, fuzzy
-#| msgid "Edit $0 attributes"
 msgid "Extended attributes"
-msgstr "$0-ის ატრიბუტების ჩასწორება"
+msgstr "გაფართოებული ატრიბუტები"
 
 #: src/components/common/stateIcon.jsx:60
 msgid "Failed"
@@ -898,7 +884,7 @@ msgstr "ID"
 
 #: src/components/networks/networkOverviewTab.jsx:69
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: src/components/networks/networkOverviewTab.jsx:259
 #: src/components/vm/nics/vmNicsCard.jsx:253
@@ -953,7 +939,7 @@ msgstr "მხოლოდ IPv6"
 
 #: src/components/vm/disks/diskAdd.jsx:222
 msgid "Identifier may be silently truncated to $0 characters "
-msgstr ""
+msgstr "იდენტიფიკატორს შეიძლება წაეჭრას $0 simbolo "
 
 #: src/helpers.js:224
 msgid "Idle"
@@ -969,13 +955,11 @@ msgstr "ვირტუალური მანქანის შემოტ�
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1088
 msgid "Import and edit"
-msgstr ""
+msgstr "შემოტანა და ჩასწორება"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1113
-#, fuzzy
-#| msgid "Import a virtual machine"
 msgid "Import and run"
-msgstr "ვირტუალური მანქანის შემოტანა"
+msgstr "შემოტანა და გაშვება"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:257
 msgid ""
@@ -1793,7 +1777,7 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:163
 msgid "Share"
-msgstr "ზიარი"
+msgstr "გაზიარება"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:156
 msgid "Share a host directory with the guest"
@@ -1932,10 +1916,8 @@ msgid "Storage"
 msgstr "საცავი"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:683
-#, fuzzy
-#| msgid "Storage"
 msgid "Storage Limit"
-msgstr "საცავი"
+msgstr "საცავის ლიმიტი"
 
 #: src/components/vm/vmMigrateDialog.jsx:116
 msgid "Storage is at a shared location"
@@ -2073,7 +2055,7 @@ msgstr "არჩეული ოპერაციული სისტემ�
 
 #: src/components/networks/networkOverviewTab.jsx:67
 msgid "The static host entry for $0 will be removed:"
-msgstr ""
+msgstr "სტატიკური ჰოსტის ჩანაწერი $0-სთვის წაიშლება:"
 
 #: src/components/storagePools/storagePoolDelete.jsx:137
 #: src/components/storagePools/storagePoolDelete.jsx:141
@@ -2214,10 +2196,8 @@ msgid "Use existing"
 msgstr "არსებულის გამოყენება"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:244
-#, fuzzy
-#| msgid "Enable/disable extended attributes (xattr) on files and directories"
 msgid "Use extended attributes on files and directories"
-msgstr "დამატებითი ატრიბუტების (xattr) ფაილებზე და საქაღალდეებზე ჩართ/გამორთ"
+msgstr "დამატებითი ატრიბუტების გამოყენება ფაილებზე და საქაღალდეებზე"
 
 #: src/components/vm/vmMigrateDialog.jsx:102
 msgid ""
@@ -2254,20 +2234,16 @@ msgstr ""
 "პაროლი მაშინ, როცა მომხმარებლის სახელი დაყენებულია, ცარიელი არ შეიძლება იყოს"
 
 #: src/components/common/machinesConnectionSelector.jsx:43
-#, fuzzy
-#| msgid "User password"
 msgid "User session"
-msgstr "მომხმარებლის პაროლი"
+msgstr "მომხმარებლის სესია"
 
 #: src/components/vm/overview/vcpuModal.jsx:169
 msgid "VCPU settings could not be saved"
 msgstr "VCPU-ის პარამეტრების შენახვის შეცდომა"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:290
-#, fuzzy
-#| msgid "Host devices"
 msgid "VM $0 Host Devices"
-msgstr "ჰოსტის მოწყობილობები"
+msgstr "ვმ $0-ის ჰოსტის მოწყობილობები"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:142
 msgid "VM $0 already exists"
@@ -2486,7 +2462,6 @@ msgid "host passthrough"
 msgstr "ჰოსტის გამჭოლი მოწყობილობა"
 
 #: src/helpers.js:253
-#, fuzzy
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -2507,17 +2482,14 @@ msgid "iSCSI target IQN"
 msgstr "iSCSI target-ის IQN"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "iso"
 msgstr "iso"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "libvirt"
 msgstr "libvirt"
 
 #: src/helpers.js:254
-#, fuzzy
 msgid "mcast"
 msgstr "mcast"
 
@@ -2559,17 +2531,14 @@ msgid "none"
 msgstr "არცერთი"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "pxe"
 msgstr "pxe"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "qcow2"
 msgstr "qcow2"
 
 #: src/manifest.json:0
-#, fuzzy
 msgid "qemu"
 msgstr "qemu"
 
@@ -2578,8 +2547,6 @@ msgid "redirected device"
 msgstr "გადამისამართებული მოწყობილობა"
 
 #: src/components/networks/networkOverviewTab.jsx:61
-#, fuzzy
-#| msgid "Remove"
 msgid "remove"
 msgstr "წაშლა"
 
@@ -2596,13 +2563,10 @@ msgid "snapshot"
 msgstr "სწრაფი ასლი"
 
 #: src/components/networks/networkOverviewTab.jsx:65
-#, fuzzy
-#| msgid "Static host entries"
 msgid "static host from DHCP"
-msgstr "host-ის სტატიკური ჩანაწერები"
+msgstr "host-ის სტატიკური ჩანაწერები DHCP-დან"
 
 #: src/helpers.js:256
-#, fuzzy
 msgid "udp"
 msgstr "udp"
 
@@ -2627,7 +2591,6 @@ msgid "vCPUs"
 msgstr "vCPU-ები"
 
 #: src/helpers.js:257
-#, fuzzy
 msgid "vhostuser"
 msgstr "vhostuser"
 
