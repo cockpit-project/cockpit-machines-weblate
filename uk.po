@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-25 03:35+0000\n"
-"PO-Revision-Date: 2022-04-14 09:17+0000\n"
+"PO-Revision-Date: 2022-04-27 14:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:619
 msgid "$0 $1 available at default location"
@@ -530,22 +530,16 @@ msgid "Delete content"
 msgstr "Вилучити дані"
 
 #: src/components/networks/network.jsx:134
-#, fuzzy
-#| msgid "Isolated network"
 msgid "Delete network $0"
-msgstr "Ізольована мережа"
+msgstr "Вилучити мережу $0"
 
 #: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "network interface"
 msgid "Delete network interface $0"
-msgstr "мережевий інтерфейс"
+msgstr "Вилучити інтерфейс мережі $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-#| msgid "Revert to snapshot $0"
 msgid "Delete snapshot $0"
-msgstr "Повернутися до знімка $0"
+msgstr "Вилучити знімок $0"
 
 #: src/components/storagePools/storagePoolDelete.jsx:179
 msgid "Delete storage pool $0"
@@ -629,10 +623,8 @@ msgid "Disconnected from serial console. Click the connect button."
 msgstr "Від'єднано від послідовної консолі. Натисніть кнопку «З'єднатися»."
 
 #: src/components/vm/disks/vmDisksCard.jsx:288
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "Disk $0 could not be removed"
-msgstr "Не вдалося зберегти параметри диска"
+msgstr "Не вдалося вилучити диск $0"
 
 #: src/components/vm/disks/vmDisksCard.jsx:280
 msgid "Disk $0 fail to get detached from VM $1"
@@ -804,10 +796,8 @@ msgid "File"
 msgstr "Файл"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Filesystem $0 could not be removed"
-msgstr "Не вдалося вилучити $0"
+msgstr "Не вдалося вилучити файлову систему $0"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:57
 msgid "Filesystem directory"
@@ -1301,10 +1291,8 @@ msgid "Name"
 msgstr "Назва"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:94
-#, fuzzy
-#| msgid "VM $0 already exists"
 msgid "Name already exists"
-msgstr "ВМ із назвою $0 вже існує"
+msgstr "Таку назву вже використано"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
 msgid "Name contains invalid characters"
@@ -1331,10 +1319,8 @@ msgid "Netmask"
 msgstr "Маска мережі"
 
 #: src/components/networks/network.jsx:135
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Network $0 could not be deleted"
-msgstr "Не вдалося вилучити $0"
+msgstr "Не вдалося вилучити мережу $0"
 
 #: src/components/networks/network.jsx:98
 msgid "Network $0 failed to get activated"
@@ -1353,10 +1339,8 @@ msgid "Network file system"
 msgstr "Мережева файлова система"
 
 #: src/components/vm/nics/vmNicsCard.jsx:377
-#, fuzzy
-#| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 could not be deleted"
-msgstr "Не вдалося зберегти параметри інтерфейсу мережі"
+msgstr "Не вдалося вилучити інтерфейс мережі $0"
 
 #: src/components/vm/nics/nicAdd.jsx:155 src/components/vm/nics/nicEdit.jsx:131
 msgid "Network interface settings could not be saved"
@@ -1727,28 +1711,20 @@ msgid "Remove"
 msgstr "Вилучити"
 
 #: src/components/vm/disks/vmDisksCard.jsx:287
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Remove disk $0"
-msgstr "Вилучаємо $0"
+msgstr "Вилучити диск $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "filesystem"
 msgid "Remove filesystem $0"
-msgstr "файлова система"
+msgstr "Вилучити файлову систему $0"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:234
-#, fuzzy
-#| msgid "host device"
 msgid "Remove host device"
-msgstr "пристрій основної системи"
+msgstr "Вилучити пристрій основної системи"
 
 #: src/components/networks/networkOverviewTab.jsx:65
-#, fuzzy
-#| msgid "static host from DHCP"
 msgid "Remove static host from DHCP"
-msgstr "статичний вузол з DHCP"
+msgstr "Вилучити статичний вузол з DHCP"
 
 #: src/components/vm/vmRenameDialog.jsx:63 src/components/vm/vmActions.jsx:354
 msgid "Rename"
@@ -1929,10 +1905,8 @@ msgid "Slot"
 msgstr "Слот"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:182
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Snapshot $0 could not be deleted"
-msgstr "Не вдалося вилучити $0"
+msgstr "Не вдалося вилучити знімок $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
@@ -2015,10 +1989,8 @@ msgid "Static host entries"
 msgstr "Записи статичних вузлів"
 
 #: src/components/networks/networkOverviewTab.jsx:66
-#, fuzzy
-#| msgid "static host from DHCP"
 msgid "Static host from DHCP could not be removed"
-msgstr "статичний вузол з DHCP"
+msgstr "Не вдалося вилучити статичний вузол з DHCP"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
 #: src/components/vm/vmMigrateDialog.jsx:94
@@ -2599,10 +2571,8 @@ msgstr "IQN цілі iSCSI"
 
 #: src/components/storagePools/storagePool.jsx:64
 #: src/components/networks/network.jsx:56
-#, fuzzy
-#| msgid "active"
 msgid "inactive"
-msgstr "активний"
+msgstr "неактивний"
 
 #: src/manifest.json:0
 msgid "iso"
