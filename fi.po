@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 03:26+0000\n"
+"POT-Creation-Date: 2022-05-19 03:45+0000\n"
 "PO-Revision-Date: 2022-05-16 16:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -88,11 +88,11 @@ msgstr ""
 "Samaan aikaan isäntäkone säilyttää kopion virtuaalikoneen kokoonpanosta."
 
 #: src/components/vm/disks/diskEdit.jsx:112
-#: src/components/vm/disks/vmDisksCard.jsx:232
+#: src/components/vm/disks/vmDisksCard.jsx:214
 msgid "Access"
 msgstr "Pääsy"
 
-#: src/components/networks/network.jsx:165
+#: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:171
 msgid "Activate"
 msgstr "Aktivoi"
@@ -118,7 +118,7 @@ msgid "Add disk"
 msgstr "Lisää levy"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:233
-#: src/components/vm/hostdevs/hostDevCard.jsx:48
+#: src/components/vm/hostdevs/hostDevCard.jsx:149
 msgid "Add host device"
 msgstr "Lisää isäntälaite"
 
@@ -126,7 +126,7 @@ msgstr "Lisää isäntälaite"
 msgid "Add network interface"
 msgstr "Lisää verkkoliitäntä"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:102
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:107
 msgid "Add shared directory"
 msgstr "Lisää jaettu kansio"
 
@@ -134,13 +134,13 @@ msgstr "Lisää jaettu kansio"
 msgid "Add virtual network interface"
 msgstr "Lisää virtuaalinen verkkoliitäntä"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:108
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:113
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr ""
 "Jaettujen kansioiden lisääminen on mahdollista vain, kun vieras on "
 "sammutettuna"
 
-#: src/components/vm/disks/vmDisksCard.jsx:236
+#: src/components/vm/disks/vmDisksCard.jsx:218
 msgid "Additional"
 msgstr "Ylimääräinen"
 
@@ -157,11 +157,6 @@ msgstr "Osoite"
 #: src/components/networks/createNetworkDialog.jsx:115
 msgid "Address not within subnet"
 msgstr "Osoite ei aliverkossa"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:183
-msgid "After deleting the snapshot, all its captured content will be lost."
-msgstr ""
-"Tilannevedoksen poistamisen jälkeen kaikki siepattu sisältö menetetään."
 
 #: src/components/vms/hostvmslist.jsx:64 src/components/vms/hostvmslist.jsx:81
 msgid "All"
@@ -182,6 +177,12 @@ msgid ""
 msgstr ""
 "Sallitut merkit: latinalaiset perusaakkoset, numerot ja vain nämä välimerkit "
 "(-, _, +, .)"
+
+#: src/components/storagePools/storagePoolDelete.jsx:170
+#, fuzzy
+#| msgid "Delete the volumes inside this pool"
+msgid "Also delete all volumes inside this pool:"
+msgstr "Poista tämän varannon sisäiset taltiot"
 
 #: src/components/vm/nics/nicAdd.jsx:88 src/components/vm/disks/diskAdd.jsx:110
 msgid "Always attach"
@@ -233,11 +234,12 @@ msgid "Boot order settings could not be saved"
 msgstr "Käynnistysjärjestysasetuksia ei voitu tallentaa"
 
 #: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:230
+#: src/components/vm/disks/vmDisksCard.jsx:212
 #: src/components/vm/disks/diskAdd.jsx:197
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
-#: src/components/vm/hostdevs/hostDevCard.jsx:131
-#: src/components/vm/hostdevs/hostDevCard.jsx:149
+#: src/components/vm/hostdevs/hostDevCard.jsx:103
+#: src/components/vm/hostdevs/hostDevCard.jsx:111
+#: src/components/vm/hostdevs/hostDevCard.jsx:248
 #: src/components/vm/overview/bootOrder.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:127
 #: src/components/vm/overview/bootOrder.jsx:145
@@ -265,15 +267,15 @@ msgstr "CPU-tyyppi"
 
 #: src/components/vm/disks/diskEdit.jsx:57
 #: src/components/vm/disks/diskAdd.jsx:186
-#: src/components/vm/disks/vmDiskColumns.jsx:82
+#: src/components/vm/disks/vmDiskColumns.jsx:95
 msgid "Cache"
 msgstr "Välimuisti"
 
-#: src/components/vm/deleteDialog.jsx:160
+#: src/components/vm/deleteDialog.jsx:163
 #: src/components/vm/vmMigrateDialog.jsx:217
 #: src/components/vm/nics/nicEdit.jsx:175 src/components/vm/nics/nicAdd.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:66
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/vmCloneDialog.jsx:78
 #: src/components/vm/disks/diskEdit.jsx:260
 #: src/components/vm/disks/diskAdd.jsx:729
@@ -288,14 +290,14 @@ msgstr "Välimuisti"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1174
 #: src/components/networks/createNetworkDialog.jsx:413
 #: src/components/networks/networkOverviewTab.jsx:244
-#: src/components/storagePools/storagePoolDelete.jsx:189
+#: src/components/storagePools/storagePoolDelete.jsx:197
 #: src/components/storagePools/createStoragePoolDialog.jsx:438
 #: src/components/storagePools/storageVolumeCreate.jsx:103
 #: src/components/common/deleteResource.jsx:74
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/components/vm/disks/vmDisksCard.jsx:228
+#: src/components/vm/disks/vmDisksCard.jsx:210
 msgid "Capacity"
 msgstr "Koko"
 
@@ -319,7 +321,7 @@ msgstr "Muutokset tulevat voimaan virtuaalikoneen sammuttamisen jälkeen"
 msgid "Choose an operating system"
 msgstr "Valitse käyttöjärjestelmä"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:193
+#: src/components/vm/hostdevs/hostDevCard.jsx:197
 msgid "Class"
 msgstr "Luokka"
 
@@ -342,7 +344,7 @@ msgstr "Sulje"
 msgid "Cloud base image"
 msgstr "Pilvipohjainen levykuva"
 
-#: src/components/common/deleteResource.jsx:79
+#: src/components/common/deleteResource.jsx:80
 msgid "Confirm this action"
 msgstr "Vahvista tämä toimi"
 
@@ -398,6 +400,14 @@ msgstr "Luo"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1223
 msgid "Create VM"
 msgstr "Luo VM"
+
+#: src/components/create-vm-dialog/createVmDialog.jsx:1242
+msgid "Create VM by importing a disk image of an existing VM installation"
+msgstr ""
+
+#: src/components/create-vm-dialog/createVmDialog.jsx:1241
+msgid "Create VM from local or network installation medium"
+msgstr ""
 
 #: src/components/vm/vmCloneDialog.jsx:66
 msgid "Create a clone VM based on $0"
@@ -479,7 +489,7 @@ msgstr "Nykyinen"
 msgid "Current allocation"
 msgstr "Nykyinen kohdentaminen"
 
-#: src/components/vm/overview/firmware.jsx:114
+#: src/components/vm/overview/firmware.jsx:115
 msgid "Custom firmware: $0"
 msgstr "Mukautettu laiteohjelmisto: $0"
 
@@ -492,21 +502,34 @@ msgstr "Mukautettu polku"
 msgid "DHCP Settings"
 msgstr "DHCP-asetukset"
 
-#: src/components/networks/network.jsx:161
+#: src/components/networks/network.jsx:162
 #: src/components/storagePools/storagePool.jsx:162
 msgid "Deactivate"
 msgstr "Deaktivoi"
 
-#: src/components/vm/deleteDialog.jsx:157 src/components/vm/vmActions.jsx:379
-#: src/components/vm/vmActions.jsx:386 src/components/networks/network.jsx:143
-#: src/components/networks/network.jsx:145
-#: src/components/storagePools/storagePoolDelete.jsx:186
-#: src/components/storagePools/storagePoolDelete.jsx:221
-#: src/components/storagePools/storagePoolDelete.jsx:231
+#: src/components/vm/deleteDialog.jsx:160 src/components/vm/vmActions.jsx:379
+#: src/components/vm/vmActions.jsx:386 src/components/networks/network.jsx:144
+#: src/components/networks/network.jsx:146
+#: src/components/storagePools/storagePoolDelete.jsx:194
+#: src/components/storagePools/storagePoolDelete.jsx:230
+#: src/components/storagePools/storagePoolDelete.jsx:240
 #: src/components/common/deleteResource.jsx:71
-#: src/components/common/deleteResource.jsx:109
+#: src/components/common/deleteResource.jsx:110
 msgid "Delete"
 msgstr "Poista"
+
+#: src/components/vm/deleteDialog.jsx:155
+#, fuzzy
+#| msgid "Delete $0 volume"
+#| msgid_plural "Delete $0 volumes"
+msgid "Delete $0 VM?"
+msgstr "Poista $0 taltio"
+
+#: src/components/storagePools/storagePoolDelete.jsx:186
+#, fuzzy
+#| msgid "Delete storage pool $0"
+msgid "Delete $0 storage pool?"
+msgstr "Poista varastointivaranto $0"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:62
 msgid "Delete $0 volume"
@@ -514,35 +537,23 @@ msgid_plural "Delete $0 volumes"
 msgstr[0] "Poista $0 taltio"
 msgstr[1] "Poista $0 taltiota"
 
-#: src/components/vm/deleteDialog.jsx:87
+#: src/components/vm/deleteDialog.jsx:88
 msgid "Delete associated storage files:"
 msgstr "Poista liittyvät tallennustiedostot:"
 
-#: src/components/storagePools/storagePoolDelete.jsx:165
-msgid "Delete content"
-msgstr "Poista sisältö"
-
 #: src/components/networks/network.jsx:134
-msgid "Delete network $0"
+#, fuzzy
+#| msgid "Delete network $0"
+msgid "Delete network?"
 msgstr "Poista verkko $0"
 
-#: src/components/vm/nics/vmNicsCard.jsx:376
-msgid "Delete network interface $0"
-msgstr "Poista verkkoliitäntä $0"
-
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-msgid "Delete snapshot $0"
+#, fuzzy
+#| msgid "Delete snapshot $0"
+msgid "Delete snapshot?"
 msgstr "Poista tilannevedos $0"
 
-#: src/components/storagePools/storagePoolDelete.jsx:179
-msgid "Delete storage pool $0"
-msgstr "Poista varastointivaranto $0"
-
-#: src/components/storagePools/storagePoolDelete.jsx:168
-msgid "Delete the volumes inside this pool"
-msgstr "Poista tämän varannon sisäiset taltiot"
-
-#: src/components/storagePools/storagePoolDelete.jsx:171
+#: src/components/storagePools/storagePoolDelete.jsx:177
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -550,7 +561,7 @@ msgstr ""
 "Passiivisen varastointivarannon poistaminen poistaa vain määrittelyn "
 "varannosta. Sen sisältöä ei poisteta."
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:72
 msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr ""
 "Jaettujen kansioiden poistaminen on mahdollista vain, kun vieras on "
@@ -573,7 +584,7 @@ msgstr "Kohde URI"
 msgid "Destination URI must not be empty"
 msgstr "Kohde URI ei voi olla tyhjä"
 
-#: src/components/storagePools/storagePoolDelete.jsx:93
+#: src/components/storagePools/storagePoolDelete.jsx:95
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
@@ -584,12 +595,13 @@ msgstr ""
 msgid "Details"
 msgstr "Yksityiskohdat"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.jsx:198
 #: src/components/vm/disks/diskAdd.jsx:334
-#: src/components/vm/disks/vmDiskColumns.jsx:50
+#: src/components/vm/disks/vmDiskColumns.jsx:34
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/vm/hostdevs/hostDevCard.jsx:130
+#: src/components/vm/hostdevs/hostDevCard.jsx:102
+#: src/components/vm/hostdevs/hostDevCard.jsx:247
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:114
 #: src/components/vm/overview/bootOrder.jsx:146
@@ -616,13 +628,9 @@ msgstr "Yhteys katkaistu"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Irrotettu sarjakonsolista. Napsauta yhdistä-painiketta."
 
-#: src/components/vm/disks/vmDisksCard.jsx:288
+#: src/components/vm/disks/vmDisksCard.jsx:272
 msgid "Disk $0 could not be removed"
 msgstr "Levyä $0 ei voitu poistaa"
-
-#: src/components/vm/disks/vmDisksCard.jsx:280
-msgid "Disk $0 fail to get detached from VM $1"
-msgstr "Levyä $0 ei voida irrottaa virtuaalikoneesta $1"
 
 #: src/components/vm/disks/diskAdd.jsx:632
 msgid "Disk failed to be attached"
@@ -741,7 +749,7 @@ msgstr "Poistutaan levykuvasta isännän tiedostojärjestelmässä"
 msgid "Expand"
 msgstr "Laajenna"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:246
 msgid "Extended attributes"
 msgstr "Laajennetut määreet"
 
@@ -749,7 +757,7 @@ msgstr "Laajennetut määreet"
 msgid "Failed"
 msgstr "Epäonnistui"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:159
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:164
 msgid "Failed to add shared directory"
 msgstr "Jaetun hakemiston lisäys epäonnistui"
 
@@ -785,7 +793,7 @@ msgstr "Näppäimen Ctrl+Alt+$0 lähettäminen virtuaalikoneeseen $1 epäonnistu
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "Alle virtuaalisten suorittimien enimmäismäärän tulisi olla käytössä."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:49
+#: src/components/vm/disks/vmDiskColumns.jsx:33
 #: src/components/vm/overview/bootOrder.jsx:106
 msgid "File"
 msgstr "Tiedosto"
@@ -863,12 +871,12 @@ msgstr "Git"
 msgid "Go to VMs list"
 msgstr "Siirry virtuaalikoneiden luetteloon"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:236
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:182
 msgid "Hide additional options"
 msgstr "Piilota lisävaihtoehdot"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:54
+#: src/components/vm/disks/vmDiskColumns.jsx:38
 #: src/components/vm/overview/bootOrder.jsx:111
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
@@ -882,6 +890,10 @@ msgstr "Isäntälaite"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:194
 msgid "Host device could not be attached"
 msgstr "Isäntälaitetta ei voitu liittää"
+
+#: src/components/vm/hostdevs/hostDevCard.jsx:258
+msgid "Host device will be removed from $0:"
+msgstr ""
 
 #: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
@@ -1024,7 +1036,7 @@ msgstr "Asennuslähteen ei tulisi olla tyhjä"
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:173
+#: src/components/vm/hostdevs/hostDevCard.jsx:135
 msgid "Interface"
 msgstr "Liitäntä"
 
@@ -1086,13 +1098,13 @@ msgstr "Jätä salasana tyhjäksi, jos et halua käyttäjätilin luomista"
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr "Jätä salasana tyhjäksi, jos et halua root:n tilin luomista"
 
-#: src/components/vm/overview/firmware.jsx:157
+#: src/components/vm/overview/firmware.jsx:158
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
 "Libvirt ei havainnut isäntään asennettuja UEFI/OVMF-laiteohjelmistokuvia"
 
-#: src/components/vm/overview/firmware.jsx:151
+#: src/components/vm/overview/firmware.jsx:152
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt tai hypervisori ei tue UEFI:a"
 
@@ -1229,7 +1241,7 @@ msgid "Mode"
 msgstr "Tila"
 
 #: src/components/vm/nics/nicBody.jsx:50
-#: src/components/vm/hostdevs/hostDevCard.jsx:202
+#: src/components/vm/hostdevs/hostDevCard.jsx:206
 msgid "Model"
 msgstr "Malli"
 
@@ -1237,20 +1249,21 @@ msgstr "Malli"
 msgid "Model type"
 msgstr "Mallityyppi"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:220
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:225
 msgid "More info for mount tag field"
 msgstr "Lisätietoja liitostunnistekentästä"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:200
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:205
 msgid "More info for source path field"
 msgstr "Lisätietoja lähteen polkukentästä"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:48
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:217
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:66
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:222
 msgid "Mount tag"
 msgstr "Liitostunniste"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:132
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:137
 msgid "Mount tag must not be empty"
 msgstr "Liitostunnus ei voi olla tyhjä"
 
@@ -1316,6 +1329,12 @@ msgstr "Verkkoa $0 ei voitu aktivoida"
 msgid "Network $0 failed to get deactivated"
 msgstr "Verkkoa $0 ei voitu poistaa käytöstä"
 
+#: src/components/networks/network.jsx:136
+#, fuzzy
+#| msgid "Network $0 could not be deleted"
+msgid "Network $0 will be permanently deleted."
+msgstr "Verkkoa $0 ei voitu poistaa"
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:354
 msgid "Network boot (PXE)"
 msgstr "Verkkokäynnistys (PXE)"
@@ -1325,7 +1344,15 @@ msgid "Network file system"
 msgstr "Verkkotiedostojärjestelmä"
 
 #: src/components/vm/nics/vmNicsCard.jsx:377
-msgid "Network interface $0 could not be deleted"
+#, fuzzy
+#| msgid "Network interface $0 could not be deleted"
+msgid "Network interface $0 could not be removed"
+msgstr "Verkkoliitäntää $0 ei voitu poistaa"
+
+#: src/components/vm/nics/vmNicsCard.jsx:378
+#, fuzzy
+#| msgid "Network interface $0 could not be deleted"
+msgid "Network interface $0 will be removed from $1"
 msgstr "Verkkoliitäntää $0 ei voitu poistaa"
 
 #: src/components/vm/nics/nicEdit.jsx:131 src/components/vm/nics/nicAdd.jsx:155
@@ -1374,12 +1401,12 @@ msgstr "Ei yhteytta saatavilla"
 msgid "No description"
 msgstr "Ei kuvausta"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:87
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:92
 msgid "No directories shared between the host and this VM"
 msgstr ""
 "Isäntäkoneen ja tämän virtuaalikoneen välillä ei ole jaettuja hakemistoja"
 
-#: src/components/vm/disks/vmDisksCard.jsx:316
+#: src/components/vm/disks/vmDisksCard.jsx:308
 msgid "No disks defined for this VM"
 msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
 
@@ -1387,7 +1414,7 @@ msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
 msgid "No host device selected"
 msgstr "Isäntälaitetta ei valittu"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:293
+#: src/components/vm/hostdevs/hostDevCard.jsx:317
 msgid "No host devices assigned to this VM"
 msgstr "Tälle virtuaalikoneelle ei ole määritetty isäntälaitteita"
 
@@ -1395,7 +1422,7 @@ msgstr "Tälle virtuaalikoneelle ei ole määritetty isäntälaitteita"
 msgid "No network devices"
 msgstr "Ei verkkolaitteita"
 
-#: src/components/vm/nics/vmNicsCard.jsx:444
+#: src/components/vm/nics/vmNicsCard.jsx:447
 msgid "No network interfaces defined for this VM"
 msgstr "Tälle virtuaalikoneelle ei ole määritetty verkkoliitäntöjä"
 
@@ -1439,7 +1466,13 @@ msgstr "Tälle varastointivarannolle ei ole määritetty varastointitaltioita"
 msgid "No virtual networks"
 msgstr "Ei virtuaaliverkkoja"
 
-#: src/components/networks/network.jsx:142
+#: src/components/storagePools/storagePoolDelete.jsx:176
+#, fuzzy
+#| msgid "No storage volumes defined for this storage pool"
+msgid "No volumes exist in this storage pool."
+msgstr "Tälle varastointivarannolle ei ole määritetty varastointitaltioita"
+
+#: src/components/networks/network.jsx:143
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -1447,7 +1480,7 @@ msgstr ""
 "Ei-pysyvää verkkoa ei voida poistaa. Se lakkaa olemasta, kun se "
 "deaktivoidaan."
 
-#: src/components/storagePools/storagePoolDelete.jsx:210
+#: src/components/storagePools/storagePoolDelete.jsx:219
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -1503,10 +1536,10 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Vanhempi-tilannevedos"
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:61
 #: src/components/vm/disks/diskEdit.jsx:39
-#: src/components/vm/hostdevs/hostDevCard.jsx:165
-#: src/components/vm/hostdevs/hostDevCard.jsx:169
+#: src/components/vm/hostdevs/hostDevCard.jsx:127
+#: src/components/vm/hostdevs/hostDevCard.jsx:131
 msgid "Path"
 msgstr "Polku"
 
@@ -1571,9 +1604,9 @@ msgstr "Anna uusi taltion nimi"
 msgid "Please start the virtual machine to access its console."
 msgstr "Käynnistä virtuaalikone päästäksesi sen konsoliin."
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:69
 #: src/components/vm/disks/diskAdd.jsx:123
-#: src/components/vm/disks/vmDiskColumns.jsx:52
+#: src/components/vm/disks/vmDiskColumns.jsx:36
 #: src/components/vm/overview/bootOrder.jsx:109
 msgid "Pool"
 msgstr "Varanto"
@@ -1590,12 +1623,12 @@ msgstr "Varannon tyyppi $0 ei tue taltion luomista"
 msgid "Pool type doesn't support volume creation"
 msgstr "Varannon tyyppi ei tue taltion luomista"
 
-#: src/components/storagePools/storagePoolDelete.jsx:91
+#: src/components/storagePools/storagePoolDelete.jsx:93
 msgid "Pool's volumes are used by VMs "
 msgstr "Varannon taltioita käyttävät virtuaalikoneet "
 
 #: src/components/vm/nics/vmNicsCard.jsx:283
-#: src/components/vm/disks/vmDiskColumns.jsx:55
+#: src/components/vm/disks/vmDiskColumns.jsx:39
 #: src/components/vm/overview/bootOrder.jsx:112
 #: src/components/vm/overview/bootOrder.jsx:128
 msgid "Port"
@@ -1630,6 +1663,8 @@ msgid "Private"
 msgstr "Yksityinen"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
+#: src/components/vm/hostdevs/hostDevCard.jsx:240
+#: src/components/vm/hostdevs/hostDevCard.jsx:246
 #: src/components/vm/overview/bootOrder.jsx:141
 #: src/components/vm/overview/bootOrder.jsx:156
 msgid "Product"
@@ -1639,8 +1674,8 @@ msgstr "Tuote"
 msgid "Profile"
 msgstr "Profiili"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:51
-#: src/components/vm/hostdevs/hostDevCard.jsx:156
+#: src/components/vm/disks/vmDiskColumns.jsx:35
+#: src/components/vm/hostdevs/hostDevCard.jsx:118
 #: src/components/vm/overview/bootOrder.jsx:108
 #: src/components/vm/overview/bootOrder.jsx:172
 msgid "Protocol"
@@ -1670,7 +1705,7 @@ msgid "Range"
 msgstr "Alue"
 
 #: src/components/vm/disks/diskEdit.jsx:120
-#: src/components/vm/disks/vmDisksCard.jsx:260
+#: src/components/vm/disks/vmDisksCard.jsx:242
 msgid "Read-only"
 msgstr "Vain luku"
 
@@ -1686,27 +1721,41 @@ msgstr "Etä-URL"
 msgid "Remote viewer details"
 msgstr "Etäkatseluohjelman yksityiskohdat"
 
+#: src/components/vm/nics/vmNicsCard.jsx:380
+#: src/components/vm/nics/vmNicsCard.jsx:387
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:59
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
-#: src/components/vm/disks/vmDisksCard.jsx:286
-#: src/components/vm/disks/vmDisksCard.jsx:298
-#: src/components/vm/hostdevs/hostDevCard.jsx:232
-#: src/components/vm/hostdevs/hostDevCard.jsx:289
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:68
+#: src/components/vm/disks/vmDisksCard.jsx:271
+#: src/components/vm/disks/vmDisksCard.jsx:290
+#: src/components/vm/hostdevs/hostDevCard.jsx:254
+#: src/components/vm/hostdevs/hostDevCard.jsx:313
 #: src/components/networks/networkOverviewTab.jsx:72
 msgid "Remove"
 msgstr "Poista"
 
-#: src/components/vm/disks/vmDisksCard.jsx:287
-msgid "Remove disk $0"
+#: src/components/vm/disks/vmDisksCard.jsx:270
+#, fuzzy
+#| msgid "Remove disk $0"
+msgid "Remove disk from VM?"
 msgstr "Poista levy $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-msgid "Remove filesystem $0"
+#, fuzzy
+#| msgid "Remove filesystem $0"
+msgid "Remove filesystem?"
 msgstr "Poista tiedostojärjestelmä $0"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:234
-msgid "Remove host device"
+#: src/components/vm/hostdevs/hostDevCard.jsx:256
+#, fuzzy
+#| msgid "Remove host device"
+msgid "Remove host device from VM?"
 msgstr "Poista isäntälaite"
+
+#: src/components/vm/nics/vmNicsCard.jsx:376
+#, fuzzy
+#| msgid "Add network interface"
+msgid "Remove network interface?"
+msgstr "Lisää verkkoliitäntä"
 
 #: src/components/networks/networkOverviewTab.jsx:65
 msgid "Remove static host from DHCP"
@@ -1800,7 +1849,7 @@ msgstr "Lähetä avain"
 msgid "Send non-maskable interrupt"
 msgstr "Lähetä ei-peitettävä keskeytys"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:83
+#: src/components/vm/disks/vmDiskColumns.jsx:96
 msgid "Serial"
 msgstr "Sarjanumero"
 
@@ -1828,11 +1877,11 @@ msgstr ""
 "Käyttäjän salasanojen asettaminen valvomatonta asennusta varten edellyttää "
 "virtuaalikoneen käynnistämistä sen luomisen yhteydessä"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:163
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
 msgid "Share"
 msgstr "Jako"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:156
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:161
 msgid "Share a host directory with the guest"
 msgstr "Jaa isäntähakemisto vieraalle"
 
@@ -1841,7 +1890,7 @@ msgid "Shared directories"
 msgstr "Jaetut hakemistot"
 
 #: src/components/vm/vmDetailsPage.jsx:208
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:179
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "Jaetut isäntähakemistot on liitettävä manuaalisesti virtuaalikoneessa"
 
@@ -1849,7 +1898,7 @@ msgstr "Jaetut isäntähakemistot on liitettävä manuaalisesti virtuaalikoneess
 msgid "Shared storage"
 msgstr "Jaettu tallennustila"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:236
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:182
 msgid "Show additional options"
 msgstr "Näytä lisävaihtoehdot"
@@ -1862,7 +1911,7 @@ msgstr "Sammuta"
 msgid "Shut off"
 msgstr "Sammuta"
 
-#: src/components/vm/overview/firmware.jsx:138
+#: src/components/vm/overview/firmware.jsx:139
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Sammuta virtuaalikone, jotta voit muokata laiteohjelmiston kokoonpanoa"
 
@@ -1877,8 +1926,9 @@ msgid "Size"
 msgstr "Koko"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:101
-#: src/components/vm/hostdevs/hostDevCard.jsx:143
-#: src/components/vm/hostdevs/hostDevCard.jsx:150
+#: src/components/vm/hostdevs/hostDevCard.jsx:105
+#: src/components/vm/hostdevs/hostDevCard.jsx:112
+#: src/components/vm/hostdevs/hostDevCard.jsx:241
 #: src/components/vm/overview/bootOrder.jsx:160
 msgid "Slot"
 msgstr "Aukko"
@@ -1886,6 +1936,15 @@ msgstr "Aukko"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:182
 msgid "Snapshot $0 could not be deleted"
 msgstr "Tilannevedosta $0 ei voitu poistaa"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:183
+#, fuzzy
+#| msgid "After deleting the snapshot, all its captured content will be lost."
+msgid ""
+"Snapshot $0 will be deleted from $1. All of its captured content will be "
+"lost."
+msgstr ""
+"Tilannevedoksen poistamisen jälkeen kaikki siepattu sisältö menetetään."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
@@ -1901,9 +1960,9 @@ msgstr "Pistokkeet"
 
 #: src/components/vm/nics/nicBody.jsx:197
 #: src/components/vm/nics/vmNicsCard.jsx:278
-#: src/components/vm/disks/vmDisksCard.jsx:234
+#: src/components/vm/disks/vmDisksCard.jsx:216
 #: src/components/vm/disks/diskAdd.jsx:654
-#: src/components/vm/hostdevs/hostDevCard.jsx:220
+#: src/components/vm/hostdevs/hostDevCard.jsx:224
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
 msgid "Source"
 msgstr "Lähde"
@@ -1912,12 +1971,13 @@ msgstr "Lähde"
 msgid "Source format"
 msgstr "Lähteen muoto"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:134
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:139
 msgid "Source must not be empty"
 msgstr "Lähde ei saa olla tyhjä"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:48
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:197
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:202
 #: src/components/storagePools/storagePoolOverviewTab.jsx:41
 #: src/components/storagePools/storagePoolOverviewTab.jsx:46
 #: src/components/storagePools/createStoragePoolDialog.jsx:173
@@ -2050,7 +2110,8 @@ msgstr "Järjestelmä"
 msgid "Table of selectable host devices"
 msgstr "Taulukko valittavista olevista isäntälaitteista"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:151
+#: src/components/vm/disks/vmDisksCard.jsx:275
+#: src/components/vm/hostdevs/hostDevCard.jsx:113
 #: src/components/vm/overview/bootOrder.jsx:166
 msgid "Target"
 msgstr "Kohde"
@@ -2072,13 +2133,15 @@ msgstr "Väliaikainen"
 msgid "Temporary migration"
 msgstr "Väliaikainen migraatio"
 
-#: src/components/vm/deleteDialog.jsx:81
-msgid "The VM is running and will be forced off before deletion."
+#: src/components/vm/deleteDialog.jsx:82
+#, fuzzy
+#| msgid "The VM is running and will be forced off before deletion."
+msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 "Virtuaalikone on käynnissä ja se pakotetaan pois päältä ennen poistamista."
 
-#: src/components/vm/nics/vmNicsCard.jsx:385
-#: src/components/vm/disks/vmDisksCard.jsx:297
+#: src/components/vm/nics/vmNicsCard.jsx:388
+#: src/components/vm/disks/vmDisksCard.jsx:289
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "Virtuaalikoneen on oltava käynnissä tai sammutettuna laitteen irrottamiseksi"
@@ -2087,7 +2150,7 @@ msgstr ""
 msgid "The directory on the server being exported"
 msgstr "Viedyn palvelimen hakemisto"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:199
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:204
 msgid "The host path that is to be exported."
 msgstr "Vietävä isäntäpolku."
 
@@ -2116,18 +2179,26 @@ msgstr "Valitun käyttöjärjestelmän tallennustilan vähimmäisvaatimus on $0 
 msgid "The static host entry for $0 will be removed:"
 msgstr "Staattinen isäntämerkintä $0:lle poistetaan:"
 
-#: src/components/storagePools/storagePoolDelete.jsx:137
-#: src/components/storagePools/storagePoolDelete.jsx:141
+#: src/components/storagePools/storagePoolDelete.jsx:139
+#: src/components/storagePools/storagePoolDelete.jsx:143
 msgid "The storage pool could not be deleted"
 msgstr "Tallennusvarantoa ei voitu poistaa"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:219
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:224
 msgid "The tag name to be used by the guest to mount this export point."
 msgstr "Tunnisteen nimi, jota vieras käyttää tämän vientipisteen liittämiseen."
 
 #: src/components/vm/vmActions.jsx:375
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Tämä virtuaalikone on ohimenevä. Sammuta se, jos haluat poistaa sen."
+
+#: src/components/vm/disks/vmDisksCard.jsx:273
+msgid "This disk will be removed from $0:"
+msgstr ""
+
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
+msgid "This filesystem will be removed from $0:"
+msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:86
 msgid ""
@@ -2172,7 +2243,7 @@ msgstr "Tätä taltiota käyttää jo: "
 msgid "Threads per core"
 msgstr "Säikeitä per ydin"
 
-#: src/components/vm/overview/firmware.jsx:144
+#: src/components/vm/overview/firmware.jsx:145
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr ""
 "Ohimenevät virtuaalikoneet eivät tue laiteohjelmiston kokoonpanon "
@@ -2184,7 +2255,7 @@ msgstr "Vianetsintä"
 
 #: src/components/vm/nics/vmNicsCard.jsx:228
 #: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/hostdevs/hostDevCard.jsx:184
+#: src/components/vm/hostdevs/hostDevCard.jsx:188
 #: src/components/vm/overview/bootOrder.jsx:126
 #: src/components/vm/overview/bootOrder.jsx:139
 #: src/components/vm/overview/bootOrder.jsx:154
@@ -2208,7 +2279,7 @@ msgstr "URL (ISO-kuvan tai jakelun asennuspuu)"
 msgid "USB"
 msgstr "USB"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:161
+#: src/components/vm/hostdevs/hostDevCard.jsx:123
 msgid "UUID"
 msgstr "UUID"
 
@@ -2236,12 +2307,12 @@ msgstr "Yksikkö"
 msgid "Unknown"
 msgstr "Tuntematon"
 
-#: src/components/vm/overview/firmware.jsx:116
+#: src/components/vm/overview/firmware.jsx:117
 msgid "Unknown firmware"
 msgstr "Tuntematon laiteohjelmisto"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:124
-#: src/components/vm/hostdevs/hostDevCard.jsx:125
+#: src/components/vm/hostdevs/hostDevCard.jsx:96
+#: src/components/vm/hostdevs/hostDevCard.jsx:97
 #: src/components/vm/overview/bootOrder.jsx:145
 #: src/components/vm/overview/bootOrder.jsx:146
 msgid "Unspecified"
@@ -2259,7 +2330,7 @@ msgstr "Käyttö"
 msgid "Use existing"
 msgstr "Käytä olemassaolevaa"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:244
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:249
 msgid "Use extended attributes on files and directories"
 msgstr "Käytä laajennettuja määritteitä tiedostoissa ja hakemistoissa"
 
@@ -2273,7 +2344,7 @@ msgstr ""
 "voi olla jaettu tallennustila, NFS tai mikä tahansa muu tapa jakaa "
 "tallennustilaa."
 
-#: src/components/vm/disks/vmDisksCard.jsx:226
+#: src/components/vm/disks/vmDisksCard.jsx:208
 msgid "Used"
 msgstr "Käytetty"
 
@@ -2309,7 +2380,7 @@ msgstr "Käyttäjäistunto"
 msgid "VCPU settings could not be saved"
 msgstr "VCPU:n asetuksia ei voitu tallentaa"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:290
+#: src/components/vm/hostdevs/hostDevCard.jsx:314
 msgid "VM $0 Host Devices"
 msgstr "VM $0 isäntälaitteet"
 
@@ -2329,7 +2400,7 @@ msgstr "Virtuaalikoneen $0 uudelleenkäynnistyksen pakottaminen epäonnistui"
 msgid "VM $0 failed to force shutdown"
 msgstr "Virtuaalikone $0 epäonnistui pakottamaan sammutus"
 
-#: src/components/vm/deleteDialog.jsx:144
+#: src/components/vm/deleteDialog.jsx:145
 msgid "VM $0 failed to get deleted"
 msgstr "Virtuaalikone $0 epäonnistui saamaan itse poistetuksi"
 
@@ -2382,7 +2453,9 @@ msgid "VNC port"
 msgstr "VNC-portti"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:129
-#: src/components/vm/hostdevs/hostDevCard.jsx:211
+#: src/components/vm/hostdevs/hostDevCard.jsx:215
+#: src/components/vm/hostdevs/hostDevCard.jsx:239
+#: src/components/vm/hostdevs/hostDevCard.jsx:245
 #: src/components/vm/overview/bootOrder.jsx:140
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Vendor"
@@ -2417,8 +2490,8 @@ msgstr "Virtuaaliverkon luominen epäonnistui"
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualisointipalvelu (libvirt) ei ole aktiivinen"
 
-#: src/components/vm/deleteDialog.jsx:65 src/components/vm/disks/diskAdd.jsx:89
-#: src/components/vm/disks/vmDiskColumns.jsx:53
+#: src/components/vm/deleteDialog.jsx:66 src/components/vm/disks/diskAdd.jsx:89
+#: src/components/vm/disks/vmDiskColumns.jsx:37
 #: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/create-vm-dialog/createVmDialog.jsx:709
 msgid "Volume"
@@ -2436,22 +2509,22 @@ msgstr "Taltioryhmän nimi"
 msgid "Volume group name should not be empty"
 msgstr "Taltioryhmän nimi ei tulisi olla tyhjä"
 
-#: src/components/vm/hostdevs/hostDevCard.jsx:157
+#: src/components/vm/hostdevs/hostDevCard.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:173
 msgid "WWPN"
 msgstr "WWPN"
 
 #: src/components/vm/disks/diskEdit.jsx:129
-#: src/components/vm/disks/vmDisksCard.jsx:260
+#: src/components/vm/disks/vmDisksCard.jsx:242
 msgid "Writeable"
 msgstr "Kirjoitettava"
 
 #: src/components/vm/disks/diskEdit.jsx:138
-#: src/components/vm/disks/vmDisksCard.jsx:260
+#: src/components/vm/disks/vmDisksCard.jsx:242
 msgid "Writeable and shared"
 msgstr "Kirjoitettava ja jaettu"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:176
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:181
 msgid "You can mount the shared folder using:"
 msgstr "Voit liittää jaetun kansion seuraavasti:"
 
@@ -2562,12 +2635,12 @@ msgstr "monilähetys"
 
 #: src/components/vm/vmDetailsPage.jsx:221
 #: src/components/vm/nics/nicBody.jsx:112
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:188
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:193
 msgid "more info"
 msgstr "lisätietoja"
 
 #: src/components/vm/vmDetailsPage.jsx:217
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:184
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:189
 msgid "mount point: The mount point inside the guest"
 msgstr "liitoskohta: liitoskohta vieraskoneessa"
 
@@ -2686,6 +2759,15 @@ msgstr "vm"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72 src/helpers.js:271
 msgid "yes"
 msgstr "kyllä"
+
+#~ msgid "Delete content"
+#~ msgstr "Poista sisältö"
+
+#~ msgid "Delete network interface $0"
+#~ msgstr "Poista verkkoliitäntä $0"
+
+#~ msgid "Disk $0 fail to get detached from VM $1"
+#~ msgstr "Levyä $0 ei voida irrottaa virtuaalikoneesta $1"
 
 #~ msgid "Session"
 #~ msgstr "Istunto"
