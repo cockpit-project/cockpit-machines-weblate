@@ -12,10 +12,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-19 03:45+0000\n"
-"PO-Revision-Date: 2022-05-12 10:52+0000\n"
+"PO-Revision-Date: 2022-05-21 10:17+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -187,10 +187,8 @@ msgstr ""
 "interpunkcyjne (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:170
-#, fuzzy
-#| msgid "Delete the volumes inside this pool"
 msgid "Also delete all volumes inside this pool:"
-msgstr "Usuń woluminy wewnątrz tej puli"
+msgstr "Usunięcie także wszystkich woluminów wewnątrz tej puli:"
 
 #: src/components/vm/nics/nicAdd.jsx:88 src/components/vm/disks/diskAdd.jsx:110
 msgid "Always attach"
@@ -411,10 +409,12 @@ msgstr "Utwórz maszynę wirtualną"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1242
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
+"Utwórz maszynę wirtualną przez zaimportowanie obrazu dysku istniejącej "
+"instalacji maszyny wirtualnej"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1241
 msgid "Create VM from local or network installation medium"
-msgstr ""
+msgstr "Utwórz maszynę wirtualną z lokalnego lub sieciowego nośnika instalacji"
 
 #: src/components/vm/vmCloneDialog.jsx:66
 msgid "Create a clone VM based on $0"
@@ -526,17 +526,12 @@ msgid "Delete"
 msgstr "Usuń"
 
 #: src/components/vm/deleteDialog.jsx:155
-#, fuzzy
-#| msgid "Delete $0 volume"
-#| msgid_plural "Delete $0 volumes"
 msgid "Delete $0 VM?"
-msgstr "Usuń $0 wolumin"
+msgstr "Usunąć maszynę wirtualną $0?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:186
-#, fuzzy
-#| msgid "Delete storage pool $0"
 msgid "Delete $0 storage pool?"
-msgstr "Usuń pulę urządzeń do przechowywania danych $0"
+msgstr "Usunąć pulę urządzeń do przechowywania danych $0?"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:62
 msgid "Delete $0 volume"
@@ -550,16 +545,12 @@ msgid "Delete associated storage files:"
 msgstr "Usunięcie powiązanych plików urządzeń do przechowywania danych:"
 
 #: src/components/networks/network.jsx:134
-#, fuzzy
-#| msgid "Delete network $0"
 msgid "Delete network?"
-msgstr "Usuń sieć $0"
+msgstr "Usunąć sieć?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-#| msgid "Delete snapshot $0"
 msgid "Delete snapshot?"
-msgstr "Usuń migawkę $0"
+msgstr "Usunąć migawkę?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:177
 msgid ""
@@ -902,7 +893,7 @@ msgstr "Nie można podłączyć urządzenia gospodarza"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:258
 msgid "Host device will be removed from $0:"
-msgstr ""
+msgstr "Urządzenie gospodarza zostanie usunięte z $0:"
 
 #: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
@@ -1346,10 +1337,8 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Dezaktywacja sieci $0 się nie powiodła"
 
 #: src/components/networks/network.jsx:136
-#, fuzzy
-#| msgid "Network $0 could not be deleted"
 msgid "Network $0 will be permanently deleted."
-msgstr "Nie można usunąć sieci $0"
+msgstr "Sieć $0 zostanie trwale usunięta."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:354
 msgid "Network boot (PXE)"
@@ -1360,16 +1349,12 @@ msgid "Network file system"
 msgstr "NFS"
 
 #: src/components/vm/nics/vmNicsCard.jsx:377
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 could not be removed"
 msgstr "Nie można usunąć interfejsu sieciowego $0"
 
 #: src/components/vm/nics/vmNicsCard.jsx:378
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 will be removed from $1"
-msgstr "Nie można usunąć interfejsu sieciowego $0"
+msgstr "Interfejs sieciowy $0 zostanie usunięty z $1"
 
 #: src/components/vm/nics/nicEdit.jsx:131 src/components/vm/nics/nicAdd.jsx:155
 msgid "Network interface settings could not be saved"
@@ -1486,12 +1471,9 @@ msgid "No virtual networks"
 msgstr "Brak sieci wirtualnych"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
 msgstr ""
-"Dla tej puli urządzeń do przechowywania danych nie określono żadnych "
-"woluminów urządzeń do przechowywania danych"
+"W tej puli urządzeń do przechowywania danych nie istnieją żadne woluminy."
 
 #: src/components/networks/network.jsx:143
 msgid ""
@@ -1756,28 +1738,20 @@ msgid "Remove"
 msgstr "Usuń"
 
 #: src/components/vm/disks/vmDisksCard.jsx:270
-#, fuzzy
-#| msgid "Remove disk $0"
 msgid "Remove disk from VM?"
-msgstr "Usuń dysk $0"
+msgstr "Usunąć dysk z maszyny wirtualnej?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "Remove filesystem $0"
 msgid "Remove filesystem?"
-msgstr "Usuń system plików $0"
+msgstr "Usunąć system plików?"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:256
-#, fuzzy
-#| msgid "Remove host device"
 msgid "Remove host device from VM?"
-msgstr "Usuń urządzenie gospodarza"
+msgstr "Usunąć urządzenie gospodarza z maszyny wirtualnej?"
 
 #: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "Dodaj interfejs sieciowy"
+msgstr "Usunąć interfejs sieciowy?"
 
 #: src/components/networks/networkOverviewTab.jsx:65
 msgid "Remove static host from DHCP"
@@ -1964,12 +1938,10 @@ msgid "Snapshot $0 could not be deleted"
 msgstr "Nie można usunąć migawki $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:183
-#, fuzzy
-#| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
-msgstr "Po usunięciu migawki cała jej treść zostanie utracona."
+msgstr "Migawka $0 zostanie usunięta z $1. Cała jej treść zostanie utracona."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
@@ -2163,12 +2135,10 @@ msgid "Temporary migration"
 msgstr "Migracja tymczasowa"
 
 #: src/components/vm/deleteDialog.jsx:82
-#, fuzzy
-#| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
-"Maszyna wirtualna jest uruchomiona i przed jej usunięciem zostanie wymuszone "
-"jej wyłączenie."
+"Maszyna wirtualna $0 jest uruchomiona i przed jej usunięciem zostanie "
+"wymuszone jej wyłączenie."
 
 #: src/components/vm/nics/vmNicsCard.jsx:388
 #: src/components/vm/disks/vmDisksCard.jsx:289
@@ -2230,11 +2200,11 @@ msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:273
 msgid "This disk will be removed from $0:"
-msgstr ""
+msgstr "Ten dysk zostanie usunięty z $0:"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
-msgstr ""
+msgstr "Ten system plików zostanie usunięty z $0:"
 
 #: src/components/vm/nics/nicBody.jsx:86
 msgid ""
