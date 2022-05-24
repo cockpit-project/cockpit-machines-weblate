@@ -11,10 +11,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-21 03:16+0000\n"
-"PO-Revision-Date: 2022-05-13 19:18+0000\n"
+"PO-Revision-Date: 2022-05-24 09:18+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -180,10 +180,8 @@ msgstr ""
 "işaretleri (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:170
-#, fuzzy
-#| msgid "Delete the volumes inside this pool"
 msgid "Also delete all volumes inside this pool:"
-msgstr "Bu havuzun içindeki birimleri sil"
+msgstr "Ayrıca bu havuzun içindeki tüm birimleri sil:"
 
 #: src/components/vm/disks/diskAdd.jsx:110 src/components/vm/nics/nicAdd.jsx:88
 msgid "Always attach"
@@ -406,10 +404,12 @@ msgstr "Sanal makine oluştur"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1242
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
+"Mevcut bir sanal makine kurulumunun disk kalıbını içe aktararak sanal makine "
+"oluşturun"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1241
 msgid "Create VM from local or network installation medium"
-msgstr ""
+msgstr "Yerel veya ağ kurulum ortamından sanal makine oluşturun"
 
 #: src/components/vm/vmCloneDialog.jsx:66
 msgid "Create a clone VM based on $0"
@@ -521,17 +521,12 @@ msgid "Delete"
 msgstr "Sil"
 
 #: src/components/vm/deleteDialog.jsx:155
-#, fuzzy
-#| msgid "Delete $0 volume"
-#| msgid_plural "Delete $0 volumes"
 msgid "Delete $0 VM?"
-msgstr "$0 birimi sil"
+msgstr "$0 sanal makinesi silinsin mi?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:186
-#, fuzzy
-#| msgid "Delete storage pool $0"
 msgid "Delete $0 storage pool?"
-msgstr "$0 depolama havuzunu sil"
+msgstr "$0 depolama havuzu silinsin mi?"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:62
 msgid "Delete $0 volume"
@@ -544,16 +539,12 @@ msgid "Delete associated storage files:"
 msgstr "İlişkili depolama dosyalarını sil:"
 
 #: src/components/networks/network.jsx:134
-#, fuzzy
-#| msgid "Delete network $0"
 msgid "Delete network?"
-msgstr "$0 ağını sil"
+msgstr "Ağ silinsin mi?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-#| msgid "Delete snapshot $0"
 msgid "Delete snapshot?"
-msgstr "$0 anlık görüntüsünü sil"
+msgstr "Anlık görüntü silinsin mi?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:177
 msgid ""
@@ -892,7 +883,7 @@ msgstr "Anamakine aygıtı eklenemedi"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:258
 msgid "Host device will be removed from $0:"
-msgstr ""
+msgstr "Ana makine $0 sanal makinesinden kaldırılacak:"
 
 #: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
@@ -1329,10 +1320,8 @@ msgid "Network $0 failed to get deactivated"
 msgstr "$0 ağının devre dışı bırakılması başarısız oldu"
 
 #: src/components/networks/network.jsx:136
-#, fuzzy
-#| msgid "Network $0 could not be deleted"
 msgid "Network $0 will be permanently deleted."
-msgstr "$0 ağı silinemedi"
+msgstr "$0 ağı kalıcı olarak silinecek."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:354
 msgid "Network boot (PXE)"
@@ -1343,16 +1332,12 @@ msgid "Network file system"
 msgstr "Ağ dosya sistemi (NFS)"
 
 #: src/components/vm/nics/vmNicsCard.jsx:377
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 could not be removed"
-msgstr "$0 ağ arayüzü silinemedi"
+msgstr "$0 ağ arayüzü kaldırılamadı"
 
 #: src/components/vm/nics/vmNicsCard.jsx:378
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 will be removed from $1"
-msgstr "$0 ağ arayüzü silinemedi"
+msgstr "$0 ağ arayüzü $1 sanal makinesinden kaldırılacak"
 
 #: src/components/vm/nics/nicAdd.jsx:155 src/components/vm/nics/nicEdit.jsx:131
 msgid "Network interface settings could not be saved"
@@ -1465,10 +1450,8 @@ msgid "No virtual networks"
 msgstr "Sanal ağlar yok"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
-msgstr "Bu depolama havuzu için tanımlı depolama birimleri yok"
+msgstr "Bu depolama havuzunda birim yok."
 
 #: src/components/networks/network.jsx:143
 msgid ""
@@ -1730,28 +1713,20 @@ msgid "Remove"
 msgstr "Kaldır"
 
 #: src/components/vm/disks/vmDisksCard.jsx:270
-#, fuzzy
-#| msgid "Remove disk $0"
 msgid "Remove disk from VM?"
-msgstr "$0 diskini kaldır"
+msgstr "Disk sanal makineden kaldırılsın mı?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "Remove filesystem $0"
 msgid "Remove filesystem?"
-msgstr "$0 dosya sistemini kaldır"
+msgstr "Dosya sistemi kaldırılsın mı?"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:256
-#, fuzzy
-#| msgid "Remove host device"
 msgid "Remove host device from VM?"
-msgstr "Anamakine aygıtını kaldır"
+msgstr "Anamakine aygıtı sanal makineden kaldırılsın mı?"
 
 #: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "Ağ arayüzü ekle"
+msgstr "Ağ arayüzü kaldırılsın mı?"
 
 #: src/components/networks/networkOverviewTab.jsx:65
 msgid "Remove static host from DHCP"
@@ -1936,12 +1911,12 @@ msgid "Snapshot $0 could not be deleted"
 msgstr "$0 anlık görüntüsü silinemedi"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:183
-#, fuzzy
-#| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
-msgstr "Anlık görüntüyü sildikten sonra, kaydedilen tüm içeriği kaybolacaktır."
+msgstr ""
+"$0 anlık görüntüsü, $1 sanal makinesinden silinecek. Kaydedilen tüm içeriği "
+"kaybolacaktır."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
@@ -2134,10 +2109,8 @@ msgid "Temporary migration"
 msgstr "Geçici taşıma"
 
 #: src/components/vm/deleteDialog.jsx:82
-#, fuzzy
-#| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
-msgstr "Sanal makine çalışıyor ve silinmeden önce kapanmaya zorlanacaktır."
+msgstr "$0 sanal makinesi çalışıyor ve silinmeden önce kapanmaya zorlanacaktır."
 
 #: src/components/vm/disks/vmDisksCard.jsx:289
 #: src/components/vm/nics/vmNicsCard.jsx:388
@@ -2196,11 +2169,11 @@ msgstr "Bu sanal makine geçicidir. Silmek istiyorsanız kapatın."
 
 #: src/components/vm/disks/vmDisksCard.jsx:273
 msgid "This disk will be removed from $0:"
-msgstr ""
+msgstr "Bu disk $0 sanal makinesinden kaldırılacak:"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
-msgstr ""
+msgstr "Bu dosya sistemi $0 sanal makinesinden kaldırılacak:"
 
 #: src/components/vm/nics/nicBody.jsx:86
 msgid ""
