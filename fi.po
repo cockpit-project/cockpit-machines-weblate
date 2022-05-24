@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-21 03:16+0000\n"
-"PO-Revision-Date: 2022-05-16 16:18+0000\n"
+"PO-Revision-Date: 2022-05-24 09:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,10 +179,8 @@ msgstr ""
 "(-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:170
-#, fuzzy
-#| msgid "Delete the volumes inside this pool"
 msgid "Also delete all volumes inside this pool:"
-msgstr "Poista tämän varannon sisäiset taltiot"
+msgstr "Poista myös tämän varannon sisäiset taltiot:"
 
 #: src/components/vm/disks/diskAdd.jsx:110 src/components/vm/nics/nicAdd.jsx:88
 msgid "Always attach"
@@ -403,11 +401,11 @@ msgstr "Luo VM"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1242
 msgid "Create VM by importing a disk image of an existing VM installation"
-msgstr ""
+msgstr "Luo VM tuomalla levykuva olemassa olevasta VM-asennuksesta"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1241
 msgid "Create VM from local or network installation medium"
-msgstr ""
+msgstr "Luo VM paikalliselta tai verkon asennusvälineeltä"
 
 #: src/components/vm/vmCloneDialog.jsx:66
 msgid "Create a clone VM based on $0"
@@ -519,17 +517,12 @@ msgid "Delete"
 msgstr "Poista"
 
 #: src/components/vm/deleteDialog.jsx:155
-#, fuzzy
-#| msgid "Delete $0 volume"
-#| msgid_plural "Delete $0 volumes"
 msgid "Delete $0 VM?"
-msgstr "Poista $0 taltio"
+msgstr "Poista $0 VM?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:186
-#, fuzzy
-#| msgid "Delete storage pool $0"
 msgid "Delete $0 storage pool?"
-msgstr "Poista varastointivaranto $0"
+msgstr "Poista varastointivaranto $0?"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:62
 msgid "Delete $0 volume"
@@ -542,16 +535,12 @@ msgid "Delete associated storage files:"
 msgstr "Poista liittyvät tallennustiedostot:"
 
 #: src/components/networks/network.jsx:134
-#, fuzzy
-#| msgid "Delete network $0"
 msgid "Delete network?"
-msgstr "Poista verkko $0"
+msgstr "Poista verkko ?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:181
-#, fuzzy
-#| msgid "Delete snapshot $0"
 msgid "Delete snapshot?"
-msgstr "Poista tilannevedos $0"
+msgstr "Poista tilannevedos ?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:177
 msgid ""
@@ -893,7 +882,7 @@ msgstr "Isäntälaitetta ei voitu liittää"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:258
 msgid "Host device will be removed from $0:"
-msgstr ""
+msgstr "Isäntälaite poistetaan $0:sta:"
 
 #: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
@@ -1330,10 +1319,8 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Verkkoa $0 ei voitu poistaa käytöstä"
 
 #: src/components/networks/network.jsx:136
-#, fuzzy
-#| msgid "Network $0 could not be deleted"
 msgid "Network $0 will be permanently deleted."
-msgstr "Verkkoa $0 ei voitu poistaa"
+msgstr "Verkko $0 poistetaan pysyvästi."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:354
 msgid "Network boot (PXE)"
@@ -1344,16 +1331,12 @@ msgid "Network file system"
 msgstr "Verkkotiedostojärjestelmä"
 
 #: src/components/vm/nics/vmNicsCard.jsx:377
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 could not be removed"
 msgstr "Verkkoliitäntää $0 ei voitu poistaa"
 
 #: src/components/vm/nics/vmNicsCard.jsx:378
-#, fuzzy
-#| msgid "Network interface $0 could not be deleted"
 msgid "Network interface $0 will be removed from $1"
-msgstr "Verkkoliitäntää $0 ei voitu poistaa"
+msgstr "Verkkoliitäntä $0 poistetaan kohdasta $1"
 
 #: src/components/vm/nics/nicAdd.jsx:155 src/components/vm/nics/nicEdit.jsx:131
 msgid "Network interface settings could not be saved"
@@ -1467,10 +1450,8 @@ msgid "No virtual networks"
 msgstr "Ei virtuaaliverkkoja"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
-msgstr "Tälle varastointivarannolle ei ole määritetty varastointitaltioita"
+msgstr "Tässä tallennusvarannossa ei ole taltioita."
 
 #: src/components/networks/network.jsx:143
 msgid ""
@@ -1734,28 +1715,20 @@ msgid "Remove"
 msgstr "Poista"
 
 #: src/components/vm/disks/vmDisksCard.jsx:270
-#, fuzzy
-#| msgid "Remove disk $0"
 msgid "Remove disk from VM?"
-msgstr "Poista levy $0"
+msgstr "Poistetaanko levy VM:stä?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "Remove filesystem $0"
 msgid "Remove filesystem?"
-msgstr "Poista tiedostojärjestelmä $0"
+msgstr "Poista tiedostojärjestelmä?"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:256
-#, fuzzy
-#| msgid "Remove host device"
 msgid "Remove host device from VM?"
-msgstr "Poista isäntälaite"
+msgstr "Poista isäntälaite VM:stä?"
 
 #: src/components/vm/nics/vmNicsCard.jsx:376
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "Lisää verkkoliitäntä"
+msgstr "Poista verkkoliitäntä?"
 
 #: src/components/networks/networkOverviewTab.jsx:65
 msgid "Remove static host from DHCP"
@@ -1938,13 +1911,12 @@ msgid "Snapshot $0 could not be deleted"
 msgstr "Tilannevedosta $0 ei voitu poistaa"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:183
-#, fuzzy
-#| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
 msgstr ""
-"Tilannevedoksen poistamisen jälkeen kaikki siepattu sisältö menetetään."
+"Tilannevedos $0 poistetaan kohteesta $1. Kaikki sen kaapattu sisältö "
+"menetetään."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:118
 msgid "Snapshot failed to be created"
@@ -2134,11 +2106,9 @@ msgid "Temporary migration"
 msgstr "Väliaikainen migraatio"
 
 #: src/components/vm/deleteDialog.jsx:82
-#, fuzzy
-#| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
-"Virtuaalikone on käynnissä ja se pakotetaan pois päältä ennen poistamista."
+"Virtuaalikone $0 on käynnissä ja se pakotetaan pois päältä ennen poistamista."
 
 #: src/components/vm/disks/vmDisksCard.jsx:289
 #: src/components/vm/nics/vmNicsCard.jsx:388
@@ -2194,11 +2164,11 @@ msgstr "Tämä virtuaalikone on ohimenevä. Sammuta se, jos haluat poistaa sen."
 
 #: src/components/vm/disks/vmDisksCard.jsx:273
 msgid "This disk will be removed from $0:"
-msgstr ""
+msgstr "Tämä levy poistetaan $0:sta:"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
-msgstr ""
+msgstr "Tämä tiedostojärjestelmä poistetaan $0:sta:"
 
 #: src/components/vm/nics/nicBody.jsx:86
 msgid ""
