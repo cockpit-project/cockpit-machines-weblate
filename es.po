@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 03:19+0000\n"
+"POT-Creation-Date: 2022-11-30 03:13+0000\n"
 "PO-Revision-Date: 2022-11-28 18:19+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -121,7 +121,7 @@ msgstr "Activar el grupo de almacenamiento para administrar volúmenes"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
 #: src/components/vm/nics/nicAdd.jsx:208
-#: src/components/vm/disks/diskAdd.jsx:800
+#: src/components/vm/disks/diskAdd.jsx:854
 #: src/components/networks/networkOverviewTab.jsx:237
 msgid "Add"
 msgstr "Añadir"
@@ -133,7 +133,7 @@ msgstr "Añadir una entrada de host estático DHCP"
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
 #: src/components/vm/disks/vmDisksCard.jsx:74
-#: src/components/vm/disks/diskAdd.jsx:791
+#: src/components/vm/disks/diskAdd.jsx:843
 msgid "Add disk"
 msgstr "Añadir disco"
 
@@ -189,7 +189,7 @@ msgstr ""
 "Toda actividad de la máquina virtual, incluyendo su almacenamiento, será "
 "temporal. Esto causará pérdidas de información en el anfitrión de destino."
 
-#: src/components/vm/disks/diskAdd.jsx:243
+#: src/components/vm/disks/diskAdd.jsx:244
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -201,7 +201,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Eliminar también todos los volúmenes dentro de este grupo:"
 
-#: src/components/vm/nics/nicAdd.jsx:89 src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/nics/nicAdd.jsx:89 src/components/vm/disks/diskAdd.jsx:137
 msgid "Always attach"
 msgstr "Siempre adjunto"
 
@@ -210,7 +210,7 @@ msgstr "Siempre adjunto"
 msgid "Apply"
 msgstr "Aplicar"
 
-#: src/components/vm/disks/diskAdd.jsx:76
+#: src/components/vm/disks/diskAdd.jsx:77
 msgid "Attaching it will make this disk shareable for every VM using it."
 msgstr "Al añadirlo, este disco será compartible por cada MV que lo utilice."
 
@@ -253,7 +253,7 @@ msgstr "La configuración del orden de arranque no se pudo guardar"
 #: src/components/vm/hostdevs/hostDevCard.jsx:112
 #: src/components/vm/hostdevs/hostDevCard.jsx:252
 #: src/components/vm/disks/vmDisksCard.jsx:182
-#: src/components/vm/disks/diskAdd.jsx:223
+#: src/components/vm/disks/diskAdd.jsx:224
 #: src/components/vm/disks/diskEdit.jsx:88
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/overview/bootOrder.jsx:130
@@ -263,7 +263,7 @@ msgstr "La configuración del orden de arranque no se pudo guardar"
 msgid "Bus"
 msgstr "Bus"
 
-#: src/components/vm/disks/diskAdd.jsx:348
+#: src/components/vm/disks/diskAdd.jsx:352
 msgid "CD/DVD disc"
 msgstr "Disco CD/DVD"
 
@@ -280,7 +280,7 @@ msgid "CPU type"
 msgstr "Tipo de CPU"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:105
-#: src/components/vm/disks/diskAdd.jsx:212
+#: src/components/vm/disks/diskAdd.jsx:213
 #: src/components/vm/disks/diskEdit.jsx:58
 msgid "Cache"
 msgstr "Antememoria"
@@ -295,7 +295,7 @@ msgstr "Antememoria"
 #: src/components/vm/nics/nicAdd.jsx:211 src/components/vm/nics/nicEdit.jsx:180
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/vmCloneDialog.jsx:80
-#: src/components/vm/disks/diskAdd.jsx:803
+#: src/components/vm/disks/diskAdd.jsx:857
 #: src/components/vm/disks/mediaEject.jsx:110
 #: src/components/vm/disks/diskEdit.jsx:269
 #: src/components/vm/vmRenameDialog.jsx:68
@@ -461,7 +461,7 @@ msgstr "Crear y ejecutar"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-7.6, DocId:
 # cockpit
-#: src/components/vm/disks/diskAdd.jsx:731
+#: src/components/vm/disks/diskAdd.jsx:782
 msgid "Create new"
 msgstr "Crear"
 
@@ -529,9 +529,9 @@ msgstr "Asignación actual"
 msgid "Custom firmware: $0"
 msgstr "Firmware específico: $0"
 
-#: src/components/vm/disks/diskAdd.jsx:333
-#: src/components/vm/disks/diskAdd.jsx:696
-#: src/components/vm/disks/diskAdd.jsx:741
+#: src/components/vm/disks/diskAdd.jsx:337
+#: src/components/vm/disks/diskAdd.jsx:746
+#: src/components/vm/disks/diskAdd.jsx:792
 msgid "Custom path"
 msgstr "Ruta personalizada"
 
@@ -629,7 +629,7 @@ msgstr "Detalles"
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/disks/vmDisksCard.jsx:168
 #: src/components/vm/disks/vmDiskColumns.jsx:44
-#: src/components/vm/disks/diskAdd.jsx:341
+#: src/components/vm/disks/diskAdd.jsx:345
 #: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/vm/overview/bootOrder.jsx:117
 #: src/components/vm/overview/bootOrder.jsx:149
@@ -661,16 +661,16 @@ msgstr ""
 msgid "Disk $0 could not be removed"
 msgstr "No se pudo eliminar el disco $0"
 
-#: src/components/vm/disks/diskAdd.jsx:670
+#: src/components/vm/disks/diskAdd.jsx:720
 msgid "Disk failed to be attached"
 msgstr "El disco no se pudo montar"
 
-#: src/components/vm/disks/diskAdd.jsx:582
-#: src/components/vm/disks/diskAdd.jsx:620
+#: src/components/vm/disks/diskAdd.jsx:632
+#: src/components/vm/disks/diskAdd.jsx:670
 msgid "Disk failed to be created"
 msgstr "El disco no se pudo crear"
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.jsx:256
 msgid "Disk identifier"
 msgstr "Identificador del disco"
 
@@ -678,7 +678,7 @@ msgstr "Identificador del disco"
 msgid "Disk image"
 msgstr "Imagen del disco"
 
-#: src/components/vm/disks/diskAdd.jsx:346
+#: src/components/vm/disks/diskAdd.jsx:350
 msgid "Disk image file"
 msgstr "Fichero de imagen de disco"
 
@@ -686,7 +686,7 @@ msgstr "Fichero de imagen de disco"
 msgid "Disk image path must not be empty"
 msgstr "El camino a la imagen del disco no puede estar vacío"
 
-#: src/components/vm/disks/diskAdd.jsx:656
+#: src/components/vm/disks/diskAdd.jsx:706
 #: src/components/vm/disks/diskEdit.jsx:216
 msgid "Disk settings could not be saved"
 msgstr "Las configuraciones del disco no se pudieron guardar"
@@ -936,7 +936,7 @@ msgid "Go to VMs list"
 msgstr "Ir a la lista de MVs"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
-#: src/components/vm/disks/diskAdd.jsx:208
+#: src/components/vm/disks/diskAdd.jsx:209
 msgid "Hide additional options"
 msgstr "Ocultar opciones adicionales"
 
@@ -1034,7 +1034,7 @@ msgstr "La red IPv6 no debería estar vacía"
 msgid "IPv6 only"
 msgstr "Solo IPv6"
 
-#: src/components/vm/disks/diskAdd.jsx:248
+#: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "Puede que el identificador se acorte a $0 caracteres sin aviso "
 
@@ -1057,6 +1057,10 @@ msgstr "Importar y editar"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1339
 msgid "Import and run"
 msgstr "Importar y ejecutar"
+
+#: src/components/vm/disks/diskAdd.jsx:551
+msgid "Importing an image with a backing file is unsupported"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:309
 msgid ""
@@ -1085,11 +1089,11 @@ msgid "Initiator IQN should not be empty"
 msgstr "El iniciador IQN no debería estar vacío"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
-#: src/components/vm/disks/diskAdd.jsx:800
+#: src/components/vm/disks/diskAdd.jsx:854
 msgid "Insert"
 msgstr "Insertar"
 
-#: src/components/vm/disks/diskAdd.jsx:791
+#: src/components/vm/disks/diskAdd.jsx:843
 msgid "Insert disc media"
 msgstr "Insertar disco"
 
@@ -1538,7 +1542,7 @@ msgstr "No hay almacenamiento"
 msgid "No storage pool is defined on this host"
 msgstr "No hay un grupo de almacenamiento definido en este anfitrión"
 
-#: src/components/vm/disks/diskAdd.jsx:164
+#: src/components/vm/disks/diskAdd.jsx:165
 msgid "No storage pools available"
 msgstr "No hay grupos de almacenamiento disponibles"
 
@@ -1651,7 +1655,7 @@ msgstr "Ruta hacia la imagen ISO en el sistema de archivos del anfitrión"
 msgid "Path to cloud image file on host's file system"
 msgstr "Ruta a la imagen de nube en el sistema de archivos del anfitrión"
 
-#: src/components/vm/disks/diskAdd.jsx:335
+#: src/components/vm/disks/diskAdd.jsx:339
 msgid "Path to file on host's file system"
 msgstr "Ruta al archivo en el sistema de archivos del anfitrión"
 
@@ -1667,7 +1671,7 @@ msgstr "Pausada"
 msgid "Permanent (default)"
 msgstr "Permanente (por defecto)"
 
-#: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
 msgstr "Persistencia"
 
@@ -1684,19 +1688,19 @@ msgstr "Dispositivo de disco físico"
 msgid "Physical disk device on host"
 msgstr "Dispositivo de disco físico en el anfitrión"
 
-#: src/components/vm/disks/diskAdd.jsx:422
+#: src/components/vm/disks/diskAdd.jsx:430
 msgid "Please choose a storage pool"
 msgstr "Escoja un grupo de almacenamiento"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
-#: src/components/vm/disks/diskAdd.jsx:437
+#: src/components/vm/disks/diskAdd.jsx:448
 msgid "Please choose a volume"
 msgstr "Seleccione un volumen"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
-#: src/components/vm/disks/diskAdd.jsx:426
+#: src/components/vm/disks/diskAdd.jsx:437
 msgid "Please enter new volume name"
 msgstr "Introduzca el nuevo nombre del volumen"
 
@@ -1705,7 +1709,7 @@ msgid "Please start the virtual machine to access its console."
 msgstr "Por favor arranque la maquina virtual para acceder a su consola."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/diskAdd.jsx:149
+#: src/components/vm/disks/diskAdd.jsx:150
 #: src/components/vm/disks/mediaEject.jsx:86
 #: src/components/vm/deleteDialog.jsx:71
 #: src/components/vm/overview/bootOrder.jsx:112
@@ -1717,7 +1721,7 @@ msgid "Pool needs to be active to create volume"
 msgstr ""
 "El grupo de almacenamiento debe estar activo para poder crear el volumen"
 
-#: src/components/vm/disks/diskAdd.jsx:429
+#: src/components/vm/disks/diskAdd.jsx:440
 msgid "Pool type $0 does not support volume creation"
 msgstr "El grupo de almacenamiento tipo $0 no soporta la creación de volúmenes"
 
@@ -1997,7 +2001,7 @@ msgid "Shared storage"
 msgstr "Almacenamiento compartido"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
-#: src/components/vm/disks/diskAdd.jsx:208
+#: src/components/vm/disks/diskAdd.jsx:209
 msgid "Show additional options"
 msgstr "Mostrar opciones adicionales"
 
@@ -2059,8 +2063,8 @@ msgstr "Sockets"
 #: src/components/vm/nics/nicBody.jsx:197
 #: src/components/vm/nics/vmNicsCard.jsx:281
 #: src/components/vm/disks/vmDisksCard.jsx:186
-#: src/components/vm/disks/diskAdd.jsx:693
-#: src/components/vm/disks/diskAdd.jsx:728
+#: src/components/vm/disks/diskAdd.jsx:743
+#: src/components/vm/disks/diskAdd.jsx:779
 msgid "Source"
 msgstr "Fuente"
 
@@ -2164,7 +2168,7 @@ msgstr "Nombre del grupo de almacenamiento"
 msgid "Storage pools"
 msgstr "Grupos de almacenamiento"
 
-#: src/components/vm/disks/diskAdd.jsx:415
+#: src/components/vm/disks/diskAdd.jsx:423
 msgid "Storage pools could not be fetched"
 msgstr "No se pudo acceder a los grupos de almacenamiento"
 
@@ -2177,7 +2181,7 @@ msgid "Storage volume"
 msgstr "Volumen de almacenamiento"
 
 #: src/components/storagePools/storageVolumeCreate.jsx:67
-#: src/components/vm/disks/diskAdd.jsx:433
+#: src/components/vm/disks/diskAdd.jsx:444
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 "El tamaño del volumen de almacenamiento no puede ser superior a la capacidad "
@@ -2263,7 +2267,7 @@ msgstr ""
 
 # auto translated by TM merge from project: Cockpit, version: rhel-8.0, DocId:
 # cockpit
-#: src/components/vm/disks/diskAdd.jsx:104
+#: src/components/vm/disks/diskAdd.jsx:105
 msgid "The pool is empty"
 msgstr "El grupo está vacío"
 
@@ -2342,7 +2346,7 @@ msgstr ""
 "Esta herramienta gestiona máquinas virtuales. Con ella puede crear, "
 "monitorizar y controlar las máquinas virtuales del subsistema libvirt."
 
-#: src/components/vm/disks/diskAdd.jsx:74
+#: src/components/vm/disks/diskAdd.jsx:75
 msgid "This volume is already used by $0."
 msgstr "Este volumen ya lo utiliza $0."
 
@@ -2443,8 +2447,8 @@ msgstr "Uso"
 
 # auto translated by TM merge from project: Cockpit, version: rhel-7.6, DocId:
 # cockpit
-#: src/components/vm/disks/diskAdd.jsx:701
-#: src/components/vm/disks/diskAdd.jsx:736
+#: src/components/vm/disks/diskAdd.jsx:751
+#: src/components/vm/disks/diskAdd.jsx:787
 msgid "Use existing"
 msgstr "Utilizar existente"
 
@@ -2604,7 +2608,7 @@ msgstr "Servicio de virtualización (libvirt) no está activo"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:862
 #: src/components/vm/disks/vmDiskColumns.jsx:47
-#: src/components/vm/disks/diskAdd.jsx:112
+#: src/components/vm/disks/diskAdd.jsx:113
 #: src/components/vm/disks/mediaEject.jsx:90
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/overview/bootOrder.jsx:113
@@ -2804,7 +2808,7 @@ msgstr "dispositivo redirigido"
 msgid "remove"
 msgstr "eliminar"
 
-#: src/components/vm/disks/diskAdd.jsx:257
+#: src/components/vm/disks/diskAdd.jsx:258
 msgid "serial number"
 msgstr "número de serie"
 

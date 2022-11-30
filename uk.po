@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 03:19+0000\n"
+"POT-Creation-Date: 2022-11-30 03:13+0000\n"
 "PO-Revision-Date: 2022-11-26 13:48+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -109,7 +109,7 @@ msgstr "Активувати буфер зберігання даних для �
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
 #: src/components/vm/nics/nicAdd.jsx:208
-#: src/components/vm/disks/diskAdd.jsx:800
+#: src/components/vm/disks/diskAdd.jsx:854
 #: src/components/networks/networkOverviewTab.jsx:237
 msgid "Add"
 msgstr "Додати"
@@ -119,7 +119,7 @@ msgid "Add a DHCP static host entry"
 msgstr "Додати запис статичного вузла DHCP"
 
 #: src/components/vm/disks/vmDisksCard.jsx:74
-#: src/components/vm/disks/diskAdd.jsx:791
+#: src/components/vm/disks/diskAdd.jsx:843
 msgid "Add disk"
 msgstr "Додати диск"
 
@@ -175,7 +175,7 @@ msgstr ""
 "Уся робота ВМ, зокрема зі сховищем даних, буде тимчасовою. Це призведе до "
 "втрати даних на основній системі призначення."
 
-#: src/components/vm/disks/diskAdd.jsx:243
+#: src/components/vm/disks/diskAdd.jsx:244
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -187,7 +187,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Також вилучити усі томи у цьому буфері:"
 
-#: src/components/vm/nics/nicAdd.jsx:89 src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/nics/nicAdd.jsx:89 src/components/vm/disks/diskAdd.jsx:137
 msgid "Always attach"
 msgstr "Завжди долучати"
 
@@ -196,7 +196,7 @@ msgstr "Завжди долучати"
 msgid "Apply"
 msgstr "Застосувати"
 
-#: src/components/vm/disks/diskAdd.jsx:76
+#: src/components/vm/disks/diskAdd.jsx:77
 msgid "Attaching it will make this disk shareable for every VM using it."
 msgstr ""
 "Долучення диска надасть доступ до нього для усіх віртуальних машин, які ним "
@@ -241,7 +241,7 @@ msgstr "Не вдалося зберегти параметри порядку �
 #: src/components/vm/hostdevs/hostDevCard.jsx:112
 #: src/components/vm/hostdevs/hostDevCard.jsx:252
 #: src/components/vm/disks/vmDisksCard.jsx:182
-#: src/components/vm/disks/diskAdd.jsx:223
+#: src/components/vm/disks/diskAdd.jsx:224
 #: src/components/vm/disks/diskEdit.jsx:88
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/overview/bootOrder.jsx:130
@@ -251,7 +251,7 @@ msgstr "Не вдалося зберегти параметри порядку �
 msgid "Bus"
 msgstr "Канал"
 
-#: src/components/vm/disks/diskAdd.jsx:348
+#: src/components/vm/disks/diskAdd.jsx:352
 msgid "CD/DVD disc"
 msgstr "Диск CD/DVD"
 
@@ -268,7 +268,7 @@ msgid "CPU type"
 msgstr "Тип процесора"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:105
-#: src/components/vm/disks/diskAdd.jsx:212
+#: src/components/vm/disks/diskAdd.jsx:213
 #: src/components/vm/disks/diskEdit.jsx:58
 msgid "Cache"
 msgstr "Кеш"
@@ -283,7 +283,7 @@ msgstr "Кеш"
 #: src/components/vm/nics/nicAdd.jsx:211 src/components/vm/nics/nicEdit.jsx:180
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/vmCloneDialog.jsx:80
-#: src/components/vm/disks/diskAdd.jsx:803
+#: src/components/vm/disks/diskAdd.jsx:857
 #: src/components/vm/disks/mediaEject.jsx:110
 #: src/components/vm/disks/diskEdit.jsx:269
 #: src/components/vm/vmRenameDialog.jsx:68
@@ -438,7 +438,7 @@ msgstr "Створити і редагувати"
 msgid "Create and run"
 msgstr "Створити і запустити"
 
-#: src/components/vm/disks/diskAdd.jsx:731
+#: src/components/vm/disks/diskAdd.jsx:782
 msgid "Create new"
 msgstr "Створити"
 
@@ -506,9 +506,9 @@ msgstr "Поточне отримання"
 msgid "Custom firmware: $0"
 msgstr "Нетипова мікропрограма: $0"
 
-#: src/components/vm/disks/diskAdd.jsx:333
-#: src/components/vm/disks/diskAdd.jsx:696
-#: src/components/vm/disks/diskAdd.jsx:741
+#: src/components/vm/disks/diskAdd.jsx:337
+#: src/components/vm/disks/diskAdd.jsx:746
+#: src/components/vm/disks/diskAdd.jsx:792
 msgid "Custom path"
 msgstr "Нетиповий шлях"
 
@@ -607,7 +607,7 @@ msgstr "Подробиці"
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/disks/vmDisksCard.jsx:168
 #: src/components/vm/disks/vmDiskColumns.jsx:44
-#: src/components/vm/disks/diskAdd.jsx:341
+#: src/components/vm/disks/diskAdd.jsx:345
 #: src/components/vm/overview/bootOrder.jsx:110
 #: src/components/vm/overview/bootOrder.jsx:117
 #: src/components/vm/overview/bootOrder.jsx:149
@@ -638,16 +638,16 @@ msgstr "Від'єднано від послідовної консолі. Нат
 msgid "Disk $0 could not be removed"
 msgstr "Не вдалося вилучити диск $0"
 
-#: src/components/vm/disks/diskAdd.jsx:670
+#: src/components/vm/disks/diskAdd.jsx:720
 msgid "Disk failed to be attached"
 msgstr "Не вдалося долучити диск"
 
-#: src/components/vm/disks/diskAdd.jsx:582
-#: src/components/vm/disks/diskAdd.jsx:620
+#: src/components/vm/disks/diskAdd.jsx:632
+#: src/components/vm/disks/diskAdd.jsx:670
 msgid "Disk failed to be created"
 msgstr "Не вдалося створити диск"
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.jsx:256
 msgid "Disk identifier"
 msgstr "Ідентифікатор диска"
 
@@ -655,7 +655,7 @@ msgstr "Ідентифікатор диска"
 msgid "Disk image"
 msgstr "Образ диска"
 
-#: src/components/vm/disks/diskAdd.jsx:346
+#: src/components/vm/disks/diskAdd.jsx:350
 msgid "Disk image file"
 msgstr "Файл образу диска"
 
@@ -663,7 +663,7 @@ msgstr "Файл образу диска"
 msgid "Disk image path must not be empty"
 msgstr "Шлях до образу диска не може бути порожнім"
 
-#: src/components/vm/disks/diskAdd.jsx:656
+#: src/components/vm/disks/diskAdd.jsx:706
 #: src/components/vm/disks/diskEdit.jsx:216
 msgid "Disk settings could not be saved"
 msgstr "Не вдалося зберегти параметри диска"
@@ -903,7 +903,7 @@ msgid "Go to VMs list"
 msgstr "Перейти до списку ВМ"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
-#: src/components/vm/disks/diskAdd.jsx:208
+#: src/components/vm/disks/diskAdd.jsx:209
 msgid "Hide additional options"
 msgstr "Приховати додаткові параметри"
 
@@ -1001,7 +1001,7 @@ msgstr "Мережа IPv6 не повинна бути порожньою"
 msgid "IPv6 only"
 msgstr "Лише IPv6"
 
-#: src/components/vm/disks/diskAdd.jsx:248
+#: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "Ідентифікатор може бути без повідомлень обрізано до $0 символів "
 
@@ -1024,6 +1024,10 @@ msgstr "Імпортувати і редагувати"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1339
 msgid "Import and run"
 msgstr "Імпортувати і запустити"
+
+#: src/components/vm/disks/diskAdd.jsx:551
+msgid "Importing an image with a backing file is unsupported"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:309
 msgid ""
@@ -1053,11 +1057,11 @@ msgid "Initiator IQN should not be empty"
 msgstr "IQN ініціатора має бути непорожнімy"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
-#: src/components/vm/disks/diskAdd.jsx:800
+#: src/components/vm/disks/diskAdd.jsx:854
 msgid "Insert"
 msgstr "Вставити"
 
-#: src/components/vm/disks/diskAdd.jsx:791
+#: src/components/vm/disks/diskAdd.jsx:843
 msgid "Insert disc media"
 msgstr "Вставте дисковий носій даних"
 
@@ -1504,7 +1508,7 @@ msgstr "Немає сховища даних"
 msgid "No storage pool is defined on this host"
 msgstr "На цьому вузлі не визначено буфера зберігання даних"
 
-#: src/components/vm/disks/diskAdd.jsx:164
+#: src/components/vm/disks/diskAdd.jsx:165
 msgid "No storage pools available"
 msgstr "Немає доступних буферів зберігання даних"
 
@@ -1614,7 +1618,7 @@ msgstr "Шлях до ISO у файловій системі основної с
 msgid "Path to cloud image file on host's file system"
 msgstr "Шлях до файла образу хмари у файловій системі основної системи"
 
-#: src/components/vm/disks/diskAdd.jsx:335
+#: src/components/vm/disks/diskAdd.jsx:339
 msgid "Path to file on host's file system"
 msgstr "Шлях до файла у файловій системі основної системи"
 
@@ -1630,7 +1634,7 @@ msgstr "Призупинено"
 msgid "Permanent (default)"
 msgstr "Сталий (типовий)"
 
-#: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
 msgstr "Сталість"
 
@@ -1647,15 +1651,15 @@ msgstr "Фізичний пристрій диска"
 msgid "Physical disk device on host"
 msgstr "Фізичний пристрій у основній системі"
 
-#: src/components/vm/disks/diskAdd.jsx:422
+#: src/components/vm/disks/diskAdd.jsx:430
 msgid "Please choose a storage pool"
 msgstr "Будь ласка, виберіть буфер зберігання даних"
 
-#: src/components/vm/disks/diskAdd.jsx:437
+#: src/components/vm/disks/diskAdd.jsx:448
 msgid "Please choose a volume"
 msgstr "Будь ласка, виберіть том"
 
-#: src/components/vm/disks/diskAdd.jsx:426
+#: src/components/vm/disks/diskAdd.jsx:437
 msgid "Please enter new volume name"
 msgstr "Будь ласка, введіть назву нового тому"
 
@@ -1665,7 +1669,7 @@ msgstr ""
 "Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/diskAdd.jsx:149
+#: src/components/vm/disks/diskAdd.jsx:150
 #: src/components/vm/disks/mediaEject.jsx:86
 #: src/components/vm/deleteDialog.jsx:71
 #: src/components/vm/overview/bootOrder.jsx:112
@@ -1676,7 +1680,7 @@ msgstr "Буфер"
 msgid "Pool needs to be active to create volume"
 msgstr "Для створення тому буфер має бути активним"
 
-#: src/components/vm/disks/diskAdd.jsx:429
+#: src/components/vm/disks/diskAdd.jsx:440
 msgid "Pool type $0 does not support volume creation"
 msgstr "Для типу буфера $0 не передбачено підтримки створення томів"
 
@@ -1954,7 +1958,7 @@ msgid "Shared storage"
 msgstr "Спільне сховище даних"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
-#: src/components/vm/disks/diskAdd.jsx:208
+#: src/components/vm/disks/diskAdd.jsx:209
 msgid "Show additional options"
 msgstr "Показати додаткові параметри"
 
@@ -2018,8 +2022,8 @@ msgstr "Сокети"
 #: src/components/vm/nics/nicBody.jsx:197
 #: src/components/vm/nics/vmNicsCard.jsx:281
 #: src/components/vm/disks/vmDisksCard.jsx:186
-#: src/components/vm/disks/diskAdd.jsx:693
-#: src/components/vm/disks/diskAdd.jsx:728
+#: src/components/vm/disks/diskAdd.jsx:743
+#: src/components/vm/disks/diskAdd.jsx:779
 msgid "Source"
 msgstr "Джерело"
 
@@ -2123,7 +2127,7 @@ msgstr "Назва резервного сховища"
 msgid "Storage pools"
 msgstr "Буфери даних"
 
-#: src/components/vm/disks/diskAdd.jsx:415
+#: src/components/vm/disks/diskAdd.jsx:423
 msgid "Storage pools could not be fetched"
 msgstr "Не вдалося отримати буфери сховища даних"
 
@@ -2136,7 +2140,7 @@ msgid "Storage volume"
 msgstr "Том сховища даних"
 
 #: src/components/storagePools/storageVolumeCreate.jsx:67
-#: src/components/vm/disks/diskAdd.jsx:433
+#: src/components/vm/disks/diskAdd.jsx:444
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 "Розмір тому сховища даних не повинен перевищувати місткість буфера сховища "
@@ -2220,7 +2224,7 @@ msgstr ""
 "Налаштування перенесеної ВМ вилучено з основної системи джерела. Основна "
 "система призначення тепер вважається новою домівкою ВМ."
 
-#: src/components/vm/disks/diskAdd.jsx:104
+#: src/components/vm/disks/diskAdd.jsx:105
 msgid "The pool is empty"
 msgstr "Буфер порожній"
 
@@ -2301,7 +2305,7 @@ msgstr ""
 "допоможе вам створювати віртуальні машини підсистеми libvirt, стежити за "
 "ними та керувати ними."
 
-#: src/components/vm/disks/diskAdd.jsx:74
+#: src/components/vm/disks/diskAdd.jsx:75
 msgid "This volume is already used by $0."
 msgstr "Цей том вже використано $0."
 
@@ -2396,8 +2400,8 @@ msgstr "Адреса"
 msgid "Usage"
 msgstr "Використання"
 
-#: src/components/vm/disks/diskAdd.jsx:701
-#: src/components/vm/disks/diskAdd.jsx:736
+#: src/components/vm/disks/diskAdd.jsx:751
+#: src/components/vm/disks/diskAdd.jsx:787
 msgid "Use existing"
 msgstr "Використати наявний"
 
@@ -2557,7 +2561,7 @@ msgstr "Служба віртуалізації (libvirt) не є активно
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:862
 #: src/components/vm/disks/vmDiskColumns.jsx:47
-#: src/components/vm/disks/diskAdd.jsx:112
+#: src/components/vm/disks/diskAdd.jsx:113
 #: src/components/vm/disks/mediaEject.jsx:90
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/overview/bootOrder.jsx:113
@@ -2754,7 +2758,7 @@ msgstr "переспрямований пристрій"
 msgid "remove"
 msgstr "вилучити"
 
-#: src/components/vm/disks/diskAdd.jsx:257
+#: src/components/vm/disks/diskAdd.jsx:258
 msgid "serial number"
 msgstr "серійний номер"
 
