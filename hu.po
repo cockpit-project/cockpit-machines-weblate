@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-01 03:06+0000\n"
+"POT-Creation-Date: 2023-01-09 02:57+0000\n"
 "PO-Revision-Date: 2019-03-11 10:46+0000\n"
 "Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian\n"
@@ -133,6 +133,10 @@ msgstr ""
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr ""
 
+#: src/components/vm/disks/diskAdd.jsx:77
+msgid "Adding this disk will change its access mode to shared."
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Additional"
 msgstr ""
@@ -180,10 +184,6 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:77
-msgid "Attaching it will make this disk shareable for every VM using it."
-msgstr ""
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:1171
 msgid ""
 "Automated installs are only available when downloading an image or using "
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Automatic"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1285
+#: src/components/create-vm-dialog/createVmDialog.jsx:1286
 msgid "Automation"
 msgstr ""
 
@@ -253,7 +253,7 @@ msgstr ""
 msgid "Cache"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1345
+#: src/components/create-vm-dialog/createVmDialog.jsx:1346
 #: src/components/common/deleteResource.jsx:80
 #: src/components/networks/createNetworkDialog.jsx:426
 #: src/components/networks/networkOverviewTab.jsx:239
@@ -346,7 +346,7 @@ msgstr ""
 msgid "Connecting"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:33
+#: src/components/common/machinesConnectionSelector.jsx:35
 #: src/components/vms/hostvmslist.jsx:140
 #: src/components/networks/createNetworkDialog.jsx:41
 #: src/components/networks/networkList.jsx:75
@@ -356,7 +356,7 @@ msgid "Connection"
 msgstr ""
 
 #: src/components/vm/vmDetailsPage.jsx:118
-#: src/components/vm/vmDetailsPage.jsx:151
+#: src/components/vm/vmDetailsPage.jsx:152
 msgid "Console"
 msgstr ""
 
@@ -392,15 +392,15 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1391
+#: src/components/create-vm-dialog/createVmDialog.jsx:1392
 msgid "Create VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1410
+#: src/components/create-vm-dialog/createVmDialog.jsx:1411
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1409
+#: src/components/create-vm-dialog/createVmDialog.jsx:1410
 msgid "Create VM from local or network installation medium"
 msgstr ""
 
@@ -408,11 +408,11 @@ msgstr ""
 msgid "Create a clone VM based on $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1313
+#: src/components/create-vm-dialog/createVmDialog.jsx:1314
 msgid "Create and edit"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1339
+#: src/components/create-vm-dialog/createVmDialog.jsx:1340
 msgid "Create and run"
 msgstr ""
 
@@ -420,7 +420,7 @@ msgstr ""
 msgid "Create new"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1327
+#: src/components/create-vm-dialog/createVmDialog.jsx:1328
 msgid "Create new virtual machine"
 msgstr ""
 
@@ -568,7 +568,7 @@ msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1281
+#: src/components/create-vm-dialog/createVmDialog.jsx:1282
 msgid "Details"
 msgstr ""
 
@@ -634,6 +634,10 @@ msgstr ""
 msgid "Disk image path must not be empty"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:72
+msgid "Disk images can be stored in user home directory"
+msgstr ""
+
 #: src/components/vm/disks/diskEdit.jsx:216
 #: src/components/vm/disks/diskAdd.jsx:706
 msgid "Disk settings could not be saved"
@@ -643,7 +647,7 @@ msgstr ""
 msgid "Disk-only snapshot"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:166
+#: src/components/vm/vmDetailsPage.jsx:167
 msgid "Disks"
 msgstr ""
 
@@ -739,7 +743,7 @@ msgstr ""
 msgid "Existing disk image on host's file system"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:159
+#: src/components/vm/vmDetailsPage.jsx:160
 msgid "Expand"
 msgstr ""
 
@@ -871,6 +875,10 @@ msgstr ""
 msgid "Go to VMs list"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:63
+msgid "Good choice for desktop virtualization"
+msgstr ""
+
 #: src/components/vm/disks/diskAdd.jsx:209
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
 #, fuzzy
@@ -896,7 +904,7 @@ msgstr ""
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:184
 msgid "Host devices"
 msgstr ""
 
@@ -971,6 +979,14 @@ msgstr ""
 msgid "IPv6 only"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:46
+msgid "Ideal for server VMs"
+msgstr ""
+
+#: src/components/common/machinesConnectionSelector.jsx:52
+msgid "Ideal networking support"
+msgstr ""
+
 #: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr ""
@@ -979,19 +995,19 @@ msgstr ""
 msgid "Idle"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1391
+#: src/components/create-vm-dialog/createVmDialog.jsx:1392
 msgid "Import VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1327
+#: src/components/create-vm-dialog/createVmDialog.jsx:1328
 msgid "Import a virtual machine"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1313
+#: src/components/create-vm-dialog/createVmDialog.jsx:1314
 msgid "Import and edit"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1339
+#: src/components/create-vm-dialog/createVmDialog.jsx:1340
 msgid "Import and run"
 msgstr ""
 
@@ -1368,7 +1384,7 @@ msgstr ""
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:174
+#: src/components/vm/vmDetailsPage.jsx:175
 msgid "Network interfaces"
 msgstr ""
 
@@ -1536,7 +1552,7 @@ msgstr ""
 msgid "Operation is in progress"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:134
+#: src/components/vm/vmDetailsPage.jsx:135
 #: src/components/storagePools/storagePool.jsx:75
 msgid "Overview"
 msgstr ""
@@ -1582,6 +1598,10 @@ msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:71
 msgid "Permanent (default)"
+msgstr ""
+
+#: src/components/common/machinesConnectionSelector.jsx:55
+msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
 #: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
@@ -1771,6 +1791,11 @@ msgstr ""
 msgid "Rename VM $0"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:69
+msgid ""
+"Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
+msgstr ""
+
 #: src/components/vm/vmActions.jsx:211
 msgid "Resume"
 msgstr ""
@@ -1868,7 +1893,7 @@ msgstr ""
 msgid "Set manually"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1319
+#: src/components/create-vm-dialog/createVmDialog.jsx:1320
 msgid ""
 "Setting the user passwords for unattended installation requires starting the "
 "VM when creating it"
@@ -1882,12 +1907,12 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:204
+#: src/components/vm/vmDetailsPage.jsx:205
 msgid "Shared directories"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:180
-#: src/components/vm/vmDetailsPage.jsx:206
+#: src/components/vm/vmDetailsPage.jsx:207
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 
@@ -1945,7 +1970,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:192
+#: src/components/vm/vmDetailsPage.jsx:193
 msgid "Snapshots"
 msgstr ""
 
@@ -2307,7 +2332,7 @@ msgstr ""
 msgid "Url"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:145
+#: src/components/vm/vmDetailsPage.jsx:146
 msgid "Usage"
 msgstr ""
 
@@ -2407,8 +2432,18 @@ msgstr ""
 msgid "VM $0 failed to start"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:66
+msgid ""
+"VM launched with unprivileged limited access, with the process and PTY owned "
+"by your user account"
+msgstr ""
+
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:106
 msgid "VM state"
+msgstr ""
+
+#: src/components/common/machinesConnectionSelector.jsx:49
+msgid "VM will launch with root permissions"
 msgstr ""
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
@@ -2444,7 +2479,7 @@ msgstr ""
 #: src/components/vms/hostvmslist.jsx:136
 #: src/components/networks/networkList.jsx:53
 #: src/components/vm/vmDetailsPage.jsx:112
-#: src/components/vm/vmDetailsPage.jsx:264
+#: src/components/vm/vmDetailsPage.jsx:265
 #: src/components/storagePools/storagePoolList.jsx:55 src/manifest.json:0
 msgid "Virtual machines"
 msgstr ""
@@ -2612,18 +2647,19 @@ msgstr ""
 msgid "mcast"
 msgstr ""
 
+#: src/components/common/machinesConnectionSelector.jsx:78
 #: src/components/vm/nics/nicBody.jsx:112
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:194
-#: src/components/vm/vmDetailsPage.jsx:219
+#: src/components/vm/vmDetailsPage.jsx:220
 msgid "more info"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:190
-#: src/components/vm/vmDetailsPage.jsx:215
+#: src/components/vm/vmDetailsPage.jsx:216
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:214
+#: src/components/vm/vmDetailsPage.jsx:215
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
@@ -2711,7 +2747,7 @@ msgid ""
 "VMs"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.jsx:1397
+#: src/components/create-vm-dialog/createVmDialog.jsx:1398
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
