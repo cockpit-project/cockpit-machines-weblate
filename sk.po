@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 02:57+0000\n"
+"POT-Creation-Date: 2023-01-11 02:58+0000\n"
 "PO-Revision-Date: 2021-04-10 18:04+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -78,7 +78,7 @@ msgstr[2] "$0 virt. procesorov"
 msgid "$0 vCPU details"
 msgstr "$0 podrobnosti virt. procesoru"
 
-#: src/components/vm/nics/nicEdit.jsx:172
+#: src/components/vm/nics/nicEdit.jsx:173
 msgid "$0 virtual network interface settings"
 msgstr "Nastavenie virtuálneho sieťového rozhrania $0"
 
@@ -88,10 +88,16 @@ msgid ""
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:113
+#: src/components/vm/disks/diskEdit.jsx:114
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Access"
 msgstr "Prístup"
+
+#: src/components/vm/overview/watchdog.jsx:113
+#, fuzzy
+#| msgid "Connection"
+msgid "Action"
+msgstr "Spojenie"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -106,6 +112,7 @@ msgstr ""
 #: src/components/vm/nics/nicAdd.jsx:207
 #: src/components/vm/disks/diskAdd.jsx:853
 #: src/components/vm/hostdevs/hostDevAdd.jsx:226
+#: src/components/vm/overview/watchdog.jsx:94
 msgid "Add"
 msgstr "Pridať"
 
@@ -136,6 +143,12 @@ msgstr ""
 #: src/components/vm/nics/nicAdd.jsx:196
 msgid "Add virtual network interface"
 msgstr "Pridať virtuálne sieťové rozhranie"
+
+#: src/components/vm/overview/watchdog.jsx:84
+#, fuzzy
+#| msgid "host device"
+msgid "Add watchdog device type"
+msgstr "zariadenie hostiteľa"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 #, fuzzy
@@ -211,7 +224,7 @@ msgid "Automation"
 msgstr "Automaticky"
 
 #: src/components/networks/networkOverviewTab.jsx:119
-#: src/components/vm/overview/vmOverviewCard.jsx:229
+#: src/components/vm/overview/vmOverviewCard.jsx:230
 #: src/components/storagePools/storagePoolOverviewTab.jsx:71
 msgid "Autostart"
 msgstr "Automatické spustenie"
@@ -220,7 +233,7 @@ msgstr "Automatické spustenie"
 msgid "Blocked"
 msgstr "Blokované"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:221
+#: src/components/vm/overview/vmOverviewCard.jsx:222
 msgid "Boot order"
 msgstr "Poradie zavádzania"
 
@@ -228,7 +241,7 @@ msgstr "Poradie zavádzania"
 msgid "Boot order settings could not be saved"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:88
+#: src/components/vm/disks/diskEdit.jsx:89
 #: src/components/vm/disks/diskAdd.jsx:224
 #: src/components/vm/disks/vmDisksCard.jsx:182
 #: src/components/vm/hostdevs/hostDevAdd.jsx:92
@@ -255,11 +268,11 @@ msgstr "CPU"
 msgid "CPU configuration could not be saved"
 msgstr "Nepodarilo sa uložiť konfiguráciu procesoru"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:216
+#: src/components/vm/overview/vmOverviewCard.jsx:217
 msgid "CPU type"
 msgstr "Typ procesoru"
 
-#: src/components/vm/disks/diskEdit.jsx:58
+#: src/components/vm/disks/diskEdit.jsx:59
 #: src/components/vm/disks/vmDiskColumns.jsx:105
 #: src/components/vm/disks/diskAdd.jsx:213
 msgid "Cache"
@@ -273,9 +286,9 @@ msgstr "Vyrovnávacia pamäť"
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:75
 #: src/components/vm/vmRenameDialog.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:79
-#: src/components/vm/nics/nicEdit.jsx:179 src/components/vm/nics/nicAdd.jsx:210
+#: src/components/vm/nics/nicEdit.jsx:180 src/components/vm/nics/nicAdd.jsx:210
 #: src/components/vm/disks/mediaEject.jsx:110
-#: src/components/vm/disks/diskEdit.jsx:268
+#: src/components/vm/disks/diskEdit.jsx:269
 #: src/components/vm/disks/diskAdd.jsx:856
 #: src/components/vm/vmMigrateDialog.jsx:218
 #: src/components/vm/deleteDialog.jsx:178
@@ -284,6 +297,7 @@ msgstr "Vyrovnávacia pamäť"
 #: src/components/vm/overview/cpuTypeModal.jsx:69
 #: src/components/vm/overview/memoryModal.jsx:157
 #: src/components/vm/overview/bootOrder.jsx:329
+#: src/components/vm/overview/watchdog.jsx:105
 #: src/components/vm/overview/firmware.jsx:72
 #: src/components/vm/overview/vcpuModal.jsx:266
 #: src/components/storagePools/storageVolumeCreate.jsx:107
@@ -307,9 +321,7 @@ msgid "Change firmware"
 msgstr "Zmeniť firmware"
 
 #: src/components/common/warningInactive.jsx:11
-#: src/components/vm/nics/nicEdit.jsx:166
-#: src/components/vm/disks/diskEdit.jsx:253
-#: src/components/vm/overview/vcpuModal.jsx:186
+#: src/components/common/warningInactive.jsx:23
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Zmeny sa prejavia až po vypnutí virt. stroja"
 
@@ -365,7 +377,7 @@ msgstr "Spojenie"
 #: src/components/vms/hostvmslist.jsx:140
 #: src/components/networks/createNetworkDialog.jsx:41
 #: src/components/networks/networkList.jsx:75
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.jsx:188
 #: src/components/storagePools/storagePoolList.jsx:77
 msgid "Connection"
 msgstr "Spojenie"
@@ -686,7 +698,7 @@ msgstr "Je nutné vyplniť názov"
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:216
+#: src/components/vm/disks/diskEdit.jsx:217
 #: src/components/vm/disks/diskAdd.jsx:706
 msgid "Disk settings could not be saved"
 msgstr "Nastavenia disku nebolo možné uložiť"
@@ -702,6 +714,10 @@ msgstr "Disky"
 #: src/components/vm/vmMigrateDialog.jsx:202
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
+msgstr ""
+
+#: src/helpers.js:284
+msgid "Do nothing"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
@@ -732,6 +748,10 @@ msgstr "Sťahuje sa $0"
 msgid "Downloading: $0%"
 msgstr "Sťahuje sa $0"
 
+#: src/helpers.js:285
+msgid "Dump core"
+msgstr ""
+
 #: src/components/vm/vmMigrateDialog.jsx:64
 #, fuzzy
 #| msgid "Description"
@@ -743,13 +763,17 @@ msgid "Dying"
 msgstr "Umiera"
 
 #: src/components/vm/nics/vmNicsCard.jsx:371
-#: src/components/vm/disks/diskEdit.jsx:164
+#: src/components/vm/disks/diskEdit.jsx:165
 msgid "Edit"
 msgstr "Upraviť"
 
-#: src/components/vm/disks/diskEdit.jsx:261
+#: src/components/vm/disks/diskEdit.jsx:262
 msgid "Edit $0 attributes"
 msgstr "Upraviť $0 atribúty"
+
+#: src/components/vm/overview/watchdog.jsx:84
+msgid "Edit watchdog device type"
+msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -770,7 +794,7 @@ msgstr ""
 msgid "Eject disc from VM?"
 msgstr "Odstraňuje sa $0"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:241
+#: src/components/vm/overview/vmOverviewCard.jsx:249
 msgid "Emulated machine"
 msgstr "Emulovaný stroj"
 
@@ -827,6 +851,18 @@ msgstr "Nepodarilo sa zmeniť firmware"
 msgid "Failed to clone VM $0"
 msgstr "Nepodarilo sa klonovanie virt. stroja $0"
 
+#: src/components/vm/overview/watchdog.jsx:55
+#, fuzzy
+#| msgid "Failed to change firmware"
+msgid "Failed to configure watchdog"
+msgstr "Nepodarilo sa zmeniť firmware"
+
+#: src/components/vm/overview/watchdog.jsx:68
+#, fuzzy
+#| msgid "Disk failed to be attached"
+msgid "Failed to detach watchdog"
+msgstr "Disk sa nepodarilo pripojiť"
+
 #: src/app.jsx:136
 #, fuzzy
 #| msgid "Failed to change firmware"
@@ -874,7 +910,7 @@ msgstr ""
 msgid "Filter by name"
 msgstr "Filtrovať podľa mena"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:247
+#: src/components/vm/overview/vmOverviewCard.jsx:255
 #: src/components/vm/overview/firmware.jsx:78
 msgid "Firmware"
 msgstr "Firmware"
@@ -914,7 +950,7 @@ msgid ""
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:110
-#: src/components/vm/overview/vmOverviewCard.jsx:183
+#: src/components/vm/overview/vmOverviewCard.jsx:184
 msgid "General"
 msgstr "Všeobecné"
 
@@ -940,6 +976,10 @@ msgstr ""
 
 #: src/components/common/machinesConnectionSelector.jsx:63
 msgid "Good choice for desktop virtualization"
+msgstr ""
+
+#: src/helpers.js:281
+msgid "Gracefully shutdown"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:209
@@ -982,11 +1022,11 @@ msgstr "Názov hostiteľa"
 msgid "Host should not be empty"
 msgstr "Je nutné vyplniť hostiteľa"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:237
+#: src/components/vm/overview/vmOverviewCard.jsx:245
 msgid "Hypervisor details"
 msgstr "Podrobnosti o hypervizoru"
 
-#: src/components/vm/disks/diskEdit.jsx:38
+#: src/components/vm/disks/diskEdit.jsx:39
 msgid "ID"
 msgstr "ID"
 
@@ -1105,6 +1145,12 @@ msgstr "Iniciátor"
 #: src/components/storagePools/createStoragePoolDialog.jsx:141
 msgid "Initiator IQN should not be empty"
 msgstr ""
+
+#: src/helpers.js:286
+#, fuzzy
+#| msgid "Send non-maskable interrupt"
+msgid "Inject a non-maskable interrupt"
+msgstr "Poslať nemaskovateľné prerušenie"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1240,7 +1286,7 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.jsx:247
-#: src/components/vm/nics/nicEdit.jsx:42 src/components/vm/nics/nicAdd.jsx:63
+#: src/components/vm/nics/nicEdit.jsx:43 src/components/vm/nics/nicAdd.jsx:63
 #: src/components/vm/nics/vmNicsCard.jsx:253
 msgid "MAC address"
 msgstr "MAC adresa"
@@ -1251,11 +1297,11 @@ msgstr "MAC adresa"
 msgid "MAC address must not be empty"
 msgstr "Je nutné vyplniť názov"
 
-#: src/components/vm/disks/diskEdit.jsx:90
+#: src/components/vm/disks/diskEdit.jsx:91
 msgid "Machine must be shut off before changing bus type"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:60
+#: src/components/vm/disks/diskEdit.jsx:61
 msgid "Machine must be shut off before changing cache mode"
 msgstr ""
 
@@ -1321,7 +1367,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:781
 #: src/components/vm/vmUsageCard.jsx:60
-#: src/components/vm/overview/vmOverviewCard.jsx:206
+#: src/components/vm/overview/vmOverviewCard.jsx:207
 msgid "Memory"
 msgstr "Pamäť"
 
@@ -1482,7 +1528,7 @@ msgstr "$0 sa nepodarilo zmazať"
 msgid "Network interface $0 will be removed from $1"
 msgstr "$0 sa nepodarilo zmazať"
 
-#: src/components/vm/nics/nicEdit.jsx:135 src/components/vm/nics/nicAdd.jsx:161
+#: src/components/vm/nics/nicEdit.jsx:136 src/components/vm/nics/nicAdd.jsx:161
 msgid "Network interface settings could not be saved"
 msgstr ""
 
@@ -1644,7 +1690,7 @@ msgid ""
 "allow volume deletion."
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.jsx:39
+#: src/components/vm/nics/nicEdit.jsx:40
 #: src/components/vm/overview/memoryModal.jsx:143
 #: src/components/vm/overview/bootOrder.jsx:379
 msgid "Only editable when the guest is shut off"
@@ -1676,7 +1722,7 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr "Nadradený zachytený stav"
 
-#: src/components/vm/disks/diskEdit.jsx:40
+#: src/components/vm/disks/diskEdit.jsx:41
 #: src/components/vm/deleteDialog.jsx:63
 #: src/components/vm/hostdevs/hostDevCard.jsx:128
 #: src/components/vm/hostdevs/hostDevCard.jsx:132
@@ -1699,7 +1745,7 @@ msgstr "Cesta k súboru cloudového obrazu na súborovom systéme hostiteľa"
 msgid "Path to file on host's file system"
 msgstr "Cesta k súboru na súborovom systéme hostiteľa"
 
-#: src/components/vm/vmActions.jsx:200
+#: src/helpers.js:283 src/components/vm/vmActions.jsx:200
 msgid "Pause"
 msgstr "Pozastaviť"
 
@@ -1779,6 +1825,10 @@ msgstr ""
 msgid "Port"
 msgstr "Port"
 
+#: src/helpers.js:282
+msgid "Power off"
+msgstr ""
+
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
 msgstr ""
@@ -1846,7 +1896,7 @@ msgstr ""
 msgid "Range"
 msgstr "Zmeniť"
 
-#: src/components/vm/disks/diskEdit.jsx:121
+#: src/components/vm/disks/diskEdit.jsx:122
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Read-only"
 msgstr "Iba na čítanie"
@@ -1872,6 +1922,7 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:264
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:59
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:68
+#: src/components/vm/overview/watchdog.jsx:102
 msgid "Remove"
 msgstr "Odobrať"
 
@@ -1909,6 +1960,10 @@ msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:57
 msgid "Rename VM $0"
+msgstr ""
+
+#: src/helpers.js:280
+msgid "Reset"
 msgstr ""
 
 #: src/components/common/machinesConnectionSelector.jsx:69
@@ -1953,7 +2008,7 @@ msgid "Run"
 msgstr "Spustiť"
 
 #: src/components/networks/networkOverviewTab.jsx:124
-#: src/components/vm/overview/vmOverviewCard.jsx:125
+#: src/components/vm/overview/vmOverviewCard.jsx:126
 msgid "Run when host boots"
 msgstr "Spustiť pri štarte stroja"
 
@@ -1973,10 +2028,11 @@ msgstr "SPICE adresa"
 msgid "SPICE port"
 msgstr "SPICE port"
 
-#: src/components/vm/nics/nicEdit.jsx:176
-#: src/components/vm/disks/diskEdit.jsx:265
+#: src/components/vm/nics/nicEdit.jsx:177
+#: src/components/vm/disks/diskEdit.jsx:266
 #: src/components/vm/overview/memoryModal.jsx:154
 #: src/components/vm/overview/bootOrder.jsx:326
+#: src/components/vm/overview/watchdog.jsx:94
 #: src/components/vm/overview/firmware.jsx:69
 msgid "Save"
 msgstr "Uložiť"
@@ -2172,7 +2228,7 @@ msgstr ""
 #: src/components/vms/hostvmslist.jsx:98 src/components/vms/hostvmslist.jsx:141
 #: src/components/networks/networkList.jsx:77
 #: src/components/vm/nics/vmNicsCard.jsx:330
-#: src/components/vm/overview/vmOverviewCard.jsx:192
+#: src/components/vm/overview/vmOverviewCard.jsx:193
 #: src/components/storagePools/storagePoolList.jsx:78
 msgid "State"
 msgstr "Stav"
@@ -2235,7 +2291,7 @@ msgstr "$0 sa nepodarilo zmazať"
 msgid "Storage size must not be 0"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:44
+#: src/components/vm/disks/diskEdit.jsx:45
 msgid "Storage volume"
 msgstr ""
 
@@ -2469,7 +2525,7 @@ msgstr "Neznámy firmware"
 msgid "Unspecified"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:42
+#: src/components/vm/disks/diskEdit.jsx:43
 msgid "Url"
 msgstr "Url"
 
@@ -2523,7 +2579,7 @@ msgstr ""
 msgid "User session"
 msgstr "Užívateľské heslo"
 
-#: src/components/vm/overview/vcpuModal.jsx:171
+#: src/components/vm/overview/vcpuModal.jsx:172
 msgid "VCPU settings could not be saved"
 msgstr "Nastavenia virt. procesoru nebolo možné uložiť"
 
@@ -2671,12 +2727,23 @@ msgstr "Je potrebné vyplniť názov skupiny zväzkov"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/vm/disks/diskEdit.jsx:130
+#: src/components/vm/overview/vmOverviewCard.jsx:235
+msgid "Watchdog"
+msgstr ""
+
+#: src/components/vm/overview/watchdog.jsx:85
+msgid ""
+"Watchdogs act when systems stop responding. To use this virtual watchdog "
+"device, the guest system also needs to have an additional driver and a "
+"running watchdog service."
+msgstr ""
+
+#: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Writeable"
 msgstr "Zapisovateľný"
 
-#: src/components/vm/disks/diskEdit.jsx:139
+#: src/components/vm/disks/diskEdit.jsx:140
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Writeable and shared"
 msgstr "Zapisovateľné a zdielané"
@@ -2693,6 +2760,12 @@ msgstr ""
 #: src/components/storagePools/storagePool.jsx:64
 msgid "active"
 msgstr "Aktívny"
+
+#: src/components/vm/overview/watchdog.jsx:154
+#, fuzzy
+#| msgid "Add"
+msgid "add"
+msgstr "Pridať"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
@@ -2727,9 +2800,10 @@ msgid "down"
 msgstr "vypnuté"
 
 #: src/components/vm/overview/bootOrder.jsx:372
-#: src/components/vm/overview/vmOverviewCard.jsx:136
-#: src/components/vm/overview/vmOverviewCard.jsx:147
-#: src/components/vm/overview/vmOverviewCard.jsx:155
+#: src/components/vm/overview/watchdog.jsx:154
+#: src/components/vm/overview/vmOverviewCard.jsx:137
+#: src/components/vm/overview/vmOverviewCard.jsx:148
+#: src/components/vm/overview/vmOverviewCard.jsx:156
 msgid "edit"
 msgstr "upraviť"
 
@@ -2823,6 +2897,7 @@ msgid "no state saved"
 msgstr "žiaden uložený stav"
 
 #: src/components/networks/networkOverviewTab.jsx:295
+#: src/components/vm/overview/watchdog.jsx:150
 msgid "none"
 msgstr ""
 
@@ -2876,7 +2951,7 @@ msgstr "Počet virt. procesorov"
 msgid "vCPU maximum"
 msgstr "Maximum virt. procesorov"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:211
+#: src/components/vm/overview/vmOverviewCard.jsx:212
 msgid "vCPUs"
 msgstr "virt. procesory"
 
@@ -2904,7 +2979,7 @@ msgstr ""
 "Balík virt-install musí byť nainštalovaný aby bolo možné vytvárať nové "
 "virtuálne stroje"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:161
+#: src/components/vm/overview/vmOverviewCard.jsx:162
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
@@ -2930,11 +3005,6 @@ msgstr "áno"
 
 #~ msgid "VM $0 failed to get deleted"
 #~ msgstr "Virt. stroj $0 sa nepodarilo zmazať"
-
-#, fuzzy
-#~| msgid "Connection"
-#~ msgid "Function"
-#~ msgstr "Spojenie"
 
 #~ msgid "Delete content"
 #~ msgstr "Zmazať obsah"

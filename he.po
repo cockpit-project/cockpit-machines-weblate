@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 02:57+0000\n"
+"POT-Creation-Date: 2023-01-11 02:58+0000\n"
 "PO-Revision-Date: 2021-03-28 14:01+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit-"
@@ -105,7 +105,7 @@ msgstr[3] "$0 מעבדים וירטואליים"
 msgid "$0 vCPU details"
 msgstr "פרטי המעבד הווירטואלי $0"
 
-#: src/components/vm/nics/nicEdit.jsx:172
+#: src/components/vm/nics/nicEdit.jsx:173
 msgid "$0 virtual network interface settings"
 msgstr "הגדרות מנשק הרשת הווירטואלי $0"
 
@@ -115,10 +115,16 @@ msgid ""
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:113
+#: src/components/vm/disks/diskEdit.jsx:114
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Access"
 msgstr "גישה"
+
+#: src/components/vm/overview/watchdog.jsx:113
+#, fuzzy
+#| msgid "Connection"
+msgid "Action"
+msgstr "התחברות"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -133,6 +139,7 @@ msgstr "יש להפעיל את מאגר האחסון כדי לנהל כרכים"
 #: src/components/vm/nics/nicAdd.jsx:207
 #: src/components/vm/disks/diskAdd.jsx:853
 #: src/components/vm/hostdevs/hostDevAdd.jsx:226
+#: src/components/vm/overview/watchdog.jsx:94
 msgid "Add"
 msgstr "הוספה"
 
@@ -165,6 +172,12 @@ msgstr "אין קובץ או תיקייה בשם הזה"
 #: src/components/vm/nics/nicAdd.jsx:196
 msgid "Add virtual network interface"
 msgstr "הוספת מנשק רשת וירטואלי"
+
+#: src/components/vm/overview/watchdog.jsx:84
+#, fuzzy
+#| msgid "host device"
+msgid "Add watchdog device type"
+msgstr "התקן מארח"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 #, fuzzy
@@ -242,7 +255,7 @@ msgid "Automation"
 msgstr "אוטומטית"
 
 #: src/components/networks/networkOverviewTab.jsx:119
-#: src/components/vm/overview/vmOverviewCard.jsx:229
+#: src/components/vm/overview/vmOverviewCard.jsx:230
 #: src/components/storagePools/storagePoolOverviewTab.jsx:71
 msgid "Autostart"
 msgstr "התחלה אוטומטית"
@@ -251,7 +264,7 @@ msgstr "התחלה אוטומטית"
 msgid "Blocked"
 msgstr "חסום"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:221
+#: src/components/vm/overview/vmOverviewCard.jsx:222
 msgid "Boot order"
 msgstr "סדר עלייה"
 
@@ -259,7 +272,7 @@ msgstr "סדר עלייה"
 msgid "Boot order settings could not be saved"
 msgstr "לא ניתן לשמור הגדרות סדר עלייה"
 
-#: src/components/vm/disks/diskEdit.jsx:88
+#: src/components/vm/disks/diskEdit.jsx:89
 #: src/components/vm/disks/diskAdd.jsx:224
 #: src/components/vm/disks/vmDisksCard.jsx:182
 #: src/components/vm/hostdevs/hostDevAdd.jsx:92
@@ -286,11 +299,11 @@ msgstr "מעבד"
 msgid "CPU configuration could not be saved"
 msgstr "לא ניתן לשמור את הגדרות המעבד"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:216
+#: src/components/vm/overview/vmOverviewCard.jsx:217
 msgid "CPU type"
 msgstr "סוג מעבד"
 
-#: src/components/vm/disks/diskEdit.jsx:58
+#: src/components/vm/disks/diskEdit.jsx:59
 #: src/components/vm/disks/vmDiskColumns.jsx:105
 #: src/components/vm/disks/diskAdd.jsx:213
 msgid "Cache"
@@ -304,9 +317,9 @@ msgstr "מכלא"
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:75
 #: src/components/vm/vmRenameDialog.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:79
-#: src/components/vm/nics/nicEdit.jsx:179 src/components/vm/nics/nicAdd.jsx:210
+#: src/components/vm/nics/nicEdit.jsx:180 src/components/vm/nics/nicAdd.jsx:210
 #: src/components/vm/disks/mediaEject.jsx:110
-#: src/components/vm/disks/diskEdit.jsx:268
+#: src/components/vm/disks/diskEdit.jsx:269
 #: src/components/vm/disks/diskAdd.jsx:856
 #: src/components/vm/vmMigrateDialog.jsx:218
 #: src/components/vm/deleteDialog.jsx:178
@@ -315,6 +328,7 @@ msgstr "מכלא"
 #: src/components/vm/overview/cpuTypeModal.jsx:69
 #: src/components/vm/overview/memoryModal.jsx:157
 #: src/components/vm/overview/bootOrder.jsx:329
+#: src/components/vm/overview/watchdog.jsx:105
 #: src/components/vm/overview/firmware.jsx:72
 #: src/components/vm/overview/vcpuModal.jsx:266
 #: src/components/storagePools/storageVolumeCreate.jsx:107
@@ -338,9 +352,7 @@ msgid "Change firmware"
 msgstr "החלפת קושחה"
 
 #: src/components/common/warningInactive.jsx:11
-#: src/components/vm/nics/nicEdit.jsx:166
-#: src/components/vm/disks/diskEdit.jsx:253
-#: src/components/vm/overview/vcpuModal.jsx:186
+#: src/components/common/warningInactive.jsx:23
 msgid "Changes will take effect after shutting down the VM"
 msgstr "השינויים יחולו לאחר הפעלת המכונה הווירטואלית מחדש"
 
@@ -396,7 +408,7 @@ msgstr "התחברות"
 #: src/components/vms/hostvmslist.jsx:140
 #: src/components/networks/createNetworkDialog.jsx:41
 #: src/components/networks/networkList.jsx:75
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.jsx:188
 #: src/components/storagePools/storagePoolList.jsx:77
 msgid "Connection"
 msgstr "התחברות"
@@ -728,7 +740,7 @@ msgstr "השם לא יכול להישאר ריק"
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:216
+#: src/components/vm/disks/diskEdit.jsx:217
 #: src/components/vm/disks/diskAdd.jsx:706
 msgid "Disk settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות הכונן"
@@ -744,6 +756,10 @@ msgstr "כוננים"
 #: src/components/vm/vmMigrateDialog.jsx:202
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
+msgstr ""
+
+#: src/helpers.js:284
+msgid "Do nothing"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
@@ -774,6 +790,10 @@ msgstr "$0 בהורדה"
 msgid "Downloading: $0%"
 msgstr "$0 בהורדה"
 
+#: src/helpers.js:285
+msgid "Dump core"
+msgstr ""
+
 #: src/components/vm/vmMigrateDialog.jsx:64
 #, fuzzy
 #| msgid "Description"
@@ -785,13 +805,17 @@ msgid "Dying"
 msgstr "גוסס"
 
 #: src/components/vm/nics/vmNicsCard.jsx:371
-#: src/components/vm/disks/diskEdit.jsx:164
+#: src/components/vm/disks/diskEdit.jsx:165
 msgid "Edit"
 msgstr "עריכה"
 
-#: src/components/vm/disks/diskEdit.jsx:261
+#: src/components/vm/disks/diskEdit.jsx:262
 msgid "Edit $0 attributes"
 msgstr "עריכת מאפייני $0"
+
+#: src/components/vm/overview/watchdog.jsx:84
+msgid "Edit watchdog device type"
+msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -812,7 +836,7 @@ msgstr ""
 msgid "Eject disc from VM?"
 msgstr "$0 בהסרה"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:241
+#: src/components/vm/overview/vmOverviewCard.jsx:249
 msgid "Emulated machine"
 msgstr "מכונה מדומה"
 
@@ -869,6 +893,18 @@ msgstr "החלפת הקושחה נכשלה"
 msgid "Failed to clone VM $0"
 msgstr "שכפול המכונה הווירטואלית $0 נכשל"
 
+#: src/components/vm/overview/watchdog.jsx:55
+#, fuzzy
+#| msgid "Failed to change firmware"
+msgid "Failed to configure watchdog"
+msgstr "החלפת הקושחה נכשלה"
+
+#: src/components/vm/overview/watchdog.jsx:68
+#, fuzzy
+#| msgid "Disk failed to be attached"
+msgid "Failed to detach watchdog"
+msgstr "חיבור הכונן נכשל"
+
 #: src/app.jsx:136
 #, fuzzy
 #| msgid "Failed to change firmware"
@@ -916,7 +952,7 @@ msgstr "תיקיית מערכת קבצים"
 msgid "Filter by name"
 msgstr "סינון לפי שם"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:247
+#: src/components/vm/overview/vmOverviewCard.jsx:255
 #: src/components/vm/overview/firmware.jsx:78
 msgid "Firmware"
 msgstr "קושחה"
@@ -956,7 +992,7 @@ msgid ""
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:110
-#: src/components/vm/overview/vmOverviewCard.jsx:183
+#: src/components/vm/overview/vmOverviewCard.jsx:184
 msgid "General"
 msgstr "כללי"
 
@@ -983,6 +1019,12 @@ msgstr "מעבר לרשימת המכונות הווירטואליות"
 #: src/components/common/machinesConnectionSelector.jsx:63
 msgid "Good choice for desktop virtualization"
 msgstr ""
+
+#: src/helpers.js:281
+#, fuzzy
+#| msgid "Force shut down"
+msgid "Gracefully shutdown"
+msgstr "לאלץ כיבוי"
 
 #: src/components/vm/disks/diskAdd.jsx:209
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
@@ -1024,11 +1066,11 @@ msgstr "שם מארח"
 msgid "Host should not be empty"
 msgstr "המארח לא אמור להיות ריק"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:237
+#: src/components/vm/overview/vmOverviewCard.jsx:245
 msgid "Hypervisor details"
 msgstr "פרטי Hypervisor"
 
-#: src/components/vm/disks/diskEdit.jsx:38
+#: src/components/vm/disks/diskEdit.jsx:39
 msgid "ID"
 msgstr "מזהה"
 
@@ -1147,6 +1189,12 @@ msgstr "מאתחל"
 #: src/components/storagePools/createStoragePoolDialog.jsx:141
 msgid "Initiator IQN should not be empty"
 msgstr "ה־IQN של המפעיל לא אמור להיות ריק"
+
+#: src/helpers.js:286
+#, fuzzy
+#| msgid "Send non-maskable interrupt"
+msgid "Inject a non-maskable interrupt"
+msgstr "שליחת פסיקה שלא ניתן למסך"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1282,7 +1330,7 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.jsx:247
-#: src/components/vm/nics/nicEdit.jsx:42 src/components/vm/nics/nicAdd.jsx:63
+#: src/components/vm/nics/nicEdit.jsx:43 src/components/vm/nics/nicAdd.jsx:63
 #: src/components/vm/nics/vmNicsCard.jsx:253
 msgid "MAC address"
 msgstr "כתובת MAC"
@@ -1293,11 +1341,11 @@ msgstr "כתובת MAC"
 msgid "MAC address must not be empty"
 msgstr "השם לא יכול להישאר ריק"
 
-#: src/components/vm/disks/diskEdit.jsx:90
+#: src/components/vm/disks/diskEdit.jsx:91
 msgid "Machine must be shut off before changing bus type"
 msgstr "יש לכבות את המכונה לפני החלפת סוג אפיק"
 
-#: src/components/vm/disks/diskEdit.jsx:60
+#: src/components/vm/disks/diskEdit.jsx:61
 msgid "Machine must be shut off before changing cache mode"
 msgstr "יש לכבות את המכונה לפני החלפת מצב המטמון"
 
@@ -1365,7 +1413,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:781
 #: src/components/vm/vmUsageCard.jsx:60
-#: src/components/vm/overview/vmOverviewCard.jsx:206
+#: src/components/vm/overview/vmOverviewCard.jsx:207
 msgid "Memory"
 msgstr "זיכרון"
 
@@ -1526,7 +1574,7 @@ msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 msgid "Network interface $0 will be removed from $1"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
-#: src/components/vm/nics/nicEdit.jsx:135 src/components/vm/nics/nicAdd.jsx:161
+#: src/components/vm/nics/nicEdit.jsx:136 src/components/vm/nics/nicAdd.jsx:161
 msgid "Network interface settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
@@ -1696,7 +1744,7 @@ msgstr ""
 "אחד או יותר מהכרכים שנבחרו משמשים את שם התחום. יש לנתק את הכוננים תחילה כדי "
 "לאפשר מחיקת כרכים."
 
-#: src/components/vm/nics/nicEdit.jsx:39
+#: src/components/vm/nics/nicEdit.jsx:40
 #: src/components/vm/overview/memoryModal.jsx:143
 #: src/components/vm/overview/bootOrder.jsx:379
 msgid "Only editable when the guest is shut off"
@@ -1728,7 +1776,7 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr "תמונת מצב הורה"
 
-#: src/components/vm/disks/diskEdit.jsx:40
+#: src/components/vm/disks/diskEdit.jsx:41
 #: src/components/vm/deleteDialog.jsx:63
 #: src/components/vm/hostdevs/hostDevCard.jsx:128
 #: src/components/vm/hostdevs/hostDevCard.jsx:132
@@ -1751,7 +1799,7 @@ msgstr "הנתיב לקובץ דמות הענן במערכת הקבצים של �
 msgid "Path to file on host's file system"
 msgstr "הנתיב לקובץ במערכת הקבצים של המארח"
 
-#: src/components/vm/vmActions.jsx:200
+#: src/helpers.js:283 src/components/vm/vmActions.jsx:200
 msgid "Pause"
 msgstr "השהיה"
 
@@ -1833,6 +1881,10 @@ msgstr "כרכי המאגר משמשים מכונות וירטואליות "
 msgid "Port"
 msgstr "פתחה"
 
+#: src/helpers.js:282
+msgid "Power off"
+msgstr ""
+
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
 msgstr "מספר השקעים המועדף לחשיפה לאורח."
@@ -1900,7 +1952,7 @@ msgstr ""
 msgid "Range"
 msgstr "החלפה"
 
-#: src/components/vm/disks/diskEdit.jsx:121
+#: src/components/vm/disks/diskEdit.jsx:122
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Read-only"
 msgstr "קריאה בלבד"
@@ -1926,6 +1978,7 @@ msgstr "פרטי המציג מרחוק"
 #: src/components/vm/hostdevs/hostDevCard.jsx:264
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:59
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:68
+#: src/components/vm/overview/watchdog.jsx:102
 msgid "Remove"
 msgstr "הסרה"
 
@@ -1963,6 +2016,10 @@ msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:57
 msgid "Rename VM $0"
+msgstr ""
+
+#: src/helpers.js:280
+msgid "Reset"
 msgstr ""
 
 #: src/components/common/machinesConnectionSelector.jsx:69
@@ -2009,7 +2066,7 @@ msgid "Run"
 msgstr "הפעלה"
 
 #: src/components/networks/networkOverviewTab.jsx:124
-#: src/components/vm/overview/vmOverviewCard.jsx:125
+#: src/components/vm/overview/vmOverviewCard.jsx:126
 msgid "Run when host boots"
 msgstr "הפעלה עם עליית המארח"
 
@@ -2029,10 +2086,11 @@ msgstr "כתובת SPICE"
 msgid "SPICE port"
 msgstr "פתחת SPICE"
 
-#: src/components/vm/nics/nicEdit.jsx:176
-#: src/components/vm/disks/diskEdit.jsx:265
+#: src/components/vm/nics/nicEdit.jsx:177
+#: src/components/vm/disks/diskEdit.jsx:266
 #: src/components/vm/overview/memoryModal.jsx:154
 #: src/components/vm/overview/bootOrder.jsx:326
+#: src/components/vm/overview/watchdog.jsx:94
 #: src/components/vm/overview/firmware.jsx:69
 msgid "Save"
 msgstr "שמירה"
@@ -2227,7 +2285,7 @@ msgstr "בהתחלה"
 #: src/components/vms/hostvmslist.jsx:98 src/components/vms/hostvmslist.jsx:141
 #: src/components/networks/networkList.jsx:77
 #: src/components/vm/nics/vmNicsCard.jsx:330
-#: src/components/vm/overview/vmOverviewCard.jsx:192
+#: src/components/vm/overview/vmOverviewCard.jsx:193
 #: src/components/storagePools/storagePoolList.jsx:78
 msgid "State"
 msgstr "מצב"
@@ -2290,7 +2348,7 @@ msgstr "לא ניתן למחוק את כרכי האחסון"
 msgid "Storage size must not be 0"
 msgstr "אסור שגודל האחסון יהיה 0"
 
-#: src/components/vm/disks/diskEdit.jsx:44
+#: src/components/vm/disks/diskEdit.jsx:45
 msgid "Storage volume"
 msgstr "כרך אחסון"
 
@@ -2528,7 +2586,7 @@ msgstr "קושחה לא ידועה"
 msgid "Unspecified"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:42
+#: src/components/vm/disks/diskEdit.jsx:43
 msgid "Url"
 msgstr "כתובת"
 
@@ -2582,7 +2640,7 @@ msgstr "ססמת המשתמש לא יכולה להיות ריקה כשמוגדר
 msgid "User session"
 msgstr "ססמת משתמש"
 
-#: src/components/vm/overview/vcpuModal.jsx:171
+#: src/components/vm/overview/vcpuModal.jsx:172
 msgid "VCPU settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות המעבד הווירטואלי"
 
@@ -2730,12 +2788,23 @@ msgstr "שם קבוצת הכרכים לא אמור להיות ריק"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/vm/disks/diskEdit.jsx:130
+#: src/components/vm/overview/vmOverviewCard.jsx:235
+msgid "Watchdog"
+msgstr ""
+
+#: src/components/vm/overview/watchdog.jsx:85
+msgid ""
+"Watchdogs act when systems stop responding. To use this virtual watchdog "
+"device, the guest system also needs to have an additional driver and a "
+"running watchdog service."
+msgstr ""
+
+#: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Writeable"
 msgstr "ניתן לכתיבה"
 
-#: src/components/vm/disks/diskEdit.jsx:139
+#: src/components/vm/disks/diskEdit.jsx:140
 #: src/components/vm/disks/vmDisksCard.jsx:212
 msgid "Writeable and shared"
 msgstr "ניתן לכתיבה ומשותף"
@@ -2752,6 +2821,12 @@ msgstr "עליך לבחור את מערכת ההפעלה שהכי מתאימה"
 #: src/components/storagePools/storagePool.jsx:64
 msgid "active"
 msgstr "פעיל"
+
+#: src/components/vm/overview/watchdog.jsx:154
+#, fuzzy
+#| msgid "Add"
+msgid "add"
+msgstr "הוספה"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
@@ -2786,9 +2861,10 @@ msgid "down"
 msgstr "מושבת"
 
 #: src/components/vm/overview/bootOrder.jsx:372
-#: src/components/vm/overview/vmOverviewCard.jsx:136
-#: src/components/vm/overview/vmOverviewCard.jsx:147
-#: src/components/vm/overview/vmOverviewCard.jsx:155
+#: src/components/vm/overview/watchdog.jsx:154
+#: src/components/vm/overview/vmOverviewCard.jsx:137
+#: src/components/vm/overview/vmOverviewCard.jsx:148
+#: src/components/vm/overview/vmOverviewCard.jsx:156
 msgid "edit"
 msgstr "עריכה"
 
@@ -2882,6 +2958,7 @@ msgid "no state saved"
 msgstr "לא נשמר מצב"
 
 #: src/components/networks/networkOverviewTab.jsx:295
+#: src/components/vm/overview/watchdog.jsx:150
 msgid "none"
 msgstr ""
 
@@ -2935,7 +3012,7 @@ msgstr "כמות מעבדים וירטואליים"
 msgid "vCPU maximum"
 msgstr "מעבד וירטואלי מרבי"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:211
+#: src/components/vm/overview/vmOverviewCard.jsx:212
 msgid "vCPUs"
 msgstr "מעבדים וירטואליים"
 
@@ -2960,7 +3037,7 @@ msgid ""
 msgstr ""
 "יש להתקין את החבילה virt-install במערכת כדי ליצור מכונות וירטואליות חדשות"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:161
+#: src/components/vm/overview/vmOverviewCard.jsx:162
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
@@ -2987,11 +3064,6 @@ msgstr "כן"
 
 #~ msgid "VM $0 failed to get deleted"
 #~ msgstr "מחיקת המכונה הווירטואלית $0 נכשלה"
-
-#, fuzzy
-#~| msgid "Connection"
-#~ msgid "Function"
-#~ msgstr "התחברות"
 
 #~ msgid "Delete content"
 #~ msgstr "מחיקת תוכן"
