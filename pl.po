@@ -12,17 +12,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-14 02:53+0000\n"
-"PO-Revision-Date: 2022-12-01 11:21+0000\n"
+"PO-Revision-Date: 2023-01-15 14:06+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/pl/>\n"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "$0 $1 available at default location"
@@ -101,10 +101,8 @@ msgid "Access"
 msgstr "Dostęp"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Function"
 msgid "Action"
-msgstr "Funkcja"
+msgstr "Działanie"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -151,10 +149,8 @@ msgid "Add virtual network interface"
 msgstr "Dodaj wirtualny interfejs sieciowy"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "Add host device"
 msgid "Add watchdog device type"
-msgstr "Dodaj urządzenie gospodarza"
+msgstr "Dodaj typ urządzenia watchdog"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -163,7 +159,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:77
 msgid "Adding this disk will change its access mode to shared."
-msgstr ""
+msgstr "Dodanie tego dysku zmieni jego tryb dostępu na udostępniany."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Additional"
@@ -679,7 +675,7 @@ msgstr "Ścieżka do obrazu dysku nie może być pusta"
 
 #: src/components/common/machinesConnectionSelector.jsx:72
 msgid "Disk images can be stored in user home directory"
-msgstr ""
+msgstr "Obraz dysków mogą być przechowywane w katalogu domowym użytkownika"
 
 #: src/components/vm/disks/diskAdd.jsx:706
 #: src/components/vm/disks/diskEdit.jsx:217
@@ -703,7 +699,7 @@ msgstr ""
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "Nie rób nic"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -731,7 +727,7 @@ msgstr "Pobieranie: $0%"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "Zrzuć core"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -752,7 +748,7 @@ msgstr "Modyfikuj atrybuty $0"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Modyfikuj typ urządzenia watchdog"
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -828,16 +824,12 @@ msgid "Failed to clone VM $0"
 msgstr "Sklonowanie maszyny wirtualnej $0 się nie powiodło"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "Zmiana oprogramowania sprzętowego się nie powiodła"
+msgstr "Skonfigurowanie watchdoga się nie powiodło"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Podłączenie dysku się nie powiodło"
+msgstr "Odłączenie watchdoga się nie powiodło"
 
 #: src/app.jsx:136
 msgid "Failed to fetch some resources"
@@ -949,13 +941,11 @@ msgstr "Przejdź do listy maszyn wirtualnych"
 
 #: src/components/common/machinesConnectionSelector.jsx:63
 msgid "Good choice for desktop virtualization"
-msgstr ""
+msgstr "Dobry wybór do wirtualizacji środowiska pulpitu"
 
 #: src/helpers.js:281
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Wymuś wyłączenie"
+msgstr "Normalnie wyłącz"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
 #: src/components/vm/disks/diskAdd.jsx:209
@@ -1058,11 +1048,11 @@ msgstr "Tylko IPv6"
 
 #: src/components/common/machinesConnectionSelector.jsx:46
 msgid "Ideal for server VMs"
-msgstr ""
+msgstr "Idealne dla serwerowych maszyn wirtualnych"
 
 #: src/components/common/machinesConnectionSelector.jsx:52
 msgid "Ideal networking support"
-msgstr ""
+msgstr "Idealna obsługa sieci"
 
 #: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1119,10 +1109,8 @@ msgid "Initiator IQN should not be empty"
 msgstr "Inicjator IQN nie może być pusty"
 
 #: src/helpers.js:286
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
-msgstr "Wyślij niemaskowalne przerwanie"
+msgstr "Wprowadź niemaskowalne przerwanie"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1710,7 +1698,7 @@ msgstr "Trwała (domyślnie)"
 
 #: src/components/common/machinesConnectionSelector.jsx:55
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "Odmowa uprawnień dla obrazów dysków w katalogach domowych"
 
 #: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
@@ -1778,7 +1766,7 @@ msgstr "Port"
 
 #: src/helpers.js:282
 msgid "Power off"
-msgstr ""
+msgstr "Wyłącz"
 
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
@@ -1911,12 +1899,14 @@ msgstr "Zmień nazwę maszyny wirtualnej $0"
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "Przywróć"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
+"Ograniczenia w sieci (emulacja na podstawie SLIRP) i przydzielaniu urządzeń "
+"PCI"
 
 #: src/components/vm/vmActions.jsx:211
 msgid "Resume"
@@ -2601,6 +2591,8 @@ msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
+"Maszyna wirtualna uruchomiona z nieuprawnionym, ograniczonym dostępem, z "
+"procesem i PTY pod własnością konta użytkownika"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:106
 msgid "VM state"
@@ -2608,7 +2600,7 @@ msgstr "Stan maszyny wirtualnej"
 
 #: src/components/common/machinesConnectionSelector.jsx:49
 msgid "VM will launch with root permissions"
-msgstr ""
+msgstr "Maszyna wirtualna zostanie uruchomiona z uprawnieniami roota"
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -2692,7 +2684,7 @@ msgstr "WWPN"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:235
 msgid "Watchdog"
-msgstr ""
+msgstr "Watchdog"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid ""
@@ -2700,6 +2692,9 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
+"Urządzenia watchdog działają, kiedy systemy przestają odpowiadać. Aby użyć "
+"tego wirtualnego urządzenia watchdog, system gościa musi mieć także "
+"dodatkowy sterownik i działającą usługę watchdog."
 
 #: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
@@ -2725,10 +2720,8 @@ msgid "active"
 msgstr "aktywne"
 
 #: src/components/vm/overview/watchdog.jsx:154
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Dodaj"
+msgstr "dodaj"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
