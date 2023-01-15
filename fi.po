@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-11 02:58+0000\n"
-"PO-Revision-Date: 2022-12-01 11:21+0000\n"
+"PO-Revision-Date: 2023-01-15 02:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "$0 $1 available at default location"
@@ -93,10 +93,8 @@ msgid "Access"
 msgstr "Pääsy"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Function"
 msgid "Action"
-msgstr "Funktio"
+msgstr "Toiminto"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -142,10 +140,8 @@ msgid "Add virtual network interface"
 msgstr "Lisää virtuaalinen verkkoliitäntä"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "Add host device"
 msgid "Add watchdog device type"
-msgstr "Lisää isäntälaite"
+msgstr "Lisää vahtikoiran laitetyyppi"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -155,7 +151,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:77
 msgid "Adding this disk will change its access mode to shared."
-msgstr ""
+msgstr "Tämän levyn lisääminen muuttaa sen käyttötilaksi jaettu."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Additional"
@@ -669,7 +665,7 @@ msgstr "Levykuvan polku ei voi olla tyhjä"
 
 #: src/components/common/machinesConnectionSelector.jsx:72
 msgid "Disk images can be stored in user home directory"
-msgstr ""
+msgstr "Levykuvat voidaan tallentaa käyttäjän kotihakemistoon"
 
 #: src/components/vm/disks/diskEdit.jsx:217
 #: src/components/vm/disks/diskAdd.jsx:706
@@ -693,7 +689,7 @@ msgstr ""
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "Älä tee mitään"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -721,7 +717,7 @@ msgstr "Ladataan: $0%"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "Dumppaa ydin"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -742,7 +738,7 @@ msgstr "Muokkaa $0 attribuuttia"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Muokkaa vahtikoiran laitetyyppiä"
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -818,16 +814,12 @@ msgid "Failed to clone VM $0"
 msgstr "VM:n $0 kloonaus epäonnistui"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "Laiteohjelmiston vaihtaminen epäonnistui"
+msgstr "Vahtikoiran määritys epäonnistui"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Levyn liittäminen epäonnistui"
+msgstr "Vahtikoiran irrottaminen epäonnistui"
 
 #: src/app.jsx:136
 msgid "Failed to fetch some resources"
@@ -937,13 +929,11 @@ msgstr "Siirry virtuaalikoneiden luetteloon"
 
 #: src/components/common/machinesConnectionSelector.jsx:63
 msgid "Good choice for desktop virtualization"
-msgstr ""
+msgstr "Hyvä valinta työpöydän virtualisointiin"
 
 #: src/helpers.js:281
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Pakota sammutus"
+msgstr "Sammuta hallitusti"
 
 #: src/components/vm/disks/diskAdd.jsx:209
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
@@ -1046,11 +1036,11 @@ msgstr "IPv6 vain"
 
 #: src/components/common/machinesConnectionSelector.jsx:46
 msgid "Ideal for server VMs"
-msgstr ""
+msgstr "Ihanteellinen palvelin-VM:ille"
 
 #: src/components/common/machinesConnectionSelector.jsx:52
 msgid "Ideal networking support"
-msgstr ""
+msgstr "Erinomainen verkkotuki"
 
 #: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1107,10 +1097,8 @@ msgid "Initiator IQN should not be empty"
 msgstr "Aloittaja IQN ei saa olla tyhjä"
 
 #: src/helpers.js:286
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
-msgstr "Lähetä ei-peitettävä keskeytys"
+msgstr "Lisää ei-maskattava keskeytys"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1686,7 +1674,7 @@ msgstr "Pysyvä (oletus)"
 
 #: src/components/common/machinesConnectionSelector.jsx:55
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "Kotihakemistojen levykuvien käyttöoikeudet estetty"
 
 #: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
@@ -1754,7 +1742,7 @@ msgstr "Portti"
 
 #: src/helpers.js:282
 msgid "Power off"
-msgstr ""
+msgstr "Sammuta virta"
 
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
@@ -1886,12 +1874,14 @@ msgstr "Nimeä uudelleen VM $0"
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "Nollaa"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
+"Rajoitukset verkkotoiminnassa (SLIRP-pohjainen emulointi) ja PCI-laitteiden "
+"määrittämisessä"
 
 #: src/components/vm/vmActions.jsx:211
 msgid "Resume"
@@ -2563,6 +2553,8 @@ msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
+"VM julkaistiin etuoikeutetulla rajoitetulla pääsyllä, jossa prosessin ja PTY:"
+"n omistaa käyttäjätilisi"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:106
 msgid "VM state"
@@ -2570,7 +2562,7 @@ msgstr "Virtuaalikoneen tila"
 
 #: src/components/common/machinesConnectionSelector.jsx:49
 msgid "VM will launch with root permissions"
-msgstr ""
+msgstr "VM käynnistyy pääkäyttäjän oikeuksin"
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -2654,7 +2646,7 @@ msgstr "WWPN"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:235
 msgid "Watchdog"
-msgstr ""
+msgstr "Vahtikoira"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid ""
@@ -2662,6 +2654,9 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
+"Vahtikoira reagoi, kun järjestelmät lakkaavat vastaamasta. Tämän "
+"virtuaalisen vahtikoiralaitteen käyttämiseksi vierasjärjestelmässä on oltava "
+"myös ylimääräinen ajuri ja käynnissä oleva vahtikoirapalvelu."
 
 #: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
@@ -2687,10 +2682,8 @@ msgid "active"
 msgstr "aktiivinen"
 
 #: src/components/vm/overview/watchdog.jsx:154
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Lisää"
+msgstr "lisää"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
