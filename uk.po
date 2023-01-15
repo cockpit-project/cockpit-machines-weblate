@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-11 02:58+0000\n"
-"PO-Revision-Date: 2023-01-11 14:20+0000\n"
+"PO-Revision-Date: 2023-01-15 02:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/uk/>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
@@ -99,10 +99,8 @@ msgid "Access"
 msgstr "Доступ"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Function"
 msgid "Action"
-msgstr "Функція"
+msgstr "Дія"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -148,10 +146,8 @@ msgid "Add virtual network interface"
 msgstr "Додати інтерфейс віртуальної мережі"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "Add host device"
 msgid "Add watchdog device type"
-msgstr "Додати пристрій основної системи"
+msgstr "Додати тип пристрою нагляду"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -699,7 +695,7 @@ msgstr ""
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "Нічого не робити"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -727,7 +723,7 @@ msgstr "Отримуємо: $0%"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "Створити дамп ядра"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -748,7 +744,7 @@ msgstr "Редагувати атрибути $0"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Змінити тип пристрою нагляду"
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -822,16 +818,12 @@ msgid "Failed to clone VM $0"
 msgstr "Не вдалося клонувати ВМ $0"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "Не вдалося змінити мікропрограму"
+msgstr "Не вдалося налаштувати спостереження"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Не вдалося долучити диск"
+msgstr "Не вдалося від'єднати спостереження"
 
 #: src/app.jsx:136
 msgid "Failed to fetch some resources"
@@ -945,10 +937,8 @@ msgid "Good choice for desktop virtualization"
 msgstr "Чудовий вибір для стільничної віртуалізації"
 
 #: src/helpers.js:281
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Примусово вимкнути"
+msgstr "Штатно вимкнути"
 
 #: src/components/vm/disks/diskAdd.jsx:209
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
@@ -1113,10 +1103,8 @@ msgid "Initiator IQN should not be empty"
 msgstr "IQN ініціатора має бути непорожнімy"
 
 #: src/helpers.js:286
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
-msgstr "Надіслати немасковане переривання"
+msgstr "Вставити немасковане переривання"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1698,7 +1686,7 @@ msgstr "Сталий (типовий)"
 
 #: src/components/common/machinesConnectionSelector.jsx:55
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "Доступ заборонено для образів дисків у домашніх каталогах"
 
 #: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
@@ -1767,7 +1755,7 @@ msgstr "Порт"
 
 #: src/helpers.js:282
 msgid "Power off"
-msgstr ""
+msgstr "Вимкнути живлення"
 
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
@@ -1900,12 +1888,14 @@ msgstr "Перейменувати ВМ $0"
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "Скинути"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
+"Обмеження для мережі (заснована на SLIRP емуляція) і призначення пристроїв "
+"PCI"
 
 #: src/components/vm/vmActions.jsx:211
 msgid "Resume"
@@ -2587,6 +2577,8 @@ msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
+"ВМ запущено із непривілейованим обмеженим доступом з процесом і PTY, "
+"власником яких є в ваш обліковий запис користувача"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:106
 msgid "VM state"
@@ -2594,7 +2586,7 @@ msgstr "Стан ВМ"
 
 #: src/components/common/machinesConnectionSelector.jsx:49
 msgid "VM will launch with root permissions"
-msgstr ""
+msgstr "ВМ буде запущено із правами доступу root"
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -2678,7 +2670,7 @@ msgstr "WWPN"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:235
 msgid "Watchdog"
-msgstr ""
+msgstr "Сторожовик"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid ""
@@ -2686,6 +2678,9 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
+"Засоби нагляду (сторожовики) працюють, коли системи припиняють відповідати "
+"на запити. Щоб скористатися цим віртуальним пристроєм нагляду, у гостьовій "
+"системі також має бути додатковий драйвер і запущена служба нагляду."
 
 #: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
@@ -2711,10 +2706,8 @@ msgid "active"
 msgstr "активний"
 
 #: src/components/vm/overview/watchdog.jsx:154
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Додати"
+msgstr "додати"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
