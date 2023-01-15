@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-11 02:58+0000\n"
-"PO-Revision-Date: 2022-12-06 18:20+0000\n"
+"PO-Revision-Date: 2023-01-15 02:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "$0 $1 available at default location"
@@ -93,10 +93,8 @@ msgid "Access"
 msgstr "წვდომა"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Function"
 msgid "Action"
-msgstr "ფუნქცია"
+msgstr "ქმედება"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -142,10 +140,8 @@ msgid "Add virtual network interface"
 msgstr "ქსელის ვირტუალური ინტერფეისის დამატება"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "Add host device"
 msgid "Add watchdog device type"
-msgstr "ჰოსტის მოწყობილობის დამატება"
+msgstr "Watchdog-ის ტიპის მოწყობილობის დამატება"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -155,7 +151,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:77
 msgid "Adding this disk will change its access mode to shared."
-msgstr ""
+msgstr "დისკის დამატება წვდომის რეჟიმს გაზიარებულზე გადართავს."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Additional"
@@ -668,7 +664,7 @@ msgstr "დისკის გამოსახულების ბილი�
 
 #: src/components/common/machinesConnectionSelector.jsx:72
 msgid "Disk images can be stored in user home directory"
-msgstr ""
+msgstr "დისკის ასლები შეგიძლიათ მომხმარებლის საქაღლდეში შეინახოთ"
 
 #: src/components/vm/disks/diskEdit.jsx:217
 #: src/components/vm/disks/diskAdd.jsx:706
@@ -690,7 +686,7 @@ msgstr "არ გაუშვა ეს ვმ-ი ერთდროულა�
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "არაფრის გაკეთება"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -718,7 +714,7 @@ msgstr "გადმოწერა: $0%"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "ბირთვის დამპი"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -739,7 +735,7 @@ msgstr "$0-ის ატრიბუტების ჩასწორება"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Watchdog ტიპის მოწყობილობის ჩასწორება"
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -813,16 +809,12 @@ msgid "Failed to clone VM $0"
 msgstr "ვმ-ის ($0) ასლის შექმნის შეცდომა"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "მიკროკოდის შეცვლის შეცდომა"
+msgstr "Watchdog-ის მორგების შეცდომა"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "დისკის მიბმის შეცდომა"
+msgstr "Watchdog-ის მოხსნის შეცდომა"
 
 #: src/app.jsx:136
 msgid "Failed to fetch some resources"
@@ -932,11 +924,9 @@ msgstr "ვმ-ების სიაზე გადასვლა"
 
 #: src/components/common/machinesConnectionSelector.jsx:63
 msgid "Good choice for desktop virtualization"
-msgstr ""
+msgstr "კარგი არჩევანი სამუშაო მაგიდის ვირტუალიზაციისთვის"
 
 #: src/helpers.js:281
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
 msgstr "ძალით გამორთვა"
 
@@ -1041,11 +1031,11 @@ msgstr "მხოლოდ IPv6"
 
 #: src/components/common/machinesConnectionSelector.jsx:46
 msgid "Ideal for server VMs"
-msgstr ""
+msgstr "იდეალურია სერვერული ვმ-ებისთვის"
 
 #: src/components/common/machinesConnectionSelector.jsx:52
 msgid "Ideal networking support"
-msgstr ""
+msgstr "ქსელის იდეალური მხარდაჭერა"
 
 #: src/components/vm/disks/diskAdd.jsx:249
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1100,8 +1090,6 @@ msgid "Initiator IQN should not be empty"
 msgstr "ინიციატორის IQN ცარიელი არ შეიძლება იყოს"
 
 #: src/helpers.js:286
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
 msgstr "შეუნიღბვადი წყვეტის გაგზავნა"
 
@@ -1676,7 +1664,7 @@ msgstr "მუდმივი (ნაგულისხმები)"
 
 #: src/components/common/machinesConnectionSelector.jsx:55
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "საწყისი საქაღალდეებიდან დისკის ასლების წაკითხვის წვდომა აკრძალულია"
 
 #: src/components/vm/nics/nicAdd.jsx:86 src/components/vm/disks/diskAdd.jsx:134
 msgid "Persistence"
@@ -1744,7 +1732,7 @@ msgstr "პორტი"
 
 #: src/helpers.js:282
 msgid "Power off"
-msgstr ""
+msgstr "გამორთვა"
 
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
@@ -1875,12 +1863,14 @@ msgstr "ვმ-ის გადარქმევა ($0)"
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "საწყის მნიშვნელობებზე დაბრუნება"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
+"ქსელის შეზღუდვები (SIRP-ზე ბაზირებული ემულაცია) და PCI მოწყობილობების "
+"მინიჭება"
 
 #: src/components/vm/vmActions.jsx:211
 msgid "Resume"
@@ -2550,7 +2540,7 @@ msgstr "ვმ-ის მდგომარეობა"
 
 #: src/components/common/machinesConnectionSelector.jsx:49
 msgid "VM will launch with root permissions"
-msgstr ""
+msgstr "ვმ-ი root-ის უფლებებით გაეშვება"
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
@@ -2634,7 +2624,7 @@ msgstr "WWPN"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:235
 msgid "Watchdog"
-msgstr ""
+msgstr "საკონტროლო ტაიმერი"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid ""
@@ -2667,8 +2657,6 @@ msgid "active"
 msgstr "აქტიური"
 
 #: src/components/vm/overview/watchdog.jsx:154
-#, fuzzy
-#| msgid "Add"
 msgid "add"
 msgstr "დამატება"
 
