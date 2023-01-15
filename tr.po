@@ -11,10 +11,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-11 02:58+0000\n"
-"PO-Revision-Date: 2023-01-11 14:20+0000\n"
+"PO-Revision-Date: 2023-01-15 02:20+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,10 +96,8 @@ msgid "Access"
 msgstr "Erişim"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Function"
 msgid "Action"
-msgstr "İşlev"
+msgstr "Eylem"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -145,10 +143,8 @@ msgid "Add virtual network interface"
 msgstr "Sanal ağ arayüzü ekle"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "Add host device"
 msgid "Add watchdog device type"
-msgstr "Anamakine aygıtı ekle"
+msgstr "Gözlemci aygıt türü ekle"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -694,7 +690,7 @@ msgstr ""
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "Hiçbir şey yapma"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -722,7 +718,7 @@ msgstr "İndiriliyor: %$0"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "Çekirdek dökümü yap"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -743,7 +739,7 @@ msgstr "$0 özniteliklerini düzenle"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Gözlemci aygıt türünü düzenle"
 
 #: src/components/vm/nics/vmNicsCard.jsx:359
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -818,16 +814,12 @@ msgid "Failed to clone VM $0"
 msgstr "$0 sanal makinesini çoğaltma başarısız oldu"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "Aygıt yazılımını değiştirme başarısız oldu"
+msgstr "Gözlemci yapılandırma başarısız oldu"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Diskin bağlanması başarısız oldu"
+msgstr "Gözlemci ayırma başarısız oldu"
 
 #: src/app.jsx:136
 msgid "Failed to fetch some resources"
@@ -941,10 +933,8 @@ msgid "Good choice for desktop virtualization"
 msgstr "Masaüstü sanallaştırması için iyi seçim"
 
 #: src/helpers.js:281
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Kapatmaya zorla"
+msgstr "Düzgün şekilde kapat"
 
 #: src/components/vm/disks/diskAdd.jsx:209
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:243
@@ -1107,10 +1097,8 @@ msgid "Initiator IQN should not be empty"
 msgstr "Başlatıcı IQN boş olmamalıdır"
 
 #: src/helpers.js:286
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
-msgstr "Maskelenemez kesme (NMI) gönder"
+msgstr "Maskelenemez kesme gönder"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:158
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -1753,7 +1741,7 @@ msgstr "Bağlantı noktası"
 
 #: src/helpers.js:282
 msgid "Power off"
-msgstr ""
+msgstr "Kapat"
 
 #: src/components/vm/overview/vcpuModal.jsx:226
 msgid "Preferred number of sockets to expose to the guest."
@@ -1884,7 +1872,7 @@ msgstr "$0 sanal makinesini yeniden adlandır"
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
@@ -2663,7 +2651,7 @@ msgstr "WWPN"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:235
 msgid "Watchdog"
-msgstr ""
+msgstr "Gözlemci"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid ""
@@ -2671,6 +2659,9 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
+"Gözlemciler sistemler yanıt vermeyi bıraktığında harekete geçer. Bu sanal "
+"gözlemci aygıtını kullanmak için konuk sistemin ayrıca ek bir sürücüye ve "
+"çalışan bir gözlemci hizmetine sahip olması gerekir."
 
 #: src/components/vm/disks/diskEdit.jsx:131
 #: src/components/vm/disks/vmDisksCard.jsx:212
@@ -2696,10 +2687,8 @@ msgid "active"
 msgstr "etkin"
 
 #: src/components/vm/overview/watchdog.jsx:154
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Ekle"
+msgstr "ekle"
 
 #: src/components/networks/networkOverviewTab.jsx:191
 msgid "add entry"
