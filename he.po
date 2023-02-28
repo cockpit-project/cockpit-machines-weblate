@@ -25,30 +25,26 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-23 03:02+0000\n"
-"PO-Revision-Date: 2021-03-28 14:01+0000\n"
+"PO-Revision-Date: 2023-02-28 16:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/he/>\n"
+"Language-Team: Hebrew <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 4.5.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:817
-#, fuzzy
-#| msgid "Up to $0 $1 available on the default location"
 msgid "$0 $1 available at default location"
-msgstr "עד $0 $1 זמינים במיקום בררת המחדל"
+msgstr "$0 $1 זמין במיקום ברירת המחדל"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:238
 #: src/components/create-vm-dialog/createVmDialog.jsx:768
-#, fuzzy
-#| msgid "Up to $0 $1 available on the host"
 msgid "$0 $1 available on host"
-msgstr "עד $0 $1 זמינים במארח"
+msgstr "$0 $1 זמין במארח"
 
 #: src/components/vm/overview/cpuTypeModal.jsx:62
 msgid "$0 CPU configuration"
@@ -71,11 +67,8 @@ msgstr[2] "$0 מאגרי אחסון"
 msgstr[3] "$0 מאגרי אחסון"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1177
-#, fuzzy
-#| msgid ""
-#| "The selected operating system does not support unattended installation"
 msgid "$0 does not support unattended installation."
-msgstr "מערכת ההפעלה הנבחרת לא תומכת בהתקנה ללא מגע"
+msgstr "ל־$0 אין תמיכה בהתקנה ללא מגע."
 
 #: src/components/vm/consoles/desktopConsole.jsx:61
 msgid ""
@@ -114,6 +107,8 @@ msgid ""
 "A copy of the VM will run on the destination and will disappear when it is "
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
+"עותק של המכונה הווירטואלית ירוץ ביעד וייעלם עם כיבויה. בינתיים, מארח המקור "
+"שומר על העותק שלו של הגדרות המכונה הווירטואלית."
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
 #: src/components/vm/disks/diskEdit.jsx:114
@@ -121,10 +116,8 @@ msgid "Access"
 msgstr "גישה"
 
 #: src/components/vm/overview/watchdog.jsx:113
-#, fuzzy
-#| msgid "Connection"
 msgid "Action"
-msgstr "התחברות"
+msgstr "פעולה"
 
 #: src/components/networks/network.jsx:166
 #: src/components/storagePools/storagePool.jsx:170
@@ -145,7 +138,7 @@ msgstr "הוספה"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
-msgstr ""
+msgstr "הוספת רשומת מארח סטטית ל־DHCP"
 
 #: src/components/vm/disks/vmDisksCard.jsx:74
 #: src/components/vm/disks/diskAdd.jsx:843
@@ -154,40 +147,32 @@ msgstr "הוספת כונן"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:242
 #: src/components/vm/hostdevs/hostDevCard.jsx:153
-#, fuzzy
-#| msgid "host device"
 msgid "Add host device"
-msgstr "התקן מארח"
+msgstr "הוספת התקן מארח"
 
 #: src/components/vm/nics/vmNicsCard.jsx:90
 msgid "Add network interface"
 msgstr "הוספת מנשק רשת"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:114
-#, fuzzy
-#| msgid "No such file or directory"
 msgid "Add shared directory"
-msgstr "אין קובץ או תיקייה בשם הזה"
+msgstr "הוספת תיקייה משותפת"
 
 #: src/components/vm/nics/nicAdd.jsx:197
 msgid "Add virtual network interface"
 msgstr "הוספת מנשק רשת וירטואלי"
 
 #: src/components/vm/overview/watchdog.jsx:84
-#, fuzzy
-#| msgid "host device"
 msgid "Add watchdog device type"
-msgstr "התקן מארח"
+msgstr "הוספת סוג התקן השגחה"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
-#, fuzzy
-#| msgid "Only editable when the guest is shut off"
 msgid "Adding shared directories is possible only when the guest is shut off"
-msgstr "ניתן לעריכה רק כאשר האורח כבוי"
+msgstr "הוספת תיקיות משותפות אפשרית רק כשהאורחת כבויה"
 
 #: src/components/vm/disks/diskAdd.jsx:77
 msgid "Adding this disk will change its access mode to shared."
-msgstr ""
+msgstr "הוספת הכונן הזה תשנה את מצב הגישה שלו למשותפת."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Additional"
@@ -216,18 +201,18 @@ msgid ""
 "All VM activity, including storage, will be temporary. This will result in "
 "data loss on the destination host."
 msgstr ""
+"כל פעילות המכונה הווירטואלית, לרבות אחסון, יהיו זמניים. מצב זה יגרום לאובדן "
+"נתונים במארח היעד."
 
 #: src/components/vm/disks/diskAdd.jsx:244
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
-msgstr ""
+msgstr "תווים מורשים: אלפבית לטיני בסיסי, מספרים וכמה סימני פיסוק (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
-#, fuzzy
-#| msgid "Delete the volumes inside this pool"
 msgid "Also delete all volumes inside this pool:"
-msgstr "מחיקת הכרכים שבתוך המאגר הזה"
+msgstr "למחוק גם את כל הכרכים בתוך המאגר הזה:"
 
 #: src/components/vm/disks/diskAdd.jsx:137 src/components/vm/nics/nicAdd.jsx:89
 msgid "Always attach"
@@ -242,17 +227,15 @@ msgstr "החלה"
 msgid ""
 "Automated installs are only available when downloading an image or using "
 "cloud-init."
-msgstr ""
+msgstr "התקנות אוטומטיות זמינות רק בעת הורדת דמות או בעת שימוש ב־cloud-init."
 
 #: src/components/networks/createNetworkDialog.jsx:167
 msgid "Automatic"
 msgstr "אוטומטית"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1291
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automation"
-msgstr "אוטומטית"
+msgstr "אוטומציה"
 
 #: src/components/networks/networkOverviewTab.jsx:119
 #: src/components/storagePools/storagePoolOverviewTab.jsx:71
@@ -342,10 +325,8 @@ msgid "Capacity"
 msgstr "קיבולת"
 
 #: src/components/vm/overview/bootOrder.jsx:322
-#, fuzzy
-#| msgid "Boot order"
 msgid "Change boot order"
-msgstr "סדר עלייה"
+msgstr "שינוי סדר עלייה"
 
 #: src/components/vm/overview/firmware.jsx:65
 msgid "Change firmware"
@@ -358,7 +339,7 @@ msgstr "השינויים יחולו לאחר הפעלת המכונה הוויר�
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:522
 msgid "Checking token validity..."
-msgstr ""
+msgstr "תוקף האסימון נבדק…"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:455
 #: src/components/create-vm-dialog/createVmDialog.jsx:456
@@ -367,7 +348,7 @@ msgstr "נא לבחור מערכת הפעלה"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:194
 msgid "Class"
-msgstr ""
+msgstr "מחלקה"
 
 #: src/components/vm/consoles/desktopConsole.jsx:58
 msgid ""
@@ -399,10 +380,8 @@ msgid "Connect with any viewer application for following protocols"
 msgstr "ניתן להתחבר עם כל יישום שמציג עבור הפרוטוקולים הבאים"
 
 #: src/components/vm/consoles/vnc.jsx:168
-#, fuzzy
-#| msgid "Connection"
 msgid "Connecting"
-msgstr "התחברות"
+msgstr "מתבצעת התחברות"
 
 #: src/components/networks/networkList.jsx:75
 #: src/components/networks/createNetworkDialog.jsx:41
@@ -420,26 +399,20 @@ msgstr "מסוף"
 
 #: src/components/vm/vmMigrateDialog.jsx:106
 #: src/components/vm/vmMigrateDialog.jsx:122
-#, fuzzy
-#| msgid "No storage"
 msgid "Copy storage"
-msgstr "אין אחסון"
+msgstr "העתקת אחסון"
 
 #: src/components/vm/overview/vcpuModal.jsx:237
 msgid "Cores per socket"
 msgstr "ליבות לתושבת"
 
 #: src/components/vm/deleteDialog.jsx:151
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Could not delete $0"
-msgstr "לא ניתן למחוק את ה־$0"
+msgstr "לא ניתן למחוק את $0"
 
 #: src/components/vm/deleteDialog.jsx:156
-#, fuzzy
-#| msgid "Could not revert to snapshot"
 msgid "Could not delete storage for $0"
-msgstr "לא ניתן להחזיר לתמונת המצב"
+msgstr "לא ניתן למחוק את האחסון עבור $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:69
 msgid "Could not revert to snapshot"
@@ -463,26 +436,23 @@ msgstr "יצירת מכונה וירטואלית"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1416
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
+"יצירת מכונה וירטואלית על ידי ייבוא דמות כונן של התקנת מכונה וירטואלית קיימת"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1415
 msgid "Create VM from local or network installation medium"
-msgstr ""
+msgstr "יצירת מכונה וירטואלית מאמצעי התקנה מקומי או מהרשת"
 
 #: src/components/vm/vmCloneDialog.jsx:68
 msgid "Create a clone VM based on $0"
 msgstr "יצירת שכפול של מכונה וירטואלית על בסיס $0"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1319
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and edit"
-msgstr "יצירת חדש"
+msgstr "יצירת ועריכה"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1345
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and run"
-msgstr "יצירת חדש"
+msgstr "יצירה והרצה"
 
 #: src/components/vm/disks/diskAdd.jsx:782
 msgid "Create new"
@@ -525,10 +495,8 @@ msgid "Creating VM"
 msgstr "יצירת מכונה וירטואלית"
 
 #: src/app.jsx:248
-#, fuzzy
-#| msgid "Creating VM"
 msgid "Creating VM $0"
-msgstr "יצירת מכונה וירטואלית"
+msgstr "יצירת מכונה וירטואלית $0"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1152
 msgid "Creation of VM $0 failed"
@@ -561,10 +529,8 @@ msgid "Custom path"
 msgstr "נתיב מותאם אישית"
 
 #: src/components/networks/networkOverviewTab.jsx:275
-#, fuzzy
-#| msgid "DHCP range"
 msgid "DHCP Settings"
-msgstr "טווח DHCP"
+msgstr "הגדרות DHCP"
 
 #: src/components/networks/network.jsx:162
 #: src/components/storagePools/storagePool.jsx:161
@@ -585,17 +551,12 @@ msgid "Delete"
 msgstr "מחיקה"
 
 #: src/components/vm/deleteDialog.jsx:170
-#, fuzzy
-#| msgid "Delete $0 volume"
-#| msgid_plural "Delete $0 volumes"
 msgid "Delete $0 VM?"
-msgstr "מחיקת כרך אחד"
+msgstr "למחוק את המכונה הווירטואלית $0?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:192
-#, fuzzy
-#| msgid "Delete storage pool $0"
 msgid "Delete $0 storage pool?"
-msgstr "מחיקת מאגר אחסון $0"
+msgstr "למחוק את מאגר האחסון $0?"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:62
 msgid "Delete $0 volume"
@@ -610,16 +571,12 @@ msgid "Delete associated storage files:"
 msgstr "מחיקת קובצי אחסון משויכים:"
 
 #: src/components/networks/network.jsx:135
-#, fuzzy
-#| msgid "Isolated network"
 msgid "Delete network?"
-msgstr "רשת מבודדת"
+msgstr "למחוק את הרשת?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:168
-#, fuzzy
-#| msgid "Revert to snapshot $0"
 msgid "Delete snapshot?"
-msgstr "החזרה לתמונת מצב $0"
+msgstr "למחוק תמונת מצב?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:183
 msgid ""
@@ -628,10 +585,8 @@ msgid ""
 msgstr "מחיקת מאגר אחסון בלתי פעיל תסיר את הגדרת המאגר. התוכן שבו לא יימחק."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:71
-#, fuzzy
-#| msgid "Only editable when the guest is shut off"
 msgid "Deleting shared directories is possible only when the guest is shut off"
-msgstr "ניתן לעריכה רק כאשר האורח כבוי"
+msgstr "אפשר למחוק תיקיות משותפות רק כאשר האורחת כבויה"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:52
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:91
@@ -643,16 +598,12 @@ msgid "Desktop viewer"
 msgstr "מציג שולחנות עבודה"
 
 #: src/components/vm/vmMigrateDialog.jsx:48
-#, fuzzy
-#| msgid "Description"
 msgid "Destination URI"
-msgstr "תיאור"
+msgstr "כתובת יעד מלאה"
 
 #: src/components/vm/vmMigrateDialog.jsx:156
-#, fuzzy
-#| msgid "Installation source must not be empty"
 msgid "Destination URI must not be empty"
-msgstr "חובה למלא את מקור ההתקנה"
+msgstr "כתובת היעד המלאה לא יכולה להיות ריקה"
 
 #: src/components/storagePools/storagePoolDelete.jsx:96
 msgid ""
@@ -663,7 +614,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1287
 msgid "Details"
-msgstr ""
+msgstr "פרטים"
 
 #: src/components/networks/networkList.jsx:74
 #: src/components/networks/createNetworkDialog.jsx:161
@@ -691,20 +642,16 @@ msgid "Disconnect"
 msgstr "ניתוק"
 
 #: src/components/vm/consoles/vnc.jsx:169
-#, fuzzy
-#| msgid "Disconnect"
 msgid "Disconnected"
-msgstr "ניתוק"
+msgstr "מנותק"
 
 #: src/components/vm/consoles/serialConsole.jsx:85
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "מנותק מהמסוף הטורי. יש ללחוץ על כפתור החיבור."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:132
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "Disk $0 could not be removed"
-msgstr "לא ניתן לשמור את הגדרות הכונן"
+msgstr "לא ניתן להסיר את הכונן $0"
 
 #: src/components/vm/disks/diskAdd.jsx:720
 msgid "Disk failed to be attached"
@@ -716,30 +663,24 @@ msgid "Disk failed to be created"
 msgstr "יצירת הכונן נכשלה"
 
 #: src/components/vm/disks/diskAdd.jsx:256
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Disk identifier"
-msgstr "קובץ דמות כונן"
+msgstr "מזהה כונן"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:372
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Disk image"
-msgstr "קובץ דמות כונן"
+msgstr "דמות כונן"
 
 #: src/components/vm/disks/diskAdd.jsx:350
 msgid "Disk image file"
 msgstr "קובץ דמות כונן"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:220
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Disk image path must not be empty"
-msgstr "השם לא יכול להישאר ריק"
+msgstr "נתיב דמות הכונן לא יכול להישאר ריק"
 
 #: src/components/common/machinesConnectionSelector.jsx:72
 msgid "Disk images can be stored in user home directory"
-msgstr ""
+msgstr "ניתן לאחסן את דמויות הכוננים בתיקיית הבית של המשתמש"
 
 #: src/components/vm/disks/diskEdit.jsx:217
 #: src/components/vm/disks/diskAdd.jsx:706
@@ -757,11 +698,11 @@ msgstr "כוננים"
 #: src/components/vm/vmMigrateDialog.jsx:202
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
-msgstr ""
+msgstr "לא להריץ את המכונה הווירטואלית הזאת על מארחי המקור והיעד בו־זמנית."
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "לא לעשות כלום"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "Domain has crashed"
@@ -777,29 +718,23 @@ msgstr "הורדת מערכת הפעלה"
 
 #: src/app.jsx:255
 msgid "Download progress"
-msgstr ""
+msgstr "תהליך ההורדה"
 
 #: src/app.jsx:248
-#, fuzzy
-#| msgid "Downloading $0"
 msgid "Downloading image for VM $0"
-msgstr "$0 בהורדה"
+msgstr "מתבצעת הורדת דמות עבור המכונה הווירטואלית $0"
 
 #: src/components/vms/hostvmslist.jsx:49
-#, fuzzy
-#| msgid "Downloading $0"
 msgid "Downloading: $0%"
-msgstr "$0 בהורדה"
+msgstr "בהורדה: $0%"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "הטלת ליבה"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
-#, fuzzy
-#| msgid "Description"
 msgid "Duration"
-msgstr "תיאור"
+msgstr "משך"
 
 #: src/helpers.js:230
 msgid "Dying"
@@ -816,26 +751,24 @@ msgstr "עריכת מאפייני $0"
 
 #: src/components/vm/overview/watchdog.jsx:84
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "עריכת סוג התקן השגחה"
 
 #: src/components/vm/nics/vmNicsCard.jsx:366
 msgid "Editing network interfaces of transient guests is not allowed"
-msgstr ""
+msgstr "עריכת מנשקי הרשת של אורחות חולפות אסורה"
 
 #: src/components/vm/nics/vmNicsCard.jsx:372
 msgid "Editing transient network interfaces is not allowed"
-msgstr ""
+msgstr "עריכת מנשקים של רשת חולפת אסורה"
 
 #: src/components/vm/disks/mediaEject.jsx:103
 #: src/components/vm/disks/vmDiskColumns.jsx:164
 msgid "Eject"
-msgstr ""
+msgstr "שליפה"
 
 #: src/components/vm/disks/mediaEject.jsx:99
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Eject disc from VM?"
-msgstr "$0 בהסרה"
+msgstr "לשלוף תקליטור מהמכונה הווירטואלית?"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
@@ -852,15 +785,15 @@ msgstr "הסוף אמור להיות ריק"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1175
 msgid "Enter root and/or user information to enable unattended installation."
-msgstr ""
+msgstr "נא למלא פרטי משתמש על (root) ו/או משתמש כדי לאפשר התקנה ללא מגע."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Error checking token"
-msgstr ""
+msgstr "שגיאה בבדיקת האסימון"
 
 #: src/components/vm/vmMigrateDialog.jsx:54
 msgid "Example, $0"
-msgstr ""
+msgstr "דוגמה, $0"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:301
 msgid "Existing disk image on host's file system"
@@ -871,20 +804,16 @@ msgid "Expand"
 msgstr "הרחבה"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:248
-#, fuzzy
-#| msgid "Edit $0 attributes"
 msgid "Extended attributes"
-msgstr "עריכת מאפייני $0"
+msgstr "מאפיינים מורחבים"
 
 #: src/components/common/stateIcon.jsx:58
 msgid "Failed"
 msgstr "נכשל"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:201
-#, fuzzy
-#| msgid "Filesystem directory"
 msgid "Failed to add shared directory"
-msgstr "תיקיית מערכת קבצים"
+msgstr "הוספת התיקייה המשותפת נכשלה"
 
 #: src/components/vm/overview/firmware.jsx:58
 msgid "Failed to change firmware"
@@ -895,36 +824,28 @@ msgid "Failed to clone VM $0"
 msgstr "שכפול המכונה הווירטואלית $0 נכשל"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "החלפת הקושחה נכשלה"
+msgstr "הגדרת ההשגחה נכשלה"
 
 #: src/components/vm/overview/watchdog.jsx:68
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "חיבור הכונן נכשל"
+msgstr "ניתוק ההשגחה נכשל"
 
 #: src/app.jsx:136
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to fetch some resources"
-msgstr "החלפת הקושחה נכשלה"
+msgstr "משיכה של חלק מהמשאבים נכשלה"
 
 #: src/components/vm/nics/vmNicsCard.jsx:137
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "קבלת כתובות ה־IP של המנשקים שקיימים תחת $0 נכשלה"
 
 #: src/components/vm/vmRenameDialog.jsx:51
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to rename VM $0"
-msgstr "שכפול המכונה הווירטואלית $0 נכשל"
+msgstr "שינוי שם המכונה הווירטואלית $0 נכשל"
 
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
-msgstr ""
+msgstr "שמירת הגדרות הרשת נכשלה"
 
 #: src/components/vm/consoles/vnc.jsx:129
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
@@ -940,10 +861,8 @@ msgid "File"
 msgstr "קובץ"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:62
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Filesystem $0 could not be removed"
-msgstr "לא ניתן למחוק את ה־$0"
+msgstr "לא ניתן להסיר את מערכת הקבצים $0"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:58
 msgid "Filesystem directory"
@@ -959,20 +878,16 @@ msgid "Firmware"
 msgstr "קושחה"
 
 #: src/components/vm/disks/mediaEject.jsx:107
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force eject"
-msgstr "לאלץ הפעלה מחדש"
+msgstr "אילוץ שליפה"
 
 #: src/components/vm/vmActions.jsx:265
 msgid "Force reboot"
 msgstr "לאלץ הפעלה מחדש"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:97
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force revert"
-msgstr "לאלץ הפעלה מחדש"
+msgstr "אילוץ החזרה"
 
 #: src/components/vm/vmActions.jsx:239
 msgid "Force shut down"
@@ -1556,10 +1471,8 @@ msgid "Network $0 failed to get deactivated"
 msgstr "השבתת הרשת $0 נכשלה"
 
 #: src/components/networks/network.jsx:137
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Network $0 will be permanently deleted."
-msgstr "לא ניתן למחוק את ה־$0"
+msgstr "הרשת $0 תימחק לצמיתות."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:367
 msgid "Network boot (PXE)"
@@ -1702,10 +1615,8 @@ msgid "No virtual networks"
 msgstr "אין רשתות וירטואליות"
 
 #: src/components/storagePools/storagePoolDelete.jsx:182
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
-msgstr "לא הוגדרו כרכי אחסון למאגר האחסון הזה"
+msgstr "לא קיימים כרכים במאגר האחסון הזה."
 
 #: src/components/networks/network.jsx:143
 msgid ""
@@ -1990,28 +1901,20 @@ msgid "Remove"
 msgstr "הסרה"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:130
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Remove disk from VM?"
-msgstr "$0 בהסרה"
+msgstr "להסיר כונן מהמכונה הווירטואלית?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
-#| msgid "Network file system"
 msgid "Remove filesystem?"
-msgstr "מערכת קבצים רשתית"
+msgstr "להסיר מערכת קבצים?"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:260
-#, fuzzy
-#| msgid "host device"
 msgid "Remove host device from VM?"
-msgstr "התקן מארח"
+msgstr "להסיר התקן מארח ממכונה וירטואלית?"
 
 #: src/components/vm/nics/vmNicsCard.jsx:393
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "הוספת מנשק רשת"
+msgstr "להסיר מנשק רשת?"
 
 #: src/components/networks/networkOverviewTab.jsx:63
 msgid "Remove static host from DHCP"
@@ -2019,7 +1922,7 @@ msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:64 src/components/vm/vmActions.jsx:338
 msgid "Rename"
-msgstr ""
+msgstr "שינוי שם"
 
 #: src/components/vm/vmRenameDialog.jsx:57
 msgid "Rename VM $0"
@@ -2027,7 +1930,7 @@ msgstr ""
 
 #: src/helpers.js:280
 msgid "Reset"
-msgstr ""
+msgstr "איפוס"
 
 #: src/components/common/machinesConnectionSelector.jsx:69
 msgid ""
@@ -2115,10 +2018,8 @@ msgid "Send non-maskable interrupt"
 msgstr "שליחת פסיקה שלא ניתן למסך"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:106
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial"
-msgstr "מסוף טורי"
+msgstr "טורית"
 
 #: src/components/vm/consoles/consoles.jsx:111
 msgid "Serial console"
@@ -2147,7 +2048,7 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
 msgid "Share"
-msgstr ""
+msgstr "שיתוף"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:163
 msgid "Share a host directory with the guest"
@@ -2201,7 +2102,7 @@ msgstr "גודל"
 #: src/components/vm/hostdevs/hostDevCard.jsx:113
 #: src/components/vm/hostdevs/hostDevCard.jsx:243
 msgid "Slot"
-msgstr ""
+msgstr "משבצת"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:169
 #, fuzzy
@@ -2244,10 +2145,8 @@ msgid "Source format"
 msgstr "תצורת מקור"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:137
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Source must not be empty"
-msgstr "השם לא יכול להישאר ריק"
+msgstr "המקור לא יכול להישאר ריק"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:41
 #: src/components/storagePools/storagePoolOverviewTab.jsx:46
@@ -2503,10 +2402,8 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:75
-#, fuzzy
-#| msgid "This volume is already used by: "
 msgid "This volume is already used by $0."
-msgstr "כרך זה כבר בשימוש על ידי: "
+msgstr "כרך זה כבר בשימוש על ידי $0."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:869
 msgid "This volume is already used by another VM."
@@ -2895,7 +2792,7 @@ msgstr "מעקף מארח"
 
 #: src/helpers.js:254
 msgid "hostdev"
-msgstr "hostdev"
+msgstr "התקן מארח"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:66
 msgid "iSCSI direct target"
@@ -2915,10 +2812,8 @@ msgstr "יעד IQN של iSCSI"
 
 #: src/components/networks/network.jsx:57
 #: src/components/storagePools/storagePool.jsx:64
-#, fuzzy
-#| msgid "active"
 msgid "inactive"
-msgstr "פעיל"
+msgstr "לא פעיל"
 
 #: src/manifest.json:0
 msgid "iso"
@@ -2926,11 +2821,11 @@ msgstr "iso"
 
 #: src/manifest.json:0
 msgid "libvirt"
-msgstr "libvirt"
+msgstr "libvirt‎"
 
 #: src/helpers.js:255
 msgid "mcast"
-msgstr "mcast"
+msgstr "mcast‎"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:194
 #: src/components/vm/vmDetailsPage.jsx:220
@@ -2969,15 +2864,15 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "pxe"
-msgstr "pxe"
+msgstr "‎pxe"
 
 #: src/manifest.json:0
 msgid "qcow2"
-msgstr "qcow2"
+msgstr "‎qcow2"
 
 #: src/manifest.json:0
 msgid "qemu"
-msgstr "qemu"
+msgstr "‎qemu"
 
 #: src/helpers.js:240
 msgid "redirected device"
@@ -3023,7 +2918,7 @@ msgstr "מעבדים וירטואליים"
 
 #: src/helpers.js:258
 msgid "vhostuser"
-msgstr "vhostuser"
+msgstr "‎vhostuser"
 
 #: src/components/common/stateIcon.jsx:59
 msgid "view more..."
