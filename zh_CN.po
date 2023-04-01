@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 02:54+0000\n"
+"POT-Creation-Date: 2023-04-01 02:52+0000\n"
 "PO-Revision-Date: 2023-02-23 07:21+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -95,8 +95,8 @@ msgstr ""
 "一个虚拟机的副本将在目标上运行，并在其关闭时消失。同时，原始主机会保留其虚拟"
 "机配置的副本。"
 
-#: src/components/vm/disks/diskEdit.jsx:115
 #: src/components/vm/disks/vmDisksCard.jsx:185
+#: src/components/vm/disks/diskEdit.jsx:115
 msgid "Access"
 msgstr "访问"
 
@@ -114,10 +114,10 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "激活存储池以管理卷"
 
 #: src/components/networks/networkOverviewTab.jsx:235
-#: src/components/vm/overview/watchdog.jsx:92
-#: src/components/vm/nics/nicAdd.jsx:213
 #: src/components/vm/disks/diskAdd.jsx:862
 #: src/components/vm/hostdevs/hostDevAdd.jsx:223
+#: src/components/vm/nics/nicAdd.jsx:213
+#: src/components/vm/overview/watchdog.jsx:92
 msgid "Add"
 msgstr "添加"
 
@@ -130,8 +130,8 @@ msgstr "添加一个DHCP静态主机条目"
 msgid "Add disk"
 msgstr "添加磁盘"
 
-#: src/components/vm/hostdevs/hostDevAdd.jsx:239
 #: src/components/vm/hostdevs/hostDevCard.jsx:148
+#: src/components/vm/hostdevs/hostDevAdd.jsx:239
 msgid "Add host device"
 msgstr "添加主机设备"
 
@@ -198,7 +198,7 @@ msgstr "允许的字符：基本的拉丁字母、数字和有限的标点（-�
 msgid "Also delete all volumes inside this pool:"
 msgstr "同时删除这个池中的所有卷："
 
-#: src/components/vm/nics/nicAdd.jsx:94 src/components/vm/disks/diskAdd.jsx:141
+#: src/components/vm/disks/diskAdd.jsx:141 src/components/vm/nics/nicAdd.jsx:94
 msgid "Always attach"
 msgstr "保证连接"
 
@@ -239,18 +239,18 @@ msgstr "启动顺序"
 msgid "Boot order settings could not be saved"
 msgstr "无法保存启动顺序"
 
+#: src/components/vm/disks/diskAdd.jsx:229
+#: src/components/vm/disks/vmDisksCard.jsx:183
+#: src/components/vm/disks/diskEdit.jsx:90
+#: src/components/vm/hostdevs/hostDevCard.jsx:99
+#: src/components/vm/hostdevs/hostDevCard.jsx:107
+#: src/components/vm/hostdevs/hostDevCard.jsx:247
+#: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/overview/bootOrder.jsx:105
 #: src/components/vm/overview/bootOrder.jsx:117
 #: src/components/vm/overview/bootOrder.jsx:135
 #: src/components/vm/overview/bootOrder.jsx:138
 #: src/components/vm/overview/bootOrder.jsx:152
-#: src/components/vm/disks/diskAdd.jsx:229
-#: src/components/vm/disks/diskEdit.jsx:90
-#: src/components/vm/disks/vmDisksCard.jsx:183
-#: src/components/vm/hostdevs/hostDevAdd.jsx:89
-#: src/components/vm/hostdevs/hostDevCard.jsx:99
-#: src/components/vm/hostdevs/hostDevCard.jsx:107
-#: src/components/vm/hostdevs/hostDevCard.jsx:247
 msgid "Bus"
 msgstr "总线"
 
@@ -271,36 +271,36 @@ msgid "CPU type"
 msgstr "CPU类型"
 
 #: src/components/vm/disks/diskAdd.jsx:218
-#: src/components/vm/disks/diskEdit.jsx:60
 #: src/components/vm/disks/vmDiskColumns.jsx:99
+#: src/components/vm/disks/diskEdit.jsx:60
 msgid "Cache"
 msgstr "缓存"
 
-#: src/components/storagePools/storageVolumeCreate.jsx:110
-#: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/createStoragePoolDialog.jsx:449
+#: src/components/storagePools/storageVolumeCreate.jsx:110
+#: src/components/common/deleteResource.jsx:78
+#: src/components/create-vm-dialog/createVmDialog.jsx:1362
 #: src/components/networks/networkOverviewTab.jsx:238
 #: src/components/networks/createNetworkDialog.jsx:426
-#: src/components/create-vm-dialog/createVmDialog.jsx:1362
-#: src/components/common/deleteResource.jsx:78
-#: src/components/vm/overview/firmware.jsx:72
-#: src/components/vm/overview/memoryModal.jsx:159
-#: src/components/vm/overview/vcpuModal.jsx:267
-#: src/components/vm/overview/bootOrder.jsx:318
-#: src/components/vm/overview/cpuTypeModal.jsx:72
-#: src/components/vm/overview/watchdog.jsx:103
-#: src/components/vm/nics/nicAdd.jsx:216 src/components/vm/nics/nicEdit.jsx:185
-#: src/components/vm/disks/diskAdd.jsx:865
-#: src/components/vm/disks/mediaEject.jsx:110
-#: src/components/vm/disks/diskEdit.jsx:270
-#: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
-#: src/components/vm/vmRenameDialog.jsx:70
-#: src/components/vm/hostdevs/hostDevAdd.jsx:229
 #: src/components/vm/vmMigrateDialog.jsx:213
+#: src/components/vm/disks/diskAdd.jsx:865
+#: src/components/vm/disks/diskEdit.jsx:270
+#: src/components/vm/disks/mediaEject.jsx:110
+#: src/components/vm/vmRenameDialog.jsx:70
+#: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
+#: src/components/vm/hostdevs/hostDevAdd.jsx:229
+#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
-#: src/components/vm/deleteDialog.jsx:177
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
+#: src/components/vm/overview/watchdog.jsx:103
+#: src/components/vm/overview/vcpuModal.jsx:267
+#: src/components/vm/overview/memoryModal.jsx:159
+#: src/components/vm/overview/cpuTypeModal.jsx:72
+#: src/components/vm/overview/firmware.jsx:72
+#: src/components/vm/overview/bootOrder.jsx:318
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:146
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
 msgid "Cancel"
 msgstr "取消"
 
@@ -367,12 +367,12 @@ msgstr "使用任意 viewer 应用程序用于以下协议"
 msgid "Connecting"
 msgstr "连接中"
 
-#: src/components/vms/hostvmslist.jsx:144
 #: src/components/storagePools/storagePoolList.jsx:76
-#: src/components/networks/networkList.jsx:75
-#: src/components/networks/createNetworkDialog.jsx:41
 #: src/components/common/machinesConnectionSelector.jsx:39
+#: src/components/networks/createNetworkDialog.jsx:41
+#: src/components/networks/networkList.jsx:75
 #: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vms/hostvmslist.jsx:144
 msgid "Connection"
 msgstr "连接"
 
@@ -406,8 +406,8 @@ msgstr "无法恢复到快照"
 msgid "Crashed"
 msgstr "已崩溃"
 
-#: src/components/storagePools/storageVolumeCreate.jsx:107
 #: src/components/storagePools/createStoragePoolDialog.jsx:446
+#: src/components/storagePools/storageVolumeCreate.jsx:107
 #: src/components/networks/createNetworkDialog.jsx:423
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
 msgid "Create"
@@ -449,8 +449,8 @@ msgstr "创建新的虚拟机"
 msgid "Create new volume"
 msgstr "创建新卷"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:49
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:49
 msgid "Create snapshot"
 msgstr "创建快照"
 
@@ -523,13 +523,12 @@ msgstr "取消激活"
 #: src/components/storagePools/storagePoolDelete.jsx:200
 #: src/components/storagePools/storagePoolDelete.jsx:236
 #: src/components/storagePools/storagePoolDelete.jsx:246
-#: src/components/networks/network.jsx:150
-#: src/components/networks/network.jsx:153
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
-#: src/components/vm/vmActions.jsx:351 src/components/vm/vmActions.jsx:359
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/networks/network.jsx:150
+#: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
 msgid "Delete"
 msgstr "删除"
 
@@ -568,8 +567,8 @@ msgstr "删除一个不活跃的存储池将只会取消定义这个池。它的
 msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr "只有在客户机处于关机状态时才能删除共享目录"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
 msgid "Description"
 msgstr "描述"
 
@@ -594,19 +593,19 @@ msgstr "尝试删除之前，从所有 VM 中分离使用这个池的磁盘。"
 msgid "Details"
 msgstr "详情"
 
-#: src/components/networks/networkList.jsx:74
 #: src/components/networks/createNetworkDialog.jsx:161
+#: src/components/networks/networkList.jsx:74
+#: src/components/vm/disks/diskAdd.jsx:353
+#: src/components/vm/disks/vmDiskColumns.jsx:38
+#: src/components/vm/disks/vmDisksCard.jsx:169
+#: src/components/vm/hostdevs/hostDevCard.jsx:98
+#: src/components/vm/hostdevs/hostDevCard.jsx:246
+#: src/components/vm/hostdevs/hostDevAdd.jsx:88
+#: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/overview/bootOrder.jsx:97
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:136
 #: src/components/vm/overview/bootOrder.jsx:139
-#: src/components/vm/disks/diskAdd.jsx:353
-#: src/components/vm/disks/vmDisksCard.jsx:169
-#: src/components/vm/disks/vmDiskColumns.jsx:38
-#: src/components/vm/hostdevs/hostDevAdd.jsx:88
-#: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/vm/hostdevs/hostDevCard.jsx:98
-#: src/components/vm/hostdevs/hostDevCard.jsx:246
 msgid "Device"
 msgstr "设备"
 
@@ -718,8 +717,8 @@ msgstr "持续时间"
 msgid "Dying"
 msgstr "停止工作"
 
-#: src/components/vm/nics/vmNicsCard.jsx:380
 #: src/components/vm/disks/diskEdit.jsx:166
+#: src/components/vm/nics/vmNicsCard.jsx:380
 msgid "Edit"
 msgstr "编辑"
 
@@ -739,8 +738,8 @@ msgstr "不允许编辑临时客户机的网络接口"
 msgid "Editing transient network interfaces is not allowed"
 msgstr "不允许编辑临时网络接口"
 
-#: src/components/vm/disks/mediaEject.jsx:103
 #: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr "弹出"
 
@@ -833,8 +832,8 @@ msgstr "发送按键 Ctrl+Alt+$0 到 VM $1 失败"
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "启用的虚拟 CPU 数量应少于最大虚拟 CPU 数量。"
 
-#: src/components/vm/overview/bootOrder.jsx:96
 #: src/components/vm/disks/vmDiskColumns.jsx:37
+#: src/components/vm/overview/bootOrder.jsx:96
 msgid "File"
 msgstr "文件"
 
@@ -850,8 +849,8 @@ msgstr "文件系统目录"
 msgid "Filter by name"
 msgstr "根据名称过滤"
 
-#: src/components/vm/overview/firmware.jsx:78
 #: src/components/vm/overview/vmOverviewCard.jsx:254
+#: src/components/vm/overview/firmware.jsx:78
 msgid "Firmware"
 msgstr "固件"
 
@@ -871,8 +870,8 @@ msgstr "强制恢复"
 msgid "Force shut down"
 msgstr "强制关机"
 
-#: src/components/storagePools/storageVolumeCreateBody.jsx:69
 #: src/components/storagePools/createStoragePoolDialog.jsx:202
+#: src/components/storagePools/storageVolumeCreateBody.jsx:69
 msgid "Format"
 msgstr "格式化"
 
@@ -909,8 +908,8 @@ msgstr "获取一个新的 RHSM 令牌。"
 #: src/components/storagePools/storageVolumeCreateBody.jsx:103
 #: src/components/create-vm-dialog/createVmDialog.jsx:811
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
-#: src/components/vm/overview/memorySelectRow.jsx:88
 #: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/overview/memorySelectRow.jsx:88
 msgid "GiB"
 msgstr "GiB"
 
@@ -931,10 +930,10 @@ msgstr "正常关机"
 msgid "Hide additional options"
 msgstr "隐藏额外操作"
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:122
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/overview/bootOrder.jsx:101
 msgid "Host"
 msgstr "主机"
 
@@ -1210,8 +1209,9 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.jsx:246
-#: src/components/vm/nics/nicAdd.jsx:68 src/components/vm/nics/nicEdit.jsx:47
+#: src/components/vm/nics/nicAdd.jsx:68
 #: src/components/vm/nics/vmNicsCard.jsx:263
+#: src/components/vm/nics/nicEdit.jsx:47
 msgid "MAC address"
 msgstr "MAC 地址"
 
@@ -1282,8 +1282,8 @@ msgid "Media will be ejected from $0:"
 msgstr "介质将从 $0 中弹出："
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:794
-#: src/components/vm/overview/vmOverviewCard.jsx:206
 #: src/components/vm/vmUsageCard.jsx:58
+#: src/components/vm/overview/vmOverviewCard.jsx:206
 msgid "Memory"
 msgstr "内存"
 
@@ -1303,8 +1303,8 @@ msgstr "内存不能为 0"
 msgid "MiB"
 msgstr "MiB"
 
-#: src/components/vm/vmActions.jsx:325
 #: src/components/vm/vmMigrateDialog.jsx:210
+#: src/components/vm/vmActions.jsx:325
 msgid "Migrate"
 msgstr "迁移"
 
@@ -1321,8 +1321,8 @@ msgstr "迁移失败"
 msgid "Mode"
 msgstr "模式"
 
-#: src/components/vm/nics/nicBody.jsx:48
 #: src/components/vm/hostdevs/hostDevCard.jsx:199
+#: src/components/vm/nics/nicBody.jsx:48
 msgid "Model"
 msgstr "型号"
 
@@ -1356,17 +1356,17 @@ msgstr "NAT 到 $0"
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "VM $1 的 NIC $0 改变状态失败"
 
-#: src/components/vms/hostvmslist.jsx:143
-#: src/components/storagePools/storageVolumeCreateBody.jsx:39
 #: src/components/storagePools/createStoragePoolDialog.jsx:44
-#: src/components/storagePools/storagePoolList.jsx:74
+#: src/components/storagePools/storageVolumeCreateBody.jsx:39
 #: src/components/storagePools/storagePoolVolumesTab.jsx:78
-#: src/components/networks/networkList.jsx:73
-#: src/components/networks/createNetworkDialog.jsx:126
+#: src/components/storagePools/storagePoolList.jsx:74
 #: src/components/create-vm-dialog/createVmDialog.jsx:258
+#: src/components/networks/createNetworkDialog.jsx:126
+#: src/components/networks/networkList.jsx:73
 #: src/components/vm/vmCloneDialog.jsx:92
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:85
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:37
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:85
+#: src/components/vms/hostvmslist.jsx:143
 msgid "Name"
 msgstr "名称"
 
@@ -1582,9 +1582,9 @@ msgid ""
 "allow volume deletion."
 msgstr "一个或多个卷被域使用。需要先分离磁盘后才可以删除卷。"
 
+#: src/components/vm/nics/nicEdit.jsx:44
 #: src/components/vm/overview/memoryModal.jsx:145
 #: src/components/vm/overview/bootOrder.jsx:368
-#: src/components/vm/nics/nicEdit.jsx:44
 msgid "Only editable when the guest is shut off"
 msgstr "只有在客户机关闭后才可以编辑"
 
@@ -1653,7 +1653,7 @@ msgstr "永久（默认）"
 msgid "Permissions denied for disk images in home directories"
 msgstr "主目录中磁盘映像的权限被拒绝"
 
-#: src/components/vm/nics/nicAdd.jsx:91 src/components/vm/disks/diskAdd.jsx:138
+#: src/components/vm/disks/diskAdd.jsx:138 src/components/vm/nics/nicAdd.jsx:91
 msgid "Persistence"
 msgstr "持久"
 
@@ -1686,11 +1686,11 @@ msgstr "请输入新的卷名"
 msgid "Please start the virtual machine to access its console."
 msgstr "请启动虚拟机来访问其控制台。"
 
-#: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:154
-#: src/components/vm/disks/mediaEject.jsx:85
 #: src/components/vm/disks/vmDiskColumns.jsx:40
+#: src/components/vm/disks/mediaEject.jsx:85
 #: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/overview/bootOrder.jsx:99
 msgid "Pool"
 msgstr "池"
 
@@ -1710,10 +1710,10 @@ msgstr "池类型不支持创建卷"
 msgid "Pool's volumes are used by VMs "
 msgstr "池的卷被 VM 使用 "
 
+#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/nics/vmNicsCard.jsx:297
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/nics/vmNicsCard.jsx:297
-#: src/components/vm/disks/vmDiskColumns.jsx:43
 msgid "Port"
 msgstr "端口"
 
@@ -1747,11 +1747,11 @@ msgstr "提前创建的快照使得您可以在出现问题的时候回复到较
 msgid "Private"
 msgstr "私有"
 
-#: src/components/vm/overview/bootOrder.jsx:131
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/hostdevs/hostDevAdd.jsx:129
 #: src/components/vm/hostdevs/hostDevCard.jsx:237
 #: src/components/vm/hostdevs/hostDevCard.jsx:243
+#: src/components/vm/hostdevs/hostDevAdd.jsx:129
+#: src/components/vm/overview/bootOrder.jsx:131
+#: src/components/vm/overview/bootOrder.jsx:146
 msgid "Product"
 msgstr "产品"
 
@@ -1759,10 +1759,10 @@ msgstr "产品"
 msgid "Profile"
 msgstr "配置集"
 
-#: src/components/vm/overview/bootOrder.jsx:98
-#: src/components/vm/overview/bootOrder.jsx:159
 #: src/components/vm/disks/vmDiskColumns.jsx:39
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
+#: src/components/vm/overview/bootOrder.jsx:98
+#: src/components/vm/overview/bootOrder.jsx:159
 msgid "Protocol"
 msgstr "协议"
 
@@ -1788,8 +1788,8 @@ msgstr "通过 NAT 向外界提供虚拟 LAN。"
 msgid "Range"
 msgstr "范围"
 
-#: src/components/vm/disks/diskEdit.jsx:123
 #: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/diskEdit.jsx:123
 msgid "Read-only"
 msgstr "只读"
 
@@ -1806,15 +1806,15 @@ msgid "Remote viewer details"
 msgstr "Remote viewer 详情"
 
 #: src/components/networks/networkOverviewTab.jsx:69
-#: src/components/vm/overview/watchdog.jsx:100
-#: src/components/vm/nics/vmNicsCard.jsx:398
-#: src/components/vm/nics/vmNicsCard.jsx:405
 #: src/components/vm/disks/vmDiskColumns.jsx:125
 #: src/components/vm/disks/vmDiskColumns.jsx:188
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/hostdevs/hostDevCard.jsx:253
 #: src/components/vm/hostdevs/hostDevCard.jsx:259
+#: src/components/vm/nics/vmNicsCard.jsx:398
+#: src/components/vm/nics/vmNicsCard.jsx:405
+#: src/components/vm/overview/watchdog.jsx:100
 msgid "Remove"
 msgstr "删除"
 
@@ -1838,7 +1838,7 @@ msgstr "删除网络接口？"
 msgid "Remove static host from DHCP"
 msgstr "从 DHCP 中删除静态主机"
 
-#: src/components/vm/vmActions.jsx:338 src/components/vm/vmRenameDialog.jsx:67
+#: src/components/vm/vmRenameDialog.jsx:67 src/components/vm/vmActions.jsx:338
 msgid "Rename"
 msgstr "重命名"
 
@@ -1914,12 +1914,12 @@ msgstr "SPICE 地址"
 msgid "SPICE port"
 msgstr "SPICE 端口"
 
-#: src/components/vm/overview/firmware.jsx:69
-#: src/components/vm/overview/memoryModal.jsx:156
-#: src/components/vm/overview/bootOrder.jsx:315
-#: src/components/vm/overview/watchdog.jsx:92
-#: src/components/vm/nics/nicEdit.jsx:182
 #: src/components/vm/disks/diskEdit.jsx:267
+#: src/components/vm/nics/nicEdit.jsx:182
+#: src/components/vm/overview/watchdog.jsx:92
+#: src/components/vm/overview/memoryModal.jsx:156
+#: src/components/vm/overview/firmware.jsx:69
+#: src/components/vm/overview/bootOrder.jsx:315
 msgid "Save"
 msgstr "保存"
 
@@ -2004,16 +2004,16 @@ msgid "Shutting down"
 msgstr "正在关机"
 
 #: src/components/storagePools/storageVolumeCreateBody.jsx:85
-#: src/components/storagePools/storagePoolList.jsx:75
 #: src/components/storagePools/storagePoolVolumesTab.jsx:78
+#: src/components/storagePools/storagePoolList.jsx:75
 msgid "Size"
 msgstr "大小"
 
-#: src/components/vm/overview/bootOrder.jsx:147
-#: src/components/vm/hostdevs/hostDevAdd.jsx:101
 #: src/components/vm/hostdevs/hostDevCard.jsx:101
 #: src/components/vm/hostdevs/hostDevCard.jsx:108
 #: src/components/vm/hostdevs/hostDevCard.jsx:238
+#: src/components/vm/hostdevs/hostDevAdd.jsx:101
+#: src/components/vm/overview/bootOrder.jsx:147
 msgid "Slot"
 msgstr "插槽"
 
@@ -2040,12 +2040,12 @@ msgid "Sockets"
 msgstr "插槽"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
-#: src/components/vm/nics/nicBody.jsx:197
-#: src/components/vm/nics/vmNicsCard.jsx:291
 #: src/components/vm/disks/diskAdd.jsx:752
 #: src/components/vm/disks/diskAdd.jsx:788
 #: src/components/vm/disks/vmDisksCard.jsx:187
 #: src/components/vm/hostdevs/hostDevCard.jsx:219
+#: src/components/vm/nics/vmNicsCard.jsx:291
+#: src/components/vm/nics/nicBody.jsx:197
 msgid "Source"
 msgstr "源"
 
@@ -2057,10 +2057,10 @@ msgstr "源格式"
 msgid "Source must not be empty"
 msgstr "源不能为空"
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:41
-#: src/components/storagePools/storagePoolOverviewTab.jsx:46
 #: src/components/storagePools/createStoragePoolDialog.jsx:174
 #: src/components/storagePools/createStoragePoolDialog.jsx:192
+#: src/components/storagePools/storagePoolOverviewTab.jsx:41
+#: src/components/storagePools/storagePoolOverviewTab.jsx:46
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:47
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:64
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:203
@@ -2097,12 +2097,12 @@ msgstr "开始不能为空"
 msgid "Startup"
 msgstr "启动"
 
-#: src/components/vms/hostvmslist.jsx:100
-#: src/components/vms/hostvmslist.jsx:145
 #: src/components/storagePools/storagePoolList.jsx:77
 #: src/components/networks/networkList.jsx:77
-#: src/components/vm/overview/vmOverviewCard.jsx:192
 #: src/components/vm/nics/vmNicsCard.jsx:340
+#: src/components/vm/overview/vmOverviewCard.jsx:192
+#: src/components/vms/hostvmslist.jsx:100
+#: src/components/vms/hostvmslist.jsx:145
 msgid "State"
 msgstr "状态"
 
@@ -2192,14 +2192,14 @@ msgstr "系统"
 msgid "Table of selectable host devices"
 msgstr "可选择的主机设备表"
 
-#: src/components/vm/overview/bootOrder.jsx:153
 #: src/components/vm/disks/vmDiskColumns.jsx:129
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
+#: src/components/vm/overview/bootOrder.jsx:153
 msgid "Target"
 msgstr "目标"
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:61
 #: src/components/storagePools/createStoragePoolDialog.jsx:103
+#: src/components/storagePools/storagePoolOverviewTab.jsx:61
 msgid "Target path"
 msgstr "目标路径"
 
@@ -2219,8 +2219,8 @@ msgstr "临时迁移"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "虚拟机 $0 正在运行，在删除前将被强制关闭。"
 
-#: src/components/vm/nics/vmNicsCard.jsx:406
 #: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/nics/vmNicsCard.jsx:406
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "虚拟机需要运行或关闭才能分离该设备"
 
@@ -2324,17 +2324,17 @@ msgstr "瞬态 VM 不支持编辑固件配置"
 msgid "Troubleshoot"
 msgstr "排错"
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:76
 #: src/components/storagePools/createStoragePoolDialog.jsx:81
+#: src/components/storagePools/storagePoolOverviewTab.jsx:76
+#: src/components/vm/hostdevs/hostDevCard.jsx:179
+#: src/components/vm/hostdevs/hostDevAdd.jsx:47
+#: src/components/vm/nics/vmNicsCard.jsx:238
 #: src/components/vm/overview/bootOrder.jsx:116
 #: src/components/vm/overview/bootOrder.jsx:129
 #: src/components/vm/overview/bootOrder.jsx:144
 #: src/components/vm/overview/bootOrder.jsx:151
 #: src/components/vm/overview/bootOrder.jsx:158
 #: src/components/vm/overview/bootOrder.jsx:164
-#: src/components/vm/nics/vmNicsCard.jsx:238
-#: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/hostdevs/hostDevCard.jsx:179
 msgid "Type"
 msgstr "类型"
 
@@ -2382,10 +2382,10 @@ msgstr "未知"
 msgid "Unknown firmware"
 msgstr "未知固件"
 
-#: src/components/vm/overview/bootOrder.jsx:135
-#: src/components/vm/overview/bootOrder.jsx:136
 #: src/components/vm/hostdevs/hostDevCard.jsx:92
 #: src/components/vm/hostdevs/hostDevCard.jsx:93
+#: src/components/vm/overview/bootOrder.jsx:135
+#: src/components/vm/overview/bootOrder.jsx:136
 msgid "Unspecified"
 msgstr "未指定"
 
@@ -2529,21 +2529,21 @@ msgstr "VNC 端口"
 msgid "Valid token"
 msgstr "有效令牌"
 
-#: src/components/vm/overview/bootOrder.jsx:130
-#: src/components/vm/overview/bootOrder.jsx:145
-#: src/components/vm/hostdevs/hostDevAdd.jsx:129
 #: src/components/vm/hostdevs/hostDevCard.jsx:209
 #: src/components/vm/hostdevs/hostDevCard.jsx:236
 #: src/components/vm/hostdevs/hostDevCard.jsx:242
+#: src/components/vm/hostdevs/hostDevAdd.jsx:129
+#: src/components/vm/overview/bootOrder.jsx:130
+#: src/components/vm/overview/bootOrder.jsx:145
 msgid "Vendor"
 msgstr "厂商"
 
-#: src/components/vms/hostvmslist.jsx:133
-#: src/components/vms/hostvmslist.jsx:140
 #: src/components/storagePools/storagePoolList.jsx:54
 #: src/components/networks/networkList.jsx:53
 #: src/components/vm/vmDetailsPage.jsx:112
-#: src/components/vm/vmDetailsPage.jsx:266 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:266
+#: src/components/vms/hostvmslist.jsx:133
+#: src/components/vms/hostvmslist.jsx:140 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "虚拟机"
 
@@ -2564,11 +2564,11 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "虚拟化服务（libvirt）未激活"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:874
-#: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/overview/bootOrder.jsx:100
 msgid "Volume"
 msgstr "卷"
 
@@ -2584,8 +2584,8 @@ msgstr "卷组名称"
 msgid "Volume group name should not be empty"
 msgstr "卷组名称不应为空"
 
-#: src/components/vm/overview/bootOrder.jsx:160
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
+#: src/components/vm/overview/bootOrder.jsx:160
 msgid "WWPN"
 msgstr "WWPN"
 
@@ -2602,13 +2602,13 @@ msgstr ""
 "系统停止响应时 watchdogs 的行为。要使用此虚拟 watchdog 设备，客户端系统也需要"
 "有一个额外的驱动程序和一个正在运行的 watchdog 服务。"
 
-#: src/components/vm/disks/diskEdit.jsx:132
 #: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/diskEdit.jsx:132
 msgid "Writeable"
 msgstr "可写"
 
-#: src/components/vm/disks/diskEdit.jsx:141
 #: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/diskEdit.jsx:141
 msgid "Writeable and shared"
 msgstr "可写和共享"
 
@@ -2661,11 +2661,11 @@ msgstr "磁盘"
 msgid "down"
 msgstr "已关闭"
 
-#: src/components/vm/overview/bootOrder.jsx:361
+#: src/components/vm/overview/watchdog.jsx:153
 #: src/components/vm/overview/vmOverviewCard.jsx:136
 #: src/components/vm/overview/vmOverviewCard.jsx:147
 #: src/components/vm/overview/vmOverviewCard.jsx:155
-#: src/components/vm/overview/watchdog.jsx:153
+#: src/components/vm/overview/bootOrder.jsx:361
 msgid "edit"
 msgstr "编辑"
 
@@ -2727,8 +2727,8 @@ msgid "mcast"
 msgstr "MCAST"
 
 #: src/components/common/machinesConnectionSelector.jsx:82
-#: src/components/vm/nics/nicBody.jsx:110
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:193
+#: src/components/vm/nics/nicBody.jsx:110
 #: src/components/vm/vmDetailsPage.jsx:221
 msgid "more info"
 msgstr "更多信息"
