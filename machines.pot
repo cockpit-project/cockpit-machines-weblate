@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 02:51+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-04 02:51+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,7 +306,7 @@ msgstr ""
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -335,6 +335,14 @@ msgstr ""
 #: src/components/common/warningInactive.jsx:12
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
+msgstr ""
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
@@ -406,12 +414,12 @@ msgstr ""
 msgid "Cores per socket"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 msgid "Could not delete $0"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:155
-msgid "Could not delete storage for $0"
+#: src/components/vm/deleteDialog.jsx:153
+msgid "Could not delete all storage for $0"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -493,7 +501,7 @@ msgstr ""
 msgid "Creating VM"
 msgstr ""
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Creating VM $0"
 msgstr ""
 
@@ -544,11 +552,11 @@ msgstr ""
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 msgid "Delete $0 VM?"
 msgstr ""
 
@@ -710,11 +718,11 @@ msgstr ""
 msgid "Download an OS"
 msgstr ""
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr ""
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Downloading image for VM $0"
 msgstr ""
 
@@ -766,6 +774,10 @@ msgstr ""
 
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
+msgstr ""
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
@@ -825,7 +837,7 @@ msgstr ""
 msgid "Failed to detach watchdog"
 msgstr ""
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 msgid "Failed to fetch some resources"
 msgstr ""
 
@@ -928,7 +940,7 @@ msgstr ""
 msgid "GiB"
 msgstr ""
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr ""
 
@@ -938,6 +950,10 @@ msgstr ""
 
 #: src/helpers.js:281
 msgid "Gracefully shutdown"
+msgstr ""
+
+#: src/app.jsx:133
+msgid "Hardware virtualization is disabled"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:214
@@ -1053,6 +1069,10 @@ msgstr ""
 
 #: src/helpers.js:225
 msgid "Idle"
+msgstr ""
+
+#: src/app.jsx:144
+msgid "Ignore"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
@@ -2461,7 +2481,7 @@ msgstr ""
 msgid "VM $0 already exists"
 msgstr ""
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
