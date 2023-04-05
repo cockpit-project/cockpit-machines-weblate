@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-01 02:52+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: 2023-02-01 19:11+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -276,7 +276,7 @@ msgstr "CPU türü"
 msgid "Cache"
 msgstr "Önbellek"
 
-#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/common/deleteResource.jsx:78
@@ -290,7 +290,7 @@ msgstr "Önbellek"
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -320,6 +320,14 @@ msgstr "Aygıt yazılımını değiştir"
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Değişiklikler, sanal makine kapatıldıktan sonra etkili olacaktır"
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -393,12 +401,14 @@ msgstr "Depolamayı kopyala"
 msgid "Cores per socket"
 msgstr "Soket başına çekirdek sayısı"
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 msgid "Could not delete $0"
 msgstr "$0 silinemedi"
 
-#: src/components/vm/deleteDialog.jsx:155
-msgid "Could not delete storage for $0"
+#: src/components/vm/deleteDialog.jsx:153
+#, fuzzy
+#| msgid "Could not delete storage for $0"
+msgid "Could not delete all storage for $0"
 msgstr "$0 için depolama alanı silinemedi"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -482,7 +492,7 @@ msgstr "Birim oluştur"
 msgid "Creating VM"
 msgstr "Sanal makine oluşturuluyor"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Creating VM $0"
 msgstr "$0 sanal makinesi oluşturuluyor"
 
@@ -525,23 +535,23 @@ msgstr "DHCP Ayarları"
 msgid "Deactivate"
 msgstr "Devre dışı bırak"
 
-#: src/components/storagePools/storagePoolDelete.jsx:200
-#: src/components/storagePools/storagePoolDelete.jsx:236
-#: src/components/storagePools/storagePoolDelete.jsx:246
+#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:239
+#: src/components/storagePools/storagePoolDelete.jsx:249
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr "Sil"
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 msgid "Delete $0 VM?"
 msgstr "$0 sanal makinesi silinsin mi?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:192
+#: src/components/storagePools/storagePoolDelete.jsx:195
 msgid "Delete $0 storage pool?"
 msgstr "$0 depolama havuzu silinsin mi?"
 
@@ -563,7 +573,7 @@ msgstr "Ağ silinsin mi?"
 msgid "Delete snapshot?"
 msgstr "Anlık görüntü silinsin mi?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:183
+#: src/components/storagePools/storagePoolDelete.jsx:186
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -704,11 +714,11 @@ msgstr "Etki alanı, kaynakta engellendi"
 msgid "Download an OS"
 msgstr "Bir işletim sistemi indir"
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr "İndirme ilerlemesi"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Downloading image for VM $0"
 msgstr "$0 sanal makinesi için kalıp indiriliyor"
 
@@ -761,6 +771,10 @@ msgstr "Disk sanal makineden çıkarılsın mı?"
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
 msgstr "Benzetilmiş makine"
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -821,7 +835,7 @@ msgstr "Gözlemci yapılandırma başarısız oldu"
 msgid "Failed to detach watchdog"
 msgstr "Gözlemci ayırma başarısız oldu"
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 msgid "Failed to fetch some resources"
 msgstr "Bazı kaynakların alınması başarısız oldu"
 
@@ -928,7 +942,7 @@ msgstr "Yeni bir RHSM belirteci edinin."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr "Sanal makineler listesine git"
 
@@ -939,6 +953,12 @@ msgstr "Masaüstü sanallaştırması için iyi seçim"
 #: src/helpers.js:281
 msgid "Gracefully shutdown"
 msgstr "Düzgün şekilde kapat"
+
+#: src/app.jsx:133
+#, fuzzy
+#| msgid "Failed to start virtualization service"
+msgid "Hardware virtualization is disabled"
+msgstr "Sanallaştırma hizmetini başlatma başarısız oldu"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1054,6 +1074,10 @@ msgstr "Tanımlayıcı sessizce $0 karaktere kadar kısaltılabilir "
 #: src/helpers.js:225
 msgid "Idle"
 msgstr "Boşta"
+
+#: src/app.jsx:144
+msgid "Ignore"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1562,7 +1586,7 @@ msgstr "Bu depolama havuzu için tanımlı depolama birimleri yok"
 msgid "No virtual networks"
 msgstr "Sanal ağlar yok"
 
-#: src/components/storagePools/storagePoolDelete.jsx:182
+#: src/components/storagePools/storagePoolDelete.jsx:185
 msgid "No volumes exist in this storage pool."
 msgstr "Bu depolama havuzunda birim yok."
 
@@ -1573,7 +1597,7 @@ msgid ""
 msgstr ""
 "Kalıcı olmayan ağ silinemez. Devre dışı bırakıldığında varlığı sona erer."
 
-#: src/components/storagePools/storagePoolDelete.jsx:225
+#: src/components/storagePools/storagePoolDelete.jsx:228
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2517,7 +2541,7 @@ msgstr "$0 Sanal Makinesi Ana Makine Aygıtları"
 msgid "VM $0 already exists"
 msgstr "$0 sanal makinesi zaten var"
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr "$0 sanal makinesi $1 bağlantısında mevcut değil"
 
@@ -2975,9 +2999,6 @@ msgstr "evet"
 
 #~ msgid "Failed to enable virtualization service"
 #~ msgstr "Sanallaştırma hizmetini etkinleştirme başarısız oldu"
-
-#~ msgid "Failed to start virtualization service"
-#~ msgstr "Sanallaştırma hizmetini başlatma başarısız oldu"
 
 #~ msgid "Start libvirt"
 #~ msgstr "libvirt hizmetini başlat"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-01 02:52+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: 2020-03-30 10:03+0000\n"
 "Last-Translator: Leon Chen <cwk545@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -283,7 +283,7 @@ msgstr "處理器類型"
 msgid "Cache"
 msgstr "快取"
 
-#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/common/deleteResource.jsx:78
@@ -297,7 +297,7 @@ msgstr "快取"
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -328,6 +328,14 @@ msgstr "更改密碼"
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
 msgstr "關閉VM後，更改將生效"
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -408,15 +416,15 @@ msgstr "儲存裝置"
 msgid "Cores per socket"
 msgstr "每個插槽的核心數"
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 #, fuzzy
 #| msgid "Storage pool failed to be created"
 msgid "Could not delete $0"
 msgstr "存儲池無法建立"
 
-#: src/components/vm/deleteDialog.jsx:155
+#: src/components/vm/deleteDialog.jsx:153
 #, fuzzy
-msgid "Could not delete storage for $0"
+msgid "Could not delete all storage for $0"
 msgstr "無法重置存儲池"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -505,7 +513,7 @@ msgstr ""
 msgid "Creating VM"
 msgstr "建立VM"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 #, fuzzy
 msgid "Creating VM $0"
 msgstr "建立VM"
@@ -552,25 +560,25 @@ msgstr ""
 msgid "Deactivate"
 msgstr "取消啟動"
 
-#: src/components/storagePools/storagePoolDelete.jsx:200
-#: src/components/storagePools/storagePoolDelete.jsx:236
-#: src/components/storagePools/storagePoolDelete.jsx:246
+#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:239
+#: src/components/storagePools/storagePoolDelete.jsx:249
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr "刪除"
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 #, fuzzy
 #| msgid "Delete"
 msgid "Delete $0 VM?"
 msgstr "刪除"
 
-#: src/components/storagePools/storagePoolDelete.jsx:192
+#: src/components/storagePools/storagePoolDelete.jsx:195
 #, fuzzy
 #| msgid "Create storage pool"
 msgid "Delete $0 storage pool?"
@@ -596,7 +604,7 @@ msgstr "新增網路介面"
 msgid "Delete snapshot?"
 msgstr "建立快照"
 
-#: src/components/storagePools/storagePoolDelete.jsx:183
+#: src/components/storagePools/storagePoolDelete.jsx:186
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -744,11 +752,11 @@ msgstr ""
 msgid "Download an OS"
 msgstr ""
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr ""
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 #, fuzzy
 #| msgid "Downloading $0"
 msgid "Downloading image for VM $0"
@@ -809,6 +817,10 @@ msgstr "刪除 $0"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
+msgstr ""
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
@@ -875,7 +887,7 @@ msgstr "無法更改密碼"
 msgid "Failed to detach watchdog"
 msgstr "磁槃無法連接"
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 #, fuzzy
 msgid "Failed to fetch some resources"
 msgstr "無法更改密碼"
@@ -987,7 +999,7 @@ msgstr ""
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr ""
 
@@ -1000,6 +1012,12 @@ msgstr ""
 #| msgid "Force shut down"
 msgid "Gracefully shutdown"
 msgstr "強制關機"
+
+#: src/app.jsx:133
+#, fuzzy
+#| msgid "Connecting to virtualization service"
+msgid "Hardware virtualization is disabled"
+msgstr "連接虛擬化服務"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1122,6 +1140,10 @@ msgstr ""
 
 #: src/helpers.js:225
 msgid "Idle"
+msgstr ""
+
+#: src/app.jsx:144
+msgid "Ignore"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
@@ -1667,7 +1689,7 @@ msgstr "沒有為此存儲池定義存儲卷"
 msgid "No virtual networks"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:182
+#: src/components/storagePools/storagePoolDelete.jsx:185
 #, fuzzy
 #| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
@@ -1679,7 +1701,7 @@ msgid ""
 "deactivated."
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:225
+#: src/components/storagePools/storagePoolDelete.jsx:228
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2644,7 +2666,7 @@ msgstr "陣列設備"
 msgid "VM $0 already exists"
 msgstr ""
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
@@ -3084,11 +3106,6 @@ msgstr "是"
 #, fuzzy
 #~| msgid "Connecting to virtualization service"
 #~ msgid "Failed to enable virtualization service"
-#~ msgstr "連接虛擬化服務"
-
-#, fuzzy
-#~| msgid "Connecting to virtualization service"
-#~ msgid "Failed to start virtualization service"
 #~ msgstr "連接虛擬化服務"
 
 #~ msgid "Start libvirt"

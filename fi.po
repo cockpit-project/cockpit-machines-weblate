@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-01 02:52+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: 2023-02-01 19:11+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -275,7 +275,7 @@ msgstr "CPU-tyyppi"
 msgid "Cache"
 msgstr "Välimuisti"
 
-#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/common/deleteResource.jsx:78
@@ -289,7 +289,7 @@ msgstr "Välimuisti"
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -319,6 +319,14 @@ msgstr "Vaihda laiteohjelmisto"
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Muutokset tulevat voimaan virtuaalikoneen sammuttamisen jälkeen"
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -391,12 +399,14 @@ msgstr "Kopioi tallennustila"
 msgid "Cores per socket"
 msgstr "Ytimiä per kanta"
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 msgid "Could not delete $0"
 msgstr "$0 ei voitu poistaa"
 
-#: src/components/vm/deleteDialog.jsx:155
-msgid "Could not delete storage for $0"
+#: src/components/vm/deleteDialog.jsx:153
+#, fuzzy
+#| msgid "Could not delete storage for $0"
+msgid "Could not delete all storage for $0"
 msgstr "Ei voitu poistaa tallennustilaa $0:lle"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -478,7 +488,7 @@ msgstr "Luo taltio"
 msgid "Creating VM"
 msgstr "Virtuaalikoneen luominen"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Creating VM $0"
 msgstr "Luodaan virtuaalikone $0"
 
@@ -521,23 +531,23 @@ msgstr "DHCP-asetukset"
 msgid "Deactivate"
 msgstr "Deaktivoi"
 
-#: src/components/storagePools/storagePoolDelete.jsx:200
-#: src/components/storagePools/storagePoolDelete.jsx:236
-#: src/components/storagePools/storagePoolDelete.jsx:246
+#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:239
+#: src/components/storagePools/storagePoolDelete.jsx:249
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr "Poista"
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 msgid "Delete $0 VM?"
 msgstr "Poista $0 VM?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:192
+#: src/components/storagePools/storagePoolDelete.jsx:195
 msgid "Delete $0 storage pool?"
 msgstr "Poista varastointivaranto $0?"
 
@@ -559,7 +569,7 @@ msgstr "Poista verkko ?"
 msgid "Delete snapshot?"
 msgstr "Poista tilannevedos ?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:183
+#: src/components/storagePools/storagePoolDelete.jsx:186
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -703,11 +713,11 @@ msgstr "Toimialue on estetty resurssilla"
 msgid "Download an OS"
 msgstr "Lataa käyttöjärjestelmä"
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr "Latauksen edistyminen"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Downloading image for VM $0"
 msgstr "Ladataan levykuvaa VM:lle $0"
 
@@ -761,6 +771,10 @@ msgstr "Poistetaanko levy VM:stä?"
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
 msgstr "Sulautettu kone"
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -821,7 +835,7 @@ msgstr "Vahtikoiran määritys epäonnistui"
 msgid "Failed to detach watchdog"
 msgstr "Vahtikoiran irrottaminen epäonnistui"
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 msgid "Failed to fetch some resources"
 msgstr "Joidenkin resurssien hakeminen epäonnistui"
 
@@ -927,7 +941,7 @@ msgstr "Hanki uusi RHSM-tokeni."
 msgid "GiB"
 msgstr "Git"
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr "Siirry virtuaalikoneiden luetteloon"
 
@@ -938,6 +952,12 @@ msgstr "Hyvä valinta työpöydän virtualisointiin"
 #: src/helpers.js:281
 msgid "Gracefully shutdown"
 msgstr "Sammuta hallitusti"
+
+#: src/app.jsx:133
+#, fuzzy
+#| msgid "Failed to start virtualization service"
+msgid "Hardware virtualization is disabled"
+msgstr "Virtualisointipalvelun käynnistäminen epäonnistui"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1053,6 +1073,10 @@ msgstr "Tunniste voidaan katkaista siitä erikseen kertomatta $0 merkkiin "
 #: src/helpers.js:225
 msgid "Idle"
 msgstr "Jouten"
+
+#: src/app.jsx:144
+msgid "Ignore"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1562,7 +1586,7 @@ msgstr "Tälle varastointivarannolle ei ole määritetty varastointitaltioita"
 msgid "No virtual networks"
 msgstr "Ei virtuaaliverkkoja"
 
-#: src/components/storagePools/storagePoolDelete.jsx:182
+#: src/components/storagePools/storagePoolDelete.jsx:185
 msgid "No volumes exist in this storage pool."
 msgstr "Tässä tallennusvarannossa ei ole taltioita."
 
@@ -1574,7 +1598,7 @@ msgstr ""
 "Ei-pysyvää verkkoa ei voida poistaa. Se lakkaa olemasta, kun se "
 "deaktivoidaan."
 
-#: src/components/storagePools/storagePoolDelete.jsx:225
+#: src/components/storagePools/storagePoolDelete.jsx:228
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2512,7 +2536,7 @@ msgstr "VM $0 isäntälaitteet"
 msgid "VM $0 already exists"
 msgstr "Virtuaalikone $0 on jo olemassa"
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr "Virtuaalikone $0 ei ole olemassa yhteydellä $1"
 
@@ -2970,9 +2994,6 @@ msgstr "kyllä"
 
 #~ msgid "Failed to enable virtualization service"
 #~ msgstr "Virtualisointipalvelun käyttöönotto epäonnistui"
-
-#~ msgid "Failed to start virtualization service"
-#~ msgstr "Virtualisointipalvelun käynnistäminen epäonnistui"
 
 #~ msgid "Start libvirt"
 #~ msgstr "Käynnistä libvirt"

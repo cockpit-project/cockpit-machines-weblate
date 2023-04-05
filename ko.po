@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-01 02:52+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: 2023-02-07 01:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
@@ -275,7 +275,7 @@ msgstr "CPU 유형"
 msgid "Cache"
 msgstr "캐쉬"
 
-#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/common/deleteResource.jsx:78
@@ -289,7 +289,7 @@ msgstr "캐쉬"
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -319,6 +319,14 @@ msgstr "펌웨어 변경"
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
 msgstr "변경은 VM 종료 후에 적용됩니다"
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -391,12 +399,14 @@ msgstr "저장소 복사"
 msgid "Cores per socket"
 msgstr "소켓당 코어 수"
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 msgid "Could not delete $0"
 msgstr "$0를 삭제 할 수 없습니다"
 
-#: src/components/vm/deleteDialog.jsx:155
-msgid "Could not delete storage for $0"
+#: src/components/vm/deleteDialog.jsx:153
+#, fuzzy
+#| msgid "Could not delete storage for $0"
+msgid "Could not delete all storage for $0"
 msgstr "$0를 위해 저장소를 삭제 할 수 없습니다"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -478,7 +488,7 @@ msgstr "볼륨 만들기"
 msgid "Creating VM"
 msgstr "VM 생성 중"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Creating VM $0"
 msgstr "VM $0 생성 중"
 
@@ -521,23 +531,23 @@ msgstr "DHCP 설정"
 msgid "Deactivate"
 msgstr "비활성화"
 
-#: src/components/storagePools/storagePoolDelete.jsx:200
-#: src/components/storagePools/storagePoolDelete.jsx:236
-#: src/components/storagePools/storagePoolDelete.jsx:246
+#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:239
+#: src/components/storagePools/storagePoolDelete.jsx:249
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr "삭제"
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 msgid "Delete $0 VM?"
 msgstr "$0 VM 삭제?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:192
+#: src/components/storagePools/storagePoolDelete.jsx:195
 msgid "Delete $0 storage pool?"
 msgstr "$0 저장소 풀 삭제?"
 
@@ -558,7 +568,7 @@ msgstr "네트워크 삭제?"
 msgid "Delete snapshot?"
 msgstr "스냅샷 삭제?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:183
+#: src/components/storagePools/storagePoolDelete.jsx:186
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -696,11 +706,11 @@ msgstr "도메인은 리소스에서 차단되었습니다"
 msgid "Download an OS"
 msgstr "OS 내려받기"
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr "내려받기 진행"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Downloading image for VM $0"
 msgstr "VM $0를 위해 이미지 내려받기 중"
 
@@ -753,6 +763,10 @@ msgstr "VM에서 디스크 꺼내기?"
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
 msgstr "에뮬레이트된 기기"
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -811,7 +825,7 @@ msgstr "와치독을 구성하는데 실패함"
 msgid "Failed to detach watchdog"
 msgstr "와치독을 분리하는데 실패함"
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 msgid "Failed to fetch some resources"
 msgstr "몇 가지 자원 가져오기에 실패함"
 
@@ -917,7 +931,7 @@ msgstr "신규 RHSM 토큰 가져오기."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr "VM 목록으로 이동"
 
@@ -928,6 +942,12 @@ msgstr "데스크탑 가상화를 위한 훌륭한 선택"
 #: src/helpers.js:281
 msgid "Gracefully shutdown"
 msgstr "우아한 종료"
+
+#: src/app.jsx:133
+#, fuzzy
+#| msgid "Failed to start virtualization service"
+msgid "Hardware virtualization is disabled"
+msgstr "가상화 서비스 시작에 실패함"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1043,6 +1063,10 @@ msgstr "식별자는 $0 문자로 자동으로 잘릴 수 있습니다 "
 #: src/helpers.js:225
 msgid "Idle"
 msgstr "유휴"
+
+#: src/app.jsx:144
+msgid "Ignore"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1555,7 +1579,7 @@ msgstr "이 저장소 풀에 대해 정의된 저장소 볼륨 없음"
 msgid "No virtual networks"
 msgstr "가상 네트워크 없음"
 
-#: src/components/storagePools/storagePoolDelete.jsx:182
+#: src/components/storagePools/storagePoolDelete.jsx:185
 msgid "No volumes exist in this storage pool."
 msgstr "이 저장소 풀에 대해 볼륨이 없습니다."
 
@@ -1566,7 +1590,7 @@ msgid ""
 msgstr ""
 "비영구적 네트워크는 삭제할 수 없습니다. 비활성화되면 존재하지 않습니다."
 
-#: src/components/storagePools/storagePoolDelete.jsx:225
+#: src/components/storagePools/storagePoolDelete.jsx:228
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2496,7 +2520,7 @@ msgstr "VM $0 호스트 장치"
 msgid "VM $0 already exists"
 msgstr "VM $0이 이미 존재합니다"
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr "VM $0이(가) $1 연결에 존재하지 않습니다"
 
@@ -2952,9 +2976,6 @@ msgstr "예"
 
 #~ msgid "Failed to enable virtualization service"
 #~ msgstr "가상화 서비스 활성화에 실패함"
-
-#~ msgid "Failed to start virtualization service"
-#~ msgstr "가상화 서비스 시작에 실패함"
 
 #~ msgid "Start libvirt"
 #~ msgstr "libvirt 시작"

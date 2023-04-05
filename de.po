@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-01 02:52+0000\n"
+"POT-Creation-Date: 2023-04-05 02:51+0000\n"
 "PO-Revision-Date: 2023-02-12 16:20+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
@@ -290,7 +290,7 @@ msgstr "Prozessor-Typ"
 msgid "Cache"
 msgstr "Cache"
 
-#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/common/deleteResource.jsx:78
@@ -304,7 +304,7 @@ msgstr "Cache"
 #: src/components/vm/vmRenameDialog.jsx:70
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:173
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
-#: src/components/vm/deleteDialog.jsx:177 src/components/vm/nics/nicAdd.jsx:216
+#: src/components/vm/deleteDialog.jsx:175 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/nics/nicEdit.jsx:185
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/vm/overview/watchdog.jsx:103
@@ -334,6 +334,14 @@ msgstr "Firmware ändern"
 #: src/components/common/warningInactive.jsx:24
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Änderungen werden nach dem Herunterfahren der VM wirksam"
+
+#: src/app.jsx:139
+msgid ""
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -406,12 +414,14 @@ msgstr "Speicher kopieren"
 msgid "Cores per socket"
 msgstr "Kerne pro Socket"
 
-#: src/components/vm/deleteDialog.jsx:150
+#: src/components/vm/deleteDialog.jsx:148
 msgid "Could not delete $0"
 msgstr "$0 konnte nicht gelöscht werden"
 
-#: src/components/vm/deleteDialog.jsx:155
-msgid "Could not delete storage for $0"
+#: src/components/vm/deleteDialog.jsx:153
+#, fuzzy
+#| msgid "Could not delete storage for $0"
+msgid "Could not delete all storage for $0"
 msgstr "Speicher für $0 konnte nicht gelöscht werden"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -507,7 +517,7 @@ msgstr "Volume erzeugen"
 msgid "Creating VM"
 msgstr "VM erstellen"
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Creating VM $0"
 msgstr "VM $0 erstellen"
 
@@ -550,23 +560,23 @@ msgstr "DHCP-Einstellungen"
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: src/components/storagePools/storagePoolDelete.jsx:200
-#: src/components/storagePools/storagePoolDelete.jsx:236
-#: src/components/storagePools/storagePoolDelete.jsx:246
+#: src/components/storagePools/storagePoolDelete.jsx:203
+#: src/components/storagePools/storagePoolDelete.jsx:239
+#: src/components/storagePools/storagePoolDelete.jsx:249
 #: src/components/common/deleteResource.jsx:75
 #: src/components/common/deleteResource.jsx:120
 #: src/components/common/deleteResource.jsx:131
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153 src/components/vm/vmActions.jsx:351
-#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/vmActions.jsx:359 src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
 msgstr "Löschen"
 
-#: src/components/vm/deleteDialog.jsx:169
+#: src/components/vm/deleteDialog.jsx:167
 msgid "Delete $0 VM?"
 msgstr "$0 VM löschen?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:192
+#: src/components/storagePools/storagePoolDelete.jsx:195
 msgid "Delete $0 storage pool?"
 msgstr ""
 
@@ -588,7 +598,7 @@ msgstr "Netzwerk löschen?"
 msgid "Delete snapshot?"
 msgstr "Schnappschuss löschen?"
 
-#: src/components/storagePools/storagePoolDelete.jsx:183
+#: src/components/storagePools/storagePoolDelete.jsx:186
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -731,11 +741,11 @@ msgstr "Domain ist durch Resource blockiert"
 msgid "Download an OS"
 msgstr "Ein Betriebssystem herunterladen"
 
-#: src/app.jsx:260
+#: src/app.jsx:304
 msgid "Download progress"
 msgstr ""
 
-#: src/app.jsx:253
+#: src/app.jsx:297
 msgid "Downloading image for VM $0"
 msgstr "Abbild für VM $0 wird heruntergeladen"
 
@@ -793,6 +803,10 @@ msgstr "Festplatte aus VM entfernen?"
 #: src/components/vm/overview/vmOverviewCard.jsx:248
 msgid "Emulated machine"
 msgstr "Emulierte Maschine"
+
+#: src/app.jsx:137
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -857,7 +871,7 @@ msgstr "Firmware konnte nicht geändert werden"
 msgid "Failed to detach watchdog"
 msgstr "Festplatte konnte nicht angeschlossen werden"
 
-#: src/app.jsx:138
+#: src/app.jsx:182
 msgid "Failed to fetch some resources"
 msgstr "Fehler beim Abrufen einiger Ressourcen"
 
@@ -967,7 +981,7 @@ msgstr ""
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:243 src/app.jsx:257
+#: src/app.jsx:287 src/app.jsx:301
 msgid "Go to VMs list"
 msgstr "Zur VM-Liste gehen"
 
@@ -980,6 +994,12 @@ msgstr ""
 #| msgid "Force shut down"
 msgid "Gracefully shutdown"
 msgstr "Herunterfahren erzwingen"
+
+#: src/app.jsx:133
+#, fuzzy
+#| msgid "Connecting to virtualization service"
+msgid "Hardware virtualization is disabled"
+msgstr "Verbindung zum Virtualisierungsdienst herstellen"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1095,6 +1115,10 @@ msgstr "Der Bezeichner kann stillschweigend auf $0 Zeichen gekürzt werden. "
 #: src/helpers.js:225
 msgid "Idle"
 msgstr "Untätig"
+
+#: src/app.jsx:144
+msgid "Ignore"
+msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1612,7 +1636,7 @@ msgstr "Für dieses Speicherpool sind keine Speichervolumes definiert"
 msgid "No virtual networks"
 msgstr "Keine virtuellen Netzwerke"
 
-#: src/components/storagePools/storagePoolDelete.jsx:182
+#: src/components/storagePools/storagePoolDelete.jsx:185
 msgid "No volumes exist in this storage pool."
 msgstr ""
 
@@ -1624,7 +1648,7 @@ msgstr ""
 "Ein nicht persistentes Netz kann nicht gelöscht werden. Es hört auf zu "
 "existieren, wenn es deaktiviert wird."
 
-#: src/components/storagePools/storagePoolDelete.jsx:225
+#: src/components/storagePools/storagePoolDelete.jsx:228
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2571,7 +2595,7 @@ msgstr "VM $0 Host-Geräte"
 msgid "VM $0 already exists"
 msgstr "VM $0 existiert bereits"
 
-#: src/app.jsx:239
+#: src/app.jsx:283
 msgid "VM $0 does not exist on $1 connection"
 msgstr "VM $0 existiert nicht auf Verbindung $1"
 
@@ -3038,11 +3062,6 @@ msgstr "Ja"
 #, fuzzy
 #~| msgid "Connecting to virtualization service"
 #~ msgid "Failed to enable virtualization service"
-#~ msgstr "Verbindung zum Virtualisierungsdienst herstellen"
-
-#, fuzzy
-#~| msgid "Connecting to virtualization service"
-#~ msgid "Failed to start virtualization service"
 #~ msgstr "Verbindung zum Virtualisierungsdienst herstellen"
 
 #~ msgid "Start libvirt"
