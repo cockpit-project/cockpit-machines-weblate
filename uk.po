@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 02:51+0000\n"
-"PO-Revision-Date: 2023-02-01 19:11+0000\n"
+"PO-Revision-Date: 2023-04-06 11:41+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/uk/>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:825
@@ -332,6 +332,11 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"Спосіб зміни параметрів BIOS/EFI є специфічним для кожного окремого "
+"виробника. Треба натиснути якусь клавішу під час завантаження (ESC, F1, F12, "
+"Del). Потім слід увімкнути параметр, який має назву «virtualization», «VM», "
+"«VMX», «SVM», «VTX», «VTD». Подробиці можна знайти у підручнику до вашого "
+"комп'ютера."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -410,10 +415,8 @@ msgid "Could not delete $0"
 msgstr "Не вдалося вилучити $0"
 
 #: src/components/vm/deleteDialog.jsx:153
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "Не вдалося вилучити сховище для $0"
+msgstr "Не вдалося вилучити усе сховище для $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -779,7 +782,7 @@ msgstr "Емульована машина"
 
 #: src/app.jsx:137
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "Увімкніть підтримку віртуалізації у параметрах BIOS/EFI."
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -959,10 +962,8 @@ msgid "Gracefully shutdown"
 msgstr "Штатно вимкнути"
 
 #: src/app.jsx:133
-#, fuzzy
-#| msgid "Failed to start virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Не вдалося запустити службу віртуалізації"
+msgstr "Апаратну віртуалізацію вимкнено"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1081,7 +1082,7 @@ msgstr "Бездіяльність"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "Ігнорувати"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
