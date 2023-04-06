@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 02:51+0000\n"
-"PO-Revision-Date: 2023-02-03 21:20+0000\n"
+"PO-Revision-Date: 2023-04-06 11:41+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ka/>\n"
@@ -327,6 +327,10 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"BIOS/EFI პარამეტრების შეცვლა მწარმოებლიდან მწარმოებლამდე განსხვავდება. ის "
+"ჩატვრთვისას კონკრეტული ღილაკის (ESC, F1, F12, del) დაჭერას და ვირტუალიზაციის "
+"*\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\" ან \"VTD\") ჩართვას "
+"მოიცავს. მეტი დეტალებისთვის მიმართეთ კომპიუტერის დოკუმენტაციას."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -404,10 +408,8 @@ msgid "Could not delete $0"
 msgstr "წაშლის შეცდომა: $0"
 
 #: src/components/vm/deleteDialog.jsx:153
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "საცავის ($0) წაშლის შეცდომა"
+msgstr "$0-სთვის საცავის სრულად წაშლა შეუძლებელია"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -770,7 +772,7 @@ msgstr "ემულირებული მანქანა"
 
 #: src/app.jsx:137
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "ჩართეთ ვირტუალიზაციის მხარდაჭერა BIOS/EFI-ის პარამეტრებში."
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -950,7 +952,7 @@ msgstr "ძალით გამორთვა"
 
 #: src/app.jsx:133
 msgid "Hardware virtualization is disabled"
-msgstr ""
+msgstr "აპარატურული ვირტუალიზაცია გამორთულია"
 
 #: src/components/vm/disks/diskAdd.jsx:214
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
@@ -1069,7 +1071,7 @@ msgstr "უქმი"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "იგნორირება"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
