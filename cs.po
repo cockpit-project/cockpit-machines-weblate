@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-07 02:51+0000\n"
-"PO-Revision-Date: 2023-04-06 11:41+0000\n"
+"PO-Revision-Date: 2023-04-08 11:00+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +82,7 @@ msgstr[2] "$0 virt. procesorů"
 # libreport
 #: src/components/vm/overview/vcpuModal.jsx:260
 msgid "$0 vCPU details"
-msgstr "$0 podrobnosti virt. procesoru"
+msgstr "podrobnosti o virt. procesoru $0"
 
 #: src/components/vm/nics/nicEdit.jsx:178
 msgid "$0 virtual network interface settings"
@@ -201,8 +201,8 @@ msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
 msgstr ""
-"Povolenými znaky jsou: znaky z latinské abecedy (bez diakritiky), číslice a "
-"některá interpunkční znaménka (-, _, +, .)"
+"Povolené znaky: ty z latinské abecedy (bez diakritiky), číslice a některá "
+"interpunkční znaménka (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
 msgid "Also delete all volumes inside this pool:"
@@ -339,7 +339,7 @@ msgstr "Změnit firmware"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Čekající změny"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -526,7 +526,7 @@ msgstr "Vytvořit svazek"
 
 #: src/components/vms/hostvmslist.jsx:53
 msgid "Creating VM"
-msgstr "vytváří se virt. stroj"
+msgstr "Vytváří se virt. stroj"
 
 #: src/app.jsx:297
 msgid "Creating VM $0"
@@ -697,10 +697,8 @@ msgstr "Odpojeno od sériové konzole. Klikněte na tlačítko Připojit."
 # auto translated by TM merge from project: blivet-gui, version: master,
 # DocId: po/blivet-gui
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Disky"
+msgstr "Disk"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:126
 msgid "Disk $0 could not be removed"
@@ -892,11 +890,11 @@ msgstr "Nepodařilo se naklonovat virt. stroj $0"
 
 #: src/components/vm/overview/watchdog.jsx:53
 msgid "Failed to configure watchdog"
-msgstr "Resetátor se nepodařilo nastavit"
+msgstr "Nepodařilo se nastavit resetátor"
 
 #: src/components/vm/overview/watchdog.jsx:66
 msgid "Failed to detach watchdog"
-msgstr "Resetátor se nepodařilo odpojit"
+msgstr "Nepodařilo se odpojit resetátor"
 
 #: src/app.jsx:182
 msgid "Failed to fetch some resources"
@@ -1042,7 +1040,7 @@ msgstr "Skrýt další možnosti"
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/disks/vmDiskColumns.jsx:42
 msgid "Host"
-msgstr "Počítač"
+msgstr "Hostitel"
 
 #: src/components/create-vm-dialog/pxe-helpers.js:166
 msgid "Host device"
@@ -1403,7 +1401,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:128
 msgid "Maximum transmission unit"
-msgstr "Přenosová jednotka nejvýše"
+msgstr "Přenosová jednotka nejvýše (MTU)"
 
 #: src/components/vm/disks/mediaEject.jsx:114
 msgid "Media could not be ejected from $0"
@@ -1563,10 +1561,8 @@ msgid "Network file system"
 msgstr "Síťový souborový systém"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
-msgstr "Síťová rozhraní"
+msgstr "Síťové rozhraní"
 
 #: src/components/vm/nics/vmNicsCard.jsx:375
 msgid "Network interface $0 could not be removed"
@@ -2233,6 +2229,8 @@ msgstr "Patic"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Některé změny nastavení se projeví až po úplném vypnutí a zapnutí virt. "
+"stroje:"
 
 # auto translated by TM merge from project: dnf, version: master, DocId: dnf
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
@@ -2388,7 +2386,7 @@ msgstr ""
 
 #: src/helpers.js:231
 msgid "Suspended (PM)"
-msgstr "uspáno (správou napájení)"
+msgstr "Uspáno (správou napájení)"
 
 # auto translated by TM merge from project: selinux (policycoreutils),
 # version: master, DocId: policycoreutils
@@ -2463,7 +2461,7 @@ msgstr "Zvolený operační systém vyžaduje přinejmenším $0 $1 operační p
 #: src/components/create-vm-dialog/createVmDialog.jsx:836
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
-msgstr "Vybraný operační systém vyžaduje velikost úložiště přinejmenším $0 $1"
+msgstr "Zvolený operační systém vyžaduje velikost úložiště přinejmenším $0 $1"
 
 #: src/components/networks/networkOverviewTab.jsx:64
 msgid "The static host entry for $0 will be removed:"
@@ -2477,7 +2475,8 @@ msgstr "Fond úložiště nebylo možné smazat"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:225
 msgid "The tag name to be used by the guest to mount this export point."
 msgstr ""
-"Název štítku, který používán hostem pro připojení tohoto exportního bodu."
+"Název štítku, který má být používán hostem pro připojení tohoto exportního "
+"bodu."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:513
 msgid "Then copy and paste it above."
@@ -2502,7 +2501,7 @@ msgid ""
 "dynamic / wireless networking configs."
 msgstr ""
 "Toto je doporučené nastavení pro obecné připojení hosta na hostitelích s "
-"dynamickými / bezdrátovými uspořádáními sítě."
+"dynamickými / bezdrátovými nastaveními/uspořádáními sítě."
 
 #: src/components/vm/nics/nicBody.jsx:93
 msgid ""
@@ -2510,7 +2509,7 @@ msgid ""
 "static wired networking configs."
 msgstr ""
 "Toto je doporučené nastavení pro obecné připojení hosta na hostitelích se "
-"statickým uspořádáním drátové sítě."
+"statickými nastaveními drátové sítě."
 
 #: src/components/vm/nics/nicBody.jsx:99
 msgid ""
@@ -2527,7 +2526,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:79
 msgid "This volume is already used by $0."
-msgstr "Tento svazek je zrovna využíván $0."
+msgstr "Tento svazek už je využíván $0."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:876
 msgid "This volume is already used by another VM."
@@ -2734,10 +2733,8 @@ msgstr ""
 "pseudoterminál je vlastněn vaším uživatelským účtem"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "Virt. stroj $0 se nepodařilo vypnout"
+msgstr "Virt. stroj je třeba vypnout"
 
 # auto translated by TM merge from project: selinux (policycoreutils),
 # version: master, DocId: policycoreutils
@@ -2864,7 +2861,7 @@ msgstr "Sdílenou složku je možné připojit pomocí:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:194
 msgid "You need to select the most closely matching operating system"
-msgstr "Je třeba vybrat co nejvíce odpovídající operační systém"
+msgstr "Je třeba vybrat co nejvíce podobný operační systém"
 
 # auto translated by TM merge from project: libvirt, version: master, DocId:
 # libvirt
