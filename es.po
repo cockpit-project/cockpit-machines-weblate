@@ -24,10 +24,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-07 02:51+0000\n"
-"PO-Revision-Date: 2023-02-03 21:20+0000\n"
+"PO-Revision-Date: 2023-04-08 11:00+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,7 +339,7 @@ msgstr "Cambiar el firmware"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Hay cambios pendientes"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -352,6 +352,11 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"Cambiar los parámetros de configuración de BIOS/EFI requiere seguir un "
+"método específico para cada fabricante. Este método incluye pulsar una tecla "
+"durante el arranque (Esc, F1, F12, Supr). Habilite un parámetro llamado "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\" o \"VTD\". Consulte el "
+"manual de su equipo para más información."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -431,10 +436,8 @@ msgid "Could not delete $0"
 msgstr "No se pudo eliminar $0"
 
 #: src/components/vm/deleteDialog.jsx:153
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "No se pudo eliminar el almacenamiento de $0"
+msgstr "No se pudo eliminar todo el almacenamiento de $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -681,10 +684,8 @@ msgstr ""
 "Desconectado desde la consola serial. Haga clic en el botón de conectar."
 
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Discos"
+msgstr "Disco"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:126
 msgid "Disk $0 could not be removed"
@@ -824,7 +825,7 @@ msgstr "Máquina emulada"
 
 #: src/app.jsx:137
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "Habilite el soporte de virtualización en la configuración de BIOS/EFI."
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -1006,10 +1007,8 @@ msgid "Gracefully shutdown"
 msgstr "Iniciar apagado normal"
 
 #: src/app.jsx:133
-#, fuzzy
-#| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Conectándose al servicio de virtualización"
+msgstr "La virtualización por hardware está desactivada"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
 #: src/components/vm/disks/diskAdd.jsx:214
@@ -1128,7 +1127,7 @@ msgstr "Inactivo"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorar"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1528,10 +1527,8 @@ msgid "Network file system"
 msgstr "Sistema de archivos de red"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
-msgstr "Interfaces de red"
+msgstr "Interfaz de red"
 
 #: src/components/vm/nics/vmNicsCard.jsx:375
 msgid "Network interface $0 could not be removed"
@@ -2183,6 +2180,7 @@ msgstr "Sockets"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Algunos cambios de configuración sólo toman efecto tras un inicio desde cero:"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
 #: src/components/vm/hostdevs/hostDevCard.jsx:219
@@ -2682,10 +2680,8 @@ msgstr ""
 "propietario del proceso y PTY"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "La MV $0 falló al apagarse"
+msgstr "La MV necesita apagarse"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:110
 msgid "VM state"
