@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-09 02:52+0000\n"
-"PO-Revision-Date: 2023-02-10 21:20+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/sv/>\n"
+"PO-Revision-Date: 2023-04-11 12:20+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -317,7 +317,7 @@ msgstr "Ändra hårdvarufirmware"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Ändringar väntar"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -330,6 +330,10 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"Att ändra BIOS/EFI-inställningarna är specifikt för varje tillverkare. Det "
+"innebär att man trycker på en snabbtangent under uppstart (ESC, F1, F12, Del)"
+". Aktivera en inställning som heter \"virtualisering\", \"VM\", \"VMX\", "
+"\"SVM\", \"VTX\", \"VTD\". Se din dators manual för detaljer."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:526
 msgid "Checking token validity..."
@@ -406,10 +410,8 @@ msgid "Could not delete $0"
 msgstr "Det gick inte att radera $0"
 
 #: src/components/vm/deleteDialog.jsx:153
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "Det gick inte att radera lagringen för $0"
+msgstr "Det gick inte att radera all lagring för $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -647,10 +649,8 @@ msgid "Disconnected from serial console. Click the connect button."
 msgstr "Frånkopplad från seriekonsolen. Klicka på Anslut."
 
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Diskar"
+msgstr "Disk"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:126
 msgid "Disk $0 could not be removed"
@@ -779,7 +779,7 @@ msgstr "Emulerad maskin"
 
 #: src/app.jsx:137
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "Aktivera virtualiseringsstöd i BIOS/EFI-inställningar."
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -959,10 +959,8 @@ msgid "Gracefully shutdown"
 msgstr "Graciös avstängning"
 
 #: src/app.jsx:133
-#, fuzzy
-#| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Ansluter till virtualiseringstjänsten"
+msgstr "Hårdvaruvirtualisering är inaktiverad"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:242
 #: src/components/vm/disks/diskAdd.jsx:214
@@ -1081,7 +1079,7 @@ msgstr "Overksam"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorera"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1408
 msgid "Import VM"
@@ -1472,8 +1470,6 @@ msgid "Network file system"
 msgstr "Nätverksfilsystem"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
 msgstr "Nätverksgränssnitt"
 
@@ -2116,6 +2112,7 @@ msgstr "Uttag"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Vissa konfigurationsändringar träder bara i kraft efter en fräsch uppstart:"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
 #: src/components/vm/hostdevs/hostDevCard.jsx:219
@@ -2598,10 +2595,8 @@ msgstr ""
 "ägda av ditt användarkonto"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "VM $0 kunde inte stängas av"
+msgstr "VM behöver stängas av"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:110
 msgid "VM state"
