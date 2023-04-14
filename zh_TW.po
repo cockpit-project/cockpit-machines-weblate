@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-11 02:51+0000\n"
+"POT-Creation-Date: 2023-04-14 02:51+0000\n"
 "PO-Revision-Date: 2020-03-30 10:03+0000\n"
 "Last-Translator: Leon Chen <cwk545@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:115
-#: src/components/vm/disks/vmDisksCard.jsx:185
+#: src/components/vm/disks/vmDisksCard.jsx:188
 msgid "Access"
 msgstr "存取"
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Adding this disk will change its access mode to shared."
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:189
+#: src/components/vm/disks/vmDisksCard.jsx:192
 msgid "Additional"
 msgstr ""
 
@@ -256,7 +256,7 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:152
 #: src/components/vm/disks/diskAdd.jsx:229
 #: src/components/vm/disks/diskEdit.jsx:90
-#: src/components/vm/disks/vmDisksCard.jsx:183
+#: src/components/vm/disks/vmDisksCard.jsx:186
 msgid "Bus"
 msgstr "總線"
 
@@ -280,11 +280,11 @@ msgstr "處理器類型"
 
 #: src/components/vm/disks/diskAdd.jsx:218
 #: src/components/vm/disks/diskEdit.jsx:60
-#: src/components/vm/disks/vmDiskColumns.jsx:99
+#: src/components/vm/disks/vmDiskColumns.jsx:101
 msgid "Cache"
 msgstr "快取"
 
-#: src/components/common/deleteResource.jsx:78
+#: src/components/common/deleteResource.jsx:91
 #: src/components/networks/createNetworkDialog.jsx:426
 #: src/components/networks/networkOverviewTab.jsx:238
 #: src/components/storagePools/createStoragePoolDialog.jsx:449
@@ -312,7 +312,7 @@ msgstr "快取"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/vm/disks/vmDisksCard.jsx:181
+#: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Capacity"
 msgstr "容量"
 
@@ -373,7 +373,7 @@ msgstr "關閉"
 msgid "Cloud base image"
 msgstr "無法加載圖片"
 
-#: src/components/common/deleteResource.jsx:84
+#: src/components/common/deleteResource.jsx:97
 msgid "Confirm this action"
 msgstr ""
 
@@ -429,6 +429,11 @@ msgstr "存儲池無法建立"
 #: src/components/vm/deleteDialog.jsx:153
 #, fuzzy
 msgid "Could not delete all storage for $0"
+msgstr "無法重置存儲池"
+
+#: src/components/vm/disks/vmDiskColumns.jsx:132
+#, fuzzy
+msgid "Could not delete disk's storage"
 msgstr "無法重置存儲池"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
@@ -564,9 +569,9 @@ msgstr ""
 msgid "Deactivate"
 msgstr "取消啟動"
 
-#: src/components/common/deleteResource.jsx:75
-#: src/components/common/deleteResource.jsx:120
-#: src/components/common/deleteResource.jsx:131
+#: src/components/common/deleteResource.jsx:79
+#: src/components/common/deleteResource.jsx:133
+#: src/components/common/deleteResource.jsx:144
 #: src/components/networks/network.jsx:150
 #: src/components/networks/network.jsx:153
 #: src/components/storagePools/storagePoolDelete.jsx:203
@@ -659,8 +664,8 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:136
 #: src/components/vm/overview/bootOrder.jsx:139
 #: src/components/vm/disks/diskAdd.jsx:353
-#: src/components/vm/disks/vmDiskColumns.jsx:38
-#: src/components/vm/disks/vmDisksCard.jsx:169
+#: src/components/vm/disks/vmDiskColumns.jsx:40
+#: src/components/vm/disks/vmDisksCard.jsx:172
 msgid "Device"
 msgstr "裝置"
 
@@ -689,7 +694,7 @@ msgstr ""
 msgid "Disk"
 msgstr "磁碟"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:126
+#: src/components/vm/disks/vmDiskColumns.jsx:146
 #, fuzzy
 #| msgid "Disk failed to be created"
 msgid "Disk $0 could not be removed"
@@ -815,7 +820,7 @@ msgstr ""
 msgid "Editing transient network interfaces is not allowed"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/vmDiskColumns.jsx:192
 #: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr ""
@@ -925,7 +930,7 @@ msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "應啟用少於最大虛擬處理器數量。"
 
 #: src/components/vm/overview/bootOrder.jsx:96
-#: src/components/vm/disks/vmDiskColumns.jsx:37
+#: src/components/vm/disks/vmDiskColumns.jsx:39
 msgid "File"
 msgstr "檔案"
 
@@ -1039,7 +1044,7 @@ msgstr "添加附加存儲"
 #: src/components/storagePools/createStoragePoolDialog.jsx:122
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Host"
 msgstr "主機"
 
@@ -1057,7 +1062,7 @@ msgstr "磁槃無法連接"
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:162
+#: src/components/vm/vmDetailsPage.jsx:163
 #, fuzzy
 #| msgid "Devices"
 msgid "Host devices"
@@ -1207,7 +1212,7 @@ msgid "Inject a non-maskable interrupt"
 msgstr "發送不可屏蔽中斷"
 
 #: src/components/vm/disks/diskAdd.jsx:862
-#: src/components/vm/disks/vmDiskColumns.jsx:153
+#: src/components/vm/disks/vmDiskColumns.jsx:184
 msgid "Insert"
 msgstr ""
 
@@ -1586,7 +1591,7 @@ msgstr "存儲池無法建立"
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:153
+#: src/components/vm/vmDetailsPage.jsx:154
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interfaces"
@@ -1640,7 +1645,7 @@ msgstr "說明"
 msgid "No directories shared between the host and this VM"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:247
+#: src/components/vm/disks/vmDisksCard.jsx:262
 msgid "No disks defined for this VM"
 msgstr "沒有為此VM定義磁碟"
 
@@ -1867,7 +1872,7 @@ msgstr "請啟動虛擬機以訪問其控制台。"
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:154
-#: src/components/vm/disks/vmDiskColumns.jsx:40
+#: src/components/vm/disks/vmDiskColumns.jsx:42
 #: src/components/vm/disks/mediaEject.jsx:85
 msgid "Pool"
 msgstr "集池"
@@ -1891,7 +1896,7 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.jsx:291
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 msgid "Port"
 msgstr "連接埠"
 
@@ -1941,7 +1946,7 @@ msgstr "改變檔案"
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
 #: src/components/vm/overview/bootOrder.jsx:98
 #: src/components/vm/overview/bootOrder.jsx:159
-#: src/components/vm/disks/vmDiskColumns.jsx:39
+#: src/components/vm/disks/vmDiskColumns.jsx:41
 msgid "Protocol"
 msgstr "協定"
 
@@ -1968,7 +1973,7 @@ msgid "Range"
 msgstr "改變"
 
 #: src/components/vm/disks/diskEdit.jsx:123
-#: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/vmDisksCard.jsx:216
 msgid "Read-only"
 msgstr ""
 
@@ -1993,12 +1998,16 @@ msgstr "更多詳細資訊"
 #: src/components/vm/overview/watchdog.jsx:100
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
-#: src/components/vm/disks/vmDiskColumns.jsx:125
-#: src/components/vm/disks/vmDiskColumns.jsx:188
+#: src/components/vm/disks/vmDiskColumns.jsx:145
+#: src/components/vm/disks/vmDiskColumns.jsx:211
 msgid "Remove"
 msgstr "移除"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:124
+#: src/components/vm/disks/vmDiskColumns.jsx:158
+msgid "Remove and delete file"
+msgstr ""
+
+#: src/components/vm/disks/vmDiskColumns.jsx:144
 #, fuzzy
 #| msgid "Removing $0"
 msgid "Remove disk from VM?"
@@ -2128,7 +2137,7 @@ msgstr "發送密鑰"
 msgid "Send non-maskable interrupt"
 msgstr "發送不可屏蔽中斷"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:100
+#: src/components/vm/disks/vmDiskColumns.jsx:102
 #, fuzzy
 #| msgid "Serial console"
 msgid "Serial"
@@ -2166,11 +2175,11 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:184
 msgid "Shared directories"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:185
+#: src/components/vm/vmDetailsPage.jsx:186
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:179
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
@@ -2237,7 +2246,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "磁槃無法建立"
 
-#: src/components/vm/vmDetailsPage.jsx:171
+#: src/components/vm/vmDetailsPage.jsx:172
 #, fuzzy
 msgid "Snapshots"
 msgstr "建立快照"
@@ -2258,7 +2267,7 @@ msgstr ""
 #: src/components/vm/nics/nicBody.jsx:197
 #: src/components/vm/disks/diskAdd.jsx:752
 #: src/components/vm/disks/diskAdd.jsx:788
-#: src/components/vm/disks/vmDisksCard.jsx:187
+#: src/components/vm/disks/vmDisksCard.jsx:190
 msgid "Source"
 msgstr "來源"
 
@@ -2417,7 +2426,7 @@ msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
 #: src/components/vm/overview/bootOrder.jsx:153
-#: src/components/vm/disks/vmDiskColumns.jsx:129
+#: src/components/vm/disks/vmDiskColumns.jsx:149
 msgid "Target"
 msgstr "目標"
 
@@ -2445,7 +2454,7 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "VM正在運行，在刪除之前將被強制關閉。"
 
 #: src/components/vm/nics/vmNicsCard.jsx:385
-#: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/disks/vmDiskColumns.jsx:219
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
@@ -2497,7 +2506,7 @@ msgstr ""
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:127
+#: src/components/vm/disks/vmDiskColumns.jsx:147
 msgid "This disk will be removed from $0:"
 msgstr ""
 
@@ -2642,7 +2651,7 @@ msgid ""
 "sharing storage."
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.jsx:179
+#: src/components/vm/disks/vmDisksCard.jsx:182
 msgid "Used"
 msgstr "已使用"
 
@@ -2788,7 +2797,7 @@ msgstr "供應商"
 #: src/components/networks/networkList.jsx:53
 #: src/components/storagePools/storagePoolList.jsx:54
 #: src/components/vm/vmDetailsPage.jsx:89
-#: src/components/vm/vmDetailsPage.jsx:243 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:244 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "虛擬機器"
 
@@ -2813,7 +2822,7 @@ msgstr "虛擬化服務（libvirt）未啟動"
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/disks/mediaEject.jsx:89
 msgid "Volume"
 msgstr "音量"
@@ -2848,12 +2857,12 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:132
-#: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/vmDisksCard.jsx:216
 msgid "Writeable"
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:141
-#: src/components/vm/disks/vmDisksCard.jsx:213
+#: src/components/vm/disks/vmDisksCard.jsx:216
 msgid "Writeable and shared"
 msgstr ""
 
@@ -2978,17 +2987,17 @@ msgstr "mcast"
 
 #: src/components/common/machinesConnectionSelector.jsx:82
 #: src/components/vm/nics/nicBody.jsx:110
-#: src/components/vm/vmDetailsPage.jsx:198
+#: src/components/vm/vmDetailsPage.jsx:199
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:193
 msgid "more info"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:194
+#: src/components/vm/vmDetailsPage.jsx:195
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:189
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:193
+#: src/components/vm/vmDetailsPage.jsx:194
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
