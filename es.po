@@ -24,16 +24,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-25 02:51+0000\n"
-"PO-Revision-Date: 2023-05-05 18:20+0000\n"
+"PO-Revision-Date: 2023-06-01 10:20+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:827
 msgid "$0 $1 available at default location"
@@ -158,10 +158,8 @@ msgid "Add virtual network interface"
 msgstr "Añadir una interfaz de red virtual"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Añadir una interfaz de red"
+msgstr "Añadir una interfaz vsock"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Add watchdog device type"
@@ -169,7 +167,7 @@ msgstr "Añadir tipo de dispositivo watchdog"
 
 #: src/components/vm/overview/watchdog.jsx:104
 msgid "Adding a watchdog will require a reboot to take effect."
-msgstr ""
+msgstr "Necesitará reiniciar para que un watchdog que añada tome efecto."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -228,7 +226,7 @@ msgstr "Siempre adjunto"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Un ejemplo de software compatible con vsock es socat"
 
 #: src/components/vm/overview/cpuModal.jsx:335
 msgid "Apply"
@@ -236,13 +234,11 @@ msgstr "Aplicar"
 
 #: src/components/vm/overview/watchdog.jsx:165
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Aplicar en el siguiente arranque"
 
 #: src/components/vm/overview/vsock.jsx:47
-#, fuzzy
-#| msgid "Generate automatically"
 msgid "Assign automatically"
-msgstr "Generado automáticamente"
+msgstr "Asignar automáticamente"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1213
 msgid ""
@@ -466,7 +462,7 @@ msgstr "No se pudo eliminar el almacenamiento del disco"
 
 #: src/components/vm/overview/watchdog.jsx:103
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "No se pudo añadir el watchdog dinámicamente"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -588,10 +584,8 @@ msgid "Custom firmware: $0"
 msgstr "Firmware específico: $0"
 
 #: src/components/vm/overview/vsock.jsx:158
-#, fuzzy
-#| msgid "Disk identifier"
 msgid "Custom identifier"
-msgstr "Identificador del disco"
+msgstr "Identificador personalizado"
 
 #: src/components/vm/disks/diskAdd.jsx:344
 #: src/components/vm/disks/diskAdd.jsx:756
@@ -835,10 +829,8 @@ msgid "Edit $0 attributes"
 msgstr "Editar $0 atributos"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Network interface"
 msgid "Edit vsock interface"
-msgstr "Interfaz de red"
+msgstr "Editar interfaz vsock"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Edit watchdog device type"
@@ -924,20 +916,16 @@ msgid "Failed to clone VM $0"
 msgstr "Fallo al clonar la MV $0"
 
 #: src/components/vm/overview/vsock.jsx:128
-#, fuzzy
-#| msgid "Failed to configure watchdog"
 msgid "Failed to configure vsock"
-msgstr "Fallo al configurar el watchdog"
+msgstr "Fallo al configurar el vsock"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid "Failed to configure watchdog"
 msgstr "Fallo al configurar el watchdog"
 
 #: src/components/vm/overview/vsock.jsx:140
-#, fuzzy
-#| msgid "Failed to detach watchdog"
 msgid "Failed to detach vsock"
-msgstr "Fallo al desvincular el watchdog"
+msgstr "Fallo al desvincular el vsock"
 
 #: src/components/vm/overview/watchdog.jsx:132
 msgid "Failed to detach watchdog"
@@ -1180,6 +1168,8 @@ msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"Identificador ya en uso por $0. No se pueden ejecutar a la vez MV con el "
+"mismo identificador."
 
 #: src/components/vm/disks/diskAdd.jsx:263
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1256,7 +1246,7 @@ msgstr "Insertar disco"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "Dentro de la MV"
 
 #: src/components/vm/vmActions.jsx:290
 msgid "Install"
@@ -1763,10 +1753,8 @@ msgid "Old token expired"
 msgstr "El token ha caducado"
 
 #: src/components/vm/overview/helpers.jsx:33
-#, fuzzy
-#| msgid "Run when host boots"
 msgid "On the host"
-msgstr "Ejecutar cuando el anfitrión arranque"
+msgstr "En el anfitrión"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:71
 msgid ""
@@ -2205,16 +2193,12 @@ msgid "Show additional options"
 msgstr "Mostrar opciones adicionales"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show less"
 msgid "Show less"
-msgstr "mostrar menos"
+msgstr "Mostrar menos"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show more"
 msgid "Show more"
-msgstr "mostrar más"
+msgstr "Mostrar más"
 
 #: src/components/vm/vmActions.jsx:223 src/components/vm/vmActions.jsx:230
 msgid "Shut down"
@@ -2835,6 +2819,9 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
+"El soporte para sockets virtuales (vsock) permite la comunicación entre "
+"anfitrión y huésped a través de un socket. Se requiere software especial "
+"compatible con vsock para comunicarse por el socket."
 
 #: src/components/libvirtSlate.jsx:42
 msgid "Virtualization service (libvirt) is not active"
@@ -2863,7 +2850,7 @@ msgstr "El grupo de volumen no debe estar vacío"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:232
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:160
@@ -3147,7 +3134,7 @@ msgstr "vm"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:238
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock requiere software especial"
 
 #: src/components/networks/networkOverviewTab.jsx:115
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
