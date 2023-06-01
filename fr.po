@@ -22,31 +22,29 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-25 02:51+0000\n"
-"PO-Revision-Date: 2023-02-23 07:29+0000\n"
+"PO-Revision-Date: 2023-06-01 10:20+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:827
 msgid "$0 $1 available at default location"
-msgstr "$0 $1 disponibles à l’emplacement par défaut"
+msgstr "$0 $1 disponible(s) à l’emplacement par défaut"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:240
 #: src/components/create-vm-dialog/createVmDialog.jsx:773
 msgid "$0 $1 available on host"
-msgstr "$0 $1 disponibles sur l’hôte"
+msgstr "$0 $1 disponible(s) sur l’hôte"
 
 #: src/components/vm/overview/cpuModal.jsx:331
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "$0 détails vCPU"
+msgstr "$0 Informations sur l'unité centrale"
 
 #: src/components/aggregateStatusCards.jsx:75
 msgid "$0 Network"
@@ -155,10 +153,8 @@ msgid "Add virtual network interface"
 msgstr "Ajouter une interface de réseau virtuel"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Ajouter une interface réseau"
+msgstr "Ajouter l'interface vsock"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Add watchdog device type"
@@ -167,6 +163,8 @@ msgstr "Ajouter un dispositif de surveillance"
 #: src/components/vm/overview/watchdog.jsx:104
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
+"L'ajout d'un dispositif de surveillance nécessite un redémarrage pour "
+"prendre effet."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -226,7 +224,7 @@ msgstr "Toujours attacher"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Un exemple de logiciel prenant en compte vsock est socat"
 
 #: src/components/vm/overview/cpuModal.jsx:335
 msgid "Apply"
@@ -234,13 +232,11 @@ msgstr "Appliquer"
 
 #: src/components/vm/overview/watchdog.jsx:165
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Appliquer au prochain démarrage"
 
 #: src/components/vm/overview/vsock.jsx:47
-#, fuzzy
-#| msgid "Generate automatically"
 msgid "Assign automatically"
-msgstr "Générer automatiquement"
+msgstr "Affectation automatique"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1213
 msgid ""
@@ -302,10 +298,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/components/vm/overview/cpuModal.jsx:209
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU mode could not be saved"
-msgstr "Les paramètres de configuration de VCPU n’ont pas pu être sauvegardés"
+msgstr "Le mode CPU n'a pas pu être sauvegardé"
 
 #: src/components/vm/disks/diskEdit.jsx:60
 #: src/components/vm/disks/diskAdd.jsx:216
@@ -355,7 +349,7 @@ msgstr "Changer de firmware"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Changements en cours"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -369,6 +363,11 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"La modification des paramètres du BIOS/EFI est spécifique à chaque "
+"fabricant. Il s'agit d'appuyer sur une touche de raccourci pendant le "
+"démarrage (ESC, F1, F12, Del). Activer un paramètre appelé \"virtualisation\""
+", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consultez le manuel de votre "
+"ordinateur pour plus de détails."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:527
 msgid "Checking token validity..."
@@ -450,20 +449,16 @@ msgid "Could not delete $0"
 msgstr "Impossible de supprimer $0"
 
 #: src/components/vm/deleteDialog.jsx:151
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "Impossible de supprimer le stockage pour $0"
+msgstr "Impossible de supprimer toute la mémoire de stockage pour $0"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:133
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete disk's storage"
-msgstr "Impossible de supprimer le stockage pour $0"
+msgstr "Impossible de supprimer la mémoire du disque"
 
 #: src/components/vm/overview/watchdog.jsx:103
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Impossible d'ajouter dynamiquement un dispositif de surveillance"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -510,16 +505,12 @@ msgid "Create new"
 msgstr "Créer Nouveau"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:860
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new qcow2 volume"
-msgstr "Créer un nouveau volume"
+msgstr "Créer un nouveau volume qcow2"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:861
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new raw volume"
-msgstr "Créer un nouveau volume"
+msgstr "Créer un nouveau volume brut"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1374
 msgid "Create new virtual machine"
@@ -582,10 +573,8 @@ msgid "Custom firmware: $0"
 msgstr "Micrologiciel personnalisé : $0"
 
 #: src/components/vm/overview/vsock.jsx:158
-#, fuzzy
-#| msgid "Disk identifier"
 msgid "Custom identifier"
-msgstr "Identifiant du disque"
+msgstr "Identifiant personnalisé"
 
 #: src/components/vm/disks/diskAdd.jsx:344
 #: src/components/vm/disks/diskAdd.jsx:756
@@ -717,10 +706,8 @@ msgid "Disconnected from serial console. Click the connect button."
 msgstr "Déconnecté de la console série. Cliquez sur le bouton Connecter."
 
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Disques"
+msgstr "Disque"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:147
 msgid "Disk $0 could not be removed"
@@ -828,10 +815,8 @@ msgid "Edit $0 attributes"
 msgstr "Modifier les attributs de $0"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Edit vsock interface"
-msgstr "Interfaces réseau"
+msgstr "Modifier l'interface vsock"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Edit watchdog device type"
@@ -863,6 +848,7 @@ msgstr "Machine émulée"
 #: src/app.jsx:136
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
+"Activer la prise en charge de la virtualisation dans les paramètres BIOS/EFI."
 
 #: src/components/networks/createNetworkDialog.jsx:225
 msgid "End"
@@ -916,20 +902,16 @@ msgid "Failed to clone VM $0"
 msgstr "Echec du clonage de la machine virtuelle $0"
 
 #: src/components/vm/overview/vsock.jsx:128
-#, fuzzy
-#| msgid "Failed to configure watchdog"
 msgid "Failed to configure vsock"
-msgstr "Échec de la configuration du dispositif de surveillance"
+msgstr "Échec de la configuration de vsock"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid "Failed to configure watchdog"
 msgstr "Échec de la configuration du dispositif de surveillance"
 
 #: src/components/vm/overview/vsock.jsx:140
-#, fuzzy
-#| msgid "Failed to detach watchdog"
 msgid "Failed to detach vsock"
-msgstr "Échec du détachement du dispositif de surveillance"
+msgstr "Échec du détachement de vsock"
 
 #: src/components/vm/overview/watchdog.jsx:132
 msgid "Failed to detach watchdog"
@@ -1058,10 +1040,8 @@ msgid "Gracefully shutdown"
 msgstr "Arrêt définitif"
 
 #: src/app.jsx:133
-#, fuzzy
-#| msgid "Failed to start virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Échec du démarrage du service de virtualisation"
+msgstr "La virtualisation du matériel est désactivée"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:212
@@ -1176,6 +1156,8 @@ msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"Identifiant utilisé par $0. Les machines virtuelles ayant un identifiant "
+"identique ne peuvent pas fonctionner en même temps."
 
 #: src/components/vm/disks/diskAdd.jsx:263
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1187,7 +1169,7 @@ msgstr "inactif"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorer"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1438
 msgid "Import VM"
@@ -1235,10 +1217,8 @@ msgid "Initiator"
 msgstr "Initiateur"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:144
-#, fuzzy
-#| msgid "Initiator IQN should not be empty"
 msgid "Initiator should not be empty"
-msgstr "L’initiateur IQN ne doit pas rester vide"
+msgstr "L'initiateur ne doit pas être vide"
 
 #: src/helpers.js:286
 msgid "Inject a non-maskable interrupt"
@@ -1255,7 +1235,7 @@ msgstr "Insérer le support du disque"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "A l'intérieur de la VM"
 
 #: src/components/vm/vmActions.jsx:290
 msgid "Install"
@@ -1597,10 +1577,8 @@ msgid "Network file system"
 msgstr "Système de fichiers par réseau (NFS)"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
-msgstr "Interfaces réseau"
+msgstr "Interface réseau"
 
 #: src/components/vm/nics/vmNicsCard.jsx:379
 msgid "Network interface $0 could not be removed"
@@ -1762,10 +1740,8 @@ msgid "Old token expired"
 msgstr "L'ancien jeton a expiré"
 
 #: src/components/vm/overview/helpers.jsx:33
-#, fuzzy
-#| msgid "Run when host boots"
 msgid "On the host"
-msgstr "Démarrer quand l’hôte est amorcé"
+msgstr "Sur l'hôte"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:71
 msgid ""
@@ -2021,7 +1997,7 @@ msgstr "Retirer"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
-msgstr ""
+msgstr "Retirer et supprimer un fichier"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:145
 msgid "Remove disk from VM?"
@@ -2202,16 +2178,12 @@ msgid "Show additional options"
 msgstr "Actions supplémentaires"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show less"
 msgid "Show less"
-msgstr "montrer moins"
+msgstr "Afficher moins de détails"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show more"
 msgid "Show more"
-msgstr "montrer plus"
+msgstr "Montrer plus"
 
 #: src/components/vm/vmActions.jsx:223 src/components/vm/vmActions.jsx:230
 msgid "Shut down"
@@ -2271,6 +2243,8 @@ msgstr "Prises"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Certaines modifications de la configuration ne prennent effet qu'après un "
+"nouveau démarrage :"
 
 #: src/components/vm/disks/vmDisksCard.jsx:190
 #: src/components/vm/disks/diskAdd.jsx:753
@@ -2762,10 +2736,8 @@ msgstr ""
 "appartenant à votre compte utilisateur"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "Échec de l’arrêt de la machine virtuelle $0"
+msgstr "La VM doit être arrêtée"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:110
 msgid "VM state"
@@ -2831,6 +2803,10 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
+"La prise en charge des sockets virtuels permet la communication entre l'hôte "
+"et l'invité par l'intermédiaire d'un socket. Il faut toutefois un logiciel "
+"spécial compatible avec les sockets pour communiquer par l'intermédiaire de "
+"ces sockets."
 
 #: src/components/libvirtSlate.jsx:42
 msgid "Virtualization service (libvirt) is not active"
@@ -2859,7 +2835,7 @@ msgstr "Le nom du groupe de volumes ne doit pas être vide"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:232
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:160
@@ -3085,10 +3061,8 @@ msgid "user"
 msgstr "utilisateur"
 
 #: src/components/vm/overview/cpuModal.jsx:195
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
-msgstr "Les paramètres de configuration de VCPU n’ont pas pu être sauvegardés"
+msgstr "Les paramètres de topologie vCPU et CPU n'ont pas pu être sauvegardés"
 
 #: src/components/vm/overview/cpuModal.jsx:250
 #: src/components/vm/overview/cpuModal.jsx:263
@@ -3142,7 +3116,7 @@ msgstr "machine virtuelle"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:238
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock nécessite un logiciel spécial"
 
 #: src/components/networks/networkOverviewTab.jsx:115
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67

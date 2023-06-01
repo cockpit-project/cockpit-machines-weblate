@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-25 02:51+0000\n"
-"PO-Revision-Date: 2023-02-23 07:21+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2023-06-01 10:20+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-machines/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:827
 msgid "$0 $1 available at default location"
@@ -41,10 +41,8 @@ msgid "$0 $1 available on host"
 msgstr "$0 $1 在主机上可用"
 
 #: src/components/vm/overview/cpuModal.jsx:331
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "$0 vCPU 详情"
+msgstr "$0 CPU 详情"
 
 #: src/components/aggregateStatusCards.jsx:75
 msgid "$0 Network"
@@ -148,10 +146,8 @@ msgid "Add virtual network interface"
 msgstr "添加虚拟网络接口"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "添加网络接口"
+msgstr "添加 vsock 接口"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Add watchdog device type"
@@ -159,7 +155,7 @@ msgstr "添加 watchdog 设备类型"
 
 #: src/components/vm/overview/watchdog.jsx:104
 msgid "Adding a watchdog will require a reboot to take effect."
-msgstr ""
+msgstr "添加 watchdog 将需要重启才能生效。"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -214,7 +210,7 @@ msgstr "保证连接"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "vsock-aware 软件的一个示例是 socat"
 
 #: src/components/vm/overview/cpuModal.jsx:335
 msgid "Apply"
@@ -222,13 +218,11 @@ msgstr "应用"
 
 #: src/components/vm/overview/watchdog.jsx:165
 msgid "Apply on next boot"
-msgstr ""
+msgstr "下次引导时应用"
 
 #: src/components/vm/overview/vsock.jsx:47
-#, fuzzy
-#| msgid "Generate automatically"
 msgid "Assign automatically"
-msgstr "自动产生"
+msgstr "自动分配"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1213
 msgid ""
@@ -288,10 +282,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/components/vm/overview/cpuModal.jsx:209
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU mode could not be saved"
-msgstr "VCPU 设置不能被保存"
+msgstr "无法保存 CPU 模式"
 
 #: src/components/vm/disks/diskEdit.jsx:60
 #: src/components/vm/disks/diskAdd.jsx:216
@@ -341,7 +333,7 @@ msgstr "修改固件"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "等待更改"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -354,6 +346,10 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"更改 BIOS/EFI "
+"设置特定于每个制造商。它涉及在启动过程中按热键(ESC、F1、F12、Del)。"
+"启用一个称为\"virtualization\"、\"VM\"、\"VMX\"、\"SVM\"、\"VTX\"、\"VTD\" "
+"的设置。有关详细信息，请查阅您的计算机手册。"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:527
 msgid "Checking token validity..."
@@ -431,20 +427,16 @@ msgid "Could not delete $0"
 msgstr "无法删除 $0"
 
 #: src/components/vm/deleteDialog.jsx:151
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "无法为 $0 删除存储"
+msgstr "无法删除 $0 的所有存储"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:133
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete disk's storage"
-msgstr "无法为 $0 删除存储"
+msgstr "无法删除磁盘存储"
 
 #: src/components/vm/overview/watchdog.jsx:103
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "无法动态添加 watchdog"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -490,16 +482,12 @@ msgid "Create new"
 msgstr "新建"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:860
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new qcow2 volume"
-msgstr "创建新卷"
+msgstr "创建新的 qcow2 卷"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:861
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new raw volume"
-msgstr "创建新卷"
+msgstr "创建新的原始卷"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1374
 msgid "Create new virtual machine"
@@ -562,10 +550,8 @@ msgid "Custom firmware: $0"
 msgstr "自定义固件：$0"
 
 #: src/components/vm/overview/vsock.jsx:158
-#, fuzzy
-#| msgid "Disk identifier"
 msgid "Custom identifier"
-msgstr "磁盘识别符"
+msgstr "自定义标识符"
 
 #: src/components/vm/disks/diskAdd.jsx:344
 #: src/components/vm/disks/diskAdd.jsx:756
@@ -690,8 +676,6 @@ msgid "Disconnected from serial console. Click the connect button."
 msgstr "与串行控制台断开连接。单击连接按钮。"
 
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
 msgstr "磁盘"
 
@@ -796,10 +780,8 @@ msgid "Edit $0 attributes"
 msgstr "编辑 $0 属性"
 
 #: src/components/vm/overview/vsock.jsx:190
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Edit vsock interface"
-msgstr "网络接口"
+msgstr "编辑 vsock 接口"
 
 #: src/components/vm/overview/watchdog.jsx:148
 msgid "Edit watchdog device type"
@@ -828,7 +810,7 @@ msgstr "虚拟的机器"
 
 #: src/app.jsx:136
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "在 BIOS/EFI 设置中启用虚拟化支持。"
 
 #: src/components/networks/createNetworkDialog.jsx:225
 msgid "End"
@@ -880,20 +862,16 @@ msgid "Failed to clone VM $0"
 msgstr "克隆虚拟机 $0 失败"
 
 #: src/components/vm/overview/vsock.jsx:128
-#, fuzzy
-#| msgid "Failed to configure watchdog"
 msgid "Failed to configure vsock"
-msgstr "配置 watchdog 失败"
+msgstr "配置 vsock 失败"
 
 #: src/components/vm/overview/watchdog.jsx:85
 msgid "Failed to configure watchdog"
 msgstr "配置 watchdog 失败"
 
 #: src/components/vm/overview/vsock.jsx:140
-#, fuzzy
-#| msgid "Failed to detach watchdog"
 msgid "Failed to detach vsock"
-msgstr "分离 watchdog 失败"
+msgstr "分离 vsock 失败"
 
 #: src/components/vm/overview/watchdog.jsx:132
 msgid "Failed to detach watchdog"
@@ -1018,10 +996,8 @@ msgid "Gracefully shutdown"
 msgstr "正常关机"
 
 #: src/app.jsx:133
-#, fuzzy
-#| msgid "Failed to start virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "启动虚拟化服务失败"
+msgstr "硬件虚拟化被禁用"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:212
@@ -1134,7 +1110,7 @@ msgstr "理想的网络支持"
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
-msgstr ""
+msgstr "标识符被$0 使用。具有相同标识符的虚拟机无法同时运行。"
 
 #: src/components/vm/disks/diskAdd.jsx:263
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1146,7 +1122,7 @@ msgstr "休眠"
 
 #: src/app.jsx:144
 msgid "Ignore"
-msgstr ""
+msgstr "忽略"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1438
 msgid "Import VM"
@@ -1188,10 +1164,8 @@ msgid "Initiator"
 msgstr "启动器"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:144
-#, fuzzy
-#| msgid "Initiator IQN should not be empty"
 msgid "Initiator should not be empty"
-msgstr "启动器 IQN 不能为空"
+msgstr "启动器不能为空"
 
 #: src/helpers.js:286
 msgid "Inject a non-maskable interrupt"
@@ -1208,7 +1182,7 @@ msgstr "插入磁盘介质"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "在虚拟机内"
 
 #: src/components/vm/vmActions.jsx:290
 msgid "Install"
@@ -1468,7 +1442,7 @@ msgstr "NAT 到 $0"
 
 #: src/components/vm/nics/vmNicsCard.jsx:226
 msgid "NIC $0 of VM $1 failed to change state"
-msgstr "VM $1 的 NIC $0 改变状态失败"
+msgstr "VM $1 的 NIC $0 无法改变状态"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:260
 #: src/components/vms/hostvmslist.jsx:144
@@ -1537,8 +1511,6 @@ msgid "Network file system"
 msgstr "网络文件系统"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
 msgstr "网络接口"
 
@@ -1697,10 +1669,8 @@ msgid "Old token expired"
 msgstr "令牌已过期"
 
 #: src/components/vm/overview/helpers.jsx:33
-#, fuzzy
-#| msgid "Run when host boots"
 msgid "On the host"
-msgstr "在主机引导时运行"
+msgstr "在主机上"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:71
 msgid ""
@@ -1947,7 +1917,7 @@ msgstr "删除"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
-msgstr ""
+msgstr "删除文件"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:145
 msgid "Remove disk from VM?"
@@ -2120,14 +2090,10 @@ msgid "Show additional options"
 msgstr "显示额外操作"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show less"
 msgid "Show less"
 msgstr "显示更少"
 
 #: src/components/vm/overview/watchdog.jsx:52
-#, fuzzy
-#| msgid "show more"
 msgid "Show more"
 msgstr "显示更多"
 
@@ -2185,7 +2151,7 @@ msgstr "插槽"
 
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
-msgstr ""
+msgstr "一些配置更改只有在全新引导后才会生效："
 
 #: src/components/vm/disks/vmDisksCard.jsx:190
 #: src/components/vm/disks/diskAdd.jsx:753
@@ -2646,10 +2612,8 @@ msgid ""
 msgstr "使用非特权限制访问启动的虚拟机，具有您的用户帐户所拥有的进程和 PTY"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "VM $0 关闭失败"
+msgstr "VM 需要关机"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:110
 msgid "VM state"
@@ -2714,7 +2678,8 @@ msgid ""
 "Virtual socket support enables communication between the host and guest over "
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
-msgstr ""
+msgstr "虚拟套接字支持通过套接字启用主机和客户机之间的通信。它仍需要特殊的 vsock "
+"感知软件来通过套接字进行通信。"
 
 #: src/components/libvirtSlate.jsx:42
 msgid "Virtualization service (libvirt) is not active"
@@ -2743,7 +2708,7 @@ msgstr "卷组名称不应为空"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:232
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:160
@@ -2967,10 +2932,8 @@ msgid "user"
 msgstr "用户"
 
 #: src/components/vm/overview/cpuModal.jsx:195
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
-msgstr "VCPU 设置不能被保存"
+msgstr "无法保存 vCPU 和 CPU 拓扑设置"
 
 #: src/components/vm/overview/cpuModal.jsx:250
 #: src/components/vm/overview/cpuModal.jsx:263
@@ -3018,7 +2981,7 @@ msgstr "vm"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:238
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock 需要特殊软件"
 
 #: src/components/networks/networkOverviewTab.jsx:115
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
