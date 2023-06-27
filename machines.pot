@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 03:23+0000\n"
+"POT-Creation-Date: 2023-06-27 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-26 03:23+0000\n"
+"POT-Creation-Date: 2023-06-27 03:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Access"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:184
+#: src/components/vm/overview/watchdog.jsx:202
 msgid "Action"
 msgstr ""
 
@@ -130,8 +130,8 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:236
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
 #: src/components/vm/nics/nicAdd.jsx:213
-#: src/components/vm/overview/vsock.jsx:215
-#: src/components/vm/overview/watchdog.jsx:158
+#: src/components/vm/overview/vsock.jsx:196
+#: src/components/vm/overview/watchdog.jsx:154
 #: src/components/vm/disks/diskAdd.jsx:863
 msgid "Add"
 msgstr ""
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Add host device"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:96
+#: src/components/vm/nics/vmNicsCard.jsx:98
 msgid "Add network interface"
 msgstr ""
 
@@ -162,15 +162,15 @@ msgstr ""
 msgid "Add virtual network interface"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:190
+#: src/components/vm/overview/vsock.jsx:214
 msgid "Add vsock interface"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:148
+#: src/components/vm/overview/watchdog.jsx:172
 msgid "Add watchdog device type"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:104
+#: src/components/vm/overview/watchdog.jsx:105
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:142
 #: src/components/networks/networkOverviewTab.jsx:162
-#: src/components/vm/nics/vmNicsCard.jsx:304
+#: src/components/vm/nics/vmNicsCard.jsx:154
 #: src/components/vm/consoles/desktopConsole.jsx:47
 msgid "Address"
 msgstr ""
@@ -232,11 +232,11 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:165
+#: src/components/vm/overview/watchdog.jsx:183
 msgid "Apply on next boot"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:47
+#: src/components/vm/overview/vsock.jsx:48
 msgid "Assign automatically"
 msgstr ""
 
@@ -313,14 +313,15 @@ msgstr ""
 #: src/components/storagePools/storagePoolDelete.jsx:206
 #: src/components/storagePools/storageVolumeCreate.jsx:110
 #: src/components/storagePools/createStoragePoolDialog.jsx:443
+#: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/nics/nicEdit.jsx:185 src/components/vm/nics/nicAdd.jsx:216
 #: src/components/vm/overview/firmware.jsx:72
-#: src/components/vm/overview/vsock.jsx:226
+#: src/components/vm/overview/vsock.jsx:244
 #: src/components/vm/overview/memoryModal.jsx:159
 #: src/components/vm/overview/cpuModal.jsx:338
-#: src/components/vm/overview/watchdog.jsx:176
+#: src/components/vm/overview/watchdog.jsx:194
 #: src/components/vm/overview/bootOrder.jsx:318
 #: src/components/vm/disks/diskAdd.jsx:866
 #: src/components/vm/disks/mediaEject.jsx:110
@@ -333,6 +334,14 @@ msgstr ""
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/common/deleteResource.jsx:91
 msgid "Cancel"
+msgstr ""
+
+#: src/components/vm/overview/vsock.jsx:203
+msgid "Cannot edit vsock device on a transient VM"
+msgstr ""
+
+#: src/components/vm/overview/watchdog.jsx:161
+msgid "Cannot edit watchdog device on a transient VM"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
@@ -383,7 +392,7 @@ msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:302 src/components/vm/vmCloneDialog.jsx:80
+#: src/components/vm/vmActions.jsx:402 src/components/vm/vmCloneDialog.jsx:80
 msgid "Clone"
 msgstr ""
 
@@ -446,7 +455,7 @@ msgstr ""
 msgid "Could not delete disk's storage"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:103
+#: src/components/vm/overview/watchdog.jsx:104
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
@@ -561,7 +570,7 @@ msgstr ""
 msgid "Custom firmware: $0"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:158
+#: src/components/vm/overview/vsock.jsx:159
 msgid "Custom identifier"
 msgstr ""
 
@@ -585,7 +594,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolDelete.jsx:203
 #: src/components/storagePools/storagePoolDelete.jsx:239
 #: src/components/storagePools/storagePoolDelete.jsx:249
-#: src/components/vm/vmActions.jsx:351 src/components/vm/vmActions.jsx:359
+#: src/components/vm/vmActions.jsx:451 src/components/vm/vmActions.jsx:459
 #: src/components/vm/deleteDialog.jsx:171
 #: src/components/common/deleteResource.jsx:79
 #: src/components/common/deleteResource.jsx:133
@@ -783,7 +792,7 @@ msgstr ""
 msgid "Dying"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:374
+#: src/components/vm/nics/vmNicsCard.jsx:430
 #: src/components/vm/disks/diskEdit.jsx:166
 msgid "Edit"
 msgstr ""
@@ -792,19 +801,19 @@ msgstr ""
 msgid "Edit $0 attributes"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:190
+#: src/components/vm/overview/vsock.jsx:214
 msgid "Edit vsock interface"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:148
+#: src/components/vm/overview/watchdog.jsx:172
 msgid "Edit watchdog device type"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:362
+#: src/components/vm/nics/vmNicsCard.jsx:418
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:368
+#: src/components/vm/nics/vmNicsCard.jsx:424
 msgid "Editing transient network interfaces is not allowed"
 msgstr ""
 
@@ -874,19 +883,19 @@ msgstr ""
 msgid "Failed to clone VM $0"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:128
+#: src/components/vm/overview/vsock.jsx:129
 msgid "Failed to configure vsock"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:85
+#: src/components/vm/overview/watchdog.jsx:86
 msgid "Failed to configure watchdog"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:140
+#: src/components/vm/overview/vsock.jsx:141
 msgid "Failed to detach vsock"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:132
+#: src/components/vm/overview/watchdog.jsx:133
 msgid "Failed to detach watchdog"
 msgstr ""
 
@@ -894,7 +903,7 @@ msgstr ""
 msgid "Failed to fetch some resources"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:143
+#: src/components/vm/nics/vmNicsCard.jsx:235
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr ""
 
@@ -940,16 +949,24 @@ msgstr ""
 msgid "Force eject"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:263
+#: src/components/vm/vmActions.jsx:358 src/components/vm/vmActions.jsx:363
 msgid "Force reboot"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:351
+msgid "Force reboot $0?"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
 msgid "Force revert"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:237
+#: src/components/vm/vmActions.jsx:294 src/components/vm/vmActions.jsx:299
 msgid "Force shut down"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:287
+msgid "Force shut down $0?"
 msgstr ""
 
 #: src/components/storagePools/storageVolumeCreateBody.jsx:69
@@ -1059,7 +1076,7 @@ msgid "IP"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:254
-#: src/components/vm/nics/vmNicsCard.jsx:275
+#: src/components/vm/nics/vmNicsCard.jsx:350
 msgid "IP address"
 msgstr ""
 
@@ -1117,7 +1134,7 @@ msgstr ""
 msgid "Ideal networking support"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:69
+#: src/components/vm/overview/vsock.jsx:70
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
@@ -1193,7 +1210,7 @@ msgstr ""
 msgid "Inside the VM"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:290
+#: src/components/vm/vmActions.jsx:390
 msgid "Install"
 msgstr ""
 
@@ -1280,7 +1297,7 @@ msgstr ""
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:365
+#: src/components/vm/nics/vmNicsCard.jsx:421
 msgid "Loading available network devices"
 msgstr ""
 
@@ -1307,7 +1324,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:247
 #: src/components/vm/nics/nicEdit.jsx:47
-#: src/components/vm/nics/vmNicsCard.jsx:269
+#: src/components/vm/nics/vmNicsCard.jsx:344
 #: src/components/vm/nics/nicAdd.jsx:68
 msgid "MAC address"
 msgstr ""
@@ -1400,7 +1417,7 @@ msgstr ""
 msgid "MiB"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:325
+#: src/components/vm/vmActions.jsx:425
 #: src/components/vm/vmMigrateDialog.jsx:210
 msgid "Migrate"
 msgstr ""
@@ -1423,7 +1440,7 @@ msgstr ""
 msgid "Model"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:256
+#: src/components/vm/nics/vmNicsCard.jsx:331
 msgid "Model type"
 msgstr ""
 
@@ -1449,7 +1466,7 @@ msgstr ""
 msgid "NAT to $0"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:226
+#: src/components/vm/nics/vmNicsCard.jsx:301
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 
@@ -1523,11 +1540,11 @@ msgstr ""
 msgid "Network interface"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:390
+#: src/components/vm/nics/vmNicsCard.jsx:446
 msgid "Network interface $0 could not be removed"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:391
+#: src/components/vm/nics/vmNicsCard.jsx:447
 msgid "Network interface $0 will be removed from $1"
 msgstr ""
 
@@ -1597,7 +1614,7 @@ msgstr ""
 msgid "No network devices"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:453
+#: src/components/vm/nics/vmNicsCard.jsx:542
 msgid "No network interfaces defined for this VM"
 msgstr ""
 
@@ -1742,7 +1759,7 @@ msgstr ""
 msgid "Path to file on host's file system"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:198 src/helpers.js:283
+#: src/components/vm/vmActions.jsx:209 src/helpers.js:283
 msgid "Pause"
 msgstr ""
 
@@ -1815,7 +1832,7 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:305
+#: src/components/vm/nics/vmNicsCard.jsx:162
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -1896,8 +1913,13 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:256
+#: src/components/vm/vmActions.jsx:254 src/components/vm/vmActions.jsx:338
+#: src/components/vm/vmActions.jsx:343
 msgid "Reboot"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:331
+msgid "Reboot $0?"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:339
@@ -1913,10 +1935,10 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:68
 #: src/components/vm/hostdevs/hostDevCard.jsx:253
 #: src/components/vm/hostdevs/hostDevCard.jsx:259
-#: src/components/vm/nics/vmNicsCard.jsx:392
-#: src/components/vm/nics/vmNicsCard.jsx:399
-#: src/components/vm/overview/vsock.jsx:223
-#: src/components/vm/overview/watchdog.jsx:173
+#: src/components/vm/nics/vmNicsCard.jsx:448
+#: src/components/vm/nics/vmNicsCard.jsx:457
+#: src/components/vm/overview/vsock.jsx:241
+#: src/components/vm/overview/watchdog.jsx:191
 #: src/components/vm/disks/vmDiskColumns.jsx:146
 #: src/components/vm/disks/vmDiskColumns.jsx:212
 msgid "Remove"
@@ -1938,7 +1960,7 @@ msgstr ""
 msgid "Remove host device from VM?"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:389
+#: src/components/vm/nics/vmNicsCard.jsx:445
 msgid "Remove network interface?"
 msgstr ""
 
@@ -1946,7 +1968,7 @@ msgstr ""
 msgid "Remove static host from DHCP"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:338 src/components/vm/vmRenameDialog.jsx:68
+#: src/components/vm/vmActions.jsx:438 src/components/vm/vmRenameDialog.jsx:68
 msgid "Rename"
 msgstr ""
 
@@ -1963,7 +1985,7 @@ msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:209
+#: src/components/vm/vmActions.jsx:220
 msgid "Resume"
 msgstr ""
 
@@ -1995,7 +2017,7 @@ msgstr ""
 msgid "Routed network"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:278
+#: src/components/vm/vmActions.jsx:378
 msgid "Run"
 msgstr ""
 
@@ -2022,9 +2044,9 @@ msgstr ""
 
 #: src/components/vm/nics/nicEdit.jsx:182
 #: src/components/vm/overview/firmware.jsx:69
-#: src/components/vm/overview/vsock.jsx:215
+#: src/components/vm/overview/vsock.jsx:196
 #: src/components/vm/overview/memoryModal.jsx:156
-#: src/components/vm/overview/watchdog.jsx:158
+#: src/components/vm/overview/watchdog.jsx:154
 #: src/components/vm/overview/bootOrder.jsx:315
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
@@ -2038,8 +2060,12 @@ msgstr ""
 msgid "Send key"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:245
+#: src/components/vm/vmActions.jsx:314 src/components/vm/vmActions.jsx:319
 msgid "Send non-maskable interrupt"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:308
+msgid "Send non-maskable interrupt to $0?"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:102
@@ -2094,16 +2120,21 @@ msgstr ""
 msgid "Show additional options"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:52
+#: src/components/vm/overview/watchdog.jsx:53
 msgid "Show less"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:52
+#: src/components/vm/overview/watchdog.jsx:53
 msgid "Show more"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:223 src/components/vm/vmActions.jsx:230
+#: src/components/vm/vmActions.jsx:246 src/components/vm/vmActions.jsx:259
+#: src/components/vm/vmActions.jsx:274 src/components/vm/vmActions.jsx:279
 msgid "Shut down"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:236 src/components/vm/vmActions.jsx:267
+msgid "Shut down $0?"
 msgstr ""
 
 #: src/helpers.js:228
@@ -2161,7 +2192,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
 #: src/components/vm/hostdevs/hostDevCard.jsx:219
 #: src/components/vm/nics/nicBody.jsx:197
-#: src/components/vm/nics/vmNicsCard.jsx:299
+#: src/components/vm/nics/vmNicsCard.jsx:384
 #: src/components/vm/disks/diskAdd.jsx:753
 #: src/components/vm/disks/diskAdd.jsx:789
 #: src/components/vm/disks/vmDisksCard.jsx:190
@@ -2220,7 +2251,7 @@ msgstr ""
 #: src/components/vms/hostvmslist.jsx:146
 #: src/components/networks/networkList.jsx:71
 #: src/components/storagePools/storagePoolList.jsx:71
-#: src/components/vm/nics/vmNicsCard.jsx:333
+#: src/components/vm/nics/vmNicsCard.jsx:389
 #: src/components/vm/overview/vmOverviewCard.jsx:168
 msgid "State"
 msgstr ""
@@ -2307,6 +2338,10 @@ msgstr ""
 msgid "System"
 msgstr ""
 
+#: src/components/vm/nics/vmNicsCard.jsx:189
+msgid "TAP device"
+msgstr ""
+
 #: src/components/vm/hostdevs/hostDevAdd.jsx:126
 msgid "Table of selectable host devices"
 msgstr ""
@@ -2338,7 +2373,8 @@ msgstr ""
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:400
+#: src/components/vm/nics/vmNicsCard.jsx:458
+#: src/components/vm/nics/vmNicsCard.jsx:466
 #: src/components/vm/disks/vmDiskColumns.jsx:220
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
@@ -2387,7 +2423,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:347
+#: src/components/vm/vmActions.jsx:447
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
@@ -2446,7 +2482,7 @@ msgstr ""
 #: src/components/storagePools/createStoragePoolDialog.jsx:81
 #: src/components/vm/hostdevs/hostDevCard.jsx:179
 #: src/components/vm/hostdevs/hostDevAdd.jsx:47
-#: src/components/vm/nics/vmNicsCard.jsx:243
+#: src/components/vm/nics/vmNicsCard.jsx:318
 #: src/components/vm/overview/bootOrder.jsx:116
 #: src/components/vm/overview/bootOrder.jsx:129
 #: src/components/vm/overview/bootOrder.jsx:144
@@ -2492,7 +2528,7 @@ msgstr ""
 msgid "Unit"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.jsx:281
+#: src/components/vm/nics/vmNicsCard.jsx:356
 msgid "Unknown"
 msgstr ""
 
@@ -2505,6 +2541,10 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:135
 #: src/components/vm/overview/bootOrder.jsx:136
 msgid "Unspecified"
+msgstr ""
+
+#: src/components/vm/confirmDialog.jsx:70
+msgid "Uptime"
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.jsx:44
@@ -2571,39 +2611,39 @@ msgstr ""
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:119
+#: src/components/vm/vmActions.jsx:103
 msgid "VM $0 failed to force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:172
+#: src/components/vm/vmActions.jsx:160
 msgid "VM $0 failed to force shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:96
+#: src/components/vm/vmActions.jsx:78
 msgid "VM $0 failed to get installed"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:146
+#: src/components/vm/vmActions.jsx:132
 msgid "VM $0 failed to pause"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:107
+#: src/components/vm/vmActions.jsx:90
 msgid "VM $0 failed to reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:158
+#: src/components/vm/vmActions.jsx:145
 msgid "VM $0 failed to resume"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:184
+#: src/components/vm/vmActions.jsx:173
 msgid "VM $0 failed to send NMI"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:134
+#: src/components/vm/vmActions.jsx:119
 msgid "VM $0 failed to shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:88
+#: src/components/vm/vmActions.jsx:69
 msgid "VM $0 failed to start"
 msgstr ""
 
@@ -2751,8 +2791,8 @@ msgstr ""
 msgid "active"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:275
-#: src/components/vm/overview/watchdog.jsx:224
+#: src/components/vm/overview/vsock.jsx:293
+#: src/components/vm/overview/watchdog.jsx:242
 msgid "add"
 msgstr ""
 
@@ -2788,8 +2828,8 @@ msgstr ""
 msgid "down"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:275
-#: src/components/vm/overview/watchdog.jsx:224
+#: src/components/vm/overview/vsock.jsx:293
+#: src/components/vm/overview/watchdog.jsx:242
 #: src/components/vm/overview/vmOverviewCard.jsx:122
 #: src/components/vm/overview/vmOverviewCard.jsx:130
 #: src/components/vm/overview/bootOrder.jsx:361
@@ -2841,6 +2881,14 @@ msgstr ""
 msgid "inactive"
 msgstr ""
 
+#: src/components/vm/nics/vmNicsCard.jsx:362
+msgid "inet"
+msgstr ""
+
+#: src/components/vm/nics/vmNicsCard.jsx:370
+msgid "inet6"
+msgstr ""
+
 #: src/manifest.json:0
 msgid "iso"
 msgstr ""
@@ -2855,7 +2903,7 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:194
 #: src/components/vm/nics/nicBody.jsx:110
-#: src/components/vm/overview/vsock.jsx:202
+#: src/components/vm/overview/vsock.jsx:226
 #: src/components/vm/vmDetailsPage.jsx:202
 #: src/components/common/machinesConnectionSelector.jsx:82
 msgid "more info"
@@ -2885,8 +2933,8 @@ msgid "no state saved"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.jsx:293
-#: src/components/vm/overview/vsock.jsx:257
-#: src/components/vm/overview/watchdog.jsx:220
+#: src/components/vm/overview/vsock.jsx:275
+#: src/components/vm/overview/watchdog.jsx:238
 msgid "none"
 msgstr ""
 
@@ -2956,7 +3004,7 @@ msgstr ""
 msgid "view more..."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:312
+#: src/components/vm/vmActions.jsx:412
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
