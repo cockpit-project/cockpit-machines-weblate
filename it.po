@@ -12,33 +12,29 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 03:15+0000\n"
-"PO-Revision-Date: 2022-08-01 12:19+0000\n"
+"PO-Revision-Date: 2023-07-16 08:20+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
-"Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/it/>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:827
 msgid "$0 $1 available at default location"
-msgstr ""
+msgstr "$0 $1 disponibile nella posizione predefinita"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:240
 #: src/components/create-vm-dialog/createVmDialog.jsx:773
-#, fuzzy
-#| msgid "$0 is not available from any repository."
 msgid "$0 $1 available on host"
-msgstr "$0 non è disponibile in nessun archivio web."
+msgstr "$0 $1 disponibile nel host"
 
 #: src/components/vm/overview/cpuModal.jsx:331
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "$0 dettagli vCPU"
+msgstr "$0 dettagli CPU"
 
 #: src/components/aggregateStatusCards.jsx:75
 msgid "$0 Network"
@@ -53,12 +49,8 @@ msgstr[0] "$0 Pool di archiviazione"
 msgstr[1] "$0 Pool di archiviazione"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1214
-#, fuzzy
-#| msgid ""
-#| "The selected operating system does not support unattended installation"
 msgid "$0 does not support unattended installation."
-msgstr ""
-"Il sistema operativo selezionato non supporta l'installazione automatica"
+msgstr "$0 supporta l'installazione automatica"
 
 #: src/components/vm/consoles/desktopConsole.jsx:61
 msgid ""
@@ -93,6 +85,9 @@ msgid ""
 "A copy of the VM will run on the destination and will disappear when it is "
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
+"Una copia della macchina virtuale verrà eseguita sulla destinazione e "
+"scomparirà quando questa verrà spenta. Nel frattempo, l'host di origine "
+"mantiene la sua copia della configurazione della macchina virtuale."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 #: src/components/vm/disks/diskEdit.jsx:115
@@ -101,10 +96,8 @@ msgstr "Accesso"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/overview/watchdog.jsx:202
-#, fuzzy
-#| msgid "Connection"
 msgid "Action"
-msgstr "Connessione"
+msgstr "Azione"
 
 #: src/components/storagePools/storagePool.jsx:169
 #: src/components/networks/network.jsx:173
@@ -113,7 +106,7 @@ msgstr "Attiva"
 
 #: src/components/storagePools/storagePoolVolumesTab.jsx:112
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "Attiva il pool di storage per amministrare i volumi"
 
 #: src/components/vm/disks/diskAdd.jsx:863
 #: src/components/vm/overview/vsock.jsx:196
@@ -126,7 +119,7 @@ msgstr "Aggiungi"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
-msgstr ""
+msgstr "Aggiungi una voce di host statico DHCP"
 
 #: src/components/vm/disks/vmDisksCard.jsx:75
 #: src/components/vm/disks/diskAdd.jsx:853
@@ -135,50 +128,42 @@ msgstr "Aggiungi disco"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:244
 #: src/components/vm/hostdevs/hostDevCard.jsx:148
-#, fuzzy
-#| msgid "host device"
 msgid "Add host device"
-msgstr "dispositivo host"
+msgstr "Aggiungi dispositivo host"
 
 #: src/components/vm/nics/vmNicsCard.jsx:98
 msgid "Add network interface"
 msgstr "Aggiungi interfaccia di rete"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:114
-#, fuzzy
-#| msgid "No such file or directory"
 msgid "Add shared directory"
-msgstr "Nessun file o directory"
+msgstr "Aggiungi directory condivisa"
 
 #: src/components/vm/nics/nicAdd.jsx:202
 msgid "Add virtual network interface"
 msgstr "Aggiungi interfaccia di rete virtuale"
 
 #: src/components/vm/overview/vsock.jsx:214
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Aggiungi interfaccia di rete"
+msgstr "Aggiungi interfaccia vsock"
 
 #: src/components/vm/overview/watchdog.jsx:172
-#, fuzzy
-#| msgid "host device"
 msgid "Add watchdog device type"
-msgstr "dispositivo host"
+msgstr "Aggiungi un tipo di dispositivo watchdog"
 
 #: src/components/vm/overview/watchdog.jsx:105
 msgid "Adding a watchdog will require a reboot to take effect."
-msgstr ""
+msgstr "L'aggiunta di un watchdog richiederà un riavvio per avere effetto."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
-#, fuzzy
-#| msgid "Only editable when the guest is shut off"
 msgid "Adding shared directories is possible only when the guest is shut off"
-msgstr "Modificabile solo quando il guest è spento"
+msgstr ""
+"L'aggiunta di directory condivise è possibile solo quando il guest è spento"
 
 #: src/components/vm/disks/diskAdd.jsx:81
 msgid "Adding this disk will change its access mode to shared."
 msgstr ""
+"L'aggiunta di questo disco cambierà la sua modalità di accesso in condivisa."
 
 #: src/components/vm/disks/vmDisksCard.jsx:192
 msgid "Additional"
@@ -207,12 +192,16 @@ msgid ""
 "All VM activity, including storage, will be temporary. This will result in "
 "data loss on the destination host."
 msgstr ""
+"Tutte le attività della macchina virtuale, compreso lo storage, saranno "
+"temporanee. Ciò comporterà una perdita di dati sull'host di destinazione."
 
 #: src/components/vm/disks/diskAdd.jsx:258
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
 msgstr ""
+"Caratteri consentiti: alfabeto latino di base, numeri e punteggiatura "
+"limitata (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:176
 #, fuzzy
@@ -234,7 +223,7 @@ msgstr "Applica"
 
 #: src/components/vm/overview/watchdog.jsx:183
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Applica al prossimo boot"
 
 #: src/components/vm/overview/vsock.jsx:48
 #, fuzzy
@@ -247,6 +236,8 @@ msgid ""
 "Automated installs are only available when downloading an image or using "
 "cloud-init."
 msgstr ""
+"Le installazioni automatiche sono disponibili solo quando si scarica "
+"un'immagine o si utilizza cloud-init."
 
 #: src/components/networks/createNetworkDialog.jsx:166
 msgid "Automatic"
@@ -293,7 +284,7 @@ msgstr "Bus"
 
 #: src/components/vm/disks/diskAdd.jsx:361
 msgid "CD/DVD disc"
-msgstr ""
+msgstr "Disco CD/DVD"
 
 #: src/components/common/needsShutdown.jsx:110
 #: src/components/vm/overview/vmOverviewCard.jsx:187
@@ -344,11 +335,11 @@ msgstr "Annulla"
 
 #: src/components/vm/overview/vsock.jsx:203
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Impossibile modificare il dispositivo vsock su una VM transitoria"
 
 #: src/components/vm/overview/watchdog.jsx:161
 msgid "Cannot edit watchdog device on a transient VM"
-msgstr ""
+msgstr "Impossibile modificare il dispositivo watchdog su una VM transitoria"
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Capacity"
@@ -366,7 +357,7 @@ msgstr "Cambia firmware"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Modifiche pendenti"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -379,10 +370,15 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"La modifica delle impostazioni del BIOS/EFI è specifica per ogni produttore. "
+"Si tratta di premere un tasto di scelta rapida durante l'avvio (ESC, F1, "
+"F12, Del). Abilita un'impostazione chiamata \"virtualizzazione\", \"VM\", "
+"\"VMX\", \"SVM\", \"VTX\", \"VTD\". Consulta il manuale del tuo computer per "
+"maggiori dettagli."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:527
 msgid "Checking token validity..."
-msgstr ""
+msgstr "Controllo la validità del token..."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:458
 #: src/components/create-vm-dialog/createVmDialog.jsx:459
@@ -393,10 +389,9 @@ msgstr "Scegli un sistema operativo"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:189
 msgid "Class"
-msgstr ""
+msgstr "classe"
 
 #: src/components/vm/consoles/desktopConsole.jsx:58
-#, fuzzy
 msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
@@ -412,9 +407,8 @@ msgid "Close"
 msgstr "Chiudi"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:363
-#, fuzzy
 msgid "Cloud base image"
-msgstr "Impossibile caricare l'immagine"
+msgstr "Immagine base cloud"
 
 #: src/components/common/deleteResource.jsx:97
 msgid "Confirm this action"
@@ -432,8 +426,6 @@ msgstr ""
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/consoles/vnc.jsx:168
-#, fuzzy
-#| msgid "Connection"
 msgid "Connecting"
 msgstr "Connessione"
 
@@ -454,18 +446,14 @@ msgstr "Console"
 
 #: src/components/vm/vmMigrateDialog.jsx:101
 #: src/components/vm/vmMigrateDialog.jsx:117
-#, fuzzy
-#| msgid "No storage"
 msgid "Copy storage"
-msgstr "Nessuna archiviazione"
+msgstr "Copia di un archivio"
 
 #: src/components/vm/overview/cpuModal.jsx:285
 msgid "Cores per socket"
 msgstr "Core per socket"
 
 #: src/components/vm/deleteDialog.jsx:156
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Could not delete $0"
 msgstr "$0 non può essere eliminato"
 
@@ -483,7 +471,7 @@ msgstr "Impossibile ripristinare lo snapshot"
 
 #: src/components/vm/overview/watchdog.jsx:104
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Impossibile aggiungere dinamicamente il watchdog"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -508,10 +496,13 @@ msgstr "Crea VM"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1457
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
+"Crea una macchina virtuale importando un'immagine disco di un'installazione "
+"VM esistente"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1456
 msgid "Create VM from local or network installation medium"
 msgstr ""
+"Crea una macchina virtuale da un supporto di installazione locale o di rete"
 
 #: src/components/vm/vmCloneDialog.jsx:72
 msgid "Create a clone VM based on $0"
@@ -721,7 +712,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1329
 msgid "Details"
-msgstr ""
+msgstr "Dettagli"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:40
 #: src/components/vm/disks/vmDisksCard.jsx:172
@@ -803,6 +794,8 @@ msgstr "Il nome non può essere vuoto"
 #: src/components/common/machinesConnectionSelector.jsx:76
 msgid "Disk images can be stored in user home directory"
 msgstr ""
+"Le immagini del disco possono essere memorizzate nella home directory "
+"dell'utente"
 
 #: src/components/vm/disks/diskAdd.jsx:716
 #: src/components/vm/disks/diskEdit.jsx:218
@@ -821,10 +814,12 @@ msgstr "Dischi"
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr ""
+"Non eseguire questa macchina virtuale contemporaneamente sugli host di "
+"origine e di destinazione."
 
 #: src/helpers.js:284
 msgid "Do nothing"
-msgstr ""
+msgstr "Non fare nulla"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:122
 msgid "Domain has crashed"
@@ -840,7 +835,7 @@ msgstr "Scarica un OS"
 
 #: src/app.jsx:311
 msgid "Download progress"
-msgstr ""
+msgstr "Progresso download"
 
 #: src/app.jsx:304
 #, fuzzy
@@ -856,7 +851,7 @@ msgstr "Download di $0"
 
 #: src/helpers.js:285
 msgid "Dump core"
-msgstr ""
+msgstr "Dump core"
 
 #: src/components/vm/vmMigrateDialog.jsx:59
 #, fuzzy
@@ -886,11 +881,12 @@ msgstr "Aggiungi interfaccia di rete"
 
 #: src/components/vm/overview/watchdog.jsx:172
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Modifica il tipo di dispositivo watchdog"
 
 #: src/components/vm/nics/vmNicsCard.jsx:418
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr ""
+"La modifica delle interfacce di rete degli ospiti transitori non è consentita"
 
 #: src/components/vm/nics/vmNicsCard.jsx:424
 msgid "Editing transient network interfaces is not allowed"
