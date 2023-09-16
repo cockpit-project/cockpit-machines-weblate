@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-05 02:50+0000\n"
-"PO-Revision-Date: 2023-07-29 19:21+0000\n"
+"PO-Revision-Date: 2023-09-16 07:35+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
-"Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/fi/>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.0.1\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:827
 msgid "$0 $1 available at default location"
@@ -148,6 +148,7 @@ msgstr "Lisää vahtikoiran laitetyyppi"
 #: src/components/vm/overview/watchdog.jsx:105
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
+"Watchdogin lisääminen vaatii uudelleenkäynnistyksen, jotta se tulee voimaan."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -207,7 +208,7 @@ msgstr "Kiinnitä aina"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Esimerkki vsock-tietoisista ohjelmistoista on socat"
 
 #: src/components/vm/overview/cpuModal.jsx:335
 msgid "Apply"
@@ -215,7 +216,7 @@ msgstr "Toteuta"
 
 #: src/components/vm/overview/watchdog.jsx:183
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Käytä seuraavassa käynnistyksessä"
 
 #: src/components/vm/overview/vsock.jsx:48
 msgid "Assign automatically"
@@ -321,13 +322,11 @@ msgstr "Peru"
 
 #: src/components/vm/overview/vsock.jsx:203
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Vsock-laitetta ei voi muokata väliaikaisessa virtuaalikoneessa"
 
 #: src/components/vm/overview/watchdog.jsx:161
-#, fuzzy
-#| msgid "Edit watchdog device type"
 msgid "Cannot edit watchdog device on a transient VM"
-msgstr "Muokkaa vahtikoiran laitetyyppiä"
+msgstr "Watchdog-laitetta ei voi muokata väliaikaisessa virtuaalikoneessa"
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Capacity"
@@ -343,7 +342,7 @@ msgstr "Vaihda laiteohjelmisto"
 
 #: src/components/common/needsShutdown.jsx:162
 msgid "Changes pending"
-msgstr ""
+msgstr "Muutokset odottavat"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -356,6 +355,10 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"BIOS/EFI-asetusten muuttaminen on valmistajakohtaista. Siihen kuuluu "
+"pikanäppäimen painaminen käynnistyksen aikana (ESC, F1, F12, Del). Ota "
+"käyttöön asetus nimeltä \"virtualisointi\", \"VM\", \"VMX\", \"SVM\", \"VTX\""
+", \"VTD\". Katso lisätietoja tietokoneesi käyttöoppaasta."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:527
 msgid "Checking token validity..."
@@ -444,7 +447,7 @@ msgstr "Ei voitu poistaa levyn tallennustilaa"
 
 #: src/components/vm/overview/watchdog.jsx:104
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Watchdogia ei voitu lisätä dynaamisesti"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -952,10 +955,8 @@ msgid "Force reboot"
 msgstr "Pakota uudelleenkäynnistys"
 
 #: src/components/vm/vmActions.jsx:351
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force reboot $0?"
-msgstr "Pakota uudelleenkäynnistys"
+msgstr "Pakota $0 uudelleenkäynnistys?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
 msgid "Force revert"
@@ -966,10 +967,8 @@ msgid "Force shut down"
 msgstr "Pakota sammutus"
 
 #: src/components/vm/vmActions.jsx:287
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Pakota sammutus"
+msgstr "Pakota $0 sammutus?"
 
 #: src/components/storagePools/storageVolumeCreateBody.jsx:69
 #: src/components/storagePools/createStoragePoolDialog.jsx:197
@@ -1144,6 +1143,8 @@ msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"$0 käyttää tunnistetta. VM:t, joilla on sama tunniste, eivät voi toimia "
+"samanaikaisesti."
 
 #: src/components/vm/disks/diskAdd.jsx:263
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1218,7 +1219,7 @@ msgstr "Aseta levyasema"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "VM:n sisällä"
 
 #: src/components/vm/vmActions.jsx:390
 msgid "Install"
@@ -1945,10 +1946,8 @@ msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
 #: src/components/vm/vmActions.jsx:331
-#, fuzzy
-#| msgid "Reboot"
 msgid "Reboot $0?"
-msgstr "Käynnistä uudelleen"
+msgstr "Käynnistä $0 uudelleen?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:339
 msgid "Remote URL"
@@ -2098,10 +2097,8 @@ msgid "Send non-maskable interrupt"
 msgstr "Lähetä ei-peitettävä keskeytys"
 
 #: src/components/vm/vmActions.jsx:308
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Send non-maskable interrupt to $0?"
-msgstr "Lähetä ei-peitettävä keskeytys"
+msgstr "Lähetä kohteeseen $0 ei-peitettävä keskeytys?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:102
 msgid "Serial"
@@ -2171,10 +2168,8 @@ msgid "Shut down"
 msgstr "Sammuta"
 
 #: src/components/vm/vmActions.jsx:236 src/components/vm/vmActions.jsx:267
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shut down $0?"
-msgstr "Sammuta"
+msgstr "Sammuta $0?"
 
 #: src/helpers.js:228
 msgid "Shut off"
@@ -2229,6 +2224,7 @@ msgstr "Pistokkeet"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Jotkut asetusmuutokset tulevat voimaan vasta uuden käynnistyksen jälkeen:"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:51
 #: src/components/vm/disks/diskAdd.jsx:753
@@ -2381,10 +2377,8 @@ msgid "System"
 msgstr "Järjestelmä"
 
 #: src/components/vm/nics/vmNicsCard.jsx:189
-#, fuzzy
-#| msgid "Host device"
 msgid "TAP device"
-msgstr "Isäntälaite"
+msgstr "TAP-laite"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:126
 msgid "Table of selectable host devices"
@@ -2788,6 +2782,9 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
+"Virtuaalisen pistokkeen tuki mahdollistaa isännän ja vieraan välisen "
+"viestinnän pistokkeen kautta. Se vaatii edelleen erityistä vsock-tietoista "
+"ohjelmistoa kommunikoidakseen pistokkeen kautta."
 
 #: src/components/libvirtSlate.jsx:42
 msgid "Virtualization service (libvirt) is not active"
@@ -2816,7 +2813,7 @@ msgstr "Taltioryhmän nimi ei tulisi olla tyhjä"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:232
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:160
@@ -2953,11 +2950,11 @@ msgstr "ei aktiivinen"
 
 #: src/components/vm/nics/vmNicsCard.jsx:385
 msgid "inet"
-msgstr ""
+msgstr "inet"
 
 #: src/components/vm/nics/vmNicsCard.jsx:393
 msgid "inet6"
-msgstr ""
+msgstr "inet6"
 
 #: src/manifest.json:0
 msgid "iso"
@@ -3104,7 +3101,7 @@ msgstr "vm"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:238
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock vaatii erikoisohjelmiston"
 
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
