@@ -11,16 +11,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-04 02:50+0000\n"
-"PO-Revision-Date: 2023-02-01 19:11+0000\n"
+"PO-Revision-Date: 2023-12-11 14:44+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/tr/>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:913
 msgid "$0 $1 available at default location"
@@ -32,10 +32,8 @@ msgid "$0 $1 available on host"
 msgstr "Ana makinede $0 $1 kullanılabilir"
 
 #: src/components/vm/overview/cpuModal.jsx:331
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "$0 vCPU ayrıntıları"
+msgstr "$0 CPU ayrıntıları"
 
 #: src/components/aggregateStatusCards.jsx:77
 msgid "$0 Network"
@@ -118,7 +116,7 @@ msgstr "Ekle"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:847
 msgid "Add SSH keys"
-msgstr ""
+msgstr "SSH anahtarları ekle"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
@@ -147,10 +145,8 @@ msgid "Add virtual network interface"
 msgstr "Sanal ağ arayüzü ekle"
 
 #: src/components/vm/overview/vsock.jsx:214
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Ağ arayüzü ekle"
+msgstr "vsock arayüzü ekle"
 
 #: src/components/vm/overview/watchdog.jsx:172
 msgid "Add watchdog device type"
@@ -158,7 +154,7 @@ msgstr "Gözlemci aygıt türü ekle"
 
 #: src/components/vm/overview/watchdog.jsx:107
 msgid "Adding a watchdog will require a reboot to take effect."
-msgstr ""
+msgstr "Gözlemci eklemenin etkili olması için yeniden başlatma gerekir."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:118
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -216,7 +212,7 @@ msgstr "Her zaman bağla"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "vsock kullanabilen olan yazılımlara bir örnek: socat"
 
 #: src/components/vm/overview/cpuModal.jsx:335
 msgid "Apply"
@@ -224,13 +220,11 @@ msgstr "Uygula"
 
 #: src/components/vm/overview/watchdog.jsx:183
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Sonraki önyüklemede uygula"
 
 #: src/components/vm/overview/vsock.jsx:48
-#, fuzzy
-#| msgid "Generate automatically"
 msgid "Assign automatically"
-msgstr "Otomatik olarak oluştur"
+msgstr "Otomatik olarak ata"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1297
 msgid ""
@@ -292,10 +286,8 @@ msgid "CPU"
 msgstr "CPU"
 
 #: src/components/vm/overview/cpuModal.jsx:209
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU mode could not be saved"
-msgstr "VCPU ayarları kaydedilemedi"
+msgstr "CPU modu kaydedilemedi"
 
 #: src/components/vm/disks/diskAdd.jsx:212
 #: src/components/vm/disks/vmDiskColumns.jsx:101
@@ -334,13 +326,11 @@ msgstr "İptal"
 
 #: src/components/vm/overview/vsock.jsx:203
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Geçici bir sanal makinede vsock aygıtı düzenlenemez"
 
 #: src/components/vm/overview/watchdog.jsx:161
-#, fuzzy
-#| msgid "Edit watchdog device type"
 msgid "Cannot edit watchdog device on a transient VM"
-msgstr "Gözlemci aygıt türünü düzenle"
+msgstr "Geçici bir sanal makinede gözlemci aygıt düzenlenemez"
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Capacity"
@@ -356,7 +346,7 @@ msgstr "Aygıt yazılımını değiştir"
 
 #: src/components/common/needsShutdown.jsx:164
 msgid "Changes pending"
-msgstr ""
+msgstr "Değişiklikler bekliyor"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
@@ -369,6 +359,11 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"BIOS/EFI ayarlarının değiştirilmesi her üreticiye özeldir. Önyükleme "
+"sırasında bir kısayol tuşuna basmayı içerir (ESC, F1, F12, Del). "
+"\"Sanallaştırma\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\" olarak "
+"adlandırılan bir ayarı etkinleştirin. Ayrıntılar için bilgisayarınızın "
+"kılavuzuna bakın."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:531
 msgid "Checking token validity..."
@@ -449,20 +444,16 @@ msgid "Could not delete $0"
 msgstr "$0 silinemedi"
 
 #: src/components/vm/deleteDialog.jsx:151
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete all storage for $0"
-msgstr "$0 için depolama alanı silinemedi"
+msgstr "$0 için tüm depolama alanı silinemedi"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:133
-#, fuzzy
-#| msgid "Could not delete storage for $0"
 msgid "Could not delete disk's storage"
-msgstr "$0 için depolama alanı silinemedi"
+msgstr "Disk depolama alanı silinemedi"
 
 #: src/components/vm/overview/watchdog.jsx:106
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Dinamik olarak gözlemci eklenemedi"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:71
 msgid "Could not revert to snapshot"
@@ -510,16 +501,12 @@ msgid "Create new"
 msgstr "Yeni oluştur"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:946
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new qcow2 volume"
-msgstr "Yeni birim oluştur"
+msgstr "Yeni qcow2 birimi oluştur"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:947
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new raw volume"
-msgstr "Yeni birim oluştur"
+msgstr "Yeni ham birim oluştur"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1459
 msgid "Create new virtual machine"
@@ -582,10 +569,8 @@ msgid "Custom firmware: $0"
 msgstr "Özel aygıt yazılımı: $0"
 
 #: src/components/vm/overview/vsock.jsx:159
-#, fuzzy
-#| msgid "Disk identifier"
 msgid "Custom identifier"
-msgstr "Disk tanımlayıcısı"
+msgstr "Özel tanımlayıcı"
 
 #: src/components/vm/disks/diskAdd.jsx:340
 #: src/components/vm/disks/diskAdd.jsx:595
@@ -715,20 +700,16 @@ msgid "Disconnected from serial console. Click the connect button."
 msgstr "Seri konsoldan bağlantı kesildi. Bağlan düğmesine tıklayın."
 
 #: src/components/common/needsShutdown.jsx:89
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Diskler"
+msgstr "Disk"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:147
 msgid "Disk $0 could not be removed"
 msgstr "$0 diski kaldırılamadı"
 
 #: src/components/vm/disks/diskAdd.jsx:835
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
-msgstr "Diskin oluşturulması başarısız oldu"
+msgstr "Diskin eklenmesi başarısız oldu"
 
 #: src/components/vm/disks/diskAdd.jsx:238
 msgid "Disk identifier"
@@ -819,10 +800,8 @@ msgid "Edit $0 attributes"
 msgstr "$0 özniteliklerini düzenle"
 
 #: src/components/vm/overview/vsock.jsx:214
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Edit vsock interface"
-msgstr "Ağ arayüzleri"
+msgstr "vsock arayüzünü düzenle"
 
 #: src/components/vm/overview/watchdog.jsx:172
 msgid "Edit watchdog device type"
@@ -851,7 +830,7 @@ msgstr "Benzetilmiş makine"
 
 #: src/app.jsx:130
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "BIOS/EFI ayarlarında sanallaştırma desteğini etkinleştirin."
 
 #: src/components/networks/createNetworkDialog.jsx:226
 msgid "End"
@@ -905,20 +884,16 @@ msgid "Failed to clone VM $0"
 msgstr "$0 sanal makinesini çoğaltma başarısız oldu"
 
 #: src/components/vm/overview/vsock.jsx:129
-#, fuzzy
-#| msgid "Failed to configure watchdog"
 msgid "Failed to configure vsock"
-msgstr "Gözlemci yapılandırma başarısız oldu"
+msgstr "vsock yapılandırma başarısız oldu"
 
 #: src/components/vm/overview/watchdog.jsx:88
 msgid "Failed to configure watchdog"
 msgstr "Gözlemci yapılandırma başarısız oldu"
 
 #: src/components/vm/overview/vsock.jsx:141
-#, fuzzy
-#| msgid "Failed to detach watchdog"
 msgid "Failed to detach vsock"
-msgstr "Gözlemci ayırma başarısız oldu"
+msgstr "vsock ayırma başarısız oldu"
 
 #: src/components/vm/overview/watchdog.jsx:135
 msgid "Failed to detach watchdog"
@@ -980,10 +955,8 @@ msgid "Force reboot"
 msgstr "Yeniden başlatmaya zorla"
 
 #: src/components/vm/vmActions.jsx:351
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force reboot $0?"
-msgstr "Yeniden başlatmaya zorla"
+msgstr "$0 yeniden başlatmaya zorlansın mı?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
 msgid "Force revert"
@@ -994,10 +967,8 @@ msgid "Force shut down"
 msgstr "Kapatmaya zorla"
 
 #: src/components/vm/vmActions.jsx:287
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Kapatmaya zorla"
+msgstr "$0 kapatmaya zorlansın mı?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:103
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
@@ -1057,10 +1028,8 @@ msgid "Gracefully shutdown"
 msgstr "Düzgün şekilde kapat"
 
 #: src/app.jsx:127
-#, fuzzy
-#| msgid "Failed to start virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Sanallaştırma hizmetini başlatma başarısız oldu"
+msgstr "Donanım sanallaştırma devre dışı"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1174,6 +1143,8 @@ msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"Tanımlayıcı $0 tarafından kullanılıyor. Aynı tanımlayıcıya sahip sanal "
+"makineler aynı anda çalışamaz."
 
 #: src/components/vm/disks/diskAdd.jsx:259
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1185,7 +1156,7 @@ msgstr "Boşta"
 
 #: src/app.jsx:141
 msgid "Ignore"
-msgstr ""
+msgstr "Yok say"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1523
 msgid "Import VM"
@@ -1229,10 +1200,8 @@ msgid "Initiator"
 msgstr "Başlatıcı"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:144
-#, fuzzy
-#| msgid "Initiator IQN should not be empty"
 msgid "Initiator should not be empty"
-msgstr "Başlatıcı IQN boş olmamalıdır"
+msgstr "Başlatıcı boş olmamalıdır"
 
 #: src/helpers.js:286
 msgid "Inject a non-maskable interrupt"
@@ -1249,7 +1218,7 @@ msgstr "Disk ortamını tak"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "Sanal makine içinde"
 
 #: src/components/vm/vmActions.jsx:390
 msgid "Install"
@@ -1309,7 +1278,7 @@ msgstr "Yalıtılmış ağ"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr ""
+msgstr "Anahtarlar ~/.ssh/ dizininde bulunur ve \".pub\" uzantısına sahiptir."
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:62
 msgid "LVM volume group"
@@ -1586,10 +1555,8 @@ msgid "Network file system"
 msgstr "Ağ dosya sistemi (NFS)"
 
 #: src/components/common/needsShutdown.jsx:99
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Network interface"
-msgstr "Ağ arayüzleri"
+msgstr "Ağ arayüzü"
 
 #: src/components/vm/nics/vmNicsCard.jsx:469
 msgid "Network interface $0 could not be removed"
@@ -1631,7 +1598,7 @@ msgstr "Yeni birim adı"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:845
 msgid "No SSH keys specified"
-msgstr ""
+msgstr "SSH anahtarı belirtilmedi"
 
 #: src/components/vms/hostvmslist.jsx:149
 msgid "No VM is running or defined on this host"
@@ -1753,10 +1720,8 @@ msgid "Old token expired"
 msgstr "Eski belirtecin süresi doldu"
 
 #: src/components/vm/overview/helpers.jsx:33
-#, fuzzy
-#| msgid "Run when host boots"
 msgid "On the host"
-msgstr "Anamakine önyüklendiğinde çalıştır"
+msgstr "Ana makinede"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:71
 msgid ""
@@ -1972,7 +1937,7 @@ msgstr "NAT ile dış dünyaya sanal bir LAN sağlar."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:809
 msgid "Public SSH key"
-msgstr ""
+msgstr "Ortak SSH anahtarı"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:805
 msgid "Public key"
@@ -1993,10 +1958,8 @@ msgid "Reboot"
 msgstr "Yeniden başlat"
 
 #: src/components/vm/vmActions.jsx:331
-#, fuzzy
-#| msgid "Reboot"
 msgid "Reboot $0?"
-msgstr "Yeniden başlat"
+msgstr "$0 yeniden başlatılsın mı?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
@@ -2022,7 +1985,7 @@ msgstr "Kaldır"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
-msgstr ""
+msgstr "Kaldır ve dosyayı sil"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:145
 msgid "Remove disk from VM?"
@@ -2037,10 +2000,8 @@ msgid "Remove host device from VM?"
 msgstr "Anamakine aygıtı sanal makineden kaldırılsın mı?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:821
-#, fuzzy
-#| msgid "Remove filesystem?"
 msgid "Remove item"
-msgstr "Dosya sistemi kaldırılsın mı?"
+msgstr "Ögeyi kaldır"
 
 #: src/components/vm/nics/vmNicsCard.jsx:468
 msgid "Remove network interface?"
@@ -2129,10 +2090,8 @@ msgid "SPICE port"
 msgstr "SPICE bağlantı noktası"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:846
-#, fuzzy
-#| msgid "Send key"
 msgid "SSH keys"
-msgstr "Tuş gönder"
+msgstr "SSH anahtarları"
 
 #: src/components/vm/disks/diskEdit.jsx:267
 #: src/components/vm/overview/memoryModal.jsx:156
@@ -2157,10 +2116,8 @@ msgid "Send non-maskable interrupt"
 msgstr "Maskelenemez kesme (NMI) gönder"
 
 #: src/components/vm/vmActions.jsx:308
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Send non-maskable interrupt to $0?"
-msgstr "Maskelenemez kesme (NMI) gönder"
+msgstr "$0 için maskelenemez kesme (NMI) gönderilsin mi?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:102
 msgid "Serial"
@@ -2219,16 +2176,12 @@ msgid "Show additional options"
 msgstr "Ek seçenekleri göster"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "show less"
 msgid "Show less"
-msgstr "daha az göster"
+msgstr "Daha az göster"
 
 #: src/components/vm/overview/watchdog.jsx:55
-#, fuzzy
-#| msgid "show more"
 msgid "Show more"
-msgstr "daha fazla göster"
+msgstr "Daha fazla göster"
 
 #: src/components/vm/vmActions.jsx:246 src/components/vm/vmActions.jsx:259
 #: src/components/vm/vmActions.jsx:274 src/components/vm/vmActions.jsx:279
@@ -2236,10 +2189,8 @@ msgid "Shut down"
 msgstr "Kapat"
 
 #: src/components/vm/vmActions.jsx:236 src/components/vm/vmActions.jsx:267
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shut down $0?"
-msgstr "Kapat"
+msgstr "$0 kapatılsın mı?"
 
 #: src/helpers.js:228
 msgid "Shut off"
@@ -2294,6 +2245,8 @@ msgstr "Soketler"
 #: src/components/common/needsShutdown.jsx:140
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
+"Bazı yapılandırma değişiklikleri yalnızca yeni bir önyüklemeden sonra etkili "
+"olur:"
 
 #: src/components/vm/disks/diskAdd.jsx:592
 #: src/components/vm/disks/diskAdd.jsx:628
@@ -2449,10 +2402,8 @@ msgid "System"
 msgstr "Sistem"
 
 #: src/components/vm/nics/vmNicsCard.jsx:189
-#, fuzzy
-#| msgid "Host device"
 msgid "TAP device"
-msgstr "Anamakine aygıtı"
+msgstr "TAP aygıtı"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:126
 msgid "Table of selectable host devices"
@@ -2674,7 +2625,7 @@ msgstr "Belirtilmedi"
 
 #: src/components/vm/confirmDialog.jsx:70
 msgid "Uptime"
-msgstr ""
+msgstr "Çalışma süresi"
 
 #: src/components/vm/disks/diskEdit.jsx:44
 msgid "Url"
@@ -2716,11 +2667,9 @@ msgid "User login"
 msgstr "Kullanıcı oturumu açma"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:254
-#, fuzzy
-#| msgid "User login must not be empty when user password is set"
 msgid "User login must not be empty when SSH keys are set"
 msgstr ""
-"Kullanıcı parolası ayarlandığında kullanıcı oturum açma bilgileri boş "
+"SSH anahtarları ayarlandığında kullanıcı oturum açma bilgileri boş "
 "olmamalıdır"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:252
@@ -2800,10 +2749,8 @@ msgstr ""
 "ayrıcalıksız sınırlı erişimle başlatıldı"
 
 #: src/components/common/needsShutdown.jsx:153
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "$0 sanal makinesini kapatma başarısız oldu"
+msgstr "Sanal makinenin kapatılması gerekiyor"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:110
 msgid "VM state"
@@ -2869,6 +2816,9 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
+"Sanal soket desteği, ana makine ile konuk arasında bir soket üzerinden "
+"iletişim kurulmasını sağlar. Yine de soket üzerinden iletişim kurmak için "
+"özel vsock kullanabilen yazılım gerekir."
 
 #: src/components/libvirtSlate.jsx:42
 msgid "Virtualization service (libvirt) is not active"
@@ -2897,7 +2847,7 @@ msgstr "Birim grubu adı boş olmamalıdır"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:232
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/overview/bootOrder.jsx:160
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
@@ -3034,11 +2984,11 @@ msgstr "etkin değil"
 
 #: src/components/vm/nics/vmNicsCard.jsx:385
 msgid "inet"
-msgstr ""
+msgstr "inet"
 
 #: src/components/vm/nics/vmNicsCard.jsx:393
 msgid "inet6"
-msgstr ""
+msgstr "inet6"
 
 #: src/manifest.json:0
 msgid "iso"
@@ -3130,10 +3080,8 @@ msgid "user"
 msgstr "kullanıcı"
 
 #: src/components/vm/overview/cpuModal.jsx:195
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
-msgstr "VCPU ayarları kaydedilemedi"
+msgstr "vCPU ve CPU topoloji ayarları kaydedilemedi"
 
 #: src/components/vm/overview/cpuModal.jsx:250
 #: src/components/vm/overview/cpuModal.jsx:263
@@ -3187,7 +3135,7 @@ msgstr "sanal makine"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:238
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock özel yazılım gerektirir"
 
 #: src/helpers.js:272 src/components/networks/networkOverviewTab.jsx:115
 #: src/components/storagePools/storagePoolOverviewTab.jsx:67
