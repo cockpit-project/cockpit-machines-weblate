@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 02:51+0000\n"
+"POT-Creation-Date: 2024-01-09 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 02:51+0000\n"
+"POT-Creation-Date: 2024-01-09 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,7 +99,7 @@ msgid_plural "$0 vCPUs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/vm/nics/nicEdit.jsx:178
+#: src/components/vm/nics/nicEdit.jsx:185
 msgid "$0 virtual network interface settings"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "Activate the storage pool to administer volumes"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:213
+#: src/components/vm/nics/nicAdd.jsx:219
 #: src/components/vm/hostdevs/hostDevAdd.jsx:229
 #: src/components/vm/overview/vsock.jsx:196
 #: src/components/vm/overview/watchdog.jsx:154
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Add shared directory"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:202
+#: src/components/vm/nics/nicAdd.jsx:208
 msgid "Add virtual network interface"
 msgstr ""
 
@@ -322,7 +322,7 @@ msgstr ""
 #: src/components/vm/vmMigrateDialog.jsx:213
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:147
-#: src/components/vm/nics/nicAdd.jsx:216 src/components/vm/nics/nicEdit.jsx:185
+#: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/overview/bootOrder.jsx:318
 #: src/components/vm/overview/cpuModal.jsx:338
@@ -1331,6 +1331,10 @@ msgstr ""
 msgid "MAC address"
 msgstr ""
 
+#: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
+msgid "MAC address already in use"
+msgstr ""
+
 #: src/components/networks/networkOverviewTab.jsx:252
 msgid "MAC address must not be empty"
 msgstr ""
@@ -1550,7 +1554,7 @@ msgstr ""
 msgid "Network interface $0 will be removed from $1"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:167 src/components/vm/nics/nicEdit.jsx:141
+#: src/components/vm/nics/nicAdd.jsx:173 src/components/vm/nics/nicEdit.jsx:148
 msgid "Network interface settings could not be saved"
 msgstr ""
 
@@ -1796,6 +1800,10 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:163
 msgid "Physical disk device on host"
+msgstr ""
+
+#: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
+msgid "Please choose a different MAC address"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:552
@@ -2064,7 +2072,7 @@ msgstr ""
 msgid "SSH keys"
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.jsx:182
+#: src/components/vm/nics/nicEdit.jsx:189
 #: src/components/vm/overview/bootOrder.jsx:315
 #: src/components/vm/overview/memoryModal.jsx:156
 #: src/components/vm/overview/vsock.jsx:196
