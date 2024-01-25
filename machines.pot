@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 02:50+0000\n"
+"POT-Creation-Date: 2024-01-25 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 02:50+0000\n"
+"POT-Creation-Date: 2024-01-25 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: src/components/vm/vmUsageCard.jsx:69
 #: src/components/vm/overview/vmOverviewCard.jsx:187
-#: src/components/common/needsShutdown.jsx:110
+#: src/components/common/needsShutdown.jsx:114
 msgid "CPU"
 msgstr ""
 
@@ -323,6 +323,7 @@ msgstr ""
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:147
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
+#: src/components/vm/vmReplaceSpiceDialog.jsx:73
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/overview/bootOrder.jsx:318
 #: src/components/vm/overview/cpuModal.jsx:338
@@ -360,7 +361,7 @@ msgstr ""
 msgid "Change firmware"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:163
+#: src/components/common/needsShutdown.jsx:171
 msgid "Changes pending"
 msgstr ""
 
@@ -396,7 +397,7 @@ msgid ""
 "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgstr ""
 
-#: src/components/vm/vmCloneDialog.jsx:80 src/components/vm/vmActions.jsx:402
+#: src/components/vm/vmCloneDialog.jsx:80 src/components/vm/vmActions.jsx:403
 msgid "Clone"
 msgstr ""
 
@@ -433,9 +434,17 @@ msgstr ""
 msgid "Connection"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:93
-#: src/components/vm/vmDetailsPage.jsx:131
+#: src/components/vm/vmDetailsPage.jsx:95
+#: src/components/vm/vmDetailsPage.jsx:133
 msgid "Console"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:83
+msgid "Convert QXL video card to VGA."
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:82
+msgid "Convert SPICE graphics console to VNC."
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -596,8 +605,8 @@ msgstr ""
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:451
-#: src/components/vm/vmActions.jsx:459
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
+#: src/components/vm/vmActions.jsx:474
 #: src/components/common/deleteResource.jsx:79
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
@@ -701,7 +710,7 @@ msgstr ""
 msgid "Disconnected from serial console. Click the connect button."
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:89
+#: src/components/common/needsShutdown.jsx:93
 msgid "Disk"
 msgstr ""
 
@@ -742,7 +751,7 @@ msgstr ""
 msgid "Disk-only snapshot"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:148
+#: src/components/vm/vmDetailsPage.jsx:150
 msgid "Disks"
 msgstr ""
 
@@ -858,7 +867,7 @@ msgstr ""
 msgid "Existing disk image on host's file system"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:139
+#: src/components/vm/vmDetailsPage.jsx:141
 msgid "Expand"
 msgstr ""
 
@@ -910,6 +919,10 @@ msgstr ""
 msgid "Failed to rename VM $0"
 msgstr ""
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+msgid "Failed to replace SPICE devices"
+msgstr ""
+
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
 msgstr ""
@@ -948,11 +961,11 @@ msgstr ""
 msgid "Force eject"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:358 src/components/vm/vmActions.jsx:363
+#: src/components/vm/vmActions.jsx:359 src/components/vm/vmActions.jsx:364
 msgid "Force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:351
+#: src/components/vm/vmActions.jsx:352
 msgid "Force reboot $0?"
 msgstr ""
 
@@ -960,11 +973,11 @@ msgstr ""
 msgid "Force revert"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:294 src/components/vm/vmActions.jsx:299
+#: src/components/vm/vmActions.jsx:295 src/components/vm/vmActions.jsx:300
 msgid "Force shut down"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:287
+#: src/components/vm/vmActions.jsx:288
 msgid "Force shut down $0?"
 msgstr ""
 
@@ -1050,7 +1063,7 @@ msgstr ""
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:166
+#: src/components/vm/vmDetailsPage.jsx:168
 msgid "Host devices"
 msgstr ""
 
@@ -1209,7 +1222,7 @@ msgstr ""
 msgid "Inside the VM"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:390
+#: src/components/vm/vmActions.jsx:391
 msgid "Install"
 msgstr ""
 
@@ -1424,7 +1437,7 @@ msgid "MiB"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:210
-#: src/components/vm/vmActions.jsx:425
+#: src/components/vm/vmActions.jsx:426
 msgid "Migrate"
 msgstr ""
 
@@ -1542,7 +1555,7 @@ msgstr ""
 msgid "Network file system"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:99
+#: src/components/common/needsShutdown.jsx:103
 msgid "Network interface"
 msgstr ""
 
@@ -1558,7 +1571,7 @@ msgstr ""
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:157
+#: src/components/vm/vmDetailsPage.jsx:159
 msgid "Network interfaces"
 msgstr ""
 
@@ -1734,7 +1747,7 @@ msgid "Operation is in progress"
 msgstr ""
 
 #: src/components/storagePools/storagePool.jsx:74
-#: src/components/vm/vmDetailsPage.jsx:111
+#: src/components/vm/vmDetailsPage.jsx:113
 msgid "Overview"
 msgstr ""
 
@@ -1769,7 +1782,7 @@ msgstr ""
 msgid "Path to file on host's file system"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:209 src/helpers.js:283
+#: src/components/vm/vmActions.jsx:210 src/helpers.js:283
 msgid "Pause"
 msgstr ""
 
@@ -1816,6 +1829,10 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:559
 msgid "Please enter new volume name"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:40
@@ -1935,13 +1952,19 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:254 src/components/vm/vmActions.jsx:338
-#: src/components/vm/vmActions.jsx:343
+#: src/components/vm/vmActions.jsx:255 src/components/vm/vmActions.jsx:339
+#: src/components/vm/vmActions.jsx:344
 msgid "Reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:331
+#: src/components/vm/vmActions.jsx:332
 msgid "Reboot $0?"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:80
+msgid ""
+"Reconfigure the virtual machine for a host which does not support SPICE, for "
+"host upgrades or live migration:"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
@@ -1964,6 +1987,10 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:68
 #: src/components/networks/networkOverviewTab.jsx:70
 msgid "Remove"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:84
+msgid "Remove SPICE audio and host devices."
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -1994,12 +2021,24 @@ msgstr ""
 msgid "Remove static host from DHCP"
 msgstr ""
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:438
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
 msgid "Rename"
 msgstr ""
 
 #: src/components/vm/vmRenameDialog.jsx:61
 msgid "Rename VM $0"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+msgid "Replace"
+msgstr ""
+
+#: src/components/vm/vmActions.jsx:440 src/components/vm/usesSpice.jsx:41
+msgid "Replace SPICE devices"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+msgid "Replace SPICE devices in VM $0"
 msgstr ""
 
 #: src/helpers.js:280
@@ -2011,7 +2050,7 @@ msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:220
+#: src/components/vm/vmActions.jsx:221
 msgid "Resume"
 msgstr ""
 
@@ -2043,7 +2082,7 @@ msgstr ""
 msgid "Routed network"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:378
+#: src/components/vm/vmActions.jsx:379
 msgid "Run"
 msgstr ""
 
@@ -2056,12 +2095,22 @@ msgstr ""
 msgid "Running"
 msgstr ""
 
+#: src/components/common/needsShutdown.jsx:122
+msgid "SPICE"
+msgstr ""
+
 #: src/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
 msgstr ""
 
 #: src/components/vm/consoles/desktopConsole.jsx:48
 msgid "SPICE address"
+msgstr ""
+
+#: src/components/vm/usesSpice.jsx:35
+msgid ""
+"SPICE is not supported on this host and will cause this virtual machine to "
+"not boot."
 msgstr ""
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
@@ -2090,11 +2139,11 @@ msgstr ""
 msgid "Send key"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:314 src/components/vm/vmActions.jsx:319
+#: src/components/vm/vmActions.jsx:315 src/components/vm/vmActions.jsx:320
 msgid "Send non-maskable interrupt"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:308
+#: src/components/vm/vmActions.jsx:309
 msgid "Send non-maskable interrupt to $0?"
 msgstr ""
 
@@ -2132,11 +2181,11 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:187
+#: src/components/vm/vmDetailsPage.jsx:189
 msgid "Shared directories"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:189
+#: src/components/vm/vmDetailsPage.jsx:191
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:180
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
@@ -2158,12 +2207,12 @@ msgstr ""
 msgid "Show more"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:246 src/components/vm/vmActions.jsx:259
-#: src/components/vm/vmActions.jsx:274 src/components/vm/vmActions.jsx:279
+#: src/components/vm/vmActions.jsx:247 src/components/vm/vmActions.jsx:260
+#: src/components/vm/vmActions.jsx:275 src/components/vm/vmActions.jsx:280
 msgid "Shut down"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:236 src/components/vm/vmActions.jsx:267
+#: src/components/vm/vmActions.jsx:237 src/components/vm/vmActions.jsx:268
 msgid "Shut down $0?"
 msgstr ""
 
@@ -2207,7 +2256,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:175
+#: src/components/vm/vmDetailsPage.jsx:177
 msgid "Snapshots"
 msgstr ""
 
@@ -2215,7 +2264,7 @@ msgstr ""
 msgid "Sockets"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:140
+#: src/components/common/needsShutdown.jsx:148
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
@@ -2364,6 +2413,10 @@ msgstr ""
 msgid "Suspended (PM)"
 msgstr ""
 
+#: src/components/vm/usesSpice.jsx:36
+msgid "Switch to VNC to continue using this machine."
+msgstr ""
+
 #: src/helpers.js:220
 msgid "System"
 msgstr ""
@@ -2453,7 +2506,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:447
+#: src/components/vm/vmActions.jsx:462
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
@@ -2581,7 +2634,7 @@ msgstr ""
 msgid "Url"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:124
+#: src/components/vm/vmDetailsPage.jsx:126
 msgid "Usage"
 msgstr ""
 
@@ -2633,6 +2686,10 @@ msgstr ""
 msgid "User session"
 msgstr ""
 
+#: src/components/vm/usesSpice.jsx:25
+msgid "Uses SPICE"
+msgstr ""
+
 #: src/components/vm/hostdevs/hostDevCard.jsx:313
 msgid "VM $0 Host Devices"
 msgstr ""
@@ -2645,39 +2702,39 @@ msgstr ""
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:103
+#: src/components/vm/vmActions.jsx:104
 msgid "VM $0 failed to force reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:160
+#: src/components/vm/vmActions.jsx:161
 msgid "VM $0 failed to force shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:78
+#: src/components/vm/vmActions.jsx:79
 msgid "VM $0 failed to get installed"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:132
+#: src/components/vm/vmActions.jsx:133
 msgid "VM $0 failed to pause"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:90
+#: src/components/vm/vmActions.jsx:91
 msgid "VM $0 failed to reboot"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:145
+#: src/components/vm/vmActions.jsx:146
 msgid "VM $0 failed to resume"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:173
+#: src/components/vm/vmActions.jsx:174
 msgid "VM $0 failed to send NMI"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:119
+#: src/components/vm/vmActions.jsx:120
 msgid "VM $0 failed to shutdown"
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:69
+#: src/components/vm/vmActions.jsx:70
 msgid "VM $0 failed to start"
 msgstr ""
 
@@ -2687,7 +2744,7 @@ msgid ""
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:153
+#: src/components/common/needsShutdown.jsx:161
 msgid "VM needs shutdown"
 msgstr ""
 
@@ -2729,8 +2786,8 @@ msgid "Vendor"
 msgstr ""
 
 #: src/components/storagePools/storagePoolList.jsx:52
-#: src/components/vm/vmDetailsPage.jsx:87
-#: src/components/vm/vmDetailsPage.jsx:249
+#: src/components/vm/vmDetailsPage.jsx:89
+#: src/components/vm/vmDetailsPage.jsx:251
 #: src/components/vms/hostvmslist.jsx:138
 #: src/components/vms/hostvmslist.jsx:141
 #: src/components/networks/networkList.jsx:51 src/manifest.json:0
@@ -2791,7 +2848,7 @@ msgid "WWPN"
 msgstr ""
 
 #: src/components/vm/overview/vmOverviewCard.jsx:208
-#: src/components/common/needsShutdown.jsx:114
+#: src/components/common/needsShutdown.jsx:118
 msgid "Watchdog"
 msgstr ""
 
@@ -2936,19 +2993,19 @@ msgid "mcast"
 msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:110
-#: src/components/vm/vmDetailsPage.jsx:202
+#: src/components/vm/vmDetailsPage.jsx:204
 #: src/components/vm/overview/vsock.jsx:226
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:194
 #: src/components/common/machinesConnectionSelector.jsx:82
 msgid "more info"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:198
+#: src/components/vm/vmDetailsPage.jsx:200
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:190
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:197
+#: src/components/vm/vmDetailsPage.jsx:199
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
@@ -3026,7 +3083,7 @@ msgstr ""
 msgid "vCPU maximum"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:106
+#: src/components/common/needsShutdown.jsx:110
 msgid "vCPUs"
 msgstr ""
 
@@ -3038,7 +3095,7 @@ msgstr ""
 msgid "view more..."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:412
+#: src/components/vm/vmActions.jsx:413
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
