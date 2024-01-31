@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 02:50+0000\n"
-"PO-Revision-Date: 2023-11-26 11:38+0000\n"
+"PO-Revision-Date: 2024-01-31 13:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:913
 msgid "$0 $1 available at default location"
@@ -431,11 +431,11 @@ msgstr "კონსოლი"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:83
 msgid "Convert QXL video card to VGA."
-msgstr ""
+msgstr "QXL ვიდეობარათის გადაყვანა VGA-ში."
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:82
 msgid "Convert SPICE graphics console to VNC."
-msgstr ""
+msgstr "SPICE გრაფიკული კონსოლის VNC-ში გადაყვანა."
 
 #: src/components/vm/vmMigrateDialog.jsx:101
 #: src/components/vm/vmMigrateDialog.jsx:117
@@ -916,10 +916,8 @@ msgid "Failed to rename VM $0"
 msgstr "ვმ-ის ($0) გადარქმევის შეცდომა"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:50
-#, fuzzy
-#| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "ვმ-ის ($0) გადარქმევის შეცდომა"
+msgstr "SPICE მოწყობილობების ჩანაცვლება ჩავარდა"
 
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
@@ -1355,7 +1353,7 @@ msgstr "MAC მისამართი"
 
 #: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
 msgid "MAC address already in use"
-msgstr ""
+msgstr "MAC მისამართი უკვე გამოიყენება"
 
 #: src/components/networks/networkOverviewTab.jsx:252
 msgid "MAC address must not be empty"
@@ -1831,7 +1829,7 @@ msgstr "დისკის ფიზიკური მოწყობილო�
 
 #: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "აირჩიეთ სხვა MAC მისამართი"
 
 #: src/components/vm/disks/diskAdd.jsx:550
 msgid "Please choose a storage pool"
@@ -1847,7 +1845,7 @@ msgstr "შეიყვანეთ ახალი ტომის სახე
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:52
 msgid "Please see $0 how to reconfigure your VM manually."
-msgstr ""
+msgstr "იხილეთ $0, რომ გაიგოთ, როგორ მოირგოთ თქვენი ვმ-ი ხელით."
 
 #: src/components/vm/consoles/consoles.jsx:40
 msgid "Please start the virtual machine to access its console."
@@ -1984,6 +1982,8 @@ msgid ""
 "Reconfigure the virtual machine for a host which does not support SPICE, for "
 "host upgrades or live migration:"
 msgstr ""
+"ვირტუალური მანქანის თავიდან მორგება ჰოსტისთვის, რომელსაც SPICE-ის მხარდაჭერა "
+"არ გააჩნია, ჰოსტის განახლებებისთვის ან ცოცხალი მიგრაციისთვის:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
@@ -2009,7 +2009,7 @@ msgstr "წაშლა"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:84
 msgid "Remove SPICE audio and host devices."
-msgstr ""
+msgstr "SPICE აუდიოსა და ჰოსტის მოწყობილობების წაშლა."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
@@ -2049,15 +2049,15 @@ msgstr "ვმ-ის გადარქმევა ($0)"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:70
 msgid "Replace"
-msgstr ""
+msgstr "ჩანაცვლება"
 
 #: src/components/vm/vmActions.jsx:440 src/components/vm/usesSpice.jsx:41
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "SPICE მოწყობილობების ჩანაცვლება"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:63
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "SPICE მოწყობილობების ჩანაცვლება ვმ-ში $0"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2118,10 +2118,8 @@ msgid "Running"
 msgstr "გაშვებულია"
 
 #: src/components/common/needsShutdown.jsx:122
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE"
-msgstr "SPICE-ის პორტი"
+msgstr "SPICE"
 
 #: src/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
@@ -2136,6 +2134,8 @@ msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"ამ ჰოსტზე SPICE მხარდაჭერილი არაა და გამოიწვევს იმას, რომ ვირტუალური მანქანა "
+"არ ჩაიტვირთება."
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
 msgid "SPICE port"
@@ -2443,7 +2443,7 @@ msgstr "შეჩერებულია (PM)"
 
 #: src/components/vm/usesSpice.jsx:36
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "გადაერთეთ VNC-ზე, რომ ამ მანქანის გამოყენება გააგრძელოთ."
 
 #: src/helpers.js:220
 msgid "System"
@@ -2732,7 +2732,7 @@ msgstr "მომხმარებლის სესია"
 
 #: src/components/vm/usesSpice.jsx:25
 msgid "Uses SPICE"
-msgstr ""
+msgstr "იყენებს SPICE-ს"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:313
 msgid "VM $0 Host Devices"
