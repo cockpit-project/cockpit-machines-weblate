@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 02:50+0000\n"
+"POT-Creation-Date: 2024-02-02 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 02:50+0000\n"
+"POT-Creation-Date: 2024-02-02 02:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -333,7 +333,7 @@ msgstr ""
 #: src/components/vm/vmMigrateDialog.jsx:213
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/storagePools/storagePoolDelete.jsx:205
-#: src/components/storagePools/createStoragePoolDialog.jsx:443
+#: src/components/storagePools/createStoragePoolDialog.jsx:445
 #: src/components/storagePools/storageVolumeCreate.jsx:117
 #: src/components/create-vm-dialog/createVmDialog.jsx:1477
 #: src/components/networks/networkOverviewTab.jsx:239
@@ -369,7 +369,7 @@ msgstr ""
 msgid "Changes will take effect after shutting down the VM"
 msgstr ""
 
-#: src/app.jsx:132
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -481,7 +481,7 @@ msgid "Crashed"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
-#: src/components/storagePools/createStoragePoolDialog.jsx:440
+#: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/networks/createNetworkDialog.jsx:418
 msgid "Create"
@@ -532,8 +532,8 @@ msgstr ""
 msgid "Create snapshot"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:436
-#: src/components/storagePools/createStoragePoolDialog.jsx:485
+#: src/components/storagePools/createStoragePoolDialog.jsx:438
+#: src/components/storagePools/createStoragePoolDialog.jsx:487
 msgid "Create storage pool"
 msgstr ""
 
@@ -555,7 +555,7 @@ msgstr ""
 msgid "Creating VM"
 msgstr ""
 
-#: src/app.jsx:301
+#: src/app.jsx:289
 msgid "Creating VM $0"
 msgstr ""
 
@@ -776,11 +776,11 @@ msgstr ""
 msgid "Download an OS"
 msgstr ""
 
-#: src/app.jsx:308
+#: src/app.jsx:296
 msgid "Download progress"
 msgstr ""
 
-#: src/app.jsx:301
+#: src/app.jsx:289
 msgid "Downloading image for VM $0"
 msgstr ""
 
@@ -838,7 +838,7 @@ msgstr ""
 msgid "Emulated machine"
 msgstr ""
 
-#: src/app.jsx:130
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
@@ -907,7 +907,7 @@ msgstr ""
 msgid "Failed to detach watchdog"
 msgstr ""
 
-#: src/app.jsx:186
+#: src/app.jsx:177
 msgid "Failed to fetch some resources"
 msgstr ""
 
@@ -983,7 +983,7 @@ msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:103
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
-#: src/components/storagePools/createStoragePoolDialog.jsx:197
+#: src/components/storagePools/createStoragePoolDialog.jsx:199
 msgid "Format"
 msgstr ""
 
@@ -1023,7 +1023,7 @@ msgstr ""
 msgid "GiB"
 msgstr ""
 
-#: src/app.jsx:291 src/app.jsx:305
+#: src/app.jsx:279 src/app.jsx:293
 msgid "Go to VMs list"
 msgstr ""
 
@@ -1035,7 +1035,7 @@ msgstr ""
 msgid "Gracefully shutdown"
 msgstr ""
 
-#: src/app.jsx:127
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr ""
 
@@ -1160,7 +1160,7 @@ msgstr ""
 msgid "Idle"
 msgstr ""
 
-#: src/app.jsx:141
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr ""
 
@@ -1819,7 +1819,7 @@ msgstr ""
 msgid "Physical disk device"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:163
+#: src/components/storagePools/createStoragePoolDialog.jsx:165
 msgid "Physical disk device on host"
 msgstr ""
 
@@ -1880,6 +1880,10 @@ msgstr ""
 
 #: src/helpers.js:282
 msgid "Power off"
+msgstr ""
+
+#: src/components/storagePools/createStoragePoolDialog.jsx:63
+msgid "Pre-formatted Block Device"
 msgstr ""
 
 #: src/components/vm/overview/cpuModal.jsx:273
@@ -2297,15 +2301,15 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:48
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:204
-#: src/components/storagePools/createStoragePoolDialog.jsx:171
-#: src/components/storagePools/createStoragePoolDialog.jsx:188
+#: src/components/storagePools/createStoragePoolDialog.jsx:173
+#: src/components/storagePools/createStoragePoolDialog.jsx:190
 #: src/components/storagePools/storagePoolOverviewTab.jsx:41
 #: src/components/storagePools/storagePoolOverviewTab.jsx:46
 msgid "Source path"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:182
-#: src/components/storagePools/createStoragePoolDialog.jsx:195
+#: src/components/storagePools/createStoragePoolDialog.jsx:184
+#: src/components/storagePools/createStoragePoolDialog.jsx:197
 msgid "Source path should not be empty"
 msgstr ""
 
@@ -2313,7 +2317,7 @@ msgstr ""
 msgid "Source should start with http, ftp or nfs protocol"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:216
+#: src/components/storagePools/createStoragePoolDialog.jsx:218
 msgid "Source volume group"
 msgstr ""
 
@@ -2321,7 +2325,7 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:233
+#: src/components/storagePools/createStoragePoolDialog.jsx:235
 msgid "Start pool when host boots"
 msgstr ""
 
@@ -2330,7 +2334,7 @@ msgstr ""
 msgid "Start should not be empty"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:231
+#: src/components/storagePools/createStoragePoolDialog.jsx:233
 msgid "Startup"
 msgstr ""
 
@@ -2372,7 +2376,7 @@ msgstr ""
 msgid "Storage pool $0 failed to get deactivated"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:399
+#: src/components/storagePools/createStoragePoolDialog.jsx:401
 msgid "Storage pool failed to be created"
 msgstr ""
 
@@ -2470,7 +2474,7 @@ msgstr ""
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:157
+#: src/components/storagePools/createStoragePoolDialog.jsx:159
 msgid "The directory on the server being exported"
 msgstr ""
 
@@ -2706,7 +2710,7 @@ msgstr ""
 msgid "VM $0 already exists"
 msgstr ""
 
-#: src/app.jsx:287
+#: src/app.jsx:275
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
@@ -2838,11 +2842,11 @@ msgstr ""
 msgid "Volume failed to be created"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:166
+#: src/components/storagePools/createStoragePoolDialog.jsx:168
 msgid "Volume group name"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:223
+#: src/components/storagePools/createStoragePoolDialog.jsx:225
 msgid "Volume group name should not be empty"
 msgstr ""
 
@@ -2959,7 +2963,7 @@ msgstr ""
 msgid "hostdev"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:66
+#: src/components/storagePools/createStoragePoolDialog.jsx:67
 msgid "iSCSI direct target"
 msgstr ""
 
@@ -2971,7 +2975,7 @@ msgstr ""
 msgid "iSCSI target"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:160
+#: src/components/storagePools/createStoragePoolDialog.jsx:162
 msgid "iSCSI target IQN"
 msgstr ""
 
