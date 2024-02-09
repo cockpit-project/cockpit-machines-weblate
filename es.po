@@ -24,16 +24,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-05 02:50+0000\n"
-"PO-Revision-Date: 2023-08-07 04:02+0000\n"
+"PO-Revision-Date: 2024-02-09 16:36+0000\n"
 "Last-Translator: Miguel Ángel Sánchez <maletils@gmail.com>\n"
-"Language-Team: Spanish <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/es/>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:913
 msgid "$0 $1 available at default location"
@@ -131,7 +131,7 @@ msgstr "Añadir"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:847
 msgid "Add SSH keys"
-msgstr ""
+msgstr "Añadir claves SSH"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
@@ -453,11 +453,11 @@ msgstr "Consola"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:83
 msgid "Convert QXL video card to VGA."
-msgstr ""
+msgstr "Convertir tarjetas de vídeo QXL a VGA."
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:82
 msgid "Convert SPICE graphics console to VNC."
-msgstr ""
+msgstr "Convertir consolas gráficas SPICE a VNC."
 
 #: src/components/vm/vmMigrateDialog.jsx:101
 #: src/components/vm/vmMigrateDialog.jsx:117
@@ -747,10 +747,8 @@ msgid "Disk $0 could not be removed"
 msgstr "No se pudo eliminar el disco $0"
 
 #: src/components/vm/disks/diskAdd.jsx:833
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
-msgstr "El disco no se pudo crear"
+msgstr "El disco no se pudo añadir"
 
 #: src/components/vm/disks/diskAdd.jsx:238
 msgid "Disk identifier"
@@ -963,10 +961,8 @@ msgid "Failed to rename VM $0"
 msgstr "Fallo al renombrar la MV $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:50
-#, fuzzy
-#| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "Fallo al renombrar la MV $0"
+msgstr "Fallo al reemplazar dispositivos SPICE"
 
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
@@ -1339,7 +1335,7 @@ msgstr "Red aislada"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr ""
+msgstr "Las claves se encuentran en ~/.ssh/ y tienen una extensión \".pub\"."
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:62
 msgid "LVM volume group"
@@ -1411,7 +1407,7 @@ msgstr "Dirección MAC"
 
 #: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
 msgid "MAC address already in use"
-msgstr ""
+msgstr "La dirección MAC ya está en uso"
 
 #: src/components/networks/networkOverviewTab.jsx:252
 msgid "MAC address must not be empty"
@@ -1495,16 +1491,12 @@ msgid "Memory could not be saved"
 msgstr "La memoria no se pudo guardar"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:90
-#, fuzzy
-#| msgid "Memory"
 msgid "Memory file"
-msgstr "Memoria"
+msgstr "Archivo de memoria"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
-#, fuzzy
-#| msgid "Source must not be empty"
 msgid "Memory file can not be empty"
-msgstr "Origen no debe estar vacío"
+msgstr "El archivo de memoria no puede estar vacío"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:233
 msgid "Memory must not be 0"
@@ -1596,13 +1588,13 @@ msgstr "El nombre contiene caracteres no válidos"
 #: src/components/storagePools/storageVolumeCreate.jsx:74
 #: src/components/create-vm-dialog/createVmDialog.jsx:193
 msgid "Name must not be empty"
-msgstr "Nombre no debe estar vacío"
+msgstr "El nombre no debe estar vacío"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
-msgstr "Nombre no debería estar vacío"
+msgstr "El nombre no debería estar vacío"
 
 #: src/components/networks/networkOverviewTab.jsx:47
 msgid "Name: "
@@ -1684,7 +1676,7 @@ msgstr "Nuevo nombre para el volumen"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:845
 msgid "No SSH keys specified"
-msgstr ""
+msgstr "No se han especificado claves SSH"
 
 #: src/components/vms/hostvmslist.jsx:150
 msgid "No VM is running or defined on this host"
@@ -1910,7 +1902,7 @@ msgstr "Dispositivo de disco físico en el anfitrión"
 
 #: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "Por favor, escoja otra dirección MAC"
 
 #: src/components/vm/disks/diskAdd.jsx:550
 msgid "Please choose a storage pool"
@@ -1931,6 +1923,7 @@ msgstr "Introduzca el nuevo nombre del volumen"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:52
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
+"Por favor, consulte $0 para ver cómo reconfigurar su MV de forma manual."
 
 #: src/components/vm/consoles/consoles.jsx:40
 msgid "Please start the virtual machine to access its console."
@@ -1973,10 +1966,8 @@ msgid "Power off"
 msgstr "Apagar"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:63
-#, fuzzy
-#| msgid "redirected device"
 msgid "Pre-formatted block device"
-msgstr "dispositivo redirigido"
+msgstr "Dispositivo de bloques pre-formateado"
 
 #: src/components/vm/overview/cpuModal.jsx:273
 msgid "Preferred number of sockets to expose to the guest."
@@ -2047,7 +2038,7 @@ msgstr "Provee una LAN virtual con una NAT al mundo exterior."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:809
 msgid "Public SSH key"
-msgstr ""
+msgstr "Clave SSH pública"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:805
 msgid "Public key"
@@ -2076,6 +2067,8 @@ msgid ""
 "Reconfigure the virtual machine for a host which does not support SPICE, for "
 "host upgrades or live migration:"
 msgstr ""
+"Reconfigura la máquina virtual para un anfitrión sin soporte de SPICE, para "
+"actualizaciones de anfitrión o migraciones en vivo:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
@@ -2101,7 +2094,7 @@ msgstr "Eliminar"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:84
 msgid "Remove SPICE audio and host devices."
-msgstr ""
+msgstr "Eliminar los dispositivos SPICE de audio y del anfitrión."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
@@ -2145,15 +2138,15 @@ msgstr "Renombrar la MV $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:70
 msgid "Replace"
-msgstr ""
+msgstr "Reemplazar"
 
 #: src/components/vm/vmActions.jsx:440 src/components/vm/usesSpice.jsx:41
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "Reemplazar los dispositivos SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:63
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "Reemplazar los dispositivos SPICE en la MV $0"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2233,6 +2226,8 @@ msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"Este anfitrión no tiene soporte de SPICE, por lo que la maquina virtual no "
+"podrá arrancar."
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
 msgid "SPICE port"
@@ -2412,7 +2407,7 @@ msgstr "Formato fuente"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:137
 msgid "Source must not be empty"
-msgstr "Origen no debe estar vacío"
+msgstr "El origen no debe estar vacío"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:48
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
@@ -2547,7 +2542,7 @@ msgstr "suspendido (PM)"
 
 #: src/components/vm/usesSpice.jsx:36
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "Cambie a VNC para continuar usando esta máquina."
 
 #: src/helpers.js:220
 msgid "System"
@@ -2829,11 +2824,8 @@ msgid "User login"
 msgstr "Usuario"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:254
-#, fuzzy
-#| msgid "User login must not be empty when user password is set"
 msgid "User login must not be empty when SSH keys are set"
-msgstr ""
-"El usuario no debe estar vacío cuando se ha asignado la contraseña de usuario"
+msgstr "El usuario no debe estar vacío cuando se han asignado claves SSH"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:252
 msgid "User login must not be empty when user password is set"
@@ -2855,7 +2847,7 @@ msgstr "Sesión de usuario"
 
 #: src/components/vm/usesSpice.jsx:25
 msgid "Uses SPICE"
-msgstr ""
+msgstr "Usa SPICE"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:313
 msgid "VM $0 Host Devices"
