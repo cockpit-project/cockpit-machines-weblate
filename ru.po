@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 02:50+0000\n"
+"POT-Creation-Date: 2024-02-13 02:50+0000\n"
 "PO-Revision-Date: 2021-05-31 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -334,7 +334,7 @@ msgstr "Кэш"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/vmReplaceSpiceDialog.jsx:73
+#: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
@@ -458,12 +458,12 @@ msgstr "Подключение"
 msgid "Console"
 msgstr "Консоль"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:83
-msgid "Convert QXL video card to VGA."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+msgid "Convert QXL video card to VGA"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:82
-msgid "Convert SPICE graphics console to VNC."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:156
+msgid "Convert SPICE graphics console to VNC"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -562,7 +562,7 @@ msgstr "Создать новый том"
 msgid "Create new virtual machine"
 msgstr "Создание новой виртуальной машины"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:53
 msgid "Create snapshot"
 msgstr "Создание моментального снимка"
@@ -643,8 +643,8 @@ msgstr "Диапазон адресов DHCP"
 msgid "Deactivate"
 msgstr "Отключить"
 
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
-#: src/components/vm/vmActions.jsx:474
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:463
+#: src/components/vm/vmActions.jsx:471
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
@@ -709,6 +709,10 @@ msgstr "Может редактироваться, только когда го�
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:99
 msgid "Description"
 msgstr "Описание"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Deselect others"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -1019,7 +1023,7 @@ msgstr "Не удалось получить IP-адреса интерфейс�
 msgid "Failed to rename VM $0"
 msgstr "Не удалось клонировать ВМ $0"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+#: src/components/vm/vmReplaceSpiceDialog.jsx:76
 #, fuzzy
 #| msgid "Failed to clone VM $0"
 msgid "Failed to replace SPICE devices"
@@ -1158,6 +1162,10 @@ msgstr "Принудительное завершение работы"
 #| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
 msgstr "Подключение к службе виртуализации"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:161
+msgid "Help"
+msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1600,7 +1608,7 @@ msgstr "Не удалось сохранить значение для памя�
 msgid "Memory file"
 msgstr "Память"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 #, fuzzy
 #| msgid "Name must not be empty"
 msgid "Memory file can not be empty"
@@ -1689,11 +1697,17 @@ msgstr ""
 msgid "Name"
 msgstr "Имя"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:136
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:137
 #, fuzzy
 #| msgid "VM $0 already exists"
 msgid "Name already exists"
 msgstr "ВМ $0 уже существует"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Name can not be empty"
+msgstr "Имя не должно быть пустым"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #, fuzzy
@@ -1706,7 +1720,6 @@ msgstr "Имя не должно содержать знак «$0»."
 msgid "Name must not be empty"
 msgstr "Имя не должно быть пустым"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
@@ -1972,6 +1985,10 @@ msgstr "Операционная система"
 msgid "Operation is in progress"
 msgstr "Операция выполняется"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:99
+msgid "Other VMs using SPICE"
+msgstr ""
+
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: src/components/vm/vmDetailsPage.jsx:113
@@ -2063,7 +2080,7 @@ msgstr "Выберите том"
 msgid "Please enter new volume name"
 msgstr "Введите новое имя тома"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+#: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
@@ -2205,12 +2222,6 @@ msgstr "Перезагрузка"
 msgid "Reboot $0?"
 msgstr "Перезагрузка"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:80
-msgid ""
-"Reconfigure the virtual machine for a host which does not support SPICE, for "
-"host upgrades or live migration:"
-msgstr ""
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
 msgstr "Удалённый URL-адрес"
@@ -2234,8 +2245,8 @@ msgstr "Сведения о гипервизоре"
 msgid "Remove"
 msgstr "Удалить"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:84
-msgid "Remove SPICE audio and host devices."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:158
+msgid "Remove SPICE audio and host devices"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -2276,7 +2287,7 @@ msgstr "Добавить сетевой интерфейс"
 msgid "Remove static host from DHCP"
 msgstr ""
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:450
 msgid "Rename"
 msgstr ""
 
@@ -2284,17 +2295,29 @@ msgstr ""
 msgid "Rename VM $0"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+#: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
 msgstr ""
 
-#: src/components/vm/usesSpice.jsx:41 src/components/vm/vmActions.jsx:440
+#: src/components/vm/usesSpice.jsx:38
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
+#: src/components/vm/vmActions.jsx:437
 msgid "Replace SPICE devices"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
 msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:146
+msgid "Replace SPICE on selected VMs."
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:147
+#, fuzzy
+#| msgid "Create new virtual machine"
+msgid "Replace SPICE on the virtual machine."
+msgstr "Создание новой виртуальной машины"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2367,7 +2390,13 @@ msgstr "Порт SPICE TLS:"
 msgid "SPICE address"
 msgstr "Адрес SPICE:"
 
-#: src/components/vm/usesSpice.jsx:35
+#: src/components/vm/vmReplaceSpiceDialog.jsx:151
+#: src/components/vm/vmReplaceSpiceDialog.jsx:153
+#, fuzzy
+msgid "SPICE conversion"
+msgstr "Порт SPICE:"
+
+#: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
@@ -2393,6 +2422,10 @@ msgstr "Отправить клавишу"
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
 msgstr "Сохранить"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Select all"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:110
 #, fuzzy
@@ -2542,7 +2575,7 @@ msgid ""
 "lost."
 msgstr "После удаления снимка все захваченное содержимое будет потеряно."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:174
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
 #, fuzzy
 msgid "Snapshot failed to be created"
 msgstr "Не удалось создать диск"
@@ -2719,7 +2752,7 @@ msgstr ""
 msgid "Suspended (PM)"
 msgstr "приостановлено (PM)"
 
-#: src/components/vm/usesSpice.jsx:36
+#: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
 msgstr ""
 
@@ -2822,7 +2855,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:462
+#: src/components/vm/vmActions.jsx:459
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Эта ВМ временная. Выключите ее, если хотите ее удалить."
 
@@ -2832,6 +2865,12 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:166
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
 msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:84
@@ -3011,7 +3050,7 @@ msgstr ""
 msgid "User session"
 msgstr "Пароль пользователя"
 
-#: src/components/vm/usesSpice.jsx:25
+#: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
 msgstr ""
 

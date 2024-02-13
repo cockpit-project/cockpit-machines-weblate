@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 02:50+0000\n"
+"POT-Creation-Date: 2024-02-13 02:50+0000\n"
 "PO-Revision-Date: 2024-02-05 07:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -308,7 +308,7 @@ msgstr "Cache"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/vmReplaceSpiceDialog.jsx:73
+#: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
@@ -427,12 +427,16 @@ msgstr "Anslutning"
 msgid "Console"
 msgstr "Konsol"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:83
-msgid "Convert QXL video card to VGA."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#, fuzzy
+#| msgid "Convert QXL video card to VGA."
+msgid "Convert QXL video card to VGA"
 msgstr "Konvertera QXL grafikkort till VGA."
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:82
-msgid "Convert SPICE graphics console to VNC."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:156
+#, fuzzy
+#| msgid "Convert SPICE graphics console to VNC."
+msgid "Convert SPICE graphics console to VNC"
 msgstr "Konvertera SPICE grafikkonsol till VNC."
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -516,7 +520,7 @@ msgstr "Skapa ny rå volym"
 msgid "Create new virtual machine"
 msgstr "Skapa en ny virtuell maskin"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:53
 msgid "Create snapshot"
 msgstr "Skapa en ögonblicksbild"
@@ -591,8 +595,8 @@ msgstr "DHCP Inställningar"
 msgid "Deactivate"
 msgstr "Avaktivera"
 
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
-#: src/components/vm/vmActions.jsx:474
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:463
+#: src/components/vm/vmActions.jsx:471
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
@@ -646,6 +650,10 @@ msgstr "Att ta bort delade kataloger är endast möjligt när gästen är avstä
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:99
 msgid "Description"
 msgstr "Beskrivning"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Deselect others"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -914,7 +922,7 @@ msgstr "Kunde inte hämta IP-adresser från portar i $0"
 msgid "Failed to rename VM $0"
 msgstr "Misslyckades att byta namn på VM $0"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+#: src/components/vm/vmReplaceSpiceDialog.jsx:76
 msgid "Failed to replace SPICE devices"
 msgstr "Misslyckades att ersätta SPICE-enheter"
 
@@ -1036,6 +1044,10 @@ msgstr "Graciös avstängning"
 #: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "Hårdvaruvirtualisering är inaktiverad"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:161
+msgid "Help"
+msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1438,7 +1450,7 @@ msgstr "Minnet kunde inte sparas"
 msgid "Memory file"
 msgstr "Minnes fil"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 msgid "Memory file can not be empty"
 msgstr "Minnes fil kan inte vara tom"
 
@@ -1520,9 +1532,15 @@ msgstr "NIC $0 på VM $1 kunde inte ändra läge"
 msgid "Name"
 msgstr "Namn"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:136
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:137
 msgid "Name already exists"
 msgstr "Namn existerar redan"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Name can not be empty"
+msgstr "Namnet kan inte vara tomt"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1534,7 +1552,6 @@ msgstr "Namnet innehåller ogiltiga tecken"
 msgid "Name must not be empty"
 msgstr "Namnet kan inte vara tomt"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
@@ -1769,6 +1786,10 @@ msgstr "Operativsystem"
 msgid "Operation is in progress"
 msgstr "Operation pågår"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:99
+msgid "Other VMs using SPICE"
+msgstr ""
+
 #: src/components/vm/vmDetailsPage.jsx:113
 #: src/components/storagePools/storagePool.jsx:74
 msgid "Overview"
@@ -1854,7 +1875,7 @@ msgstr "Välj en volym"
 msgid "Please enter new volume name"
 msgstr "Ange ett nytt volymnamn"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+#: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr "Se $0 hur du konfigurerar om din VM manuellt."
 
@@ -1994,14 +2015,6 @@ msgstr "Starta om"
 msgid "Reboot $0?"
 msgstr "Starta om $0?"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:80
-msgid ""
-"Reconfigure the virtual machine for a host which does not support SPICE, for "
-"host upgrades or live migration:"
-msgstr ""
-"Konfigurera om den virtuella maskinen för en värd som inte stöder SPICE, för "
-"värduppgraderingar eller livemigrering:"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
 msgstr "Fjärr-URL"
@@ -2024,8 +2037,10 @@ msgstr "Detaljer om fjärrvisaren"
 msgid "Remove"
 msgstr "Ta bort"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:84
-msgid "Remove SPICE audio and host devices."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:158
+#, fuzzy
+#| msgid "Remove SPICE audio and host devices."
+msgid "Remove SPICE audio and host devices"
 msgstr "Ta bort SPICE-ljud- och värdenheter."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -2056,7 +2071,7 @@ msgstr "Ta bort nätverksgränssnittet?"
 msgid "Remove static host from DHCP"
 msgstr "Ta bort statiska värdposter från DHCP"
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:450
 msgid "Rename"
 msgstr "Byt namn"
 
@@ -2064,17 +2079,31 @@ msgstr "Byt namn"
 msgid "Rename VM $0"
 msgstr "Byt namn på VM $0"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+#: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
 msgstr "Ersätt"
 
-#: src/components/vm/usesSpice.jsx:41 src/components/vm/vmActions.jsx:440
+#: src/components/vm/usesSpice.jsx:38
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
+#: src/components/vm/vmActions.jsx:437
 msgid "Replace SPICE devices"
 msgstr "Ersätt SPICE enheter"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
 msgstr "Ersätt SPICE enheter i VM $0"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:146
+#, fuzzy
+#| msgid "Replace SPICE devices"
+msgid "Replace SPICE on selected VMs."
+msgstr "Ersätt SPICE enheter"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:147
+#, fuzzy
+#| msgid "Create new virtual machine"
+msgid "Replace SPICE on the virtual machine."
+msgstr "Skapa en ny virtuell maskin"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2148,7 +2177,14 @@ msgstr "SPICE TLS-port"
 msgid "SPICE address"
 msgstr "SPICE-adress"
 
-#: src/components/vm/usesSpice.jsx:35
+#: src/components/vm/vmReplaceSpiceDialog.jsx:151
+#: src/components/vm/vmReplaceSpiceDialog.jsx:153
+#, fuzzy
+#| msgid "SPICE port"
+msgid "SPICE conversion"
+msgstr "SPICE-port"
+
+#: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
@@ -2173,6 +2209,10 @@ msgstr "SSH-nycklar"
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
 msgstr "Spara"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Select all"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2300,7 +2340,7 @@ msgstr ""
 "Ögonblicksbilden $0 kommer raderas från $1. All dess fångade innehåll kommer "
 "att gå förlorat."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:174
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
 msgid "Snapshot failed to be created"
 msgstr "Misslyckades att skapa ögonblicksbild"
 
@@ -2463,7 +2503,7 @@ msgstr "Lagringsvolymer måste delas mellan denna värd och destinationsvärden.
 msgid "Suspended (PM)"
 msgstr "vilande (SH)"
 
-#: src/components/vm/usesSpice.jsx:36
+#: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
 msgstr "Byt till VNC för att fortsätta använda den här maskinen."
 
@@ -2560,7 +2600,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr "Kopiera och klistra sedan in det ovan."
 
-#: src/components/vm/vmActions.jsx:462
+#: src/components/vm/vmActions.jsx:459
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Denna VM är transient. Stäng av den om du vill radera den."
 
@@ -2571,6 +2611,18 @@ msgstr "Denna disk kommer tas bort från $0:"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
 msgstr "Detta filsystem kommer tas bort från $0:"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:166
+#, fuzzy
+#| msgid ""
+#| "Reconfigure the virtual machine for a host which does not support SPICE, "
+#| "for host upgrades or live migration:"
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
+msgstr ""
+"Konfigurera om den virtuella maskinen för en värd som inte stöder SPICE, för "
+"värduppgraderingar eller livemigrering:"
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
@@ -2754,7 +2806,7 @@ msgstr ""
 msgid "User session"
 msgstr "Användarsession"
 
-#: src/components/vm/usesSpice.jsx:25
+#: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
 msgstr "Använder SPICE"
 

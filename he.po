@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 02:50+0000\n"
+"POT-Creation-Date: 2024-02-13 02:50+0000\n"
 "PO-Revision-Date: 2023-03-06 09:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit-"
@@ -333,7 +333,7 @@ msgstr "מכלא"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/vmReplaceSpiceDialog.jsx:73
+#: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
@@ -449,12 +449,12 @@ msgstr "התחברות"
 msgid "Console"
 msgstr "מסוף"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:83
-msgid "Convert QXL video card to VGA."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+msgid "Convert QXL video card to VGA"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:82
-msgid "Convert SPICE graphics console to VNC."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:156
+msgid "Convert SPICE graphics console to VNC"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -546,7 +546,7 @@ msgstr "יצירת כרך חדש"
 msgid "Create new virtual machine"
 msgstr "יצירת מכונה וירטואלית חדשה"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:53
 msgid "Create snapshot"
 msgstr "יצירת תמונת מצב"
@@ -623,8 +623,8 @@ msgstr "הגדרות DHCP"
 msgid "Deactivate"
 msgstr "השבתה"
 
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
-#: src/components/vm/vmActions.jsx:474
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:463
+#: src/components/vm/vmActions.jsx:471
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
@@ -678,6 +678,10 @@ msgstr "אפשר למחוק תיקיות משותפות רק כאשר האורח
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:99
 msgid "Description"
 msgstr "תיאור"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Deselect others"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -954,7 +958,7 @@ msgstr "קבלת כתובות ה־IP של המנשקים שקיימים תחת $
 msgid "Failed to rename VM $0"
 msgstr "שינוי שם המכונה הווירטואלית $0 נכשל"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+#: src/components/vm/vmReplaceSpiceDialog.jsx:76
 #, fuzzy
 #| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
@@ -1083,6 +1087,10 @@ msgstr "לאלץ כיבוי"
 #| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
 msgstr "מתבצעת התחברות לשירות וירטואליזציה"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:161
+msgid "Help"
+msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1511,7 +1519,7 @@ msgstr "לא ניתן לשמור את הזיכרון"
 msgid "Memory file"
 msgstr "זיכרון"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 #, fuzzy
 #| msgid "Source must not be empty"
 msgid "Memory file can not be empty"
@@ -1599,11 +1607,17 @@ msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטו�
 msgid "Name"
 msgstr "שם"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:136
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:137
 #, fuzzy
 #| msgid "VM $0 already exists"
 msgid "Name already exists"
 msgstr "המכונה הווירטואלית $0 כבר קיימת"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Name can not be empty"
+msgstr "השם לא יכול להישאר ריק"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1615,7 +1629,6 @@ msgstr "השם מכיל תווים שגויים"
 msgid "Name must not be empty"
 msgstr "השם לא יכול להישאר ריק"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
@@ -1868,6 +1881,10 @@ msgstr "מערכת הפעלה"
 msgid "Operation is in progress"
 msgstr "המשימה בתהליך"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:99
+msgid "Other VMs using SPICE"
+msgstr ""
+
 #: src/components/vm/vmDetailsPage.jsx:113
 #: src/components/storagePools/storagePool.jsx:74
 msgid "Overview"
@@ -1953,7 +1970,7 @@ msgstr "נא לבחור כרך"
 msgid "Please enter new volume name"
 msgstr "נא להקליד את שם הכרך החדש"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+#: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
@@ -2091,12 +2108,6 @@ msgstr "הפעלה מחדש"
 msgid "Reboot $0?"
 msgstr "הפעלה מחדש"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:80
-msgid ""
-"Reconfigure the virtual machine for a host which does not support SPICE, for "
-"host upgrades or live migration:"
-msgstr ""
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
 msgstr "כתובת מרוחקת"
@@ -2119,8 +2130,8 @@ msgstr "פרטי המציג מרחוק"
 msgid "Remove"
 msgstr "הסרה"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:84
-msgid "Remove SPICE audio and host devices."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:158
+msgid "Remove SPICE audio and host devices"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -2153,7 +2164,7 @@ msgstr "להסיר מנשק רשת?"
 msgid "Remove static host from DHCP"
 msgstr ""
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:450
 msgid "Rename"
 msgstr "שינוי שם"
 
@@ -2161,17 +2172,29 @@ msgstr "שינוי שם"
 msgid "Rename VM $0"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+#: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
 msgstr ""
 
-#: src/components/vm/usesSpice.jsx:41 src/components/vm/vmActions.jsx:440
+#: src/components/vm/usesSpice.jsx:38
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
+#: src/components/vm/vmActions.jsx:437
 msgid "Replace SPICE devices"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
 msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:146
+msgid "Replace SPICE on selected VMs."
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:147
+#, fuzzy
+#| msgid "Create new virtual machine"
+msgid "Replace SPICE on the virtual machine."
+msgstr "יצירת מכונה וירטואלית חדשה"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2243,7 +2266,14 @@ msgstr "פתחת TLS של SPICE"
 msgid "SPICE address"
 msgstr "כתובת SPICE"
 
-#: src/components/vm/usesSpice.jsx:35
+#: src/components/vm/vmReplaceSpiceDialog.jsx:151
+#: src/components/vm/vmReplaceSpiceDialog.jsx:153
+#, fuzzy
+#| msgid "SPICE port"
+msgid "SPICE conversion"
+msgstr "פתחת SPICE"
+
+#: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
@@ -2268,6 +2298,10 @@ msgstr "שליחת מקש"
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
 msgstr "שמירה"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Select all"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2407,7 +2441,7 @@ msgid ""
 "lost."
 msgstr "לאחר מחיקת תמונת המצב, כל התוכן שנלכד בה יאבד."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:174
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
 msgid "Snapshot failed to be created"
 msgstr "יצירת תמונת המצב נכשלה"
 
@@ -2574,7 +2608,7 @@ msgstr ""
 msgid "Suspended (PM)"
 msgstr "מושהה (מכונה פיזית)"
 
-#: src/components/vm/usesSpice.jsx:36
+#: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
 msgstr ""
 
@@ -2671,7 +2705,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr ""
 
-#: src/components/vm/vmActions.jsx:462
+#: src/components/vm/vmActions.jsx:459
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "זו מכונה וירטואלית זמנית. ניתן לכבות אותה אם ברצונך למחוק אותה."
 
@@ -2681,6 +2715,12 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:166
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
 msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:84
@@ -2857,7 +2897,7 @@ msgstr "ססמת המשתמש לא יכולה להיות ריקה כשמוגדר
 msgid "User session"
 msgstr "ססמת משתמש"
 
-#: src/components/vm/usesSpice.jsx:25
+#: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
 msgstr ""
 

@@ -11,11 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 02:50+0000\n"
+"POT-Creation-Date: 2024-02-13 02:50+0000\n"
 "PO-Revision-Date: 2024-02-13 09:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"cockpit-machines/main/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit-"
+"machines/main/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -308,7 +308,7 @@ msgstr "캐쉬"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/vmReplaceSpiceDialog.jsx:73
+#: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
@@ -428,12 +428,16 @@ msgstr "연결"
 msgid "Console"
 msgstr "콘솔"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:83
-msgid "Convert QXL video card to VGA."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#, fuzzy
+#| msgid "Convert QXL video card to VGA."
+msgid "Convert QXL video card to VGA"
 msgstr "QXL 비디오 카드를 VGA로 변환합니다."
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:82
-msgid "Convert SPICE graphics console to VNC."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:156
+#, fuzzy
+#| msgid "Convert SPICE graphics console to VNC."
+msgid "Convert SPICE graphics console to VNC"
 msgstr "SPICE 그래픽 콘솔을 VNC로 변환합니다."
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -516,7 +520,7 @@ msgstr "신규 단순 볼륨 만들기"
 msgid "Create new virtual machine"
 msgstr "새로운 가상 머신 만들기"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:53
 msgid "Create snapshot"
 msgstr "순간찍기 생성"
@@ -591,8 +595,8 @@ msgstr "DHCP 설정"
 msgid "Deactivate"
 msgstr "비활성화"
 
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
-#: src/components/vm/vmActions.jsx:474
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:463
+#: src/components/vm/vmActions.jsx:471
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
@@ -645,6 +649,10 @@ msgstr "공유된 디렉토리 삭제하기는 게스트가 종료된 경우에�
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:99
 msgid "Description"
 msgstr "설명"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Deselect others"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -909,7 +917,7 @@ msgstr "$0에 표시된 연결장치의 IP 주소를 가져오지 못했습니�
 msgid "Failed to rename VM $0"
 msgstr "VM $0 이름변경에 실패함"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+#: src/components/vm/vmReplaceSpiceDialog.jsx:76
 msgid "Failed to replace SPICE devices"
 msgstr "SPICE 장치를 교체하는데 실패함"
 
@@ -1031,6 +1039,10 @@ msgstr "우아한 종료"
 #: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "하드웨어 가상화가 비활성화 되었습니다"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:161
+msgid "Help"
+msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1438,7 +1450,7 @@ msgstr "메모리는 저장 할 수 없습니다"
 msgid "Memory file"
 msgstr "메모리 파일"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 msgid "Memory file can not be empty"
 msgstr "메모리 파일은 비워 둘 수 없습니다"
 
@@ -1520,9 +1532,15 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 msgid "Name"
 msgstr "이름"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:136
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:137
 msgid "Name already exists"
 msgstr "이름이 이미 존재합니다"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Name can not be empty"
+msgstr "이름을 입력하셔야 합니다"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1534,7 +1552,6 @@ msgstr "이름에 잘못된 문자가 있습니다"
 msgid "Name must not be empty"
 msgstr "이름을 입력하셔야 합니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
@@ -1767,6 +1784,10 @@ msgstr "운영 체제"
 msgid "Operation is in progress"
 msgstr "실행 중인 작업"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:99
+msgid "Other VMs using SPICE"
+msgstr ""
+
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: src/components/vm/vmDetailsPage.jsx:113
@@ -1854,7 +1875,7 @@ msgstr "볼륨을 선택하십시오"
 msgid "Please enter new volume name"
 msgstr "새 볼륨 이름을 입력해 주십시오"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+#: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr "자신의 VM을 수동으로 재구성하는 방법 $0를 참조하세요."
 
@@ -1993,14 +2014,6 @@ msgstr "재시작"
 msgid "Reboot $0?"
 msgstr "$0를 재시작 할까요?"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:80
-msgid ""
-"Reconfigure the virtual machine for a host which does not support SPICE, for "
-"host upgrades or live migration:"
-msgstr ""
-"호스트 향상 또는 실시간 이전을 위해 SPICE를 지원하지 않는 호스트용 가상 머신"
-"을 재구성합니다:"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
 msgstr "원격 URL"
@@ -2023,8 +2036,10 @@ msgstr "원격 뷰어 세부 정보"
 msgid "Remove"
 msgstr "제거"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:84
-msgid "Remove SPICE audio and host devices."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:158
+#, fuzzy
+#| msgid "Remove SPICE audio and host devices."
+msgid "Remove SPICE audio and host devices"
 msgstr "SPICE 오디오와 호스트 장치를 제거합니다."
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -2055,7 +2070,7 @@ msgstr "네트워크 연결장치 제거?"
 msgid "Remove static host from DHCP"
 msgstr "DHCP에서 고정 호스트를 제거합니다"
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:450
 msgid "Rename"
 msgstr "이름변경"
 
@@ -2063,17 +2078,31 @@ msgstr "이름변경"
 msgid "Rename VM $0"
 msgstr "VM $0 이름변경"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+#: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
 msgstr "교체"
 
-#: src/components/vm/usesSpice.jsx:41 src/components/vm/vmActions.jsx:440
+#: src/components/vm/usesSpice.jsx:38
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
+#: src/components/vm/vmActions.jsx:437
 msgid "Replace SPICE devices"
 msgstr "SPICE 장치를 교체합니다"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
 msgstr "VM $0에서 SPICE 장치를 교체합니다"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:146
+#, fuzzy
+#| msgid "Replace SPICE devices"
+msgid "Replace SPICE on selected VMs."
+msgstr "SPICE 장치를 교체합니다"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:147
+#, fuzzy
+#| msgid "Create new virtual machine"
+msgid "Replace SPICE on the virtual machine."
+msgstr "새로운 가상 머신 만들기"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2143,7 +2172,14 @@ msgstr "SPICE TLS 포트"
 msgid "SPICE address"
 msgstr "SPICE 주소"
 
-#: src/components/vm/usesSpice.jsx:35
+#: src/components/vm/vmReplaceSpiceDialog.jsx:151
+#: src/components/vm/vmReplaceSpiceDialog.jsx:153
+#, fuzzy
+#| msgid "SPICE port"
+msgid "SPICE conversion"
+msgstr "SPICE 포트"
+
+#: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
@@ -2167,6 +2203,10 @@ msgstr "SSH 키"
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
 msgstr "저장"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Select all"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2295,7 +2335,7 @@ msgid ""
 "lost."
 msgstr "순간찍기 $0는 $1에서 삭제됩니다. 획득된 모든 내용이 손실됩니다."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:174
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
 msgid "Snapshot failed to be created"
 msgstr "순간찍기를 생성하는데 실패했습니다"
 
@@ -2458,7 +2498,7 @@ msgstr "저장소 볼륨은 이 호스트와 대상 호스트 사이에서 공�
 msgid "Suspended (PM)"
 msgstr "일시 정지됩니다(PM)"
 
-#: src/components/vm/usesSpice.jsx:36
+#: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
 msgstr "이 장비를 사용하도록 계속해서 VNC로 전환합니다."
 
@@ -2555,7 +2595,7 @@ msgstr "게스트가 이 내보내기 지점으로 적재하는데 사용되는 
 msgid "Then copy and paste it above."
 msgstr "그런 다음 복사하고 이를 위에 붙입니다."
 
-#: src/components/vm/vmActions.jsx:462
+#: src/components/vm/vmActions.jsx:459
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "이 VM은 일시적입니다. 삭제하려면 VM을 종료하십시오."
 
@@ -2566,6 +2606,18 @@ msgstr "이 디스크는 $0에서 제거됩니다:"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
 msgstr "이 파일시스템은 $0에서 제거됩니다:"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:166
+#, fuzzy
+#| msgid ""
+#| "Reconfigure the virtual machine for a host which does not support SPICE, "
+#| "for host upgrades or live migration:"
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
+msgstr ""
+"호스트 향상 또는 실시간 이전을 위해 SPICE를 지원하지 않는 호스트용 가상 머신"
+"을 재구성합니다:"
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
@@ -2746,7 +2798,7 @@ msgstr "사용자 비밀번호는 사용자 로그인 설정 할 때에 비워�
 msgid "User session"
 msgstr "사용자 세션"
 
-#: src/components/vm/usesSpice.jsx:25
+#: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
 msgstr "SPICE를 사용합니다"
 

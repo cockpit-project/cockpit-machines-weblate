@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 02:50+0000\n"
+"POT-Creation-Date: 2024-02-13 02:50+0000\n"
 "PO-Revision-Date: 2023-08-30 06:15+0000\n"
 "Last-Translator: Keiko Moriguchi <kemorigu@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -307,7 +307,7 @@ msgstr "キャッシュ"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:174
 #: src/components/vm/nics/nicAdd.jsx:222 src/components/vm/nics/nicEdit.jsx:192
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/vmReplaceSpiceDialog.jsx:73
+#: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/hostdevs/hostDevAdd.jsx:234
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:102
@@ -427,12 +427,12 @@ msgstr "接続"
 msgid "Console"
 msgstr "コンソール"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:83
-msgid "Convert QXL video card to VGA."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+msgid "Convert QXL video card to VGA"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:82
-msgid "Convert SPICE graphics console to VNC."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:156
+msgid "Convert SPICE graphics console to VNC"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:101
@@ -517,7 +517,7 @@ msgstr "raw ボリュームの新規作成"
 msgid "Create new virtual machine"
 msgstr "仮想マシンの新規作成"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:53
 msgid "Create snapshot"
 msgstr "スナップショットの作成"
@@ -592,8 +592,8 @@ msgstr "DHCP 設定"
 msgid "Deactivate"
 msgstr "非アクティブ化"
 
-#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:466
-#: src/components/vm/vmActions.jsx:474
+#: src/components/vm/deleteDialog.jsx:171 src/components/vm/vmActions.jsx:463
+#: src/components/vm/vmActions.jsx:471
 #: src/components/storagePools/storagePoolDelete.jsx:202
 #: src/components/storagePools/storagePoolDelete.jsx:238
 #: src/components/storagePools/storagePoolDelete.jsx:248
@@ -647,6 +647,10 @@ msgstr ""
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:99
 msgid "Description"
 msgstr "説明"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Deselect others"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -914,7 +918,7 @@ msgstr "$0 のインターフェイスの IP アドレスの取得に失敗し�
 msgid "Failed to rename VM $0"
 msgstr "仮想マシン $0 の名前変更に失敗しました"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:50
+#: src/components/vm/vmReplaceSpiceDialog.jsx:76
 #, fuzzy
 #| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
@@ -1038,6 +1042,10 @@ msgstr "正常なシャットダウン"
 #: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "ハードウェア仮想化が無効になっています"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:161
+msgid "Help"
+msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1451,7 +1459,7 @@ msgstr "メモリーは保存できませんでした"
 msgid "Memory file"
 msgstr "メモリー"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
 #, fuzzy
 #| msgid "Source must not be empty"
 msgid "Memory file can not be empty"
@@ -1535,9 +1543,15 @@ msgstr "仮想マシン $1 の NIC $0 は、状態の変更に失敗しました
 msgid "Name"
 msgstr "名前"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:136
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:137
 msgid "Name already exists"
 msgstr "名前はすでに存在します"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Name can not be empty"
+msgstr "名前は空欄にできません"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1549,7 +1563,6 @@ msgstr "名前に無効な文字が含まれています"
 msgid "Name must not be empty"
 msgstr "名前は空欄にできません"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 #: src/components/networks/createNetworkDialog.jsx:53
 msgid "Name should not be empty"
@@ -1784,6 +1797,10 @@ msgstr "オペレーティングシステム"
 msgid "Operation is in progress"
 msgstr "操作を実行中"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:99
+msgid "Other VMs using SPICE"
+msgstr ""
+
 #: src/components/vm/vmDetailsPage.jsx:113
 #: src/components/storagePools/storagePool.jsx:74
 msgid "Overview"
@@ -1870,7 +1887,7 @@ msgstr "ボリュームを選択してください"
 msgid "Please enter new volume name"
 msgstr "新しいボリューム名を入力してください"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:52
+#: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
@@ -2011,12 +2028,6 @@ msgstr "再起動"
 msgid "Reboot $0?"
 msgstr "再起動 $0?"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:80
-msgid ""
-"Reconfigure the virtual machine for a host which does not support SPICE, for "
-"host upgrades or live migration:"
-msgstr ""
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:343
 msgid "Remote URL"
 msgstr "リモート URL"
@@ -2039,8 +2050,8 @@ msgstr "リモートビューアーの詳細"
 msgid "Remove"
 msgstr "削除"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:84
-msgid "Remove SPICE audio and host devices."
+#: src/components/vm/vmReplaceSpiceDialog.jsx:158
+msgid "Remove SPICE audio and host devices"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
@@ -2073,7 +2084,7 @@ msgstr "ネットワークインターフェースを削除しますか?"
 msgid "Remove static host from DHCP"
 msgstr "DHCP から静的ホストを削除する"
 
-#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:453
+#: src/components/vm/vmRenameDialog.jsx:68 src/components/vm/vmActions.jsx:450
 msgid "Rename"
 msgstr "名前変更"
 
@@ -2081,17 +2092,29 @@ msgstr "名前変更"
 msgid "Rename VM $0"
 msgstr "仮想マシン $0 の名前を変更"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:70
+#: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
 msgstr ""
 
-#: src/components/vm/usesSpice.jsx:41 src/components/vm/vmActions.jsx:440
+#: src/components/vm/usesSpice.jsx:38
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
+#: src/components/vm/vmActions.jsx:437
 msgid "Replace SPICE devices"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:63
+#: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
 msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:146
+msgid "Replace SPICE on selected VMs."
+msgstr ""
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:147
+#, fuzzy
+#| msgid "Create new virtual machine"
+msgid "Replace SPICE on the virtual machine."
+msgstr "仮想マシンの新規作成"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2165,7 +2188,14 @@ msgstr "SPICE TLS ポート"
 msgid "SPICE address"
 msgstr "SPICE アドレス"
 
-#: src/components/vm/usesSpice.jsx:35
+#: src/components/vm/vmReplaceSpiceDialog.jsx:151
+#: src/components/vm/vmReplaceSpiceDialog.jsx:153
+#, fuzzy
+#| msgid "SPICE port"
+msgid "SPICE conversion"
+msgstr "SPICE ポート"
+
+#: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
@@ -2190,6 +2220,10 @@ msgstr "キーの送信"
 #: src/components/vm/disks/diskEdit.jsx:267
 msgid "Save"
 msgstr "保存"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:115
+msgid "Select all"
+msgstr ""
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2317,7 +2351,7 @@ msgstr ""
 "スナップショット $0 は、$1 から削除されます。キャプチャーされたコンテンツはす"
 "べて失われます。"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:174
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
 msgid "Snapshot failed to be created"
 msgstr "スナップショットの作成に失敗しました"
 
@@ -2482,7 +2516,7 @@ msgstr ""
 msgid "Suspended (PM)"
 msgstr "一時停止中 (PM)"
 
-#: src/components/vm/usesSpice.jsx:36
+#: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
 msgstr ""
 
@@ -2580,7 +2614,7 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr "次に、上記をコピーして貼り付けます。"
 
-#: src/components/vm/vmActions.jsx:462
+#: src/components/vm/vmActions.jsx:459
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "これはtransient VMです。削除したい場合はシャットダウンしてください。"
 
@@ -2591,6 +2625,12 @@ msgstr "このディスクは $0 から削除されます:"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:63
 msgid "This filesystem will be removed from $0:"
 msgstr "このファイルシステムは $0 から削除されます:"
+
+#: src/components/vm/vmReplaceSpiceDialog.jsx:166
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
+msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
@@ -2772,7 +2812,7 @@ msgstr ""
 msgid "User session"
 msgstr "ユーザーセッション"
 
-#: src/components/vm/usesSpice.jsx:25
+#: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
 msgstr ""
 
