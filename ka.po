@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-13 02:50+0000\n"
-"PO-Revision-Date: 2024-02-05 07:36+0000\n"
+"PO-Revision-Date: 2024-02-15 18:35+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ka/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:913
 msgid "$0 $1 available at default location"
@@ -430,16 +430,12 @@ msgid "Console"
 msgstr "კონსოლი"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:157
-#, fuzzy
-#| msgid "Convert QXL video card to VGA."
 msgid "Convert QXL video card to VGA"
-msgstr "QXL ვიდეობარათის გადაყვანა VGA-ში."
+msgstr "QXL ვიდეობარათის გადაყვანა VGA-ში"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:156
-#, fuzzy
-#| msgid "Convert SPICE graphics console to VNC."
 msgid "Convert SPICE graphics console to VNC"
-msgstr "SPICE გრაფიკული კონსოლის VNC-ში გადაყვანა."
+msgstr "SPICE გრაფიკული კონსოლის VNC-ში გადაყვანა"
 
 #: src/components/vm/vmMigrateDialog.jsx:101
 #: src/components/vm/vmMigrateDialog.jsx:117
@@ -656,7 +652,7 @@ msgstr "აღწერა"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:115
 msgid "Deselect others"
-msgstr ""
+msgstr "სხვების მონიშვნის მოხსნა"
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -1538,10 +1534,8 @@ msgid "Name already exists"
 msgstr "სახელი უკვე არსებობს"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Name can not be empty"
-msgstr "სახელი ცარიელი არ შეიძლება იყოს"
+msgstr "სახელი ცარიელი არ უნდა იყოს"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1786,7 +1780,7 @@ msgstr "ოპერაცია მიმდინარეობს"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:99
 msgid "Other VMs using SPICE"
-msgstr ""
+msgstr "სხვა VM-ები, რომლებიც SPICE-ს იყენებენ"
 
 #: src/components/vm/vmDetailsPage.jsx:113
 #: src/components/storagePools/storagePool.jsx:74
@@ -2034,10 +2028,8 @@ msgid "Remove"
 msgstr "წაშლა"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:158
-#, fuzzy
-#| msgid "Remove SPICE audio and host devices."
 msgid "Remove SPICE audio and host devices"
-msgstr "SPICE აუდიოსა და ჰოსტის მოწყობილობების წაშლა."
+msgstr "SPICE აუდიოსა და ჰოსტის მოწყობილობების წაშლა"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
@@ -2090,16 +2082,12 @@ msgid "Replace SPICE devices in VM $0"
 msgstr "SPICE მოწყობილობების ჩანაცვლება ვმ-ში $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:146
-#, fuzzy
-#| msgid "Replace SPICE devices"
 msgid "Replace SPICE on selected VMs."
-msgstr "SPICE მოწყობილობების ჩანაცვლება"
+msgstr "SPICE მოწყობილობების ჩანაცვლება."
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:147
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "ახალი ვირტუალური მანქანის შექმნა"
+msgstr "SPICE-ის ჩანაცვლება ვირტუალურ მანქანაზე."
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2173,10 +2161,8 @@ msgstr "SPICE-ის მისამართი"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:151
 #: src/components/vm/vmReplaceSpiceDialog.jsx:153
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE conversion"
-msgstr "SPICE-ის პორტი"
+msgstr "SPICE-ის გადაყვანა"
 
 #: src/components/vm/usesSpice.jsx:32
 msgid ""
@@ -2604,16 +2590,12 @@ msgid "This filesystem will be removed from $0:"
 msgstr "ფაილური სისტემა წაიშლება $0-დან:"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:166
-#, fuzzy
-#| msgid ""
-#| "Reconfigure the virtual machine for a host which does not support SPICE, "
-#| "for host upgrades or live migration:"
 msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr ""
-"ვირტუალური მანქანის თავიდან მორგება ჰოსტისთვის, რომელსაც SPICE-ის მხარდაჭერა "
-"არ გააჩნია, ჰოსტის განახლებებისთვის ან ცოცხალი მიგრაციისთვის:"
+"ეს განკუთვნილია ჰოსტისთვის, რომელსაც განახლების ან ცოცხალი მიგრაციის გამო "
+"SPICE-ის მხარდაჭერა არ გააჩნია."
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
