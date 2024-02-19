@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-19 02:50+0000\n"
-"PO-Revision-Date: 2023-09-06 00:24+0000\n"
-"Last-Translator: Tony Fu <tfu@redhat.com>\n"
+"PO-Revision-Date: 2024-02-19 03:37+0000\n"
+"Last-Translator: Mie Yamamoto <myamamot@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit-machines/main/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:913
 msgid "$0 $1 available at default location"
@@ -121,7 +121,7 @@ msgstr "添加"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:847
 msgid "Add SSH keys"
-msgstr ""
+msgstr "添加 SSH 密钥"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
@@ -429,11 +429,11 @@ msgstr "控制台"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:157
 msgid "Convert QXL video card to VGA"
-msgstr ""
+msgstr "将 QXL 视频卡转换为 VGA"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:156
 msgid "Convert SPICE graphics console to VNC"
-msgstr ""
+msgstr "将 SPICE 图形控制台转换为 VNC"
 
 #: src/components/vm/vmMigrateDialog.jsx:101
 #: src/components/vm/vmMigrateDialog.jsx:117
@@ -645,7 +645,7 @@ msgstr "描述"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:115
 msgid "Deselect others"
-msgstr ""
+msgstr "取消选择其他"
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -710,10 +710,8 @@ msgid "Disk $0 could not be removed"
 msgstr "无法删除磁盘 $0"
 
 #: src/components/vm/disks/diskAdd.jsx:833
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
-msgstr "创建磁盘失败"
+msgstr "添加磁盘失败"
 
 #: src/components/vm/disks/diskAdd.jsx:238
 msgid "Disk identifier"
@@ -913,10 +911,8 @@ msgid "Failed to rename VM $0"
 msgstr "重新命名虚拟机 $0 失败"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:76
-#, fuzzy
-#| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "重新命名虚拟机 $0 失败"
+msgstr "替换 SPICE 设备失败"
 
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
@@ -1038,7 +1034,7 @@ msgstr "硬件虚拟化被禁用"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:161
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: src/components/vm/disks/diskAdd.jsx:208
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:241
@@ -1283,7 +1279,7 @@ msgstr "隔离的网络"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:812
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr ""
+msgstr "密钥位于 ~/.ssh/ 中，带有一个 \".pub\" 扩展。"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:62
 msgid "LVM volume group"
@@ -1350,7 +1346,7 @@ msgstr "MAC 地址"
 
 #: src/components/vm/nics/nicEdit.jsx:129 src/components/vm/nics/nicAdd.jsx:152
 msgid "MAC address already in use"
-msgstr ""
+msgstr "已使用的 MAC 地址"
 
 #: src/components/networks/networkOverviewTab.jsx:252
 msgid "MAC address must not be empty"
@@ -1430,16 +1426,12 @@ msgid "Memory could not be saved"
 msgstr "内存不能被保存"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:90
-#, fuzzy
-#| msgid "Memory"
 msgid "Memory file"
-msgstr "内存"
+msgstr "内存文件"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:142
-#, fuzzy
-#| msgid "Source must not be empty"
 msgid "Memory file can not be empty"
-msgstr "源不能为空"
+msgstr "内存文件不能为空"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:233
 msgid "Memory must not be 0"
@@ -1524,8 +1516,6 @@ msgid "Name already exists"
 msgstr "名称已存在"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:139
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Name can not be empty"
 msgstr "名称不能为空"
 
@@ -1620,7 +1610,7 @@ msgstr "新卷名称"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:845
 msgid "No SSH keys specified"
-msgstr ""
+msgstr "没有指定 SSH 密钥"
 
 #: src/components/vms/hostvmslist.jsx:150
 msgid "No VM is running or defined on this host"
@@ -1769,7 +1759,7 @@ msgstr "操作进行中"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:99
 msgid "Other VMs using SPICE"
-msgstr ""
+msgstr "使用 SPICE 的其他虚拟机"
 
 #: src/components/storagePools/storagePool.jsx:74
 #: src/components/vm/vmDetailsPage.jsx:113
@@ -1842,7 +1832,7 @@ msgstr "主机上的物理磁盘设备"
 
 #: src/components/vm/nics/nicEdit.jsx:129 src/components/vm/nics/nicAdd.jsx:152
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "请选择一个不同的 MAC 地址"
 
 #: src/components/vm/disks/diskAdd.jsx:550
 msgid "Please choose a storage pool"
@@ -1858,7 +1848,7 @@ msgstr "请输入新的卷名"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
-msgstr ""
+msgstr "请参阅 $0 如何手动重新配置您的虚拟机。"
 
 #: src/components/vm/consoles/consoles.jsx:40
 msgid "Please start the virtual machine to access its console."
@@ -1900,10 +1890,8 @@ msgid "Power off"
 msgstr "关机"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:63
-#, fuzzy
-#| msgid "redirected device"
 msgid "Pre-formatted block device"
-msgstr "重定向设备"
+msgstr "预格式化的块设备"
 
 #: src/components/vm/overview/cpuModal.jsx:273
 msgid "Preferred number of sockets to expose to the guest."
@@ -1970,11 +1958,11 @@ msgstr "通过 NAT 向外界提供虚拟 LAN。"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:809
 msgid "Public SSH key"
-msgstr ""
+msgstr "公共 SSH 密钥"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:805
 msgid "Public key"
-msgstr ""
+msgstr "公钥"
 
 #: src/components/networks/networkOverviewTab.jsx:277
 msgid "Range"
@@ -2018,7 +2006,7 @@ msgstr "删除"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:158
 msgid "Remove SPICE audio and host devices"
-msgstr ""
+msgstr "删除 SPICE 音频和主机设备"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:159
 msgid "Remove and delete file"
@@ -2037,10 +2025,8 @@ msgid "Remove host device from VM?"
 msgstr "从虚拟机中删除主机设备？"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:821
-#, fuzzy
-#| msgid "Remove filesystem?"
 msgid "Remove item"
-msgstr "删除文件系统？"
+msgstr "删除项目"
 
 #: src/components/vm/nics/vmNicsCard.jsx:468
 msgid "Remove network interface?"
@@ -2060,26 +2046,24 @@ msgstr "重命名虚拟机 $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
-msgstr ""
+msgstr "替换"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:124
 #: src/components/vm/vmActions.jsx:437 src/components/vm/usesSpice.jsx:38
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "替换 SPICE 设备"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "替换虚拟机中的 SPICE 设备 $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:146
 msgid "Replace SPICE on selected VMs."
-msgstr ""
+msgstr "在所选虚拟机上替换 SPICE。"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:147
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "创建新的虚拟机"
+msgstr "在虚拟机上替换 SPICE。"
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2138,10 +2122,8 @@ msgid "Running"
 msgstr "运行中"
 
 #: src/components/common/needsShutdown.jsx:122
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE"
-msgstr "SPICE 端口"
+msgstr "SPICE"
 
 #: src/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
@@ -2153,26 +2135,22 @@ msgstr "SPICE 地址"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:151
 #: src/components/vm/vmReplaceSpiceDialog.jsx:153
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE conversion"
-msgstr "SPICE 端口"
+msgstr "SPICE 转换"
 
 #: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
-msgstr ""
+msgstr "此主机上不支持 SPICE，并将导致此虚拟机无法引导。"
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
 msgid "SPICE port"
 msgstr "SPICE 端口"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:846
-#, fuzzy
-#| msgid "Send key"
 msgid "SSH keys"
-msgstr "发送按键"
+msgstr "SSH 密钥"
 
 #: src/components/vm/nics/nicEdit.jsx:189
 #: src/components/vm/disks/diskEdit.jsx:267
@@ -2186,7 +2164,7 @@ msgstr "保存"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:115
 msgid "Select all"
-msgstr ""
+msgstr "选择全部"
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2472,7 +2450,7 @@ msgstr "已挂起 （电源管理）"
 
 #: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "切换到 VNC 继续使用此机器。"
 
 #: src/helpers.js:220
 msgid "System"
@@ -2579,7 +2557,7 @@ msgstr "这个文件系统将从 $0 中删除："
 msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
-msgstr ""
+msgstr "这适用于因为升级或实时迁移而不支持 SPICE 的主机。"
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
@@ -2733,10 +2711,8 @@ msgid "User login"
 msgstr "用户登录名"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:254
-#, fuzzy
-#| msgid "User login must not be empty when user password is set"
 msgid "User login must not be empty when SSH keys are set"
-msgstr "当用户密码设置后，用户登录名必须不为空"
+msgstr "当设置了 SSH 密钥时，用户登录不能为空"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:252
 msgid "User login must not be empty when user password is set"
@@ -2756,7 +2732,7 @@ msgstr "用户会话"
 
 #: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
-msgstr ""
+msgstr "使用 SPICE"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:313
 msgid "VM $0 Host Devices"
