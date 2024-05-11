@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 02:50+0000\n"
+"POT-Creation-Date: 2024-05-11 02:50+0000\n"
 "PO-Revision-Date: 2024-02-15 18:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -175,10 +175,10 @@ msgstr "Ek"
 msgid "Address"
 msgstr "Adres"
 
-#: src/components/networks/createNetworkDialog.jsx:80
-#: src/components/networks/createNetworkDialog.jsx:87
-#: src/components/networks/createNetworkDialog.jsx:108
-#: src/components/networks/createNetworkDialog.jsx:115
+#: src/components/networks/createNetworkDialog.jsx:94
+#: src/components/networks/createNetworkDialog.jsx:101
+#: src/components/networks/createNetworkDialog.jsx:122
+#: src/components/networks/createNetworkDialog.jsx:129
 msgid "Address not within subnet"
 msgstr "Adres alt ağ içinde değil"
 
@@ -234,7 +234,7 @@ msgstr ""
 "Otomatik kurulumlar yalnızca bir kalıp indirilirken veya cloud-init ile "
 "kullanılabilir."
 
-#: src/components/networks/createNetworkDialog.jsx:166
+#: src/components/networks/createNetworkDialog.jsx:180
 msgid "Automatic"
 msgstr "Otomatik"
 
@@ -319,7 +319,7 @@ msgstr "Önbellek"
 #: src/components/vm/disks/diskEdit.jsx:270
 #: src/components/vm/disks/mediaEject.jsx:110
 #: src/components/common/deleteResource.jsx:91
-#: src/components/networks/createNetworkDialog.jsx:421
+#: src/components/networks/createNetworkDialog.jsx:435
 #: src/components/networks/networkOverviewTab.jsx:238
 #: src/components/create-vm-dialog/createVmDialog.jsx:1486
 msgid "Cancel"
@@ -475,7 +475,7 @@ msgstr "Çöktü"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
-#: src/components/networks/createNetworkDialog.jsx:418
+#: src/components/networks/createNetworkDialog.jsx:432
 msgid "Create"
 msgstr "Oluştur"
 
@@ -535,8 +535,8 @@ msgstr "Depolama havuzu oluştur"
 msgid "Create storage volume"
 msgstr "Depolama birimi oluştur"
 
-#: src/components/networks/createNetworkDialog.jsx:411
-#: src/components/networks/createNetworkDialog.jsx:439
+#: src/components/networks/createNetworkDialog.jsx:425
+#: src/components/networks/createNetworkDialog.jsx:453
 msgid "Create virtual network"
 msgstr "Sanal ağ oluştur"
 
@@ -690,12 +690,12 @@ msgstr "Ayrıntılar"
 #: src/components/vm/disks/diskAdd.jsx:348
 #: src/components/vm/disks/vmDiskColumns.jsx:42
 #: src/components/vm/disks/vmDisksCard.jsx:172
-#: src/components/networks/createNetworkDialog.jsx:160
+#: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
 msgid "Device"
 msgstr "Aygıt"
 
-#: src/components/networks/createNetworkDialog.jsx:167
+#: src/components/networks/createNetworkDialog.jsx:181
 msgid "Devices"
 msgstr "Aygıtlar"
 
@@ -845,12 +845,12 @@ msgstr "Benzetilmiş makine"
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "BIOS/EFI ayarlarında sanallaştırma desteğini etkinleştirin."
 
-#: src/components/networks/createNetworkDialog.jsx:226
+#: src/components/networks/createNetworkDialog.jsx:240
 msgid "End"
 msgstr "Bitiş"
 
-#: src/components/networks/createNetworkDialog.jsx:83
-#: src/components/networks/createNetworkDialog.jsx:111
+#: src/components/networks/createNetworkDialog.jsx:97
+#: src/components/networks/createNetworkDialog.jsx:125
 msgid "End should not be empty"
 msgstr "Bitiş boş olmamalıdır"
 
@@ -993,7 +993,7 @@ msgstr "$0 kapatmaya zorlansın mı?"
 msgid "Format"
 msgstr "Biçimlendir"
 
-#: src/components/networks/createNetworkDialog.jsx:141
+#: src/components/networks/createNetworkDialog.jsx:155
 msgid "Forward mode"
 msgstr "Yönlendirme kipi"
 
@@ -1109,45 +1109,51 @@ msgstr "IP adresi"
 msgid "IP address must not be empty"
 msgstr "IP adresi boş olmamak zorundadır"
 
-#: src/components/networks/createNetworkDialog.jsx:182
+#: src/components/networks/createNetworkDialog.jsx:196
 msgid "IP configuration"
 msgstr "IP yapılandırması"
 
-#: src/components/networks/createNetworkDialog.jsx:243
+#: src/components/networks/createNetworkDialog.jsx:257
 #: src/components/networks/networkOverviewTab.jsx:138
 msgid "IPv4 address"
 msgstr "IPv4 adresi"
 
-#: src/components/networks/createNetworkDialog.jsx:68
-msgid "IPv4 address cannot be same as the network identifier"
-msgstr "IPv4 adresi ağ tanımlayıcısı ile aynı olamaz"
-
-#: src/components/networks/createNetworkDialog.jsx:72
+#: src/components/networks/createNetworkDialog.jsx:86
 msgid "IPv4 address cannot be same as the network's broadcast address"
 msgstr "IPv4 adresi ağın genel yayın adresiyle ile aynı olamaz"
 
-#: src/components/networks/createNetworkDialog.jsx:190
+#: src/components/networks/createNetworkDialog.jsx:204
 msgid "IPv4 and IPv6"
 msgstr "IPv4 ve IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:62
+#: src/components/networks/createNetworkDialog.jsx:74
 msgid "IPv4 network should not be empty"
 msgstr "IPv4 ağı boş olmamalıdır"
 
-#: src/components/networks/createNetworkDialog.jsx:188
+#: src/components/networks/createNetworkDialog.jsx:202
 msgid "IPv4 only"
 msgstr "Sadece IPv4"
 
-#: src/components/networks/createNetworkDialog.jsx:273
+#: src/components/networks/createNetworkDialog.jsx:69
+#, fuzzy
+#| msgid "Prefix length should not be empty"
+msgid "IPv4 prefix length must be 24 or less"
+msgstr "Ön ek uzunluğu boş olmamalıdır"
+
+#: src/components/networks/createNetworkDialog.jsx:66
+msgid "IPv4 prefix length must be a multiple of 8"
+msgstr ""
+
+#: src/components/networks/createNetworkDialog.jsx:287
 #: src/components/networks/networkOverviewTab.jsx:158
 msgid "IPv6 address"
 msgstr "IPv6 adresi"
 
-#: src/components/networks/createNetworkDialog.jsx:93
+#: src/components/networks/createNetworkDialog.jsx:107
 msgid "IPv6 network should not be empty"
 msgstr "IPv6 ağı boş olmamalıdır"
 
-#: src/components/networks/createNetworkDialog.jsx:189
+#: src/components/networks/createNetworkDialog.jsx:203
 msgid "IPv6 only"
 msgstr "Sadece IPv6"
 
@@ -1269,23 +1275,23 @@ msgstr "Arayüz türü"
 msgid "Interface type help"
 msgstr "Arayüz türü yardımı"
 
-#: src/components/networks/createNetworkDialog.jsx:64
-#: src/components/networks/createNetworkDialog.jsx:78
-#: src/components/networks/createNetworkDialog.jsx:85
+#: src/components/networks/createNetworkDialog.jsx:76
+#: src/components/networks/createNetworkDialog.jsx:92
+#: src/components/networks/createNetworkDialog.jsx:99
 msgid "Invalid IPv4 address"
 msgstr "Geçersiz IPv4 adresi"
 
-#: src/components/networks/createNetworkDialog.jsx:59
+#: src/components/networks/createNetworkDialog.jsx:63
 msgid "Invalid IPv4 mask or prefix length"
 msgstr "Geçersiz IPv4 maskesi veya ön ek uzunluğu"
 
-#: src/components/networks/createNetworkDialog.jsx:95
-#: src/components/networks/createNetworkDialog.jsx:106
-#: src/components/networks/createNetworkDialog.jsx:113
+#: src/components/networks/createNetworkDialog.jsx:109
+#: src/components/networks/createNetworkDialog.jsx:120
+#: src/components/networks/createNetworkDialog.jsx:127
 msgid "Invalid IPv6 address"
 msgstr "Geçersiz IPv6 adresi"
 
-#: src/components/networks/createNetworkDialog.jsx:100
+#: src/components/networks/createNetworkDialog.jsx:114
 msgid "Invalid IPv6 prefix"
 msgstr "Geçersiz IPv6 ön eki"
 
@@ -1398,11 +1404,11 @@ msgstr "Sanal makineleri yönetme"
 msgid "Manual connection"
 msgstr "Elle bağlantı"
 
-#: src/components/networks/createNetworkDialog.jsx:250
+#: src/components/networks/createNetworkDialog.jsx:264
 msgid "Mask or prefix length"
 msgstr "Maske veya ön ek uzunluğu"
 
-#: src/components/networks/createNetworkDialog.jsx:57
+#: src/components/networks/createNetworkDialog.jsx:59
 msgid "Mask or prefix length should not be empty"
 msgstr "Maske veya ön ek uzunluğu boş olmamalıdır"
 
@@ -1513,6 +1519,12 @@ msgstr "Bağlama etiketi"
 msgid "Mount tag must not be empty"
 msgstr "Bağlama etiketi boş olmamalıdır"
 
+#: src/components/networks/createNetworkDialog.jsx:81
+#, fuzzy
+#| msgid "IPv4 address cannot be same as the network identifier"
+msgid "Must be an address instead of the network identifier, such as $0"
+msgstr "IPv4 adresi ağ tanımlayıcısı ile aynı olamaz"
+
 #: src/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
 msgstr "$0 ağına NAT yap"
@@ -1529,7 +1541,7 @@ msgstr "$1 sanal makinesinin $0 NIC'inin durumunu değiştirme başarısız oldu
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:90
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vms/hostvmslist.jsx:161
-#: src/components/networks/createNetworkDialog.jsx:126
+#: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/create-vm-dialog/createVmDialog.jsx:265
 msgid "Name"
@@ -1735,7 +1747,7 @@ msgstr ""
 "Kalıcı olmayan depolama havuzu silinemez. Devre dışı bırakıldığında varlığı "
 "sona erer."
 
-#: src/components/networks/createNetworkDialog.jsx:187
+#: src/components/networks/createNetworkDialog.jsx:201
 msgid "None"
 msgstr "Yok"
 
@@ -1932,11 +1944,11 @@ msgstr "Konuğa açılacak tercih edilen soket sayısı."
 msgid "Prefix"
 msgstr "Ön ek"
 
-#: src/components/networks/createNetworkDialog.jsx:280
+#: src/components/networks/createNetworkDialog.jsx:294
 msgid "Prefix length"
 msgstr "Ön ek uzunluğu"
 
-#: src/components/networks/createNetworkDialog.jsx:98
+#: src/components/networks/createNetworkDialog.jsx:112
 msgid "Prefix length should not be empty"
 msgstr "Ön ek uzunluğu boş olmamalıdır"
 
@@ -2231,7 +2243,7 @@ msgstr "Seri konsol"
 msgid "Serial console ($0)"
 msgstr "Seri konsol ($0)"
 
-#: src/components/networks/createNetworkDialog.jsx:214
+#: src/components/networks/createNetworkDialog.jsx:228
 msgid "Set DHCP range"
 msgstr "DHCP aralığını ayarla"
 
@@ -2389,7 +2401,7 @@ msgstr "Kaynak http, ftp veya nfs protokolüyle başlamalıdır"
 msgid "Source volume group"
 msgstr "Kaynak birim grubu"
 
-#: src/components/networks/createNetworkDialog.jsx:219
+#: src/components/networks/createNetworkDialog.jsx:233
 msgid "Start"
 msgstr "Başlat"
 
@@ -2397,8 +2409,8 @@ msgstr "Başlat"
 msgid "Start pool when host boots"
 msgstr "Anamakine önyüklendiğinde havuzu başlat"
 
-#: src/components/networks/createNetworkDialog.jsx:76
-#: src/components/networks/createNetworkDialog.jsx:104
+#: src/components/networks/createNetworkDialog.jsx:90
+#: src/components/networks/createNetworkDialog.jsx:118
 msgid "Start should not be empty"
 msgstr "Başlangıç boş olmamalıdır"
 
@@ -2712,7 +2724,7 @@ msgstr "Benzersiz ad"
 msgid "Unique name, default: $0"
 msgstr "Benzersiz ad, öntanımlı olarak: $0"
 
-#: src/components/networks/createNetworkDialog.jsx:128
+#: src/components/networks/createNetworkDialog.jsx:142
 msgid "Unique network name"
 msgstr "Benzersiz ağ adı"
 
@@ -2922,7 +2934,7 @@ msgstr "Sanal makine yönetimi"
 msgid "Virtual network"
 msgstr "Sanal ağ"
 
-#: src/components/networks/createNetworkDialog.jsx:378
+#: src/components/networks/createNetworkDialog.jsx:392
 msgid "Virtual network failed to be created"
 msgstr "Sanal ağ oluşturulması başarısız oldu"
 

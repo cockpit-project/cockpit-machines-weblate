@@ -21,11 +21,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 02:50+0000\n"
+"POT-Creation-Date: 2024-05-11 02:50+0000\n"
 "PO-Revision-Date: 2024-05-11 06:36+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/"
-"cockpit-machines/main/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/cockpit-"
+"machines/main/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,10 +191,10 @@ msgstr "Additionnel"
 msgid "Address"
 msgstr "Adresse"
 
-#: src/components/networks/createNetworkDialog.jsx:80
-#: src/components/networks/createNetworkDialog.jsx:87
-#: src/components/networks/createNetworkDialog.jsx:108
-#: src/components/networks/createNetworkDialog.jsx:115
+#: src/components/networks/createNetworkDialog.jsx:94
+#: src/components/networks/createNetworkDialog.jsx:101
+#: src/components/networks/createNetworkDialog.jsx:122
+#: src/components/networks/createNetworkDialog.jsx:129
 msgid "Address not within subnet"
 msgstr "Adresse ne faisant pas partie du sous-réseau"
 
@@ -250,7 +250,7 @@ msgstr ""
 "Les installations automatiques ne sont disponibles que lorsque vous "
 "téléchargez une image ou utilisez cloud-init."
 
-#: src/components/networks/createNetworkDialog.jsx:166
+#: src/components/networks/createNetworkDialog.jsx:180
 msgid "Automatic"
 msgstr "Automatique"
 
@@ -335,7 +335,7 @@ msgstr "Cache"
 #: src/components/vm/disks/diskEdit.jsx:270
 #: src/components/vm/disks/mediaEject.jsx:110
 #: src/components/common/deleteResource.jsx:91
-#: src/components/networks/createNetworkDialog.jsx:421
+#: src/components/networks/createNetworkDialog.jsx:435
 #: src/components/networks/networkOverviewTab.jsx:238
 #: src/components/create-vm-dialog/createVmDialog.jsx:1486
 msgid "Cancel"
@@ -369,7 +369,8 @@ msgstr "Changements en cours"
 
 #: src/components/common/needsShutdown.jsx:20
 msgid "Changes will take effect after shutting down the VM"
-msgstr "Ces modifications prendront effet après l’arrêt de la machine virtuelle"
+msgstr ""
+"Ces modifications prendront effet après l’arrêt de la machine virtuelle"
 
 #: src/app.jsx:128
 msgid ""
@@ -494,7 +495,7 @@ msgstr "Échoué"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
-#: src/components/networks/createNetworkDialog.jsx:418
+#: src/components/networks/createNetworkDialog.jsx:432
 msgid "Create"
 msgstr "Créer"
 
@@ -553,8 +554,8 @@ msgstr "Création du pool de stockage"
 msgid "Create storage volume"
 msgstr "Création un volume de stockage"
 
-#: src/components/networks/createNetworkDialog.jsx:411
-#: src/components/networks/createNetworkDialog.jsx:439
+#: src/components/networks/createNetworkDialog.jsx:425
+#: src/components/networks/createNetworkDialog.jsx:453
 msgid "Create virtual network"
 msgstr "Créer un réseau virtuel"
 
@@ -710,12 +711,12 @@ msgstr "Détails"
 #: src/components/vm/disks/diskAdd.jsx:348
 #: src/components/vm/disks/vmDiskColumns.jsx:42
 #: src/components/vm/disks/vmDisksCard.jsx:172
-#: src/components/networks/createNetworkDialog.jsx:160
+#: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
 msgid "Device"
 msgstr "Périphérique"
 
-#: src/components/networks/createNetworkDialog.jsx:167
+#: src/components/networks/createNetworkDialog.jsx:181
 msgid "Devices"
 msgstr "Périphériques"
 
@@ -874,12 +875,12 @@ msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 "Activer la prise en charge de la virtualisation dans les paramètres BIOS/EFI."
 
-#: src/components/networks/createNetworkDialog.jsx:226
+#: src/components/networks/createNetworkDialog.jsx:240
 msgid "End"
 msgstr "Fin"
 
-#: src/components/networks/createNetworkDialog.jsx:83
-#: src/components/networks/createNetworkDialog.jsx:111
+#: src/components/networks/createNetworkDialog.jsx:97
+#: src/components/networks/createNetworkDialog.jsx:125
 msgid "End should not be empty"
 msgstr "L’extrémité ne doit pas être vide"
 
@@ -1028,7 +1029,7 @@ msgstr "Forcer l'arrêt $0?"
 msgid "Format"
 msgstr "Formater"
 
-#: src/components/networks/createNetworkDialog.jsx:141
+#: src/components/networks/createNetworkDialog.jsx:155
 msgid "Forward mode"
 msgstr "Mode de redirection"
 
@@ -1144,46 +1145,52 @@ msgstr "Adresse IP"
 msgid "IP address must not be empty"
 msgstr "L’adresse IP ne doit pas être vide"
 
-#: src/components/networks/createNetworkDialog.jsx:182
+#: src/components/networks/createNetworkDialog.jsx:196
 msgid "IP configuration"
 msgstr "Configuration IP"
 
-#: src/components/networks/createNetworkDialog.jsx:243
+#: src/components/networks/createNetworkDialog.jsx:257
 #: src/components/networks/networkOverviewTab.jsx:138
 msgid "IPv4 address"
 msgstr "Adresse IPv4"
 
-#: src/components/networks/createNetworkDialog.jsx:68
-msgid "IPv4 address cannot be same as the network identifier"
-msgstr "L’adresse IPv4 ne peut pas être la même que l’identifiant du réseau"
-
-#: src/components/networks/createNetworkDialog.jsx:72
+#: src/components/networks/createNetworkDialog.jsx:86
 msgid "IPv4 address cannot be same as the network's broadcast address"
 msgstr ""
 "L’adresse IPv4 ne peut pas être la même que l’adresse de diffusion du réseau"
 
-#: src/components/networks/createNetworkDialog.jsx:190
+#: src/components/networks/createNetworkDialog.jsx:204
 msgid "IPv4 and IPv6"
 msgstr "IPv4 et IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:62
+#: src/components/networks/createNetworkDialog.jsx:74
 msgid "IPv4 network should not be empty"
 msgstr "Le réseau IPv4 ne doit pas être vide"
 
-#: src/components/networks/createNetworkDialog.jsx:188
+#: src/components/networks/createNetworkDialog.jsx:202
 msgid "IPv4 only"
 msgstr "IPv4 seulement"
 
-#: src/components/networks/createNetworkDialog.jsx:273
+#: src/components/networks/createNetworkDialog.jsx:69
+#, fuzzy
+#| msgid "Prefix length should not be empty"
+msgid "IPv4 prefix length must be 24 or less"
+msgstr "La longueur du préfixe ne doit pas être vide"
+
+#: src/components/networks/createNetworkDialog.jsx:66
+msgid "IPv4 prefix length must be a multiple of 8"
+msgstr ""
+
+#: src/components/networks/createNetworkDialog.jsx:287
 #: src/components/networks/networkOverviewTab.jsx:158
 msgid "IPv6 address"
 msgstr "Adresse IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:93
+#: src/components/networks/createNetworkDialog.jsx:107
 msgid "IPv6 network should not be empty"
 msgstr "Le réseau IPv6 ne doit pas être vide"
 
-#: src/components/networks/createNetworkDialog.jsx:189
+#: src/components/networks/createNetworkDialog.jsx:203
 msgid "IPv6 only"
 msgstr "IPv6 seulement"
 
@@ -1309,23 +1316,23 @@ msgstr "Type d’interface"
 msgid "Interface type help"
 msgstr "Aide sur le type d’interface"
 
-#: src/components/networks/createNetworkDialog.jsx:64
-#: src/components/networks/createNetworkDialog.jsx:78
-#: src/components/networks/createNetworkDialog.jsx:85
+#: src/components/networks/createNetworkDialog.jsx:76
+#: src/components/networks/createNetworkDialog.jsx:92
+#: src/components/networks/createNetworkDialog.jsx:99
 msgid "Invalid IPv4 address"
 msgstr "Adresse IPv4 non valide"
 
-#: src/components/networks/createNetworkDialog.jsx:59
+#: src/components/networks/createNetworkDialog.jsx:63
 msgid "Invalid IPv4 mask or prefix length"
 msgstr "Longueur de masque ou de préfixe IPv4 non valide"
 
-#: src/components/networks/createNetworkDialog.jsx:95
-#: src/components/networks/createNetworkDialog.jsx:106
-#: src/components/networks/createNetworkDialog.jsx:113
+#: src/components/networks/createNetworkDialog.jsx:109
+#: src/components/networks/createNetworkDialog.jsx:120
+#: src/components/networks/createNetworkDialog.jsx:127
 msgid "Invalid IPv6 address"
 msgstr "Adresse IPv6 non valide"
 
-#: src/components/networks/createNetworkDialog.jsx:100
+#: src/components/networks/createNetworkDialog.jsx:114
 msgid "Invalid IPv6 prefix"
 msgstr "Adresse IPv6 non valide"
 
@@ -1445,11 +1452,11 @@ msgstr "Gestion des machines virtuelles"
 msgid "Manual connection"
 msgstr "Connexion manuelle"
 
-#: src/components/networks/createNetworkDialog.jsx:250
+#: src/components/networks/createNetworkDialog.jsx:264
 msgid "Mask or prefix length"
 msgstr "Masque ou Longueur du préfixe"
 
-#: src/components/networks/createNetworkDialog.jsx:57
+#: src/components/networks/createNetworkDialog.jsx:59
 msgid "Mask or prefix length should not be empty"
 msgstr "Le masque ou la longueur du préfixe ne doit pas être vide"
 
@@ -1565,6 +1572,12 @@ msgstr "Étiquette de montage"
 msgid "Mount tag must not be empty"
 msgstr "La balise de montage ne doit pas être vide"
 
+#: src/components/networks/createNetworkDialog.jsx:81
+#, fuzzy
+#| msgid "IPv4 address cannot be same as the network identifier"
+msgid "Must be an address instead of the network identifier, such as $0"
+msgstr "L’adresse IPv4 ne peut pas être la même que l’identifiant du réseau"
+
 #: src/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
 msgstr "NAT vers $0"
@@ -1581,7 +1594,7 @@ msgstr "Échec du changement d’état du NIC $0 de la machine virtuelle $1"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:90
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vms/hostvmslist.jsx:161
-#: src/components/networks/createNetworkDialog.jsx:126
+#: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/create-vm-dialog/createVmDialog.jsx:265
 msgid "Name"
@@ -1791,7 +1804,7 @@ msgstr ""
 "Un réseau non persistant ne peut pas être supprimé. Il cesse d’exister quand "
 "il est désactivé."
 
-#: src/components/networks/createNetworkDialog.jsx:187
+#: src/components/networks/createNetworkDialog.jsx:201
 msgid "None"
 msgstr "Aucun"
 
@@ -1990,11 +2003,11 @@ msgstr "Nombre choisi de sockets à exposer à l’invité."
 msgid "Prefix"
 msgstr "Préfixe"
 
-#: src/components/networks/createNetworkDialog.jsx:280
+#: src/components/networks/createNetworkDialog.jsx:294
 msgid "Prefix length"
 msgstr "Longueur du préfixe"
 
-#: src/components/networks/createNetworkDialog.jsx:98
+#: src/components/networks/createNetworkDialog.jsx:112
 msgid "Prefix length should not be empty"
 msgstr "La longueur du préfixe ne doit pas être vide"
 
@@ -2305,7 +2318,7 @@ msgstr "Console série"
 msgid "Serial console ($0)"
 msgstr "Console série ($0)"
 
-#: src/components/networks/createNetworkDialog.jsx:214
+#: src/components/networks/createNetworkDialog.jsx:228
 msgid "Set DHCP range"
 msgstr "Définir plage DHCP"
 
@@ -2465,7 +2478,7 @@ msgstr "La source devrait commencer par le protocole http, ftp ou nfs"
 msgid "Source volume group"
 msgstr "Groupe de volumes source"
 
-#: src/components/networks/createNetworkDialog.jsx:219
+#: src/components/networks/createNetworkDialog.jsx:233
 msgid "Start"
 msgstr "Démarrer"
 
@@ -2473,8 +2486,8 @@ msgstr "Démarrer"
 msgid "Start pool when host boots"
 msgstr "Démarrer le pool quand l’hôte est amorcé"
 
-#: src/components/networks/createNetworkDialog.jsx:76
-#: src/components/networks/createNetworkDialog.jsx:104
+#: src/components/networks/createNetworkDialog.jsx:90
+#: src/components/networks/createNetworkDialog.jsx:118
 msgid "Start should not be empty"
 msgstr "Le démarrage ne doit pas être vide"
 
@@ -2792,7 +2805,7 @@ msgstr "Nom unique"
 msgid "Unique name, default: $0"
 msgstr "Nom unique, par défaut : $0"
 
-#: src/components/networks/createNetworkDialog.jsx:128
+#: src/components/networks/createNetworkDialog.jsx:142
 msgid "Unique network name"
 msgstr "Nom du réseau unique"
 
@@ -3004,7 +3017,7 @@ msgstr "Gestion des machines virtuelles"
 msgid "Virtual network"
 msgstr "Réseau virtuel"
 
-#: src/components/networks/createNetworkDialog.jsx:378
+#: src/components/networks/createNetworkDialog.jsx:392
 msgid "Virtual network failed to be created"
 msgstr "Le réseau virtuel n’a pas pu être créé"
 

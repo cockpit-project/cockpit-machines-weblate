@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 02:50+0000\n"
+"POT-Creation-Date: 2024-05-11 02:50+0000\n"
 "PO-Revision-Date: 2023-05-25 05:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -181,10 +181,10 @@ msgstr "Додаткові"
 msgid "Address"
 msgstr "Адреса"
 
-#: src/components/networks/createNetworkDialog.jsx:80
-#: src/components/networks/createNetworkDialog.jsx:87
-#: src/components/networks/createNetworkDialog.jsx:108
-#: src/components/networks/createNetworkDialog.jsx:115
+#: src/components/networks/createNetworkDialog.jsx:94
+#: src/components/networks/createNetworkDialog.jsx:101
+#: src/components/networks/createNetworkDialog.jsx:122
+#: src/components/networks/createNetworkDialog.jsx:129
 msgid "Address not within subnet"
 msgstr "Адреса поза межами підмережі"
 
@@ -240,7 +240,7 @@ msgstr ""
 "Автоматичне встановлення є доступним лише при отримання образу або "
 "використанні cloud-init."
 
-#: src/components/networks/createNetworkDialog.jsx:166
+#: src/components/networks/createNetworkDialog.jsx:180
 msgid "Automatic"
 msgstr "Автоматично"
 
@@ -325,7 +325,7 @@ msgstr "Кеш"
 #: src/components/vm/disks/diskEdit.jsx:270
 #: src/components/vm/disks/mediaEject.jsx:110
 #: src/components/common/deleteResource.jsx:91
-#: src/components/networks/createNetworkDialog.jsx:421
+#: src/components/networks/createNetworkDialog.jsx:435
 #: src/components/networks/networkOverviewTab.jsx:238
 #: src/components/create-vm-dialog/createVmDialog.jsx:1486
 msgid "Cancel"
@@ -483,7 +483,7 @@ msgstr "Аварійне завершення"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
-#: src/components/networks/createNetworkDialog.jsx:418
+#: src/components/networks/createNetworkDialog.jsx:432
 msgid "Create"
 msgstr "Створити"
 
@@ -541,8 +541,8 @@ msgstr "Створити резервне сховище"
 msgid "Create storage volume"
 msgstr "Створити том сховища даних"
 
-#: src/components/networks/createNetworkDialog.jsx:411
-#: src/components/networks/createNetworkDialog.jsx:439
+#: src/components/networks/createNetworkDialog.jsx:425
+#: src/components/networks/createNetworkDialog.jsx:453
 msgid "Create virtual network"
 msgstr "Створити віртуальну мережу"
 
@@ -698,12 +698,12 @@ msgstr "Подробиці"
 #: src/components/vm/disks/diskAdd.jsx:348
 #: src/components/vm/disks/vmDiskColumns.jsx:42
 #: src/components/vm/disks/vmDisksCard.jsx:172
-#: src/components/networks/createNetworkDialog.jsx:160
+#: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
 msgid "Device"
 msgstr "Пристрій"
 
-#: src/components/networks/createNetworkDialog.jsx:167
+#: src/components/networks/createNetworkDialog.jsx:181
 msgid "Devices"
 msgstr "Пристрої"
 
@@ -856,12 +856,12 @@ msgstr "Емульована машина"
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "Увімкніть підтримку віртуалізації у параметрах BIOS/EFI."
 
-#: src/components/networks/createNetworkDialog.jsx:226
+#: src/components/networks/createNetworkDialog.jsx:240
 msgid "End"
 msgstr "Кінець"
 
-#: src/components/networks/createNetworkDialog.jsx:83
-#: src/components/networks/createNetworkDialog.jsx:111
+#: src/components/networks/createNetworkDialog.jsx:97
+#: src/components/networks/createNetworkDialog.jsx:125
 msgid "End should not be empty"
 msgstr "Кінець не може бути порожнім"
 
@@ -1009,7 +1009,7 @@ msgstr "Примусово вимкнути"
 msgid "Format"
 msgstr "Формат"
 
-#: src/components/networks/createNetworkDialog.jsx:141
+#: src/components/networks/createNetworkDialog.jsx:155
 msgid "Forward mode"
 msgstr "Режим переспрямовування"
 
@@ -1125,45 +1125,51 @@ msgstr "IP-адреса"
 msgid "IP address must not be empty"
 msgstr "IP-адреса має бути непорожньою"
 
-#: src/components/networks/createNetworkDialog.jsx:182
+#: src/components/networks/createNetworkDialog.jsx:196
 msgid "IP configuration"
 msgstr "Налаштування IP"
 
-#: src/components/networks/createNetworkDialog.jsx:243
+#: src/components/networks/createNetworkDialog.jsx:257
 #: src/components/networks/networkOverviewTab.jsx:138
 msgid "IPv4 address"
 msgstr "Адреса IPv4"
 
-#: src/components/networks/createNetworkDialog.jsx:68
-msgid "IPv4 address cannot be same as the network identifier"
-msgstr "Адреса IPv4 не може бути тою самою, що і ідентифікатор мережі"
-
-#: src/components/networks/createNetworkDialog.jsx:72
+#: src/components/networks/createNetworkDialog.jsx:86
 msgid "IPv4 address cannot be same as the network's broadcast address"
 msgstr "Адреса IPv4 не може бути тою самою, що і адреса трансляції мережі"
 
-#: src/components/networks/createNetworkDialog.jsx:190
+#: src/components/networks/createNetworkDialog.jsx:204
 msgid "IPv4 and IPv6"
 msgstr "IPv4 і IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:62
+#: src/components/networks/createNetworkDialog.jsx:74
 msgid "IPv4 network should not be empty"
 msgstr "Мережа IPv4 не повинна бути порожньою"
 
-#: src/components/networks/createNetworkDialog.jsx:188
+#: src/components/networks/createNetworkDialog.jsx:202
 msgid "IPv4 only"
 msgstr "Лише IPv4"
 
-#: src/components/networks/createNetworkDialog.jsx:273
+#: src/components/networks/createNetworkDialog.jsx:69
+#, fuzzy
+#| msgid "Prefix length should not be empty"
+msgid "IPv4 prefix length must be 24 or less"
+msgstr "Довжина префікса повинна бути непорожньою"
+
+#: src/components/networks/createNetworkDialog.jsx:66
+msgid "IPv4 prefix length must be a multiple of 8"
+msgstr ""
+
+#: src/components/networks/createNetworkDialog.jsx:287
 #: src/components/networks/networkOverviewTab.jsx:158
 msgid "IPv6 address"
 msgstr "Адреса IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:93
+#: src/components/networks/createNetworkDialog.jsx:107
 msgid "IPv6 network should not be empty"
 msgstr "Мережа IPv6 не повинна бути порожньою"
 
-#: src/components/networks/createNetworkDialog.jsx:189
+#: src/components/networks/createNetworkDialog.jsx:203
 msgid "IPv6 only"
 msgstr "Лише IPv6"
 
@@ -1287,23 +1293,23 @@ msgstr "Тип інтерфейсу"
 msgid "Interface type help"
 msgstr "Довідка щодо типу інтерфейсу"
 
-#: src/components/networks/createNetworkDialog.jsx:64
-#: src/components/networks/createNetworkDialog.jsx:78
-#: src/components/networks/createNetworkDialog.jsx:85
+#: src/components/networks/createNetworkDialog.jsx:76
+#: src/components/networks/createNetworkDialog.jsx:92
+#: src/components/networks/createNetworkDialog.jsx:99
 msgid "Invalid IPv4 address"
 msgstr "Некоректна адреса IPv4"
 
-#: src/components/networks/createNetworkDialog.jsx:59
+#: src/components/networks/createNetworkDialog.jsx:63
 msgid "Invalid IPv4 mask or prefix length"
 msgstr "Некоректна довжина маски IPv4 або префікса"
 
-#: src/components/networks/createNetworkDialog.jsx:95
-#: src/components/networks/createNetworkDialog.jsx:106
-#: src/components/networks/createNetworkDialog.jsx:113
+#: src/components/networks/createNetworkDialog.jsx:109
+#: src/components/networks/createNetworkDialog.jsx:120
+#: src/components/networks/createNetworkDialog.jsx:127
 msgid "Invalid IPv6 address"
 msgstr "Некоректна адреса IPv6"
 
-#: src/components/networks/createNetworkDialog.jsx:100
+#: src/components/networks/createNetworkDialog.jsx:114
 msgid "Invalid IPv6 prefix"
 msgstr "Некоректний префікс IPv6"
 
@@ -1421,11 +1427,11 @@ msgstr "Керування віртуальними машинами"
 msgid "Manual connection"
 msgstr "З’єднання вручну"
 
-#: src/components/networks/createNetworkDialog.jsx:250
+#: src/components/networks/createNetworkDialog.jsx:264
 msgid "Mask or prefix length"
 msgstr "Довжина маски або префікса"
 
-#: src/components/networks/createNetworkDialog.jsx:57
+#: src/components/networks/createNetworkDialog.jsx:59
 msgid "Mask or prefix length should not be empty"
 msgstr "Довжина маски або префікса повинна бути непорожньою"
 
@@ -1542,6 +1548,12 @@ msgstr "Мітка монтування"
 msgid "Mount tag must not be empty"
 msgstr "Мітка монтування не може бути порожньою"
 
+#: src/components/networks/createNetworkDialog.jsx:81
+#, fuzzy
+#| msgid "IPv4 address cannot be same as the network identifier"
+msgid "Must be an address instead of the network identifier, such as $0"
+msgstr "Адреса IPv4 не може бути тою самою, що і ідентифікатор мережі"
+
 #: src/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
 msgstr "NAT до $0"
@@ -1558,7 +1570,7 @@ msgstr "NIC $0 ВМ $1, не вдалося змінити стан"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:90
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vms/hostvmslist.jsx:161
-#: src/components/networks/createNetworkDialog.jsx:126
+#: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/create-vm-dialog/createVmDialog.jsx:265
 msgid "Name"
@@ -1766,7 +1778,7 @@ msgstr ""
 "Несталий буфер зберігання даних не можна вилучати. Він просто зникне, якщо "
 "його вимкнути."
 
-#: src/components/networks/createNetworkDialog.jsx:187
+#: src/components/networks/createNetworkDialog.jsx:201
 msgid "None"
 msgstr "Немає"
 
@@ -1964,11 +1976,11 @@ msgstr "Бажана кількість сокетів, які слід нада
 msgid "Prefix"
 msgstr "Префікс"
 
-#: src/components/networks/createNetworkDialog.jsx:280
+#: src/components/networks/createNetworkDialog.jsx:294
 msgid "Prefix length"
 msgstr "Довжина префікса"
 
-#: src/components/networks/createNetworkDialog.jsx:98
+#: src/components/networks/createNetworkDialog.jsx:112
 msgid "Prefix length should not be empty"
 msgstr "Довжина префікса повинна бути непорожньою"
 
@@ -2278,7 +2290,7 @@ msgstr "Послідовна консоль"
 msgid "Serial console ($0)"
 msgstr "Послідовна консоль ($0)"
 
-#: src/components/networks/createNetworkDialog.jsx:214
+#: src/components/networks/createNetworkDialog.jsx:228
 msgid "Set DHCP range"
 msgstr "Встановити діапазон DHCP"
 
@@ -2437,7 +2449,7 @@ msgstr "Адреса джерела має починатися із назви 
 msgid "Source volume group"
 msgstr "Початкова група томів"
 
-#: src/components/networks/createNetworkDialog.jsx:219
+#: src/components/networks/createNetworkDialog.jsx:233
 msgid "Start"
 msgstr "Почати"
 
@@ -2445,8 +2457,8 @@ msgstr "Почати"
 msgid "Start pool when host boots"
 msgstr "Запускати резервне сховище після завантаження вузла"
 
-#: src/components/networks/createNetworkDialog.jsx:76
-#: src/components/networks/createNetworkDialog.jsx:104
+#: src/components/networks/createNetworkDialog.jsx:90
+#: src/components/networks/createNetworkDialog.jsx:118
 msgid "Start should not be empty"
 msgstr "Початок повинен бути непорожнім"
 
@@ -2764,7 +2776,7 @@ msgstr "Унікальна назва"
 msgid "Unique name, default: $0"
 msgstr "Унікальна назва, типовий варіант: $0"
 
-#: src/components/networks/createNetworkDialog.jsx:128
+#: src/components/networks/createNetworkDialog.jsx:142
 msgid "Unique network name"
 msgstr "Унікальна назва мережі"
 
@@ -2973,7 +2985,7 @@ msgstr "Керування віртуальними машинами"
 msgid "Virtual network"
 msgstr "Віртуальна мережа"
 
-#: src/components/networks/createNetworkDialog.jsx:378
+#: src/components/networks/createNetworkDialog.jsx:392
 msgid "Virtual network failed to be created"
 msgstr "Не вдалося створити віртуальну мережу"
 
