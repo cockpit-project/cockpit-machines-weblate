@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 02:50+0000\n"
-"PO-Revision-Date: 2023-05-25 05:20+0000\n"
+"PO-Revision-Date: 2024-05-12 14:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:927
 msgid "$0 $1 available at default location"
@@ -119,7 +119,7 @@ msgstr "Додати"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:863
 msgid "Add SSH keys"
-msgstr ""
+msgstr "Додати ключі SSH"
 
 #: src/components/networks/networkOverviewTab.jsx:231
 msgid "Add a DHCP static host entry"
@@ -333,13 +333,11 @@ msgstr "Скасувати"
 
 #: src/components/vm/overview/vsock.jsx:202
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Не можна редагувати пристрій vsock на проміжній ВМ"
 
 #: src/components/vm/overview/watchdog.jsx:161
-#, fuzzy
-#| msgid "Edit watchdog device type"
 msgid "Cannot edit watchdog device on a transient VM"
-msgstr "Змінити тип пристрою нагляду"
+msgstr "Не можна редагувати пристрій watchdog на проміжній ВМ"
 
 #: src/components/vm/disks/vmDisksCard.jsx:184
 msgid "Capacity"
@@ -441,11 +439,11 @@ msgstr "Консоль"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:157
 msgid "Convert QXL video card to VGA"
-msgstr ""
+msgstr "Перетворити відеокарту QXL на VGA"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:156
 msgid "Convert SPICE graphics console to VNC"
-msgstr ""
+msgstr "Перетворити графічну консоль SPICE на VNC"
 
 #: src/components/vm/vmMigrateDialog.jsx:103
 #: src/components/vm/vmMigrateDialog.jsx:119
@@ -662,7 +660,7 @@ msgstr "Опис"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:115
 msgid "Deselect others"
-msgstr ""
+msgstr "Скасувати позначення інших"
 
 #: src/components/vm/consoles/consoles.jsx:113
 msgid "Desktop viewer"
@@ -729,10 +727,8 @@ msgid "Disk $0 could not be removed"
 msgstr "Не вдалося вилучити диск $0"
 
 #: src/components/vm/disks/diskAdd.jsx:833
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
-msgstr "Не вдалося створити диск"
+msgstr "Не вдалося додати диск"
 
 #: src/components/vm/disks/diskAdd.jsx:238
 msgid "Disk identifier"
@@ -935,10 +931,8 @@ msgid "Failed to rename VM $0"
 msgstr "Не вдалося перейменувати ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:76
-#, fuzzy
-#| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "Не вдалося перейменувати ВМ $0"
+msgstr "Не вдалося замінити пристрої SPICE"
 
 #: src/components/networks/networkOverviewTab.jsx:245
 msgid "Failed to save network settings"
@@ -984,10 +978,8 @@ msgid "Force reboot"
 msgstr "Примусове перезавантаження"
 
 #: src/components/vm/vmActions.jsx:353
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force reboot $0?"
-msgstr "Примусове перезавантаження"
+msgstr "Примусово перезавантажити $0?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:107
 msgid "Force revert"
@@ -998,10 +990,8 @@ msgid "Force shut down"
 msgstr "Примусово вимкнути"
 
 #: src/components/vm/vmActions.jsx:289
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Примусово вимкнути"
+msgstr "Примусово вимкнути $0?"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:199
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
@@ -1066,7 +1056,7 @@ msgstr "Апаратну віртуалізацію вимкнено"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:161
 msgid "Help"
-msgstr ""
+msgstr "Довідка"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:239
 #: src/components/vm/disks/diskAdd.jsx:208
@@ -1151,14 +1141,12 @@ msgid "IPv4 only"
 msgstr "Лише IPv4"
 
 #: src/components/networks/createNetworkDialog.jsx:69
-#, fuzzy
-#| msgid "Prefix length should not be empty"
 msgid "IPv4 prefix length must be 24 or less"
-msgstr "Довжина префікса повинна бути непорожньою"
+msgstr "Довжина префікса IPv4 не повинна перевищувати 24 символи"
 
 #: src/components/networks/createNetworkDialog.jsx:66
 msgid "IPv4 prefix length must be a multiple of 8"
-msgstr ""
+msgstr "Довжина префікса IPv4 повинна бути кратною до 8"
 
 #: src/components/networks/createNetworkDialog.jsx:287
 #: src/components/networks/networkOverviewTab.jsx:158
@@ -1323,7 +1311,7 @@ msgstr "Ізольована мережа"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:828
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr ""
+msgstr "Ключі зберігаються у ~/.ssh/ і мають суфікс назви «.pub»."
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:62
 msgid "LVM volume group"
@@ -1397,7 +1385,7 @@ msgstr "MAC-адреса"
 
 #: src/components/vm/nics/nicEdit.jsx:129 src/components/vm/nics/nicAdd.jsx:152
 msgid "MAC address already in use"
-msgstr ""
+msgstr "MAC-адресу вже використано"
 
 #: src/components/networks/networkOverviewTab.jsx:251
 msgid "MAC address must not be empty"
@@ -1481,16 +1469,12 @@ msgid "Memory could not be saved"
 msgstr "Не вдалося зберегти дані щодо обсягу пам'яті"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-#, fuzzy
-#| msgid "Memory"
 msgid "Memory file"
-msgstr "Пам'ять"
+msgstr "Файл пам'яті"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-#, fuzzy
-#| msgid "Source must not be empty"
 msgid "Memory file can not be empty"
-msgstr "Джерело має бути непорожнім"
+msgstr "Файл пам'яті не може бути порожнім"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
@@ -1549,10 +1533,8 @@ msgid "Mount tag must not be empty"
 msgstr "Мітка монтування не може бути порожньою"
 
 #: src/components/networks/createNetworkDialog.jsx:81
-#, fuzzy
-#| msgid "IPv4 address cannot be same as the network identifier"
 msgid "Must be an address instead of the network identifier, such as $0"
-msgstr "Адреса IPv4 не може бути тою самою, що і ідентифікатор мережі"
+msgstr "Має бути адресою, а не ідентифікатором мережі, приклад: $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
@@ -1581,10 +1563,8 @@ msgid "Name already exists"
 msgstr "Таку назву вже використано"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Name can not be empty"
-msgstr "Запис назви не може бути порожнім"
+msgstr "Назва не може бути порожньою"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:51
 msgid "Name contains invalid characters"
@@ -1677,7 +1657,7 @@ msgstr "Назва нового тому"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:861
 msgid "No SSH keys specified"
-msgstr ""
+msgstr "Не вказано ключів SSH"
 
 #: src/components/vms/hostvmslist.jsx:166
 msgid "No VM is running or defined on this host"
@@ -1831,7 +1811,7 @@ msgstr "Виконується дія"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:99
 msgid "Other VMs using SPICE"
-msgstr ""
+msgstr "Інші ВМ з використанням SPICE"
 
 #: src/components/storagePools/storagePool.jsx:74
 #: src/components/vm/vmDetailsPage.jsx:113
@@ -1904,7 +1884,7 @@ msgstr "Фізичний пристрій у основній системі"
 
 #: src/components/vm/nics/nicEdit.jsx:129 src/components/vm/nics/nicAdd.jsx:152
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "Будь ласка, виберіть іншу MAC-адресу"
 
 #: src/components/vm/disks/diskAdd.jsx:550
 msgid "Please choose a storage pool"
@@ -1921,6 +1901,8 @@ msgstr "Будь ласка, введіть назву нового тому"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:78
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
+"Будь ласка, ознайомтеся із $0, щоб дізнатися про те, як змінити налаштування "
+"вашої ВМ вручну."
 
 #: src/components/vm/consoles/consoles.jsx:40
 msgid "Please start the virtual machine to access its console."
@@ -1963,10 +1945,8 @@ msgid "Power off"
 msgstr "Вимкнути живлення"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:63
-#, fuzzy
-#| msgid "redirected device"
 msgid "Pre-formatted block device"
-msgstr "переспрямований пристрій"
+msgstr "Попередньо форматований блоковий пристрій"
 
 #: src/components/vm/overview/cpuModal.jsx:273
 msgid "Preferred number of sockets to expose to the guest."
@@ -2037,11 +2017,11 @@ msgstr "Надає віртуальну LAN з NAT для зовнішнього
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:825
 msgid "Public SSH key"
-msgstr ""
+msgstr "Відкритий ключ SSH"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:821
 msgid "Public key"
-msgstr ""
+msgstr "Відкритий ключ"
 
 #: src/components/networks/networkOverviewTab.jsx:275
 msgid "Range"
@@ -2058,10 +2038,8 @@ msgid "Reboot"
 msgstr "Перезавантажити"
 
 #: src/components/vm/vmActions.jsx:333
-#, fuzzy
-#| msgid "Reboot"
 msgid "Reboot $0?"
-msgstr "Перезавантажити"
+msgstr "Перезавантажити $0?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:344
 msgid "Remote URL"
@@ -2087,7 +2065,7 @@ msgstr "Вилучити"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:158
 msgid "Remove SPICE audio and host devices"
-msgstr ""
+msgstr "Вилучити звукові пристрої SPICE та пристрої основної системи"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:161
 msgid "Remove and delete file"
@@ -2106,10 +2084,8 @@ msgid "Remove host device from VM?"
 msgstr "Вилучити пристрій основної системи з ВМ?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:837
-#, fuzzy
-#| msgid "Remove filesystem?"
 msgid "Remove item"
-msgstr "Вилучити файлову систему?"
+msgstr "Вилучити запис"
 
 #: src/components/vm/nics/vmNicsCard.jsx:468
 msgid "Remove network interface?"
@@ -2129,26 +2105,24 @@ msgstr "Перейменувати ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:132
 msgid "Replace"
-msgstr ""
+msgstr "Замінити"
 
 #: src/components/vm/vmActions.jsx:438 src/components/vm/usesSpice.jsx:38
 #: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "Замінити пристрої SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:124
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "Замінити пристрої SPICE у ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:146
 msgid "Replace SPICE on selected VMs."
-msgstr ""
+msgstr "Замінити SPICE на вибраних ВМ."
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:147
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "Створити віртуальну машину"
+msgstr "Замінити SPICE у віртуальній машині."
 
 #: src/helpers.js:280
 msgid "Reset"
@@ -2210,10 +2184,8 @@ msgid "Running"
 msgstr "Працює"
 
 #: src/components/common/needsShutdown.jsx:122
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE"
-msgstr "Порт SPICE"
+msgstr "SPICE"
 
 #: src/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
@@ -2225,26 +2197,24 @@ msgstr "Адреса SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:151
 #: src/components/vm/vmReplaceSpiceDialog.jsx:153
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE conversion"
-msgstr "Порт SPICE"
+msgstr "Перетворення SPICE"
 
 #: src/components/vm/usesSpice.jsx:32
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"На цій основній системі не передбачено підтримки SPICE, її використання "
+"призведе до неможливості завантажити віртуальну машину."
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
 msgid "SPICE port"
 msgstr "Порт SPICE"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:862
-#, fuzzy
-#| msgid "Send key"
 msgid "SSH keys"
-msgstr "Надіслати ключ"
+msgstr "Ключі SSH"
 
 #: src/components/vm/overview/watchdog.jsx:154
 #: src/components/vm/overview/firmware.jsx:82
@@ -2258,7 +2228,7 @@ msgstr "Зберегти"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:115
 msgid "Select all"
-msgstr ""
+msgstr "Вибрати все"
 
 #: src/components/vm/consoles/consoles.jsx:110
 msgid "Select console type"
@@ -2273,10 +2243,8 @@ msgid "Send non-maskable interrupt"
 msgstr "Надіслати немасковане переривання"
 
 #: src/components/vm/vmActions.jsx:310
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Send non-maskable interrupt to $0?"
-msgstr "Надіслати немасковане переривання"
+msgstr "Надіслати немасковане переривання на $0?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:104
 msgid "Serial"
@@ -2347,10 +2315,8 @@ msgid "Shut down"
 msgstr "Вимкнути"
 
 #: src/components/vm/vmActions.jsx:238 src/components/vm/vmActions.jsx:269
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shut down $0?"
-msgstr "Вимкнути"
+msgstr "Вимкнути $0?"
 
 #: src/helpers.js:228
 msgid "Shut off"
@@ -2559,17 +2525,15 @@ msgstr "призупинено (PM)"
 
 #: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "Перемкніться на VNC, щоб продовжити користування цією машиною."
 
 #: src/helpers.js:220
 msgid "System"
 msgstr "Система"
 
 #: src/components/vm/nics/vmNicsCard.jsx:189
-#, fuzzy
-#| msgid "Host device"
 msgid "TAP device"
-msgstr "Пристрій основної системи"
+msgstr "Пристрій TAP"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:126
 msgid "Table of selectable host devices"
@@ -2679,6 +2643,8 @@ msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr ""
+"Призначено для основної системи, у якій не передбачено підтримки SPICE через "
+"оновлення або інтерактивному перенесенню."
 
 #: src/components/vm/nics/nicBody.jsx:84
 msgid ""
@@ -2801,7 +2767,7 @@ msgstr "Не вказано"
 
 #: src/components/vm/confirmDialog.jsx:70
 msgid "Uptime"
-msgstr ""
+msgstr "Тривалість роботи"
 
 #: src/components/vm/disks/diskEdit.jsx:44
 msgid "Url"
@@ -2843,11 +2809,10 @@ msgid "User login"
 msgstr "Користувач"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:255
-#, fuzzy
-#| msgid "User login must not be empty when user password is set"
 msgid "User login must not be empty when SSH keys are set"
 msgstr ""
-"Якщо встановлено пароль користувача, ім'я користувача не може бути порожнім"
+"Якщо встановлено використання ключів SSH, ім'я користувача не може бути "
+"порожнім"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:253
 msgid "User login must not be empty when user password is set"
@@ -2869,7 +2834,7 @@ msgstr "Сеанс користувача"
 
 #: src/components/vm/usesSpice.jsx:22
 msgid "Uses SPICE"
-msgstr ""
+msgstr "Використовує SPICE"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:311
 msgid "VM $0 Host Devices"
@@ -3164,11 +3129,11 @@ msgstr "неактивний"
 
 #: src/components/vm/nics/vmNicsCard.jsx:385
 msgid "inet"
-msgstr ""
+msgstr "inet"
 
 #: src/components/vm/nics/vmNicsCard.jsx:393
 msgid "inet6"
-msgstr ""
+msgstr "inet6"
 
 #: src/manifest.json:0
 msgid "iso"
