@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-12 02:50+0000\n"
+"POT-Creation-Date: 2024-05-14 02:50+0000\n"
 "PO-Revision-Date: 2021-05-31 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -271,6 +271,12 @@ msgstr "Автоматически"
 msgid "Autostart"
 msgstr "Автозапуск"
 
+#: src/components/vm/disks/vmDiskColumns.jsx:42
+#, fuzzy
+#| msgid "Host device"
+msgid "Block device"
+msgstr "Главное устройство"
+
 #: src/helpers.js:232
 msgid "Blocked"
 msgstr "Заблокировано"
@@ -315,7 +321,7 @@ msgid "CPU mode could not be saved"
 msgstr "Не удалось сохранить параметры виртуальных ЦП"
 
 #: src/components/vm/disks/diskAdd.jsx:212
-#: src/components/vm/disks/vmDiskColumns.jsx:103
+#: src/components/vm/disks/vmDiskColumns.jsx:104
 #: src/components/vm/disks/diskEdit.jsx:60
 msgid "Cache"
 msgstr "Кэш"
@@ -489,7 +495,7 @@ msgstr "Не удалось удалить $0"
 msgid "Could not delete all storage for $0"
 msgstr "Не удалось вернуться к снимку"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:135
+#: src/components/vm/disks/vmDiskColumns.jsx:136
 #, fuzzy
 #| msgid "Could not revert to snapshot"
 msgid "Could not delete disk's storage"
@@ -750,7 +756,7 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
 #: src/components/vm/disks/diskAdd.jsx:348
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/disks/vmDisksCard.jsx:172
 #: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
@@ -782,7 +788,7 @@ msgstr "Отключено от последовательной консоли.
 msgid "Disk"
 msgstr "Диски"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:150
 #, fuzzy
 #| msgid "Disk settings could not be saved"
 msgid "Disk $0 could not be removed"
@@ -911,7 +917,7 @@ msgstr ""
 msgid "Editing transient network interfaces is not allowed"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:195
+#: src/components/vm/disks/vmDiskColumns.jsx:196
 #: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr ""
@@ -1103,7 +1109,7 @@ msgstr "Принудительное завершение работы"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:199
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.jsx:106
 msgid "Format"
 msgstr "Форматировать"
 
@@ -1175,7 +1181,7 @@ msgstr "Скрыть дополнительные параметры"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/disks/vmDiskColumns.jsx:46
+#: src/components/vm/disks/vmDiskColumns.jsx:47
 msgid "Host"
 msgstr "Узел"
 
@@ -1358,7 +1364,7 @@ msgid "Inject a non-maskable interrupt"
 msgstr "Отправить немаскируемое прерывание"
 
 #: src/components/vm/disks/diskAdd.jsx:846
-#: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/disks/vmDiskColumns.jsx:188
 #, fuzzy
 #| msgid "Ctrl+Insert"
 msgid "Insert"
@@ -2100,7 +2106,7 @@ msgstr "Запустите виртуальную машину, чтобы по�
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/disks/diskAdd.jsx:151
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/disks/mediaEject.jsx:85
 msgid "Pool"
 msgstr "Пул"
@@ -2126,7 +2132,7 @@ msgstr "Тома пула используются виртуальными ма
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/nics/vmNicsCard.jsx:162
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.jsx:48
 msgid "Port"
 msgstr "Порт"
 
@@ -2181,7 +2187,7 @@ msgstr "Профиль"
 #: src/components/vm/overview/bootOrder.jsx:98
 #: src/components/vm/overview/bootOrder.jsx:159
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Protocol"
 msgstr "Протокол"
 
@@ -2248,8 +2254,8 @@ msgstr "Сведения о гипервизоре"
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
 #: src/components/vm/nics/vmNicsCard.jsx:471
 #: src/components/vm/nics/vmNicsCard.jsx:481
-#: src/components/vm/disks/vmDiskColumns.jsx:148
-#: src/components/vm/disks/vmDiskColumns.jsx:214
+#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:215
 #: src/components/networks/networkOverviewTab.jsx:70
 msgid "Remove"
 msgstr "Удалить"
@@ -2258,11 +2264,11 @@ msgstr "Удалить"
 msgid "Remove SPICE audio and host devices"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/vmDiskColumns.jsx:162
 msgid "Remove and delete file"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:147
+#: src/components/vm/disks/vmDiskColumns.jsx:148
 #, fuzzy
 #| msgid "Removing $0"
 msgid "Remove disk from VM?"
@@ -2454,7 +2460,7 @@ msgstr "Отправить немаскируемое прерывание"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Отправить немаскируемое прерывание"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/vmDiskColumns.jsx:105
 #, fuzzy
 #| msgid "Serial console"
 msgid "Serial"
@@ -2783,7 +2789,7 @@ msgstr ""
 # Этап передачи событий
 #: src/components/vm/overview/bootOrder.jsx:153
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:152
+#: src/components/vm/disks/vmDiskColumns.jsx:153
 msgid "Target"
 msgstr "Цель"
 
@@ -2813,7 +2819,7 @@ msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:482
 #: src/components/vm/nics/vmNicsCard.jsx:490
-#: src/components/vm/disks/vmDiskColumns.jsx:222
+#: src/components/vm/disks/vmDiskColumns.jsx:223
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "ВМ должна работать или быть отключена, чтобы отсоединить это устройство"
@@ -2867,7 +2873,7 @@ msgstr ""
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Эта ВМ временная. Выключите ее, если хотите ее удалить."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:150
+#: src/components/vm/disks/vmDiskColumns.jsx:151
 msgid "This disk will be removed from $0:"
 msgstr ""
 
@@ -3203,7 +3209,7 @@ msgstr "Служба виртуализации (libvirt) не активна"
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/vmDiskColumns.jsx:45
+#: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
 msgid "Volume"

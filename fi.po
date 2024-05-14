@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-12 02:50+0000\n"
+"POT-Creation-Date: 2024-05-14 02:50+0000\n"
 "PO-Revision-Date: 2024-02-20 20:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -249,6 +249,12 @@ msgstr "Automatisointi"
 msgid "Autostart"
 msgstr "Automaattikäynnistys"
 
+#: src/components/vm/disks/vmDiskColumns.jsx:42
+#, fuzzy
+#| msgid "Host device"
+msgid "Block device"
+msgstr "Isäntälaite"
+
 #: src/helpers.js:232
 msgid "Blocked"
 msgstr "Estetty"
@@ -291,7 +297,7 @@ msgid "CPU mode could not be saved"
 msgstr "CPU:n moodia ei voitu tallentaa"
 
 #: src/components/vm/disks/diskAdd.jsx:212
-#: src/components/vm/disks/vmDiskColumns.jsx:103
+#: src/components/vm/disks/vmDiskColumns.jsx:104
 #: src/components/vm/disks/diskEdit.jsx:60
 msgid "Cache"
 msgstr "Välimuisti"
@@ -455,7 +461,7 @@ msgstr "$0 ei voitu poistaa"
 msgid "Could not delete all storage for $0"
 msgstr "Ei voitu poistaa kaikkea tallennustilaa $0:lle"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:135
+#: src/components/vm/disks/vmDiskColumns.jsx:136
 msgid "Could not delete disk's storage"
 msgstr "Ei voitu poistaa levyn tallennustilaa"
 
@@ -687,7 +693,7 @@ msgstr "Yksityiskohdat"
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
 #: src/components/vm/disks/diskAdd.jsx:348
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/disks/vmDisksCard.jsx:172
 #: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
@@ -715,7 +721,7 @@ msgstr "Irrotettu sarjakonsolista. Napsauta yhdistä-painiketta."
 msgid "Disk"
 msgstr "Levy"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:150
 msgid "Disk $0 could not be removed"
 msgstr "Levyä $0 ei voitu poistaa"
 
@@ -829,7 +835,7 @@ msgstr ""
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Väliaikaisten verkkoliitäntöjen muokkaaminen ei ole sallittua"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:195
+#: src/components/vm/disks/vmDiskColumns.jsx:196
 #: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr "Poista"
@@ -991,7 +997,7 @@ msgstr "Pakota $0 sammutus?"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:199
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.jsx:106
 msgid "Format"
 msgstr "Alusta"
 
@@ -1062,7 +1068,7 @@ msgstr "Piilota lisävaihtoehdot"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/disks/vmDiskColumns.jsx:46
+#: src/components/vm/disks/vmDiskColumns.jsx:47
 msgid "Host"
 msgstr "Kone"
 
@@ -1238,7 +1244,7 @@ msgid "Inject a non-maskable interrupt"
 msgstr "Lisää ei-maskattava keskeytys"
 
 #: src/components/vm/disks/diskAdd.jsx:846
-#: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/disks/vmDiskColumns.jsx:188
 msgid "Insert"
 msgstr "Insert"
 
@@ -1906,7 +1912,7 @@ msgstr "Käynnistä virtuaalikone päästäksesi sen konsoliin."
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/disks/diskAdd.jsx:151
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/disks/mediaEject.jsx:85
 msgid "Pool"
 msgstr "Varanto"
@@ -1930,7 +1936,7 @@ msgstr "Varannon taltioita käyttävät virtuaalikoneet "
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/nics/vmNicsCard.jsx:162
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.jsx:48
 msgid "Port"
 msgstr "Portti"
 
@@ -1985,7 +1991,7 @@ msgstr "Profiili"
 #: src/components/vm/overview/bootOrder.jsx:98
 #: src/components/vm/overview/bootOrder.jsx:159
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Protocol"
 msgstr "Protokolla"
 
@@ -2050,8 +2056,8 @@ msgstr "Etäkatseluohjelman yksityiskohdat"
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
 #: src/components/vm/nics/vmNicsCard.jsx:471
 #: src/components/vm/nics/vmNicsCard.jsx:481
-#: src/components/vm/disks/vmDiskColumns.jsx:148
-#: src/components/vm/disks/vmDiskColumns.jsx:214
+#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:215
 #: src/components/networks/networkOverviewTab.jsx:70
 msgid "Remove"
 msgstr "Poista"
@@ -2060,11 +2066,11 @@ msgstr "Poista"
 msgid "Remove SPICE audio and host devices"
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/vmDiskColumns.jsx:162
 msgid "Remove and delete file"
 msgstr "Poista ja poista tiedosto"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:147
+#: src/components/vm/disks/vmDiskColumns.jsx:148
 msgid "Remove disk from VM?"
 msgstr "Poistetaanko levy VM:stä?"
 
@@ -2241,7 +2247,7 @@ msgstr "Lähetä ei-peitettävä keskeytys"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Lähetä kohteeseen $0 ei-peitettävä keskeytys?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/vmDiskColumns.jsx:105
 msgid "Serial"
 msgstr "Sarjanumero"
 
@@ -2531,7 +2537,7 @@ msgstr "Taulukko valittavista olevista isäntälaitteista"
 
 #: src/components/vm/overview/bootOrder.jsx:153
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:152
+#: src/components/vm/disks/vmDiskColumns.jsx:153
 msgid "Target"
 msgstr "Kohde"
 
@@ -2559,7 +2565,7 @@ msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:482
 #: src/components/vm/nics/vmNicsCard.jsx:490
-#: src/components/vm/disks/vmDiskColumns.jsx:222
+#: src/components/vm/disks/vmDiskColumns.jsx:223
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "Virtuaalikoneen on oltava käynnissä tai sammutettuna laitteen irrottamiseksi"
@@ -2614,7 +2620,7 @@ msgstr "Kopioi ja liitä se sitten yläpuolelle."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Tämä virtuaalikone on ohimenevä. Sammuta se, jos haluat poistaa sen."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:150
+#: src/components/vm/disks/vmDiskColumns.jsx:151
 msgid "This disk will be removed from $0:"
 msgstr "Tämä levy poistetaan $0:sta:"
 
@@ -2956,7 +2962,7 @@ msgstr "Virtualisointipalvelu (libvirt) ei ole aktiivinen"
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/vmDiskColumns.jsx:45
+#: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
 msgid "Volume"

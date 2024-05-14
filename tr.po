@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-12 02:50+0000\n"
+"POT-Creation-Date: 2024-05-14 02:50+0000\n"
 "PO-Revision-Date: 2024-05-12 14:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -248,6 +248,12 @@ msgstr "Otomasyon"
 msgid "Autostart"
 msgstr "Otomatik başlat"
 
+#: src/components/vm/disks/vmDiskColumns.jsx:42
+#, fuzzy
+#| msgid "Host device"
+msgid "Block device"
+msgstr "Anamakine aygıtı"
+
 #: src/helpers.js:232
 msgid "Blocked"
 msgstr "Engellendi"
@@ -290,7 +296,7 @@ msgid "CPU mode could not be saved"
 msgstr "CPU modu kaydedilemedi"
 
 #: src/components/vm/disks/diskAdd.jsx:212
-#: src/components/vm/disks/vmDiskColumns.jsx:103
+#: src/components/vm/disks/vmDiskColumns.jsx:104
 #: src/components/vm/disks/diskEdit.jsx:60
 msgid "Cache"
 msgstr "Önbellek"
@@ -456,7 +462,7 @@ msgstr "$0 silinemedi"
 msgid "Could not delete all storage for $0"
 msgstr "$0 için tüm depolama alanı silinemedi"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:135
+#: src/components/vm/disks/vmDiskColumns.jsx:136
 msgid "Could not delete disk's storage"
 msgstr "Disk depolama alanı silinemedi"
 
@@ -688,7 +694,7 @@ msgstr "Ayrıntılar"
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
 #: src/components/vm/disks/diskAdd.jsx:348
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/disks/vmDisksCard.jsx:172
 #: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
@@ -716,7 +722,7 @@ msgstr "Seri konsoldan bağlantı kesildi. Bağlan düğmesine tıklayın."
 msgid "Disk"
 msgstr "Disk"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:150
 msgid "Disk $0 could not be removed"
 msgstr "$0 diski kaldırılamadı"
 
@@ -828,7 +834,7 @@ msgstr "Geçici konukların ağ arayüzlerini düzenlemeye izin verilmiyor"
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Geçici ağ arayüzlerini düzenlemeye izin verilmiyor"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:195
+#: src/components/vm/disks/vmDiskColumns.jsx:196
 #: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr "Çıkar"
@@ -989,7 +995,7 @@ msgstr "$0 kapatmaya zorlansın mı?"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:199
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.jsx:106
 msgid "Format"
 msgstr "Biçimlendir"
 
@@ -1060,7 +1066,7 @@ msgstr "Ek seçenekleri gizle"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/disks/vmDiskColumns.jsx:46
+#: src/components/vm/disks/vmDiskColumns.jsx:47
 msgid "Host"
 msgstr "Anamakine"
 
@@ -1233,7 +1239,7 @@ msgid "Inject a non-maskable interrupt"
 msgstr "Maskelenemez kesme gönder"
 
 #: src/components/vm/disks/diskAdd.jsx:846
-#: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/disks/vmDiskColumns.jsx:188
 msgid "Insert"
 msgstr "Tak"
 
@@ -1896,7 +1902,7 @@ msgstr "Konsoluna erişmek için lütfen sanal makineyi başlatın."
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/disks/diskAdd.jsx:151
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/disks/mediaEject.jsx:85
 msgid "Pool"
 msgstr "Havuz"
@@ -1920,7 +1926,7 @@ msgstr "Havuzun birimleri sanal makineler tarafından kullanılıyor "
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/nics/vmNicsCard.jsx:162
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.jsx:48
 msgid "Port"
 msgstr "Bağlantı noktası"
 
@@ -1975,7 +1981,7 @@ msgstr "Profil"
 #: src/components/vm/overview/bootOrder.jsx:98
 #: src/components/vm/overview/bootOrder.jsx:159
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Protocol"
 msgstr "Protokol"
 
@@ -2039,8 +2045,8 @@ msgstr "Uzak görüntüleyici ayrıntıları"
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
 #: src/components/vm/nics/vmNicsCard.jsx:471
 #: src/components/vm/nics/vmNicsCard.jsx:481
-#: src/components/vm/disks/vmDiskColumns.jsx:148
-#: src/components/vm/disks/vmDiskColumns.jsx:214
+#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:215
 #: src/components/networks/networkOverviewTab.jsx:70
 msgid "Remove"
 msgstr "Kaldır"
@@ -2049,11 +2055,11 @@ msgstr "Kaldır"
 msgid "Remove SPICE audio and host devices"
 msgstr "SPICE ses ve ana makine aygıtlarını kaldır"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/vmDiskColumns.jsx:162
 msgid "Remove and delete file"
 msgstr "Kaldır ve dosyayı sil"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:147
+#: src/components/vm/disks/vmDiskColumns.jsx:148
 msgid "Remove disk from VM?"
 msgstr "Disk sanal makineden kaldırılsın mı?"
 
@@ -2227,7 +2233,7 @@ msgstr "Maskelenemez kesme (NMI) gönder"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "$0 için maskelenemez kesme (NMI) gönderilsin mi?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/vmDiskColumns.jsx:105
 msgid "Serial"
 msgstr "Seri"
 
@@ -2523,7 +2529,7 @@ msgstr "Seçilebilir anamakine aygıtları tablosu"
 
 #: src/components/vm/overview/bootOrder.jsx:153
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:152
+#: src/components/vm/disks/vmDiskColumns.jsx:153
 msgid "Target"
 msgstr "Hedef"
 
@@ -2551,7 +2557,7 @@ msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:482
 #: src/components/vm/nics/vmNicsCard.jsx:490
-#: src/components/vm/disks/vmDiskColumns.jsx:222
+#: src/components/vm/disks/vmDiskColumns.jsx:223
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "Bu aygıtı ayırmak için sanal makinenin çalışıyor olması veya kapatılması "
@@ -2609,7 +2615,7 @@ msgstr "Ardından kopyalayın ve yukarıya yapıştırın."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Bu sanal makine geçicidir. Silmek istiyorsanız kapatın."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:150
+#: src/components/vm/disks/vmDiskColumns.jsx:151
 msgid "This disk will be removed from $0:"
 msgstr "Bu disk $0 sanal makinesinden kaldırılacak:"
 
@@ -2951,7 +2957,7 @@ msgstr "Sanallaştırma hizmeti (libvirt) etkin değil"
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/vmDiskColumns.jsx:45
+#: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
 msgid "Volume"

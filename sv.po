@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-12 02:50+0000\n"
+"POT-Creation-Date: 2024-05-14 02:50+0000\n"
 "PO-Revision-Date: 2024-05-14 03:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
-"cockpit-machines/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
+"machines/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -247,6 +247,12 @@ msgstr "Automatisering"
 msgid "Autostart"
 msgstr "Starta automatiskt"
 
+#: src/components/vm/disks/vmDiskColumns.jsx:42
+#, fuzzy
+#| msgid "Host device"
+msgid "Block device"
+msgstr "Värdenhet"
+
 #: src/helpers.js:232
 msgid "Blocked"
 msgstr "Blockerat"
@@ -289,7 +295,7 @@ msgid "CPU mode could not be saved"
 msgstr "CPU-läget kunde inte sparas"
 
 #: src/components/vm/disks/diskAdd.jsx:212
-#: src/components/vm/disks/vmDiskColumns.jsx:103
+#: src/components/vm/disks/vmDiskColumns.jsx:104
 #: src/components/vm/disks/diskEdit.jsx:60
 msgid "Cache"
 msgstr "Cache"
@@ -452,7 +458,7 @@ msgstr "Det gick inte att radera $0"
 msgid "Could not delete all storage for $0"
 msgstr "Det gick inte att radera all lagring för $0"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:135
+#: src/components/vm/disks/vmDiskColumns.jsx:136
 msgid "Could not delete disk's storage"
 msgstr "Kunde inte ta bort diskens lagring"
 
@@ -683,7 +689,7 @@ msgstr "Detaljer"
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
 #: src/components/vm/disks/diskAdd.jsx:348
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/disks/vmDisksCard.jsx:172
 #: src/components/networks/createNetworkDialog.jsx:174
 #: src/components/networks/networkList.jsx:68
@@ -711,7 +717,7 @@ msgstr "Frånkopplad från seriekonsolen. Klicka på Anslut."
 msgid "Disk"
 msgstr "Disk"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:150
 msgid "Disk $0 could not be removed"
 msgstr "Disk $0 kunde inte tas bort"
 
@@ -822,7 +828,7 @@ msgstr "Att redigera nätverksgränssnitt för transienta gäster är inte till�
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Att redigera transienta nätverksgränssnit är inte tillåtet"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:195
+#: src/components/vm/disks/vmDiskColumns.jsx:196
 #: src/components/vm/disks/mediaEject.jsx:103
 msgid "Eject"
 msgstr "Mata ut"
@@ -982,7 +988,7 @@ msgstr "Framtvinga avstängning $0?"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:199
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.jsx:106
 msgid "Format"
 msgstr "Formater"
 
@@ -1053,7 +1059,7 @@ msgstr "Göm ytterligare inställningar"
 #: src/components/storagePools/storagePoolOverviewTab.jsx:34
 #: src/components/storagePools/createStoragePoolDialog.jsx:121
 #: src/components/vm/overview/bootOrder.jsx:101
-#: src/components/vm/disks/vmDiskColumns.jsx:46
+#: src/components/vm/disks/vmDiskColumns.jsx:47
 msgid "Host"
 msgstr "Värd"
 
@@ -1227,7 +1233,7 @@ msgid "Inject a non-maskable interrupt"
 msgstr "Injicera ett ej maskerbart avbrott"
 
 #: src/components/vm/disks/diskAdd.jsx:846
-#: src/components/vm/disks/vmDiskColumns.jsx:187
+#: src/components/vm/disks/vmDiskColumns.jsx:188
 msgid "Insert"
 msgstr "Insert"
 
@@ -1888,7 +1894,7 @@ msgstr "Starta den virtuella maskinen för att komma åt dess konsol."
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/deleteDialog.jsx:68
 #: src/components/vm/disks/diskAdd.jsx:151
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/disks/mediaEject.jsx:85
 msgid "Pool"
 msgstr "Pool"
@@ -1912,7 +1918,7 @@ msgstr "Poolens volymer används av VM:ar "
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/nics/vmNicsCard.jsx:162
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.jsx:48
 msgid "Port"
 msgstr "Port"
 
@@ -1967,7 +1973,7 @@ msgstr "Profil"
 #: src/components/vm/overview/bootOrder.jsx:98
 #: src/components/vm/overview/bootOrder.jsx:159
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:43
+#: src/components/vm/disks/vmDiskColumns.jsx:44
 msgid "Protocol"
 msgstr "Protokoll"
 
@@ -2033,8 +2039,8 @@ msgstr "Detaljer om fjärrvisaren"
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
 #: src/components/vm/nics/vmNicsCard.jsx:471
 #: src/components/vm/nics/vmNicsCard.jsx:481
-#: src/components/vm/disks/vmDiskColumns.jsx:148
-#: src/components/vm/disks/vmDiskColumns.jsx:214
+#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.jsx:215
 #: src/components/networks/networkOverviewTab.jsx:70
 msgid "Remove"
 msgstr "Ta bort"
@@ -2043,11 +2049,11 @@ msgstr "Ta bort"
 msgid "Remove SPICE audio and host devices"
 msgstr "Ta bort SPICE-ljud- och värdenheter"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:161
+#: src/components/vm/disks/vmDiskColumns.jsx:162
 msgid "Remove and delete file"
 msgstr "Ta bort och radera fil"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:147
+#: src/components/vm/disks/vmDiskColumns.jsx:148
 msgid "Remove disk from VM?"
 msgstr "Ta bort en disk från VM:en?"
 
@@ -2223,7 +2229,7 @@ msgstr "Skicka ej maskerbart avbrott"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Skicka ej maskerbart avbrott till $0?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/vmDiskColumns.jsx:105
 msgid "Serial"
 msgstr "Seriell"
 
@@ -2514,7 +2520,7 @@ msgstr "Tabell över valbara värdenheter"
 
 #: src/components/vm/overview/bootOrder.jsx:153
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:152
+#: src/components/vm/disks/vmDiskColumns.jsx:153
 msgid "Target"
 msgstr "Mål"
 
@@ -2541,7 +2547,7 @@ msgstr "VM:en $0 kör och kommer tvingande stängas av före den tas bort."
 
 #: src/components/vm/nics/vmNicsCard.jsx:482
 #: src/components/vm/nics/vmNicsCard.jsx:490
-#: src/components/vm/disks/vmDiskColumns.jsx:222
+#: src/components/vm/disks/vmDiskColumns.jsx:223
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "VM:en behöver köra eller vara avstängd för att koppla ifrån denna enhet"
@@ -2597,7 +2603,7 @@ msgstr "Kopiera och klistra sedan in det ovan."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Denna VM är transient. Stäng av den om du vill radera den."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:150
+#: src/components/vm/disks/vmDiskColumns.jsx:151
 msgid "This disk will be removed from $0:"
 msgstr "Denna disk kommer tas bort från $0:"
 
@@ -2934,7 +2940,7 @@ msgstr "Virtualiseringstjänsten (libvirt) är inte aktiv"
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/vm/disks/diskAdd.jsx:117
-#: src/components/vm/disks/vmDiskColumns.jsx:45
+#: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/disks/mediaEject.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
 msgid "Volume"
