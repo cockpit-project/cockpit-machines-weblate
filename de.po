@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 03:01+0000\n"
+"POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2023-04-30 18:20+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
@@ -112,7 +112,7 @@ msgstr "Aktion"
 #: src/components/storagePools/storagePoolList.jsx:72
 #: src/components/networks/networkList.jsx:72
 #: src/components/vm/nics/vmNicsCard.jsx:421
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:167
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/disks/vmDisksCard.jsx:192
 #: src/components/vms/hostvmslist.jsx:164
 #, fuzzy
@@ -574,7 +574,7 @@ msgid "Create new virtual machine"
 msgstr "Neue Virtuelle Maschine erstellen"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Snapshot erzeugen"
 
@@ -605,11 +605,17 @@ msgstr "VM erstellen"
 msgid "Creating VM $0"
 msgstr "VM $0 erstellen"
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:1285
 msgid "Creation of VM $0 failed"
 msgstr "Das Erstellen von VM $0 ist fehlgeschlagen"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:78
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
 msgid "Creation time"
 msgstr "Erstellungszeit"
 
@@ -617,7 +623,7 @@ msgstr "Erstellungszeit"
 msgid "Ctrl+Alt+$0"
 msgstr "Strg + Alt +$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
 msgid "Current"
 msgstr "Aktuell"
 
@@ -685,7 +691,7 @@ msgstr "Verknüpfte Speicherdateien löschen:"
 msgid "Delete network?"
 msgstr "Netzwerk löschen?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:186
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
 msgid "Delete snapshot?"
 msgstr "Schnappschuss löschen?"
 
@@ -703,7 +709,7 @@ msgstr ""
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -809,7 +815,7 @@ msgstr ""
 msgid "Disk settings could not be saved"
 msgstr "Festplatten-Einstellungen konnten nicht gespeichert werden"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:130
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
 msgid "Disk-only snapshot"
 msgstr "Nur-Datenträger-Schnappschuss"
 
@@ -828,11 +834,11 @@ msgstr ""
 msgid "Do nothing"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:132
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
 msgid "Domain has crashed"
 msgstr "Domain ist abgestürzt"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:131
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
 msgid "Domain is blocked on resource"
 msgstr "Domain ist durch Resource blockiert"
 
@@ -1661,7 +1667,7 @@ msgstr ""
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Name"
@@ -1784,7 +1790,7 @@ msgstr "Kein Startgerät gefunden"
 msgid "No connection available"
 msgstr "Keine Verbindung verfügbar"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "No description"
 msgstr "Keine Beschreibung"
 
@@ -1820,11 +1826,11 @@ msgstr "Kein Netzwerk auf diesem Host definiert"
 msgid "No networks available"
 msgstr "Keine Netzwerke verfügbar"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:156
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
 msgid "No parent"
 msgstr "Kein Elternteil"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:235
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
 msgid "No snapshots defined for this VM"
 msgstr "Für diese VM sind keine Schnappschüsse definiert"
 
@@ -1934,7 +1940,7 @@ msgstr "Überblick"
 msgid "PCI"
 msgstr "PCI"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:154
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
 msgid "Parent snapshot"
 msgstr "Übergeordneter Schnappschuss"
 
@@ -2077,7 +2083,7 @@ msgstr "Präfixlänge"
 msgid "Prefix length should not be empty"
 msgstr "Präfixlänge sollte nicht leer sein"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:236
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2254,7 +2260,7 @@ msgstr ""
 msgid "Resume"
 msgstr "Fortfahren"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:179
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:100
 msgid "Revert"
 msgstr "Zurückkehren"
@@ -2460,7 +2466,7 @@ msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 "Fahren Sie die VM herunter, um die Firmware-Konfiguration zu bearbeiten"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:219
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.js:219
 msgid "Shutting down"
 msgstr "Wird heruntergefahren"
 
@@ -2478,11 +2484,11 @@ msgstr "Größe"
 msgid "Slot"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:187
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
 msgid "Snapshot $0 could not be deleted"
 msgstr "Schnappschuss $0 konnte nicht gelöscht werden"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
@@ -3035,7 +3041,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "VM $0 konnte nicht heruntergefahren werden"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:120
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
 msgid "VM state"
 msgstr "VM-Status"
 
@@ -3312,7 +3318,7 @@ msgstr "Netzwerk"
 msgid "no"
 msgstr "Nein"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:124
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
 msgid "no state saved"
 msgstr "kein Zustand gespeichert"
 

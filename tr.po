@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 03:01+0000\n"
+"POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2024-09-08 13:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -99,7 +99,7 @@ msgstr "Eylem"
 #: src/components/storagePools/storagePoolList.jsx:72
 #: src/components/networks/networkList.jsx:72
 #: src/components/vm/nics/vmNicsCard.jsx:421
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:167
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/disks/vmDisksCard.jsx:192
 #: src/components/vms/hostvmslist.jsx:164
 msgid "Actions"
@@ -536,7 +536,7 @@ msgid "Create new virtual machine"
 msgstr "Yeni sanal makine oluştur"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Anlık görüntü oluştur"
 
@@ -567,11 +567,17 @@ msgstr "Sanal makine oluşturuluyor"
 msgid "Creating VM $0"
 msgstr "$0 sanal makinesi oluşturuluyor"
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:1285
 msgid "Creation of VM $0 failed"
 msgstr "$0 sanal makinesini oluşturma başarısız oldu"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:78
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
 msgid "Creation time"
 msgstr "Oluşturma zamanı"
 
@@ -579,7 +585,7 @@ msgstr "Oluşturma zamanı"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
 msgid "Current"
 msgstr "Şu anki"
 
@@ -645,7 +651,7 @@ msgstr "İlişkili depolama dosyalarını sil:"
 msgid "Delete network?"
 msgstr "Ağ silinsin mi?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:186
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
 msgid "Delete snapshot?"
 msgstr "Anlık görüntü silinsin mi?"
 
@@ -663,7 +669,7 @@ msgstr "Paylaşılan dizinleri silmek yalnızca konuk kapalı olduğunda mümkü
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Açıklama"
 
@@ -764,7 +770,7 @@ msgstr "Disk kalıpları kullanıcı ev dizininde saklanabilir"
 msgid "Disk settings could not be saved"
 msgstr "Disk ayarları kaydedilemedi"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:130
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
 msgid "Disk-only snapshot"
 msgstr "Sadece disk anlık görüntüsü"
 
@@ -782,11 +788,11 @@ msgstr ""
 msgid "Do nothing"
 msgstr "Hiçbir şey yapma"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:132
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
 msgid "Domain has crashed"
 msgstr "Etki alanı çöktü"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:131
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
 msgid "Domain is blocked on resource"
 msgstr "Etki alanı, kaynakta engellendi"
 
@@ -1565,7 +1571,7 @@ msgstr "$1 sanal makinesinin $0 NIC'inin durumunu değiştirme başarısız oldu
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Ad"
@@ -1683,7 +1689,7 @@ msgstr "Bulunan önyükleme aygıtı yok"
 msgid "No connection available"
 msgstr "Kullanılabilir bağlantı yok"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "No description"
 msgstr "Açıklama yok"
 
@@ -1719,11 +1725,11 @@ msgstr "Bu anamakinede tanımlı ağ yok"
 msgid "No networks available"
 msgstr "Kullanılabilir ağlar yok"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:156
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
 msgid "No parent"
 msgstr "Üst öğe yok"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:235
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
 msgid "No snapshots defined for this VM"
 msgstr "Bu sanal makine için tanımlanan anlık görüntüler yok"
 
@@ -1834,7 +1840,7 @@ msgstr "Genel Bakış"
 msgid "PCI"
 msgstr "PCI"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:154
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
 msgid "Parent snapshot"
 msgstr "Üst öğe anlık görüntüsü"
 
@@ -1975,7 +1981,7 @@ msgstr "Ön ek uzunluğu"
 msgid "Prefix length should not be empty"
 msgstr "Ön ek uzunluğu boş olmamalıdır"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:236
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2147,7 +2153,7 @@ msgstr ""
 msgid "Resume"
 msgstr "Devam"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:179
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:100
 msgid "Revert"
 msgstr "Geri döndür"
@@ -2340,7 +2346,7 @@ msgstr "Kapat"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Aygıt yazılımı yapılandırmasını düzenlemek için sanal makineyi kapatın"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:219
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.js:219
 msgid "Shutting down"
 msgstr "Kapatılıyor"
 
@@ -2358,11 +2364,11 @@ msgstr "Boyut"
 msgid "Slot"
 msgstr "Yuva"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:187
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
 msgid "Snapshot $0 could not be deleted"
 msgstr "$0 anlık görüntüsü silinemedi"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
@@ -2908,7 +2914,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "Sanal makinenin kapatılması gerekiyor"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:120
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
 msgid "VM state"
 msgstr "Sanal Makine durumu"
 
@@ -3185,7 +3191,7 @@ msgstr "ağ"
 msgid "no"
 msgstr "hayır"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:124
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
 msgid "no state saved"
 msgstr "kaydedilen durum yok"
 

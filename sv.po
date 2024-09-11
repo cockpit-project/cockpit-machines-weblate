@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 03:01+0000\n"
+"POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2024-09-11 05:38+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
-"cockpit-machines/main/sv/>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
+"machines/main/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +96,7 @@ msgstr "Åtgärd"
 #: src/components/storagePools/storagePoolList.jsx:72
 #: src/components/networks/networkList.jsx:72
 #: src/components/vm/nics/vmNicsCard.jsx:421
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:167
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/disks/vmDisksCard.jsx:192
 #: src/components/vms/hostvmslist.jsx:164
 msgid "Actions"
@@ -531,7 +531,7 @@ msgid "Create new virtual machine"
 msgstr "Skapa en ny virtuell maskin"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Skapa en ögonblicksbild"
 
@@ -562,11 +562,17 @@ msgstr "Skapar VM"
 msgid "Creating VM $0"
 msgstr "Skapar VM $0"
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:1285
 msgid "Creation of VM $0 failed"
 msgstr "Misslyckades att skapa VM $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:78
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
 msgid "Creation time"
 msgstr "Skapandetidpunkt"
 
@@ -574,7 +580,7 @@ msgstr "Skapandetidpunkt"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
 msgid "Current"
 msgstr "Aktuell"
 
@@ -640,7 +646,7 @@ msgstr "Ta bort assoicierade lagringsfiler:"
 msgid "Delete network?"
 msgstr "Ta bort nätverket?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:186
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
 msgid "Delete snapshot?"
 msgstr "Ta bort ögonblicksbild?"
 
@@ -658,7 +664,7 @@ msgstr "Att ta bort delade kataloger är endast möjligt när gästen är avstä
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Beskrivning"
 
@@ -759,7 +765,7 @@ msgstr "Diskavbildningar kan lagras i användarens hemkatalog"
 msgid "Disk settings could not be saved"
 msgstr "Inställningarna för disken kunde inte sparas"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:130
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
 msgid "Disk-only snapshot"
 msgstr "Endast diskögonblicksbild"
 
@@ -776,11 +782,11 @@ msgstr "Kör inte denna VM på ursprungs- och destinationsvärdarna samtidigt."
 msgid "Do nothing"
 msgstr "Gör ingenting"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:132
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
 msgid "Domain has crashed"
 msgstr "Domänen har kraschat"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:131
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
 msgid "Domain is blocked on resource"
 msgstr "Domänen är blockerad av en resurs"
 
@@ -1558,7 +1564,7 @@ msgstr "NIC $0 på VM $1 kunde inte ändra läge"
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Namn"
@@ -1676,7 +1682,7 @@ msgstr "Ingen startenhet hittades"
 msgid "No connection available"
 msgstr "Ingen anslutning tillgänglig"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 msgid "No description"
 msgstr "Ingen beskrivning"
 
@@ -1712,11 +1718,11 @@ msgstr "Inget nätverk är definierat på den här värden"
 msgid "No networks available"
 msgstr "Inga nätverk tillgängliga"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:156
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
 msgid "No parent"
 msgstr "Ingen förälder"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:235
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
 msgid "No snapshots defined for this VM"
 msgstr "Inga ögonblicksbilder har definierats för denna VM"
 
@@ -1828,7 +1834,7 @@ msgstr "Översikt"
 msgid "PCI"
 msgstr "PCI"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:154
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
 msgid "Parent snapshot"
 msgstr "Föräldraögonblicksbild"
 
@@ -1967,7 +1973,7 @@ msgstr "Prefixlängd"
 msgid "Prefix length should not be empty"
 msgstr "Prefixlängden ska inte vara tom"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:236
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2142,7 +2148,7 @@ msgstr ""
 msgid "Resume"
 msgstr "Återuppta"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:179
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:100
 msgid "Revert"
 msgstr "Återställ"
@@ -2335,7 +2341,7 @@ msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 "Stäng av VM:en för att redigera konfigurationen av den fasta programvaran"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:219
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.js:219
 msgid "Shutting down"
 msgstr "Stänger av"
 
@@ -2353,11 +2359,11 @@ msgstr "Storlek"
 msgid "Slot"
 msgstr "Plats"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:187
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
 msgid "Snapshot $0 could not be deleted"
 msgstr "Ögonblicksbild $0 kunde inte raderas"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
@@ -2891,7 +2897,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "VM behöver stängas av"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:120
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
 msgid "VM state"
 msgstr "VM-tillstånd"
 
@@ -3169,7 +3175,7 @@ msgstr "nätverk"
 msgid "no"
 msgstr "nej"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:124
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
 msgid "no state saved"
 msgstr "inget tillstånd sparat"
 

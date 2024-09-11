@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 03:01+0000\n"
+"POT-Creation-Date: 2024-09-11 02:58+0000\n"
 "PO-Revision-Date: 2021-05-31 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -113,7 +113,7 @@ msgstr "Подключение"
 #: src/components/storagePools/storagePoolList.jsx:72
 #: src/components/networks/networkList.jsx:72
 #: src/components/vm/nics/vmNicsCard.jsx:421
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:167
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/disks/vmDisksCard.jsx:192
 #: src/components/vms/hostvmslist.jsx:164
 #, fuzzy
@@ -582,7 +582,7 @@ msgid "Create new virtual machine"
 msgstr "Создание новой виртуальной машины"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Создание моментального снимка"
 
@@ -615,11 +615,17 @@ msgstr "Создание ВМ"
 msgid "Creating VM $0"
 msgstr "Создание ВМ"
 
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:1285
 msgid "Creation of VM $0 failed"
 msgstr "Ошибка создания виртуальной машины $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:78
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
 msgid "Creation time"
 msgstr "Время создания"
 
@@ -627,7 +633,7 @@ msgstr "Время создания"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
 msgid "Current"
 msgstr "Текущий"
 
@@ -705,7 +711,7 @@ msgstr "Удаление связанных файлов хранилища:"
 msgid "Delete network?"
 msgstr "Изолированная сеть"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:186
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
 #, fuzzy
 msgid "Delete snapshot?"
 msgstr "Создание моментального снимка"
@@ -726,7 +732,7 @@ msgstr "Может редактироваться, только когда го�
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Описание"
 
@@ -845,7 +851,7 @@ msgstr ""
 msgid "Disk settings could not be saved"
 msgstr "Не удалось сохранить параметры диска"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:130
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
 msgid "Disk-only snapshot"
 msgstr "Снимок только для диска"
 
@@ -862,11 +868,11 @@ msgstr ""
 msgid "Do nothing"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:132
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
 msgid "Domain has crashed"
 msgstr "Сбой домена"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:131
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
 msgid "Domain is blocked on resource"
 msgstr "Домен заблокирован на ресурсе"
 
@@ -1737,7 +1743,7 @@ msgstr ""
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Имя"
@@ -1877,7 +1883,7 @@ msgstr "Загрузочное устройство не найдено"
 msgid "No connection available"
 msgstr "Описание отсутствует"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
 #, fuzzy
 msgid "No description"
 msgstr "Описание"
@@ -1918,12 +1924,12 @@ msgstr "На этом узле не определено ни одной сет�
 msgid "No networks available"
 msgstr "Нет доступных сетей"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:156
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
 #, fuzzy
 msgid "No parent"
 msgstr "Родительский элемент"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:235
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
 #, fuzzy
 msgid "No snapshots defined for this VM"
 msgstr "Отсутствуют диски, определённые для этой виртуальной машины"
@@ -2045,7 +2051,7 @@ msgstr "Обзор"
 msgid "PCI"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:154
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
 #, fuzzy
 msgid "Parent snapshot"
 msgstr "Создание моментального снимка"
@@ -2192,7 +2198,7 @@ msgstr "Длина префикса"
 msgid "Prefix length should not be empty"
 msgstr "Длина префикса не должна быть пустой"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:236
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2376,7 +2382,7 @@ msgstr ""
 msgid "Resume"
 msgstr "Возобновить"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:179
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:100
 #, fuzzy
 msgid "Revert"
@@ -2591,7 +2597,7 @@ msgstr "отключена"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Выключите ВМ для редактирования конфигурации микропрограммы"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129 src/helpers.js:219
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.js:219
 #, fuzzy
 msgid "Shutting down"
 msgstr "Выключить"
@@ -2610,13 +2616,13 @@ msgstr "Размер"
 msgid "Slot"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:187
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
 #, fuzzy
 #| msgid "The $0 could not be deleted"
 msgid "Snapshot $0 could not be deleted"
 msgstr "Не удалось удалить $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
 #, fuzzy
 #| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
@@ -3167,7 +3173,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "Не удалось завершить работу виртуальной машины $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:120
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
 #, fuzzy
 msgid "VM state"
 msgstr "Состояние"
@@ -3450,7 +3456,7 @@ msgstr "сеть"
 msgid "no"
 msgstr "нет"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:124
+#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
 msgid "no state saved"
 msgstr ""
 
