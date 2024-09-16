@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2020-05-05 03:40+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/cockpit/"
@@ -334,7 +334,7 @@ msgstr "Memòria cau"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -344,7 +344,7 @@ msgstr "Memòria cau"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -476,13 +476,13 @@ msgstr "Emmagatzematge"
 msgid "Cores per socket"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 #, fuzzy
 #| msgid "Name should not be empty"
 msgid "Could not delete $0"
 msgstr "El nom no pot estar en blanc"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 #, fuzzy
 msgid "Could not delete all storage for $0"
 msgstr "No s'ha pogut restablir l'agrupació d'emmagatzematge"
@@ -509,7 +509,7 @@ msgstr "estavellat"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "Crea"
 
@@ -562,7 +562,7 @@ msgstr "Crea una màquina virtual nova"
 msgid "Create new virtual machine"
 msgstr "Crea una màquina virtual nova"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Crea una instantània"
@@ -657,11 +657,11 @@ msgstr "Desactiva"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "Suprimeix"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 #, fuzzy
 #| msgid "Delete"
 msgid "Delete $0 VM?"
@@ -677,7 +677,7 @@ msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
 msgstr[0] ""
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "Suprimeix els fitxers d'emmagatzematge associats:"
 
@@ -703,7 +703,7 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr ""
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Descripció"
@@ -1568,20 +1568,22 @@ msgstr "Memòria"
 msgid "Memory could not be saved"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-#, fuzzy
-#| msgid "Memory"
-msgid "Memory file"
-msgstr "Memòria"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-#, fuzzy
-#| msgid "Name should not be empty"
-msgid "Memory file can not be empty"
-msgstr "El nom no pot estar en blanc"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Name should not be empty"
+msgid "Memory save location can not be empty"
+msgstr "El nom no pot estar en blanc"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+msgid "Memory state path"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
@@ -1659,17 +1661,17 @@ msgstr ""
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Nom"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 msgid "Name already exists"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 #, fuzzy
 #| msgid "Name should not be empty"
 msgid "Name can not be empty"
@@ -1957,7 +1959,7 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr "Crea una instantània"
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -1976,6 +1978,12 @@ msgstr "Camí al fitxer ISO al sistema de fitxers de l'amfitrió"
 #, fuzzy
 msgid "Path to cloud image file on host's file system"
 msgstr "Camí al fitxer ISO al sistema de fitxers de l'amfitrió"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+#, fuzzy
+#| msgid "Path to file"
+msgid "Path to directory"
+msgstr "Camí al fitxer"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 #, fuzzy
@@ -2041,7 +2049,7 @@ msgstr ""
 msgid "Please start the virtual machine to access its console."
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2519,7 +2527,7 @@ msgid ""
 "lost."
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr ""
 
@@ -2736,7 +2744,7 @@ msgstr ""
 msgid "Temporary migration"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 
@@ -2841,6 +2849,10 @@ msgstr ""
 
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+msgid "Total space available: $0."
 msgstr ""
 
 #: src/components/vm/overview/firmware.jsx:163
@@ -3118,7 +3130,7 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "El servei de virtualització  (libvirt) no està actiu"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3436,6 +3448,11 @@ msgid "yes"
 msgstr "sí"
 
 #, fuzzy
+#~| msgid "Memory"
+#~ msgid "Memory file"
+#~ msgstr "Memòria"
+
+#, fuzzy
 #~ msgid "$0 CPU configuration"
 #~ msgstr "Configuració"
 
@@ -3650,9 +3667,6 @@ msgstr "sí"
 
 #~ msgid "Password not accepted"
 #~ msgstr "Contrasenya no acceptada"
-
-#~ msgid "Path to file"
-#~ msgstr "Camí al fitxer"
 
 #~ msgid "Portable"
 #~ msgstr "Portable"

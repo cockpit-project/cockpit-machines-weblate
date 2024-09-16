@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2024-09-07 12:38+0000\n"
 "Last-Translator: Jelle van der Waa <jvanderw@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -318,7 +318,7 @@ msgstr "キャッシュ"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -328,7 +328,7 @@ msgstr "キャッシュ"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -458,11 +458,11 @@ msgstr "ストレージのコピー"
 msgid "Cores per socket"
 msgstr "ソケットごとのコア"
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 msgid "Could not delete $0"
 msgstr "$0 を削除できませんでした"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 msgid "Could not delete all storage for $0"
 msgstr "$0 のすべてのストレージを削除できませんでした"
 
@@ -485,7 +485,7 @@ msgstr "クラッシュした"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "作成"
 
@@ -531,7 +531,7 @@ msgstr "raw ボリュームの新規作成"
 msgid "Create new virtual machine"
 msgstr "仮想マシンの新規作成"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "スナップショットの作成"
@@ -621,11 +621,11 @@ msgstr "解除"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "削除"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 msgid "Delete $0 VM?"
 msgstr "$0 仮想マシンを削除しますか?"
 
@@ -638,7 +638,7 @@ msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
 msgstr[0] "$0 ボリュームの削除"
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "関連するストレージファイルの削除:"
 
@@ -664,7 +664,7 @@ msgstr ""
 "共有ディレクトリーの削除は、ゲストがシャットオフされた場合に限り可能です"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "説明"
@@ -1491,16 +1491,24 @@ msgstr "メモリ"
 msgid "Memory could not be saved"
 msgstr "メモリーは保存できませんでした"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-msgid "Memory file"
-msgstr "メモリーファイル"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-msgid "Memory file can not be empty"
-msgstr "メモリーファイルは空欄にできません"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr "メモリは 0 以外である必要があります"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Memory file can not be empty"
+msgid "Memory save location can not be empty"
+msgstr "メモリーファイルは空欄にできません"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+#, fuzzy
+#| msgid "Memory must not be 0"
+msgid "Memory state path"
 msgstr "メモリは 0 以外である必要があります"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
@@ -1575,17 +1583,17 @@ msgstr "仮想マシン $1 の NIC $0 は、状態の変更に失敗しました
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "名前"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 msgid "Name already exists"
 msgstr "名前はすでに存在します"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 msgid "Name can not be empty"
 msgstr "名前は空欄にできません"
 
@@ -1850,7 +1858,7 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "親のスナップショット"
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -1868,6 +1876,12 @@ msgstr "ホストファイルシステムの ISO ファイルのパス"
 #: src/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Path to cloud image file on host's file system"
 msgstr "ホストファイルシステムのクラウドイメージファイルへのパス"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+#, fuzzy
+#| msgid "Path to file"
+msgid "Path to directory"
+msgstr "ファイルのパス"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -1931,7 +1945,7 @@ msgstr "$0 仮想マシンを手動で再設定する方法を参照してくだ
 msgid "Please start the virtual machine to access its console."
 msgstr "仮想マシンを起動して、コンソールにアクセスしてください。"
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2381,7 +2395,7 @@ msgstr ""
 "スナップショット $0 は、$1 から削除されます。キャプチャーされたコンテンツはす"
 "べて失われます。"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr "スナップショットの作成に失敗しました"
 
@@ -2589,7 +2603,7 @@ msgstr "一時的"
 msgid "Temporary migration"
 msgstr "一時的な移行"
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "仮想マシン $0 が実行中で、削除前に強制的にオフになります。"
 
@@ -2709,6 +2723,12 @@ msgstr "このボリュームは、別の VM によってすでに使用され�
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
 msgstr "コアあたりのスレッド"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#, fuzzy
+#| msgid "Total size: $0"
+msgid "Total space available: $0."
+msgstr "合計サイズ: $0"
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -2979,7 +2999,7 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "仮想化サービス (libvirt) は有効ではありません"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3296,6 +3316,9 @@ msgstr "vsock には特別なソフトウェアが必要です"
 #: src/components/networks/networkOverviewTab.jsx:115 src/helpers.js:264
 msgid "yes"
 msgstr "はい"
+
+#~ msgid "Memory file"
+#~ msgstr "メモリーファイル"
 
 #~ msgid "Uptime"
 #~ msgstr "稼働時間"
@@ -3667,9 +3690,6 @@ msgstr "はい"
 #~ msgid "Paste"
 #~ msgstr "貼り付け"
 
-#~ msgid "Path to file"
-#~ msgstr "ファイルのパス"
-
 #~ msgid "Peripheral chassis"
 #~ msgstr "周辺機器シャーシ"
 
@@ -3757,9 +3777,6 @@ msgstr "はい"
 
 #~ msgid "Today"
 #~ msgstr "今日"
-
-#~ msgid "Total size: $0"
-#~ msgstr "合計サイズ: $0"
 
 #~ msgid "Tower"
 #~ msgstr "タワー"

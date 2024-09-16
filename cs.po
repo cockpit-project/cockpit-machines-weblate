@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2024-09-08 13:38+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
@@ -341,7 +341,7 @@ msgstr "Mezipaměť"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -351,7 +351,7 @@ msgstr "Mezipaměť"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -493,11 +493,11 @@ msgstr "Zkopírovat úložiště"
 msgid "Cores per socket"
 msgstr "Jader na patici"
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 msgid "Could not delete $0"
 msgstr "$0 se nepodařilo smazat"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 msgid "Could not delete all storage for $0"
 msgstr "Nepodařilo se smazat veškerá úložiště pro $0"
 
@@ -522,7 +522,7 @@ msgstr "Zhavarovalo"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "Vytvořit"
 
@@ -568,7 +568,7 @@ msgstr "Vytvořit nový prostý (raw) svazek"
 msgid "Create new virtual machine"
 msgstr "Vytvořit nový virtuální stroj"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Pořídit zachycený stav"
@@ -660,11 +660,11 @@ msgstr "Deaktivovat"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "Smazat"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 msgid "Delete $0 VM?"
 msgstr "Smazat $0 virt. stroj?"
 
@@ -679,7 +679,7 @@ msgstr[0] "Smazat $0 svazek"
 msgstr[1] "Smazat $0 svazky"
 msgstr[2] "Smazat $0 svazků"
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "Smazat související soubory úložiště:"
 
@@ -706,7 +706,7 @@ msgstr "Mazání sdílených složek je možné pouze pokud je host vypnutý"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Popis"
@@ -1570,18 +1570,24 @@ msgstr "Paměť"
 msgid "Memory could not be saved"
 msgstr "Paměť se nepodařilo uložit"
 
-# auto translated by TM merge from project: virt-manager, version: master,
-# DocId: virt-manager
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-msgid "Memory file"
-msgstr "Soubor s obsahem paměti"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-msgid "Memory file can not be empty"
-msgstr "Soubor pro obsah paměti je třeba vyplnit"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr "Je třeba, aby paměť nebyla 0 (nula)"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Memory file can not be empty"
+msgid "Memory save location can not be empty"
+msgstr "Soubor pro obsah paměti je třeba vyplnit"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+#, fuzzy
+#| msgid "Memory must not be 0"
+msgid "Memory state path"
 msgstr "Je třeba, aby paměť nebyla 0 (nula)"
 
 # auto translated by TM merge from project: libbytesize, version: master,
@@ -1662,17 +1668,17 @@ msgstr "Nepodařilo se změnit stav síť. rozhraní $0 virt. stroje $1"
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Název"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 msgid "Name already exists"
 msgstr "Takový název už je používán"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 msgid "Name can not be empty"
 msgstr "Název je třeba vyplnit"
 
@@ -1942,7 +1948,7 @@ msgstr "Nadřazený zachycený stav"
 
 # auto translated by TM merge from project: selinux (policycoreutils),
 # version: master, DocId: policycoreutils
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -1960,6 +1966,12 @@ msgstr "Popis umístění ISO souboru na souborovém systému hostitele"
 #: src/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Path to cloud image file on host's file system"
 msgstr "Popis umístění souboru s cloud obrazem na souborovém systému hostitele"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+#, fuzzy
+#| msgid "Path to file"
+msgid "Path to directory"
+msgstr "Popis umístění serveru"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -2024,7 +2036,7 @@ msgstr "Pro přístup k jeho konzoli je třeba virtuální stroj napřed zapnout
 
 # auto translated by TM merge from project: anaconda, version: f25, DocId:
 # main
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2500,7 +2512,7 @@ msgid ""
 "lost."
 msgstr "Zachycený stav $0 bude vymazán z $1. Veškerý obsah v něm bude ztracen."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr "Zachycený stav se nepodařilo vytvořit"
 
@@ -2721,7 +2733,7 @@ msgstr "Dočasné"
 msgid "Temporary migration"
 msgstr "Dočasné přestěhování"
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "Virt. stroj $0 je spuštěný a před smazáním bude vynuceně vypnut."
 
@@ -2842,6 +2854,12 @@ msgstr "Tento svazek už je využíván jiným virt. strojem."
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
 msgstr "Vláken na jádro"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#, fuzzy
+#| msgid "Total size: $0"
+msgid "Total space available: $0."
+msgstr "Celková velikost: $0"
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -3127,7 +3145,7 @@ msgstr "Služba virtualizace (libvirt) není aktivní"
 # auto translated by TM merge from project: anaconda, version: master, DocId:
 # main
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3465,6 +3483,11 @@ msgstr "Virt. soket vyžaduje speciální software"
 #: src/components/networks/networkOverviewTab.jsx:115 src/helpers.js:264
 msgid "yes"
 msgstr "ano"
+
+# auto translated by TM merge from project: virt-manager, version: master,
+# DocId: virt-manager
+#~ msgid "Memory file"
+#~ msgstr "Soubor s obsahem paměti"
 
 #~ msgid "Uptime"
 #~ msgstr "Doba chodu od spuštění"
@@ -3848,9 +3871,6 @@ msgstr "ano"
 #~ msgid "Paste"
 #~ msgstr "Vložit"
 
-#~ msgid "Path to file"
-#~ msgstr "Popis umístění serveru"
-
 #~ msgid "Peripheral chassis"
 #~ msgstr "Skříň periferií"
 
@@ -3942,9 +3962,6 @@ msgstr "ano"
 
 #~ msgid "Today"
 #~ msgstr "Dnes"
-
-#~ msgid "Total size: $0"
-#~ msgstr "Celková velikost: $0"
 
 #~ msgid "Tower"
 #~ msgstr "Věž"

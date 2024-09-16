@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2021-03-16 19:21+0000\n"
 "Last-Translator: Stein-Aksel Basma <stabasm@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -356,7 +356,7 @@ msgstr "Hurtigbuffer"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -366,7 +366,7 @@ msgstr "Hurtigbuffer"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -499,13 +499,13 @@ msgstr "Ingen lagring"
 msgid "Cores per socket"
 msgstr "Kjerner per sokkel"
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 #, fuzzy
 #| msgid "The $0 could not be deleted"
 msgid "Could not delete $0"
 msgstr "$0 kunne ikke slettes"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 #, fuzzy
 #| msgid "Could not revert to snapshot"
 msgid "Could not delete all storage for $0"
@@ -532,7 +532,7 @@ msgstr "Krasjet"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "Opprett"
 
@@ -584,7 +584,7 @@ msgstr "Opprett nytt volum"
 msgid "Create new virtual machine"
 msgstr "Opprett ny virtuell maskin"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Opprett øyeblikksbilde"
@@ -678,11 +678,11 @@ msgstr "Deaktiver"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "Slett"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 #, fuzzy
 #| msgid "Delete $0 volume"
 #| msgid_plural "Delete $0 volumes"
@@ -701,7 +701,7 @@ msgid_plural "Delete $0 volumes"
 msgstr[0] "Slett $0 volum"
 msgstr[1] "Slett $0 volumer"
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "Slett tilknyttede lagringsfiler:"
 
@@ -732,7 +732,7 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr "Bare redigerbar når gjesten er slått av"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Beskrivelse"
@@ -1627,20 +1627,22 @@ msgstr "Minne"
 msgid "Memory could not be saved"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-#, fuzzy
-#| msgid "Memory"
-msgid "Memory file"
-msgstr "Minne"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-#, fuzzy
-#| msgid "Name must not be empty"
-msgid "Memory file can not be empty"
-msgstr "Navnet kan ikke være tomt"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Name must not be empty"
+msgid "Memory save location can not be empty"
+msgstr "Navnet kan ikke være tomt"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+msgid "Memory state path"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
@@ -1719,19 +1721,19 @@ msgstr "NIC $0 for VM $1 kunne ikke endre tilstand"
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Navn"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 #, fuzzy
 #| msgid "VM $0 already exists"
 msgid "Name already exists"
 msgstr "VM $0 fnnes allerede"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 #, fuzzy
 #| msgid "Name must not be empty"
 msgid "Name can not be empty"
@@ -2018,7 +2020,7 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -2037,6 +2039,12 @@ msgstr "Sti til ISO-fil på vertens filsystem"
 #, fuzzy
 msgid "Path to cloud image file on host's file system"
 msgstr "Sti til fil på vertens filsystem"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+#, fuzzy
+#| msgid "Path to file"
+msgid "Path to directory"
+msgstr "Sti til fil"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -2099,7 +2107,7 @@ msgstr ""
 msgid "Please start the virtual machine to access its console."
 msgstr "Start den virtuelle maskinen for å få tilgang til konsollen."
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2578,7 +2586,7 @@ msgid ""
 "lost."
 msgstr "Etter å ha slettet øyeblikksbildet, vil alt innfanget innhold gå tapt."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr "Øyeblikksbilde kunne ikke opprettes"
 
@@ -2796,7 +2804,7 @@ msgstr ""
 msgid "Temporary migration"
 msgstr ""
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 #, fuzzy
 #| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
@@ -2907,6 +2915,12 @@ msgstr "Dette volumet brukes allerede av en annen VM."
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
 msgstr "Tråder per kjerne"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#, fuzzy
+#| msgid "Total size: $0"
+msgid "Total space available: $0."
+msgstr "Total størrelse: $0"
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -3177,7 +3191,7 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualiseringstjeneste (libvirt) er ikke aktiv"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3499,6 +3513,11 @@ msgstr ""
 msgid "yes"
 msgstr "ja"
 
+#, fuzzy
+#~| msgid "Memory"
+#~ msgid "Memory file"
+#~ msgstr "Minne"
+
 #~ msgid "Disk failed to be attached"
 #~ msgstr "Disken kunne ikke kobles til"
 
@@ -3792,9 +3811,6 @@ msgstr "ja"
 #~ msgid "Paste"
 #~ msgstr "Lim inn"
 
-#~ msgid "Path to file"
-#~ msgstr "Sti til fil"
-
 #~ msgid "Pick date"
 #~ msgstr "Velg dato"
 
@@ -3836,9 +3852,6 @@ msgstr "ja"
 
 #~ msgid "Today"
 #~ msgstr "I dag"
-
-#~ msgid "Total size: $0"
-#~ msgstr "Total størrelse: $0"
 
 #~ msgid "Trying to synchronize with $0"
 #~ msgstr "Prøver å synkronisere med $0"

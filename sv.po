@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2024-09-12 08:20+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -319,7 +319,7 @@ msgstr "Cache"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -329,7 +329,7 @@ msgstr "Cache"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -458,11 +458,11 @@ msgstr "Kopiera lagring"
 msgid "Cores per socket"
 msgstr "Kärnor per sockel"
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 msgid "Could not delete $0"
 msgstr "Det gick inte att radera $0"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 msgid "Could not delete all storage for $0"
 msgstr "Det gick inte att radera all lagring för $0"
 
@@ -485,7 +485,7 @@ msgstr "Kraschad"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "Skapa"
 
@@ -530,7 +530,7 @@ msgstr "Skapa ny rå volym"
 msgid "Create new virtual machine"
 msgstr "Skapa en ny virtuell maskin"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "Skapa en ögonblicksbild"
@@ -622,11 +622,11 @@ msgstr "Avaktivera"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "Ta bort"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 msgid "Delete $0 VM?"
 msgstr "Ta bort VM $0?"
 
@@ -640,7 +640,7 @@ msgid_plural "Delete $0 volumes"
 msgstr[0] "Ta bort volymen $0"
 msgstr[1] "Ta bort volymerna $0"
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "Ta bort assoicierade lagringsfiler:"
 
@@ -665,7 +665,7 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr "Att ta bort delade kataloger är endast möjligt när gästen är avstängd"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "Beskrivning"
@@ -1480,16 +1480,24 @@ msgstr "Minne"
 msgid "Memory could not be saved"
 msgstr "Minnet kunde inte sparas"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-msgid "Memory file"
-msgstr "Minnes fil"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-msgid "Memory file can not be empty"
-msgstr "Minnes fil kan inte vara tom"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr "Minne kan inte vara 0"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Memory file can not be empty"
+msgid "Memory save location can not be empty"
+msgstr "Minnes fil kan inte vara tom"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+#, fuzzy
+#| msgid "Memory must not be 0"
+msgid "Memory state path"
 msgstr "Minne kan inte vara 0"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
@@ -1565,17 +1573,17 @@ msgstr "NIC $0 på VM $1 kunde inte ändra läge"
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "Namn"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 msgid "Name already exists"
 msgstr "Namn existerar redan"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 msgid "Name can not be empty"
 msgstr "Namnet får inte vara tomt"
 
@@ -1840,7 +1848,7 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Föräldraögonblicksbild"
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -1858,6 +1866,12 @@ msgstr "Sökväg till ISO-fil på värdens filsystem"
 #: src/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Path to cloud image file on host's file system"
 msgstr "Sökväg till molnavbildsfilen värdens filsystem"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+#, fuzzy
+#| msgid "Path to file"
+msgid "Path to directory"
+msgstr "Sökväg till filen"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -1920,7 +1934,7 @@ msgstr "Se $0 hur du konfigurerar om din VM manuellt."
 msgid "Please start the virtual machine to access its console."
 msgstr "Starta den virtuella maskinen för att komma åt dess konsol."
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2373,7 +2387,7 @@ msgstr ""
 "Ögonblicksbilden $0 kommer raderas från $1. All dess fångade innehåll kommer "
 "att gå förlorat."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr "Misslyckades att skapa ögonblicksbild"
 
@@ -2579,7 +2593,7 @@ msgstr "Temporär"
 msgid "Temporary migration"
 msgstr "Tillfällig migration"
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "VM:en $0 kör och kommer tvingande stängas av före den tas bort."
 
@@ -2699,6 +2713,12 @@ msgstr "Den här volymen används redan av en annan VM."
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
 msgstr "Trådar per kärna"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#, fuzzy
+#| msgid "Total size: $0"
+msgid "Total space available: $0."
+msgstr "Total storlek: $0"
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -2972,7 +2992,7 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualiseringstjänsten (libvirt) är inte aktiv"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3290,6 +3310,9 @@ msgstr "vsock kräver speciell programvara"
 #: src/components/networks/networkOverviewTab.jsx:115 src/helpers.js:264
 msgid "yes"
 msgstr "ja"
+
+#~ msgid "Memory file"
+#~ msgstr "Minnes fil"
 
 #~ msgid "Uptime"
 #~ msgstr "Upptid"
@@ -3652,9 +3675,6 @@ msgstr "ja"
 #~ msgid "Password not accepted"
 #~ msgstr "Lösenordet accepterades inte"
 
-#~ msgid "Path to file"
-#~ msgstr "Sökväg till filen"
-
 #~ msgid "Peripheral chassis"
 #~ msgstr "Periferichassi"
 
@@ -3724,9 +3744,6 @@ msgstr "ja"
 
 #~ msgid "Time zone"
 #~ msgstr "Tidszon"
-
-#~ msgid "Total size: $0"
-#~ msgstr "Total storlek: $0"
 
 #~ msgid "Tower"
 #~ msgstr "Torn"

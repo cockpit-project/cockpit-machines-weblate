@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 02:59+0000\n"
+"POT-Creation-Date: 2024-09-16 03:14+0000\n"
 "PO-Revision-Date: 2024-09-11 13:30+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -320,7 +320,7 @@ msgstr "ქეში"
 #: src/components/vm/vmReplaceSpiceDialog.jsx:135
 #: src/components/vm/vmMigrateDialog.jsx:202
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:169
-#: src/components/vm/deleteDialog.jsx:174
+#: src/components/vm/deleteDialog.jsx:173
 #: src/components/vm/confirmDialog.jsx:54
 #: src/components/vm/vmRenameDialog.jsx:71
 #: src/components/vm/overview/cpuModal.jsx:337
@@ -330,7 +330,7 @@ msgstr "ქეში"
 #: src/components/vm/overview/firmware.jsx:85
 #: src/components/vm/overview/vsock.jsx:243
 #: src/components/vm/vmCloneDialog.jsx:83
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:204
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:284
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:110
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/disks/diskEdit.jsx:270
@@ -460,11 +460,11 @@ msgstr "საცავის კოპირება"
 msgid "Cores per socket"
 msgstr "ბირთვების რაოდენობა თითოეულ სოკეტზე"
 
-#: src/components/vm/deleteDialog.jsx:156
+#: src/components/vm/deleteDialog.jsx:155
 msgid "Could not delete $0"
 msgstr "წაშლის შეცდომა: $0"
 
-#: src/components/vm/deleteDialog.jsx:151
+#: src/components/vm/deleteDialog.jsx:150
 msgid "Could not delete all storage for $0"
 msgstr "$0-სთვის საცავის სრულად წაშლა შეუძლებელია"
 
@@ -487,7 +487,7 @@ msgstr "გაითიშა"
 #: src/components/storagePools/storageVolumeCreate.jsx:114
 #: src/components/storagePools/createStoragePoolDialog.jsx:442
 #: src/components/networks/createNetworkDialog.jsx:432
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:201
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:281
 msgid "Create"
 msgstr "შექმნა"
 
@@ -531,7 +531,7 @@ msgstr "ახალი raw ტომის შექმნა"
 msgid "Create new virtual machine"
 msgstr "ახალი ვირტუალური მანქანის შექმნა"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:276
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
 msgid "Create snapshot"
 msgstr "სწრაფი ასლის შექმნა"
@@ -623,11 +623,11 @@ msgstr "დეაქტივაცია"
 #: src/components/common/deleteResource.jsx:133
 #: src/components/common/deleteResource.jsx:144
 #: src/components/vm/vmActions.jsx:477 src/components/vm/vmActions.jsx:485
-#: src/components/vm/deleteDialog.jsx:171
+#: src/components/vm/deleteDialog.jsx:170
 msgid "Delete"
 msgstr "წაშლა"
 
-#: src/components/vm/deleteDialog.jsx:166
+#: src/components/vm/deleteDialog.jsx:165
 msgid "Delete $0 VM?"
 msgstr "წავშალო $0 ვმ-ი?"
 
@@ -641,7 +641,7 @@ msgid_plural "Delete $0 volumes"
 msgstr[0] "$0 ცალი ტომის წაშლა"
 msgstr[1] "$0 ტომის წაშლა"
 
-#: src/components/vm/deleteDialog.jsx:84
+#: src/components/vm/deleteDialog.jsx:83
 msgid "Delete associated storage files:"
 msgstr "საცავის მიბმული ფაილების წაშლა:"
 
@@ -668,7 +668,7 @@ msgstr ""
 "შესაძლებელი"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:73
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:57
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:59
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
 msgid "Description"
 msgstr "აღწერა"
@@ -1481,16 +1481,24 @@ msgstr "მეხსიერება"
 msgid "Memory could not be saved"
 msgstr "მეხსიერების შენახვის შეცდომა"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:91
-msgid "Memory file"
-msgstr "მეხსიერების ფაილი"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:143
-msgid "Memory file can not be empty"
-msgstr "მეხსიერების ფაილი არ შეიძლება, ცარიელი იყოს"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Memory must not be 0"
+msgstr "მეხსიერება არ შეიძლება 0-ის ტოლი იყოს"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:194
+#, fuzzy
+#| msgid "Memory file can not be empty"
+msgid "Memory save location can not be empty"
+msgstr "მეხსიერების ფაილი არ შეიძლება, ცარიელი იყოს"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:101
+msgid "Memory snapshot will use about $0."
+msgstr ""
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:111
+#, fuzzy
+#| msgid "Memory must not be 0"
+msgid "Memory state path"
 msgstr "მეხსიერება არ შეიძლება 0-ის ტოლი იყოს"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
@@ -1565,17 +1573,17 @@ msgstr "ვმ-ის ($1) ქსელური ინტერფეისი�
 #: src/components/networks/createNetworkDialog.jsx:140
 #: src/components/networks/networkList.jsx:67
 #: src/components/vm/vmCloneDialog.jsx:93
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:44
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:46
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vms/hostvmslist.jsx:161
 msgid "Name"
 msgstr "სახელი"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:138
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:189
 msgid "Name already exists"
 msgstr "სახელი უკვე არსებობს"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:191
 msgid "Name can not be empty"
 msgstr "სახელი ცარიელი არ უნდა იყოს"
 
@@ -1837,7 +1845,7 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "მშობელი სწრაფი ასლი"
 
-#: src/components/vm/deleteDialog.jsx:60
+#: src/components/vm/deleteDialog.jsx:59
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
 #: src/components/vm/disks/diskEdit.jsx:42
@@ -1855,6 +1863,10 @@ msgstr "ბილიკი ISO ფაილამდე ჰოსტის ფ�
 #: src/components/create-vm-dialog/createVmDialog.jsx:298
 msgid "Path to cloud image file on host's file system"
 msgstr "ღრუბლოვანი გამოსახულების ბილიკი ჰოსტის ფაილურ სისტემაზე"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:117
+msgid "Path to directory"
+msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -1917,7 +1929,7 @@ msgstr "იხილეთ $0, რომ გაიგოთ, როგორ მ
 msgid "Please start the virtual machine to access its console."
 msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
 
-#: src/components/vm/deleteDialog.jsx:68
+#: src/components/vm/deleteDialog.jsx:67
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/disks/diskAdd.jsx:151
 #: src/components/vm/disks/vmDiskColumns.jsx:45
@@ -2364,7 +2376,7 @@ msgid ""
 msgstr ""
 "სწრაფი ასლი $0 წაიშლება $1-დან. შუალედში შეცვლილი ინფორმაცია დაიკარგება."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:173
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:234
 msgid "Snapshot failed to be created"
 msgstr "სწრაფი ასლის შექმნის შეცდომა"
 
@@ -2569,7 +2581,7 @@ msgstr "დროებითი"
 msgid "Temporary migration"
 msgstr "დროებითი მიგრაცია"
 
-#: src/components/vm/deleteDialog.jsx:82
+#: src/components/vm/deleteDialog.jsx:81
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "ვმ-ი გაშვებულია. წაშლის წინ ის გაითიშება: $0."
 
@@ -2688,6 +2700,10 @@ msgstr "ეს ტომი უკვე გამოიყენება ს�
 #: src/components/vm/overview/cpuModal.jsx:293
 msgid "Threads per core"
 msgstr "ნაკადების რიცხვი თითოეულ ბირთვზე"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+msgid "Total space available: $0."
+msgstr ""
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -2960,7 +2976,7 @@ msgid "Virtualization service (libvirt) is not active"
 msgstr "ვირტუალიზაციის სერვისი (libvirt) აქტიური არაა"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:996
-#: src/components/vm/deleteDialog.jsx:65
+#: src/components/vm/deleteDialog.jsx:64
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/disks/diskAdd.jsx:117
 #: src/components/vm/disks/vmDiskColumns.jsx:46
@@ -3271,6 +3287,9 @@ msgstr "vsock-ს სპეციალური პროგრამები 
 #: src/components/networks/networkOverviewTab.jsx:115 src/helpers.js:264
 msgid "yes"
 msgstr "დიახ"
+
+#~ msgid "Memory file"
+#~ msgstr "მეხსიერების ფაილი"
 
 #~ msgid "Uptime"
 #~ msgstr "ჩართულობის დრო"
