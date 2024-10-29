@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-27 03:16+0000\n"
-"PO-Revision-Date: 2024-10-28 01:03+0000\n"
+"PO-Revision-Date: 2024-10-29 03:40+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2660,18 +2660,18 @@ msgstr "Velikost úložiště nemůže být nula"
 
 #: src/components/vm/disks/diskEdit.jsx:46
 msgid "Storage volume"
-msgstr "Svazek z úložiště"
+msgstr "Svazek úložiště"
 
 #: src/components/storagePools/storageVolumeCreate.jsx:77
 #: src/components/vm/disks/diskAdd.jsx:564
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
-"Je třeba, aby velikost svazku z úložiště nepřesahovala kapacitu fondu "
-"úložiště ($0 $1)"
+"Je třeba, aby velikost svazku úložiště nepřesahovala kapacitu fondu úložiště "
+"($0 $1)"
 
 #: src/components/storagePools/storagePool.jsx:80
 msgid "Storage volumes"
-msgstr "Svazky z úložiště"
+msgstr "Svazky úložiště"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:47
 msgid "Storage volumes could not be deleted"
@@ -2681,8 +2681,7 @@ msgstr "Svazky úložiště nebylo možné smazat"
 msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
-"Je třeba, aby svazky úložišť byly sdíleny mezi tímto hostitelem a cílovým "
-"hostitelem."
+"Je třeba, aby svazky úložiště byly sdíleny mezi tímto a cílovým hostitelem."
 
 #: src/helpers.js:218
 msgid "Suspended (PM)"
@@ -2757,7 +2756,7 @@ msgid ""
 "destination host is considered the new home of the VM."
 msgstr ""
 "Nastavení přestěhovaného virt. stroje je odebráno ze zdrojového hostitele. "
-"Cílový host je považován za nový domov virt. stroje."
+"Cílový hostitel je považován za nový domov virt. stroje."
 
 #: src/components/vm/disks/diskAdd.jsx:109
 msgid "The pool is empty"
@@ -2913,7 +2912,7 @@ msgstr "Neopakující se název, výchozí: $0"
 
 #: src/components/networks/createNetworkDialog.jsx:142
 msgid "Unique network name"
-msgstr "Doposud nepoužívaný název sítě"
+msgstr "Neopakující se název sítě"
 
 #: src/components/vm/overview/bootOrder.jsx:154
 msgid "Unit"
@@ -2953,7 +2952,7 @@ msgstr "Použít existující"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:244
 msgid "Use extended attributes on files and directories"
-msgstr "Použít rozšířené atributy (xattr) na souborech a složkách"
+msgstr "Použít na souborech a složkách rozšířené atributy (xattr)"
 
 #: src/components/vm/vmMigrateDialog.jsx:100
 msgid ""
@@ -2961,9 +2960,9 @@ msgid ""
 "storage. This can be a shared storage pool, NFS, or any other method of "
 "sharing storage."
 msgstr ""
-"Ohledně úložiště, použít stejné umístění jak pro původního, tak pro cílového "
-"hostitele. Může to být sdílený fond úložišť, NFS, nebo jakákoli jiná metoda "
-"sdílení úložiště."
+"Ohledně úložiště, použijte stejné umístění jak pro původního, tak pro "
+"cílového hostitele. Může to být sdílený fond úložišť, NFS, nebo jakákoli "
+"jiná metoda sdílení úložiště."
 
 #: src/components/vm/disks/vmDisksCard.jsx:180
 msgid "Used"
@@ -3012,7 +3011,7 @@ msgstr "Virt. stroj $0 už existuje"
 
 #: src/app.jsx:280
 msgid "VM $0 does not exist on $1 connection"
-msgstr "Virt. stroj $0 neexistuje na $1 připojení"
+msgstr "Virt. stroj $0 na spojení $1 neexistuje"
 
 #: src/components/vm/vmActions.jsx:107
 msgid "VM $0 failed to force reboot"
@@ -3074,7 +3073,7 @@ msgstr "Virt. stroj bude spuštěn s oprávněními správce (root)"
 
 #: src/components/vm/consoles/desktopConsole.jsx:53
 msgid "VNC TLS port"
-msgstr "VNC TLS port"
+msgstr "Port TLS VNC"
 
 #: src/components/vm/consoles/desktopConsole.jsx:49
 msgid "VNC address"
@@ -3086,7 +3085,7 @@ msgstr "VNC konzole"
 
 #: src/components/vm/consoles/desktopConsole.jsx:51
 msgid "VNC port"
-msgstr "VNC port"
+msgstr "Port VNC"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:544
 msgid "Valid token"
@@ -3131,8 +3130,8 @@ msgid ""
 "the socket."
 msgstr ""
 "Podpora virtuálních soketů umožňuje komunikaci mezi hostitelem a hostem přes "
-"soket. I tak ale komunikace přes soket ale vyžaduje speciální software, "
-"který toho využívá."
+"soket. I tak ale komunikace přes soket vyžaduje speciální software, který ho "
+"využívá."
 
 #: src/components/libvirtSlate.jsx:35
 msgid "Virtualization service (libvirt) is not active"
@@ -3181,9 +3180,9 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
-"Resetátory zasahují pokud systémy přestanou odpovídat. Pokud chcete použít "
-"toto virtuální zařízení resetátoru je třeba, aby systém v hostovi také měl "
-"další ovladač a provozoval službu pro resetátor."
+"Resetátory zasahují pokud systémy přestanou odpovídat. Pokud chcete používat "
+"toto virtuální zařízení resetátoru je také třeba, aby systém v hostovi měl "
+"další ovladač a spuštěnou službu pro resetátor."
 
 #: src/components/vm/disks/vmDisksCard.jsx:214
 #: src/components/vm/disks/diskEdit.jsx:132
@@ -3273,7 +3272,7 @@ msgstr "ethernet"
 
 #: src/helpers.js:232
 msgid "host"
-msgstr "stroj"
+msgstr "hostitel"
 
 #: src/helpers.js:228
 msgid "host device"
@@ -3416,7 +3415,7 @@ msgstr "uživatel"
 #: src/components/vm/overview/cpuModal.jsx:194
 msgid "vCPU and CPU topology settings could not be saved"
 msgstr ""
-"Nastavení topologie virtuálních a fyzických procesorů se nepodařilo uložit"
+"Nastavení topologie virtuálních a fyzických procesorů nebylo možné uložit"
 
 #: src/components/vm/overview/cpuModal.jsx:248
 #: src/components/vm/overview/cpuModal.jsx:261
@@ -3434,7 +3433,7 @@ msgstr "virt. procesorů"
 
 #: src/helpers.js:245
 msgid "vhostuser"
-msgstr "uzivatelvirtstroje"
+msgstr "uzivatelhostitelevirtstroju"
 
 #: src/components/common/stateIcon.jsx:62
 msgid "view more..."
@@ -3445,7 +3444,7 @@ msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
 msgstr ""
-"Aby bylo možné klonovat virt. stroje je třeba, aby byl nainstalovaný balíček "
+"Klonovat virt. stroje lze pouze pokud je v systému nainstalovaný balíček "
 "virt-install"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1538
@@ -3453,7 +3452,7 @@ msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
 msgstr ""
-"Aby bylo možné vytvářet nové virt. stroje je třeba, aby byl nainstalovaný "
+"Nové virt. stroje lze vytvářet pouze pokud je v systému nainstalovaný "
 "balíček virt-install"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:133
@@ -3461,8 +3460,8 @@ msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
 msgstr ""
-"Aby bylo možné upravovat tento atribut je třeba, aby byl nainstalovaný "
-"balíček virt-install"
+"Tento atribut lze upravovat pouze pokud je v systému nainstalovaný balíček "
+"virt-install"
 
 #: src/manifest.json:0
 msgid "vm"
