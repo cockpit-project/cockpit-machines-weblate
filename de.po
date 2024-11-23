@@ -23,10 +23,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-21 03:18+0000\n"
-"PO-Revision-Date: 2024-11-09 21:38+0000\n"
+"PO-Revision-Date: 2024-11-23 21:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/de/>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1242,14 +1242,12 @@ msgid "IPv4 only"
 msgstr "Nur IPv4"
 
 #: src/components/networks/createNetworkDialog.jsx:69
-#, fuzzy
-#| msgid "Prefix length should not be empty"
 msgid "IPv4 prefix length must be 24 or less"
-msgstr "Präfixlänge sollte nicht leer sein"
+msgstr "IPv4-Präfixlänge muss 24 oder weniger sein"
 
 #: src/components/networks/createNetworkDialog.jsx:66
 msgid "IPv4 prefix length must be a multiple of 8"
-msgstr ""
+msgstr "IPv4-Präfixlänge muss ein Vielfaches von 8 sein"
 
 #: src/components/networks/networkOverviewTab.jsx:158
 #: src/components/networks/createNetworkDialog.jsx:287
@@ -1266,17 +1264,19 @@ msgstr "Nur IPv6"
 
 #: src/components/common/machinesConnectionSelector.jsx:50
 msgid "Ideal for server VMs"
-msgstr ""
+msgstr "Ideal für Server-VMs"
 
 #: src/components/common/machinesConnectionSelector.jsx:56
 msgid "Ideal networking support"
-msgstr ""
+msgstr "Ideale Unterstützung bei der Vernetzung"
 
 #: src/components/vm/overview/vsock.jsx:68
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"Kennung, die von $0 verwendet wird. VMs mit einer identischen Kennung können "
+"nicht gleichzeitig ausgeführt werden."
 
 #: src/components/vm/disks/diskAdd.jsx:259
 msgid "Identifier may be silently truncated to $0 characters "
@@ -1288,7 +1288,7 @@ msgstr "Untätig"
 
 #: src/app.jsx:137
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorieren"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1532
 msgid "Import VM"
@@ -1330,31 +1330,25 @@ msgid "Initiator"
 msgstr "Initiator"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:144
-#, fuzzy
-#| msgid "Start should not be empty"
 msgid "Initiator should not be empty"
-msgstr "Start sollte nicht leer sein"
+msgstr "Initiator sollte nicht leer sein"
 
 #: src/helpers.js:273
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
-msgstr "Nicht maskierbare Unterbrechung senden"
+msgstr "Nicht-maskierbaren Interrupt injizieren"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:186
 #: src/components/vm/disks/diskAdd.jsx:844
-#, fuzzy
-#| msgid "Ctrl+Insert"
 msgid "Insert"
-msgstr "Strg+Einfügen"
+msgstr "Einfügen"
 
 #: src/components/vm/disks/diskAdd.jsx:690
 msgid "Insert disc media"
-msgstr ""
+msgstr "Disc-Medium einlegen"
 
 #: src/components/vm/overview/helpers.jsx:39
 msgid "Inside the VM"
-msgstr ""
+msgstr "Innerhalb der VM"
 
 #: src/components/vm/vmActions.jsx:402
 msgid "Install"
@@ -1415,6 +1409,7 @@ msgstr "Isoliertes Netzwerk"
 #: src/components/create-vm-dialog/createVmDialog.jsx:828
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr ""
+"Die Schlüssel befinden sich in ~/.ssh/ und haben die Erweiterung „.pub“."
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:62
 msgid "LVM volume group"
@@ -1486,7 +1481,7 @@ msgstr "MAC-Adresse"
 
 #: src/components/vm/nics/nicAdd.jsx:152 src/components/vm/nics/nicEdit.jsx:129
 msgid "MAC address already in use"
-msgstr ""
+msgstr "Bereits verwendete MAC-Adresse"
 
 #: src/components/networks/networkOverviewTab.jsx:250
 msgid "MAC address must not be empty"
@@ -1549,16 +1544,12 @@ msgid "Maximum transmission unit"
 msgstr "Maximale Übertragungseinheit"
 
 #: src/components/vm/disks/mediaEject.jsx:114
-#, fuzzy
-#| msgid "Network $0 could not be deleted"
 msgid "Media could not be ejected from $0"
-msgstr "Netzwerk $0 konnte nicht gelöscht werden"
+msgstr "Medium konnte nicht aus $0 ausgeworfen werden"
 
 #: src/components/vm/disks/mediaEject.jsx:116
-#, fuzzy
-#| msgid "This disk will be removed from $0:"
 msgid "Media will be ejected from $0:"
-msgstr "Diese Festplatte wird aus $0 entfernt:"
+msgstr "Medium wird aus $0 ausgeworfen:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:893
 #: src/components/vm/overview/vmOverviewCard.jsx:179
@@ -1576,20 +1567,16 @@ msgid "Memory must not be 0"
 msgstr "Speicher darf nicht 0 sein"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#, fuzzy
-#| msgid "Source must not be empty"
 msgid "Memory save location can not be empty"
-msgstr "Quelle darf nicht leer sein"
+msgstr "Der Speicherort darf nicht leer sein"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:103
 msgid "Memory snapshot will use about $0."
-msgstr ""
+msgstr "Der Speicherschnappschuss verbraucht etwa $0."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:113
-#, fuzzy
-#| msgid "Memory must not be 0"
 msgid "Memory state path"
-msgstr "Speicher darf nicht 0 sein"
+msgstr "Speicherstatuspfad"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:906
 #: src/components/create-vm-dialog/createVmDialog.jsx:1024
@@ -1644,10 +1631,8 @@ msgid "Mount tag must not be empty"
 msgstr ""
 
 #: src/components/networks/createNetworkDialog.jsx:81
-#, fuzzy
-#| msgid "IPv4 address cannot be same as the network identifier"
 msgid "Must be an address instead of the network identifier, such as $0"
-msgstr "IPv4-Adresse darf nicht mit der Netzwerkkennung übereinstimmen"
+msgstr "Muss eine Adresse anstelle der Netzwerkkennung sein, z. B. $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.js:93
 msgid "NAT to $0"
@@ -1655,7 +1640,7 @@ msgstr "NAT auf $0"
 
 #: src/components/vm/nics/vmNicsCard.jsx:308
 msgid "NIC $0 of VM $1 failed to change state"
-msgstr ""
+msgstr "NIC $0 von VM $1 konnte den Status nicht ändern"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:265
 #: src/components/vms/hostvmslist.jsx:161
