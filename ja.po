@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-28 03:15+0000\n"
-"PO-Revision-Date: 2024-09-07 12:38+0000\n"
-"Last-Translator: Jelle van der Waa <jvanderw@redhat.com>\n"
+"PO-Revision-Date: 2025-02-28 05:56+0000\n"
+"Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "cockpit-machines/main/ja/>\n"
 "Language: ja\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.10\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:927
 msgid "$0 $1 available at default location"
@@ -127,7 +127,7 @@ msgstr "SSH キーの追加"
 
 #: src/components/vm/vmActions.jsx:484
 msgid "Add TPM"
-msgstr ""
+msgstr "TPM の追加"
 
 #: src/components/networks/networkOverviewTab.jsx:230
 msgid "Add a DHCP static host entry"
@@ -414,7 +414,7 @@ msgstr "クラウドベースイメージ"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit プロジェクト"
 
 #: src/components/common/deleteResource.jsx:97
 msgid "Confirm this action"
@@ -572,7 +572,9 @@ msgstr "仮想マシン $0 を作成する"
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
-msgstr ""
+msgstr "VFIO "
+"デバイスを備えた仮想マシンの実行中のスナップショット作成はサポートされていま"
+"せん。"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1276
 msgid "Creation of VM $0 failed"
@@ -833,16 +835,12 @@ msgid "Edit $0 attributes"
 msgstr "$0 属性の編集"
 
 #: src/components/vm/vmActions.jsx:471
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description"
-msgstr "説明なし"
+msgstr "説明の編集"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:54
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description of VM $0"
-msgstr "説明なし"
+msgstr "仮想マシン $0 の説明の編集"
 
 #: src/components/vm/overview/vsock.jsx:211
 msgid "Edit vsock interface"
@@ -915,10 +913,8 @@ msgid "Failed"
 msgstr "失敗"
 
 #: src/components/vm/vmActions.jsx:188
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add TPM to VM $0"
-msgstr "VM $0 仮想マシンのクローンに失敗しました"
+msgstr "TPM を仮想マシン $0 に追加できませんでした"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:194
 msgid "Failed to add shared directory"
@@ -973,10 +969,8 @@ msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "仮想マシン $1 へのキー Ctrl+Alt+$0 の送信に失敗しました"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:46
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to set description of VM $0"
-msgstr "VM $0 仮想マシンのクローンに失敗しました"
+msgstr "仮想マシン $0 の説明を設定できませんでした"
 
 #: src/components/vm/overview/cpuModal.jsx:250
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
@@ -1507,20 +1501,16 @@ msgid "Memory must not be 0"
 msgstr "メモリは 0 以外である必要があります"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:196
-#, fuzzy
-#| msgid "Memory file can not be empty"
 msgid "Memory save location can not be empty"
-msgstr "メモリーファイルは空欄にできません"
+msgstr "メモリー保存場所は空にできません"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:103
 msgid "Memory snapshot will use about $0."
-msgstr ""
+msgstr "メモリースナップショットは約 $0 を使用します。"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:113
-#, fuzzy
-#| msgid "Memory must not be 0"
 msgid "Memory state path"
-msgstr "メモリは 0 以外である必要があります"
+msgstr "メモリー状態パス"
 
 #: src/components/vm/overview/memorySelectRow.jsx:87
 #: src/components/storagePools/storageVolumeCreateBody.jsx:106
@@ -1889,10 +1879,8 @@ msgid "Path to cloud image file on host's file system"
 msgstr "ホストファイルシステムのクラウドイメージファイルへのパス"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:119
-#, fuzzy
-#| msgid "Path to file"
 msgid "Path to directory"
-msgstr "ファイルのパス"
+msgstr "ディレクトリーへのパス"
 
 #: src/components/vm/disks/diskAdd.jsx:343
 msgid "Path to file on host's file system"
@@ -2088,14 +2076,12 @@ msgid "Reboot $0?"
 msgstr "再起動 $0?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:445
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Recommended operating systems"
-msgstr "オペレーティングシステムの選択"
+msgstr "推奨オペレーティングシステム"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.js:87
 msgid "Released $0"
-msgstr ""
+msgstr "$0 をリリースしました"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:345
 msgid "Remote URL"
@@ -2599,7 +2585,7 @@ msgstr "TAP デバイス"
 
 #: src/components/common/needsShutdown.jsx:130
 msgid "TPM"
-msgstr ""
+msgstr "TPM"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:126
 msgid "Table of selectable host devices"
@@ -2750,10 +2736,8 @@ msgid "Threads per core"
 msgstr "コアあたりのスレッド"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:107
-#, fuzzy
-#| msgid "Total size: $0"
 msgid "Total space available: $0."
-msgstr "合計サイズ: $0"
+msgstr "利用可能な合計容量: $0。"
 
 #: src/components/vm/overview/firmware.jsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -2829,10 +2813,8 @@ msgid "Unspecified"
 msgstr "指定なし"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:448
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Unsupported and older operating systems"
-msgstr "オペレーティングシステムの選択"
+msgstr "サポートされていない古いオペレーティングシステム"
 
 #: src/components/vm/disks/diskEdit.jsx:44
 msgid "Url"
@@ -2996,7 +2978,7 @@ msgstr "ベンダー"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.js:85
 msgid "Vendor support ended $0"
-msgstr ""
+msgstr "ベンダーサポートが $0 に終了しました"
 
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:255
