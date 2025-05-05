@@ -23,17 +23,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 03:28+0000\n"
-"PO-Revision-Date: 2024-11-24 21:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: German <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/de/>\n"
+"PO-Revision-Date: 2025-05-05 02:21+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/"
+"cockpit-machines/main/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:929
 msgid "$0 $1 available at default location"
@@ -250,7 +249,7 @@ msgstr "Anwenden"
 
 #: src/components/vm/overview/watchdog.jsx:185
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Beim nächsten Bootvorgang anwenden"
 
 #: src/components/vm/overview/vsock.jsx:47
 msgid "Assign automatically"
@@ -261,6 +260,8 @@ msgid ""
 "Automated installs are only available when downloading an image or using "
 "cloud-init."
 msgstr ""
+"Automatisierte Installationen sind nur verfügbar, wenn Sie ein Abbild "
+"herunterladen oder cloud-init verwenden."
 
 #: src/components/networks/createNetworkDialog.jsx:182
 msgid "Automatic"
@@ -360,7 +361,7 @@ msgstr "Abbrechen"
 
 #: src/components/vm/overview/vsock.jsx:201
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Bearbeiten des vsock-Geräts ist bei einer transienten VM nicht möglich"
 
 #: src/components/vm/overview/watchdog.jsx:163
 msgid "Cannot edit watchdog device on a transient VM"
@@ -1090,10 +1091,8 @@ msgid "Force shut down"
 msgstr "Herunterfahren erzwingen"
 
 #: src/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Herunterfahren erzwingen"
+msgstr "Herunterfahren von $0 erzwingen?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:106
 #: src/components/storagePools/createStoragePoolDialog.jsx:201
@@ -1127,7 +1126,7 @@ msgstr "Automatisch generieren"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:514
 msgid "Get a new RHSM token."
-msgstr ""
+msgstr "Ein neues RHSM-Token erhalten."
 
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/vm/disks/vmDisksCard.jsx:49
@@ -1143,19 +1142,15 @@ msgstr "Zur VM-Liste gehen"
 
 #: src/components/common/machinesConnectionSelector.jsx:66
 msgid "Good choice for desktop virtualization"
-msgstr ""
+msgstr "Gute Wahl für die Desktop-Virtualisierung"
 
 #: src/helpers.js:268
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Herunterfahren erzwingen"
+msgstr "Anständig herunterfahren"
 
 #: src/app.jsx:122
-#, fuzzy
-#| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Verbindung zum Virtualisierungsdienst herstellen"
+msgstr "Hardware-Virtualisierung ist deaktiviert"
 
 #: src/components/vm/disks/diskAdd.jsx:210
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:218
@@ -1695,7 +1690,7 @@ msgstr "Netzwerk $0 wird dauerhaft gelöscht."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:379
 msgid "Network boot (PXE)"
-msgstr ""
+msgstr "Netzwerk-Bootvorgang (PXE)"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:61
 msgid "Network file system"
@@ -2132,14 +2127,12 @@ msgid "Reboot $0?"
 msgstr "$0 neu starten?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:447
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Recommended operating systems"
-msgstr "Betriebssystem auswählen"
+msgstr "Empfohlene Betriebssysteme"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.js:87
 msgid "Released $0"
-msgstr ""
+msgstr "$0 freigegeben"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:347
 msgid "Remote URL"
@@ -2881,10 +2874,8 @@ msgid "Unspecified"
 msgstr "Nicht spezifiziert"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:450
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Unsupported and older operating systems"
-msgstr "Betriebssystem auswählen"
+msgstr "Nicht unterstützte und ältere Betriebssysteme"
 
 #: src/components/vm/disks/diskEdit.jsx:45
 msgid "Url"
@@ -3056,8 +3047,9 @@ msgid "Vendor"
 msgstr "Anbieter"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.js:85
+#, fuzzy
 msgid "Vendor support ended $0"
-msgstr ""
+msgstr "Unterstützung durch den Anbieter endet $0"
 
 #: src/components/networks/networkList.jsx:51
 #: src/components/vms/hostvmslist.jsx:155
@@ -3114,7 +3106,7 @@ msgstr ""
 
 #: src/components/vm/overview/vmOverviewCard.jsx:214
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:115
 #: src/components/vm/overview/bootOrder.jsx:162
