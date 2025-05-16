@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-15 03:33+0000\n"
-"PO-Revision-Date: 2025-05-16 01:55+0000\n"
+"PO-Revision-Date: 2025-05-16 02:14+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-machines/pt_BR/>\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:929
 msgid "$0 $1 available at default location"
-msgstr ""
+msgstr "$0 $1 disponível no local padrão"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:246
 #: src/components/create-vm-dialog/createVmDialog.jsx:879
@@ -42,28 +42,24 @@ msgid "$0 $1 available on host"
 msgstr "$0 $1 disponível no host"
 
 #: src/components/vm/overview/cpuModal.jsx:321
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "$0 detalhes de vCPU"
+msgstr "Detalhes de CPU de $0"
 
 #: src/components/aggregateStatusCards.jsx:63
-#, fuzzy
 msgid "$0 Network"
 msgid_plural "$0 Networks"
-msgstr[0] "$0 Rede"
-msgstr[1] "$0 Redes"
+msgstr[0] "$0 rede"
+msgstr[1] "$0 redes"
 
 #: src/components/aggregateStatusCards.jsx:41
-#, fuzzy
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
-msgstr[0] "$0 Pool de Armazenamento"
-msgstr[1] "$0 Pools de Armazenamento"
+msgstr[0] "$0 pool de armazenamento"
+msgstr[1] "$0 pools de armazenamento"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1303
 msgid "$0 does not support unattended installation."
-msgstr ""
+msgstr "$0 não oferece suporte a instalação autônoma."
 
 #: src/components/vm/consoles/desktopConsole.jsx:61
 msgid ""
@@ -97,6 +93,9 @@ msgid ""
 "A copy of the VM will run on the destination and will disappear when it is "
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
+"Uma cópia da VM será executada no destino e desaparecerá quando for "
+"desligada. Enquanto isso, o host de origem mantém sua cópia da configuração "
+"da VM."
 
 #: src/components/vm/disks/vmDisksCard.jsx:188
 #: src/components/vm/disks/diskEdit.jsx:108
@@ -123,7 +122,7 @@ msgstr "Ativar"
 
 #: src/components/storagePools/storagePoolVolumesTab.jsx:112
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "Ative o pool de armazenamento para administrar volumes"
 
 #: src/components/networks/networkOverviewTab.jsx:236
 #: src/components/vm/overview/watchdog.jsx:156
@@ -144,7 +143,7 @@ msgstr "Adicionar TPM"
 
 #: src/components/networks/networkOverviewTab.jsx:232
 msgid "Add a DHCP static host entry"
-msgstr ""
+msgstr "Adicionar uma entrada de host estático DHCP"
 
 #: src/components/vm/disks/vmDisksCard.jsx:75
 #: src/components/vm/disks/diskAdd.jsx:692
@@ -169,20 +168,17 @@ msgid "Add virtual network interface"
 msgstr "Adicionar interface de rede virtual"
 
 #: src/components/vm/overview/vsock.jsx:212
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Adicionar Interface de Rede"
+msgstr "Adicionar interface vsock"
 
 #: src/components/vm/overview/watchdog.jsx:174
-#, fuzzy
-#| msgid "Host device"
 msgid "Add watchdog device type"
-msgstr "Dispositivo Host"
+msgstr "Adicionar tipo de dispositivo watchdog"
 
 #: src/components/vm/overview/watchdog.jsx:109
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
+"A adição de um watchdog exigirá uma reinicialização para entrar em vigor."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:113
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -192,7 +188,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskAdd.jsx:84
 msgid "Adding this disk will change its access mode to shared."
-msgstr ""
+msgstr "Adicionar este disco mudará seu modo de acesso para compartilhado."
 
 #: src/components/vm/disks/vmDisksCard.jsx:192
 msgid "Additional"
@@ -209,9 +205,8 @@ msgstr "Endereço"
 #: src/components/networks/createNetworkDialog.jsx:103
 #: src/components/networks/createNetworkDialog.jsx:124
 #: src/components/networks/createNetworkDialog.jsx:131
-#, fuzzy
 msgid "Address not within subnet"
-msgstr "Endereço não está dentro da sub-rede"
+msgstr "O endereço não está dentro da sub-rede"
 
 #: src/components/vms/hostvmslist.jsx:74 src/components/vms/hostvmslist.jsx:92
 msgid "All"
@@ -222,12 +217,16 @@ msgid ""
 "All VM activity, including storage, will be temporary. This will result in "
 "data loss on the destination host."
 msgstr ""
+"Toda a atividade da VM, incluindo o armazenamento, será temporária. Isso "
+"resultará em perda de dados no host de destino."
 
 #: src/components/vm/disks/diskAdd.jsx:256
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
 msgstr ""
+"Caracteres permitidos: alfabeto latino básico, números e pontuação limitada "
+"(-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.jsx:175
 msgid "Also delete all volumes inside this pool:"
@@ -239,7 +238,7 @@ msgstr "Sempre anexar"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Um exemplo de software compatível com vsock é o socat"
 
 #: src/components/vm/overview/cpuModal.jsx:325
 msgid "Apply"
@@ -250,10 +249,8 @@ msgid "Apply on next boot"
 msgstr "Aplicar na próxima inicialização"
 
 #: src/components/vm/overview/vsock.jsx:47
-#, fuzzy
-#| msgid "Automatic"
 msgid "Assign automatically"
-msgstr "Automático"
+msgstr "Atribuir automaticamente"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1302
 msgid ""
@@ -794,7 +791,7 @@ msgstr "Discos"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:148
 msgid "Disk $0 could not be removed"
-msgstr "Não foi possível remover $0"
+msgstr "Não foi possível remover o disco $0"
 
 #: src/components/vm/disks/diskAdd.jsx:835
 #, fuzzy
@@ -1509,7 +1506,7 @@ msgstr ""
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:130
 msgid "Location"
-msgstr "Localização"
+msgstr "Local"
 
 #: src/components/networks/networkOverviewTab.jsx:70
 #: src/components/vm/overview/bootOrder.jsx:113
@@ -1570,20 +1567,16 @@ msgid "Mask or prefix length should not be empty"
 msgstr "Comprimento da mascara ou prefixo não pode estar vazio"
 
 #: src/components/vm/overview/memoryModal.jsx:140
-#, fuzzy
 msgid "Maximum allocation"
-msgstr "Alocação Máxima"
+msgstr "Alocação máxima"
 
 #: src/components/vm/overview/memoryModal.jsx:105
 msgid "Maximum memory could not be saved"
 msgstr ""
 
 #: src/components/vm/overview/cpuModal.jsx:230
-#, fuzzy
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
-msgstr ""
-"Número máximo de CPUs virtuais alocadas para o sistema operacional "
-"virtualizado, que deve estar entre 1 e $0"
+msgstr "Número máximo de CPUs virtuais alocadas para o SO convidado"
 
 #: src/components/vm/overview/cpuModal.jsx:229
 msgid ""
@@ -1598,9 +1591,8 @@ msgid "Maximum transmission unit"
 msgstr ""
 
 #: src/components/vm/disks/mediaEject.jsx:116
-#, fuzzy
 msgid "Media could not be ejected from $0"
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "Não foi possível ejetar a mídia de $0"
 
 #: src/components/vm/disks/mediaEject.jsx:118
 msgid "Media will be ejected from $0:"
@@ -1622,10 +1614,8 @@ msgid "Memory must not be 0"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:198
-#, fuzzy
-#| msgid "Source path should not be empty"
 msgid "Memory save location can not be empty"
-msgstr "O caminho da origem não deve estar vazio"
+msgstr "O local de salvamento da memória não pode estar vazio"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
 msgid "Memory snapshot will use about $0."
@@ -1652,10 +1642,8 @@ msgid "Migrate VM to another host"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.jsx:162
-#, fuzzy
-#| msgid "Creation of VM $0 failed"
 msgid "Migration failed"
-msgstr "Criação da vm $0 falhou"
+msgstr "A migração falhou"
 
 #: src/components/vm/overview/cpuModal.jsx:293
 #: src/components/vm/overview/cpuModal.jsx:295
@@ -1743,9 +1731,8 @@ msgid "Netmask"
 msgstr ""
 
 #: src/components/networks/network.jsx:154
-#, fuzzy
 msgid "Network $0 could not be deleted"
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "Não foi possível remover a rede $0"
 
 #: src/components/networks/network.jsx:111
 msgid "Network $0 failed to get activated"
@@ -1775,14 +1762,12 @@ msgid "Network interface"
 msgstr "Adicionar Interface de Rede"
 
 #: src/components/vm/nics/vmNicsCard.jsx:470
-#, fuzzy
 msgid "Network interface $0 could not be removed"
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "Não foi possível remover a interface de rede $0"
 
 #: src/components/vm/nics/vmNicsCard.jsx:471
-#, fuzzy
 msgid "Network interface $0 will be removed from $1"
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "A interface de rede $0 será removida de $1"
 
 #: src/components/vm/nics/nicEdit.jsx:150 src/components/vm/nics/nicAdd.jsx:175
 msgid "Network interface settings could not be saved"
@@ -2460,10 +2445,8 @@ msgid "Serial console"
 msgstr "Console Serial"
 
 #: src/components/vm/consoles/consoles.jsx:132
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial console ($0)"
-msgstr "Console Serial"
+msgstr "Console serial ($0)"
 
 #: src/components/networks/createNetworkDialog.jsx:230
 #, fuzzy
@@ -2558,16 +2541,15 @@ msgid "Slot"
 msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
-#, fuzzy
 msgid "Snapshot $0 could not be deleted"
-msgstr "Volumes de armazenamento não pode ser apagados"
+msgstr "Não foi possível excluir o snashot $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
-#, fuzzy
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
-msgstr "Após excluir o snapshot, todo o conteúdo capturado será perdido."
+msgstr ""
+"O snapshot $0 será excluído de $1. Todo o conteúdo capturado será perdido."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:238
 #, fuzzy
@@ -2680,7 +2662,7 @@ msgstr "Armazenamento"
 
 #: src/components/vm/vmMigrateDialog.jsx:111
 msgid "Storage is at a shared location"
-msgstr ""
+msgstr "O armazenamento é em um local compartilhado"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1004
 #, fuzzy
@@ -2797,10 +2779,8 @@ msgid "Temporary migration"
 msgstr ""
 
 #: src/components/vm/deleteDialog.jsx:83
-#, fuzzy
-#| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
-msgstr "A VM está em execução e será desativada antes da exclusão."
+msgstr "A VM $0 está em execução e será desativada antes da exclusão."
 
 #: src/components/vm/nics/vmNicsCard.jsx:483
 #: src/components/vm/nics/vmNicsCard.jsx:491
@@ -2957,10 +2937,8 @@ msgid "Unique name"
 msgstr "Nome único"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:274
-#, fuzzy
-#| msgid "Unique name"
 msgid "Unique name, default: $0"
-msgstr "Nome único"
+msgstr "Nome único, padrão: $0"
 
 #: src/components/networks/createNetworkDialog.jsx:144
 #, fuzzy
@@ -3016,6 +2994,9 @@ msgid ""
 "storage. This can be a shared storage pool, NFS, or any other method of "
 "sharing storage."
 msgstr ""
+"Use o mesmo local nos hosts de origem e de destino para o seu armazenamento. "
+"Pode ser um pool de armazenamento compartilhado, NFS ou qualquer outro "
+"método de compartilhamento de armazenamento."
 
 #: src/components/vm/disks/vmDisksCard.jsx:182
 msgid "Used"
@@ -3057,10 +3038,8 @@ msgid "Uses SPICE"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:311
-#, fuzzy
-#| msgid "Host device"
 msgid "VM $0 Host Devices"
-msgstr "Dispositivo Host"
+msgstr "Dispositivos do host da VM $0"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:199
 msgid "VM $0 already exists"
