@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-14 03:32+0000\n"
-"PO-Revision-Date: 2025-05-14 14:12+0000\n"
+"PO-Revision-Date: 2025-05-16 01:55+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-machines/pt_BR/>\n"
@@ -38,10 +38,8 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:246
 #: src/components/create-vm-dialog/createVmDialog.jsx:879
-#, fuzzy
-#| msgid "$0 is not available from any repository."
 msgid "$0 $1 available on host"
-msgstr "$0 não está disponível em nenhum repositório."
+msgstr "$0 $1 disponível no host"
 
 #: src/components/vm/overview/cpuModal.jsx:321
 #, fuzzy
@@ -85,7 +83,6 @@ msgstr "$0 Rede"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:140
 #: src/components/vm/vmUsageCard.jsx:42
-#, fuzzy
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
 msgstr[0] "$0 vCPU"
@@ -495,14 +492,12 @@ msgid "Cores per socket"
 msgstr "Núcleos por soquete"
 
 #: src/components/vm/deleteDialog.jsx:157
-#, fuzzy
 msgid "Could not delete $0"
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "Não foi possível excluir $0"
 
 #: src/components/vm/deleteDialog.jsx:152
-#, fuzzy
 msgid "Could not delete all storage for $0"
-msgstr "Não foi possível redefinir o pool de armazenamento"
+msgstr "Não foi possível excluir todo armazenamento para $0"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:134
 #, fuzzy
@@ -611,9 +606,8 @@ msgid "Creating VM"
 msgstr "Criar VM"
 
 #: src/app.jsx:290
-#, fuzzy
 msgid "Creating VM $0"
-msgstr "Criar VM"
+msgstr "Criando a VM $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
 msgid ""
@@ -631,9 +625,8 @@ msgid "Creation time"
 msgstr "Tempo de criação"
 
 #: src/components/vm/consoles/vnc.jsx:152
-#, fuzzy
 msgid "Ctrl+Alt+$0"
-msgstr "Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+$0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
 #, fuzzy
@@ -685,35 +678,30 @@ msgid "Delete"
 msgstr "Excluir"
 
 #: src/components/vm/deleteDialog.jsx:167
-#, fuzzy
 msgid "Delete $0 VM?"
-msgstr "Delete $0 volume"
+msgstr "Excluir a VM $0?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:194
-#, fuzzy
 msgid "Delete $0 storage pool?"
-msgstr "Apagar pool de armazenamento $0"
+msgstr "Excluir o pool de armazenamento $0?"
 
 #: src/components/storagePools/storageVolumeDelete.jsx:63
-#, fuzzy
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
-msgstr[0] "Delete $0 volume"
-msgstr[1] "Delete $0 volumes"
+msgstr[0] "Excluir $0 volume"
+msgstr[1] "Excluir $0 volumes"
 
 #: src/components/vm/deleteDialog.jsx:85
 msgid "Delete associated storage files:"
 msgstr "Excluir arquivos de armazenamento associados:"
 
 #: src/components/networks/network.jsx:153
-#, fuzzy
 msgid "Delete network?"
-msgstr "Rede isolada"
+msgstr "Excluir a rede?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
-#, fuzzy
 msgid "Delete snapshot?"
-msgstr "Reverter para o snapshot $0"
+msgstr "Excluir o snapshot?"
 
 #: src/components/storagePools/storagePoolDelete.jsx:185
 msgid ""
@@ -805,9 +793,8 @@ msgid "Disk"
 msgstr "Discos"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:148
-#, fuzzy
 msgid "Disk $0 could not be removed"
-msgstr "Não foi possível salvar as configurações do disco"
+msgstr "Não foi possível remover $0"
 
 #: src/components/vm/disks/diskAdd.jsx:835
 #, fuzzy
@@ -922,9 +909,8 @@ msgid "Edit description"
 msgstr "Descrição"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:56
-#, fuzzy
 msgid "Edit description of VM $0"
-msgstr "Descrição"
+msgstr "Editar descrição da VM $0"
 
 #: src/components/vm/overview/vsock.jsx:212
 #, fuzzy
@@ -950,10 +936,8 @@ msgid "Eject"
 msgstr "Ejetar"
 
 #: src/components/vm/disks/mediaEject.jsx:101
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Eject disc from VM?"
-msgstr "Removendo $0"
+msgstr "Ejetar o disco da VM?"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:242
 msgid "Emulated machine"
@@ -1058,9 +1042,8 @@ msgid "Failed to rename VM $0"
 msgstr "Falha ao adicionar a máquina: $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:77
-#, fuzzy
 msgid "Failed to replace SPICE devices"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao substituir dispositivos SPICE"
 
 #: src/components/networks/networkOverviewTab.jsx:246
 msgid "Failed to save network settings"
@@ -1085,9 +1068,8 @@ msgid "File"
 msgstr "Arquivo"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:61
-#, fuzzy
 msgid "Filesystem $0 could not be removed"
-msgstr "Não foi possível salvar as configurações do disco"
+msgstr "Não foi possível remover o sistema de arquivos $0"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:60
 msgid "Filesystem directory"
@@ -1115,9 +1097,8 @@ msgid "Force reboot"
 msgstr "Forçar reinicialização"
 
 #: src/components/vm/vmActions.jsx:362
-#, fuzzy
 msgid "Force reboot $0?"
-msgstr "Forçar reinicialização"
+msgstr "Forçar reinicialização de $0?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:109
 #, fuzzy
@@ -1129,10 +1110,8 @@ msgid "Force shut down"
 msgstr "Forçar Desligamento"
 
 #: src/components/vm/vmActions.jsx:298
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Forçar Desligamento"
+msgstr "Forçar desligamento de $0?"
 
 #: src/components/storagePools/createStoragePoolDialog.jsx:201
 #: src/components/storagePools/storageVolumeCreateBody.jsx:76
@@ -1777,9 +1756,8 @@ msgid "Network $0 failed to get deactivated"
 msgstr ""
 
 #: src/components/networks/network.jsx:155
-#, fuzzy
 msgid "Network $0 will be permanently deleted."
-msgstr "O pool de armazenamento não pode ser apagado"
+msgstr "A rede $0 será excluída permanentemente."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:379
 #, fuzzy
@@ -1940,11 +1918,8 @@ msgid "No virtual networks"
 msgstr ""
 
 #: src/components/storagePools/storagePoolDelete.jsx:184
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
-msgstr ""
-"Nenhum volume de armazenamento definido para este pool de armazenamento"
+msgstr "Nenhum volume existe neste pool de armazenamento."
 
 #: src/components/networks/network.jsx:162
 msgid ""
@@ -2002,7 +1977,7 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:469
 msgid "Operating system"
-msgstr "Sistema Operacional"
+msgstr "Sistema operacional"
 
 #: src/components/storagePools/storagePool.jsx:173
 #: src/components/storagePools/storagePool.jsx:180
@@ -2243,10 +2218,8 @@ msgid "Reboot"
 msgstr "Reiniciar"
 
 #: src/components/vm/vmActions.jsx:342
-#, fuzzy
-#| msgid "Reboot"
 msgid "Reboot $0?"
-msgstr "Reiniciar"
+msgstr "Reiniciar $0?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:447
 #, fuzzy
@@ -2290,22 +2263,16 @@ msgid "Remove and delete file"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.jsx:146
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Remove disk from VM?"
-msgstr "Removendo $0"
+msgstr "Remover o disco da VM?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:60
-#, fuzzy
-#| msgid "Network file system"
 msgid "Remove filesystem?"
-msgstr "Sistema de arquivos de rede"
+msgstr "Remover o sistema de arquivos?"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:253
-#, fuzzy
-#| msgid "Host device"
 msgid "Remove host device from VM?"
-msgstr "Dispositivo Host"
+msgstr "Remover o dispositivo host da VM?"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:841
 #, fuzzy
@@ -2314,10 +2281,8 @@ msgid "Remove item"
 msgstr "Sistema de arquivos de rede"
 
 #: src/components/vm/nics/vmNicsCard.jsx:469
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "Adicionar Interface de Rede"
+msgstr "Remover a interface de rede?"
 
 #: src/components/networks/networkOverviewTab.jsx:65
 msgid "Remove static host from DHCP"
@@ -2346,13 +2311,11 @@ msgstr ""
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:145
 msgid "Replace SPICE on selected VMs."
-msgstr ""
+msgstr "Substituir SPICE nas VMs selecionadas."
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:146
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "Criar nova máquina virtual"
+msgstr "Substituir SPICE na máquina virtual."
 
 #: src/helpers.js:267
 msgid "Reset"
@@ -2482,10 +2445,8 @@ msgid "Send non-maskable interrupt"
 msgstr "Enviar interrupção não mascarada"
 
 #: src/components/vm/vmActions.jsx:319
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Send non-maskable interrupt to $0?"
-msgstr "Enviar interrupção não mascarada"
+msgstr "Enviar interrupção não mascarada para $0?"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:105
 #, fuzzy
@@ -2564,10 +2525,8 @@ msgid "Shut down"
 msgstr "Encerrar"
 
 #: src/components/vm/vmActions.jsx:247 src/components/vm/vmActions.jsx:278
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shut down $0?"
-msgstr "Encerrar"
+msgstr "Desligar $0?"
 
 #: src/helpers.js:215
 #, fuzzy
@@ -2947,10 +2906,8 @@ msgid "Threads per core"
 msgstr "Tópicos por núcleo"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:109
-#, fuzzy
-#| msgid "Total size: $0"
 msgid "Total space available: $0."
-msgstr "Tamanho total: $0"
+msgstr "Espaço total disponível: $0."
 
 #: src/components/vm/overview/firmware.jsx:165
 msgid "Transient VMs don't support editing firmware configuration"
