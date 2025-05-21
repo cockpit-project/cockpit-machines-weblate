@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 03:39+0000\n"
+"POT-Creation-Date: 2025-05-21 03:33+0000\n"
 "PO-Revision-Date: 2021-05-31 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
@@ -134,7 +134,7 @@ msgstr "Активировать пул хранения для админист
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.jsx:220
-#: src/components/vm/disks/diskAdd.jsx:848
+#: src/components/vm/disks/diskAdd.jsx:818
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
 msgid "Add"
 msgstr "Добавить"
@@ -152,7 +152,7 @@ msgid "Add a DHCP static host entry"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.jsx:75
-#: src/components/vm/disks/diskAdd.jsx:692
+#: src/components/vm/disks/diskAdd.jsx:686
 msgid "Add disk"
 msgstr "Добавить диск"
 
@@ -199,10 +199,6 @@ msgstr ""
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr "Может редактироваться, только когда гостевая система выключена"
 
-#: src/components/vm/disks/diskAdd.jsx:84
-msgid "Adding this disk will change its access mode to shared."
-msgstr ""
-
 #: src/components/vm/disks/vmDisksCard.jsx:192
 msgid "Additional"
 msgstr "Дополнительно"
@@ -231,7 +227,7 @@ msgid ""
 "data loss on the destination host."
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:256
+#: src/components/vm/disks/diskAdd.jsx:250
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -243,7 +239,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Удалить тома в этом пуле"
 
-#: src/components/vm/nics/nicAdd.jsx:96 src/components/vm/disks/diskAdd.jsx:142
+#: src/components/vm/nics/nicAdd.jsx:96 src/components/vm/disks/diskAdd.jsx:136
 msgid "Always attach"
 msgstr "Всегда присоединять"
 
@@ -312,7 +308,7 @@ msgstr "Не удалось сохранить параметры порядка
 #: src/components/vm/overview/bootOrder.jsx:154
 #: src/components/vm/disks/vmDisksCard.jsx:186
 #: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/diskAdd.jsx:225
+#: src/components/vm/disks/diskAdd.jsx:219
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
@@ -320,7 +316,7 @@ msgstr "Не удалось сохранить параметры порядка
 msgid "Bus"
 msgstr "Шина"
 
-#: src/components/vm/disks/diskAdd.jsx:357
+#: src/components/vm/disks/diskAdd.jsx:351
 msgid "CD/DVD disc"
 msgstr "Диск CD/DVD"
 
@@ -337,7 +333,7 @@ msgid "CPU mode could not be saved"
 msgstr "Не удалось сохранить параметры виртуальных ЦП"
 
 #: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/diskAdd.jsx:214
+#: src/components/vm/disks/diskAdd.jsx:208
 #: src/components/vm/disks/vmDiskColumns.jsx:104
 msgid "Cache"
 msgstr "Кэш"
@@ -365,8 +361,8 @@ msgstr "Кэш"
 #: src/components/vm/deleteDialog.jsx:175
 #: src/components/vm/nics/nicEdit.jsx:194 src/components/vm/nics/nicAdd.jsx:223
 #: src/components/vm/vmCloneDialog.jsx:85
-#: src/components/vm/disks/diskEdit.jsx:263
-#: src/components/vm/disks/diskAdd.jsx:851
+#: src/components/vm/disks/diskEdit.jsx:251
+#: src/components/vm/disks/diskAdd.jsx:821
 #: src/components/vm/disks/mediaEject.jsx:112
 #: src/components/vm/vmRenameDialog.jsx:73
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
@@ -403,7 +399,7 @@ msgstr ""
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Изменения вступят в силу после выключения виртуальной машины"
 
-#: src/app.jsx:127
+#: src/app.jsx:124
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -444,6 +440,10 @@ msgstr "Базовый образ облака"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
+msgstr ""
+
+#: src/components/vm/disks/vmDisksCard.jsx:216
+msgid "Concurrently writeable"
 msgstr ""
 
 #: src/components/common/deleteResource.jsx:99
@@ -566,7 +566,7 @@ msgstr "Создать новый"
 msgid "Create and run"
 msgstr "Создать новый"
 
-#: src/components/vm/disks/diskAdd.jsx:631
+#: src/components/vm/disks/diskAdd.jsx:625
 msgid "Create new"
 msgstr "Создать новый"
 
@@ -614,7 +614,7 @@ msgstr "Создать том"
 msgid "Creating VM"
 msgstr "Создание ВМ"
 
-#: src/app.jsx:290
+#: src/app.jsx:287
 #, fuzzy
 #| msgid "Creating VM"
 msgid "Creating VM $0"
@@ -656,9 +656,9 @@ msgstr "Специализированная микропрограмма: $0"
 msgid "Custom identifier"
 msgstr "Файл образа диска"
 
-#: src/components/vm/disks/diskAdd.jsx:342
-#: src/components/vm/disks/diskAdd.jsx:595
-#: src/components/vm/disks/diskAdd.jsx:641
+#: src/components/vm/disks/diskAdd.jsx:336
+#: src/components/vm/disks/diskAdd.jsx:589
+#: src/components/vm/disks/diskAdd.jsx:635
 msgid "Custom path"
 msgstr "Пользовательский путь"
 
@@ -779,7 +779,7 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.jsx:138
 #: src/components/vm/overview/bootOrder.jsx:141
 #: src/components/vm/disks/vmDisksCard.jsx:172
-#: src/components/vm/disks/diskAdd.jsx:350
+#: src/components/vm/disks/diskAdd.jsx:344
 #: src/components/vm/disks/vmDiskColumns.jsx:43
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
@@ -819,13 +819,13 @@ msgstr "Диски"
 msgid "Disk $0 could not be removed"
 msgstr "Не удалось сохранить параметры диска"
 
-#: src/components/vm/disks/diskAdd.jsx:835
+#: src/components/vm/disks/diskAdd.jsx:805
 #, fuzzy
 #| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
 msgstr "Не удалось создать диск"
 
-#: src/components/vm/disks/diskAdd.jsx:240
+#: src/components/vm/disks/diskAdd.jsx:234
 #, fuzzy
 #| msgid "Disk image file"
 msgid "Disk identifier"
@@ -837,7 +837,7 @@ msgstr "Файл образа диска"
 msgid "Disk image"
 msgstr "Файл образа диска"
 
-#: src/components/vm/disks/diskAdd.jsx:355
+#: src/components/vm/disks/diskAdd.jsx:349
 msgid "Disk image file"
 msgstr "Файл образа диска"
 
@@ -851,8 +851,7 @@ msgstr "Имя не должно быть пустым"
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.jsx:211
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskEdit.jsx:199
 msgid "Disk settings could not be saved"
 msgstr "Не удалось сохранить параметры диска"
 
@@ -885,11 +884,11 @@ msgstr "Домен заблокирован на ресурсе"
 msgid "Download an OS"
 msgstr "Загрузить ОС"
 
-#: src/app.jsx:294
+#: src/app.jsx:291
 msgid "Download progress"
 msgstr ""
 
-#: src/app.jsx:290
+#: src/app.jsx:287
 #, fuzzy
 #| msgid "Downloading $0"
 msgid "Downloading image for VM $0"
@@ -916,11 +915,11 @@ msgid "Dying"
 msgstr "Умирающий"
 
 #: src/components/vm/nics/vmNicsCard.jsx:454
-#: src/components/vm/disks/diskEdit.jsx:159
+#: src/components/vm/disks/diskEdit.jsx:149
 msgid "Edit"
 msgstr "Изменить"
 
-#: src/components/vm/disks/diskEdit.jsx:256
+#: src/components/vm/disks/diskEdit.jsx:244
 msgid "Edit $0 attributes"
 msgstr "Редактировать атрибуты $0"
 
@@ -967,7 +966,7 @@ msgstr "Удаление $0"
 msgid "Emulated machine"
 msgstr "Эмулированный компьютер"
 
-#: src/app.jsx:125
+#: src/app.jsx:122
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
@@ -1054,7 +1053,7 @@ msgstr "Не удалось присоединить диск"
 msgid "Failed to detach watchdog"
 msgstr "Не удалось присоединить диск"
 
-#: src/app.jsx:181
+#: src/app.jsx:178
 #, fuzzy
 #| msgid "Failed to change firmware"
 msgid "Failed to fetch some resources"
@@ -1196,7 +1195,7 @@ msgstr ""
 msgid "GiB"
 msgstr "ГиБ"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:277 src/app.jsx:288
 msgid "Go to VMs list"
 msgstr "Перейти к списку ВМ"
 
@@ -1210,14 +1209,14 @@ msgstr ""
 msgid "Gracefully shutdown"
 msgstr "Принудительное завершение работы"
 
-#: src/app.jsx:122
+#: src/app.jsx:119
 #, fuzzy
 #| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
 msgstr "Подключение к службе виртуализации"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:218
-#: src/components/vm/disks/diskAdd.jsx:210
+#: src/components/vm/disks/diskAdd.jsx:204
 msgid "Hide additional options"
 msgstr "Скрыть дополнительные параметры"
 
@@ -1341,7 +1340,7 @@ msgid ""
 "same time."
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:261
+#: src/components/vm/disks/diskAdd.jsx:255
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr ""
 
@@ -1349,7 +1348,7 @@ msgstr ""
 msgid "Idle"
 msgstr "Неактивный"
 
-#: src/app.jsx:136
+#: src/app.jsx:133
 msgid "Ignore"
 msgstr ""
 
@@ -1371,7 +1370,7 @@ msgstr ""
 msgid "Import and run"
 msgstr "Импортировать виртуальную машину"
 
-#: src/components/vm/disks/diskAdd.jsx:495
+#: src/components/vm/disks/diskAdd.jsx:489
 msgid "Importing an image with a backing file is unsupported"
 msgstr ""
 
@@ -1406,14 +1405,14 @@ msgstr "IQN инициатора не должно быть пустым"
 msgid "Inject a non-maskable interrupt"
 msgstr "Отправить немаскируемое прерывание"
 
-#: src/components/vm/disks/diskAdd.jsx:848
+#: src/components/vm/disks/diskAdd.jsx:818
 #: src/components/vm/disks/vmDiskColumns.jsx:186
 #, fuzzy
 #| msgid "Ctrl+Insert"
 msgid "Insert"
 msgstr "Ctrl+Insert"
 
-#: src/components/vm/disks/diskAdd.jsx:692
+#: src/components/vm/disks/diskAdd.jsx:686
 msgid "Insert disc media"
 msgstr ""
 
@@ -1950,7 +1949,7 @@ msgstr "Нет хранилища"
 msgid "No storage pool is defined on this host"
 msgstr "На этом узле не определён пул носителей"
 
-#: src/components/vm/disks/diskAdd.jsx:169
+#: src/components/vm/disks/diskAdd.jsx:163
 msgid "No storage pools available"
 msgstr "Нет доступных пулов носителей"
 
@@ -2085,7 +2084,7 @@ msgstr "Путь к файлу ISO в файловой системе узла"
 msgid "Path to directory"
 msgstr "Путь к файлу"
 
-#: src/components/vm/disks/diskAdd.jsx:345
+#: src/components/vm/disks/diskAdd.jsx:339
 #, fuzzy
 msgid "Path to file on host's file system"
 msgstr "Путь к файлу ISO в файловой системе узла"
@@ -2107,7 +2106,7 @@ msgstr ""
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.jsx:93 src/components/vm/disks/diskAdd.jsx:139
+#: src/components/vm/nics/nicAdd.jsx:93 src/components/vm/disks/diskAdd.jsx:133
 msgid "Persistence"
 msgstr "Сохраняемость"
 
@@ -2128,15 +2127,15 @@ msgstr "Физическое дисковое устройство на узле
 msgid "Please choose a different MAC address"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:552
+#: src/components/vm/disks/diskAdd.jsx:546
 msgid "Please choose a storage pool"
 msgstr "Выберите буфер хранения"
 
-#: src/components/vm/disks/diskAdd.jsx:570
+#: src/components/vm/disks/diskAdd.jsx:564
 msgid "Please choose a volume"
 msgstr "Выберите том"
 
-#: src/components/vm/disks/diskAdd.jsx:559
+#: src/components/vm/disks/diskAdd.jsx:553
 msgid "Please enter new volume name"
 msgstr "Введите новое имя тома"
 
@@ -2150,7 +2149,7 @@ msgstr "Запустите виртуальную машину, чтобы по�
 
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:69
-#: src/components/vm/disks/diskAdd.jsx:153
+#: src/components/vm/disks/diskAdd.jsx:147
 #: src/components/vm/disks/vmDiskColumns.jsx:45
 #: src/components/vm/disks/mediaEject.jsx:87
 msgid "Pool"
@@ -2160,7 +2159,7 @@ msgstr "Пул"
 msgid "Pool needs to be active to create volume"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:562
+#: src/components/vm/disks/diskAdd.jsx:556
 #, fuzzy
 #| msgid "Pool type doesn't support volume creation"
 msgid "Pool type $0 does not support volume creation"
@@ -2494,7 +2493,7 @@ msgstr "Отправить клавишу"
 #: src/components/vm/overview/firmware.jsx:84
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicEdit.jsx:191
-#: src/components/vm/disks/diskEdit.jsx:260
+#: src/components/vm/disks/diskEdit.jsx:248
 msgid "Save"
 msgstr "Сохранить"
 
@@ -2577,7 +2576,7 @@ msgid "Shared storage"
 msgstr "Нет хранилища"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:218
-#: src/components/vm/disks/diskAdd.jsx:210
+#: src/components/vm/disks/diskAdd.jsx:204
 msgid "Show additional options"
 msgstr "Показать дополнительные параметры"
 
@@ -2674,8 +2673,8 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.jsx:407
 #: src/components/vm/nics/nicBody.jsx:196
 #: src/components/vm/disks/vmDisksCard.jsx:190
-#: src/components/vm/disks/diskAdd.jsx:592
-#: src/components/vm/disks/diskAdd.jsx:628
+#: src/components/vm/disks/diskAdd.jsx:586
+#: src/components/vm/disks/diskAdd.jsx:622
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
 msgid "Source"
 msgstr "Источник"
@@ -2797,7 +2796,7 @@ msgstr "Имя пула носителей"
 msgid "Storage pools"
 msgstr "Пулы носителей"
 
-#: src/components/vm/disks/diskAdd.jsx:419
+#: src/components/vm/disks/diskAdd.jsx:413
 #, fuzzy
 #| msgid "Storage volumes could not be deleted"
 msgid "Storage pools could not be fetched"
@@ -2812,7 +2811,7 @@ msgid "Storage volume"
 msgstr "Том хранилища"
 
 #: src/components/storagePools/storageVolumeCreate.jsx:79
-#: src/components/vm/disks/diskAdd.jsx:566
+#: src/components/vm/disks/diskAdd.jsx:560
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 
@@ -2909,7 +2908,7 @@ msgid ""
 "destination host is considered the new home of the VM."
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:111
+#: src/components/vm/disks/diskAdd.jsx:105
 msgid "The pool is empty"
 msgstr "Пул пуст"
 
@@ -2981,7 +2980,7 @@ msgid ""
 "control the virtual machines of the libvirt subsystem."
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:82
+#: src/components/vm/disks/diskAdd.jsx:80
 #, fuzzy
 #| msgid "This volume is already used by: "
 msgid "This volume is already used by $0."
@@ -3092,8 +3091,8 @@ msgstr "URL-адрес"
 msgid "Usage"
 msgstr "Использование"
 
-#: src/components/vm/disks/diskAdd.jsx:600
-#: src/components/vm/disks/diskAdd.jsx:636
+#: src/components/vm/disks/diskAdd.jsx:594
+#: src/components/vm/disks/diskAdd.jsx:630
 msgid "Use existing"
 msgstr "Использовать существующий"
 
@@ -3157,7 +3156,7 @@ msgstr "Главное устройство"
 msgid "VM $0 already exists"
 msgstr "ВМ $0 уже существует"
 
-#: src/app.jsx:279
+#: src/app.jsx:276
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
@@ -3292,7 +3291,7 @@ msgstr "Служба виртуализации (libvirt) не активна"
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:66
-#: src/components/vm/disks/diskAdd.jsx:119
+#: src/components/vm/disks/diskAdd.jsx:113
 #: src/components/vm/disks/vmDiskColumns.jsx:46
 #: src/components/vm/disks/mediaEject.jsx:91
 msgid "Volume"
@@ -3335,11 +3334,6 @@ msgstr ""
 #: src/components/vm/disks/diskEdit.jsx:125
 msgid "Writeable"
 msgstr "Для записи"
-
-#: src/components/vm/disks/vmDisksCard.jsx:216
-#: src/components/vm/disks/diskEdit.jsx:134
-msgid "Writeable and shared"
-msgstr "Для записи и совместного использования"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:176
 msgid "You can mount the shared folder using:"
@@ -3525,7 +3519,7 @@ msgstr "перенаправленное устройство"
 msgid "remove"
 msgstr "Удалить"
 
-#: src/components/vm/disks/diskAdd.jsx:242
+#: src/components/vm/disks/diskAdd.jsx:236
 msgid "serial number"
 msgstr ""
 
@@ -3614,6 +3608,9 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "yes"
 msgstr "да"
+
+#~ msgid "Writeable and shared"
+#~ msgstr "Для записи и совместного использования"
 
 #, fuzzy
 #~| msgid "Memory"
