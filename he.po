@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 03:37+0000\n"
+"POT-Creation-Date: 2025-05-28 03:35+0000\n"
 "PO-Revision-Date: 2025-05-18 09:10+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -51,7 +51,7 @@ msgstr "$0 $1 זמין במארח"
 msgid "$0 CPU details"
 msgstr "פרטי מעבד $0"
 
-#: src/components/aggregateStatusCards.jsx:63
+#: src/components/aggregateStatusCards.tsx:69
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "רשת $0"
@@ -59,7 +59,7 @@ msgstr[1] "$0 רשתות"
 msgstr[2] "$0 רשתות"
 msgstr[3] "$0 רשתות"
 
-#: src/components/aggregateStatusCards.jsx:41
+#: src/components/aggregateStatusCards.tsx:47
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "מאגר אחסון $0"
@@ -122,7 +122,7 @@ msgstr "פעולה"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/nics/vmNicsCard.jsx:421
 #: src/components/vm/disks/vmDisksCard.jsx:194
-#: src/components/vms/hostvmslist.jsx:163
+#: src/components/vms/hostvmslist.tsx:204
 msgid "Actions"
 msgstr "פעולות"
 
@@ -212,7 +212,8 @@ msgstr "כתובת"
 msgid "Address not within subnet"
 msgstr "הכתובת אינה בתת־הרשת"
 
-#: src/components/vms/hostvmslist.jsx:74 src/components/vms/hostvmslist.jsx:92
+#: src/components/vms/hostvmslist.tsx:111
+#: src/components/vms/hostvmslist.tsx:129
 msgid "All"
 msgstr "הכול"
 
@@ -278,7 +279,7 @@ msgstr "התחלה אוטומטית"
 msgid "Block device"
 msgstr "התקן אחסון"
 
-#: src/helpers.ts:241
+#: src/helpers.ts:238
 msgid "Blocked"
 msgstr "חסום"
 
@@ -309,7 +310,7 @@ msgstr "אפיק"
 msgid "CD/DVD disc"
 msgstr "תקליטור/DVD"
 
-#: src/components/common/needsShutdown.jsx:116
+#: src/components/common/needsShutdown.tsx:137
 #: src/components/vm/overview/vmOverviewCard.jsx:182
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
@@ -331,7 +332,7 @@ msgstr "מכלא"
 #: src/components/networks/networkOverviewTab.jsx:239
 #: src/components/networks/createNetworkDialog.jsx:437
 #: src/components/create-vm-dialog/createVmDialog.jsx:1479
-#: src/components/common/deleteResource.jsx:93
+#: src/components/common/deleteResource.tsx:111
 #: src/components/vm/vmEditDescriptionDialog.jsx:65
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
@@ -378,11 +379,11 @@ msgstr "שינוי סדר עלייה"
 msgid "Change firmware"
 msgstr "החלפת קושחה"
 
-#: src/components/common/needsShutdown.jsx:177
+#: src/components/common/needsShutdown.tsx:204
 msgid "Changes pending"
 msgstr "שינויים ממתינים"
 
-#: src/components/common/needsShutdown.jsx:18
+#: src/components/common/needsShutdown.tsx:39
 msgid "Changes will take effect after shutting down the VM"
 msgstr "השינויים יחולו לאחר הפעלת המכונה הווירטואלית מחדש"
 
@@ -415,7 +416,7 @@ msgstr "לחיצה על „הפעלת מציג חיצוני” תוריד קוב
 msgid "Clone"
 msgstr "שכפול"
 
-#: src/components/common/stateIcon.jsx:57
+#: src/components/common/stateIcon.tsx:72
 msgid "Close"
 msgstr "סגירה"
 
@@ -431,7 +432,7 @@ msgstr ""
 msgid "Concurrently writeable"
 msgstr ""
 
-#: src/components/common/deleteResource.jsx:99
+#: src/components/common/deleteResource.tsx:122
 msgid "Confirm this action"
 msgstr "אישור הפעולה הזאת"
 
@@ -450,9 +451,9 @@ msgstr "מתבצעת התחברות"
 #: src/components/storagePools/storagePoolList.jsx:69
 #: src/components/networks/networkList.jsx:68
 #: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/common/machinesConnectionSelector.jsx:38
+#: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/vm/overview/vmOverviewCard.jsx:158
-#: src/components/vms/hostvmslist.jsx:161
+#: src/components/vms/hostvmslist.tsx:202
 msgid "Connection"
 msgstr "התחברות"
 
@@ -502,7 +503,7 @@ msgstr ""
 msgid "Could not revert to snapshot"
 msgstr "לא ניתן להחזיר לתמונת המצב"
 
-#: src/helpers.ts:238
+#: src/helpers.ts:235
 msgid "Crashed"
 msgstr "קרס"
 
@@ -582,7 +583,7 @@ msgstr "יצירת רשת וירטואלית"
 msgid "Create volume"
 msgstr "יצירת כרך"
 
-#: src/components/vms/hostvmslist.jsx:54
+#: src/components/vms/hostvmslist.tsx:70
 msgid "Creating VM"
 msgstr "יצירת מכונה וירטואלית"
 
@@ -646,9 +647,9 @@ msgstr "השבתה"
 #: src/components/storagePools/storagePoolDelete.jsx:248
 #: src/components/networks/network.jsx:163
 #: src/components/networks/network.jsx:166
-#: src/components/common/deleteResource.jsx:81
-#: src/components/common/deleteResource.jsx:135
-#: src/components/common/deleteResource.jsx:146
+#: src/components/common/deleteResource.tsx:99
+#: src/components/common/deleteResource.tsx:175
+#: src/components/common/deleteResource.tsx:186
 #: src/components/vm/vmActions.jsx:496 src/components/vm/vmActions.jsx:504
 #: src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
@@ -758,7 +759,7 @@ msgstr "מנותק"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "מנותק מהמסוף הטורי. יש ללחוץ על כפתור החיבור."
 
-#: src/components/common/needsShutdown.jsx:95
+#: src/components/common/needsShutdown.tsx:116
 #, fuzzy
 #| msgid "Disks"
 msgid "Disk"
@@ -790,7 +791,7 @@ msgstr "קובץ דמות כונן"
 msgid "Disk image path must not be empty"
 msgstr "נתיב דמות הכונן לא יכול להישאר ריק"
 
-#: src/components/common/machinesConnectionSelector.jsx:75
+#: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
 msgstr "ניתן לאחסן את דמויות הכוננים בתיקיית הבית של המשתמש"
 
@@ -811,7 +812,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr "לא להריץ את המכונה הווירטואלית הזאת על מארחי המקור והיעד בו־זמנית."
 
-#: src/helpers.ts:293
+#: src/helpers.ts:290
 msgid "Do nothing"
 msgstr "לא לעשות כלום"
 
@@ -835,11 +836,11 @@ msgstr "תהליך ההורדה"
 msgid "Downloading image for VM $0"
 msgstr "מתבצעת הורדת דמות עבור המכונה הווירטואלית $0"
 
-#: src/components/vms/hostvmslist.jsx:52
+#: src/components/vms/hostvmslist.tsx:68
 msgid "Downloading: $0%"
 msgstr "בהורדה: $0%"
 
-#: src/helpers.ts:294
+#: src/helpers.ts:291
 msgid "Dump core"
 msgstr "הטלת ליבה"
 
@@ -847,7 +848,7 @@ msgstr "הטלת ליבה"
 msgid "Duration"
 msgstr "משך"
 
-#: src/helpers.ts:239
+#: src/helpers.ts:236
 msgid "Dying"
 msgstr "גוסס"
 
@@ -940,7 +941,7 @@ msgstr "הרחבה"
 msgid "Extended attributes"
 msgstr "מאפיינים מורחבים"
 
-#: src/components/common/stateIcon.jsx:61
+#: src/components/common/stateIcon.tsx:76
 msgid "Failed"
 msgstr "נכשל"
 
@@ -1031,7 +1032,7 @@ msgstr "לא ניתן להסיר את מערכת הקבצים $0"
 msgid "Filesystem directory"
 msgstr "תיקיית מערכת קבצים"
 
-#: src/components/vms/hostvmslist.jsx:115
+#: src/components/vms/hostvmslist.tsx:152
 msgid "Filter by name"
 msgstr "סינון לפי שם"
 
@@ -1114,11 +1115,11 @@ msgstr "GiB"
 msgid "Go to VMs list"
 msgstr "מעבר לרשימת המכונות הווירטואליות"
 
-#: src/components/common/machinesConnectionSelector.jsx:66
+#: src/components/common/machinesConnectionSelector.tsx:84
 msgid "Good choice for desktop virtualization"
 msgstr ""
 
-#: src/helpers.ts:290
+#: src/helpers.ts:287
 #, fuzzy
 #| msgid "Force shut down"
 msgid "Gracefully shutdown"
@@ -1241,11 +1242,11 @@ msgstr "רשת IPv6 לא אמורה להישאר ריקה"
 msgid "IPv6 only"
 msgstr "IPv6 בלבד"
 
-#: src/components/common/machinesConnectionSelector.jsx:49
+#: src/components/common/machinesConnectionSelector.tsx:67
 msgid "Ideal for server VMs"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:55
+#: src/components/common/machinesConnectionSelector.tsx:73
 msgid "Ideal networking support"
 msgstr ""
 
@@ -1259,7 +1260,7 @@ msgstr ""
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr ""
 
-#: src/helpers.ts:234
+#: src/helpers.ts:231
 msgid "Idle"
 msgstr "בהמתנה"
 
@@ -1312,7 +1313,7 @@ msgstr "מאתחל"
 msgid "Initiator should not be empty"
 msgstr "ה־IQN של המפעיל לא אמור להיות ריק"
 
-#: src/helpers.ts:295
+#: src/helpers.ts:292
 #, fuzzy
 #| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
@@ -1436,7 +1437,7 @@ msgstr "Libvirt או ה־hypervisor לא תומכים ב־UEFI"
 msgid "Loading available network devices"
 msgstr "אין התקני רשת"
 
-#: src/components/libvirtSlate.jsx:31
+#: src/components/libvirtSlate.tsx:30
 msgid "Loading resources"
 msgstr "משאבים נטענים"
 
@@ -1646,7 +1647,7 @@ msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטו�
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
 #: src/components/vm/vmCloneDialog.jsx:95
-#: src/components/vms/hostvmslist.jsx:160
+#: src/components/vms/hostvmslist.tsx:201
 msgid "Name"
 msgstr "שם"
 
@@ -1711,7 +1712,7 @@ msgstr "עלייה מהרשת (PXE)"
 msgid "Network file system"
 msgstr "מערכת קבצים רשתית"
 
-#: src/components/common/needsShutdown.jsx:105
+#: src/components/common/needsShutdown.tsx:126
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interface"
@@ -1767,7 +1768,7 @@ msgstr "שם חדש לכרך"
 msgid "No SSH keys specified"
 msgstr ""
 
-#: src/components/vms/hostvmslist.jsx:165
+#: src/components/vms/hostvmslist.tsx:206
 msgid "No VM is running or defined on this host"
 msgstr "אף מכונה וירטואלית לא מופעלת או מוגדרת על המארח הזה"
 
@@ -1827,7 +1828,7 @@ msgstr "אין הורה"
 msgid "No snapshots defined for this VM"
 msgstr "לא מוגדרות תמונות מצב למכונה הווירטואלית הזאת"
 
-#: src/helpers.ts:242
+#: src/helpers.ts:239
 msgid "No state"
 msgstr "אין מצב"
 
@@ -1873,7 +1874,7 @@ msgstr ""
 msgid "None"
 msgstr "אין"
 
-#: src/helpers.ts:272
+#: src/helpers.ts:269
 msgid "None (isolated network)"
 msgstr "אין (רשת מבודדת)"
 
@@ -1911,7 +1912,7 @@ msgstr ""
 msgid "Only editable when the guest is shut off"
 msgstr "ניתן לעריכה רק כאשר האורח כבוי"
 
-#: src/helpers.ts:270
+#: src/helpers.ts:267
 msgid "Open"
 msgstr "פתיחה"
 
@@ -1970,11 +1971,11 @@ msgstr "הנתיב לקובץ"
 msgid "Path to file on host's file system"
 msgstr "הנתיב לקובץ במערכת הקבצים של המארח"
 
-#: src/helpers.ts:292 src/components/vm/vmActions.jsx:220
+#: src/helpers.ts:289 src/components/vm/vmActions.jsx:220
 msgid "Pause"
 msgstr "השהיה"
 
-#: src/helpers.ts:235
+#: src/helpers.ts:232
 msgid "Paused"
 msgstr "מושהה"
 
@@ -1982,7 +1983,7 @@ msgstr "מושהה"
 msgid "Permanent (default)"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:58
+#: src/components/common/machinesConnectionSelector.tsx:76
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
@@ -2058,7 +2059,7 @@ msgstr "כרכי המאגר משמשים מכונות וירטואליות "
 msgid "Port"
 msgstr "פתחה"
 
-#: src/helpers.ts:291
+#: src/helpers.ts:288
 msgid "Power off"
 msgstr "כיבוי"
 
@@ -2090,7 +2091,7 @@ msgid ""
 "something goes wrong"
 msgstr "תמונות מצב שנלכדו בעבר מאפשרות לך לחזור למצב קודם אם משהו השתבש"
 
-#: src/helpers.ts:275
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "פרטי"
 
@@ -2255,11 +2256,11 @@ msgstr ""
 msgid "Replace SPICE on the virtual machine."
 msgstr "יצירת מכונה וירטואלית חדשה"
 
-#: src/helpers.ts:289
+#: src/helpers.ts:286
 msgid "Reset"
 msgstr "איפוס"
 
-#: src/components/common/machinesConnectionSelector.jsx:72
+#: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
@@ -2311,11 +2312,11 @@ msgstr "הפעלה"
 msgid "Run when host boots"
 msgstr "הפעלה עם עליית המארח"
 
-#: src/helpers.ts:233
+#: src/helpers.ts:230
 msgid "Running"
 msgstr "פועל"
 
-#: src/components/common/needsShutdown.jsx:124
+#: src/components/common/needsShutdown.tsx:145
 #, fuzzy
 #| msgid "SPICE port"
 msgid "SPICE"
@@ -2465,7 +2466,7 @@ msgstr "כיבוי"
 msgid "Shut down $0?"
 msgstr "כיבוי"
 
-#: src/helpers.ts:237
+#: src/helpers.ts:234
 msgid "Shut off"
 msgstr "לכבות"
 
@@ -2473,7 +2474,7 @@ msgstr "לכבות"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "יש לכבות את המכונה הווירטואלית כדי לערוך הגדרות קושחה"
 
-#: src/helpers.ts:236 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
+#: src/helpers.ts:233 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
 msgid "Shutting down"
 msgstr "מתבצע כיבוי"
 
@@ -2517,7 +2518,7 @@ msgstr "תמונות מצב"
 msgid "Sockets"
 msgstr "שקעים"
 
-#: src/components/common/needsShutdown.jsx:154
+#: src/components/common/needsShutdown.tsx:181
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
@@ -2589,8 +2590,8 @@ msgstr "בהתחלה"
 #: src/components/networks/networkList.jsx:70
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.jsx:412
-#: src/components/vms/hostvmslist.jsx:119
-#: src/components/vms/hostvmslist.jsx:162
+#: src/components/vms/hostvmslist.tsx:156
+#: src/components/vms/hostvmslist.tsx:203
 msgid "State"
 msgstr "מצב"
 
@@ -2674,7 +2675,7 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
-#: src/helpers.ts:240
+#: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "מושהה (מכונה פיזית)"
 
@@ -2682,7 +2683,7 @@ msgstr "מושהה (מכונה פיזית)"
 msgid "Switch to VNC to continue using this machine."
 msgstr ""
 
-#: src/helpers.ts:229
+#: src/helpers.ts:226
 msgid "System"
 msgstr "מערכת"
 
@@ -2692,7 +2693,7 @@ msgstr "מערכת"
 msgid "TAP device"
 msgstr "התקן מארח"
 
-#: src/components/common/needsShutdown.jsx:128
+#: src/components/common/needsShutdown.tsx:149
 msgid "TPM"
 msgstr ""
 
@@ -2842,7 +2843,7 @@ msgstr "גודל כולל: $0"
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr "מכונות וירטואליות זמניות לא תומכות בעריכת הגדרות קושחה"
 
-#: src/components/libvirtSlate.jsx:36
+#: src/components/libvirtSlate.tsx:35
 msgid "Troubleshoot"
 msgstr "איתור תקלות"
 
@@ -2973,7 +2974,7 @@ msgstr "ססמת משתמש"
 msgid "User password must not be empty when user login is set"
 msgstr "ססמת המשתמש לא יכולה להיות ריקה כשמוגדר שם משתמש"
 
-#: src/helpers.ts:230
+#: src/helpers.ts:227
 #, fuzzy
 #| msgid "User password"
 msgid "User session"
@@ -3033,13 +3034,13 @@ msgstr "כיבוי המכונה הווירטואלית $0 נכשל"
 msgid "VM $0 failed to start"
 msgstr "הפעלת המכונה הווירטואלית $0 נכשלה"
 
-#: src/components/common/machinesConnectionSelector.jsx:69
+#: src/components/common/machinesConnectionSelector.tsx:87
 msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:167
+#: src/components/common/needsShutdown.tsx:194
 #, fuzzy
 #| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
@@ -3049,7 +3050,7 @@ msgstr "כיבוי המכונה הווירטואלית $0 נכשל"
 msgid "VM state"
 msgstr "מצב מכונה וירטואלית"
 
-#: src/components/common/machinesConnectionSelector.jsx:52
+#: src/components/common/machinesConnectionSelector.tsx:70
 msgid "VM will launch with root permissions"
 msgstr ""
 
@@ -3090,8 +3091,8 @@ msgstr ""
 #: src/components/networks/networkList.jsx:51
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:248
-#: src/components/vms/hostvmslist.jsx:155
-#: src/components/vms/hostvmslist.jsx:157 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:196
+#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "מכונות וירטואליות"
 
@@ -3114,7 +3115,7 @@ msgid ""
 "the socket."
 msgstr ""
 
-#: src/components/libvirtSlate.jsx:35
+#: src/components/libvirtSlate.tsx:34
 msgid "Virtualization service (libvirt) is not active"
 msgstr "שירות הווירטואליזציה (libvirt) אינו פעיל"
 
@@ -3148,7 +3149,7 @@ msgstr ""
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.jsx:120
+#: src/components/common/needsShutdown.tsx:141
 #: src/components/vm/overview/vmOverviewCard.jsx:200
 msgid "Watchdog"
 msgstr ""
@@ -3189,31 +3190,31 @@ msgstr "הוספה"
 msgid "add entry"
 msgstr ""
 
-#: src/helpers.ts:260
+#: src/helpers.ts:257
 msgid "bridge"
 msgstr "גשר"
 
-#: src/helpers.ts:246
+#: src/helpers.ts:243
 msgid "cdrom"
 msgstr "תקליטור"
 
-#: src/helpers.ts:253 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
 msgid "custom"
 msgstr "מותאם אישית"
 
-#: src/helpers.ts:258
+#: src/helpers.ts:255
 msgid "direct"
 msgstr "ישיר"
 
-#: src/helpers.ts:225
+#: src/helpers.ts:222
 msgid "disabled"
 msgstr "מושבת"
 
-#: src/helpers.ts:245 src/helpers.ts:248
+#: src/helpers.ts:242 src/helpers.ts:245
 msgid "disk"
 msgstr "כונן"
 
-#: src/helpers.ts:286
+#: src/helpers.ts:283
 msgid "down"
 msgstr "מושבת"
 
@@ -3225,27 +3226,27 @@ msgstr "מושבת"
 msgid "edit"
 msgstr "עריכה"
 
-#: src/helpers.ts:226
+#: src/helpers.ts:223
 msgid "enabled"
 msgstr "זמין"
 
-#: src/helpers.ts:262
+#: src/helpers.ts:259
 msgid "ethernet"
 msgstr "אתרנט"
 
-#: src/helpers.ts:254
+#: src/helpers.ts:251
 msgid "host"
 msgstr "מארח"
 
-#: src/helpers.ts:250
+#: src/helpers.ts:247
 msgid "host device"
 msgstr "התקן מארח"
 
-#: src/helpers.ts:255
+#: src/helpers.ts:252
 msgid "host passthrough"
 msgstr "מעקף מארח"
 
-#: src/helpers.ts:263
+#: src/helpers.ts:260
 msgid "hostdev"
 msgstr "התקן מארח"
 
@@ -3286,11 +3287,11 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt‎"
 
-#: src/helpers.ts:264
+#: src/helpers.ts:261
 msgid "mcast"
 msgstr "mcast‎"
 
-#: src/components/common/infoPopover.jsx:34
+#: src/components/common/infoPopover.tsx:34
 #: src/components/vm/nics/nicBody.jsx:112
 msgid "more info"
 msgstr ""
@@ -3304,11 +3305,11 @@ msgstr ""
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
-#: src/helpers.ts:247 src/helpers.ts:259
+#: src/helpers.ts:244 src/helpers.ts:256
 msgid "network"
 msgstr "רשת"
 
-#: src/helpers.ts:282 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:279 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "no"
@@ -3336,7 +3337,7 @@ msgstr "‎qcow2"
 msgid "qemu"
 msgstr "‎qemu"
 
-#: src/helpers.ts:249
+#: src/helpers.ts:246
 msgid "redirected device"
 msgstr "התקן מופנה"
 
@@ -3350,19 +3351,19 @@ msgstr "הסרה"
 msgid "serial number"
 msgstr ""
 
-#: src/helpers.ts:265
+#: src/helpers.ts:262
 msgid "server"
 msgstr "שרת"
 
-#: src/helpers.ts:266
+#: src/helpers.ts:263
 msgid "udp"
 msgstr "udp"
 
-#: src/helpers.ts:285
+#: src/helpers.ts:282
 msgid "up"
 msgstr "פעיל"
 
-#: src/helpers.ts:261
+#: src/helpers.ts:258
 msgid "user"
 msgstr "משתמש"
 
@@ -3382,15 +3383,15 @@ msgstr "כמות מעבדים וירטואליים"
 msgid "vCPU maximum"
 msgstr "מעבד וירטואלי מרבי"
 
-#: src/components/common/needsShutdown.jsx:112
+#: src/components/common/needsShutdown.tsx:133
 msgid "vCPUs"
 msgstr "מעבדים וירטואליים"
 
-#: src/helpers.ts:267
+#: src/helpers.ts:264
 msgid "vhostuser"
 msgstr "‎vhostuser"
 
-#: src/components/common/stateIcon.jsx:62
+#: src/components/common/stateIcon.tsx:77
 msgid "view more..."
 msgstr "להציג עוד…"
 
@@ -3421,7 +3422,7 @@ msgstr "מכונה וירטואלית"
 msgid "vsock requires special software"
 msgstr ""
 
-#: src/helpers.ts:281 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:278 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "yes"

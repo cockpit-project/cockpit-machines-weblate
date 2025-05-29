@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 03:37+0000\n"
+"POT-Creation-Date: 2025-05-28 03:35+0000\n"
 "PO-Revision-Date: 2025-02-28 05:56+0000\n"
 "Last-Translator: Martin Pitt <mpitt@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -44,12 +44,12 @@ msgstr "$0 $1 在主机上提供"
 msgid "$0 CPU details"
 msgstr "$0 CPU 详情"
 
-#: src/components/aggregateStatusCards.jsx:63
+#: src/components/aggregateStatusCards.tsx:69
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "$0 网络"
 
-#: src/components/aggregateStatusCards.jsx:41
+#: src/components/aggregateStatusCards.tsx:47
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "$0 存储池"
@@ -106,7 +106,7 @@ msgstr "操作"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/nics/vmNicsCard.jsx:421
 #: src/components/vm/disks/vmDisksCard.jsx:194
-#: src/components/vms/hostvmslist.jsx:163
+#: src/components/vms/hostvmslist.tsx:204
 msgid "Actions"
 msgstr "操作"
 
@@ -196,7 +196,8 @@ msgstr "IP 地址"
 msgid "Address not within subnet"
 msgstr "地址不在子网内"
 
-#: src/components/vms/hostvmslist.jsx:74 src/components/vms/hostvmslist.jsx:92
+#: src/components/vms/hostvmslist.tsx:111
+#: src/components/vms/hostvmslist.tsx:129
 msgid "All"
 msgstr "所有"
 
@@ -261,7 +262,7 @@ msgstr "自动启动"
 msgid "Block device"
 msgstr "块设备"
 
-#: src/helpers.ts:241
+#: src/helpers.ts:238
 msgid "Blocked"
 msgstr "受阻"
 
@@ -292,7 +293,7 @@ msgstr "总线"
 msgid "CD/DVD disc"
 msgstr "CD/DVD 盘"
 
-#: src/components/common/needsShutdown.jsx:116
+#: src/components/common/needsShutdown.tsx:137
 #: src/components/vm/overview/vmOverviewCard.jsx:182
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
@@ -314,7 +315,7 @@ msgstr "缓存"
 #: src/components/networks/networkOverviewTab.jsx:239
 #: src/components/networks/createNetworkDialog.jsx:437
 #: src/components/create-vm-dialog/createVmDialog.jsx:1479
-#: src/components/common/deleteResource.jsx:93
+#: src/components/common/deleteResource.tsx:111
 #: src/components/vm/vmEditDescriptionDialog.jsx:65
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
@@ -359,11 +360,11 @@ msgstr "更改引导顺序"
 msgid "Change firmware"
 msgstr "修改固件"
 
-#: src/components/common/needsShutdown.jsx:177
+#: src/components/common/needsShutdown.tsx:204
 msgid "Changes pending"
 msgstr "等待更改"
 
-#: src/components/common/needsShutdown.jsx:18
+#: src/components/common/needsShutdown.tsx:39
 msgid "Changes will take effect after shutting down the VM"
 msgstr "改变生效需要关机"
 
@@ -400,7 +401,7 @@ msgstr "点 \"Launch remote viewer\" 将下载一个 .vv 文件并启动 $0。"
 msgid "Clone"
 msgstr "克隆"
 
-#: src/components/common/stateIcon.jsx:57
+#: src/components/common/stateIcon.tsx:72
 msgid "Close"
 msgstr "关闭"
 
@@ -416,7 +417,7 @@ msgstr "Cockpit 项目"
 msgid "Concurrently writeable"
 msgstr ""
 
-#: src/components/common/deleteResource.jsx:99
+#: src/components/common/deleteResource.tsx:122
 msgid "Confirm this action"
 msgstr "确认此操作"
 
@@ -435,9 +436,9 @@ msgstr "连接中"
 #: src/components/storagePools/storagePoolList.jsx:69
 #: src/components/networks/networkList.jsx:68
 #: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/common/machinesConnectionSelector.jsx:38
+#: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/vm/overview/vmOverviewCard.jsx:158
-#: src/components/vms/hostvmslist.jsx:161
+#: src/components/vms/hostvmslist.tsx:202
 msgid "Connection"
 msgstr "连接"
 
@@ -483,7 +484,7 @@ msgstr "无法动态添加 watchdog"
 msgid "Could not revert to snapshot"
 msgstr "无法恢复到快照"
 
-#: src/helpers.ts:238
+#: src/helpers.ts:235
 msgid "Crashed"
 msgstr "已崩溃"
 
@@ -558,7 +559,7 @@ msgstr "创建虚拟网络"
 msgid "Create volume"
 msgstr "创建卷"
 
-#: src/components/vms/hostvmslist.jsx:54
+#: src/components/vms/hostvmslist.tsx:70
 msgid "Creating VM"
 msgstr "创建虚拟机"
 
@@ -620,9 +621,9 @@ msgstr "取消激活"
 #: src/components/storagePools/storagePoolDelete.jsx:248
 #: src/components/networks/network.jsx:163
 #: src/components/networks/network.jsx:166
-#: src/components/common/deleteResource.jsx:81
-#: src/components/common/deleteResource.jsx:135
-#: src/components/common/deleteResource.jsx:146
+#: src/components/common/deleteResource.tsx:99
+#: src/components/common/deleteResource.tsx:175
+#: src/components/common/deleteResource.tsx:186
 #: src/components/vm/vmActions.jsx:496 src/components/vm/vmActions.jsx:504
 #: src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
@@ -727,7 +728,7 @@ msgstr "已断开连接"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "与串行控制台断开连接。单击连接按钮。"
 
-#: src/components/common/needsShutdown.jsx:95
+#: src/components/common/needsShutdown.tsx:116
 msgid "Disk"
 msgstr "磁盘"
 
@@ -755,7 +756,7 @@ msgstr "磁盘镜像文件"
 msgid "Disk image path must not be empty"
 msgstr "磁盘镜像路径不能为空"
 
-#: src/components/common/machinesConnectionSelector.jsx:75
+#: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
 msgstr "磁盘镜像可以存储在用户主目录中"
 
@@ -776,7 +777,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr "不要同时在原始主机和目标主机上运行此虚拟机。"
 
-#: src/helpers.ts:293
+#: src/helpers.ts:290
 msgid "Do nothing"
 msgstr "什么都不做"
 
@@ -800,11 +801,11 @@ msgstr "下载进度"
 msgid "Downloading image for VM $0"
 msgstr "为虚拟机 $0 下载镜像"
 
-#: src/components/vms/hostvmslist.jsx:52
+#: src/components/vms/hostvmslist.tsx:68
 msgid "Downloading: $0%"
 msgstr "正在下载：$0%"
 
-#: src/helpers.ts:294
+#: src/helpers.ts:291
 msgid "Dump core"
 msgstr "转储内核"
 
@@ -812,7 +813,7 @@ msgstr "转储内核"
 msgid "Duration"
 msgstr "持续时间"
 
-#: src/helpers.ts:239
+#: src/helpers.ts:236
 msgid "Dying"
 msgstr "停止工作"
 
@@ -899,7 +900,7 @@ msgstr "展开"
 msgid "Extended attributes"
 msgstr "扩展属性"
 
-#: src/components/common/stateIcon.jsx:61
+#: src/components/common/stateIcon.tsx:76
 msgid "Failed"
 msgstr "失败"
 
@@ -980,7 +981,7 @@ msgstr "文件系统 $0 无法删除"
 msgid "Filesystem directory"
 msgstr "文件系统目录"
 
-#: src/components/vms/hostvmslist.jsx:115
+#: src/components/vms/hostvmslist.tsx:152
 msgid "Filter by name"
 msgstr "根据名称过滤"
 
@@ -1061,11 +1062,11 @@ msgstr "GiB"
 msgid "Go to VMs list"
 msgstr "进入 VM 列表"
 
-#: src/components/common/machinesConnectionSelector.jsx:66
+#: src/components/common/machinesConnectionSelector.tsx:84
 msgid "Good choice for desktop virtualization"
 msgstr "桌面虚拟化的好选择"
 
-#: src/helpers.ts:290
+#: src/helpers.ts:287
 msgid "Gracefully shutdown"
 msgstr "正常关机"
 
@@ -1176,11 +1177,11 @@ msgstr "IPv6 网络不能为空"
 msgid "IPv6 only"
 msgstr "仅 IPv6"
 
-#: src/components/common/machinesConnectionSelector.jsx:49
+#: src/components/common/machinesConnectionSelector.tsx:67
 msgid "Ideal for server VMs"
 msgstr "非常适合服务器虚拟机"
 
-#: src/components/common/machinesConnectionSelector.jsx:55
+#: src/components/common/machinesConnectionSelector.tsx:73
 msgid "Ideal networking support"
 msgstr "理想的网络支持"
 
@@ -1194,7 +1195,7 @@ msgstr "标识符被$0 使用。具有相同标识符的虚拟机无法同时运
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "标识符可能会被静默地截断为 $0 个字符 "
 
-#: src/helpers.ts:234
+#: src/helpers.ts:231
 msgid "Idle"
 msgstr "休眠"
 
@@ -1245,7 +1246,7 @@ msgstr "启动器"
 msgid "Initiator should not be empty"
 msgstr "启动器不能为空"
 
-#: src/helpers.ts:295
+#: src/helpers.ts:292
 msgid "Inject a non-maskable interrupt"
 msgstr "注入不可屏蔽中断"
 
@@ -1357,7 +1358,7 @@ msgstr "Libvirt 或虚拟机管理器不支持 UEFI"
 msgid "Loading available network devices"
 msgstr "加载可用的网络设备"
 
-#: src/components/libvirtSlate.jsx:31
+#: src/components/libvirtSlate.tsx:30
 msgid "Loading resources"
 msgstr "加载资源"
 
@@ -1547,7 +1548,7 @@ msgstr "VM $1 的 NIC $0 无法改变状态"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
 #: src/components/vm/vmCloneDialog.jsx:95
-#: src/components/vms/hostvmslist.jsx:160
+#: src/components/vms/hostvmslist.tsx:201
 msgid "Name"
 msgstr "名称"
 
@@ -1606,7 +1607,7 @@ msgstr "网络引导 (PXE)"
 msgid "Network file system"
 msgstr "网络文件系统"
 
-#: src/components/common/needsShutdown.jsx:105
+#: src/components/common/needsShutdown.tsx:126
 msgid "Network interface"
 msgstr "网络接口"
 
@@ -1652,7 +1653,7 @@ msgstr "新卷名称"
 msgid "No SSH keys specified"
 msgstr "没有指定 SSH 密钥"
 
-#: src/components/vms/hostvmslist.jsx:165
+#: src/components/vms/hostvmslist.tsx:206
 msgid "No VM is running or defined on this host"
 msgstr "该主机上没有定义或运行虚拟机"
 
@@ -1708,7 +1709,7 @@ msgstr "没有上级"
 msgid "No snapshots defined for this VM"
 msgstr "没有为这个虚拟机定义快照"
 
-#: src/helpers.ts:242
+#: src/helpers.ts:239
 msgid "No state"
 msgstr "无状态"
 
@@ -1752,7 +1753,7 @@ msgstr "非持久性网络池无法删除。停用后它不再存在。"
 msgid "None"
 msgstr "无"
 
-#: src/helpers.ts:272
+#: src/helpers.ts:269
 msgid "None (isolated network)"
 msgstr "无 (隔离的网络)"
 
@@ -1784,7 +1785,7 @@ msgstr "一个或多个卷被域使用。需要先分离磁盘后才可以删除
 msgid "Only editable when the guest is shut off"
 msgstr "只有在客户机关闭后才可以编辑"
 
-#: src/helpers.ts:270
+#: src/helpers.ts:267
 msgid "Open"
 msgstr "Open"
 
@@ -1841,11 +1842,11 @@ msgstr "指向目录的路径"
 msgid "Path to file on host's file system"
 msgstr "到主机文件系统上的文件的路径"
 
-#: src/helpers.ts:292 src/components/vm/vmActions.jsx:220
+#: src/helpers.ts:289 src/components/vm/vmActions.jsx:220
 msgid "Pause"
 msgstr "暂停"
 
-#: src/helpers.ts:235
+#: src/helpers.ts:232
 msgid "Paused"
 msgstr "已暂停"
 
@@ -1853,7 +1854,7 @@ msgstr "已暂停"
 msgid "Permanent (default)"
 msgstr "永久（默认）"
 
-#: src/components/common/machinesConnectionSelector.jsx:58
+#: src/components/common/machinesConnectionSelector.tsx:76
 msgid "Permissions denied for disk images in home directories"
 msgstr "主目录中磁盘映像的权限被拒绝"
 
@@ -1929,7 +1930,7 @@ msgstr "池的卷被 VM 使用 "
 msgid "Port"
 msgstr "端口"
 
-#: src/helpers.ts:291
+#: src/helpers.ts:288
 msgid "Power off"
 msgstr "关机"
 
@@ -1959,7 +1960,7 @@ msgid ""
 "something goes wrong"
 msgstr "提前创建的快照使得您可以在出现问题的时候回复到较早的状态"
 
-#: src/helpers.ts:275
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "私有"
 
@@ -2118,11 +2119,11 @@ msgstr "在所选虚拟机上替换 SPICE。"
 msgid "Replace SPICE on the virtual machine."
 msgstr "在虚拟机上替换 SPICE。"
 
-#: src/helpers.ts:289
+#: src/helpers.ts:286
 msgid "Reset"
 msgstr "重置"
 
-#: src/components/common/machinesConnectionSelector.jsx:72
+#: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr "网络中的限制（基于SLIRP 的模拟）和 PCI 设备分配"
@@ -2174,11 +2175,11 @@ msgstr "运行"
 msgid "Run when host boots"
 msgstr "在主机引导时运行"
 
-#: src/helpers.ts:233
+#: src/helpers.ts:230
 msgid "Running"
 msgstr "正在运行"
 
-#: src/components/common/needsShutdown.jsx:124
+#: src/components/common/needsShutdown.tsx:145
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2309,7 +2310,7 @@ msgstr "关机"
 msgid "Shut down $0?"
 msgstr "关闭 $0?"
 
-#: src/helpers.ts:237
+#: src/helpers.ts:234
 msgid "Shut off"
 msgstr "关闭"
 
@@ -2317,7 +2318,7 @@ msgstr "关闭"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "关闭 VM 以编辑固件配置"
 
-#: src/helpers.ts:236 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
+#: src/helpers.ts:233 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
 msgid "Shutting down"
 msgstr "正在关机"
 
@@ -2357,7 +2358,7 @@ msgstr "快照"
 msgid "Sockets"
 msgstr "套接字"
 
-#: src/components/common/needsShutdown.jsx:154
+#: src/components/common/needsShutdown.tsx:181
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr "一些配置更改只有在全新引导后才会生效："
 
@@ -2427,8 +2428,8 @@ msgstr "启动"
 #: src/components/networks/networkList.jsx:70
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.jsx:412
-#: src/components/vms/hostvmslist.jsx:119
-#: src/components/vms/hostvmslist.jsx:162
+#: src/components/vms/hostvmslist.tsx:156
+#: src/components/vms/hostvmslist.tsx:203
 msgid "State"
 msgstr "状态"
 
@@ -2506,7 +2507,7 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr "存储卷必须在此主机和目标主机之间共享。"
 
-#: src/helpers.ts:240
+#: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "已挂起 （电源管理）"
 
@@ -2514,7 +2515,7 @@ msgstr "已挂起 （电源管理）"
 msgid "Switch to VNC to continue using this machine."
 msgstr "切换到 VNC 继续使用此机器。"
 
-#: src/helpers.ts:229
+#: src/helpers.ts:226
 msgid "System"
 msgstr "系统"
 
@@ -2522,7 +2523,7 @@ msgstr "系统"
 msgid "TAP device"
 msgstr "TAP 设备"
 
-#: src/components/common/needsShutdown.jsx:128
+#: src/components/common/needsShutdown.tsx:149
 msgid "TPM"
 msgstr "TPM"
 
@@ -2669,7 +2670,7 @@ msgstr "总可用空间：$0."
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr "瞬态 VM 不支持编辑固件配置"
 
-#: src/components/libvirtSlate.jsx:36
+#: src/components/libvirtSlate.tsx:35
 msgid "Troubleshoot"
 msgstr "故障排除"
 
@@ -2796,7 +2797,7 @@ msgstr "用户密码"
 msgid "User password must not be empty when user login is set"
 msgstr "当设置用户登录名之后，用户密码必须不为空"
 
-#: src/helpers.ts:230
+#: src/helpers.ts:227
 msgid "User session"
 msgstr "用户会话"
 
@@ -2852,13 +2853,13 @@ msgstr "VM $0 关闭失败"
 msgid "VM $0 failed to start"
 msgstr "VM $0 启动失败"
 
-#: src/components/common/machinesConnectionSelector.jsx:69
+#: src/components/common/machinesConnectionSelector.tsx:87
 msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr "使用非特权限制访问启动的虚拟机，具有您的用户帐户所拥有的进程和 PTY"
 
-#: src/components/common/needsShutdown.jsx:167
+#: src/components/common/needsShutdown.tsx:194
 msgid "VM needs shutdown"
 msgstr "VM 需要关机"
 
@@ -2866,7 +2867,7 @@ msgstr "VM 需要关机"
 msgid "VM state"
 msgstr "VM 状态"
 
-#: src/components/common/machinesConnectionSelector.jsx:52
+#: src/components/common/machinesConnectionSelector.tsx:70
 msgid "VM will launch with root permissions"
 msgstr "虚拟机将以 root 权限启动"
 
@@ -2907,8 +2908,8 @@ msgstr "厂商支持终止 $0"
 #: src/components/networks/networkList.jsx:51
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:248
-#: src/components/vms/hostvmslist.jsx:155
-#: src/components/vms/hostvmslist.jsx:157 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:196
+#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "虚拟机"
 
@@ -2933,7 +2934,7 @@ msgstr ""
 "虚拟套接字支持通过套接字启用主机和客户机之间的通信。它仍需要特殊的 vsock 感知"
 "软件来通过套接字进行通信。"
 
-#: src/components/libvirtSlate.jsx:35
+#: src/components/libvirtSlate.tsx:34
 msgid "Virtualization service (libvirt) is not active"
 msgstr "虚拟化服务（libvirt）未激活"
 
@@ -2967,7 +2968,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.jsx:120
+#: src/components/common/needsShutdown.tsx:141
 #: src/components/vm/overview/vmOverviewCard.jsx:200
 msgid "Watchdog"
 msgstr "监督者"
@@ -3008,31 +3009,31 @@ msgstr "添加"
 msgid "add entry"
 msgstr "添加条目"
 
-#: src/helpers.ts:260
+#: src/helpers.ts:257
 msgid "bridge"
 msgstr "网桥"
 
-#: src/helpers.ts:246
+#: src/helpers.ts:243
 msgid "cdrom"
 msgstr "光驱"
 
-#: src/helpers.ts:253 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
 msgid "custom"
 msgstr "自定义"
 
-#: src/helpers.ts:258
+#: src/helpers.ts:255
 msgid "direct"
 msgstr "直接"
 
-#: src/helpers.ts:225
+#: src/helpers.ts:222
 msgid "disabled"
 msgstr "已禁用"
 
-#: src/helpers.ts:245 src/helpers.ts:248
+#: src/helpers.ts:242 src/helpers.ts:245
 msgid "disk"
 msgstr "磁盘"
 
-#: src/helpers.ts:286
+#: src/helpers.ts:283
 msgid "down"
 msgstr "已关闭"
 
@@ -3044,27 +3045,27 @@ msgstr "已关闭"
 msgid "edit"
 msgstr "编辑"
 
-#: src/helpers.ts:226
+#: src/helpers.ts:223
 msgid "enabled"
 msgstr "已启用"
 
-#: src/helpers.ts:262
+#: src/helpers.ts:259
 msgid "ethernet"
 msgstr "以太网"
 
-#: src/helpers.ts:254
+#: src/helpers.ts:251
 msgid "host"
 msgstr "主机"
 
-#: src/helpers.ts:250
+#: src/helpers.ts:247
 msgid "host device"
 msgstr "主机设备"
 
-#: src/helpers.ts:255
+#: src/helpers.ts:252
 msgid "host passthrough"
 msgstr "主机透传"
 
-#: src/helpers.ts:263
+#: src/helpers.ts:260
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -3105,11 +3106,11 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt"
 
-#: src/helpers.ts:264
+#: src/helpers.ts:261
 msgid "mcast"
 msgstr "MCAST"
 
-#: src/components/common/infoPopover.jsx:34
+#: src/components/common/infoPopover.tsx:34
 #: src/components/vm/nics/nicBody.jsx:112
 msgid "more info"
 msgstr "更多信息"
@@ -3123,11 +3124,11 @@ msgstr "挂载点：客户机内的挂载点"
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "挂载标签：与导出的挂载点关联的标签"
 
-#: src/helpers.ts:247 src/helpers.ts:259
+#: src/helpers.ts:244 src/helpers.ts:256
 msgid "network"
 msgstr "网络"
 
-#: src/helpers.ts:282 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:279 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "no"
@@ -3155,7 +3156,7 @@ msgstr "qcow2"
 msgid "qemu"
 msgstr "qemu"
 
-#: src/helpers.ts:249
+#: src/helpers.ts:246
 msgid "redirected device"
 msgstr "重定向设备"
 
@@ -3167,19 +3168,19 @@ msgstr "删除"
 msgid "serial number"
 msgstr "序列号"
 
-#: src/helpers.ts:265
+#: src/helpers.ts:262
 msgid "server"
 msgstr "服务器"
 
-#: src/helpers.ts:266
+#: src/helpers.ts:263
 msgid "udp"
 msgstr "udp"
 
-#: src/helpers.ts:285
+#: src/helpers.ts:282
 msgid "up"
 msgstr "运行中"
 
-#: src/helpers.ts:261
+#: src/helpers.ts:258
 msgid "user"
 msgstr "用户"
 
@@ -3197,15 +3198,15 @@ msgstr "vCPU 数"
 msgid "vCPU maximum"
 msgstr "vCPU 的最大值"
 
-#: src/components/common/needsShutdown.jsx:112
+#: src/components/common/needsShutdown.tsx:133
 msgid "vCPUs"
 msgstr "vCPU"
 
-#: src/helpers.ts:267
+#: src/helpers.ts:264
 msgid "vhostuser"
 msgstr "vhostuser"
 
-#: src/components/common/stateIcon.jsx:62
+#: src/components/common/stateIcon.tsx:77
 msgid "view more..."
 msgstr "查看更多......"
 
@@ -3235,7 +3236,7 @@ msgstr "vm"
 msgid "vsock requires special software"
 msgstr "vsock 需要特殊软件"
 
-#: src/helpers.ts:281 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:278 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "yes"

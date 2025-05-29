@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 03:37+0000\n"
+"POT-Creation-Date: 2025-05-28 03:35+0000\n"
 "PO-Revision-Date: 2021-04-10 18:04+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -32,14 +32,14 @@ msgstr "$0 nie je k dispozícií v žiadom repozitári."
 msgid "$0 CPU details"
 msgstr "$0 podrobnosti virt. procesoru"
 
-#: src/components/aggregateStatusCards.jsx:63
+#: src/components/aggregateStatusCards.tsx:69
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "$0 Sieť"
 msgstr[1] "$0 Siete"
 msgstr[2] "$0 Sietí"
 
-#: src/components/aggregateStatusCards.jsx:41
+#: src/components/aggregateStatusCards.tsx:47
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "$0 fond úložiska"
@@ -103,7 +103,7 @@ msgstr "Spojenie"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/nics/vmNicsCard.jsx:421
 #: src/components/vm/disks/vmDisksCard.jsx:194
-#: src/components/vms/hostvmslist.jsx:163
+#: src/components/vms/hostvmslist.tsx:204
 #, fuzzy
 #| msgid "Connection"
 msgid "Actions"
@@ -203,7 +203,8 @@ msgstr "Adresa"
 msgid "Address not within subnet"
 msgstr "Adresa sa nenachádza v podsieti"
 
-#: src/components/vms/hostvmslist.jsx:74 src/components/vms/hostvmslist.jsx:92
+#: src/components/vms/hostvmslist.tsx:111
+#: src/components/vms/hostvmslist.tsx:129
 msgid "All"
 msgstr "Všetko"
 
@@ -273,7 +274,7 @@ msgstr "Automatické spustenie"
 msgid "Block device"
 msgstr "ariadenie hostiteľa"
 
-#: src/helpers.ts:241
+#: src/helpers.ts:238
 msgid "Blocked"
 msgstr "Blokované"
 
@@ -304,7 +305,7 @@ msgstr "Zbernica"
 msgid "CD/DVD disc"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:116
+#: src/components/common/needsShutdown.tsx:137
 #: src/components/vm/overview/vmOverviewCard.jsx:182
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
@@ -328,7 +329,7 @@ msgstr "Vyrovnávacia pamäť"
 #: src/components/networks/networkOverviewTab.jsx:239
 #: src/components/networks/createNetworkDialog.jsx:437
 #: src/components/create-vm-dialog/createVmDialog.jsx:1479
-#: src/components/common/deleteResource.jsx:93
+#: src/components/common/deleteResource.tsx:111
 #: src/components/vm/vmEditDescriptionDialog.jsx:65
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
@@ -375,11 +376,11 @@ msgstr "Poradie zavádzania"
 msgid "Change firmware"
 msgstr "Zmeniť firmware"
 
-#: src/components/common/needsShutdown.jsx:177
+#: src/components/common/needsShutdown.tsx:204
 msgid "Changes pending"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:18
+#: src/components/common/needsShutdown.tsx:39
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Zmeny sa prejavia až po vypnutí virt. stroja"
 
@@ -412,7 +413,7 @@ msgstr ""
 msgid "Clone"
 msgstr "Klonovať"
 
-#: src/components/common/stateIcon.jsx:57
+#: src/components/common/stateIcon.tsx:72
 msgid "Close"
 msgstr "Zavrieť"
 
@@ -428,7 +429,7 @@ msgstr ""
 msgid "Concurrently writeable"
 msgstr ""
 
-#: src/components/common/deleteResource.jsx:99
+#: src/components/common/deleteResource.tsx:122
 msgid "Confirm this action"
 msgstr ""
 
@@ -449,9 +450,9 @@ msgstr "Spojenie"
 #: src/components/storagePools/storagePoolList.jsx:69
 #: src/components/networks/networkList.jsx:68
 #: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/common/machinesConnectionSelector.jsx:38
+#: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/vm/overview/vmOverviewCard.jsx:158
-#: src/components/vms/hostvmslist.jsx:161
+#: src/components/vms/hostvmslist.tsx:202
 msgid "Connection"
 msgstr "Spojenie"
 
@@ -505,7 +506,7 @@ msgstr ""
 msgid "Could not revert to snapshot"
 msgstr ""
 
-#: src/helpers.ts:238
+#: src/helpers.ts:235
 msgid "Crashed"
 msgstr "Havarovalo"
 
@@ -588,7 +589,7 @@ msgstr ""
 msgid "Create volume"
 msgstr "Vytvoriť zväzok"
 
-#: src/components/vms/hostvmslist.jsx:54
+#: src/components/vms/hostvmslist.tsx:70
 msgid "Creating VM"
 msgstr "Vytvára sa virt. stroj"
 
@@ -654,9 +655,9 @@ msgstr "Deaktivovať"
 #: src/components/storagePools/storagePoolDelete.jsx:248
 #: src/components/networks/network.jsx:163
 #: src/components/networks/network.jsx:166
-#: src/components/common/deleteResource.jsx:81
-#: src/components/common/deleteResource.jsx:135
-#: src/components/common/deleteResource.jsx:146
+#: src/components/common/deleteResource.tsx:99
+#: src/components/common/deleteResource.tsx:175
+#: src/components/common/deleteResource.tsx:186
 #: src/components/vm/vmActions.jsx:496 src/components/vm/vmActions.jsx:504
 #: src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
@@ -778,7 +779,7 @@ msgstr "Odpojiť"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Odpojené od sériovej konzoly. Kliknite na tlačítko Pripojiť."
 
-#: src/components/common/needsShutdown.jsx:95
+#: src/components/common/needsShutdown.tsx:116
 #, fuzzy
 #| msgid "Disks"
 msgid "Disk"
@@ -814,7 +815,7 @@ msgstr ""
 msgid "Disk image path must not be empty"
 msgstr "Je nutné vyplniť názov"
 
-#: src/components/common/machinesConnectionSelector.jsx:75
+#: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
@@ -835,7 +836,7 @@ msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr ""
 
-#: src/helpers.ts:293
+#: src/helpers.ts:290
 msgid "Do nothing"
 msgstr ""
 
@@ -861,13 +862,13 @@ msgstr ""
 msgid "Downloading image for VM $0"
 msgstr "Sťahuje sa $0"
 
-#: src/components/vms/hostvmslist.jsx:52
+#: src/components/vms/hostvmslist.tsx:68
 #, fuzzy
 #| msgid "Downloading $0"
 msgid "Downloading: $0%"
 msgstr "Sťahuje sa $0"
 
-#: src/helpers.ts:294
+#: src/helpers.ts:291
 msgid "Dump core"
 msgstr ""
 
@@ -877,7 +878,7 @@ msgstr ""
 msgid "Duration"
 msgstr "Popis"
 
-#: src/helpers.ts:239
+#: src/helpers.ts:236
 msgid "Dying"
 msgstr "Umiera"
 
@@ -974,7 +975,7 @@ msgstr "Rozbaliť"
 msgid "Extended attributes"
 msgstr "Upraviť $0 atribúty"
 
-#: src/components/common/stateIcon.jsx:61
+#: src/components/common/stateIcon.tsx:76
 msgid "Failed"
 msgstr "Neúspešné"
 
@@ -1077,7 +1078,7 @@ msgstr "$0 sa nepodarilo zmazať"
 msgid "Filesystem directory"
 msgstr ""
 
-#: src/components/vms/hostvmslist.jsx:115
+#: src/components/vms/hostvmslist.tsx:152
 msgid "Filter by name"
 msgstr "Filtrovať podľa mena"
 
@@ -1162,11 +1163,11 @@ msgstr "GiB"
 msgid "Go to VMs list"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:66
+#: src/components/common/machinesConnectionSelector.tsx:84
 msgid "Good choice for desktop virtualization"
 msgstr ""
 
-#: src/helpers.ts:290
+#: src/helpers.ts:287
 msgid "Gracefully shutdown"
 msgstr ""
 
@@ -1285,11 +1286,11 @@ msgstr "IPv6 sieť nemôže byť prázdna"
 msgid "IPv6 only"
 msgstr "Iba IPv6"
 
-#: src/components/common/machinesConnectionSelector.jsx:49
+#: src/components/common/machinesConnectionSelector.tsx:67
 msgid "Ideal for server VMs"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:55
+#: src/components/common/machinesConnectionSelector.tsx:73
 msgid "Ideal networking support"
 msgstr ""
 
@@ -1303,7 +1304,7 @@ msgstr ""
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr ""
 
-#: src/helpers.ts:234
+#: src/helpers.ts:231
 msgid "Idle"
 msgstr "Neaktívne"
 
@@ -1356,7 +1357,7 @@ msgstr "Iniciátor"
 msgid "Initiator should not be empty"
 msgstr "Je nutné vyplniť začiatok"
 
-#: src/helpers.ts:295
+#: src/helpers.ts:292
 #, fuzzy
 #| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
@@ -1480,7 +1481,7 @@ msgstr "Libvirt alebo hypervízor nepodporuje UEFI"
 msgid "Loading available network devices"
 msgstr "Žiadne sieťové zariadenia"
 
-#: src/components/libvirtSlate.jsx:31
+#: src/components/libvirtSlate.tsx:30
 msgid "Loading resources"
 msgstr ""
 
@@ -1686,7 +1687,7 @@ msgstr ""
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
 #: src/components/vm/vmCloneDialog.jsx:95
-#: src/components/vms/hostvmslist.jsx:160
+#: src/components/vms/hostvmslist.tsx:201
 msgid "Name"
 msgstr "Názov"
 
@@ -1753,7 +1754,7 @@ msgstr "Zavádzanie zo siete (PXE)"
 msgid "Network file system"
 msgstr "Sieťový súborový systém"
 
-#: src/components/common/needsShutdown.jsx:105
+#: src/components/common/needsShutdown.tsx:126
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interface"
@@ -1811,7 +1812,7 @@ msgstr "Názov nového zväzku"
 msgid "No SSH keys specified"
 msgstr ""
 
-#: src/components/vms/hostvmslist.jsx:165
+#: src/components/vms/hostvmslist.tsx:206
 msgid "No VM is running or defined on this host"
 msgstr "Na tomto stroji nie sú spustené ani definované žiadne virt. stroje"
 
@@ -1869,7 +1870,7 @@ msgstr ""
 msgid "No snapshots defined for this VM"
 msgstr ""
 
-#: src/helpers.ts:242
+#: src/helpers.ts:239
 msgid "No state"
 msgstr "Žiadny stav"
 
@@ -1913,7 +1914,7 @@ msgstr ""
 msgid "None"
 msgstr "Žiadny"
 
-#: src/helpers.ts:272
+#: src/helpers.ts:269
 msgid "None (isolated network)"
 msgstr "Žiadne (izolovaná sieť)"
 
@@ -1949,7 +1950,7 @@ msgstr ""
 msgid "Only editable when the guest is shut off"
 msgstr "Možné upraviť len pokiaľ je hosť vypnutý"
 
-#: src/helpers.ts:270
+#: src/helpers.ts:267
 msgid "Open"
 msgstr "Otvoriť"
 
@@ -2008,11 +2009,11 @@ msgstr "Cesta k súboru"
 msgid "Path to file on host's file system"
 msgstr "Cesta k súboru na súborovom systéme hostiteľa"
 
-#: src/helpers.ts:292 src/components/vm/vmActions.jsx:220
+#: src/helpers.ts:289 src/components/vm/vmActions.jsx:220
 msgid "Pause"
 msgstr "Pozastaviť"
 
-#: src/helpers.ts:235
+#: src/helpers.ts:232
 msgid "Paused"
 msgstr "Zastavené"
 
@@ -2020,7 +2021,7 @@ msgstr "Zastavené"
 msgid "Permanent (default)"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:58
+#: src/components/common/machinesConnectionSelector.tsx:76
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
@@ -2096,7 +2097,7 @@ msgstr ""
 msgid "Port"
 msgstr "Port"
 
-#: src/helpers.ts:291
+#: src/helpers.ts:288
 msgid "Power off"
 msgstr ""
 
@@ -2128,7 +2129,7 @@ msgid ""
 "something goes wrong"
 msgstr ""
 
-#: src/helpers.ts:275
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "Súkromný"
 
@@ -2303,11 +2304,11 @@ msgstr ""
 msgid "Replace SPICE on the virtual machine."
 msgstr "Vytvoriť nový virtuálny počítač"
 
-#: src/helpers.ts:289
+#: src/helpers.ts:286
 msgid "Reset"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.jsx:72
+#: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
@@ -2357,11 +2358,11 @@ msgstr "Spustiť"
 msgid "Run when host boots"
 msgstr "Spustiť pri štarte stroja"
 
-#: src/helpers.ts:233
+#: src/helpers.ts:230
 msgid "Running"
 msgstr "Beží"
 
-#: src/components/common/needsShutdown.jsx:124
+#: src/components/common/needsShutdown.tsx:145
 #, fuzzy
 #| msgid "SPICE port"
 msgid "SPICE"
@@ -2514,7 +2515,7 @@ msgstr "Vypnúť"
 msgid "Shut down $0?"
 msgstr "Vypnúť"
 
-#: src/helpers.ts:237
+#: src/helpers.ts:234
 msgid "Shut off"
 msgstr "Vypnúť"
 
@@ -2522,7 +2523,7 @@ msgstr "Vypnúť"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Vypnite virt. stroj aby bolo možné upraviť konfiguráciu firmvéru"
 
-#: src/helpers.ts:236 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
+#: src/helpers.ts:233 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
 msgid "Shutting down"
 msgstr "Vypína sa"
 
@@ -2566,7 +2567,7 @@ msgstr "Zachytené stavy"
 msgid "Sockets"
 msgstr "Sokety"
 
-#: src/components/common/needsShutdown.jsx:154
+#: src/components/common/needsShutdown.tsx:181
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
@@ -2640,8 +2641,8 @@ msgstr ""
 #: src/components/networks/networkList.jsx:70
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.jsx:412
-#: src/components/vms/hostvmslist.jsx:119
-#: src/components/vms/hostvmslist.jsx:162
+#: src/components/vms/hostvmslist.tsx:156
+#: src/components/vms/hostvmslist.tsx:203
 msgid "State"
 msgstr "Stav"
 
@@ -2725,7 +2726,7 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
-#: src/helpers.ts:240
+#: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr ""
 
@@ -2733,7 +2734,7 @@ msgstr ""
 msgid "Switch to VNC to continue using this machine."
 msgstr ""
 
-#: src/helpers.ts:229
+#: src/helpers.ts:226
 msgid "System"
 msgstr "Systém"
 
@@ -2743,7 +2744,7 @@ msgstr "Systém"
 msgid "TAP device"
 msgstr "ariadenie hostiteľa"
 
-#: src/components/common/needsShutdown.jsx:128
+#: src/components/common/needsShutdown.tsx:149
 msgid "TPM"
 msgstr ""
 
@@ -2891,7 +2892,7 @@ msgstr "Celková veľkosť: $0"
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr "Dočasné virt. stroje neumožnujú úpravy konfigurácie firmvéru"
 
-#: src/components/libvirtSlate.jsx:36
+#: src/components/libvirtSlate.tsx:35
 msgid "Troubleshoot"
 msgstr "Riešiť problém"
 
@@ -3020,7 +3021,7 @@ msgstr "Užívateľské heslo"
 msgid "User password must not be empty when user login is set"
 msgstr ""
 
-#: src/helpers.ts:230
+#: src/helpers.ts:227
 #, fuzzy
 #| msgid "User password"
 msgid "User session"
@@ -3080,13 +3081,13 @@ msgstr "Virt. stroj $0 sa nepodarilo vypnúť"
 msgid "VM $0 failed to start"
 msgstr "Virt. stroj $0 sa nepodarilo naštartovať"
 
-#: src/components/common/machinesConnectionSelector.jsx:69
+#: src/components/common/machinesConnectionSelector.tsx:87
 msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.jsx:167
+#: src/components/common/needsShutdown.tsx:194
 #, fuzzy
 #| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
@@ -3096,7 +3097,7 @@ msgstr "Virt. stroj $0 sa nepodarilo vypnúť"
 msgid "VM state"
 msgstr "Stav virt. stroja"
 
-#: src/components/common/machinesConnectionSelector.jsx:52
+#: src/components/common/machinesConnectionSelector.tsx:70
 msgid "VM will launch with root permissions"
 msgstr ""
 
@@ -3137,8 +3138,8 @@ msgstr ""
 #: src/components/networks/networkList.jsx:51
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:248
-#: src/components/vms/hostvmslist.jsx:155
-#: src/components/vms/hostvmslist.jsx:157 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:196
+#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Virtuálne stroje"
 
@@ -3161,7 +3162,7 @@ msgid ""
 "the socket."
 msgstr ""
 
-#: src/components/libvirtSlate.jsx:35
+#: src/components/libvirtSlate.tsx:34
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualizačná služba (libvirt) nie je aktívna"
 
@@ -3195,7 +3196,7 @@ msgstr ""
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.jsx:120
+#: src/components/common/needsShutdown.tsx:141
 #: src/components/vm/overview/vmOverviewCard.jsx:200
 msgid "Watchdog"
 msgstr ""
@@ -3236,31 +3237,31 @@ msgstr "Pridať"
 msgid "add entry"
 msgstr ""
 
-#: src/helpers.ts:260
+#: src/helpers.ts:257
 msgid "bridge"
 msgstr "most"
 
-#: src/helpers.ts:246
+#: src/helpers.ts:243
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/helpers.ts:253 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
 msgid "custom"
 msgstr "lastné"
 
-#: src/helpers.ts:258
+#: src/helpers.ts:255
 msgid "direct"
 msgstr "priama"
 
-#: src/helpers.ts:225
+#: src/helpers.ts:222
 msgid "disabled"
 msgstr "vypnuté"
 
-#: src/helpers.ts:245 src/helpers.ts:248
+#: src/helpers.ts:242 src/helpers.ts:245
 msgid "disk"
 msgstr "disk"
 
-#: src/helpers.ts:286
+#: src/helpers.ts:283
 msgid "down"
 msgstr "vypnuté"
 
@@ -3272,27 +3273,27 @@ msgstr "vypnuté"
 msgid "edit"
 msgstr "upraviť"
 
-#: src/helpers.ts:226
+#: src/helpers.ts:223
 msgid "enabled"
 msgstr "povolené"
 
-#: src/helpers.ts:262
+#: src/helpers.ts:259
 msgid "ethernet"
 msgstr "ethernet"
 
-#: src/helpers.ts:254
+#: src/helpers.ts:251
 msgid "host"
 msgstr "stroj"
 
-#: src/helpers.ts:250
+#: src/helpers.ts:247
 msgid "host device"
 msgstr "zariadenie hostiteľa"
 
-#: src/helpers.ts:255
+#: src/helpers.ts:252
 msgid "host passthrough"
 msgstr ""
 
-#: src/helpers.ts:263
+#: src/helpers.ts:260
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -3335,11 +3336,11 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt"
 
-#: src/helpers.ts:264
+#: src/helpers.ts:261
 msgid "mcast"
 msgstr "mcast"
 
-#: src/components/common/infoPopover.jsx:34
+#: src/components/common/infoPopover.tsx:34
 #: src/components/vm/nics/nicBody.jsx:112
 msgid "more info"
 msgstr ""
@@ -3353,11 +3354,11 @@ msgstr ""
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
-#: src/helpers.ts:247 src/helpers.ts:259
+#: src/helpers.ts:244 src/helpers.ts:256
 msgid "network"
 msgstr "sieť"
 
-#: src/helpers.ts:282 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:279 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "no"
@@ -3385,7 +3386,7 @@ msgstr "qcow2"
 msgid "qemu"
 msgstr "qemu"
 
-#: src/helpers.ts:249
+#: src/helpers.ts:246
 msgid "redirected device"
 msgstr "presmerované zariadenie"
 
@@ -3399,19 +3400,19 @@ msgstr "Odobrať"
 msgid "serial number"
 msgstr ""
 
-#: src/helpers.ts:265
+#: src/helpers.ts:262
 msgid "server"
 msgstr "server"
 
-#: src/helpers.ts:266
+#: src/helpers.ts:263
 msgid "udp"
 msgstr "udp"
 
-#: src/helpers.ts:285
+#: src/helpers.ts:282
 msgid "up"
 msgstr "spustené"
 
-#: src/helpers.ts:261
+#: src/helpers.ts:258
 msgid "user"
 msgstr "užívateľ"
 
@@ -3431,15 +3432,15 @@ msgstr "Počet virt. procesorov"
 msgid "vCPU maximum"
 msgstr "Maximum virt. procesorov"
 
-#: src/components/common/needsShutdown.jsx:112
+#: src/components/common/needsShutdown.tsx:133
 msgid "vCPUs"
 msgstr "virt. procesory"
 
-#: src/helpers.ts:267
+#: src/helpers.ts:264
 msgid "vhostuser"
 msgstr "vhostuser"
 
-#: src/components/common/stateIcon.jsx:62
+#: src/components/common/stateIcon.tsx:77
 msgid "view more..."
 msgstr "zobraziť viac..."
 
@@ -3475,7 +3476,7 @@ msgstr "virt. stroj"
 msgid "vsock requires special software"
 msgstr ""
 
-#: src/helpers.ts:281 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:278 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "yes"

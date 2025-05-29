@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 03:37+0000\n"
+"POT-Creation-Date: 2025-05-28 03:35+0000\n"
 "PO-Revision-Date: 2025-05-22 08:56+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
@@ -46,13 +46,13 @@ msgstr "$0 $1 disponible(s) sur l’hôte"
 msgid "$0 CPU details"
 msgstr "$0 Informations sur l'unité centrale"
 
-#: src/components/aggregateStatusCards.jsx:63
+#: src/components/aggregateStatusCards.tsx:69
 msgid "$0 Network"
 msgid_plural "$0 Networks"
 msgstr[0] "$0 Réseau"
 msgstr[1] "$0 Réseaux"
 
-#: src/components/aggregateStatusCards.jsx:41
+#: src/components/aggregateStatusCards.tsx:47
 msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "$0 Pool de stockage"
@@ -113,7 +113,7 @@ msgstr "Action"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
 #: src/components/vm/nics/vmNicsCard.jsx:421
 #: src/components/vm/disks/vmDisksCard.jsx:194
-#: src/components/vms/hostvmslist.jsx:163
+#: src/components/vms/hostvmslist.tsx:204
 msgid "Actions"
 msgstr "Actions"
 
@@ -207,7 +207,8 @@ msgstr "Adresse"
 msgid "Address not within subnet"
 msgstr "Adresse ne faisant pas partie du sous-réseau"
 
-#: src/components/vms/hostvmslist.jsx:74 src/components/vms/hostvmslist.jsx:92
+#: src/components/vms/hostvmslist.tsx:111
+#: src/components/vms/hostvmslist.tsx:129
 msgid "All"
 msgstr "Tout"
 
@@ -277,7 +278,7 @@ msgstr "Démarrage automatique"
 msgid "Block device"
 msgstr "Périphérique block"
 
-#: src/helpers.ts:241
+#: src/helpers.ts:238
 msgid "Blocked"
 msgstr "Bloqué"
 
@@ -309,7 +310,7 @@ msgstr "Bus"
 msgid "CD/DVD disc"
 msgstr "Disque CD/DVD"
 
-#: src/components/common/needsShutdown.jsx:116
+#: src/components/common/needsShutdown.tsx:137
 #: src/components/vm/overview/vmOverviewCard.jsx:182
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
@@ -331,7 +332,7 @@ msgstr "Cache"
 #: src/components/networks/networkOverviewTab.jsx:239
 #: src/components/networks/createNetworkDialog.jsx:437
 #: src/components/create-vm-dialog/createVmDialog.jsx:1479
-#: src/components/common/deleteResource.jsx:93
+#: src/components/common/deleteResource.tsx:111
 #: src/components/vm/vmEditDescriptionDialog.jsx:65
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:168
@@ -376,11 +377,11 @@ msgstr "Modifier l’ordre de démarrage"
 msgid "Change firmware"
 msgstr "Changer de firmware"
 
-#: src/components/common/needsShutdown.jsx:177
+#: src/components/common/needsShutdown.tsx:204
 msgid "Changes pending"
 msgstr "Changements en cours"
 
-#: src/components/common/needsShutdown.jsx:18
+#: src/components/common/needsShutdown.tsx:39
 msgid "Changes will take effect after shutting down the VM"
 msgstr ""
 "Ces modifications prendront effet après l’arrêt de la machine virtuelle"
@@ -421,7 +422,7 @@ msgstr ""
 msgid "Clone"
 msgstr "Clone"
 
-#: src/components/common/stateIcon.jsx:57
+#: src/components/common/stateIcon.tsx:72
 msgid "Close"
 msgstr "Fermer"
 
@@ -437,7 +438,7 @@ msgstr "Cockpit Project"
 msgid "Concurrently writeable"
 msgstr "Écritures possibles en parallèle"
 
-#: src/components/common/deleteResource.jsx:99
+#: src/components/common/deleteResource.tsx:122
 msgid "Confirm this action"
 msgstr "Confirmer cette action"
 
@@ -458,9 +459,9 @@ msgstr "Connexion en cours"
 #: src/components/storagePools/storagePoolList.jsx:69
 #: src/components/networks/networkList.jsx:68
 #: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/common/machinesConnectionSelector.jsx:38
+#: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/vm/overview/vmOverviewCard.jsx:158
-#: src/components/vms/hostvmslist.jsx:161
+#: src/components/vms/hostvmslist.tsx:202
 msgid "Connection"
 msgstr "Connexion"
 
@@ -506,7 +507,7 @@ msgstr "Impossible d'ajouter dynamiquement un dispositif de surveillance"
 msgid "Could not revert to snapshot"
 msgstr "N’a pas pu revenir à l’instantané"
 
-#: src/helpers.ts:238
+#: src/helpers.ts:235
 msgid "Crashed"
 msgstr "Échoué"
 
@@ -582,7 +583,7 @@ msgstr "Créer un réseau virtuel"
 msgid "Create volume"
 msgstr "Créer un volume"
 
-#: src/components/vms/hostvmslist.jsx:54
+#: src/components/vms/hostvmslist.tsx:70
 msgid "Creating VM"
 msgstr "Création de la machine virtuelle"
 
@@ -647,9 +648,9 @@ msgstr "Désactiver"
 #: src/components/storagePools/storagePoolDelete.jsx:248
 #: src/components/networks/network.jsx:163
 #: src/components/networks/network.jsx:166
-#: src/components/common/deleteResource.jsx:81
-#: src/components/common/deleteResource.jsx:135
-#: src/components/common/deleteResource.jsx:146
+#: src/components/common/deleteResource.tsx:99
+#: src/components/common/deleteResource.tsx:175
+#: src/components/common/deleteResource.tsx:186
 #: src/components/vm/vmActions.jsx:496 src/components/vm/vmActions.jsx:504
 #: src/components/vm/deleteDialog.jsx:172
 msgid "Delete"
@@ -761,7 +762,7 @@ msgstr "Déconnecté"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Déconnecté de la console série. Cliquez sur le bouton Connecter."
 
-#: src/components/common/needsShutdown.jsx:95
+#: src/components/common/needsShutdown.tsx:116
 msgid "Disk"
 msgstr "Disque"
 
@@ -789,7 +790,7 @@ msgstr "Fichier image disque"
 msgid "Disk image path must not be empty"
 msgstr "Le chemin de l’image disque ne doit pas être vide"
 
-#: src/components/common/machinesConnectionSelector.jsx:75
+#: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 "Les images disque peuvent être stockées dans le répertoire personnel de "
@@ -815,7 +816,7 @@ msgstr ""
 "N’exécutez pas cette machine virtuelle sur les hôtes d’origine et de "
 "destination en même temps."
 
-#: src/helpers.ts:293
+#: src/helpers.ts:290
 msgid "Do nothing"
 msgstr "Ne rien faire"
 
@@ -839,11 +840,11 @@ msgstr "Progression du téléchargement"
 msgid "Downloading image for VM $0"
 msgstr "Téléchargement d'une image pour la VM $0"
 
-#: src/components/vms/hostvmslist.jsx:52
+#: src/components/vms/hostvmslist.tsx:68
 msgid "Downloading: $0%"
 msgstr "Téléchargement : $0%"
 
-#: src/helpers.ts:294
+#: src/helpers.ts:291
 msgid "Dump core"
 msgstr "Noyau Dump"
 
@@ -851,7 +852,7 @@ msgstr "Noyau Dump"
 msgid "Duration"
 msgstr "Durée"
 
-#: src/helpers.ts:239
+#: src/helpers.ts:236
 msgid "Dying"
 msgstr "Sur le point ce cesser toute activité"
 
@@ -943,7 +944,7 @@ msgstr "Développer"
 msgid "Extended attributes"
 msgstr "Attributs étendus"
 
-#: src/components/common/stateIcon.jsx:61
+#: src/components/common/stateIcon.tsx:76
 msgid "Failed"
 msgstr "Échoué"
 
@@ -1027,7 +1028,7 @@ msgstr "Le système de fichier $0 n’a pas pu être supprimé"
 msgid "Filesystem directory"
 msgstr "Répertoire des fichiers système"
 
-#: src/components/vms/hostvmslist.jsx:115
+#: src/components/vms/hostvmslist.tsx:152
 msgid "Filter by name"
 msgstr "Filtrer par nom"
 
@@ -1109,11 +1110,11 @@ msgstr "Go"
 msgid "Go to VMs list"
 msgstr "Aller à la liste des machines virtuelles"
 
-#: src/components/common/machinesConnectionSelector.jsx:66
+#: src/components/common/machinesConnectionSelector.tsx:84
 msgid "Good choice for desktop virtualization"
 msgstr "Un bon choix pour la virtualisation de poste de travail"
 
-#: src/helpers.ts:290
+#: src/helpers.ts:287
 msgid "Gracefully shutdown"
 msgstr "Arrêt définitif"
 
@@ -1225,11 +1226,11 @@ msgstr "Le réseau IPv6 ne doit pas être vide"
 msgid "IPv6 only"
 msgstr "IPv6 seulement"
 
-#: src/components/common/machinesConnectionSelector.jsx:49
+#: src/components/common/machinesConnectionSelector.tsx:67
 msgid "Ideal for server VMs"
 msgstr "Idéal pour les serveurs virtuels"
 
-#: src/components/common/machinesConnectionSelector.jsx:55
+#: src/components/common/machinesConnectionSelector.tsx:73
 msgid "Ideal networking support"
 msgstr "Un support réseau idéal"
 
@@ -1245,7 +1246,7 @@ msgstr ""
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "L’identifiant peut être tronqué silencieusement à $0 caractères "
 
-#: src/helpers.ts:234
+#: src/helpers.ts:231
 msgid "Idle"
 msgstr "inactif"
 
@@ -1302,7 +1303,7 @@ msgstr "Initiateur"
 msgid "Initiator should not be empty"
 msgstr "L'initiateur ne doit pas être vide"
 
-#: src/helpers.ts:295
+#: src/helpers.ts:292
 msgid "Inject a non-maskable interrupt"
 msgstr "Injection d'une interruption non-masquable"
 
@@ -1422,7 +1423,7 @@ msgstr "Libvirt ou l’hyperviseur ne prend pas en charge UEFI"
 msgid "Loading available network devices"
 msgstr "Chargement des périphériques réseau disponibles"
 
-#: src/components/libvirtSlate.jsx:31
+#: src/components/libvirtSlate.tsx:30
 msgid "Loading resources"
 msgstr "Chargement des ressources"
 
@@ -1617,7 +1618,7 @@ msgstr "Échec du changement d’état du NIC $0 de la machine virtuelle $1"
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
 #: src/components/vm/vmCloneDialog.jsx:95
-#: src/components/vms/hostvmslist.jsx:160
+#: src/components/vms/hostvmslist.tsx:201
 msgid "Name"
 msgstr "Nom"
 
@@ -1676,7 +1677,7 @@ msgstr "Démarrage réseau (PXE)"
 msgid "Network file system"
 msgstr "Système de fichiers par réseau (NFS)"
 
-#: src/components/common/needsShutdown.jsx:105
+#: src/components/common/needsShutdown.tsx:126
 msgid "Network interface"
 msgstr "Interface réseau"
 
@@ -1722,7 +1723,7 @@ msgstr "Nouveau nom de volume"
 msgid "No SSH keys specified"
 msgstr "Aucune clé SSH spécifiée"
 
-#: src/components/vms/hostvmslist.jsx:165
+#: src/components/vms/hostvmslist.tsx:206
 msgid "No VM is running or defined on this host"
 msgstr ""
 "Aucune machine virtuelle n’est en cours d’exécution ou définie sur cet hôte"
@@ -1779,7 +1780,7 @@ msgstr "Pas de parent"
 msgid "No snapshots defined for this VM"
 msgstr "Aucun instantané défini pour cette machine virtuelle"
 
-#: src/helpers.ts:242
+#: src/helpers.ts:239
 msgid "No state"
 msgstr "Pas d’état"
 
@@ -1827,7 +1828,7 @@ msgstr ""
 msgid "None"
 msgstr "Aucun"
 
-#: src/helpers.ts:272
+#: src/helpers.ts:269
 msgid "None (isolated network)"
 msgstr "Aucune (réseau isolé)"
 
@@ -1861,7 +1862,7 @@ msgstr ""
 msgid "Only editable when the guest is shut off"
 msgstr "Modifiable uniquement quand l’invité est fermé"
 
-#: src/helpers.ts:270
+#: src/helpers.ts:267
 msgid "Open"
 msgstr "Ouvrir"
 
@@ -1919,11 +1920,11 @@ msgstr "Chemin d’accès au répertoire"
 msgid "Path to file on host's file system"
 msgstr "Chemin d’accès au fichier ISO sur le système de fichiers de l’hôte"
 
-#: src/helpers.ts:292 src/components/vm/vmActions.jsx:220
+#: src/helpers.ts:289 src/components/vm/vmActions.jsx:220
 msgid "Pause"
 msgstr "Suspendre"
 
-#: src/helpers.ts:235
+#: src/helpers.ts:232
 msgid "Paused"
 msgstr "Mis en pause"
 
@@ -1931,7 +1932,7 @@ msgstr "Mis en pause"
 msgid "Permanent (default)"
 msgstr "Permanent (par défaut)"
 
-#: src/components/common/machinesConnectionSelector.jsx:58
+#: src/components/common/machinesConnectionSelector.tsx:76
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 "Permissions refusées pour les images disques dans les répertoires personnels"
@@ -2010,7 +2011,7 @@ msgstr "Les volumes de pool sont utilisés par les machines virtuelles "
 msgid "Port"
 msgstr "Port"
 
-#: src/helpers.ts:291
+#: src/helpers.ts:288
 msgid "Power off"
 msgstr "Fermé"
 
@@ -2042,7 +2043,7 @@ msgstr ""
 "Les clichés pris précédemment vous permettent de revenir à un état antérieur "
 "si quelque chose ne va pas"
 
-#: src/helpers.ts:275
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "Privé"
 
@@ -2204,11 +2205,11 @@ msgstr "Remplacer SPICE dans les VM sélectionnées."
 msgid "Replace SPICE on the virtual machine."
 msgstr "Remplacer SPICE sur la machine virtuelle."
 
-#: src/helpers.ts:289
+#: src/helpers.ts:286
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: src/components/common/machinesConnectionSelector.jsx:72
+#: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
@@ -2263,11 +2264,11 @@ msgstr "Exécuter"
 msgid "Run when host boots"
 msgstr "Démarrer quand l’hôte est amorcé"
 
-#: src/helpers.ts:233
+#: src/helpers.ts:230
 msgid "Running"
 msgstr "En cours"
 
-#: src/components/common/needsShutdown.jsx:124
+#: src/components/common/needsShutdown.tsx:145
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2405,7 +2406,7 @@ msgstr "Arrêter"
 msgid "Shut down $0?"
 msgstr "Arrêter $0?"
 
-#: src/helpers.ts:237
+#: src/helpers.ts:234
 msgid "Shut off"
 msgstr "Éteint"
 
@@ -2415,7 +2416,7 @@ msgstr ""
 "Éteindre la machine virtuelle afin de modifier la configuration du "
 "micrologiciel"
 
-#: src/helpers.ts:236 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
+#: src/helpers.ts:233 src/components/vm/snapshots/vmSnapshotsCard.jsx:138
 msgid "Shutting down"
 msgstr "Arrêt en cours"
 
@@ -2456,7 +2457,7 @@ msgstr "Instantanés"
 msgid "Sockets"
 msgstr "Prises"
 
-#: src/components/common/needsShutdown.jsx:154
+#: src/components/common/needsShutdown.tsx:181
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 "Certaines modifications de la configuration ne prennent effet qu'après un "
@@ -2528,8 +2529,8 @@ msgstr "Démarrage"
 #: src/components/networks/networkList.jsx:70
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.jsx:412
-#: src/components/vms/hostvmslist.jsx:119
-#: src/components/vms/hostvmslist.jsx:162
+#: src/components/vms/hostvmslist.tsx:156
+#: src/components/vms/hostvmslist.tsx:203
 msgid "State"
 msgstr "État"
 
@@ -2611,7 +2612,7 @@ msgstr ""
 "Les volumes de stockage doivent être partagés entre cet hôte et l’hôte de "
 "destination."
 
-#: src/helpers.ts:240
+#: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "Mode Attente (PM)"
 
@@ -2619,7 +2620,7 @@ msgstr "Mode Attente (PM)"
 msgid "Switch to VNC to continue using this machine."
 msgstr "Passez à VNC pour continuer à utiliser cette machine."
 
-#: src/helpers.ts:229
+#: src/helpers.ts:226
 msgid "System"
 msgstr "Système"
 
@@ -2627,7 +2628,7 @@ msgstr "Système"
 msgid "TAP device"
 msgstr "Périphérique TAP"
 
-#: src/components/common/needsShutdown.jsx:128
+#: src/components/common/needsShutdown.tsx:149
 msgid "TPM"
 msgstr "TPM"
 
@@ -2796,7 +2797,7 @@ msgstr ""
 "Les machines virtuelles temporaires ne permettent pas de modifier la "
 "configuration du micrologiciel"
 
-#: src/components/libvirtSlate.jsx:36
+#: src/components/libvirtSlate.tsx:35
 msgid "Troubleshoot"
 msgstr "Dépannage"
 
@@ -2930,7 +2931,7 @@ msgstr ""
 "Le mot de passe utilisateur ne doit pas être vide lorsque la connexion "
 "utilisateur est définie"
 
-#: src/helpers.ts:230
+#: src/helpers.ts:227
 msgid "User session"
 msgstr "Session utilisateur"
 
@@ -2986,7 +2987,7 @@ msgstr "Échec de l’arrêt de la machine virtuelle $0"
 msgid "VM $0 failed to start"
 msgstr "Échec du démarrage de la machine virtuelle $0"
 
-#: src/components/common/machinesConnectionSelector.jsx:69
+#: src/components/common/machinesConnectionSelector.tsx:87
 msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
@@ -2994,7 +2995,7 @@ msgstr ""
 "VM lancée avec un accès limité non privilégié, avec le processus et le PTY "
 "appartenant à votre compte utilisateur"
 
-#: src/components/common/needsShutdown.jsx:167
+#: src/components/common/needsShutdown.tsx:194
 msgid "VM needs shutdown"
 msgstr "La VM doit être arrêtée"
 
@@ -3002,7 +3003,7 @@ msgstr "La VM doit être arrêtée"
 msgid "VM state"
 msgstr "État de la machine virtuelle"
 
-#: src/components/common/machinesConnectionSelector.jsx:52
+#: src/components/common/machinesConnectionSelector.tsx:70
 msgid "VM will launch with root permissions"
 msgstr "La VM sera lancée avec les droits root"
 
@@ -3043,8 +3044,8 @@ msgstr "Non pris en charge par le fabricant depuis le $0"
 #: src/components/networks/networkList.jsx:51
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:248
-#: src/components/vms/hostvmslist.jsx:155
-#: src/components/vms/hostvmslist.jsx:157 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:196
+#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Machines virtuelles"
 
@@ -3071,7 +3072,7 @@ msgstr ""
 "spécial compatible avec les sockets pour communiquer par l'intermédiaire de "
 "ces sockets."
 
-#: src/components/libvirtSlate.jsx:35
+#: src/components/libvirtSlate.tsx:34
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Le service de virtualisation (libvirt) n’est pas actif"
 
@@ -3105,7 +3106,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.jsx:120
+#: src/components/common/needsShutdown.tsx:141
 #: src/components/vm/overview/vmOverviewCard.jsx:200
 msgid "Watchdog"
 msgstr "Dispositif de surveillance"
@@ -3148,31 +3149,31 @@ msgstr "ajouter"
 msgid "add entry"
 msgstr "ajouter une entrée"
 
-#: src/helpers.ts:260
+#: src/helpers.ts:257
 msgid "bridge"
 msgstr "pont"
 
-#: src/helpers.ts:246
+#: src/helpers.ts:243
 msgid "cdrom"
 msgstr "CD ROM"
 
-#: src/helpers.ts:253 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
 msgid "custom"
 msgstr "personnalisé"
 
-#: src/helpers.ts:258
+#: src/helpers.ts:255
 msgid "direct"
 msgstr "direct"
 
-#: src/helpers.ts:225
+#: src/helpers.ts:222
 msgid "disabled"
 msgstr "désactivé"
 
-#: src/helpers.ts:245 src/helpers.ts:248
+#: src/helpers.ts:242 src/helpers.ts:245
 msgid "disk"
 msgstr "disque"
 
-#: src/helpers.ts:286
+#: src/helpers.ts:283
 msgid "down"
 msgstr "arrêté"
 
@@ -3184,27 +3185,27 @@ msgstr "arrêté"
 msgid "edit"
 msgstr "modifier"
 
-#: src/helpers.ts:226
+#: src/helpers.ts:223
 msgid "enabled"
 msgstr "activée"
 
-#: src/helpers.ts:262
+#: src/helpers.ts:259
 msgid "ethernet"
 msgstr "ethernet"
 
-#: src/helpers.ts:254
+#: src/helpers.ts:251
 msgid "host"
 msgstr "hôte"
 
-#: src/helpers.ts:250
+#: src/helpers.ts:247
 msgid "host device"
 msgstr "périphérique hôte"
 
-#: src/helpers.ts:255
+#: src/helpers.ts:252
 msgid "host passthrough"
 msgstr "host passthrough"
 
-#: src/helpers.ts:263
+#: src/helpers.ts:260
 msgid "hostdev"
 msgstr "hostdev"
 
@@ -3245,11 +3246,11 @@ msgstr "iso"
 msgid "libvirt"
 msgstr "libvirt"
 
-#: src/helpers.ts:264
+#: src/helpers.ts:261
 msgid "mcast"
 msgstr "mcast"
 
-#: src/components/common/infoPopover.jsx:34
+#: src/components/common/infoPopover.tsx:34
 #: src/components/vm/nics/nicBody.jsx:112
 msgid "more info"
 msgstr "plus d’informations"
@@ -3263,11 +3264,11 @@ msgstr "point de montage : point de montage à l’intérieur de l’invité"
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "balise de montage : la balise associée au point de montage exporté"
 
-#: src/helpers.ts:247 src/helpers.ts:259
+#: src/helpers.ts:244 src/helpers.ts:256
 msgid "network"
 msgstr "réseau"
 
-#: src/helpers.ts:282 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:279 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "no"
@@ -3295,7 +3296,7 @@ msgstr "qcow2"
 msgid "qemu"
 msgstr "qemu"
 
-#: src/helpers.ts:249
+#: src/helpers.ts:246
 msgid "redirected device"
 msgstr "périphérique redirigé"
 
@@ -3307,19 +3308,19 @@ msgstr "supprimer"
 msgid "serial number"
 msgstr "Numéro de série"
 
-#: src/helpers.ts:265
+#: src/helpers.ts:262
 msgid "server"
 msgstr "serveur"
 
-#: src/helpers.ts:266
+#: src/helpers.ts:263
 msgid "udp"
 msgstr "UDP"
 
-#: src/helpers.ts:285
+#: src/helpers.ts:282
 msgid "up"
 msgstr "en cours"
 
-#: src/helpers.ts:261
+#: src/helpers.ts:258
 msgid "user"
 msgstr "utilisateur"
 
@@ -3337,15 +3338,15 @@ msgstr "Nombre de vCPU"
 msgid "vCPU maximum"
 msgstr "vCPU Maximum"
 
-#: src/components/common/needsShutdown.jsx:112
+#: src/components/common/needsShutdown.tsx:133
 msgid "vCPUs"
 msgstr "vCPU"
 
-#: src/helpers.ts:267
+#: src/helpers.ts:264
 msgid "vhostuser"
 msgstr "vhostuser"
 
-#: src/components/common/stateIcon.jsx:62
+#: src/components/common/stateIcon.tsx:77
 msgid "view more..."
 msgstr "voir plus..."
 
@@ -3381,7 +3382,7 @@ msgstr "machine virtuelle"
 msgid "vsock requires special software"
 msgstr "vsock nécessite un logiciel spécial"
 
-#: src/helpers.ts:281 src/components/storagePools/storagePoolOverviewTab.jsx:67
+#: src/helpers.ts:278 src/components/storagePools/storagePoolOverviewTab.jsx:67
 #: src/components/storagePools/storagePoolOverviewTab.jsx:72
 #: src/components/networks/networkOverviewTab.jsx:117
 msgid "yes"
