@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-05 03:38+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-05 03:38+0000\n"
+"POT-Creation-Date: 2025-06-06 03:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,21 +118,21 @@ msgstr ""
 msgid "Action"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:71
+#: src/components/storagePools/storagePoolList.tsx:80
 #: src/components/vm/disks/vmDisksCard.jsx:194
 #: src/components/vm/nics/vmNicsCard.jsx:431
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/networks/networkList.jsx:71
+#: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
 msgid "Actions"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:168
-#: src/components/networks/network.jsx:186
+#: src/components/storagePools/storagePool.tsx:180
+#: src/components/networks/network.tsx:189
 msgid "Activate"
 msgstr ""
 
-#: src/components/storagePools/storagePoolVolumesTab.jsx:112
+#: src/components/storagePools/storagePoolVolumesTab.tsx:124
 msgid "Activate the storage pool to administer volumes"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgstr ""
 #: src/components/vm/disks/diskAdd.jsx:818
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
 #: src/components/vm/nics/nicAdd.jsx:222
-#: src/components/networks/networkOverviewTab.jsx:236
+#: src/components/networks/networkOverviewTab.tsx:257
 msgid "Add"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Add TPM"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:232
+#: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
 msgstr ""
 
@@ -201,15 +201,15 @@ msgstr ""
 
 #: src/components/vm/consoles/desktopConsole.jsx:47
 #: src/components/vm/nics/vmNicsCard.jsx:164
-#: src/components/networks/networkOverviewTab.jsx:144
-#: src/components/networks/networkOverviewTab.jsx:164
+#: src/components/networks/networkOverviewTab.tsx:153
+#: src/components/networks/networkOverviewTab.tsx:173
 msgid "Address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:96
-#: src/components/networks/createNetworkDialog.jsx:103
-#: src/components/networks/createNetworkDialog.jsx:124
-#: src/components/networks/createNetworkDialog.jsx:131
+#: src/components/networks/createNetworkDialog.tsx:131
+#: src/components/networks/createNetworkDialog.tsx:138
+#: src/components/networks/createNetworkDialog.tsx:159
+#: src/components/networks/createNetworkDialog.tsx:166
 msgid "Address not within subnet"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgid ""
 "(-, _, +, .)"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:175
+#: src/components/storagePools/storagePoolDelete.tsx:188
 msgid "Also delete all volumes inside this pool:"
 msgstr ""
 
@@ -260,7 +260,7 @@ msgid ""
 "cloud-init."
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:182
+#: src/components/networks/createNetworkDialog.tsx:237
 msgid "Automatic"
 msgstr ""
 
@@ -268,9 +268,9 @@ msgstr ""
 msgid "Automation"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:71
+#: src/components/storagePools/storagePoolOverviewTab.tsx:73
 #: src/components/vm/overview/vmOverviewCard.jsx:194
-#: src/components/networks/networkOverviewTab.jsx:121
+#: src/components/networks/networkOverviewTab.tsx:130
 msgid "Autostart"
 msgstr ""
 
@@ -329,11 +329,11 @@ msgstr ""
 msgid "Cache"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:119
-#: src/components/storagePools/createStoragePoolDialog.jsx:447
-#: src/components/storagePools/storagePoolDelete.jsx:205
+#: src/components/storagePools/storageVolumeCreate.tsx:136
+#: src/components/storagePools/createStoragePoolDialog.tsx:527
+#: src/components/storagePools/storagePoolDelete.tsx:218
 #: src/components/create-vm-dialog/createVmDialog.jsx:1479
-#: src/components/common/deleteResource.tsx:111
+#: src/components/common/deleteResource.tsx:114
 #: src/components/vm/overview/vsock.jsx:238
 #: src/components/vm/overview/memoryModal.jsx:161
 #: src/components/vm/overview/watchdog.jsx:196
@@ -355,8 +355,8 @@ msgstr ""
 #: src/components/vm/nics/nicAdd.jsx:225 src/components/vm/nics/nicEdit.jsx:196
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:112
-#: src/components/networks/networkOverviewTab.jsx:239
-#: src/components/networks/createNetworkDialog.jsx:437
+#: src/components/networks/createNetworkDialog.tsx:553
+#: src/components/networks/networkOverviewTab.tsx:260
 msgid "Cancel"
 msgstr ""
 
@@ -433,7 +433,7 @@ msgstr ""
 msgid "Concurrently writeable"
 msgstr ""
 
-#: src/components/common/deleteResource.tsx:122
+#: src/components/common/deleteResource.tsx:125
 msgid "Confirm this action"
 msgstr ""
 
@@ -449,11 +449,11 @@ msgstr ""
 msgid "Connecting"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:69
+#: src/components/storagePools/storagePoolList.tsx:78
 #: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/vm/overview/vmOverviewCard.jsx:158
-#: src/components/networks/createNetworkDialog.jsx:43
-#: src/components/networks/networkList.jsx:68
+#: src/components/networks/createNetworkDialog.tsx:47
+#: src/components/networks/networkList.tsx:74
 #: src/components/vms/hostvmslist.tsx:202
 msgid "Connection"
 msgstr ""
@@ -504,10 +504,10 @@ msgstr ""
 msgid "Crashed"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:116
-#: src/components/storagePools/createStoragePoolDialog.jsx:444
+#: src/components/storagePools/storageVolumeCreate.tsx:133
+#: src/components/storagePools/createStoragePoolDialog.tsx:524
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:285
-#: src/components/networks/createNetworkDialog.jsx:434
+#: src/components/networks/createNetworkDialog.tsx:550
 msgid "Create"
 msgstr ""
 
@@ -556,22 +556,22 @@ msgstr ""
 msgid "Create snapshot"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:440
-#: src/components/storagePools/createStoragePoolDialog.jsx:489
+#: src/components/storagePools/createStoragePoolDialog.tsx:520
+#: src/components/storagePools/createStoragePoolDialog.tsx:576
 msgid "Create storage pool"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:112
+#: src/components/storagePools/storageVolumeCreate.tsx:129
 msgid "Create storage volume"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:427
-#: src/components/networks/createNetworkDialog.jsx:455
+#: src/components/networks/createNetworkDialog.tsx:543
+#: src/components/networks/createNetworkDialog.tsx:576
 msgid "Create virtual network"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:157
-#: src/components/storagePools/storageVolumeCreate.jsx:168
+#: src/components/storagePools/storageVolumeCreate.tsx:181
+#: src/components/storagePools/storageVolumeCreate.tsx:192
 msgid "Create volume"
 msgstr ""
 
@@ -623,24 +623,24 @@ msgstr ""
 msgid "Custom path"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:272
+#: src/components/networks/networkOverviewTab.tsx:303
 msgid "DHCP Settings"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:159
-#: src/components/networks/network.jsx:182
+#: src/components/storagePools/storagePool.tsx:171
+#: src/components/networks/network.tsx:185
 msgid "Deactivate"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:202
-#: src/components/storagePools/storagePoolDelete.jsx:238
-#: src/components/storagePools/storagePoolDelete.jsx:248
-#: src/components/common/deleteResource.tsx:99
-#: src/components/common/deleteResource.tsx:175
-#: src/components/common/deleteResource.tsx:186
+#: src/components/storagePools/storagePoolDelete.tsx:215
+#: src/components/storagePools/storagePoolDelete.tsx:247
+#: src/components/storagePools/storagePoolDelete.tsx:257
+#: src/components/common/deleteResource.tsx:102
+#: src/components/common/deleteResource.tsx:178
+#: src/components/common/deleteResource.tsx:189
 #: src/components/vm/deleteDialog.jsx:172 src/components/vm/vmActions.jsx:496
-#: src/components/vm/vmActions.jsx:504 src/components/networks/network.jsx:163
-#: src/components/networks/network.jsx:166
+#: src/components/vm/vmActions.jsx:504 src/components/networks/network.tsx:166
+#: src/components/networks/network.tsx:169
 msgid "Delete"
 msgstr ""
 
@@ -648,11 +648,11 @@ msgstr ""
 msgid "Delete $0 VM?"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:194
+#: src/components/storagePools/storagePoolDelete.tsx:207
 msgid "Delete $0 storage pool?"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeDelete.jsx:63
+#: src/components/storagePools/storageVolumeDelete.tsx:73
 msgid "Delete $0 volume"
 msgid_plural "Delete $0 volumes"
 msgstr[0] ""
@@ -662,7 +662,7 @@ msgstr[1] ""
 msgid "Delete associated storage files:"
 msgstr ""
 
-#: src/components/networks/network.jsx:153
+#: src/components/networks/network.tsx:156
 msgid "Delete network?"
 msgstr ""
 
@@ -670,7 +670,7 @@ msgstr ""
 msgid "Delete snapshot?"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:185
+#: src/components/storagePools/storagePoolDelete.tsx:198
 msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
@@ -702,7 +702,7 @@ msgstr ""
 msgid "Destination URI must not be empty"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:96
+#: src/components/storagePools/storagePoolDelete.tsx:99
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
@@ -722,12 +722,12 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
 #: src/components/vm/hostdevs/hostDevAdd.jsx:88
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
-#: src/components/networks/createNetworkDialog.jsx:176
-#: src/components/networks/networkList.jsx:67
+#: src/components/networks/createNetworkDialog.tsx:231
+#: src/components/networks/networkList.tsx:73
 msgid "Device"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:183
+#: src/components/networks/createNetworkDialog.tsx:238
 msgid "Devices"
 msgstr ""
 
@@ -883,12 +883,12 @@ msgstr ""
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:242
+#: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:99
-#: src/components/networks/createNetworkDialog.jsx:127
+#: src/components/networks/createNetworkDialog.tsx:134
+#: src/components/networks/createNetworkDialog.tsx:162
 msgid "End should not be empty"
 msgstr ""
 
@@ -968,7 +968,7 @@ msgstr ""
 msgid "Failed to replace SPICE devices"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:246
+#: src/components/networks/networkOverviewTab.tsx:267
 msgid "Failed to save network settings"
 msgstr ""
 
@@ -993,7 +993,7 @@ msgstr ""
 msgid "Filesystem $0 could not be removed"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:60
+#: src/components/storagePools/createStoragePoolDialog.tsx:92
 msgid "Filesystem directory"
 msgstr ""
 
@@ -1030,17 +1030,17 @@ msgstr ""
 msgid "Force shut down $0?"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:201
-#: src/components/storagePools/storageVolumeCreateBody.jsx:76
+#: src/components/storagePools/storageVolumeCreateBody.tsx:120
+#: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/vm/disks/vmDiskColumns.jsx:106
 msgid "Format"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:157
+#: src/components/networks/createNetworkDialog.tsx:206
 msgid "Forward mode"
 msgstr ""
 
-#: src/components/networks/networkList.jsx:69
+#: src/components/networks/networkList.tsx:75
 msgid "Forwarding mode"
 msgstr ""
 
@@ -1052,7 +1052,7 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/overview/vmOverviewCard.jsx:154
-#: src/components/networks/networkOverviewTab.jsx:112
+#: src/components/networks/networkOverviewTab.tsx:121
 msgid "General"
 msgstr ""
 
@@ -1064,7 +1064,7 @@ msgstr ""
 msgid "Get a new RHSM token."
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreateBody.jsx:108
+#: src/components/storagePools/storageVolumeCreateBody.tsx:152
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
 #: src/components/vm/overview/memorySelectRow.jsx:89
@@ -1093,8 +1093,8 @@ msgstr ""
 msgid "Hide additional options"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:34
-#: src/components/storagePools/createStoragePoolDialog.jsx:123
+#: src/components/storagePools/storagePoolOverviewTab.tsx:36
+#: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/vm/disks/vmDiskColumns.jsx:47
 msgid "Host"
@@ -1116,11 +1116,11 @@ msgstr ""
 msgid "Host devices"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:126
+#: src/components/storagePools/createStoragePoolDialog.tsx:170
 msgid "Host name"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:129
+#: src/components/storagePools/createStoragePoolDialog.tsx:173
 msgid "Host should not be empty"
 msgstr ""
 
@@ -1132,62 +1132,62 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:69
+#: src/components/networks/networkOverviewTab.tsx:78
 msgid "IP"
 msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.jsx:367
-#: src/components/networks/networkOverviewTab.jsx:254
+#: src/components/networks/networkOverviewTab.tsx:275
 msgid "IP address"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:259
+#: src/components/networks/networkOverviewTab.tsx:280
 msgid "IP address must not be empty"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:198
+#: src/components/networks/createNetworkDialog.tsx:261
 msgid "IP configuration"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:140
-#: src/components/networks/createNetworkDialog.jsx:259
+#: src/components/networks/createNetworkDialog.tsx:350
+#: src/components/networks/networkOverviewTab.tsx:149
 msgid "IPv4 address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:88
+#: src/components/networks/createNetworkDialog.tsx:123
 msgid "IPv4 address cannot be same as the network's broadcast address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:206
+#: src/components/networks/createNetworkDialog.tsx:269
 msgid "IPv4 and IPv6"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:76
+#: src/components/networks/createNetworkDialog.tsx:111
 msgid "IPv4 network should not be empty"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:204
+#: src/components/networks/createNetworkDialog.tsx:267
 msgid "IPv4 only"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:71
+#: src/components/networks/createNetworkDialog.tsx:106
 msgid "IPv4 prefix length must be 24 or less"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:68
+#: src/components/networks/createNetworkDialog.tsx:103
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:160
-#: src/components/networks/createNetworkDialog.jsx:289
+#: src/components/networks/createNetworkDialog.tsx:391
+#: src/components/networks/networkOverviewTab.tsx:169
 msgid "IPv6 address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:109
+#: src/components/networks/createNetworkDialog.tsx:144
 msgid "IPv6 network should not be empty"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:205
+#: src/components/networks/createNetworkDialog.tsx:268
 msgid "IPv6 only"
 msgstr ""
 
@@ -1243,11 +1243,11 @@ msgid ""
 "communication."
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:140
+#: src/components/storagePools/createStoragePoolDialog.tsx:190
 msgid "Initiator"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:146
+#: src/components/storagePools/createStoragePoolDialog.tsx:196
 msgid "Initiator should not be empty"
 msgstr ""
 
@@ -1296,23 +1296,23 @@ msgstr ""
 msgid "Interface type help"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:78
-#: src/components/networks/createNetworkDialog.jsx:94
-#: src/components/networks/createNetworkDialog.jsx:101
+#: src/components/networks/createNetworkDialog.tsx:113
+#: src/components/networks/createNetworkDialog.tsx:129
+#: src/components/networks/createNetworkDialog.tsx:136
 msgid "Invalid IPv4 address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:65
+#: src/components/networks/createNetworkDialog.tsx:100
 msgid "Invalid IPv4 mask or prefix length"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:111
-#: src/components/networks/createNetworkDialog.jsx:122
-#: src/components/networks/createNetworkDialog.jsx:129
+#: src/components/networks/createNetworkDialog.tsx:146
+#: src/components/networks/createNetworkDialog.tsx:157
+#: src/components/networks/createNetworkDialog.tsx:164
 msgid "Invalid IPv6 address"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:116
+#: src/components/networks/createNetworkDialog.tsx:151
 msgid "Invalid IPv6 prefix"
 msgstr ""
 
@@ -1328,7 +1328,7 @@ msgstr ""
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:64
+#: src/components/storagePools/createStoragePoolDialog.tsx:96
 msgid "LVM volume group"
 msgstr ""
 
@@ -1380,13 +1380,13 @@ msgid "Location"
 msgstr ""
 
 #: src/components/vm/overview/bootOrder.jsx:113
-#: src/components/networks/networkOverviewTab.jsx:70
+#: src/components/networks/networkOverviewTab.tsx:79
 msgid "MAC"
 msgstr ""
 
 #: src/components/vm/nics/nicAdd.jsx:70 src/components/vm/nics/nicEdit.jsx:49
 #: src/components/vm/nics/vmNicsCard.jsx:361
-#: src/components/networks/networkOverviewTab.jsx:247
+#: src/components/networks/networkOverviewTab.tsx:268
 msgid "MAC address"
 msgstr ""
 
@@ -1394,7 +1394,7 @@ msgstr ""
 msgid "MAC address already in use"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:252
+#: src/components/networks/networkOverviewTab.tsx:273
 msgid "MAC address must not be empty"
 msgstr ""
 
@@ -1422,11 +1422,11 @@ msgstr ""
 msgid "Manual connection"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:266
+#: src/components/networks/createNetworkDialog.tsx:357
 msgid "Mask or prefix length"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:61
+#: src/components/networks/createNetworkDialog.tsx:96
 msgid "Mask or prefix length should not be empty"
 msgstr ""
 
@@ -1448,7 +1448,7 @@ msgid ""
 "between 1 and $0"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:131
+#: src/components/networks/networkOverviewTab.tsx:140
 msgid "Maximum transmission unit"
 msgstr ""
 
@@ -1487,7 +1487,7 @@ msgstr ""
 msgid "Memory state path"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreateBody.jsx:106
+#: src/components/storagePools/storageVolumeCreateBody.tsx:150
 #: src/components/create-vm-dialog/createVmDialog.jsx:910
 #: src/components/create-vm-dialog/createVmDialog.jsx:1017
 #: src/components/vm/overview/memorySelectRow.jsx:87
@@ -1541,7 +1541,7 @@ msgstr ""
 msgid "Mount tag must not be empty"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:83
+#: src/components/networks/createNetworkDialog.tsx:118
 msgid "Must be an address instead of the network identifier, such as $0"
 msgstr ""
 
@@ -1553,16 +1553,16 @@ msgstr ""
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 
-#: src/components/storagePools/storagePoolVolumesTab.jsx:78
-#: src/components/storagePools/storagePoolList.jsx:67
-#: src/components/storagePools/createStoragePoolDialog.jsx:47
-#: src/components/storagePools/storageVolumeCreateBody.jsx:38
+#: src/components/storagePools/storageVolumeCreateBody.tsx:64
+#: src/components/storagePools/storagePoolVolumesTab.tsx:90
+#: src/components/storagePools/storagePoolList.tsx:76
+#: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.jsx:268
 #: src/components/vm/vmCloneDialog.jsx:95
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
-#: src/components/networks/createNetworkDialog.jsx:142
-#: src/components/networks/networkList.jsx:66
+#: src/components/networks/createNetworkDialog.tsx:185
+#: src/components/networks/networkList.tsx:72
 #: src/components/vms/hostvmslist.tsx:201
 msgid "Name"
 msgstr ""
@@ -1575,42 +1575,42 @@ msgstr ""
 msgid "Name can not be empty"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:53
+#: src/components/storagePools/createStoragePoolDialog.tsx:75
 msgid "Name contains invalid characters"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:76
+#: src/components/storagePools/storageVolumeCreate.tsx:93
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
 #: src/components/vm/vmCloneDialog.jsx:47
 msgid "Name must not be empty"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:53
-#: src/components/networks/createNetworkDialog.jsx:55
+#: src/components/storagePools/createStoragePoolDialog.tsx:75
+#: src/components/networks/createNetworkDialog.tsx:90
 msgid "Name should not be empty"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:49
+#: src/components/networks/networkOverviewTab.tsx:58
 msgid "Name: "
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:149
+#: src/components/networks/networkOverviewTab.tsx:158
 msgid "Netmask"
 msgstr ""
 
-#: src/components/networks/network.jsx:154
+#: src/components/networks/network.tsx:157
 msgid "Network $0 could not be deleted"
 msgstr ""
 
-#: src/components/networks/network.jsx:111
+#: src/components/networks/network.tsx:114
 msgid "Network $0 failed to get activated"
 msgstr ""
 
-#: src/components/networks/network.jsx:135
+#: src/components/networks/network.tsx:138
 msgid "Network $0 failed to get deactivated"
 msgstr ""
 
-#: src/components/networks/network.jsx:155
+#: src/components/networks/network.tsx:158
 msgid "Network $0 will be permanently deleted."
 msgstr ""
 
@@ -1618,7 +1618,7 @@ msgstr ""
 msgid "Network boot (PXE)"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:61
+#: src/components/storagePools/createStoragePoolDialog.tsx:93
 msgid "Network file system"
 msgstr ""
 
@@ -1646,9 +1646,9 @@ msgstr ""
 msgid "Network selection does not support PXE."
 msgstr ""
 
-#: src/components/networks/networkList.jsx:54
-#: src/components/networks/networkList.jsx:61
-#: src/components/networks/networkList.jsx:63
+#: src/components/networks/networkList.tsx:60
+#: src/components/networks/networkList.tsx:67
+#: src/components/networks/networkList.tsx:69
 msgid "Networks"
 msgstr ""
 
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid "New name must not be empty"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreateBody.jsx:41
+#: src/components/storagePools/storageVolumeCreateBody.tsx:67
 msgid "New volume name"
 msgstr ""
 
@@ -1708,7 +1708,7 @@ msgstr ""
 msgid "No network interfaces defined for this VM"
 msgstr ""
 
-#: src/components/networks/networkList.jsx:73
+#: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
 msgstr ""
 
@@ -1732,7 +1732,7 @@ msgstr ""
 msgid "No storage"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:73
+#: src/components/storagePools/storagePoolList.tsx:82
 msgid "No storage pool is defined on this host"
 msgstr ""
 
@@ -1740,7 +1740,7 @@ msgstr ""
 msgid "No storage pools available"
 msgstr ""
 
-#: src/components/storagePools/storagePoolVolumesTab.jsx:112
+#: src/components/storagePools/storagePoolVolumesTab.tsx:124
 msgid "No storage volumes defined for this storage pool"
 msgstr ""
 
@@ -1748,23 +1748,23 @@ msgstr ""
 msgid "No virtual networks"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:184
+#: src/components/storagePools/storagePoolDelete.tsx:197
 msgid "No volumes exist in this storage pool."
 msgstr ""
 
-#: src/components/networks/network.jsx:162
+#: src/components/networks/network.tsx:165
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:227
+#: src/components/storagePools/storagePoolDelete.tsx:236
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:203
+#: src/components/networks/createNetworkDialog.tsx:266
 msgid "None"
 msgstr ""
 
@@ -1788,7 +1788,7 @@ msgstr ""
 msgid "On the host"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeDelete.jsx:71
+#: src/components/storagePools/storageVolumeDelete.tsx:81
 msgid ""
 "One or more selected volumes are used by domains. Detach the disks first to "
 "allow volume deletion."
@@ -1808,8 +1808,8 @@ msgstr ""
 msgid "Operating system"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:173
-#: src/components/storagePools/storagePool.jsx:180
+#: src/components/storagePools/storagePool.tsx:185
+#: src/components/storagePools/storagePool.tsx:192
 msgid "Operation is in progress"
 msgstr ""
 
@@ -1817,7 +1817,7 @@ msgstr ""
 msgid "Other VMs using SPICE"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:74
+#: src/components/storagePools/storagePool.tsx:77
 #: src/components/vm/vmDetailsPage.jsx:119
 msgid "Overview"
 msgstr ""
@@ -1841,7 +1841,7 @@ msgstr ""
 msgid "Path"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:109
+#: src/components/storagePools/createStoragePoolDialog.tsx:147
 msgid "Path on host's filesystem"
 msgstr ""
 
@@ -1881,16 +1881,16 @@ msgstr ""
 msgid "Persistence"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:66
-#: src/components/networks/networkOverviewTab.jsx:116
+#: src/components/storagePools/storagePoolOverviewTab.tsx:68
+#: src/components/networks/networkOverviewTab.tsx:125
 msgid "Persistent"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:63
+#: src/components/storagePools/createStoragePoolDialog.tsx:95
 msgid "Physical disk device"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:167
+#: src/components/storagePools/createStoragePoolDialog.tsx:223
 msgid "Physical disk device on host"
 msgstr ""
 
@@ -1926,7 +1926,7 @@ msgstr ""
 msgid "Pool"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:163
+#: src/components/storagePools/storageVolumeCreate.tsx:187
 msgid "Pool needs to be active to create volume"
 msgstr ""
 
@@ -1934,11 +1934,11 @@ msgstr ""
 msgid "Pool type $0 does not support volume creation"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:163
+#: src/components/storagePools/storageVolumeCreate.tsx:187
 msgid "Pool type doesn't support volume creation"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:94
+#: src/components/storagePools/storagePoolDelete.tsx:97
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
@@ -1953,7 +1953,7 @@ msgstr ""
 msgid "Power off"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:65
+#: src/components/storagePools/createStoragePoolDialog.tsx:97
 msgid "Pre-formatted block device"
 msgstr ""
 
@@ -1961,15 +1961,15 @@ msgstr ""
 msgid "Preferred number of sockets to expose to the guest."
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:169
+#: src/components/networks/networkOverviewTab.tsx:178
 msgid "Prefix"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:296
+#: src/components/networks/createNetworkDialog.tsx:398
 msgid "Prefix length"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:114
+#: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr ""
 
@@ -2026,7 +2026,7 @@ msgstr ""
 msgid "Public key"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:276
+#: src/components/networks/networkOverviewTab.tsx:307
 msgid "Range"
 msgstr ""
 
@@ -2070,7 +2070,7 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
 #: src/components/vm/nics/vmNicsCard.jsx:482
 #: src/components/vm/nics/vmNicsCard.jsx:492
-#: src/components/networks/networkOverviewTab.jsx:72
+#: src/components/networks/networkOverviewTab.tsx:81
 msgid "Remove"
 msgstr ""
 
@@ -2102,7 +2102,7 @@ msgstr ""
 msgid "Remove network interface?"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:65
+#: src/components/networks/networkOverviewTab.tsx:74
 msgid "Remove static host from DHCP"
 msgstr ""
 
@@ -2186,7 +2186,7 @@ msgid "Run"
 msgstr ""
 
 #: src/components/vm/overview/vmOverviewCard.jsx:107
-#: src/components/networks/networkOverviewTab.jsx:126
+#: src/components/networks/networkOverviewTab.tsx:135
 msgid "Run when host boots"
 msgstr ""
 
@@ -2268,7 +2268,7 @@ msgstr ""
 msgid "Serial console ($0)"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:230
+#: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
 msgstr ""
 
@@ -2337,9 +2337,9 @@ msgstr ""
 msgid "Shutting down"
 msgstr ""
 
-#: src/components/storagePools/storagePoolVolumesTab.jsx:78
-#: src/components/storagePools/storagePoolList.jsx:68
-#: src/components/storagePools/storageVolumeCreateBody.jsx:90
+#: src/components/storagePools/storageVolumeCreateBody.tsx:134
+#: src/components/storagePools/storagePoolVolumesTab.tsx:90
+#: src/components/storagePools/storagePoolList.tsx:77
 msgid "Size"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr ""
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:51
+#: src/components/storagePools/storagePoolOverviewTab.tsx:53
 #: src/components/vm/disks/diskAdd.jsx:586
 #: src/components/vm/disks/diskAdd.jsx:622
 #: src/components/vm/disks/vmDisksCard.jsx:190
@@ -2387,7 +2387,7 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:56
+#: src/components/storagePools/storagePoolOverviewTab.tsx:58
 msgid "Source format"
 msgstr ""
 
@@ -2395,18 +2395,18 @@ msgstr ""
 msgid "Source must not be empty"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:41
-#: src/components/storagePools/storagePoolOverviewTab.jsx:46
-#: src/components/storagePools/createStoragePoolDialog.jsx:175
-#: src/components/storagePools/createStoragePoolDialog.jsx:192
+#: src/components/storagePools/storagePoolOverviewTab.tsx:43
+#: src/components/storagePools/storagePoolOverviewTab.tsx:48
+#: src/components/storagePools/createStoragePoolDialog.tsx:231
+#: src/components/storagePools/createStoragePoolDialog.tsx:248
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:47
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:64
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:195
 msgid "Source path"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:186
-#: src/components/storagePools/createStoragePoolDialog.jsx:199
+#: src/components/storagePools/createStoragePoolDialog.tsx:242
+#: src/components/storagePools/createStoragePoolDialog.tsx:255
 msgid "Source path should not be empty"
 msgstr ""
 
@@ -2414,20 +2414,20 @@ msgstr ""
 msgid "Source should start with http, ftp or nfs protocol"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:220
+#: src/components/storagePools/createStoragePoolDialog.tsx:276
 msgid "Source volume group"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:235
+#: src/components/networks/createNetworkDialog.tsx:318
 msgid "Start"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:237
+#: src/components/storagePools/createStoragePoolDialog.tsx:299
 msgid "Start pool when host boots"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:92
-#: src/components/networks/createNetworkDialog.jsx:120
+#: src/components/networks/createNetworkDialog.tsx:127
+#: src/components/networks/createNetworkDialog.tsx:155
 msgid "Start should not be empty"
 msgstr ""
 
@@ -2435,24 +2435,24 @@ msgstr ""
 msgid "Started"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:235
+#: src/components/storagePools/createStoragePoolDialog.tsx:297
 msgid "Startup"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:70
+#: src/components/storagePools/storagePoolList.tsx:79
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.jsx:422
-#: src/components/networks/networkList.jsx:70
+#: src/components/networks/networkList.tsx:76
 #: src/components/vms/hostvmslist.tsx:156
 #: src/components/vms/hostvmslist.tsx:203
 msgid "State"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:284
+#: src/components/networks/networkOverviewTab.tsx:315
 msgid "Static host entries"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:66
+#: src/components/networks/networkOverviewTab.tsx:75
 msgid "Static host from DHCP could not be removed"
 msgstr ""
 
@@ -2469,25 +2469,25 @@ msgstr ""
 msgid "Storage limit"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:121
+#: src/components/storagePools/storagePool.tsx:133
 msgid "Storage pool $0 failed to get activated"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:141
+#: src/components/storagePools/storagePool.tsx:153
 msgid "Storage pool $0 failed to get deactivated"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:403
+#: src/components/storagePools/createStoragePoolDialog.tsx:479
 msgid "Storage pool failed to be created"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:49
+#: src/components/storagePools/createStoragePoolDialog.tsx:71
 msgid "Storage pool name"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:55
-#: src/components/storagePools/storagePoolList.jsx:62
-#: src/components/storagePools/storagePoolList.jsx:64
+#: src/components/storagePools/storagePoolList.tsx:64
+#: src/components/storagePools/storagePoolList.tsx:71
+#: src/components/storagePools/storagePoolList.tsx:73
 #: src/components/create-vm-dialog/createVmDialog.jsx:972
 msgid "Storage pools"
 msgstr ""
@@ -2504,16 +2504,16 @@ msgstr ""
 msgid "Storage volume"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:79
+#: src/components/storagePools/storageVolumeCreate.tsx:96
 #: src/components/vm/disks/diskAdd.jsx:560
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:80
+#: src/components/storagePools/storagePool.tsx:83
 msgid "Storage volumes"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeDelete.jsx:47
+#: src/components/storagePools/storageVolumeDelete.tsx:57
 msgid "Storage volumes could not be deleted"
 msgstr ""
 
@@ -2552,12 +2552,12 @@ msgstr ""
 msgid "Target"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:61
-#: src/components/storagePools/createStoragePoolDialog.jsx:105
+#: src/components/storagePools/storagePoolOverviewTab.tsx:63
+#: src/components/storagePools/createStoragePoolDialog.tsx:143
 msgid "Target path"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:111
+#: src/components/storagePools/createStoragePoolDialog.tsx:149
 msgid "Target path should not be empty"
 msgstr ""
 
@@ -2579,7 +2579,7 @@ msgstr ""
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:161
+#: src/components/storagePools/createStoragePoolDialog.tsx:217
 msgid "The directory on the server being exported"
 msgstr ""
 
@@ -2610,12 +2610,12 @@ msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:67
+#: src/components/networks/networkOverviewTab.tsx:76
 msgid "The static host entry for $0 will be removed:"
 msgstr ""
 
-#: src/components/storagePools/storagePoolDelete.jsx:143
-#: src/components/storagePools/storagePoolDelete.jsx:147
+#: src/components/storagePools/storagePoolDelete.tsx:151
+#: src/components/storagePools/storagePoolDelete.tsx:155
 msgid "The storage pool could not be deleted"
 msgstr ""
 
@@ -2691,8 +2691,8 @@ msgstr ""
 msgid "Troubleshoot"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:76
-#: src/components/storagePools/createStoragePoolDialog.jsx:83
+#: src/components/storagePools/storagePoolOverviewTab.tsx:78
+#: src/components/storagePools/createStoragePoolDialog.tsx:115
 #: src/components/vm/overview/bootOrder.jsx:118
 #: src/components/vm/overview/bootOrder.jsx:131
 #: src/components/vm/overview/bootOrder.jsx:146
@@ -2733,7 +2733,7 @@ msgstr ""
 msgid "Unique name, default: $0"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:144
+#: src/components/networks/createNetworkDialog.tsx:187
 msgid "Unique network name"
 msgstr ""
 
@@ -2788,7 +2788,7 @@ msgstr ""
 msgid "Used"
 msgstr ""
 
-#: src/components/storagePools/storagePoolVolumesTab.jsx:78
+#: src/components/storagePools/storagePoolVolumesTab.tsx:90
 msgid "Used by"
 msgstr ""
 
@@ -2919,10 +2919,10 @@ msgstr ""
 msgid "Vendor support ended $0"
 msgstr ""
 
-#: src/components/storagePools/storagePoolList.jsx:52
+#: src/components/storagePools/storagePoolList.tsx:61
 #: src/components/vm/vmDetailsPage.jsx:95
 #: src/components/vm/vmDetailsPage.jsx:248
-#: src/components/networks/networkList.jsx:51
+#: src/components/networks/networkList.tsx:57
 #: src/components/vms/hostvmslist.tsx:196
 #: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
 msgid "Virtual machines"
@@ -2936,7 +2936,7 @@ msgstr ""
 msgid "Virtual network"
 msgstr ""
 
-#: src/components/networks/createNetworkDialog.jsx:394
+#: src/components/networks/createNetworkDialog.tsx:511
 msgid "Virtual network failed to be created"
 msgstr ""
 
@@ -2960,15 +2960,15 @@ msgstr ""
 msgid "Volume"
 msgstr ""
 
-#: src/components/storagePools/storageVolumeCreate.jsx:100
+#: src/components/storagePools/storageVolumeCreate.tsx:117
 msgid "Volume failed to be created"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:170
+#: src/components/storagePools/createStoragePoolDialog.tsx:226
 msgid "Volume group name"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:227
+#: src/components/storagePools/createStoragePoolDialog.tsx:283
 msgid "Volume group name should not be empty"
 msgstr ""
 
@@ -3006,8 +3006,8 @@ msgstr ""
 msgid "You need to select the most closely matching operating system"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:63
-#: src/components/networks/network.jsx:64
+#: src/components/storagePools/storagePool.tsx:66
+#: src/components/networks/network.tsx:67
 msgid "active"
 msgstr ""
 
@@ -3016,7 +3016,7 @@ msgstr ""
 msgid "add"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:193
+#: src/components/networks/networkOverviewTab.tsx:206
 msgid "add entry"
 msgstr ""
 
@@ -3080,24 +3080,24 @@ msgstr ""
 msgid "hostdev"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:69
+#: src/components/storagePools/createStoragePoolDialog.tsx:101
 msgid "iSCSI direct target"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:142
+#: src/components/storagePools/createStoragePoolDialog.tsx:192
 msgid "iSCSI initiator IQN"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:62
+#: src/components/storagePools/createStoragePoolDialog.tsx:94
 msgid "iSCSI target"
 msgstr ""
 
-#: src/components/storagePools/createStoragePoolDialog.jsx:164
+#: src/components/storagePools/createStoragePoolDialog.tsx:220
 msgid "iSCSI target IQN"
 msgstr ""
 
-#: src/components/storagePools/storagePool.jsx:63
-#: src/components/networks/network.jsx:64
+#: src/components/storagePools/storagePool.tsx:66
+#: src/components/networks/network.tsx:67
 msgid "inactive"
 msgstr ""
 
@@ -3138,9 +3138,9 @@ msgstr ""
 msgid "network"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:67
-#: src/components/storagePools/storagePoolOverviewTab.jsx:72
-#: src/components/networks/networkOverviewTab.jsx:117 src/helpers.ts:279
+#: src/components/storagePools/storagePoolOverviewTab.tsx:69
+#: src/components/storagePools/storagePoolOverviewTab.tsx:74
+#: src/components/networks/networkOverviewTab.tsx:126 src/helpers.ts:279
 msgid "no"
 msgstr ""
 
@@ -3150,7 +3150,7 @@ msgstr ""
 
 #: src/components/vm/overview/vsock.jsx:269
 #: src/components/vm/overview/watchdog.jsx:249
-#: src/components/networks/networkOverviewTab.jsx:292
+#: src/components/networks/networkOverviewTab.tsx:323
 msgid "none"
 msgstr ""
 
@@ -3170,7 +3170,7 @@ msgstr ""
 msgid "redirected device"
 msgstr ""
 
-#: src/components/networks/networkOverviewTab.jsx:61
+#: src/components/networks/networkOverviewTab.tsx:70
 msgid "remove"
 msgstr ""
 
@@ -3246,8 +3246,8 @@ msgstr ""
 msgid "vsock requires special software"
 msgstr ""
 
-#: src/components/storagePools/storagePoolOverviewTab.jsx:67
-#: src/components/storagePools/storagePoolOverviewTab.jsx:72
-#: src/components/networks/networkOverviewTab.jsx:117 src/helpers.ts:278
+#: src/components/storagePools/storagePoolOverviewTab.tsx:69
+#: src/components/storagePools/storagePoolOverviewTab.tsx:74
+#: src/components/networks/networkOverviewTab.tsx:126 src/helpers.ts:278
 msgid "yes"
 msgstr ""
