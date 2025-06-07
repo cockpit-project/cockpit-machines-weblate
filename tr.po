@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-07 03:35+0000\n"
-"PO-Revision-Date: 2025-05-21 20:11+0000\n"
+"PO-Revision-Date: 2025-06-07 07:41+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/tr/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:929
 msgid "$0 $1 available at default location"
@@ -133,7 +133,7 @@ msgstr "TPM ekle"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
-msgstr "DHCP statik ana makine girdisi ekle"
+msgstr "DHCP sabit anamakine girişi ekle"
 
 #: src/components/vm/disks/diskAdd.jsx:686
 #: src/components/vm/disks/vmDisksCard.jsx:75
@@ -275,10 +275,8 @@ msgid "Boot order settings could not be saved"
 msgstr "Önyükleme sırası ayarları kaydedilemedi"
 
 #: src/components/vm/nics/nicBody.jsx:226
-#, fuzzy
-#| msgid "bridge"
 msgid "Bridge"
-msgstr "köprü"
+msgstr "Köprü"
 
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
@@ -794,7 +792,7 @@ msgstr "Diskler"
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
 msgstr ""
-"Bu sanal makineyi kaynak ve hedef ana makinede aynı anda çalıştırmayın."
+"Bu sanal makineyi kaynak ve hedef anamakinelerde aynı anda çalıştırmayın."
 
 #: src/helpers.ts:290
 msgid "Do nothing"
@@ -1119,11 +1117,11 @@ msgstr "Anamakine aygıtı eklenemedi"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:255
 msgid "Host device will be removed from $0:"
-msgstr "Ana makine $0 sanal makinesinden kaldırılacak:"
+msgstr "Anamakine $0 sanal makinesinden kaldırılacaktır:"
 
 #: src/components/vm/vmDetailsPage.jsx:174
 msgid "Host devices"
-msgstr "Ana makine aygıtları"
+msgstr "Anamakine aygıtları"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:170
 msgid "Host name"
@@ -1518,7 +1516,7 @@ msgstr "Taşı"
 
 #: src/components/vm/vmMigrateDialog.jsx:207
 msgid "Migrate VM to another host"
-msgstr "Sanal makineyi başka bir ana makineye taşı"
+msgstr "Sanal makineyi başka bir anamakineye geçir"
 
 #: src/components/vm/vmMigrateDialog.jsx:162
 msgid "Migration failed"
@@ -1532,10 +1530,8 @@ msgid "Mode"
 msgstr "Kip"
 
 #: src/components/vm/nics/nicBody.jsx:196
-#, fuzzy
-#| msgid "Model"
 msgid "Mode help"
-msgstr "Model"
+msgstr "Mod yardımı"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:197
 #: src/components/vm/nics/nicBody.jsx:51
@@ -1547,10 +1543,8 @@ msgid "Model type"
 msgstr "Model türü"
 
 #: src/components/vm/nics/nicBody.jsx:212
-#, fuzzy
-#| msgid "more info"
 msgid "More info"
-msgstr "daha fazla bilgi"
+msgstr "Daha fazla bilgi"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:47
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
@@ -1707,7 +1701,7 @@ msgstr "Açıklama yok"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:89
 msgid "No directories shared between the host and this VM"
-msgstr "Ana makine ve bu sanal makine arasında paylaşılan dizin yok"
+msgstr "Anamakine ve bu sanal makine arasında paylaşılan dizinler yok"
 
 #: src/components/vm/disks/vmDisksCard.jsx:259
 msgid "No disks defined for this VM"
@@ -1715,11 +1709,11 @@ msgstr "Bu sanal makine için tanımlanan diskler yok"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:214
 msgid "No host device selected"
-msgstr "Anamakine aygıtı seçilmedi"
+msgstr "Seçilen anamakine aygıtı yok"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:314
 msgid "No host devices assigned to this VM"
-msgstr "Bu sanal makineye atanan ana makine aygıtı yok"
+msgstr "Bu sanal makineye atanan anamakine aygıtları yok"
 
 #: src/components/vm/nics/nicBody.jsx:139
 msgid "No network devices"
@@ -1810,7 +1804,7 @@ msgstr "Eski belirtecin süresi doldu"
 
 #: src/components/vm/overview/helpers.jsx:33
 msgid "On the host"
-msgstr "Ana makinede"
+msgstr "Anamakinede"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:81
 msgid ""
@@ -1857,10 +1851,8 @@ msgid "Parent snapshot"
 msgstr "Üst öğe anlık görüntüsü"
 
 #: src/components/vm/nics/nicBody.jsx:236
-#, fuzzy
-#| msgid "host passthrough"
 msgid "Passthrough"
-msgstr "anamakine geçişi"
+msgstr "Geçiş"
 
 #: src/components/vm/disks/diskEdit.jsx:43
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
@@ -1879,7 +1871,7 @@ msgstr "Anamakinenin dosya sistemi üzerindeki ISO dosyasının yolu"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:301
 msgid "Path to cloud image file on host's file system"
-msgstr "Ana makinenin dosya sistemi üzerindeki bulut kalıp dosyasının yolu"
+msgstr "Anamakinenin dosya sistemi üzerindeki bulut kalıp dosyasının yolu"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:121
 msgid "Path to directory"
@@ -1887,7 +1879,7 @@ msgstr "Dizinin yolu"
 
 #: src/components/vm/disks/diskAdd.jsx:339
 msgid "Path to file on host's file system"
-msgstr "Ana makinenin dosya sistemi üzerindeki dosyanın yolu"
+msgstr "Anamakinenin dosya sistemi üzerindeki dosyanın yolu"
 
 #: src/components/vm/vmActions.jsx:220 src/helpers.ts:289
 msgid "Pause"
@@ -2039,8 +2031,9 @@ msgid ""
 "Provides a bridge from the guest virtual machine directly onto the LAN. This "
 "needs a bridge device on the host with one or more physical NICs."
 msgstr ""
-"Konuk sanal makineden doğrudan LAN'a bir köprü sağlar. Bunun için ana "
-"makinede bir veya daha fazla fiziksel NIC'e sahip bir köprü aygıtı gerekir."
+"Misafir sanal makineden doğrudan LAN'a bir köprü sağlar. Bunun için "
+"anamakinede bir veya daha fazla fiziksel NIC'e sahip bir köprü aygıtı "
+"gerekir."
 
 #: src/components/vm/nics/nicBody.jsx:88
 msgid ""
@@ -2110,7 +2103,7 @@ msgstr "Kaldır"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:154
 msgid "Remove SPICE audio and host devices"
-msgstr "SPICE ses ve ana makine aygıtlarını kaldır"
+msgstr "SPICE ses ve anamakine aygıtlarını kaldır"
 
 #: src/components/vm/disks/vmDiskColumns.jsx:160
 msgid "Remove and delete file"
@@ -2138,7 +2131,7 @@ msgstr "Ağ arayüzü kaldırılsın mı?"
 
 #: src/components/networks/networkOverviewTab.tsx:74
 msgid "Remove static host from DHCP"
-msgstr "DHCP'den statik ana makineyi kaldır"
+msgstr "DHCP'den sabit anamakineyi kaldır"
 
 #: src/components/vm/vmRenameDialog.jsx:70 src/components/vm/vmActions.jsx:460
 msgid "Rename"
@@ -2254,7 +2247,7 @@ msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
-"SPICE bu ana makinede desteklenmiyor ve bu sanal makinenin önyükleme "
+"SPICE bu anamakinede desteklenmiyor ve bu sanal makinenin önyükleme "
 "yapmamasına neden olacak."
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
@@ -2330,7 +2323,7 @@ msgstr "Paylaş"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:157
 msgid "Share a host directory with the guest"
-msgstr "Bir ana makine dizinini konuk ile paylaş"
+msgstr "Bir anamakine dizinini misafir ile paylaş"
 
 #: src/components/vm/vmDetailsPage.jsx:195
 msgid "Shared directories"
@@ -2340,7 +2333,7 @@ msgstr "Paylaşılan dizinler"
 #: src/components/vm/vmDetailsPage.jsx:197
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
-"Paylaşılan ana makine dizinlerinin sanal makine içinde elle bağlanması "
+"Paylaşılan anamakine dizinlerinin sanal makine içinde el ile bağlanması "
 "gerekir"
 
 #: src/components/vm/vmMigrateDialog.jsx:99
@@ -2498,11 +2491,11 @@ msgstr "Durum"
 
 #: src/components/networks/networkOverviewTab.tsx:315
 msgid "Static host entries"
-msgstr "Statik ana makine girdileri"
+msgstr "Sabit anamakine girişleri"
 
 #: src/components/networks/networkOverviewTab.tsx:75
 msgid "Static host from DHCP could not be removed"
-msgstr "DHCP'den statik ana makine kaldırılamadı"
+msgstr "DHCP'den sabit anamakine kaldırılamadı"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:977
 #: src/components/vm/vmMigrateDialog.jsx:92
@@ -2571,8 +2564,8 @@ msgstr "Depolama birimleri silinemedi"
 msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
-"Depolama birimleri, bu ana makine ile hedef ana makine arasında "
-"paylaşılmalıdır."
+"Depolama birimleri, bu anamakine ile hedef anamakine arasında paylaşılmak "
+"zorundadır."
 
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
@@ -2640,19 +2633,19 @@ msgstr "Dışa aktarılan sunucu üzerindeki dizin"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:197
 msgid "The host path that is to be exported."
-msgstr "Dışa aktarılacak ana makine yolu."
+msgstr "Dışa aktarılacak anamakine yolu."
 
 #: src/components/vm/vmMigrateDialog.jsx:72
 msgid ""
 "The migrated VM configuration is removed from the source host. The "
 "destination host is considered the new home of the VM."
 msgstr ""
-"Taşınan sanal makine yapılandırması kaynak ana makineden kaldırılır. Hedef "
-"ana makine, sanal makinenin yeni evi olarak kabul edilir."
+"Geçirilen sanal makine yapılandırması kaynak anamakineden kaldırıldı. Hedef "
+"anamakine, sanal makinenin yeni evi olarak kabul edildi."
 
 #: src/components/vm/nics/nicBody.jsx:202
 msgid "The mode influences the delivery of packets."
-msgstr ""
+msgstr "Mod, paketlerin dağıtımını etkiler."
 
 #: src/components/vm/disks/diskAdd.jsx:105
 msgid "The pool is empty"
@@ -2669,7 +2662,7 @@ msgstr "Seçilen işletim sisteminin en az $0 $1 depolama alanı gereksinimi var
 
 #: src/components/networks/networkOverviewTab.tsx:76
 msgid "The static host entry for $0 will be removed:"
-msgstr "$0 için statik ana makine girdisi kaldırılacak:"
+msgstr "$0 için sabit anamakine girişi kaldırılacaktır:"
 
 #: src/components/storagePools/storagePoolDelete.tsx:151
 #: src/components/storagePools/storagePoolDelete.tsx:155
@@ -2703,41 +2696,28 @@ msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr ""
-"Bu, yükseltmeler veya canlı geçiş nedeniyle SPICE'ı desteklemeyen bir ana "
-"makine için tasarlanmıştır."
+"Bu, yükseltmeler veya canlı geçişten dolayı SPICE'ı desteklemeyen bir "
+"anamakine için tasarlanmıştır."
 
 #: src/components/vm/nics/nicBody.jsx:87
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with dynamic / wireless networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "dynamic / wireless networking configs."
 msgstr ""
-"Bu, dinamik / kablosuz ağ yapılandırmalarına sahip ana makinelerde genel "
-"konuk bağlantısı için tavsiye edilen yapılandırmadır."
+"Bu, değişken / kablosuz ağ yapılandırmalarına sahip anamakinelerde genel "
+"misafir bağlanabilirliği için önerilen türdür."
 
 #: src/components/vm/nics/nicBody.jsx:96
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with static wired networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "static wired networking configs."
 msgstr ""
-"Bu, statik kablolu ağ yapılandırmalarına sahip ana makinelerde genel konuk "
-"bağlantısı için tavsiye edilen yapılandırmadır."
+"Bu, sabit kablolu ağ yapılandırmalarına sahip anamakinelerde genel misafir "
+"bağlanabilirliği için önerilen türdür."
 
 #: src/components/vm/nics/nicBody.jsx:102
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for high performance or enhanced security."
 msgid "This is the recommended type for high performance or enhanced security."
-msgstr ""
-"Bu, yüksek performans veya gelişmiş güvenlik için tavsiye edilen "
-"yapılandırmadır."
+msgstr "Bu, yüksek performans veya gelişmiş güvenlik için önerilen türdür."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -2865,7 +2845,7 @@ msgid ""
 "storage. This can be a shared storage pool, NFS, or any other method of "
 "sharing storage."
 msgstr ""
-"Depolama alanınız için hem kaynak hem de hedef ana makinede aynı konumu "
+"Depolama alanınız için hem kaynak hem de hedef anamakinelerde aynı konumu "
 "kullanın. Bu, paylaşılan bir depolama havuzu, NFS veya depolamayı "
 "paylaşmanın başka herhangi bir yöntemi olabilir."
 
@@ -2913,7 +2893,7 @@ msgstr "SPICE kullanıyor"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:311
 msgid "VM $0 Host Devices"
-msgstr "$0 Sanal Makinesi Ana Makine Aygıtları"
+msgstr "$0 Sanal Makinesi Anamakine Aygıtları"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:199
 msgid "VM $0 already exists"
@@ -3039,7 +3019,7 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
-"Sanal soket desteği, ana makine ile konuk arasında bir soket üzerinden "
+"Sanal soket desteği, anamakine ile misafir arasında bir soket üzerinden "
 "iletişim kurulmasını sağlar. Yine de soket üzerinden iletişim kurmak için "
 "özel vsock kullanabilen yazılım gerekir."
 
