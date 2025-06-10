@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:40+0000\n"
-"PO-Revision-Date: 2025-06-10 11:20+0000\n"
+"PO-Revision-Date: 2025-06-10 15:52+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/de/>\n"
@@ -395,6 +395,11 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"Der Zugriff auf die BIOS/EFI Einstellungen ist herstellerabhängig. Dazu muss "
+"eine Taste während des Bootprozesses gedrückt werden (ESC, F1, F12, Entf). "
+"Aktivieren Sie die Einstellung für \"virtualization\", \"VM\", \"VMX\", "
+"\"SVM\", \"VTX\", \"VTD\". Weitere Details finden Sie in der Anleitung Ihres "
+"Computers."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:536
 msgid "Checking token validity..."
@@ -433,7 +438,7 @@ msgstr "Cockpit-Projekt"
 
 #: src/components/vm/disks/vmDisksCard.jsx:216
 msgid "Concurrently writeable"
-msgstr ""
+msgstr "Gleichzeitig schreibbar"
 
 #: src/components/common/deleteResource.tsx:125
 msgid "Confirm this action"
@@ -496,7 +501,7 @@ msgstr "Festplattenspeicher konnte nicht gelöscht werden"
 
 #: src/components/vm/overview/watchdog.jsx:108
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Watchdog konnte nicht dynamisch hinzugefügt werden"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:81
 msgid "Could not revert to snapshot"
@@ -560,10 +565,8 @@ msgid "Create new qcow2 volume"
 msgstr "Neues qcow2-Volume ersttellen"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:963
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new raw volume"
-msgstr "Neuen Datenträger erstellen"
+msgstr "Neuen Raw Datenträger erstellen"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1461
 msgid "Create new virtual machine"
@@ -670,7 +673,7 @@ msgstr "$0 VM löschen?"
 
 #: src/components/storagePools/storagePoolDelete.tsx:207
 msgid "Delete $0 storage pool?"
-msgstr ""
+msgstr "Speicher-Pool $0 löschen?"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:73
 msgid "Delete $0 volume"
@@ -695,6 +698,8 @@ msgid ""
 "Deleting an inactive storage pool will only undefine the pool. Its content "
 "will not be deleted."
 msgstr ""
+"Das Löschen eines inaktiven Speicher-Pools entfernt nur seine Definition. "
+"Der Inhalt wird nicht gelöscht."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:70
 msgid "Deleting shared directories is possible only when the guest is shut off"
@@ -729,6 +734,8 @@ msgstr "Ziel-URI darf nicht leer sein"
 msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
+"Entfernen der Festplatten, die diesen Pool verwenden, von allen VMs vor der "
+"Löschung."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1415
 msgid "Details"
@@ -800,6 +807,8 @@ msgstr "Festplattenabbildpfad darf nicht leer sein"
 #: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
 msgstr ""
+"Festplattenabbilder können im Home-Verzeichnis des Benutzers gespeichert "
+"werden"
 
 #: src/components/vm/disks/diskEdit.jsx:199
 msgid "Disk settings could not be saved"
@@ -822,7 +831,7 @@ msgstr ""
 
 #: src/helpers.ts:290
 msgid "Do nothing"
-msgstr ""
+msgstr "Nichts machen"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
 msgid "Domain has crashed"
@@ -838,7 +847,7 @@ msgstr "Ein Betriebssystem herunterladen"
 
 #: src/app.jsx:291
 msgid "Download progress"
-msgstr ""
+msgstr "Fortschritt beim Herunterladen"
 
 #: src/app.jsx:287
 msgid "Downloading image for VM $0"
@@ -850,7 +859,7 @@ msgstr "Herunterladen: $0%"
 
 #: src/helpers.ts:291
 msgid "Dump core"
-msgstr ""
+msgstr "Coredump ausführen"
 
 #: src/components/vm/vmMigrateDialog.jsx:64
 msgid "Duration"
@@ -870,26 +879,20 @@ msgid "Edit $0 attributes"
 msgstr "$0 Attribute bearbeiten"
 
 #: src/components/vm/vmActions.jsx:470
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description"
-msgstr "Keine Beschreibung"
+msgstr "Beschreibung bearbeiten"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:56
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description of VM $0"
-msgstr "Keine Beschreibung"
+msgstr "Beschreibung VM $0 bearbeiten"
 
 #: src/components/vm/overview/vsock.jsx:212
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "Edit vsock interface"
-msgstr "Netzwerkschnittstellen"
+msgstr "vsock-Schnittstelle bearbeiten"
 
 #: src/components/vm/overview/watchdog.jsx:174
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Watchdog Gerätetyp bearbeiten"
 
 #: src/components/vm/nics/vmNicsCard.jsx:452
 msgid "Editing network interfaces of transient guests is not allowed"
@@ -905,13 +908,11 @@ msgstr ""
 #: src/components/vm/disks/vmDiskColumns.jsx:194
 #: src/components/vm/disks/mediaEject.jsx:105
 msgid "Eject"
-msgstr ""
+msgstr "Auswerfen"
 
 #: src/components/vm/disks/mediaEject.jsx:101
-#, fuzzy
-#| msgid "Remove disk from VM?"
 msgid "Eject disc from VM?"
-msgstr "Festplatte aus VM entfernen?"
+msgstr "Disk aus VM auswerfen?"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:242
 msgid "Emulated machine"
@@ -920,6 +921,7 @@ msgstr "Emulierte Maschine"
 #: src/app.jsx:122
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
+"Aktivieren der Virtualisierungsunterstützung in den BIOS/EFI-Einstellungen."
 
 #: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
@@ -982,15 +984,15 @@ msgstr "Fehler beim Konfigurieren von vsock"
 
 #: src/components/vm/overview/watchdog.jsx:90
 msgid "Failed to configure watchdog"
-msgstr ""
+msgstr "Fehler bei der Watchdog-Konfiguration"
 
 #: src/components/vm/overview/vsock.jsx:140
 msgid "Failed to detach vsock"
-msgstr ""
+msgstr "Fehler bei der Ablösung von vsock"
 
 #: src/components/vm/overview/watchdog.jsx:137
 msgid "Failed to detach watchdog"
-msgstr ""
+msgstr "Fehler bei der Abtrennung des Watchdogs"
 
 #: src/app.jsx:178
 msgid "Failed to fetch some resources"
@@ -1063,7 +1065,7 @@ msgstr "Neustart von $0 erzwingen?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:109
 msgid "Force revert"
-msgstr ""
+msgstr "Rücknahme erzwingen"
 
 #: src/components/vm/vmActions.jsx:305 src/components/vm/vmActions.jsx:310
 msgid "Force shut down"
@@ -1204,6 +1206,7 @@ msgstr "IPv4-Adresse"
 #: src/components/networks/createNetworkDialog.tsx:123
 msgid "IPv4 address cannot be same as the network's broadcast address"
 msgstr ""
+"Die IPv4-Adresse darf nicht mit der Netzwerk-Broadcastadresse übereinstimmen"
 
 #: src/components/networks/createNetworkDialog.tsx:269
 msgid "IPv4 and IPv6"
@@ -1284,7 +1287,7 @@ msgstr "Importieren und ausführen"
 
 #: src/components/vm/disks/diskAdd.jsx:489
 msgid "Importing an image with a backing file is unsupported"
-msgstr ""
+msgstr "Import eines Abbildes mit einer Backing-Datei wird nicht unterstützt"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:318
 msgid ""
@@ -1461,7 +1464,7 @@ msgstr "Vor dem Wechsel des Bustyps muss die Maschine ausgeschaltet werden"
 
 #: src/components/vm/disks/diskEdit.jsx:63
 msgid "Machine must be shut off before changing cache mode"
-msgstr ""
+msgstr "Zum Ändern des Cache-Mode muss die Maschine muss ausgeschaltet sein"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1574,10 +1577,8 @@ msgid "Mode"
 msgstr "Modus"
 
 #: src/components/vm/nics/nicBody.jsx:196
-#, fuzzy
-#| msgid "Model"
 msgid "Mode help"
-msgstr "Modell"
+msgstr "Modus Hilfe"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:197
 #: src/components/vm/nics/nicBody.jsx:51
@@ -1589,10 +1590,8 @@ msgid "Model type"
 msgstr "Modelltyp"
 
 #: src/components/vm/nics/nicBody.jsx:212
-#, fuzzy
-#| msgid "more info"
 msgid "More info"
-msgstr "mehr Infos"
+msgstr "Weitere Infos"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:47
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
@@ -1814,7 +1813,7 @@ msgstr "Keine virtuellen Netzwerke"
 
 #: src/components/storagePools/storagePoolDelete.tsx:197
 msgid "No volumes exist in this storage pool."
-msgstr ""
+msgstr "In diesem Speicher-Pool gibt es keine Datenträger."
 
 #: src/components/networks/network.tsx:165
 msgid ""
@@ -1829,6 +1828,8 @@ msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
+"Ein nicht-beständiger Speicher-Pool kann nicht gelöscht werden. Er "
+"verschwindet beim Deaktivieren."
 
 #: src/components/networks/createNetworkDialog.tsx:266
 msgid "None"
@@ -1859,6 +1860,8 @@ msgid ""
 "One or more selected volumes are used by domains. Detach the disks first to "
 "allow volume deletion."
 msgstr ""
+"Ein oder mehrere Datenträger werden von Domänen verwendet. Geben Sie die "
+"Festplatten zuerst frei, um die Datenträger zu löschen."
 
 #: src/components/vm/overview/memoryModal.jsx:147
 #: src/components/vm/overview/bootOrder.jsx:370
@@ -1943,7 +1946,7 @@ msgstr "Dauerhaft (Standard)"
 
 #: src/components/common/machinesConnectionSelector.tsx:76
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "Berechtigung für Festplattenabbilder in Home-Verzeichnissen abgelehnt"
 
 #: src/components/vm/disks/diskAdd.jsx:133 src/components/vm/nics/nicAdd.jsx:93
 msgid "Persistence"
@@ -1968,11 +1971,11 @@ msgstr "Bitte wählen Sie eine andere MAC-Adresse aus"
 
 #: src/components/vm/disks/diskAdd.jsx:546
 msgid "Please choose a storage pool"
-msgstr ""
+msgstr "Bitte wählen Sie einen Speicher-Pool"
 
 #: src/components/vm/disks/diskAdd.jsx:564
 msgid "Please choose a volume"
-msgstr ""
+msgstr "Bitte wählen Sie einen Datenträger"
 
 #: src/components/vm/disks/diskAdd.jsx:553
 msgid "Please enter new volume name"
@@ -1996,7 +1999,7 @@ msgstr "Pool"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:187
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "Der Pool muss aktiviert werden, um einen Datenträger zu erstellen"
 
 #: src/components/vm/disks/diskAdd.jsx:556
 msgid "Pool type $0 does not support volume creation"
