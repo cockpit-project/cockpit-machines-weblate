@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-10 03:40+0000\n"
-"PO-Revision-Date: 2025-06-10 15:52+0000\n"
+"PO-Revision-Date: 2025-06-12 14:25+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/de/>\n"
@@ -125,7 +125,7 @@ msgstr "Aktivieren"
 
 #: src/components/storagePools/storagePoolVolumesTab.tsx:124
 msgid "Activate the storage pool to administer volumes"
-msgstr ""
+msgstr "Aktivieren Sie den Speicher-Pool zum Verwalten von Datenträgern"
 
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/overview/watchdog.jsx:156
@@ -228,7 +228,7 @@ msgstr ""
 
 #: src/components/storagePools/storagePoolDelete.tsx:188
 msgid "Also delete all volumes inside this pool:"
-msgstr ""
+msgstr "Löschen aller Datenträger innerhalb dieses Pools:"
 
 #: src/components/vm/disks/diskAdd.jsx:136 src/components/vm/nics/nicAdd.jsx:96
 msgid "Always attach"
@@ -236,7 +236,7 @@ msgstr "Immer verbinden"
 
 #: src/components/vm/overview/helpers.jsx:29
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Ein Beispiel für vsock-fähiger Software ist socat"
 
 #: src/components/vm/overview/cpuModal.jsx:325
 msgid "Apply"
@@ -289,8 +289,6 @@ msgid "Boot order settings could not be saved"
 msgstr "Boot-Reihenfolge konnte nicht gespeichert werden"
 
 #: src/components/vm/nics/nicBody.jsx:226
-#, fuzzy
-#| msgid "bridge"
 msgid "Bridge"
 msgstr "Brücke"
 
@@ -718,7 +716,6 @@ msgid "Deselect others"
 msgstr "Andere abwählen"
 
 #: src/components/vm/consoles/consoles.jsx:131
-#, fuzzy
 msgid "Desktop viewer"
 msgstr "Desktop-Betrachter"
 
@@ -1597,11 +1594,11 @@ msgstr "Weitere Infos"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:65
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:207
 msgid "Mount tag"
-msgstr ""
+msgstr "Einbindemarkierung"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:130
 msgid "Mount tag must not be empty"
-msgstr ""
+msgstr "Die Einbindemarkierung darf nicht leer sein"
 
 #: src/components/networks/createNetworkDialog.tsx:118
 msgid "Must be an address instead of the network identifier, such as $0"
@@ -1900,8 +1897,6 @@ msgid "Parent snapshot"
 msgstr "Übergeordneter Schnappschuss"
 
 #: src/components/vm/nics/nicBody.jsx:236
-#, fuzzy
-#| msgid "host passthrough"
 msgid "Passthrough"
 msgstr "Host-Durchleitung"
 
@@ -2003,15 +1998,15 @@ msgstr "Der Pool muss aktiviert werden, um einen Datenträger zu erstellen"
 
 #: src/components/vm/disks/diskAdd.jsx:556
 msgid "Pool type $0 does not support volume creation"
-msgstr ""
+msgstr "Pool-Typ $0 unterstützt keine Datenträgererstellung"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:187
 msgid "Pool type doesn't support volume creation"
-msgstr ""
+msgstr "Pool-Typ unterstützt keine Datenträgererstellung"
 
 #: src/components/storagePools/storagePoolDelete.tsx:97
 msgid "Pool's volumes are used by VMs "
-msgstr ""
+msgstr "Pool-Datenträger werden von VMs verwendet "
 
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
@@ -2513,7 +2508,7 @@ msgstr "Die Quelle sollte mit dem http,ftp oder nfs Protokoll starten"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:276
 msgid "Source volume group"
-msgstr ""
+msgstr "Quellen-Datenträgergruppe"
 
 #: src/components/networks/createNetworkDialog.tsx:318
 msgid "Start"
@@ -2568,11 +2563,11 @@ msgstr "Speichergrenze"
 
 #: src/components/storagePools/storagePool.tsx:133
 msgid "Storage pool $0 failed to get activated"
-msgstr ""
+msgstr "Fehler beim Aktivieren des Speicher-Pools $0"
 
 #: src/components/storagePools/storagePool.tsx:153
 msgid "Storage pool $0 failed to get deactivated"
-msgstr ""
+msgstr "Fehler beim Deaktivieren des Speicher-Pools $0"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:479
 msgid "Storage pool failed to be created"
@@ -2591,7 +2586,7 @@ msgstr "Speicherpools"
 
 #: src/components/vm/disks/diskAdd.jsx:413
 msgid "Storage pools could not be fetched"
-msgstr ""
+msgstr "Fehler beim Abrufen der Speicher-Pools"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:241
 msgid "Storage size must not be 0"
@@ -2605,6 +2600,8 @@ msgstr "Speichervolumen"
 #: src/components/vm/disks/diskAdd.jsx:560
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
+"Die Speicher-Datenträgergröße darf nicht die Kapazität des Speicher-Pools "
+"überschreiten ($0 $1)"
 
 #: src/components/storagePools/storagePool.tsx:83
 msgid "Storage volumes"
@@ -2697,7 +2694,7 @@ msgstr ""
 
 #: src/components/vm/nics/nicBody.jsx:202
 msgid "The mode influences the delivery of packets."
-msgstr ""
+msgstr "Der Modus beeinflusst die Verteilung der Pakete."
 
 #: src/components/vm/disks/diskAdd.jsx:105
 msgid "The pool is empty"
@@ -2726,6 +2723,8 @@ msgstr "Der Speicher-Pool konnte nicht entfernt werden"
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:209
 msgid "The tag name to be used by the guest to mount this export point."
 msgstr ""
+"Der Name der Markierung, die vom Gast zum Einbinden des Exportpunktes "
+"verwendet wird."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:523
 msgid "Then copy and paste it above."
@@ -2754,37 +2753,25 @@ msgstr ""
 "oder Live-Migration nicht unterstützt."
 
 #: src/components/vm/nics/nicBody.jsx:87
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with dynamic / wireless networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "dynamic / wireless networking configs."
 msgstr ""
-"Dies ist die empfohlene Konfiguration für allgemeine Gastkonnektivität auf "
-"Hosts mit dynamischen / drahtlosen Netzwerkkonfigurationen."
+"Dies ist der empfohlene Typ für allgemeine Gastkonnektivität auf Hosts mit "
+"dynamischer / drahtloser Netzwerkkonfiguration."
 
 #: src/components/vm/nics/nicBody.jsx:96
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with static wired networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "static wired networking configs."
 msgstr ""
-"Dies ist die empfohlene Konfiguration für die allgemeine Gastkonnektivität "
-"auf Hosts mit statischen kabelgebundenen Netzwerkkonfigurationen."
+"Dies ist der empfohlene Typ für die allgemeine Gastkonnektivität auf Hosts "
+"mit statischer kabelgebundener Netzwerkkonfiguration."
 
 #: src/components/vm/nics/nicBody.jsx:102
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for high performance or enhanced security."
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
-"Dies ist die empfohlene Konfiguration für hohe Leistung oder erweiterte "
-"Sicherheit."
+"Dies ist die empfohlene Typ für hohe Leistung oder erweiterte Sicherheit."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -3060,7 +3047,6 @@ msgid "Vendor"
 msgstr "Anbieter"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.js:85
-#, fuzzy
 msgid "Vendor support ended $0"
 msgstr "Unterstützung durch den Anbieter endet $0"
 
