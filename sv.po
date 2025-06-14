@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 03:40+0000\n"
+"POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-08 06:02+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -84,8 +84,8 @@ msgstr ""
 "stängs av. Under tiden behåller ursprungsvärden sitt exemplar av VM-"
 "konfigurationen."
 
-#: src/components/vm/disks/diskEdit.jsx:108
-#: src/components/vm/disks/vmDisksCard.jsx:188
+#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/diskEdit.tsx:166
 msgid "Access"
 msgstr "Åtkomst"
 
@@ -94,7 +94,7 @@ msgid "Action"
 msgstr "Åtgärd"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/vm/disks/vmDisksCard.jsx:194
+#: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
@@ -112,7 +112,7 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "Aktivera lagringspoolen för att administrera volymer"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
-#: src/components/vm/disks/diskAdd.jsx:819
+#: src/components/vm/disks/diskAdd.tsx:968
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.tsx:274
@@ -132,8 +132,8 @@ msgstr "Lägg till TPM"
 msgid "Add a DHCP static host entry"
 msgstr "Lägg till en statisk DHCP-värdpost"
 
-#: src/components/vm/disks/diskAdd.jsx:686
-#: src/components/vm/disks/vmDisksCard.jsx:75
+#: src/components/vm/disks/diskAdd.tsx:819
+#: src/components/vm/disks/vmDisksCard.tsx:87
 msgid "Add disk"
 msgstr "Lägg till disk"
 
@@ -172,7 +172,7 @@ msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr ""
 "Att lägga till delade kataloger är endast möjligt när gästen är avstängd"
 
-#: src/components/vm/disks/vmDisksCard.jsx:192
+#: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
 msgstr "Ytterligare"
 
@@ -203,7 +203,7 @@ msgstr ""
 "All VM-aktivitet, inklusive lagring, kommer vara tillfällig. Detta kommer "
 "resultera i dataförlust på destinationsvärden."
 
-#: src/components/vm/disks/diskAdd.jsx:250
+#: src/components/vm/disks/diskAdd.tsx:337
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -215,7 +215,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Ta också bort alla volymer i denna pool:"
 
-#: src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
 msgid "Always attach"
 msgstr "Anslut alltid"
@@ -258,7 +258,7 @@ msgstr "Automatisering"
 msgid "Autostart"
 msgstr "Starta automatiskt"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.tsx:48
 msgid "Block device"
 msgstr "Blockenhet"
 
@@ -274,17 +274,13 @@ msgstr "Uppstartsordning"
 msgid "Boot order settings could not be saved"
 msgstr "Uppstartsordningen kunde inte sparas"
 
-#: src/components/vm/nics/nicBody.tsx:261
-msgid "Bridge"
-msgstr "Brygga"
-
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
 #: src/components/vm/hostdevs/hostDevCard.jsx:245
-#: src/components/vm/disks/diskAdd.jsx:219
-#: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:306
+#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:137
@@ -293,7 +289,7 @@ msgstr "Brygga"
 msgid "Bus"
 msgstr "Buss"
 
-#: src/components/vm/disks/diskAdd.jsx:351
+#: src/components/vm/disks/diskAdd.tsx:472
 msgid "CD/DVD disc"
 msgstr "CD/DVD skiva"
 
@@ -307,9 +303,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "CPU-läget kunde inte sparas"
 
-#: src/components/vm/disks/diskAdd.jsx:208
-#: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/diskAdd.tsx:295
+#: src/components/vm/disks/vmDiskColumns.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 msgid "Cache"
 msgstr "Cache"
 
@@ -319,9 +315,9 @@ msgstr "Cache"
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
-#: src/components/vm/disks/diskAdd.jsx:822
-#: src/components/vm/disks/diskEdit.jsx:256
-#: src/components/vm/disks/mediaEject.jsx:118
+#: src/components/vm/disks/diskAdd.tsx:971
+#: src/components/vm/disks/mediaEject.tsx:129
+#: src/components/vm/disks/diskEdit.tsx:341
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:229
 #: src/components/vm/overview/watchdog.jsx:216
 #: src/components/vm/overview/bootOrder.jsx:323
@@ -338,7 +334,7 @@ msgstr "Cache"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1482
 #: src/components/networks/createNetworkDialog.tsx:561
 #: src/components/networks/networkOverviewTab.tsx:284
-#: src/components/storagePools/storageVolumeCreate.tsx:153
+#: src/components/storagePools/storageVolumeCreate.tsx:146
 #: src/components/storagePools/createStoragePoolDialog.tsx:529
 #: src/components/storagePools/storagePoolDelete.tsx:220
 msgid "Cancel"
@@ -352,7 +348,7 @@ msgstr "Kan inte redigera vsock enhet på en transient VM"
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Kan inte redigera vakthundsenhet på en transient VM"
 
-#: src/components/vm/disks/vmDisksCard.jsx:184
+#: src/components/vm/disks/vmDisksCard.tsx:219
 msgid "Capacity"
 msgstr "Kapacitet"
 
@@ -418,7 +414,7 @@ msgstr "Molnbasavbilder"
 msgid "Cockpit Project"
 msgstr "Cockpitprojektet"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "Samtidigt skrivbar"
 
@@ -477,7 +473,7 @@ msgstr "Det gick inte att radera $0"
 msgid "Could not delete all storage for $0"
 msgstr "Det gick inte att radera all lagring för $0"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:134
+#: src/components/vm/disks/vmDiskColumns.tsx:153
 msgid "Could not delete disk's storage"
 msgstr "Kunde inte ta bort diskens lagring"
 
@@ -495,7 +491,7 @@ msgstr "Kraschad"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/networks/createNetworkDialog.tsx:558
-#: src/components/storagePools/storageVolumeCreate.tsx:150
+#: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
 msgid "Create"
 msgstr "Skapa"
@@ -525,7 +521,7 @@ msgstr "Skapa och redigera"
 msgid "Create and run"
 msgstr "Skapa och kör"
 
-#: src/components/vm/disks/diskAdd.jsx:625
+#: src/components/vm/disks/diskAdd.tsx:758
 msgid "Create new"
 msgstr "Skapa ny"
 
@@ -551,7 +547,7 @@ msgstr "Skapa en ögonblicksbild"
 msgid "Create storage pool"
 msgstr "Skapa en lagringspool"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:129
+#: src/components/storagePools/storageVolumeCreate.tsx:122
 msgid "Create storage volume"
 msgstr "Skapa lagringsvolym"
 
@@ -560,8 +556,8 @@ msgstr "Skapa lagringsvolym"
 msgid "Create virtual network"
 msgstr "Skapa virtuellt nätverk"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:181
-#: src/components/storagePools/storageVolumeCreate.tsx:192
+#: src/components/storagePools/storageVolumeCreate.tsx:174
+#: src/components/storagePools/storageVolumeCreate.tsx:185
 msgid "Create volume"
 msgstr "Skapa volym"
 
@@ -609,9 +605,9 @@ msgstr "Eget hårdvaruprogram: $0"
 msgid "Custom identifier"
 msgstr "Anpassad identifierare"
 
-#: src/components/vm/disks/diskAdd.jsx:336
-#: src/components/vm/disks/diskAdd.jsx:589
-#: src/components/vm/disks/diskAdd.jsx:635
+#: src/components/vm/disks/diskAdd.tsx:454
+#: src/components/vm/disks/diskAdd.tsx:722
+#: src/components/vm/disks/diskAdd.tsx:768
 msgid "Custom path"
 msgstr "Anpassad sökväg"
 
@@ -712,9 +708,8 @@ msgstr "Detaljer"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
-#: src/components/vm/disks/diskAdd.jsx:344
-#: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/disks/vmDisksCard.jsx:172
+#: src/components/vm/disks/diskAdd.tsx:462
+#: src/components/vm/disks/vmDisksCard.tsx:207
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/overview/bootOrder.jsx:138
@@ -745,15 +740,15 @@ msgstr "Frånkopplad från seriekonsolen. Klicka på Anslut."
 msgid "Disk"
 msgstr "Disk"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:148
+#: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
 msgstr "Disk $0 kunde inte tas bort"
 
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
 msgstr "Disken misslyckades då den skulle läggas till"
 
-#: src/components/vm/disks/diskAdd.jsx:234
+#: src/components/vm/disks/diskAdd.tsx:321
 msgid "Disk identifier"
 msgstr "Diskidentifierare"
 
@@ -761,7 +756,7 @@ msgstr "Diskidentifierare"
 msgid "Disk image"
 msgstr "Diskavbild"
 
-#: src/components/vm/disks/diskAdd.jsx:349
+#: src/components/vm/disks/diskAdd.tsx:470
 msgid "Disk image file"
 msgstr "Diskavbilds fil"
 
@@ -773,7 +768,7 @@ msgstr "Diskavbildningssökväg får inte vara tom"
 msgid "Disk images can be stored in user home directory"
 msgstr "Diskavbildningar kan lagras i användarens hemkatalog"
 
-#: src/components/vm/disks/diskEdit.jsx:199
+#: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
 msgstr "Inställningarna för disken kunde inte sparas"
 
@@ -830,12 +825,12 @@ msgstr "Varaktighet"
 msgid "Dying"
 msgstr "Döende"
 
-#: src/components/vm/disks/diskEdit.jsx:149
+#: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
 msgstr "Redigera"
 
-#: src/components/vm/disks/diskEdit.jsx:245
+#: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
 msgstr "Redigera $0 attribut"
 
@@ -863,12 +858,12 @@ msgstr "Att redigera nätverksgränssnitt för transienta gäster är inte till�
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Att redigera transienta nätverksgränssnit är inte tillåtet"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:194
-#: src/components/vm/disks/mediaEject.jsx:111
+#: src/components/vm/disks/vmDiskColumns.tsx:233
+#: src/components/vm/disks/mediaEject.tsx:122
 msgid "Eject"
 msgstr "Mata ut"
 
-#: src/components/vm/disks/mediaEject.jsx:101
+#: src/components/vm/disks/mediaEject.tsx:112
 msgid "Eject disc from VM?"
 msgstr "Ta bort disk från VM?"
 
@@ -983,7 +978,7 @@ msgstr "Misslyckades med att spara en beskrivning för VM $0"
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "Färre än det maximala antalet virtuella CPU:er skall vara aktiverade."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.tsx:47
 #: src/components/vm/overview/bootOrder.jsx:98
 msgid "File"
 msgstr "Arkiv"
@@ -1005,7 +1000,7 @@ msgstr "Filtrera efter namn"
 msgid "Firmware"
 msgstr "Hårdvaruprogram"
 
-#: src/components/vm/disks/mediaEject.jsx:115
+#: src/components/vm/disks/mediaEject.tsx:126
 msgid "Force eject"
 msgstr "Tvinga utmatning"
 
@@ -1029,7 +1024,7 @@ msgstr "Framtvinga avstängning"
 msgid "Force shut down $0?"
 msgstr "Framtvinga avstängning $0?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:106
+#: src/components/vm/disks/vmDiskColumns.tsx:122
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Format"
@@ -1066,7 +1061,7 @@ msgstr "Skapa automatiskt"
 msgid "Get a new RHSM token."
 msgstr "Hämta ett nytt RHSM-bevis (token)."
 
-#: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/disks/vmDisksCard.tsx:53
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
@@ -1090,12 +1085,12 @@ msgstr "Graciös avstängning"
 msgid "Hardware virtualization is disabled"
 msgstr "Hårdvaruvirtualisering är inaktiverad"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Hide additional options"
 msgstr "Göm ytterligare inställningar"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.tsx:52
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
@@ -1130,7 +1125,7 @@ msgstr "Värden får inte vara tom"
 msgid "Hypervisor details"
 msgstr "Detaljer om hypervisorn"
 
-#: src/components/vm/disks/diskEdit.jsx:41
+#: src/components/vm/disks/diskEdit.tsx:61
 msgid "ID"
 msgstr "ID"
 
@@ -1209,7 +1204,7 @@ msgstr ""
 "Identifierare som används av $0. VMs med en identisk identifierare kan inte "
 "köras samtidigt."
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.tsx:342
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "Identifierare kan tyst avkortas till $0 tecken "
 
@@ -1237,7 +1232,7 @@ msgstr "Importera och redigera"
 msgid "Import and run"
 msgstr "Importera och kör"
 
-#: src/components/vm/disks/diskAdd.jsx:489
+#: src/components/vm/disks/diskAdd.tsx:627
 msgid "Importing an image with a backing file is unsupported"
 msgstr "Import av en avbild med en bakomliggande fil stödjs inte"
 
@@ -1261,12 +1256,12 @@ msgstr "Initieraren skall inte vara tom"
 msgid "Inject a non-maskable interrupt"
 msgstr "Injicera ett ej maskerbart avbrott"
 
-#: src/components/vm/disks/diskAdd.jsx:819
-#: src/components/vm/disks/vmDiskColumns.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:968
+#: src/components/vm/disks/vmDiskColumns.tsx:225
 msgid "Insert"
 msgstr "Insert"
 
-#: src/components/vm/disks/diskAdd.jsx:686
+#: src/components/vm/disks/diskAdd.tsx:819
 msgid "Insert disc media"
 msgstr "Sätt i skivmedia"
 
@@ -1405,11 +1400,11 @@ msgstr "MAC-adress används redan"
 msgid "MAC address must not be empty"
 msgstr "MAC-adress kan inte vara tomt"
 
-#: src/components/vm/disks/diskEdit.jsx:89
+#: src/components/vm/disks/diskEdit.tsx:135
 msgid "Machine must be shut off before changing bus type"
 msgstr "Maskinen måste vara avstängd innan det går att ändra busstyp"
 
-#: src/components/vm/disks/diskEdit.jsx:63
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Machine must be shut off before changing cache mode"
 msgstr "Maskinen måste vara avstängd innan det går att ändra cacheläge"
 
@@ -1461,11 +1456,11 @@ msgstr ""
 msgid "Maximum transmission unit"
 msgstr "Maximal överföringsstorlek"
 
-#: src/components/vm/disks/mediaEject.jsx:103
+#: src/components/vm/disks/mediaEject.tsx:114
 msgid "Media could not be ejected from $0"
 msgstr "Media kunde inte matas ut från $0"
 
-#: src/components/vm/disks/mediaEject.jsx:105
+#: src/components/vm/disks/mediaEject.tsx:116
 msgid "Media will be ejected from $0:"
 msgstr "Media kommer att matas ut från $0:"
 
@@ -1591,7 +1586,7 @@ msgstr "Namnet innehåller ogiltiga tecken"
 
 #: src/components/vm/vmCloneDialog.jsx:47
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
-#: src/components/storagePools/storageVolumeCreate.tsx:93
+#: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Name must not be empty"
 msgstr "Namnet kan inte vara tomt"
 
@@ -1698,7 +1693,7 @@ msgstr "Ingen beskrivning"
 msgid "No directories shared between the host and this VM"
 msgstr "Inga kataloger delade mellan värden och denna VM"
 
-#: src/components/vm/disks/vmDisksCard.jsx:259
+#: src/components/vm/disks/vmDisksCard.tsx:294
 msgid "No disks defined for this VM"
 msgstr "Inga diskar är definerade för denna VM"
 
@@ -1746,7 +1741,7 @@ msgstr "Ingen lagring"
 msgid "No storage pool is defined on this host"
 msgstr "Ingen lagringspool är definierad på denna värd"
 
-#: src/components/vm/disks/diskAdd.jsx:163
+#: src/components/vm/disks/diskAdd.tsx:232
 msgid "No storage pools available"
 msgstr "Inga lagringspooler tillgängliga"
 
@@ -1846,13 +1841,9 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Föräldraögonblicksbild"
 
-#: src/components/vm/nics/nicBody.tsx:271
-msgid "Passthrough"
-msgstr "Genomgång"
-
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
-#: src/components/vm/disks/diskEdit.jsx:43
+#: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
 msgstr "Sökväg"
@@ -1873,7 +1864,7 @@ msgstr "Sökväg till molnavbildsfilen värdens filsystem"
 msgid "Path to directory"
 msgstr "Sökväg till katalog"
 
-#: src/components/vm/disks/diskAdd.jsx:339
+#: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
 msgstr "Sökväg till fil på värdens filsystem"
 
@@ -1893,7 +1884,7 @@ msgstr "Permanent (standard)"
 msgid "Permissions denied for disk images in home directories"
 msgstr "Behörigheter nekades för diskavbildningar i hemkataloger"
 
-#: src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/disks/diskAdd.tsx:190
 #: src/components/vm/nics/nicAdd.tsx:122
 msgid "Persistence"
 msgstr "Varaktighet"
@@ -1915,15 +1906,15 @@ msgstr "Fysisk diskenhet på värd"
 msgid "Please choose a different MAC address"
 msgstr "Vänligen välj en annan MAC-adress"
 
-#: src/components/vm/disks/diskAdd.jsx:546
+#: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
 msgstr "Välj en lagringspool"
 
-#: src/components/vm/disks/diskAdd.jsx:564
+#: src/components/vm/disks/diskAdd.tsx:697
 msgid "Please choose a volume"
 msgstr "Välj en volym"
 
-#: src/components/vm/disks/diskAdd.jsx:553
+#: src/components/vm/disks/diskAdd.tsx:686
 msgid "Please enter new volume name"
 msgstr "Ange ett nytt volymnamn"
 
@@ -1935,23 +1926,23 @@ msgstr "Se $0 hur du konfigurerar om din VM manuellt."
 msgid "Please start the virtual machine to access its console."
 msgstr "Starta den virtuella maskinen för att komma åt dess konsol."
 
-#: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:45
-#: src/components/vm/disks/mediaEject.jsx:87
+#: src/components/vm/disks/diskAdd.tsx:216
+#: src/components/vm/disks/vmDiskColumns.tsx:50
+#: src/components/vm/disks/mediaEject.tsx:98
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Pool"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool needs to be active to create volume"
 msgstr "Poolen måste vara aktiv för att skapa volym"
 
-#: src/components/vm/disks/diskAdd.jsx:556
+#: src/components/vm/disks/diskAdd.tsx:689
 msgid "Pool type $0 does not support volume creation"
 msgstr "Pooltyp $0 stödjer inte att skapa volymer"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool type doesn't support volume creation"
 msgstr "Pooltyp stödjer inte att skapa volymer"
 
@@ -1959,7 +1950,7 @@ msgstr "Pooltyp stödjer inte att skapa volymer"
 msgid "Pool's volumes are used by VMs "
 msgstr "Poolens volymer används av VM:ar "
 
-#: src/components/vm/disks/vmDiskColumns.jsx:48
+#: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
 #: src/components/vm/nics/vmNicsCard.tsx:213
@@ -1998,7 +1989,7 @@ msgstr ""
 "Med tidigare tagna ögonblicksbilder kan du återgå till ett tidigare läge om "
 "något går fel"
 
-#: src/components/vm/nics/nicBody.tsx:266 src/helpers.ts:272
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "Privat"
 
@@ -2015,7 +2006,7 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.tsx:49
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:161
 msgid "Protocol"
@@ -2053,8 +2044,8 @@ msgstr "Publik nyckel"
 msgid "Range"
 msgstr "Räckvidd"
 
-#: src/components/vm/disks/diskEdit.jsx:116
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:174
 msgid "Read-only"
 msgstr "Skrivskyddad"
 
@@ -2085,8 +2076,8 @@ msgstr "Detaljer om fjärrvisaren"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
-#: src/components/vm/disks/vmDiskColumns.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:213
+#: src/components/vm/disks/vmDiskColumns.tsx:166
+#: src/components/vm/disks/vmDiskColumns.tsx:252
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/overview/watchdog.jsx:213
@@ -2101,11 +2092,11 @@ msgstr "Avlägsna"
 msgid "Remove SPICE audio and host devices"
 msgstr "Ta bort SPICE-ljud- och värdenheter"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
 msgstr "Ta bort och radera fil"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:146
+#: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
 msgstr "Ta bort en disk från VM:en?"
 
@@ -2257,7 +2248,7 @@ msgid "SSH keys"
 msgstr "SSH-nycklar"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
-#: src/components/vm/disks/diskEdit.jsx:253
+#: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/bootOrder.jsx:320
 #: src/components/vm/overview/vsock.jsx:194
@@ -2287,7 +2278,7 @@ msgstr "Skicka ej maskerbart avbrott"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Skicka ej maskerbart avbrott till $0?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "Seriell"
 
@@ -2336,7 +2327,7 @@ msgstr "Delade värdkataloger behöver monteras manuellt inuti VM:en"
 msgid "Shared storage"
 msgstr "Delad lagring"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Show additional options"
 msgstr "Visa ytterligare åtgärder"
@@ -2415,9 +2406,9 @@ msgstr ""
 "Vissa konfigurationsändringar träder bara i kraft efter en fräsch uppstart:"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
-#: src/components/vm/disks/diskAdd.jsx:586
-#: src/components/vm/disks/diskAdd.jsx:622
-#: src/components/vm/disks/vmDisksCard.jsx:190
+#: src/components/vm/disks/diskAdd.tsx:719
+#: src/components/vm/disks/diskAdd.tsx:755
+#: src/components/vm/disks/vmDisksCard.tsx:225
 #: src/components/vm/nics/nicBody.tsx:216
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
@@ -2529,7 +2520,7 @@ msgstr "Lagringspoolsnamn"
 msgid "Storage pools"
 msgstr "Lagringspooler"
 
-#: src/components/vm/disks/diskAdd.jsx:413
+#: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
 msgstr "Lagringspooler kunde inte hämtas"
 
@@ -2537,12 +2528,12 @@ msgstr "Lagringspooler kunde inte hämtas"
 msgid "Storage size must not be 0"
 msgstr "Lagringsstorleken får inte vara 0"
 
-#: src/components/vm/disks/diskEdit.jsx:47
+#: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
 msgstr "Lagringsvolym"
 
-#: src/components/vm/disks/diskAdd.jsx:560
-#: src/components/storagePools/storageVolumeCreate.tsx:96
+#: src/components/vm/disks/diskAdd.tsx:693
+#: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 "Lagringsvolymstorleken får inte överstiga lagringspoolens kapacitet ($0 $1)"
@@ -2585,7 +2576,7 @@ msgid "Table of selectable host devices"
 msgstr "Tabell över valbara värdenheter"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:151
+#: src/components/vm/disks/vmDiskColumns.tsx:170
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "Mål"
@@ -2611,7 +2602,7 @@ msgstr "Tillfällig migration"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "VM:en $0 kör och kommer tvingande stängas av före den tas bort."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:221
+#: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
@@ -2638,7 +2629,7 @@ msgstr ""
 msgid "The mode influences the delivery of packets."
 msgstr "Läget påverkar leveransen av paket."
 
-#: src/components/vm/disks/diskAdd.jsx:105
+#: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
 msgstr "Poolen är tom"
 
@@ -2673,7 +2664,7 @@ msgstr "Kopiera och klistra sedan in det ovan."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Denna VM är transient. Stäng av den om du vill radera den."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
 msgstr "Denna disk kommer tas bort från $0:"
 
@@ -2719,7 +2710,7 @@ msgstr ""
 "Detta verktyg hanterar virtuella maskiner. Med det kan man skapa, övervaka "
 "och styra de virtuella maskinerna i libvirt-subsystemet."
 
-#: src/components/vm/disks/diskAdd.jsx:80
+#: src/components/vm/disks/diskAdd.tsx:86
 msgid "This volume is already used by $0."
 msgstr "Denna volym används redan av $0."
 
@@ -2814,7 +2805,7 @@ msgstr "Ospecificerad"
 msgid "Unsupported and older operating systems"
 msgstr "Ostödda och äldre operativsystem"
 
-#: src/components/vm/disks/diskEdit.jsx:45
+#: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
 msgstr "Url"
 
@@ -2822,8 +2813,8 @@ msgstr "Url"
 msgid "Usage"
 msgstr "Användning"
 
-#: src/components/vm/disks/diskAdd.jsx:594
-#: src/components/vm/disks/diskAdd.jsx:630
+#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:763
 msgid "Use existing"
 msgstr "Använd befintlig"
 
@@ -2840,7 +2831,7 @@ msgstr ""
 "Använd samma plats för lagringen på ursprungs- och destinationsvärden. Detta "
 "kan vara en delad lagringspool, NFS eller någon annan metod att dela lagring."
 
-#: src/components/vm/disks/vmDisksCard.jsx:182
+#: src/components/vm/disks/vmDisksCard.tsx:217
 msgid "Used"
 msgstr "Använt"
 
@@ -3014,16 +3005,16 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualiseringstjänsten (libvirt) är inte aktiv"
 
-#: src/components/vm/disks/diskAdd.jsx:113
-#: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/mediaEject.jsx:91
+#: src/components/vm/disks/diskAdd.tsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:51
+#: src/components/vm/disks/mediaEject.tsx:102
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 msgid "Volume"
 msgstr "Volym"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:117
+#: src/components/storagePools/storageVolumeCreate.tsx:110
 msgid "Volume failed to be created"
 msgstr "Volymen kunde inte skapas"
 
@@ -3059,8 +3050,8 @@ msgstr ""
 "vakthundsenhet behöver gästsystemet även ha en ytterligare drivrutin och en "
 "körande vakthundstjänst."
 
-#: src/components/vm/disks/diskEdit.jsx:125
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:183
 msgid "Writeable"
 msgstr "Skrivbar"
 
@@ -3241,7 +3232,7 @@ msgstr "omdirigerad enhet"
 msgid "remove"
 msgstr "ta bort"
 
-#: src/components/vm/disks/diskAdd.jsx:236
+#: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
 msgstr "serienummer"
 
@@ -3324,6 +3315,12 @@ msgstr "vsock kräver speciell programvara"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74 src/helpers.ts:278
 msgid "yes"
 msgstr "ja"
+
+#~ msgid "Bridge"
+#~ msgstr "Brygga"
+
+#~ msgid "Passthrough"
+#~ msgstr "Genomgång"
 
 #~ msgid ""
 #~ "In the default 'vepa' mode, switching is offloaded to the external "

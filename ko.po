@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 03:40+0000\n"
+"POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-08 06:02+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -88,8 +88,8 @@ msgstr ""
 "VM의 복사는 대상에서 실행해야 하고 이를 종료 할 때에 사라집니다. 그 동안에, "
 "원래 호스트는 VM 구성의 복사를 유지합니다."
 
-#: src/components/vm/disks/diskEdit.jsx:108
-#: src/components/vm/disks/vmDisksCard.jsx:188
+#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/diskEdit.tsx:166
 msgid "Access"
 msgstr "접근"
 
@@ -100,7 +100,7 @@ msgstr "동작"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/vm/disks/vmDisksCard.jsx:194
+#: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
@@ -118,7 +118,7 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "볼륨을 관리하려면 저장소 풀을 활성화하세요"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
-#: src/components/vm/disks/diskAdd.jsx:819
+#: src/components/vm/disks/diskAdd.tsx:968
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.tsx:274
@@ -138,8 +138,8 @@ msgstr "TPM 추가"
 msgid "Add a DHCP static host entry"
 msgstr "DHCP 고정 호스트 항목 추가"
 
-#: src/components/vm/disks/diskAdd.jsx:686
-#: src/components/vm/disks/vmDisksCard.jsx:75
+#: src/components/vm/disks/diskAdd.tsx:819
+#: src/components/vm/disks/vmDisksCard.tsx:87
 msgid "Add disk"
 msgstr "디스크 추가"
 
@@ -176,7 +176,7 @@ msgstr "워치독 추가하기는 적용을 위해 재부팅이 필요합니다.
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr "공유 디렉토리 추가는 게스트가 종료된 경우에만 편집 할 수 있습니다"
 
-#: src/components/vm/disks/vmDisksCard.jsx:192
+#: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
 msgstr "추가"
 
@@ -207,7 +207,7 @@ msgstr ""
 "저장소를 포함하는 모든 가상화 동작은 임시적입니다. 이는 대상 호스트에서 자료 "
 "손실로 귀결됩니다."
 
-#: src/components/vm/disks/diskAdd.jsx:250
+#: src/components/vm/disks/diskAdd.tsx:337
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -217,7 +217,7 @@ msgstr "허용되는 문자: 기본 라틴 알파벳, 숫자와 제한된 구두
 msgid "Also delete all volumes inside this pool:"
 msgstr "또한 이 풀 안에 있는 모든 볼륨을 삭제합니다:"
 
-#: src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
 msgid "Always attach"
 msgstr "항상 연결"
@@ -260,7 +260,7 @@ msgstr "자동화"
 msgid "Autostart"
 msgstr "자동 시작"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.tsx:48
 msgid "Block device"
 msgstr "블록 장치"
 
@@ -276,17 +276,13 @@ msgstr "부팅 순서"
 msgid "Boot order settings could not be saved"
 msgstr "부팅 순서 설정을 저장 할 수 없습니다"
 
-#: src/components/vm/nics/nicBody.tsx:261
-msgid "Bridge"
-msgstr "브릿지"
-
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
 #: src/components/vm/hostdevs/hostDevCard.jsx:245
-#: src/components/vm/disks/diskAdd.jsx:219
-#: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:306
+#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:137
@@ -295,7 +291,7 @@ msgstr "브릿지"
 msgid "Bus"
 msgstr "버스"
 
-#: src/components/vm/disks/diskAdd.jsx:351
+#: src/components/vm/disks/diskAdd.tsx:472
 msgid "CD/DVD disc"
 msgstr "CD/DVD 디스크"
 
@@ -309,9 +305,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "CPU 설정을 저장 할 수 없습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:208
-#: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/diskAdd.tsx:295
+#: src/components/vm/disks/vmDiskColumns.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 msgid "Cache"
 msgstr "캐쉬"
 
@@ -321,9 +317,9 @@ msgstr "캐쉬"
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
-#: src/components/vm/disks/diskAdd.jsx:822
-#: src/components/vm/disks/diskEdit.jsx:256
-#: src/components/vm/disks/mediaEject.jsx:118
+#: src/components/vm/disks/diskAdd.tsx:971
+#: src/components/vm/disks/mediaEject.tsx:129
+#: src/components/vm/disks/diskEdit.tsx:341
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:229
 #: src/components/vm/overview/watchdog.jsx:216
 #: src/components/vm/overview/bootOrder.jsx:323
@@ -340,7 +336,7 @@ msgstr "캐쉬"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1482
 #: src/components/networks/createNetworkDialog.tsx:561
 #: src/components/networks/networkOverviewTab.tsx:284
-#: src/components/storagePools/storageVolumeCreate.tsx:153
+#: src/components/storagePools/storageVolumeCreate.tsx:146
 #: src/components/storagePools/createStoragePoolDialog.tsx:529
 #: src/components/storagePools/storagePoolDelete.tsx:220
 msgid "Cancel"
@@ -354,7 +350,7 @@ msgstr "과도적인 VM에서 vsock 장치를 편집 할 수 없습니다"
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "과도적인 VM에서 와치독 장치를 편집 할 수 없습니다"
 
-#: src/components/vm/disks/vmDisksCard.jsx:184
+#: src/components/vm/disks/vmDisksCard.tsx:219
 msgid "Capacity"
 msgstr "용량"
 
@@ -419,7 +415,7 @@ msgstr "클라우드 기반 이미지"
 msgid "Cockpit Project"
 msgstr "Cockpit 프로젝트"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "동시에 쓰기 가능"
 
@@ -480,7 +476,7 @@ msgstr "$0를 삭제 할 수 없습니다"
 msgid "Could not delete all storage for $0"
 msgstr "$0를 위해 모든 저장소를 삭제 할 수 없습니다"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:134
+#: src/components/vm/disks/vmDiskColumns.tsx:153
 msgid "Could not delete disk's storage"
 msgstr "디스크 저장소를 삭제 할 수 없습니다"
 
@@ -498,7 +494,7 @@ msgstr "충돌"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/networks/createNetworkDialog.tsx:558
-#: src/components/storagePools/storageVolumeCreate.tsx:150
+#: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
 msgid "Create"
 msgstr "생성"
@@ -527,7 +523,7 @@ msgstr "생성과 편집"
 msgid "Create and run"
 msgstr "생성과 동작"
 
-#: src/components/vm/disks/diskAdd.jsx:625
+#: src/components/vm/disks/diskAdd.tsx:758
 msgid "Create new"
 msgstr "새로 만들기"
 
@@ -553,7 +549,7 @@ msgstr "순간찍기 생성"
 msgid "Create storage pool"
 msgstr "저장소 풀 만들기"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:129
+#: src/components/storagePools/storageVolumeCreate.tsx:122
 msgid "Create storage volume"
 msgstr "저장소 볼륨 만들기"
 
@@ -562,8 +558,8 @@ msgstr "저장소 볼륨 만들기"
 msgid "Create virtual network"
 msgstr "가상 네트워크 만들기"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:181
-#: src/components/storagePools/storageVolumeCreate.tsx:192
+#: src/components/storagePools/storageVolumeCreate.tsx:174
+#: src/components/storagePools/storageVolumeCreate.tsx:185
 msgid "Create volume"
 msgstr "볼륨 만들기"
 
@@ -611,9 +607,9 @@ msgstr "사용자 지정 펌웨어: $0"
 msgid "Custom identifier"
 msgstr "사용자정의 식별자"
 
-#: src/components/vm/disks/diskAdd.jsx:336
-#: src/components/vm/disks/diskAdd.jsx:589
-#: src/components/vm/disks/diskAdd.jsx:635
+#: src/components/vm/disks/diskAdd.tsx:454
+#: src/components/vm/disks/diskAdd.tsx:722
+#: src/components/vm/disks/diskAdd.tsx:768
 msgid "Custom path"
 msgstr "사용자 지정 경로"
 
@@ -711,9 +707,8 @@ msgstr "상세정보"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
-#: src/components/vm/disks/diskAdd.jsx:344
-#: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/disks/vmDisksCard.jsx:172
+#: src/components/vm/disks/diskAdd.tsx:462
+#: src/components/vm/disks/vmDisksCard.tsx:207
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/overview/bootOrder.jsx:138
@@ -744,15 +739,15 @@ msgstr "시리얼 콘솔에서 연결이 끊어졌습니다. 연결 버튼을 �
 msgid "Disk"
 msgstr "디스크"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:148
+#: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
 msgstr "디스크 $0는 제거 될 수 없습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
 msgstr "디스크를 추가하는데 실패했습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:234
+#: src/components/vm/disks/diskAdd.tsx:321
 msgid "Disk identifier"
 msgstr "디스크 식별자"
 
@@ -760,7 +755,7 @@ msgstr "디스크 식별자"
 msgid "Disk image"
 msgstr "디스크 이미지"
 
-#: src/components/vm/disks/diskAdd.jsx:349
+#: src/components/vm/disks/diskAdd.tsx:470
 msgid "Disk image file"
 msgstr "디스크 이미지 파일"
 
@@ -772,7 +767,7 @@ msgstr "디스크 이름 경로는 비워두면 안됩니다"
 msgid "Disk images can be stored in user home directory"
 msgstr "디스크 이미지는 사용자 홈 디렉토리에 저장 될 수 있습니다"
 
-#: src/components/vm/disks/diskEdit.jsx:199
+#: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
 msgstr "디스크 설정을 저장 할 수 없습니다"
 
@@ -829,12 +824,12 @@ msgstr "지속기간"
 msgid "Dying"
 msgstr "종료 중"
 
-#: src/components/vm/disks/diskEdit.jsx:149
+#: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
 msgstr "편집"
 
-#: src/components/vm/disks/diskEdit.jsx:245
+#: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
 msgstr "$0 속성 편집"
 
@@ -862,12 +857,12 @@ msgstr "임시 게스트의 네트워크 연결장치 편집하기는 허용되�
 msgid "Editing transient network interfaces is not allowed"
 msgstr "임시 네트워크 연결장치 편집하기는 허용되지 않습니다"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:194
-#: src/components/vm/disks/mediaEject.jsx:111
+#: src/components/vm/disks/vmDiskColumns.tsx:233
+#: src/components/vm/disks/mediaEject.tsx:122
 msgid "Eject"
 msgstr "꺼내기"
 
-#: src/components/vm/disks/mediaEject.jsx:101
+#: src/components/vm/disks/mediaEject.tsx:112
 msgid "Eject disc from VM?"
 msgstr "VM에서 디스크 꺼내기?"
 
@@ -980,7 +975,7 @@ msgstr "VM $0의 설명을 설정하는 데 실패했습니다"
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "최대 가상 CPU 수 보다 적은 수를 활성화해야 합니다."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.tsx:47
 #: src/components/vm/overview/bootOrder.jsx:98
 msgid "File"
 msgstr "파일"
@@ -1002,7 +997,7 @@ msgstr "이름으로 필터링"
 msgid "Firmware"
 msgstr "펌웨어"
 
-#: src/components/vm/disks/mediaEject.jsx:115
+#: src/components/vm/disks/mediaEject.tsx:126
 msgid "Force eject"
 msgstr "강제로 꺼내기"
 
@@ -1026,7 +1021,7 @@ msgstr "강제 종료"
 msgid "Force shut down $0?"
 msgstr "$0를 강제 종료 할까요?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:106
+#: src/components/vm/disks/vmDiskColumns.tsx:122
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Format"
@@ -1063,7 +1058,7 @@ msgstr "자동 생성"
 msgid "Get a new RHSM token."
 msgstr "신규 RHSM 토큰 가져오기."
 
-#: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/disks/vmDisksCard.tsx:53
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
@@ -1087,12 +1082,12 @@ msgstr "우아한 종료"
 msgid "Hardware virtualization is disabled"
 msgstr "하드웨어 가상화가 비활성화 되었습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Hide additional options"
 msgstr "추가 선택 숨기기"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.tsx:52
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
@@ -1127,7 +1122,7 @@ msgstr "호스트는 비워둘 수 없습니다"
 msgid "Hypervisor details"
 msgstr "하이퍼바이저 세부 사항"
 
-#: src/components/vm/disks/diskEdit.jsx:41
+#: src/components/vm/disks/diskEdit.tsx:61
 msgid "ID"
 msgstr "ID"
 
@@ -1206,7 +1201,7 @@ msgstr ""
 "$0에서 사용 중인 식별자. 동일한 식별자를 가진 VMs는 동시에 실행 할 수 없습니"
 "다."
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.tsx:342
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "식별자는 $0 문자로 자동으로 잘릴 수 있습니다 "
 
@@ -1234,7 +1229,7 @@ msgstr "가져오기와 편집"
 msgid "Import and run"
 msgstr "가져 오기와 실행"
 
-#: src/components/vm/disks/diskAdd.jsx:489
+#: src/components/vm/disks/diskAdd.tsx:627
 msgid "Importing an image with a backing file is unsupported"
 msgstr "백업된 파일 이미지 가져오기는 지원되지 않습니다"
 
@@ -1258,12 +1253,12 @@ msgstr "초기자는 비워둘 수 없습니다"
 msgid "Inject a non-maskable interrupt"
 msgstr "마스크 불가능 인터럽트 주입"
 
-#: src/components/vm/disks/diskAdd.jsx:819
-#: src/components/vm/disks/vmDiskColumns.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:968
+#: src/components/vm/disks/vmDiskColumns.tsx:225
 msgid "Insert"
 msgstr "Insert"
 
-#: src/components/vm/disks/diskAdd.jsx:686
+#: src/components/vm/disks/diskAdd.tsx:819
 msgid "Insert disc media"
 msgstr "디스크 미디어 넣기"
 
@@ -1409,11 +1404,11 @@ msgstr "MAC 주사기 이미 사용중입니다"
 msgid "MAC address must not be empty"
 msgstr "맥 주소는 비워두면 안됩니다"
 
-#: src/components/vm/disks/diskEdit.jsx:89
+#: src/components/vm/disks/diskEdit.tsx:135
 msgid "Machine must be shut off before changing bus type"
 msgstr "버스 유형을 변경하기 전에 장치를 종료해야 합니다"
 
-#: src/components/vm/disks/diskEdit.jsx:63
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Machine must be shut off before changing cache mode"
 msgstr "캐쉬 방법을 변경하기 전에 장치를 종료해야 합니다"
 
@@ -1463,11 +1458,11 @@ msgstr "게스트 OS에 할당된 가상 CPU의 최대 개수는 1에서 $0 사�
 msgid "Maximum transmission unit"
 msgstr "MTU(Maximum Transmission Unit)"
 
-#: src/components/vm/disks/mediaEject.jsx:103
+#: src/components/vm/disks/mediaEject.tsx:114
 msgid "Media could not be ejected from $0"
 msgstr "미디어는 $0에서 꺼낼 수 없습니다"
 
-#: src/components/vm/disks/mediaEject.jsx:105
+#: src/components/vm/disks/mediaEject.tsx:116
 msgid "Media will be ejected from $0:"
 msgstr "미디어는 $0에서 꺼냅니다:"
 
@@ -1592,7 +1587,7 @@ msgstr "이름에 잘못된 문자가 있습니다"
 
 #: src/components/vm/vmCloneDialog.jsx:47
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
-#: src/components/storagePools/storageVolumeCreate.tsx:93
+#: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Name must not be empty"
 msgstr "이름을 입력하셔야 합니다"
 
@@ -1699,7 +1694,7 @@ msgstr "설명 없음"
 msgid "No directories shared between the host and this VM"
 msgstr "호스트와 이 VM 사이에서 공유된 디렉토리가 없습니다"
 
-#: src/components/vm/disks/vmDisksCard.jsx:259
+#: src/components/vm/disks/vmDisksCard.tsx:294
 msgid "No disks defined for this VM"
 msgstr "이 가상 머신에 지정된 디스크가 없습니다"
 
@@ -1747,7 +1742,7 @@ msgstr "저장소 없음"
 msgid "No storage pool is defined on this host"
 msgstr "이 호스트에 지정된 저장소 풀이 없습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:163
+#: src/components/vm/disks/diskAdd.tsx:232
 msgid "No storage pools available"
 msgstr "사용 가능한 저장소 풀 없음"
 
@@ -1847,13 +1842,9 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "상위 순간찍기"
 
-#: src/components/vm/nics/nicBody.tsx:271
-msgid "Passthrough"
-msgstr "통과 규칙"
-
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
-#: src/components/vm/disks/diskEdit.jsx:43
+#: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
 msgstr "경로"
@@ -1874,7 +1865,7 @@ msgstr "호스트 파일 시스템에서 클라우드 이미지 파일 경로"
 msgid "Path to directory"
 msgstr "디렉토리의 경로"
 
-#: src/components/vm/disks/diskAdd.jsx:339
+#: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
 msgstr "호스트 파일 시스템에서 파일의 경로"
 
@@ -1894,7 +1885,7 @@ msgstr "매개변수(기본값)"
 msgid "Permissions denied for disk images in home directories"
 msgstr "홈 디렉토리에서 디스크 이미지용 권한이 거부됨"
 
-#: src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/disks/diskAdd.tsx:190
 #: src/components/vm/nics/nicAdd.tsx:122
 msgid "Persistence"
 msgstr "고집"
@@ -1916,15 +1907,15 @@ msgstr "호스트에서 물리적 디스크 장치"
 msgid "Please choose a different MAC address"
 msgstr "다른 MAC 주소를 선택하세요"
 
-#: src/components/vm/disks/diskAdd.jsx:546
+#: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
 msgstr "저장소 풀을 선택하십시오"
 
-#: src/components/vm/disks/diskAdd.jsx:564
+#: src/components/vm/disks/diskAdd.tsx:697
 msgid "Please choose a volume"
 msgstr "볼륨을 선택하십시오"
 
-#: src/components/vm/disks/diskAdd.jsx:553
+#: src/components/vm/disks/diskAdd.tsx:686
 msgid "Please enter new volume name"
 msgstr "새 볼륨 이름을 입력해 주십시오"
 
@@ -1936,23 +1927,23 @@ msgstr "자신의 VM을 수동으로 재구성하는 방법 $0를 참조하세�
 msgid "Please start the virtual machine to access its console."
 msgstr "가상 머신을 시작하여 콘솔에 접근하세요."
 
-#: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:45
-#: src/components/vm/disks/mediaEject.jsx:87
+#: src/components/vm/disks/diskAdd.tsx:216
+#: src/components/vm/disks/vmDiskColumns.tsx:50
+#: src/components/vm/disks/mediaEject.tsx:98
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "풀"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool needs to be active to create volume"
 msgstr "볼륨 생성을 위해 풀을 활성화해야 합니다"
 
-#: src/components/vm/disks/diskAdd.jsx:556
+#: src/components/vm/disks/diskAdd.tsx:689
 msgid "Pool type $0 does not support volume creation"
 msgstr "풀 유형 $0는 볼륨 생성을 지원하지 않습니다"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool type doesn't support volume creation"
 msgstr "풀 유형이 볼륨 생성을 지원하지 않습니다"
 
@@ -1960,7 +1951,7 @@ msgstr "풀 유형이 볼륨 생성을 지원하지 않습니다"
 msgid "Pool's volumes are used by VMs "
 msgstr "풀 볼륨은 VM에서 사용됩니다 "
 
-#: src/components/vm/disks/vmDiskColumns.jsx:48
+#: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
 #: src/components/vm/nics/vmNicsCard.tsx:213
@@ -1999,7 +1990,7 @@ msgstr ""
 "이전에 촬영한 순간찍기를 사용하면 문제가 발생했을 때 이전 상태로 돌아갈 수 있"
 "습니다"
 
-#: src/components/vm/nics/nicBody.tsx:266 src/helpers.ts:272
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "비공개"
 
@@ -2016,7 +2007,7 @@ msgid "Profile"
 msgstr "프로파일"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.tsx:49
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:161
 msgid "Protocol"
@@ -2053,8 +2044,8 @@ msgstr "공개 키"
 msgid "Range"
 msgstr "범위"
 
-#: src/components/vm/disks/diskEdit.jsx:116
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:174
 msgid "Read-only"
 msgstr "읽기-전용"
 
@@ -2085,8 +2076,8 @@ msgstr "원격 뷰어 세부 정보"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
-#: src/components/vm/disks/vmDiskColumns.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:213
+#: src/components/vm/disks/vmDiskColumns.tsx:166
+#: src/components/vm/disks/vmDiskColumns.tsx:252
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/overview/watchdog.jsx:213
@@ -2101,11 +2092,11 @@ msgstr "제거"
 msgid "Remove SPICE audio and host devices"
 msgstr "SPICE 오디오와 호스트 장치를 제거합니다"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
 msgstr "제거하고 파일을 삭제합니다"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:146
+#: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
 msgstr "VM에서 디스크 제거?"
 
@@ -2252,7 +2243,7 @@ msgid "SSH keys"
 msgstr "SSH 키"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
-#: src/components/vm/disks/diskEdit.jsx:253
+#: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/bootOrder.jsx:320
 #: src/components/vm/overview/vsock.jsx:194
@@ -2282,7 +2273,7 @@ msgstr "마스크 불가능 인터럽트 보내기"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "마스크 불가능 인터럽트를 $0로 보낼까요?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "직렬"
 
@@ -2331,7 +2322,7 @@ msgstr "공유 호스트 디렉토리는 VM 안에세 수동으로 적재가 필
 msgid "Shared storage"
 msgstr "공유 저장소"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Show additional options"
 msgstr "추가 옵션 표시"
@@ -2412,9 +2403,9 @@ msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr "몇 가지 구성은 일반적인 부팅 후에만 영향을 미칩니다:"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
-#: src/components/vm/disks/diskAdd.jsx:586
-#: src/components/vm/disks/diskAdd.jsx:622
-#: src/components/vm/disks/vmDisksCard.jsx:190
+#: src/components/vm/disks/diskAdd.tsx:719
+#: src/components/vm/disks/diskAdd.tsx:755
+#: src/components/vm/disks/vmDisksCard.tsx:225
 #: src/components/vm/nics/nicBody.tsx:216
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
@@ -2526,7 +2517,7 @@ msgstr "저장소 풀 이름"
 msgid "Storage pools"
 msgstr "저장장치 풀"
 
-#: src/components/vm/disks/diskAdd.jsx:413
+#: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
 msgstr "저장소 풀은 가져 올 수 없습니다"
 
@@ -2534,12 +2525,12 @@ msgstr "저장소 풀은 가져 올 수 없습니다"
 msgid "Storage size must not be 0"
 msgstr "저장소 크기가 0이 되어서는 안됩니다"
 
-#: src/components/vm/disks/diskEdit.jsx:47
+#: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
 msgstr "저장소 볼륨"
 
-#: src/components/vm/disks/diskAdd.jsx:560
-#: src/components/storagePools/storageVolumeCreate.tsx:96
+#: src/components/vm/disks/diskAdd.tsx:693
+#: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr "저장소 볼륨 크기는 저장소 풀의 용량을 초과해서는 안 됩니다($0 $1)"
 
@@ -2583,7 +2574,7 @@ msgid "Table of selectable host devices"
 msgstr "선택 할 수 있는 호스트 장치의 표"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:151
+#: src/components/vm/disks/vmDiskColumns.tsx:170
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "대상"
@@ -2609,7 +2600,7 @@ msgstr "임시 이전"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "VM $0는 실행되고 있으므로 삭제 전 강제로 종료됩니다."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:221
+#: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
@@ -2635,7 +2626,7 @@ msgstr ""
 msgid "The mode influences the delivery of packets."
 msgstr "방식(mode)은 패킷 전달에 영향을 미칩니다."
 
-#: src/components/vm/disks/diskAdd.jsx:105
+#: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
 msgstr "풀이 비어 있습니다"
 
@@ -2669,7 +2660,7 @@ msgstr "그런 다음 복사하고 이를 위에 붙입니다."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "이 VM은 일시적입니다. 삭제하려면 VM을 종료하십시오."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
 msgstr "이 디스크는 $0에서 제거됩니다:"
 
@@ -2712,7 +2703,7 @@ msgstr ""
 "이와 같은 도구는 가상 장비를 관리합니다. 이와 함께, 당신은 libvirt 하위 시스"
 "템의 가상 장비를 생성, 모니터와 제어 할 수 있습니다."
 
-#: src/components/vm/disks/diskAdd.jsx:80
+#: src/components/vm/disks/diskAdd.tsx:86
 msgid "This volume is already used by $0."
 msgstr "이 볼륨은 이미 $0에서 사용하고 있습니다."
 
@@ -2805,7 +2796,7 @@ msgstr "지정되지 않음"
 msgid "Unsupported and older operating systems"
 msgstr "미지원 및 오래된 운영 체제"
 
-#: src/components/vm/disks/diskEdit.jsx:45
+#: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
 msgstr "URL"
 
@@ -2815,8 +2806,8 @@ msgstr "URL"
 msgid "Usage"
 msgstr "사용량"
 
-#: src/components/vm/disks/diskAdd.jsx:594
-#: src/components/vm/disks/diskAdd.jsx:630
+#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:763
 msgid "Use existing"
 msgstr "기존 사용"
 
@@ -2834,7 +2825,7 @@ msgstr ""
 "다. 이는 공유된 저장소 풀, NFS, 또는 다른 공유하는 저장소 방식이 될 수 있습니"
 "다."
 
-#: src/components/vm/disks/vmDisksCard.jsx:182
+#: src/components/vm/disks/vmDisksCard.tsx:217
 msgid "Used"
 msgstr "사용 중"
 
@@ -3008,16 +2999,16 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr "가상화 서비스(libvirt)가 활성화되어 있지 않습니다"
 
-#: src/components/vm/disks/diskAdd.jsx:113
-#: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/mediaEject.jsx:91
+#: src/components/vm/disks/diskAdd.tsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:51
+#: src/components/vm/disks/mediaEject.tsx:102
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 msgid "Volume"
 msgstr "볼륨"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:117
+#: src/components/storagePools/storageVolumeCreate.tsx:110
 msgid "Volume failed to be created"
 msgstr "볼륨을 만들지 못했습니다"
 
@@ -3053,8 +3044,8 @@ msgstr ""
 "면, 게스트 시스템은 또한 추가적인 드라이버와 동작중인 와치독 서비스도 있어야 "
 "합니다."
 
-#: src/components/vm/disks/diskEdit.jsx:125
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:183
 msgid "Writeable"
 msgstr "쓰기 가능"
 
@@ -3234,7 +3225,7 @@ msgstr "리디렉트된 장치"
 msgid "remove"
 msgstr "제거"
 
-#: src/components/vm/disks/diskAdd.jsx:236
+#: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
 msgstr "일련 번호"
 
@@ -3315,6 +3306,12 @@ msgstr "vsock은 특별한 소프트웨어가 필요합니다"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74 src/helpers.ts:278
 msgid "yes"
 msgstr "예"
+
+#~ msgid "Bridge"
+#~ msgstr "브릿지"
+
+#~ msgid "Passthrough"
+#~ msgstr "통과 규칙"
 
 #~ msgid ""
 #~ "In the default 'vepa' mode, switching is offloaded to the external "

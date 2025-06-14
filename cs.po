@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 03:40+0000\n"
+"POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-10 18:49+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -93,8 +93,8 @@ msgstr ""
 "Na cíli bude spuštěna kopie virt. stroje a po jejím vypnutí zmizí. Mezitím, "
 "původní hostitel si ponechá svou kopii nastavení virt. stroje."
 
-#: src/components/vm/disks/diskEdit.jsx:108
-#: src/components/vm/disks/vmDisksCard.jsx:188
+#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/diskEdit.tsx:166
 msgid "Access"
 msgstr "Přístup"
 
@@ -107,7 +107,7 @@ msgstr "Akce"
 # auto translated by TM merge from project: system-config-printer, version:
 # master, DocId: system-config-printer
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/vm/disks/vmDisksCard.jsx:194
+#: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
@@ -127,7 +127,7 @@ msgstr "Pokud chcete spravovat svazky, aktivujte fond úložiště"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
-#: src/components/vm/disks/diskAdd.jsx:819
+#: src/components/vm/disks/diskAdd.tsx:968
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.tsx:274
@@ -147,8 +147,8 @@ msgstr "Přidat TPM"
 msgid "Add a DHCP static host entry"
 msgstr "Přidat statickou DHCP položku pro hostitele"
 
-#: src/components/vm/disks/diskAdd.jsx:686
-#: src/components/vm/disks/vmDisksCard.jsx:75
+#: src/components/vm/disks/diskAdd.tsx:819
+#: src/components/vm/disks/vmDisksCard.tsx:87
 msgid "Add disk"
 msgstr "Přidat disk"
 
@@ -186,7 +186,7 @@ msgstr ""
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr "Přidávání sdílených složek je možné pouze když je host vypnutý"
 
-#: src/components/vm/disks/vmDisksCard.jsx:192
+#: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
 msgstr "Další"
 
@@ -219,7 +219,7 @@ msgstr ""
 "Veškerá aktivita virt. stroje, včetně úložiště, bude dočasná. Dojde tedy ke "
 "ztrátě všech dat za dobu chodu na cílovém hostiteli."
 
-#: src/components/vm/disks/diskAdd.jsx:250
+#: src/components/vm/disks/diskAdd.tsx:337
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -231,7 +231,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Také smazat veškeré svazky v tomto fondu:"
 
-#: src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
 msgid "Always attach"
 msgstr "Vždy připojit"
@@ -280,7 +280,7 @@ msgstr "Automatizace"
 msgid "Autostart"
 msgstr "Automatické spouštění"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.tsx:48
 msgid "Block device"
 msgstr "Blokové zařízení"
 
@@ -296,19 +296,13 @@ msgstr "Pořadí zavádění"
 msgid "Boot order settings could not be saved"
 msgstr "Nastavení pořadí zavádění se nepodařilo uložit"
 
-# auto translated by TM merge from project: libguestfs, version: master,
-# DocId: po/libguestfs
-#: src/components/vm/nics/nicBody.tsx:261
-msgid "Bridge"
-msgstr "Most"
-
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
 #: src/components/vm/hostdevs/hostDevCard.jsx:245
-#: src/components/vm/disks/diskAdd.jsx:219
-#: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:306
+#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:137
@@ -317,7 +311,7 @@ msgstr "Most"
 msgid "Bus"
 msgstr "Sběrnice"
 
-#: src/components/vm/disks/diskAdd.jsx:351
+#: src/components/vm/disks/diskAdd.tsx:472
 msgid "CD/DVD disc"
 msgstr "CD/DVD disk"
 
@@ -331,9 +325,9 @@ msgstr "Procesor"
 msgid "CPU mode could not be saved"
 msgstr "režim procesoru se nepodařilo uložit"
 
-#: src/components/vm/disks/diskAdd.jsx:208
-#: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/diskAdd.tsx:295
+#: src/components/vm/disks/vmDiskColumns.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 msgid "Cache"
 msgstr "Mezipaměť"
 
@@ -343,9 +337,9 @@ msgstr "Mezipaměť"
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
-#: src/components/vm/disks/diskAdd.jsx:822
-#: src/components/vm/disks/diskEdit.jsx:256
-#: src/components/vm/disks/mediaEject.jsx:118
+#: src/components/vm/disks/diskAdd.tsx:971
+#: src/components/vm/disks/mediaEject.tsx:129
+#: src/components/vm/disks/diskEdit.tsx:341
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:229
 #: src/components/vm/overview/watchdog.jsx:216
 #: src/components/vm/overview/bootOrder.jsx:323
@@ -362,7 +356,7 @@ msgstr "Mezipaměť"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1482
 #: src/components/networks/createNetworkDialog.tsx:561
 #: src/components/networks/networkOverviewTab.tsx:284
-#: src/components/storagePools/storageVolumeCreate.tsx:153
+#: src/components/storagePools/storageVolumeCreate.tsx:146
 #: src/components/storagePools/createStoragePoolDialog.tsx:529
 #: src/components/storagePools/storagePoolDelete.tsx:220
 msgid "Cancel"
@@ -379,7 +373,7 @@ msgstr ""
 
 # auto translated by TM merge from project: anaconda, version: f25, DocId:
 # main
-#: src/components/vm/disks/vmDisksCard.jsx:184
+#: src/components/vm/disks/vmDisksCard.tsx:219
 msgid "Capacity"
 msgstr "Kapacita"
 
@@ -448,7 +442,7 @@ msgstr "Obraz Cloud Base"
 msgid "Cockpit Project"
 msgstr "projekt Cockpit"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "Možné zapisovat z vícero stran naráz"
 
@@ -514,7 +508,7 @@ msgstr "$0 se nepodařilo smazat"
 msgid "Could not delete all storage for $0"
 msgstr "Nepodařilo se smazat veškerá úložiště pro $0"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:134
+#: src/components/vm/disks/vmDiskColumns.tsx:153
 msgid "Could not delete disk's storage"
 msgstr "Nepodařilo se smazat úložiště daného disku"
 
@@ -534,7 +528,7 @@ msgstr "Zhavarovalo"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/networks/createNetworkDialog.tsx:558
-#: src/components/storagePools/storageVolumeCreate.tsx:150
+#: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
 msgid "Create"
 msgstr "Vytvořit"
@@ -565,7 +559,7 @@ msgstr "Vytvořit a upravit"
 msgid "Create and run"
 msgstr "Vytvořit a spustit"
 
-#: src/components/vm/disks/diskAdd.jsx:625
+#: src/components/vm/disks/diskAdd.tsx:758
 msgid "Create new"
 msgstr "Vytvořit nový"
 
@@ -591,7 +585,7 @@ msgstr "Pořídit zachycený stav"
 msgid "Create storage pool"
 msgstr "Vytvořit fond úložiště"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:129
+#: src/components/storagePools/storageVolumeCreate.tsx:122
 msgid "Create storage volume"
 msgstr "Vytvořit svazek úložiště"
 
@@ -600,8 +594,8 @@ msgstr "Vytvořit svazek úložiště"
 msgid "Create virtual network"
 msgstr "Vytvořit virtuální síť"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:181
-#: src/components/storagePools/storageVolumeCreate.tsx:192
+#: src/components/storagePools/storageVolumeCreate.tsx:174
+#: src/components/storagePools/storageVolumeCreate.tsx:185
 msgid "Create volume"
 msgstr "Vytvořit svazek"
 
@@ -649,9 +643,9 @@ msgstr "Uživatelsky určený firmware: $0"
 msgid "Custom identifier"
 msgstr "Uživatelsky určený identifikátor"
 
-#: src/components/vm/disks/diskAdd.jsx:336
-#: src/components/vm/disks/diskAdd.jsx:589
-#: src/components/vm/disks/diskAdd.jsx:635
+#: src/components/vm/disks/diskAdd.tsx:454
+#: src/components/vm/disks/diskAdd.tsx:722
+#: src/components/vm/disks/diskAdd.tsx:768
 msgid "Custom path"
 msgstr "Uživatelsky určený popis umístění"
 
@@ -763,9 +757,8 @@ msgstr "Podrobnosti"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
-#: src/components/vm/disks/diskAdd.jsx:344
-#: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/disks/vmDisksCard.jsx:172
+#: src/components/vm/disks/diskAdd.tsx:462
+#: src/components/vm/disks/vmDisksCard.tsx:207
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/overview/bootOrder.jsx:138
@@ -798,15 +791,15 @@ msgstr "Odpojeno od sériové konzole. Klikněte na tlačítko Připojit."
 msgid "Disk"
 msgstr "Disk"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:148
+#: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
 msgstr "Disk $0 nebylo možné odebrat"
 
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
 msgstr "Disk se nepodařilo přidat"
 
-#: src/components/vm/disks/diskAdd.jsx:234
+#: src/components/vm/disks/diskAdd.tsx:321
 msgid "Disk identifier"
 msgstr "Identifikátor disku"
 
@@ -814,7 +807,7 @@ msgstr "Identifikátor disku"
 msgid "Disk image"
 msgstr "Obraz disku"
 
-#: src/components/vm/disks/diskAdd.jsx:349
+#: src/components/vm/disks/diskAdd.tsx:470
 msgid "Disk image file"
 msgstr "Soubor s obrazem disku"
 
@@ -826,7 +819,7 @@ msgstr "Popis umístění obrazu disku je třeba vyplnit"
 msgid "Disk images can be stored in user home directory"
 msgstr "Obrazy disků je možné uchovávat v domovské složce uživatele"
 
-#: src/components/vm/disks/diskEdit.jsx:199
+#: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
 msgstr "Nastavení disku nebylo možné uložit"
 
@@ -889,12 +882,12 @@ msgstr "Vypíná se"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
-#: src/components/vm/disks/diskEdit.jsx:149
+#: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
 msgstr "Upravit"
 
-#: src/components/vm/disks/diskEdit.jsx:245
+#: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
 msgstr "Upravit atributy $0"
 
@@ -926,12 +919,12 @@ msgstr "Upravování síťových rozhraní přechodných hostů není možné"
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Upravování přechodných síťových rozhraní není možné"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:194
-#: src/components/vm/disks/mediaEject.jsx:111
+#: src/components/vm/disks/vmDiskColumns.tsx:233
+#: src/components/vm/disks/mediaEject.tsx:122
 msgid "Eject"
 msgstr "Vysunout"
 
-#: src/components/vm/disks/mediaEject.jsx:101
+#: src/components/vm/disks/mediaEject.tsx:112
 msgid "Eject disc from VM?"
 msgstr "Vysunout disk z virt. stroje?"
 
@@ -1050,7 +1043,7 @@ msgstr "Mělo by být zapnuto méně než maximální počet virtuálních proce
 
 # auto translated by TM merge from project: system-config-firewall, version:
 # master, DocId: po/system-config-firewall
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.tsx:47
 #: src/components/vm/overview/bootOrder.jsx:98
 msgid "File"
 msgstr "Soubor"
@@ -1074,7 +1067,7 @@ msgstr "Filtrovat podle názvu"
 msgid "Firmware"
 msgstr "Firmware"
 
-#: src/components/vm/disks/mediaEject.jsx:115
+#: src/components/vm/disks/mediaEject.tsx:126
 msgid "Force eject"
 msgstr "Vynutit vysunutí"
 
@@ -1100,7 +1093,7 @@ msgstr "Vynutit vypnutí $0?"
 
 # auto translated by TM merge from project: blivet-gui, version: f23-branch,
 # DocId: blivet-gui
-#: src/components/vm/disks/vmDiskColumns.jsx:106
+#: src/components/vm/disks/vmDiskColumns.tsx:122
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Format"
@@ -1141,7 +1134,7 @@ msgstr "Získat nový RHSM token."
 
 # auto translated by TM merge from project: virt-manager, version: master,
 # DocId: virt-manager
-#: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/disks/vmDisksCard.tsx:53
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
@@ -1165,14 +1158,14 @@ msgstr "Vypnout prostřednictvím operačního systému"
 msgid "Hardware virtualization is disabled"
 msgstr "Hardwarová podpora virtualizace je vypnutá"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Hide additional options"
 msgstr "Skrýt další možnosti"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.tsx:52
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
@@ -1211,7 +1204,7 @@ msgstr "Hostitele je třeba vyplnit"
 msgid "Hypervisor details"
 msgstr "Podrobnosti o hypervizoru"
 
-#: src/components/vm/disks/diskEdit.jsx:41
+#: src/components/vm/disks/diskEdit.tsx:61
 msgid "ID"
 msgstr "Identif."
 
@@ -1292,7 +1285,7 @@ msgstr ""
 "Identifikátor je využíván $0. Virt. stroje s identickým identifikátorem "
 "nemohou být spuštěné souběžně."
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.tsx:342
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr ""
 "Může se stát, že identifikátor bude bez upozornění zkrácen na $0 znaků "
@@ -1321,7 +1314,7 @@ msgstr "Naimportovat a upravit"
 msgid "Import and run"
 msgstr "Naimportovat a spustit"
 
-#: src/components/vm/disks/diskAdd.jsx:489
+#: src/components/vm/disks/diskAdd.tsx:627
 msgid "Importing an image with a backing file is unsupported"
 msgstr "Import obrazu se souborem, na kterém je založen, není podporováno"
 
@@ -1343,12 +1336,12 @@ msgstr "Iniciátor by měl být vyplněný"
 msgid "Inject a non-maskable interrupt"
 msgstr "Vložit nemaskovatelné přerušení"
 
-#: src/components/vm/disks/diskAdd.jsx:819
-#: src/components/vm/disks/vmDiskColumns.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:968
+#: src/components/vm/disks/vmDiskColumns.tsx:225
 msgid "Insert"
 msgstr "Vložit"
 
-#: src/components/vm/disks/diskAdd.jsx:686
+#: src/components/vm/disks/diskAdd.tsx:819
 msgid "Insert disc media"
 msgstr "Vložit médium disku"
 
@@ -1493,12 +1486,12 @@ msgstr "Tato MAC adresa už je používána jiným strojem"
 msgid "MAC address must not be empty"
 msgstr "MAC adresu je třeba vyplnit"
 
-#: src/components/vm/disks/diskEdit.jsx:89
+#: src/components/vm/disks/diskEdit.tsx:135
 msgid "Machine must be shut off before changing bus type"
 msgstr ""
 "Aby bylo možné změnit typ sběrnice je třeba, aby virt. stroj byl vypnutý"
 
-#: src/components/vm/disks/diskEdit.jsx:63
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Machine must be shut off before changing cache mode"
 msgstr ""
 "Aby bylo možné změnit režim mezipaměti je třeba, aby virt. stroj byl vypnutý"
@@ -1553,11 +1546,11 @@ msgstr ""
 msgid "Maximum transmission unit"
 msgstr "Přenosová jednotka nejvýše (MTU)"
 
-#: src/components/vm/disks/mediaEject.jsx:103
+#: src/components/vm/disks/mediaEject.tsx:114
 msgid "Media could not be ejected from $0"
 msgstr "Médium se nepodařilo vysunout z $0"
 
-#: src/components/vm/disks/mediaEject.jsx:105
+#: src/components/vm/disks/mediaEject.tsx:116
 msgid "Media will be ejected from $0:"
 msgstr "Médium bude vysunuto z $0:"
 
@@ -1692,7 +1685,7 @@ msgstr "Název obsahuje neplatné znaky"
 
 #: src/components/vm/vmCloneDialog.jsx:47
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
-#: src/components/storagePools/storageVolumeCreate.tsx:93
+#: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Name must not be empty"
 msgstr "Název je třeba vyplnit"
 
@@ -1801,7 +1794,7 @@ msgstr "Bez popisu"
 msgid "No directories shared between the host and this VM"
 msgstr "Mezi hostitelem a tímto virt. strojem nejsou sdíleny žádné složky"
 
-#: src/components/vm/disks/vmDisksCard.jsx:259
+#: src/components/vm/disks/vmDisksCard.tsx:294
 msgid "No disks defined for this VM"
 msgstr "Pro tento virt. stroj nejsou definované žádné disky"
 
@@ -1851,7 +1844,7 @@ msgstr "Žádné úložiště"
 msgid "No storage pool is defined on this host"
 msgstr "Na tomto stroji není definován žádný fond úložiště"
 
-#: src/components/vm/disks/diskAdd.jsx:163
+#: src/components/vm/disks/diskAdd.tsx:232
 msgid "No storage pools available"
 msgstr "Nejsou k dispozici žádné fondy úložiště"
 
@@ -1950,15 +1943,11 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Nadřazený zachycený stav"
 
-#: src/components/vm/nics/nicBody.tsx:271
-msgid "Passthrough"
-msgstr "Přímý průchod na hostitele"
-
 # auto translated by TM merge from project: selinux (policycoreutils),
 # version: master, DocId: policycoreutils
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
-#: src/components/vm/disks/diskEdit.jsx:43
+#: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
 msgstr "Popis umístění"
@@ -1979,7 +1968,7 @@ msgstr "Popis umístění souboru s cloud obrazem na souborovém systému hostit
 msgid "Path to directory"
 msgstr "Popis umístění složky"
 
-#: src/components/vm/disks/diskAdd.jsx:339
+#: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
 msgstr "Popis umístění souboru na souborovém systému hostitele"
 
@@ -1999,7 +1988,7 @@ msgstr "Trvalé (výchozí)"
 msgid "Permissions denied for disk images in home directories"
 msgstr "Oprávnění odepřeno pro obrazy disků v domovských složkách"
 
-#: src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/disks/diskAdd.tsx:190
 #: src/components/vm/nics/nicAdd.tsx:122
 msgid "Persistence"
 msgstr "Trvalost"
@@ -2021,15 +2010,15 @@ msgstr "Fyzické diskové zařízení na hostiteli"
 msgid "Please choose a different MAC address"
 msgstr "Zvolte jinou MAC adresu"
 
-#: src/components/vm/disks/diskAdd.jsx:546
+#: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
 msgstr "Zvolte fond úložiště"
 
-#: src/components/vm/disks/diskAdd.jsx:564
+#: src/components/vm/disks/diskAdd.tsx:697
 msgid "Please choose a volume"
 msgstr "Zvolte svazek"
 
-#: src/components/vm/disks/diskAdd.jsx:553
+#: src/components/vm/disks/diskAdd.tsx:686
 msgid "Please enter new volume name"
 msgstr "Zadejte název pro nový svazek"
 
@@ -2043,23 +2032,23 @@ msgstr "Pro přístup k jeho konzoli je třeba virtuální stroj napřed zapnout
 
 # auto translated by TM merge from project: anaconda, version: f25, DocId:
 # main
-#: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:45
-#: src/components/vm/disks/mediaEject.jsx:87
+#: src/components/vm/disks/diskAdd.tsx:216
+#: src/components/vm/disks/vmDiskColumns.tsx:50
+#: src/components/vm/disks/mediaEject.tsx:98
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Úložiště"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool needs to be active to create volume"
 msgstr "Aby bylo možné vytvořit svazek, fond je třeba aktivovat"
 
-#: src/components/vm/disks/diskAdd.jsx:556
+#: src/components/vm/disks/diskAdd.tsx:689
 msgid "Pool type $0 does not support volume creation"
 msgstr "Typ fondu $0 nepodporuje vytváření svazků"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool type doesn't support volume creation"
 msgstr "Typ fondu nepodporuje vytváření svazků"
 
@@ -2069,7 +2058,7 @@ msgstr "Svazky z fondu jsou využívány virt. stroji "
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
-#: src/components/vm/disks/vmDiskColumns.jsx:48
+#: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
 #: src/components/vm/nics/vmNicsCard.tsx:213
@@ -2108,7 +2097,7 @@ msgstr ""
 "Pokud se něco pokazí, v minulosti pořízené zachycené stavy vám umožňují se "
 "vrátit k dřívějšímu stavu"
 
-#: src/components/vm/nics/nicBody.tsx:266 src/helpers.ts:272
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "Soukromé"
 
@@ -2127,7 +2116,7 @@ msgstr "Profil"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.tsx:49
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:161
 msgid "Protocol"
@@ -2165,8 +2154,8 @@ msgstr "Veřejná část klíče"
 msgid "Range"
 msgstr "Rozsah"
 
-#: src/components/vm/disks/diskEdit.jsx:116
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:174
 msgid "Read-only"
 msgstr "Pouze pro čtení"
 
@@ -2205,8 +2194,8 @@ msgstr "Podrobnosti o vzdáleném prohlížeči"
 # master, DocId: system-config-printer
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
-#: src/components/vm/disks/vmDiskColumns.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:213
+#: src/components/vm/disks/vmDiskColumns.tsx:166
+#: src/components/vm/disks/vmDiskColumns.tsx:252
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/overview/watchdog.jsx:213
@@ -2221,11 +2210,11 @@ msgstr "Odebrat"
 msgid "Remove SPICE audio and host devices"
 msgstr "Odebrat SPICE audio a zařízení hostitele"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
 msgstr "Odebrat a smazat soubor"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:146
+#: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
 msgstr "Odebrat disk z virt. stroje?"
 
@@ -2381,7 +2370,7 @@ msgstr "SSH klíče"
 # auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
 # cockpit
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
-#: src/components/vm/disks/diskEdit.jsx:253
+#: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/bootOrder.jsx:320
 #: src/components/vm/overview/vsock.jsx:194
@@ -2411,7 +2400,7 @@ msgstr "Poslat nemaskovatelné přerušení"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Poslat $0 nemaskovatelné přerušení?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "Sériové číslo"
 
@@ -2460,7 +2449,7 @@ msgstr "Složky sdílené s hostitelem je třeba ve virt. stroji připojit ručn
 msgid "Shared storage"
 msgstr "Sdílené úložiště"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Show additional options"
 msgstr "Zobrazit další možnosti"
@@ -2546,9 +2535,9 @@ msgstr ""
 
 # auto translated by TM merge from project: dnf, version: master, DocId: dnf
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
-#: src/components/vm/disks/diskAdd.jsx:586
-#: src/components/vm/disks/diskAdd.jsx:622
-#: src/components/vm/disks/vmDisksCard.jsx:190
+#: src/components/vm/disks/diskAdd.tsx:719
+#: src/components/vm/disks/diskAdd.tsx:755
+#: src/components/vm/disks/vmDisksCard.tsx:225
 #: src/components/vm/nics/nicBody.tsx:216
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
@@ -2666,7 +2655,7 @@ msgstr "Název fondu úložiště"
 msgid "Storage pools"
 msgstr "Fondy úložiště"
 
-#: src/components/vm/disks/diskAdd.jsx:413
+#: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
 msgstr "Fondy úložiště se nepodařilo získat"
 
@@ -2674,12 +2663,12 @@ msgstr "Fondy úložiště se nepodařilo získat"
 msgid "Storage size must not be 0"
 msgstr "Velikost úložiště nemůže být nula"
 
-#: src/components/vm/disks/diskEdit.jsx:47
+#: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
 msgstr "Svazek úložiště"
 
-#: src/components/vm/disks/diskAdd.jsx:560
-#: src/components/storagePools/storageVolumeCreate.tsx:96
+#: src/components/vm/disks/diskAdd.tsx:693
+#: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 "Je třeba, aby velikost svazku úložiště nepřesahovala kapacitu fondu úložiště "
@@ -2728,7 +2717,7 @@ msgstr "Tabulka zařízení hostitele, která je možné vybrat"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:151
+#: src/components/vm/disks/vmDiskColumns.tsx:170
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "Cíl"
@@ -2754,7 +2743,7 @@ msgstr "Dočasné přestěhování"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "Virt. stroj $0 je spuštěný a před smazáním bude vynuceně vypnut."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:221
+#: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
@@ -2782,7 +2771,7 @@ msgstr ""
 msgid "The mode influences the delivery of packets."
 msgstr "Režim ovlivňuje doručování paketů."
 
-#: src/components/vm/disks/diskAdd.jsx:105
+#: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
 msgstr "Fond je prázdný"
 
@@ -2819,7 +2808,7 @@ msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 "Tento vir. stroj je přechodný. Pokud ho chcete smazat, stačí ho vypnout."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
 msgstr "Tento disk bude odebrán z $0:"
 
@@ -2863,7 +2852,7 @@ msgstr ""
 "Tento nástroj spravuje virtuální stroje. Je jím možné vytvářet, dohledovat a "
 "ovládat virtuální stroje, poskytované podsystémem libvirt."
 
-#: src/components/vm/disks/diskAdd.jsx:80
+#: src/components/vm/disks/diskAdd.tsx:86
 msgid "This volume is already used by $0."
 msgstr "Tento svazek už je využíván $0."
 
@@ -2962,7 +2951,7 @@ msgstr "Nespecifikováno"
 msgid "Unsupported and older operating systems"
 msgstr "Nepodporované a starší operační systémy"
 
-#: src/components/vm/disks/diskEdit.jsx:45
+#: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
 msgstr "URL adresa"
 
@@ -2972,8 +2961,8 @@ msgstr "URL adresa"
 msgid "Usage"
 msgstr "Použití"
 
-#: src/components/vm/disks/diskAdd.jsx:594
-#: src/components/vm/disks/diskAdd.jsx:630
+#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:763
 msgid "Use existing"
 msgstr "Použít existující"
 
@@ -2991,7 +2980,7 @@ msgstr ""
 "cílového hostitele. Může to být sdílený fond úložišť, NFS, nebo jakákoli "
 "jiná metoda sdílení úložiště."
 
-#: src/components/vm/disks/vmDisksCard.jsx:182
+#: src/components/vm/disks/vmDisksCard.tsx:217
 msgid "Used"
 msgstr "Využito"
 
@@ -3170,16 +3159,16 @@ msgstr "Služba virtualizace (libvirt) není aktivní"
 
 # auto translated by TM merge from project: anaconda, version: master, DocId:
 # main
-#: src/components/vm/disks/diskAdd.jsx:113
-#: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/mediaEject.jsx:91
+#: src/components/vm/disks/diskAdd.tsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:51
+#: src/components/vm/disks/mediaEject.tsx:102
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 msgid "Volume"
 msgstr "Svazek"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:117
+#: src/components/storagePools/storageVolumeCreate.tsx:110
 msgid "Volume failed to be created"
 msgstr "Svazek se nepodařilo vytvořit"
 
@@ -3215,8 +3204,8 @@ msgstr ""
 "toto virtuální zařízení resetátoru je také třeba, aby systém v hostovi měl "
 "další ovladač a spuštěnou službu pro resetátor."
 
-#: src/components/vm/disks/diskEdit.jsx:125
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:183
 msgid "Writeable"
 msgstr "Zapisovatelné"
 
@@ -3410,7 +3399,7 @@ msgstr "přesměrované zařízení"
 msgid "remove"
 msgstr "odebrat"
 
-#: src/components/vm/disks/diskAdd.jsx:236
+#: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
 msgstr "sériové číslo"
 
@@ -3500,6 +3489,14 @@ msgstr "Virt. soket vyžaduje speciální software"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74 src/helpers.ts:278
 msgid "yes"
 msgstr "ano"
+
+# auto translated by TM merge from project: libguestfs, version: master,
+# DocId: po/libguestfs
+#~ msgid "Bridge"
+#~ msgstr "Most"
+
+#~ msgid "Passthrough"
+#~ msgstr "Přímý průchod na hostitele"
 
 #~ msgid ""
 #~ "In the default 'vepa' mode, switching is offloaded to the external "

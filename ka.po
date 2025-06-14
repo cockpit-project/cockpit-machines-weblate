@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 03:40+0000\n"
+"POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-06-07 04:53+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -84,8 +84,8 @@ msgstr ""
 "VM-ის ასლი გაეშვება სამიზნე მანქანაზე და გაქრება, როცა ის გამოირთვება. ამავე "
 "დროს საწყისი ჰოსტს VM-ის კონფიგურაცის საკუთარი ასლი გააჩნია."
 
-#: src/components/vm/disks/diskEdit.jsx:108
-#: src/components/vm/disks/vmDisksCard.jsx:188
+#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/diskEdit.tsx:166
 msgid "Access"
 msgstr "წვდომა"
 
@@ -94,7 +94,7 @@ msgid "Action"
 msgstr "ქმედება"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/vm/disks/vmDisksCard.jsx:194
+#: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
@@ -112,7 +112,7 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "საცავის პულის აქტივაცია საცავების ადმინისტრირებისთვის"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
-#: src/components/vm/disks/diskAdd.jsx:819
+#: src/components/vm/disks/diskAdd.tsx:968
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.tsx:274
@@ -132,8 +132,8 @@ msgstr "TPM-ის დამატება"
 msgid "Add a DHCP static host entry"
 msgstr "ჰოსტის DHCP სტატიკური ელემენტის დამატება"
 
-#: src/components/vm/disks/diskAdd.jsx:686
-#: src/components/vm/disks/vmDisksCard.jsx:75
+#: src/components/vm/disks/diskAdd.tsx:819
+#: src/components/vm/disks/vmDisksCard.tsx:87
 msgid "Add disk"
 msgstr "დისკის დამატება"
 
@@ -173,7 +173,7 @@ msgstr ""
 "გაზიარებული საქაღალდეების დამატება მხოლოდ სტუმრის გამორთულობის დროსაა "
 "შესაძლებელი"
 
-#: src/components/vm/disks/vmDisksCard.jsx:192
+#: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
 msgstr "დამატებითი"
 
@@ -204,7 +204,7 @@ msgstr ""
 "ვმ-ის ყველა აქტივობა, საცავის ჩათვლით, დროებითი იქნება. ეს სამიზნე ჰოსტზე "
 "მონაცემების დაკარგვას გამოიწვევს."
 
-#: src/components/vm/disks/diskAdd.jsx:250
+#: src/components/vm/disks/diskAdd.tsx:337
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -216,7 +216,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "ასევე წაიშლება ამ პულში მდებარე საცავებიც:"
 
-#: src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
 msgid "Always attach"
 msgstr "ყოველთვის მიბმა"
@@ -259,7 +259,7 @@ msgstr "ავტომატიზაცია"
 msgid "Autostart"
 msgstr "ავტომატური გაშვება"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.tsx:48
 msgid "Block device"
 msgstr "ბლოკური მოწყობილობა"
 
@@ -275,17 +275,13 @@ msgstr "ჩატვირთვის მიმდევრობა"
 msgid "Boot order settings could not be saved"
 msgstr "ჩატვირთვის მიმდევრობის შენახვის შეცდომა"
 
-#: src/components/vm/nics/nicBody.tsx:261
-msgid "Bridge"
-msgstr "ხიდი"
-
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
 #: src/components/vm/hostdevs/hostDevCard.jsx:245
-#: src/components/vm/disks/diskAdd.jsx:219
-#: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:306
+#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:137
@@ -294,7 +290,7 @@ msgstr "ხიდი"
 msgid "Bus"
 msgstr "მატარებელი"
 
-#: src/components/vm/disks/diskAdd.jsx:351
+#: src/components/vm/disks/diskAdd.tsx:472
 msgid "CD/DVD disc"
 msgstr "CD/DVD დისკი"
 
@@ -308,9 +304,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "CPU-ის პარამეტრების შენახვის შეცდომა"
 
-#: src/components/vm/disks/diskAdd.jsx:208
-#: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/diskAdd.tsx:295
+#: src/components/vm/disks/vmDiskColumns.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 msgid "Cache"
 msgstr "ქეში"
 
@@ -320,9 +316,9 @@ msgstr "ქეში"
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
-#: src/components/vm/disks/diskAdd.jsx:822
-#: src/components/vm/disks/diskEdit.jsx:256
-#: src/components/vm/disks/mediaEject.jsx:118
+#: src/components/vm/disks/diskAdd.tsx:971
+#: src/components/vm/disks/mediaEject.tsx:129
+#: src/components/vm/disks/diskEdit.tsx:341
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:229
 #: src/components/vm/overview/watchdog.jsx:216
 #: src/components/vm/overview/bootOrder.jsx:323
@@ -339,7 +335,7 @@ msgstr "ქეში"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1482
 #: src/components/networks/createNetworkDialog.tsx:561
 #: src/components/networks/networkOverviewTab.tsx:284
-#: src/components/storagePools/storageVolumeCreate.tsx:153
+#: src/components/storagePools/storageVolumeCreate.tsx:146
 #: src/components/storagePools/createStoragePoolDialog.tsx:529
 #: src/components/storagePools/storagePoolDelete.tsx:220
 msgid "Cancel"
@@ -353,7 +349,7 @@ msgstr "დროებით ვმ-ზე vsock მოწყობილობ
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Watchdog ტიპის მოწყობილობის ჩასწორება დროებით ვმ-ზე შეუძლებელია"
 
-#: src/components/vm/disks/vmDisksCard.jsx:184
+#: src/components/vm/disks/vmDisksCard.tsx:219
 msgid "Capacity"
 msgstr "მოცულობა"
 
@@ -420,7 +416,7 @@ msgstr "ღრუბლოვანი საბაზისო გამოს�
 msgid "Cockpit Project"
 msgstr "პროექტი Cockpit"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "ერთდრიულად ჩაწერადი"
 
@@ -479,7 +475,7 @@ msgstr "წაშლის შეცდომა: $0"
 msgid "Could not delete all storage for $0"
 msgstr "$0-სთვის საცავის სრულად წაშლა შეუძლებელია"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:134
+#: src/components/vm/disks/vmDiskColumns.tsx:153
 msgid "Could not delete disk's storage"
 msgstr "დისკის საცავის წაშლა შეუძლებელია"
 
@@ -497,7 +493,7 @@ msgstr "გაითიშა"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/networks/createNetworkDialog.tsx:558
-#: src/components/storagePools/storageVolumeCreate.tsx:150
+#: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
 msgid "Create"
 msgstr "შექმნა"
@@ -526,7 +522,7 @@ msgstr "შექმნა და ჩასწორება"
 msgid "Create and run"
 msgstr "შექმნა და გაშვება"
 
-#: src/components/vm/disks/diskAdd.jsx:625
+#: src/components/vm/disks/diskAdd.tsx:758
 msgid "Create new"
 msgstr "ახლის შექმნა"
 
@@ -552,7 +548,7 @@ msgstr "სწრაფი ასლის შექმნა"
 msgid "Create storage pool"
 msgstr "საცავის პულის შექმნა"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:129
+#: src/components/storagePools/storageVolumeCreate.tsx:122
 msgid "Create storage volume"
 msgstr "საცავის ტომის შექმნა"
 
@@ -561,8 +557,8 @@ msgstr "საცავის ტომის შექმნა"
 msgid "Create virtual network"
 msgstr "ვირტუალური ქსელის შექმნა"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:181
-#: src/components/storagePools/storageVolumeCreate.tsx:192
+#: src/components/storagePools/storageVolumeCreate.tsx:174
+#: src/components/storagePools/storageVolumeCreate.tsx:185
 msgid "Create volume"
 msgstr "ტომის შექმნა"
 
@@ -610,9 +606,9 @@ msgstr "ხელით მითითებული მიკროკოდ�
 msgid "Custom identifier"
 msgstr "ხელით მითითებული იდენტიფიკატორი"
 
-#: src/components/vm/disks/diskAdd.jsx:336
-#: src/components/vm/disks/diskAdd.jsx:589
-#: src/components/vm/disks/diskAdd.jsx:635
+#: src/components/vm/disks/diskAdd.tsx:454
+#: src/components/vm/disks/diskAdd.tsx:722
+#: src/components/vm/disks/diskAdd.tsx:768
 msgid "Custom path"
 msgstr "ხელით მითითებული ბილიკი"
 
@@ -714,9 +710,8 @@ msgstr "დეტალები"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
-#: src/components/vm/disks/diskAdd.jsx:344
-#: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/disks/vmDisksCard.jsx:172
+#: src/components/vm/disks/diskAdd.tsx:462
+#: src/components/vm/disks/vmDisksCard.tsx:207
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/overview/bootOrder.jsx:138
@@ -747,15 +742,15 @@ msgstr "სერიული კონსოლი გაითიშა. დ�
 msgid "Disk"
 msgstr "დისკი"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:148
+#: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
 msgstr "დისკის წაშლის შეცდომა: $0"
 
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
 msgstr "დისკის დამატება ჩავარდა"
 
-#: src/components/vm/disks/diskAdd.jsx:234
+#: src/components/vm/disks/diskAdd.tsx:321
 msgid "Disk identifier"
 msgstr "დისკის იდენტიფიკატორი"
 
@@ -763,7 +758,7 @@ msgstr "დისკის იდენტიფიკატორი"
 msgid "Disk image"
 msgstr "დისკის გამოსახულება"
 
-#: src/components/vm/disks/diskAdd.jsx:349
+#: src/components/vm/disks/diskAdd.tsx:470
 msgid "Disk image file"
 msgstr "დისკის გამოსახეულების ფაილი"
 
@@ -775,7 +770,7 @@ msgstr "დისკის გამოსახულების ბილი�
 msgid "Disk images can be stored in user home directory"
 msgstr "დისკის ასლები შეგიძლიათ მომხმარებლის საქაღლდეში შეინახოთ"
 
-#: src/components/vm/disks/diskEdit.jsx:199
+#: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
 msgstr "დისკის პარამეტრების შენახვის შეცდომა"
 
@@ -832,12 +827,12 @@ msgstr "ხანგრძილობა"
 msgid "Dying"
 msgstr "კვდება"
 
-#: src/components/vm/disks/diskEdit.jsx:149
+#: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
 msgstr "ჩასწორება"
 
-#: src/components/vm/disks/diskEdit.jsx:245
+#: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
 msgstr "$0-ის ატრიბუტების ჩასწორება"
 
@@ -865,12 +860,12 @@ msgstr "დროებით სტუმრებზე ქსელის ი
 msgid "Editing transient network interfaces is not allowed"
 msgstr "ქსელის დროებითი ინტერფეისების ჩასწორება შეუძლებელია"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:194
-#: src/components/vm/disks/mediaEject.jsx:111
+#: src/components/vm/disks/vmDiskColumns.tsx:233
+#: src/components/vm/disks/mediaEject.tsx:122
 msgid "Eject"
 msgstr "გამოღება"
 
-#: src/components/vm/disks/mediaEject.jsx:101
+#: src/components/vm/disks/mediaEject.tsx:112
 msgid "Eject disc from VM?"
 msgstr "გამოვიღო დისკი ვმ-დან?"
 
@@ -984,7 +979,7 @@ msgstr "ჩავარდა აღწერის დაყენება ვ
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "ჩართული უნდა იყოს ხელმისაწვდომზე ნაკლები ვირტუალური პროცესორი."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.tsx:47
 #: src/components/vm/overview/bootOrder.jsx:98
 msgid "File"
 msgstr "ფაილი"
@@ -1006,7 +1001,7 @@ msgstr "სახელით გაფილტვრა"
 msgid "Firmware"
 msgstr "მიკროკოდი"
 
-#: src/components/vm/disks/mediaEject.jsx:115
+#: src/components/vm/disks/mediaEject.tsx:126
 msgid "Force eject"
 msgstr "ძალით გამოღება"
 
@@ -1030,7 +1025,7 @@ msgstr "ძალით გამორთვა"
 msgid "Force shut down $0?"
 msgstr "გამოვრთო ძალით $0?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:106
+#: src/components/vm/disks/vmDiskColumns.tsx:122
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Format"
@@ -1067,7 +1062,7 @@ msgstr "ავტომატური გენერაცია"
 msgid "Get a new RHSM token."
 msgstr "ახალი RHSM კოდის მიღება."
 
-#: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/disks/vmDisksCard.tsx:53
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
@@ -1091,12 +1086,12 @@ msgstr "ძალით გამორთვა"
 msgid "Hardware virtualization is disabled"
 msgstr "აპარატურული ვირტუალიზაცია გამორთულია"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Hide additional options"
 msgstr "დამატებითი პარამეტრების დამალვა"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.tsx:52
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
@@ -1131,7 +1126,7 @@ msgstr "ჰოსტი ცარიელი არ შეიძლება �
 msgid "Hypervisor details"
 msgstr "ინფორმაცია ჰაიპერვაიზორის შესახებ"
 
-#: src/components/vm/disks/diskEdit.jsx:41
+#: src/components/vm/disks/diskEdit.tsx:61
 msgid "ID"
 msgstr "ID"
 
@@ -1210,7 +1205,7 @@ msgstr ""
 "იდენტიფიკატორი $0ს-თვის. იგივე იდენტიფიკატორის მქონე ვმ-ებს ერთდროულად ვერ "
 "გაუშვებთ."
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.tsx:342
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "იდენტიფიკატორს შეიძლება წაეჭრას $0 simbolo "
 
@@ -1238,7 +1233,7 @@ msgstr "შემოტანა და ჩასწორება"
 msgid "Import and run"
 msgstr "შემოტანა და გაშვება"
 
-#: src/components/vm/disks/diskAdd.jsx:489
+#: src/components/vm/disks/diskAdd.tsx:627
 msgid "Importing an image with a backing file is unsupported"
 msgstr "უკანაბოლოს სახით ფაილის მქონე ასლის შემოტანა მხარდაუჭერელია"
 
@@ -1260,12 +1255,12 @@ msgstr "ინიციატორი ცარიელი არ შეიძ
 msgid "Inject a non-maskable interrupt"
 msgstr "შეუნიღბვადი წყვეტის გაგზავნა"
 
-#: src/components/vm/disks/diskAdd.jsx:819
-#: src/components/vm/disks/vmDiskColumns.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:968
+#: src/components/vm/disks/vmDiskColumns.tsx:225
 msgid "Insert"
 msgstr "ჩადება"
 
-#: src/components/vm/disks/diskAdd.jsx:686
+#: src/components/vm/disks/diskAdd.tsx:819
 msgid "Insert disc media"
 msgstr "დისკის ჩადება"
 
@@ -1406,11 +1401,11 @@ msgstr "MAC მისამართი უკვე გამოიყენე
 msgid "MAC address must not be empty"
 msgstr "MAC მისამართი ცარიელი არ შეიძლება იყოს"
 
-#: src/components/vm/disks/diskEdit.jsx:89
+#: src/components/vm/disks/diskEdit.tsx:135
 msgid "Machine must be shut off before changing bus type"
 msgstr "მატარებლის ტიპის შეცვლამდე მანქანა უნდა გამოირთოს"
 
-#: src/components/vm/disks/diskEdit.jsx:63
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Machine must be shut off before changing cache mode"
 msgstr "ქეშის რეჟიმის შეცვლამდე მანქანა უნდა გამოირთოს"
 
@@ -1462,11 +1457,11 @@ msgstr "ვირტუალური CPU-ების მაქსიმალ
 msgid "Maximum transmission unit"
 msgstr "გადაცემის მაქსიმალური ერთეული"
 
-#: src/components/vm/disks/mediaEject.jsx:103
+#: src/components/vm/disks/mediaEject.tsx:114
 msgid "Media could not be ejected from $0"
 msgstr "$0-დან დისკის გამოღების შეცდომა"
 
-#: src/components/vm/disks/mediaEject.jsx:105
+#: src/components/vm/disks/mediaEject.tsx:116
 msgid "Media will be ejected from $0:"
 msgstr "მოხდება დისკის $0-დან ამოღება:"
 
@@ -1591,7 +1586,7 @@ msgstr "სახელი შეიცავს არასწორ სიმ
 
 #: src/components/vm/vmCloneDialog.jsx:47
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
-#: src/components/storagePools/storageVolumeCreate.tsx:93
+#: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Name must not be empty"
 msgstr "სახელი ცარიელი არ შეიძლება იყოს"
 
@@ -1698,7 +1693,7 @@ msgstr "აღწერის გარეშე"
 msgid "No directories shared between the host and this VM"
 msgstr "ამ ვმ-სა და ჰოსტს შორის საქაღალდეები გაზიარებული არაა"
 
-#: src/components/vm/disks/vmDisksCard.jsx:259
+#: src/components/vm/disks/vmDisksCard.tsx:294
 msgid "No disks defined for this VM"
 msgstr "ამ ვმ-ს დისკები არ გააჩნია"
 
@@ -1746,7 +1741,7 @@ msgstr "საცავის გარეშე"
 msgid "No storage pool is defined on this host"
 msgstr "ამ ჰოსტზე საცავის პული აღწერილი არაა"
 
-#: src/components/vm/disks/diskAdd.jsx:163
+#: src/components/vm/disks/diskAdd.tsx:232
 msgid "No storage pools available"
 msgstr "საცავის პულები ხელმიუწვდომელია"
 
@@ -1843,13 +1838,9 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "მშობელი სწრაფი ასლი"
 
-#: src/components/vm/nics/nicBody.tsx:271
-msgid "Passthrough"
-msgstr "გამჭოლი"
-
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
-#: src/components/vm/disks/diskEdit.jsx:43
+#: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
 msgstr "ბილიკი"
@@ -1870,7 +1861,7 @@ msgstr "ღრუბლოვანი გამოსახულების �
 msgid "Path to directory"
 msgstr "ბილიკი საქაღალდემდე"
 
-#: src/components/vm/disks/diskAdd.jsx:339
+#: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
 msgstr "ბილიკი ფაილამდე ჰოსტის ფალურ სისტემაზე"
 
@@ -1890,7 +1881,7 @@ msgstr "მუდმივი (ნაგულისხმები)"
 msgid "Permissions denied for disk images in home directories"
 msgstr "საწყისი საქაღალდეებიდან დისკის ასლების წაკითხვის წვდომა აკრძალულია"
 
-#: src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/disks/diskAdd.tsx:190
 #: src/components/vm/nics/nicAdd.tsx:122
 msgid "Persistence"
 msgstr "მუდმივობა"
@@ -1912,15 +1903,15 @@ msgstr "დისკის ფიზიკური მოწყობილო�
 msgid "Please choose a different MAC address"
 msgstr "აირჩიეთ სხვა MAC მისამართი"
 
-#: src/components/vm/disks/diskAdd.jsx:546
+#: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
 msgstr "აირჩიეთ საცავის პული"
 
-#: src/components/vm/disks/diskAdd.jsx:564
+#: src/components/vm/disks/diskAdd.tsx:697
 msgid "Please choose a volume"
 msgstr "აირჩიეთ ტომი"
 
-#: src/components/vm/disks/diskAdd.jsx:553
+#: src/components/vm/disks/diskAdd.tsx:686
 msgid "Please enter new volume name"
 msgstr "შეიყვანეთ ახალი ტომის სახელი"
 
@@ -1932,23 +1923,23 @@ msgstr "იხილეთ $0, რომ გაიგოთ, როგორ მ
 msgid "Please start the virtual machine to access its console."
 msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
 
-#: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:45
-#: src/components/vm/disks/mediaEject.jsx:87
+#: src/components/vm/disks/diskAdd.tsx:216
+#: src/components/vm/disks/vmDiskColumns.tsx:50
+#: src/components/vm/disks/mediaEject.tsx:98
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "პული"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool needs to be active to create volume"
 msgstr "ომის შესაქმნელად საჭიროა, რომ პული აქტიური იყოს"
 
-#: src/components/vm/disks/diskAdd.jsx:556
+#: src/components/vm/disks/diskAdd.tsx:689
 msgid "Pool type $0 does not support volume creation"
 msgstr "პულის ტიპი $0 მხარს არ უჭერს ტომების შექმნას"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool type doesn't support volume creation"
 msgstr "პულის ტიპს ტომის შექმნის მხარდაჭერა არ გააჩნია"
 
@@ -1956,7 +1947,7 @@ msgstr "პულის ტიპს ტომის შექმნის მ�
 msgid "Pool's volumes are used by VMs "
 msgstr "პულის ტომები გამოიყენება ვმ-ების მიერ "
 
-#: src/components/vm/disks/vmDiskColumns.jsx:48
+#: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
 #: src/components/vm/nics/vmNicsCard.tsx:213
@@ -1995,7 +1986,7 @@ msgstr ""
 "ადრე შექმნილი სწრაფი ასლები საშუალებად გაძლევთ, თუ რამე მოხდა, წინა "
 "მდგომარეობას დაუბრუნდეთ"
 
-#: src/components/vm/nics/nicBody.tsx:266 src/helpers.ts:272
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "პირადი"
 
@@ -2012,7 +2003,7 @@ msgid "Profile"
 msgstr "პროფილი"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.tsx:49
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:161
 msgid "Protocol"
@@ -2048,8 +2039,8 @@ msgstr "საჯარო გასაღები"
 msgid "Range"
 msgstr "დიაპაზონი"
 
-#: src/components/vm/disks/diskEdit.jsx:116
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:174
 msgid "Read-only"
 msgstr "მხოლოდ-წასაკითხად"
 
@@ -2080,8 +2071,8 @@ msgstr "დაშორებული მაყურებლის დეტ�
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
-#: src/components/vm/disks/vmDiskColumns.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:213
+#: src/components/vm/disks/vmDiskColumns.tsx:166
+#: src/components/vm/disks/vmDiskColumns.tsx:252
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/overview/watchdog.jsx:213
@@ -2096,11 +2087,11 @@ msgstr "წაშლა"
 msgid "Remove SPICE audio and host devices"
 msgstr "SPICE აუდიოსა და ჰოსტის მოწყობილობების წაშლა"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
 msgstr "ფაილის მოცილება და წაშლა"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:146
+#: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
 msgstr "წავშალო დისკი ვმ-დან?"
 
@@ -2250,7 +2241,7 @@ msgid "SSH keys"
 msgstr "SSH გასაღებები"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
-#: src/components/vm/disks/diskEdit.jsx:253
+#: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/bootOrder.jsx:320
 #: src/components/vm/overview/vsock.jsx:194
@@ -2280,7 +2271,7 @@ msgstr "შეუნიღბვადი წყვეტის გაგზა�
 msgid "Send non-maskable interrupt to $0?"
 msgstr "გავუგზავნო შეუნიღბვადი წყვეტა $0-ს?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "სერიული ნომერი"
 
@@ -2329,7 +2320,7 @@ msgstr "ჰოსტის გაზიარებული საქაღა�
 msgid "Shared storage"
 msgstr "გაზიარებული საცავი"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Show additional options"
 msgstr "დამატებითი პარამეტრების ჩვენება"
@@ -2406,9 +2397,9 @@ msgstr ""
 "კონფიგურაციის ზოგიერთი ცვლილება ძალაში მხოლოდ გადატვირთვის შემდეგ შევა:"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
-#: src/components/vm/disks/diskAdd.jsx:586
-#: src/components/vm/disks/diskAdd.jsx:622
-#: src/components/vm/disks/vmDisksCard.jsx:190
+#: src/components/vm/disks/diskAdd.tsx:719
+#: src/components/vm/disks/diskAdd.tsx:755
+#: src/components/vm/disks/vmDisksCard.tsx:225
 #: src/components/vm/nics/nicBody.tsx:216
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
@@ -2520,7 +2511,7 @@ msgstr "საცავის პულის სახელი"
 msgid "Storage pools"
 msgstr "საცავის პულები"
 
-#: src/components/vm/disks/diskAdd.jsx:413
+#: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
 msgstr "სტორიჯის პულების გამოთხოვნის შეცდომა"
 
@@ -2528,12 +2519,12 @@ msgstr "სტორიჯის პულების გამოთხოვ�
 msgid "Storage size must not be 0"
 msgstr "საცავის ზომა 0 არ შეიძლება იყოს"
 
-#: src/components/vm/disks/diskEdit.jsx:47
+#: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
 msgstr "საცავის ტომი"
 
-#: src/components/vm/disks/diskAdd.jsx:560
-#: src/components/storagePools/storageVolumeCreate.tsx:96
+#: src/components/vm/disks/diskAdd.tsx:693
+#: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr "საცავის ტომის ზომამ საცავის პულის ზომას არ უნდა გადააჭარბოს ($0 $1)"
 
@@ -2575,7 +2566,7 @@ msgid "Table of selectable host devices"
 msgstr "ჰოსტის არჩევადი მოწყობილობების ცხრილი"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:151
+#: src/components/vm/disks/vmDiskColumns.tsx:170
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "სამიზნე"
@@ -2601,7 +2592,7 @@ msgstr "დროებითი მიგრაცია"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "ვმ-ი გაშვებულია. წაშლის წინ ის გაითიშება: $0."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:221
+#: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
@@ -2627,7 +2618,7 @@ msgstr ""
 msgid "The mode influences the delivery of packets."
 msgstr "ეს რეჟიმი ხელს უწყობა პაკეტების მიტანას."
 
-#: src/components/vm/disks/diskAdd.jsx:105
+#: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
 msgstr "პული ცარიელია"
 
@@ -2663,7 +2654,7 @@ msgstr "დააკოპირეთ და ზემოთ ჩასვით
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "ვმ-ი დროებითია. წასაშლელად გამორთეთ."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
 msgstr "$0-დან დისკი წაიშლება:"
 
@@ -2708,7 +2699,7 @@ msgstr ""
 "ეს ხელსაწყო მართავს ვირტუალური მანქანებს. მისი საშუალებით შეგიძლიათ შექმნათ "
 "და აკონტროლოთ libvirt-ის ქვესისტემის ქვეშ არსებული ვირტუალური მანქანები."
 
-#: src/components/vm/disks/diskAdd.jsx:80
+#: src/components/vm/disks/diskAdd.tsx:86
 msgid "This volume is already used by $0."
 msgstr "ეს ტომი $0-ის მიერ უკვე გამოიყენება."
 
@@ -2802,7 +2793,7 @@ msgstr "მიუთითებელი"
 msgid "Unsupported and older operating systems"
 msgstr "მხარდაუჭერელი და ძველი ოპერაციული სისტემები"
 
-#: src/components/vm/disks/diskEdit.jsx:45
+#: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
 msgstr "Url"
 
@@ -2810,8 +2801,8 @@ msgstr "Url"
 msgid "Usage"
 msgstr "გამოყენება"
 
-#: src/components/vm/disks/diskAdd.jsx:594
-#: src/components/vm/disks/diskAdd.jsx:630
+#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:763
 msgid "Use existing"
 msgstr "არსებულის გამოყენება"
 
@@ -2828,7 +2819,7 @@ msgstr ""
 "საცავისთვის გამოიყენეთ ერთიდაიგივე მდებარეობა საწყის და სამიზნე ჰოსტებზე. "
 "შეიძლება იყოს ზიარი საცავის პული, NFS ან საცავის გაზიარების სხვა ხერხი."
 
-#: src/components/vm/disks/vmDisksCard.jsx:182
+#: src/components/vm/disks/vmDisksCard.tsx:217
 msgid "Used"
 msgstr "გამოყენებულია"
 
@@ -3002,16 +2993,16 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr "ვირტუალიზაციის სერვისი (libvirt) აქტიური არაა"
 
-#: src/components/vm/disks/diskAdd.jsx:113
-#: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/mediaEject.jsx:91
+#: src/components/vm/disks/diskAdd.tsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:51
+#: src/components/vm/disks/mediaEject.tsx:102
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 msgid "Volume"
 msgstr "ტომი"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:117
+#: src/components/storagePools/storageVolumeCreate.tsx:110
 msgid "Volume failed to be created"
 msgstr "ტომის ფაილის შექმნის შეცდომა"
 
@@ -3047,8 +3038,8 @@ msgstr ""
 "Watchdog-ის გამოსაყენებლად სტუმარ ოპერაციულ სისტემას დამატებითი დრაივერი და "
 "გაშვებული სერვისი სჭირდება."
 
-#: src/components/vm/disks/diskEdit.jsx:125
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:183
 msgid "Writeable"
 msgstr "ჩაწერადი"
 
@@ -3228,7 +3219,7 @@ msgstr "გადამისამართებული მოწყობ�
 msgid "remove"
 msgstr "წაშლა"
 
-#: src/components/vm/disks/diskAdd.jsx:236
+#: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
 msgstr "სერიული ნომერი"
 
@@ -3305,6 +3296,12 @@ msgstr "vsock-ს სპეციალური პროგრამები 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74 src/helpers.ts:278
 msgid "yes"
 msgstr "დიახ"
+
+#~ msgid "Bridge"
+#~ msgstr "ხიდი"
+
+#~ msgid "Passthrough"
+#~ msgstr "გამჭოლი"
 
 #~ msgid ""
 #~ "In the default 'vepa' mode, switching is offloaded to the external "

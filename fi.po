@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 03:40+0000\n"
+"POT-Creation-Date: 2025-06-14 03:34+0000\n"
 "PO-Revision-Date: 2025-03-20 17:27+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit-"
@@ -84,8 +84,8 @@ msgstr ""
 "Kopio virtuaalikoneesta suoritetaan kohteessa ja katoaa, kun se sammutetaan. "
 "Samaan aikaan isäntäkone säilyttää kopion virtuaalikoneen kokoonpanosta."
 
-#: src/components/vm/disks/diskEdit.jsx:108
-#: src/components/vm/disks/vmDisksCard.jsx:188
+#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/diskEdit.tsx:166
 msgid "Access"
 msgstr "Pääsy"
 
@@ -94,7 +94,7 @@ msgid "Action"
 msgstr "Toiminto"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
-#: src/components/vm/disks/vmDisksCard.jsx:194
+#: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
 #: src/components/vms/hostvmslist.tsx:204
@@ -112,7 +112,7 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "Aktivoi varastointivaranto taltioiden hallitsemiseksi"
 
 #: src/components/vm/hostdevs/hostDevAdd.jsx:232
-#: src/components/vm/disks/diskAdd.jsx:819
+#: src/components/vm/disks/diskAdd.tsx:968
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/vsock.jsx:194
 #: src/components/vm/nics/nicAdd.tsx:274
@@ -132,8 +132,8 @@ msgstr "Lisää TPM"
 msgid "Add a DHCP static host entry"
 msgstr "Lisää staattinen DHCP-merkintä"
 
-#: src/components/vm/disks/diskAdd.jsx:686
-#: src/components/vm/disks/vmDisksCard.jsx:75
+#: src/components/vm/disks/diskAdd.tsx:819
+#: src/components/vm/disks/vmDisksCard.tsx:87
 msgid "Add disk"
 msgstr "Lisää levy"
 
@@ -173,7 +173,7 @@ msgstr ""
 "Jaettujen kansioiden lisääminen on mahdollista vain, kun vieras on "
 "sammutettuna"
 
-#: src/components/vm/disks/vmDisksCard.jsx:192
+#: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
 msgstr "Ylimääräinen"
 
@@ -204,7 +204,7 @@ msgstr ""
 "Kaikki virtuaalikoneen toiminnot, mukaan lukien tallennustila, ovat "
 "väliaikaisia. Tämä johtaa tietojen menetykseen kohdepalvelimessa."
 
-#: src/components/vm/disks/diskAdd.jsx:250
+#: src/components/vm/disks/diskAdd.tsx:337
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
@@ -216,7 +216,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr "Poista myös tämän varannon sisäiset taltiot:"
 
-#: src/components/vm/disks/diskAdd.jsx:136
+#: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
 msgid "Always attach"
 msgstr "Kiinnitä aina"
@@ -259,7 +259,7 @@ msgstr "Automatisointi"
 msgid "Autostart"
 msgstr "Automaattikäynnistys"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:42
+#: src/components/vm/disks/vmDiskColumns.tsx:48
 msgid "Block device"
 msgstr "lohkolaite"
 
@@ -275,19 +275,13 @@ msgstr "Käynnistysjärjestys"
 msgid "Boot order settings could not be saved"
 msgstr "Käynnistysjärjestysasetuksia ei voitu tallentaa"
 
-#: src/components/vm/nics/nicBody.tsx:261
-#, fuzzy
-#| msgid "bridge"
-msgid "Bridge"
-msgstr "silta"
-
 #: src/components/vm/hostdevs/hostDevAdd.jsx:89
 #: src/components/vm/hostdevs/hostDevCard.jsx:99
 #: src/components/vm/hostdevs/hostDevCard.jsx:107
 #: src/components/vm/hostdevs/hostDevCard.jsx:245
-#: src/components/vm/disks/diskAdd.jsx:219
-#: src/components/vm/disks/diskEdit.jsx:87
-#: src/components/vm/disks/vmDisksCard.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:306
+#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/overview/bootOrder.jsx:107
 #: src/components/vm/overview/bootOrder.jsx:119
 #: src/components/vm/overview/bootOrder.jsx:137
@@ -296,7 +290,7 @@ msgstr "silta"
 msgid "Bus"
 msgstr "Väylä"
 
-#: src/components/vm/disks/diskAdd.jsx:351
+#: src/components/vm/disks/diskAdd.tsx:472
 msgid "CD/DVD disc"
 msgstr "CD/DVD-levy"
 
@@ -310,9 +304,9 @@ msgstr "Suoritin"
 msgid "CPU mode could not be saved"
 msgstr "CPU:n moodia ei voitu tallentaa"
 
-#: src/components/vm/disks/diskAdd.jsx:208
-#: src/components/vm/disks/diskEdit.jsx:61
-#: src/components/vm/disks/vmDiskColumns.jsx:104
+#: src/components/vm/disks/diskAdd.tsx:295
+#: src/components/vm/disks/vmDiskColumns.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 msgid "Cache"
 msgstr "Välimuisti"
 
@@ -322,9 +316,9 @@ msgstr "Välimuisti"
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
-#: src/components/vm/disks/diskAdd.jsx:822
-#: src/components/vm/disks/diskEdit.jsx:256
-#: src/components/vm/disks/mediaEject.jsx:118
+#: src/components/vm/disks/diskAdd.tsx:971
+#: src/components/vm/disks/mediaEject.tsx:129
+#: src/components/vm/disks/diskEdit.tsx:341
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:229
 #: src/components/vm/overview/watchdog.jsx:216
 #: src/components/vm/overview/bootOrder.jsx:323
@@ -341,7 +335,7 @@ msgstr "Välimuisti"
 #: src/components/create-vm-dialog/createVmDialog.jsx:1482
 #: src/components/networks/createNetworkDialog.tsx:561
 #: src/components/networks/networkOverviewTab.tsx:284
-#: src/components/storagePools/storageVolumeCreate.tsx:153
+#: src/components/storagePools/storageVolumeCreate.tsx:146
 #: src/components/storagePools/createStoragePoolDialog.tsx:529
 #: src/components/storagePools/storagePoolDelete.tsx:220
 msgid "Cancel"
@@ -355,7 +349,7 @@ msgstr "Vsock-laitetta ei voi muokata väliaikaisessa virtuaalikoneessa"
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Watchdog-laitetta ei voi muokata väliaikaisessa virtuaalikoneessa"
 
-#: src/components/vm/disks/vmDisksCard.jsx:184
+#: src/components/vm/disks/vmDisksCard.tsx:219
 msgid "Capacity"
 msgstr "Koko"
 
@@ -422,7 +416,7 @@ msgstr "Pilvipohjainen levykuva"
 msgid "Cockpit Project"
 msgstr "Cockpit-projekti"
 
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr ""
 
@@ -481,7 +475,7 @@ msgstr "$0 ei voitu poistaa"
 msgid "Could not delete all storage for $0"
 msgstr "Ei voitu poistaa kaikkea tallennustilaa $0:lle"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:134
+#: src/components/vm/disks/vmDiskColumns.tsx:153
 msgid "Could not delete disk's storage"
 msgstr "Ei voitu poistaa levyn tallennustilaa"
 
@@ -499,7 +493,7 @@ msgstr "Kaatui"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
 #: src/components/networks/createNetworkDialog.tsx:558
-#: src/components/storagePools/storageVolumeCreate.tsx:150
+#: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
 msgid "Create"
 msgstr "Luo"
@@ -528,7 +522,7 @@ msgstr "Luo ja muokkaa"
 msgid "Create and run"
 msgstr "Luo ja suorita"
 
-#: src/components/vm/disks/diskAdd.jsx:625
+#: src/components/vm/disks/diskAdd.tsx:758
 msgid "Create new"
 msgstr "Luo uusi"
 
@@ -554,7 +548,7 @@ msgstr "Luo tilannevedos"
 msgid "Create storage pool"
 msgstr "Luo varastointivaranto"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:129
+#: src/components/storagePools/storageVolumeCreate.tsx:122
 msgid "Create storage volume"
 msgstr "Luo varastointitaltio"
 
@@ -563,8 +557,8 @@ msgstr "Luo varastointitaltio"
 msgid "Create virtual network"
 msgstr "Luo virtuaaliverkko"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:181
-#: src/components/storagePools/storageVolumeCreate.tsx:192
+#: src/components/storagePools/storageVolumeCreate.tsx:174
+#: src/components/storagePools/storageVolumeCreate.tsx:185
 msgid "Create volume"
 msgstr "Luo taltio"
 
@@ -612,9 +606,9 @@ msgstr "Mukautettu laiteohjelmisto: $0"
 msgid "Custom identifier"
 msgstr "Muokattu tunniste"
 
-#: src/components/vm/disks/diskAdd.jsx:336
-#: src/components/vm/disks/diskAdd.jsx:589
-#: src/components/vm/disks/diskAdd.jsx:635
+#: src/components/vm/disks/diskAdd.tsx:454
+#: src/components/vm/disks/diskAdd.tsx:722
+#: src/components/vm/disks/diskAdd.tsx:768
 msgid "Custom path"
 msgstr "Mukautettu polku"
 
@@ -717,9 +711,8 @@ msgstr "Yksityiskohdat"
 #: src/components/vm/hostdevs/hostDevAdd.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:98
 #: src/components/vm/hostdevs/hostDevCard.jsx:244
-#: src/components/vm/disks/diskAdd.jsx:344
-#: src/components/vm/disks/vmDiskColumns.jsx:43
-#: src/components/vm/disks/vmDisksCard.jsx:172
+#: src/components/vm/disks/diskAdd.tsx:462
+#: src/components/vm/disks/vmDisksCard.tsx:207
 #: src/components/vm/overview/bootOrder.jsx:99
 #: src/components/vm/overview/bootOrder.jsx:106
 #: src/components/vm/overview/bootOrder.jsx:138
@@ -750,15 +743,15 @@ msgstr "Irrotettu sarjakonsolista. Napsauta yhdistä-painiketta."
 msgid "Disk"
 msgstr "Levy"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:148
+#: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
 msgstr "Levyä $0 ei voitu poistaa"
 
-#: src/components/vm/disks/diskAdd.jsx:806
+#: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
 msgstr "Levyn liittäminen epäonnistui"
 
-#: src/components/vm/disks/diskAdd.jsx:234
+#: src/components/vm/disks/diskAdd.tsx:321
 msgid "Disk identifier"
 msgstr "Levyn tunniste"
 
@@ -766,7 +759,7 @@ msgstr "Levyn tunniste"
 msgid "Disk image"
 msgstr "Levykuva"
 
-#: src/components/vm/disks/diskAdd.jsx:349
+#: src/components/vm/disks/diskAdd.tsx:470
 msgid "Disk image file"
 msgstr "Levykuvatiedosto"
 
@@ -778,7 +771,7 @@ msgstr "Levykuvan polku ei voi olla tyhjä"
 msgid "Disk images can be stored in user home directory"
 msgstr "Levykuvat voidaan tallentaa käyttäjän kotihakemistoon"
 
-#: src/components/vm/disks/diskEdit.jsx:199
+#: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
 msgstr "Levyn asetuksia ei voitu tallentaa"
 
@@ -837,12 +830,12 @@ msgstr "Kesto"
 msgid "Dying"
 msgstr "Kuolemassa"
 
-#: src/components/vm/disks/diskEdit.jsx:149
+#: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: src/components/vm/disks/diskEdit.jsx:245
+#: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
 msgstr "Muokkaa $0 attribuuttia"
 
@@ -871,12 +864,12 @@ msgstr ""
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Väliaikaisten verkkoliitäntöjen muokkaaminen ei ole sallittua"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:194
-#: src/components/vm/disks/mediaEject.jsx:111
+#: src/components/vm/disks/vmDiskColumns.tsx:233
+#: src/components/vm/disks/mediaEject.tsx:122
 msgid "Eject"
 msgstr "Poista"
 
-#: src/components/vm/disks/mediaEject.jsx:101
+#: src/components/vm/disks/mediaEject.tsx:112
 msgid "Eject disc from VM?"
 msgstr "Poistetaanko levy VM:stä?"
 
@@ -991,7 +984,7 @@ msgstr "Virtuaalikoneen $0 kuvauksen asettaminen epäonnistui"
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "Alle virtuaalisten suorittimien enimmäismäärän tulisi olla käytössä."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:41
+#: src/components/vm/disks/vmDiskColumns.tsx:47
 #: src/components/vm/overview/bootOrder.jsx:98
 msgid "File"
 msgstr "Tiedosto"
@@ -1013,7 +1006,7 @@ msgstr "Suodata nimen mukaan"
 msgid "Firmware"
 msgstr "Laiteohjelmisto"
 
-#: src/components/vm/disks/mediaEject.jsx:115
+#: src/components/vm/disks/mediaEject.tsx:126
 msgid "Force eject"
 msgstr "Pakota poisto"
 
@@ -1037,7 +1030,7 @@ msgstr "Pakota sammutus"
 msgid "Force shut down $0?"
 msgstr "Pakota $0 sammutus?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:106
+#: src/components/vm/disks/vmDiskColumns.tsx:122
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Format"
@@ -1074,7 +1067,7 @@ msgstr "Luo automaattisesti"
 msgid "Get a new RHSM token."
 msgstr "Hanki uusi RHSM-tokeni."
 
-#: src/components/vm/disks/vmDisksCard.jsx:49
+#: src/components/vm/disks/vmDisksCard.tsx:53
 #: src/components/vm/overview/memorySelectRow.jsx:89
 #: src/components/create-vm-dialog/createVmDialog.jsx:912
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
@@ -1098,12 +1091,12 @@ msgstr "Sammuta hallitusti"
 msgid "Hardware virtualization is disabled"
 msgstr "Laitteistovirtualisointi on pois käytöstä"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Hide additional options"
 msgstr "Piilota lisävaihtoehdot"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:47
+#: src/components/vm/disks/vmDiskColumns.tsx:52
 #: src/components/vm/overview/bootOrder.jsx:103
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
@@ -1138,7 +1131,7 @@ msgstr "Nimen ei saa olla tyhjä"
 msgid "Hypervisor details"
 msgstr "Hypervisorin yksityiskohdat"
 
-#: src/components/vm/disks/diskEdit.jsx:41
+#: src/components/vm/disks/diskEdit.tsx:61
 msgid "ID"
 msgstr "Tunniste"
 
@@ -1217,7 +1210,7 @@ msgstr ""
 "$0 käyttää tunnistetta. VM:t, joilla on sama tunniste, eivät voi toimia "
 "samanaikaisesti."
 
-#: src/components/vm/disks/diskAdd.jsx:255
+#: src/components/vm/disks/diskAdd.tsx:342
 msgid "Identifier may be silently truncated to $0 characters "
 msgstr "Tunniste voidaan katkaista siitä erikseen kertomatta $0 merkkiin "
 
@@ -1245,7 +1238,7 @@ msgstr "Tuo ja muokkaa"
 msgid "Import and run"
 msgstr "Tuo ja suorita"
 
-#: src/components/vm/disks/diskAdd.jsx:489
+#: src/components/vm/disks/diskAdd.tsx:627
 msgid "Importing an image with a backing file is unsupported"
 msgstr "Levykuvan tuontia varmistustiedoston kanssa ei tueta"
 
@@ -1268,12 +1261,12 @@ msgstr "Aloittaja ei saa olla tyhjä"
 msgid "Inject a non-maskable interrupt"
 msgstr "Lisää ei-maskattava keskeytys"
 
-#: src/components/vm/disks/diskAdd.jsx:819
-#: src/components/vm/disks/vmDiskColumns.jsx:186
+#: src/components/vm/disks/diskAdd.tsx:968
+#: src/components/vm/disks/vmDiskColumns.tsx:225
 msgid "Insert"
 msgstr "Insert"
 
-#: src/components/vm/disks/diskAdd.jsx:686
+#: src/components/vm/disks/diskAdd.tsx:819
 msgid "Insert disc media"
 msgstr "Aseta levyasema"
 
@@ -1414,11 +1407,11 @@ msgstr "MAC-osoite on jo käytössä"
 msgid "MAC address must not be empty"
 msgstr "MAC-osoite ei saa olla tyhjä"
 
-#: src/components/vm/disks/diskEdit.jsx:89
+#: src/components/vm/disks/diskEdit.tsx:135
 msgid "Machine must be shut off before changing bus type"
 msgstr "Kone on sammutettava ennen väylätyypin vaihtamista"
 
-#: src/components/vm/disks/diskEdit.jsx:63
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Machine must be shut off before changing cache mode"
 msgstr "Kone on sammutettava ennen välimuistiin tilan vaihtamista"
 
@@ -1471,11 +1464,11 @@ msgstr ""
 msgid "Maximum transmission unit"
 msgstr "Enimmäislähetysyksikkö"
 
-#: src/components/vm/disks/mediaEject.jsx:103
+#: src/components/vm/disks/mediaEject.tsx:114
 msgid "Media could not be ejected from $0"
 msgstr "Mediaa ei voitu poistaa $0:sta"
 
-#: src/components/vm/disks/mediaEject.jsx:105
+#: src/components/vm/disks/mediaEject.tsx:116
 msgid "Media will be ejected from $0:"
 msgstr "Media poistetaan $0:sta:"
 
@@ -1604,7 +1597,7 @@ msgstr "Nimi sisältää laittomia merkkejä"
 
 #: src/components/vm/vmCloneDialog.jsx:47
 #: src/components/create-vm-dialog/createVmDialog.jsx:197
-#: src/components/storagePools/storageVolumeCreate.tsx:93
+#: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Name must not be empty"
 msgstr "Nimi ei saa olla tyhjä"
 
@@ -1712,7 +1705,7 @@ msgid "No directories shared between the host and this VM"
 msgstr ""
 "Isäntäkoneen ja tämän virtuaalikoneen välillä ei ole jaettuja hakemistoja"
 
-#: src/components/vm/disks/vmDisksCard.jsx:259
+#: src/components/vm/disks/vmDisksCard.tsx:294
 msgid "No disks defined for this VM"
 msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
 
@@ -1760,7 +1753,7 @@ msgstr "Ei tallennustilaa"
 msgid "No storage pool is defined on this host"
 msgstr "Tälle isännälle ei ole määritetty varastointivarantoa"
 
-#: src/components/vm/disks/diskAdd.jsx:163
+#: src/components/vm/disks/diskAdd.tsx:232
 msgid "No storage pools available"
 msgstr "Ei varastointivarantoja saatavilla"
 
@@ -1860,15 +1853,9 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Vanhempi-tilannevedos"
 
-#: src/components/vm/nics/nicBody.tsx:271
-#, fuzzy
-#| msgid "host passthrough"
-msgid "Passthrough"
-msgstr "isännän läpivienti"
-
 #: src/components/vm/hostdevs/hostDevCard.jsx:123
 #: src/components/vm/hostdevs/hostDevCard.jsx:127
-#: src/components/vm/disks/diskEdit.jsx:43
+#: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
 msgstr "Polku"
@@ -1889,7 +1876,7 @@ msgstr "Polku pilvipohjaiseen tiedostoon isännän tiedostojärjestelmässä"
 msgid "Path to directory"
 msgstr "Polku hakemistoon"
 
-#: src/components/vm/disks/diskAdd.jsx:339
+#: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
 msgstr "Polku tiedostoon isännän tiedostojärjestelmässä"
 
@@ -1909,7 +1896,7 @@ msgstr "Pysyvä (oletus)"
 msgid "Permissions denied for disk images in home directories"
 msgstr "Kotihakemistojen levykuvien käyttöoikeudet estetty"
 
-#: src/components/vm/disks/diskAdd.jsx:133
+#: src/components/vm/disks/diskAdd.tsx:190
 #: src/components/vm/nics/nicAdd.tsx:122
 msgid "Persistence"
 msgstr "Pysyvyys"
@@ -1931,15 +1918,15 @@ msgstr "Fyysinen levylaite isännässä"
 msgid "Please choose a different MAC address"
 msgstr "Valitse toinen MAC-osoite"
 
-#: src/components/vm/disks/diskAdd.jsx:546
+#: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
 msgstr "Valitse tallennusvaranto"
 
-#: src/components/vm/disks/diskAdd.jsx:564
+#: src/components/vm/disks/diskAdd.tsx:697
 msgid "Please choose a volume"
 msgstr "Valitse taltio"
 
-#: src/components/vm/disks/diskAdd.jsx:553
+#: src/components/vm/disks/diskAdd.tsx:686
 msgid "Please enter new volume name"
 msgstr "Anna uusi taltion nimi"
 
@@ -1952,23 +1939,23 @@ msgstr ""
 msgid "Please start the virtual machine to access its console."
 msgstr "Käynnistä virtuaalikone päästäksesi sen konsoliin."
 
-#: src/components/vm/disks/diskAdd.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:45
-#: src/components/vm/disks/mediaEject.jsx:87
+#: src/components/vm/disks/diskAdd.tsx:216
+#: src/components/vm/disks/vmDiskColumns.tsx:50
+#: src/components/vm/disks/mediaEject.tsx:98
 #: src/components/vm/overview/bootOrder.jsx:101
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Varanto"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool needs to be active to create volume"
 msgstr "Varannon on oltava aktiivinen taltion luomiseksi"
 
-#: src/components/vm/disks/diskAdd.jsx:556
+#: src/components/vm/disks/diskAdd.tsx:689
 msgid "Pool type $0 does not support volume creation"
 msgstr "Varannon tyyppi $0 ei tue taltion luomista"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:187
+#: src/components/storagePools/storageVolumeCreate.tsx:180
 msgid "Pool type doesn't support volume creation"
 msgstr "Varannon tyyppi ei tue taltion luomista"
 
@@ -1976,7 +1963,7 @@ msgstr "Varannon tyyppi ei tue taltion luomista"
 msgid "Pool's volumes are used by VMs "
 msgstr "Varannon taltioita käyttävät virtuaalikoneet "
 
-#: src/components/vm/disks/vmDiskColumns.jsx:48
+#: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.jsx:104
 #: src/components/vm/overview/bootOrder.jsx:120
 #: src/components/vm/nics/vmNicsCard.tsx:213
@@ -2015,7 +2002,7 @@ msgstr ""
 "Aiemmin otettujen tilannevedoksien avulla voit palata aikaisempaan tilaan, "
 "jos jokin menee pieleen"
 
-#: src/components/vm/nics/nicBody.tsx:266 src/helpers.ts:272
+#: src/helpers.ts:272
 msgid "Private"
 msgstr "Yksityinen"
 
@@ -2032,7 +2019,7 @@ msgid "Profile"
 msgstr "Profiili"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:114
-#: src/components/vm/disks/vmDiskColumns.jsx:44
+#: src/components/vm/disks/vmDiskColumns.tsx:49
 #: src/components/vm/overview/bootOrder.jsx:100
 #: src/components/vm/overview/bootOrder.jsx:161
 msgid "Protocol"
@@ -2069,8 +2056,8 @@ msgstr "Julkinen avain"
 msgid "Range"
 msgstr "Alue"
 
-#: src/components/vm/disks/diskEdit.jsx:116
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:174
 msgid "Read-only"
 msgstr "Vain luku"
 
@@ -2101,8 +2088,8 @@ msgstr "Etäkatseluohjelman yksityiskohdat"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:251
 #: src/components/vm/hostdevs/hostDevCard.jsx:257
-#: src/components/vm/disks/vmDiskColumns.jsx:147
-#: src/components/vm/disks/vmDiskColumns.jsx:213
+#: src/components/vm/disks/vmDiskColumns.tsx:166
+#: src/components/vm/disks/vmDiskColumns.tsx:252
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:67
 #: src/components/vm/overview/watchdog.jsx:213
@@ -2117,11 +2104,11 @@ msgstr "Poista"
 msgid "Remove SPICE audio and host devices"
 msgstr "Poista SPICE-ääni- ja isäntälaitteet"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
 msgstr "Poista ja poista tiedosto"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:146
+#: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
 msgstr "Poistetaanko levy VM:stä?"
 
@@ -2272,7 +2259,7 @@ msgid "SSH keys"
 msgstr "SSH-avaimet"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
-#: src/components/vm/disks/diskEdit.jsx:253
+#: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/watchdog.jsx:156
 #: src/components/vm/overview/bootOrder.jsx:320
 #: src/components/vm/overview/vsock.jsx:194
@@ -2302,7 +2289,7 @@ msgstr "Lähetä ei-peitettävä keskeytys"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Lähetä kohteeseen $0 ei-peitettävä keskeytys?"
 
-#: src/components/vm/disks/vmDiskColumns.jsx:105
+#: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "Sarjanumero"
 
@@ -2351,7 +2338,7 @@ msgstr "Jaetut isäntähakemistot on liitettävä manuaalisesti virtuaalikoneess
 msgid "Shared storage"
 msgstr "Jaettu tallennustila"
 
-#: src/components/vm/disks/diskAdd.jsx:204
+#: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.jsx:206
 msgid "Show additional options"
 msgstr "Näytä lisävaihtoehdot"
@@ -2429,9 +2416,9 @@ msgstr ""
 "Jotkut asetusmuutokset tulevat voimaan vasta uuden käynnistyksen jälkeen:"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:217
-#: src/components/vm/disks/diskAdd.jsx:586
-#: src/components/vm/disks/diskAdd.jsx:622
-#: src/components/vm/disks/vmDisksCard.jsx:190
+#: src/components/vm/disks/diskAdd.tsx:719
+#: src/components/vm/disks/diskAdd.tsx:755
+#: src/components/vm/disks/vmDisksCard.tsx:225
 #: src/components/vm/nics/nicBody.tsx:216
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
@@ -2543,7 +2530,7 @@ msgstr "Varastointivarannon nimi"
 msgid "Storage pools"
 msgstr "Tallennustilavarannot"
 
-#: src/components/vm/disks/diskAdd.jsx:413
+#: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
 msgstr "Tallennusvarantoja ei voitu hakea"
 
@@ -2551,12 +2538,12 @@ msgstr "Tallennusvarantoja ei voitu hakea"
 msgid "Storage size must not be 0"
 msgstr "Tallennuskoko ei saa olla 0"
 
-#: src/components/vm/disks/diskEdit.jsx:47
+#: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
 msgstr "Varastointivarannon taltio"
 
-#: src/components/vm/disks/diskAdd.jsx:560
-#: src/components/storagePools/storageVolumeCreate.tsx:96
+#: src/components/vm/disks/diskAdd.tsx:693
+#: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
 "Tallennustaltion koko ei saa ylittää tallennusvarannon kapasiteettia ($0 $1)"
@@ -2599,7 +2586,7 @@ msgid "Table of selectable host devices"
 msgstr "Taulukko valittavista olevista isäntälaitteista"
 
 #: src/components/vm/hostdevs/hostDevCard.jsx:109
-#: src/components/vm/disks/vmDiskColumns.jsx:151
+#: src/components/vm/disks/vmDiskColumns.tsx:170
 #: src/components/vm/overview/bootOrder.jsx:155
 msgid "Target"
 msgstr "Kohde"
@@ -2626,7 +2613,7 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 "Virtuaalikone $0 on käynnissä ja se pakotetaan pois päältä ennen poistamista."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:221
+#: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
@@ -2653,7 +2640,7 @@ msgstr ""
 msgid "The mode influences the delivery of packets."
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.jsx:105
+#: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
 msgstr "Varanto on tyhjä"
 
@@ -2687,7 +2674,7 @@ msgstr "Kopioi ja liitä se sitten yläpuolelle."
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "Tämä virtuaalikone on ohimenevä. Sammuta se, jos haluat poistaa sen."
 
-#: src/components/vm/disks/vmDiskColumns.jsx:149
+#: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
 msgstr "Tämä levy poistetaan $0:sta:"
 
@@ -2744,7 +2731,7 @@ msgstr ""
 "Tämä työkalu hallitsee virtuaalikoneita. Sen avulla voit luoda, valvoa ja "
 "ohjata libvirt-alijärjestelmän virtuaalikoneita."
 
-#: src/components/vm/disks/diskAdd.jsx:80
+#: src/components/vm/disks/diskAdd.tsx:86
 msgid "This volume is already used by $0."
 msgstr "Tätä taltiota käyttää jo $0."
 
@@ -2839,7 +2826,7 @@ msgstr "Määrittämätön"
 msgid "Unsupported and older operating systems"
 msgstr "Ei tuetut ja vanhemmat käyttöjärjestelmät"
 
-#: src/components/vm/disks/diskEdit.jsx:45
+#: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
 msgstr "Url"
 
@@ -2847,8 +2834,8 @@ msgstr "Url"
 msgid "Usage"
 msgstr "Käyttö"
 
-#: src/components/vm/disks/diskAdd.jsx:594
-#: src/components/vm/disks/diskAdd.jsx:630
+#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:763
 msgid "Use existing"
 msgstr "Käytä olemassaolevaa"
 
@@ -2866,7 +2853,7 @@ msgstr ""
 "voi olla jaettu tallennustila, NFS tai mikä tahansa muu tapa jakaa "
 "tallennustilaa."
 
-#: src/components/vm/disks/vmDisksCard.jsx:182
+#: src/components/vm/disks/vmDisksCard.tsx:217
 msgid "Used"
 msgstr "Käytetty"
 
@@ -3044,16 +3031,16 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Virtualisointipalvelu (libvirt) ei ole aktiivinen"
 
-#: src/components/vm/disks/diskAdd.jsx:113
-#: src/components/vm/disks/vmDiskColumns.jsx:46
-#: src/components/vm/disks/mediaEject.jsx:91
+#: src/components/vm/disks/diskAdd.tsx:160
+#: src/components/vm/disks/vmDiskColumns.tsx:51
+#: src/components/vm/disks/mediaEject.tsx:102
 #: src/components/vm/overview/bootOrder.jsx:102
 #: src/components/vm/deleteDialog.jsx:65
 #: src/components/create-vm-dialog/createVmDialog.jsx:989
 msgid "Volume"
 msgstr "Taltio"
 
-#: src/components/storagePools/storageVolumeCreate.tsx:117
+#: src/components/storagePools/storageVolumeCreate.tsx:110
 msgid "Volume failed to be created"
 msgstr "Taltion luominen epäonnnistui"
 
@@ -3089,8 +3076,8 @@ msgstr ""
 "virtuaalisen vahtikoiralaitteen käyttämiseksi vierasjärjestelmässä on oltava "
 "myös ylimääräinen ajuri ja käynnissä oleva vahtikoirapalvelu."
 
-#: src/components/vm/disks/diskEdit.jsx:125
-#: src/components/vm/disks/vmDisksCard.jsx:216
+#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/diskEdit.tsx:183
 msgid "Writeable"
 msgstr "Kirjoitettava"
 
@@ -3270,7 +3257,7 @@ msgstr "uudelleenohjattu laite"
 msgid "remove"
 msgstr "poista"
 
-#: src/components/vm/disks/diskAdd.jsx:236
+#: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
 msgstr "sarjanumero"
 
@@ -3353,6 +3340,16 @@ msgstr "vsock vaatii erikoisohjelmiston"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74 src/helpers.ts:278
 msgid "yes"
 msgstr "kyllä"
+
+#, fuzzy
+#~| msgid "bridge"
+#~ msgid "Bridge"
+#~ msgstr "silta"
+
+#, fuzzy
+#~| msgid "host passthrough"
+#~ msgid "Passthrough"
+#~ msgstr "isännän läpivienti"
 
 #~ msgid ""
 #~ "In the default 'vepa' mode, switching is offloaded to the external "
