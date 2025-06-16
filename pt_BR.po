@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-15 03:43+0000\n"
+"POT-Creation-Date: 2025-06-16 03:43+0000\n"
 "PO-Revision-Date: 2025-05-16 04:47+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -107,7 +107,7 @@ msgstr "Acesso"
 msgid "Action"
 msgstr "Ação"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
@@ -329,8 +329,8 @@ msgstr "Cache"
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/vmRenameDialog.jsx:89
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
@@ -505,7 +505,7 @@ msgstr "Não foi possível redefinir o pool de armazenamento"
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:81
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:99
 #, fuzzy
 msgid "Could not revert to snapshot"
 msgstr "Não foi possível redefinir o pool de armazenamento"
@@ -514,7 +514,7 @@ msgstr "Não foi possível redefinir o pool de armazenamento"
 msgid "Crashed"
 msgstr "Travou"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:359
 #: src/components/networks/createNetworkDialog.tsx:558
 #: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
@@ -566,8 +566,8 @@ msgstr "Criar novo volume bruto"
 msgid "Create new virtual machine"
 msgstr "Criar nova máquina virtual"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:280
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:75
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:346
 msgid "Create snapshot"
 msgstr "Criar Snapshot"
 
@@ -601,7 +601,7 @@ msgstr "Criar VM"
 msgid "Creating VM $0"
 msgstr "Criando a VM $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:68
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
@@ -611,7 +611,7 @@ msgstr ""
 msgid "Creation of VM $0 failed"
 msgstr "Criação da vm $0 falhou"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:110
 #, fuzzy
 msgid "Creation time"
 msgstr "Tempo de criação"
@@ -620,7 +620,7 @@ msgstr "Tempo de criação"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:119
 #, fuzzy
 msgid "Current"
 msgstr "Atual"
@@ -691,7 +691,7 @@ msgstr "Excluir arquivos de armazenamento associados:"
 msgid "Delete network?"
 msgstr "Excluir a rede?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:218
 msgid "Delete snapshot?"
 msgstr "Excluir o snapshot?"
 
@@ -708,8 +708,8 @@ msgstr ""
 "está desligada"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:64
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:63
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:137
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:89
 msgid "Description"
 msgstr "Descrição"
 
@@ -823,7 +823,7 @@ msgstr "Imagens de discos podem ser armazenadas no diretório do usuário"
 msgid "Disk settings could not be saved"
 msgstr "Não foi possível salvar as configurações do disco"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:162
 msgid "Disk-only snapshot"
 msgstr ""
 
@@ -840,12 +840,12 @@ msgstr ""
 msgid "Do nothing"
 msgstr "Não fazer nada"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:164
 #, fuzzy
 msgid "Domain has crashed"
 msgstr "O domínio travou"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:163
 msgid "Domain is blocked on resource"
 msgstr "O domínio está bloqueado no recurso"
 
@@ -1090,7 +1090,7 @@ msgstr "Forçar reinicialização"
 msgid "Force reboot $0?"
 msgstr "Forçar reinicialização de $0?"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:137
 #, fuzzy
 msgid "Force revert"
 msgstr "Forçar reinicialização"
@@ -1598,15 +1598,15 @@ msgstr ""
 msgid "Memory must not be 0"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:198
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:264
 msgid "Memory save location can not be empty"
 msgstr "O local de salvamento da memória não pode estar vazio"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:115
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
 msgid "Memory state path"
 msgstr ""
 
@@ -1680,8 +1680,8 @@ msgstr ""
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:70
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/create-vm-dialog/createVmDialog.jsx:268
 #: src/components/networks/createNetworkDialog.tsx:185
@@ -1694,11 +1694,11 @@ msgstr ""
 msgid "Name"
 msgstr "Nome"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:193
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:259
 msgid "Name already exists"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:261
 #, fuzzy
 #| msgid "Name should not be empty"
 msgid "Name can not be empty"
@@ -1820,7 +1820,7 @@ msgstr "Nenhum dispositivo de inicialização encontrado"
 msgid "No connection available"
 msgstr "Indisponível"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 #, fuzzy
 msgid "No description"
 msgstr "Descrição"
@@ -1861,12 +1861,12 @@ msgstr ""
 msgid "No networks available"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:188
 #, fuzzy
 msgid "No parent"
 msgstr "Parente"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 #, fuzzy
 msgid "No snapshots defined for this VM"
 msgstr "Nenhum disco definido para esta VM"
@@ -1979,7 +1979,7 @@ msgstr "Visão geral"
 msgid "PCI"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 #, fuzzy
 msgid "Parent snapshot"
 msgstr "Criar Snapshot"
@@ -2004,7 +2004,7 @@ msgstr "Caminho para o arquivo ISO no sistema de arquivos do host"
 msgid "Path to cloud image file on host's file system"
 msgstr "Caminho para o arquivo ISO no sistema de arquivos do host"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:121
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
 #, fuzzy
 #| msgid "Path to file"
 msgid "Path to directory"
@@ -2132,7 +2132,7 @@ msgstr "Comprimento do prefixo"
 msgid "Prefix length should not be empty"
 msgstr "O comprimento do prefixo não deve estar vazio"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2314,18 +2314,18 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:107
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 #, fuzzy
 msgid "Revert"
 msgstr "Nunca"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:113
 #, fuzzy
 msgid "Revert to snapshot $0"
 msgstr "Reverter para o snapshot $0"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:122
 msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
@@ -2519,7 +2519,7 @@ msgstr "desligar"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.ts:233
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:161 src/helpers.ts:233
 #, fuzzy
 msgid "Shutting down"
 msgstr "Encerrar"
@@ -2538,18 +2538,18 @@ msgstr "Tamanho"
 msgid "Slot"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:219
 msgid "Snapshot $0 could not be deleted"
 msgstr "Não foi possível excluir o snashot $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:220
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
 msgstr ""
 "O snapshot $0 será excluído de $1. Todo o conteúdo capturado será perdido."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:238
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 #, fuzzy
 msgid "Snapshot failed to be created"
 msgstr "Disco falhou ao ser criado"
@@ -2887,7 +2887,7 @@ msgstr ""
 msgid "Threads per core"
 msgstr "Tópicos por núcleo"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:156
 msgid "Total space available: $0."
 msgstr "Espaço total disponível: $0."
 
@@ -3099,7 +3099,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "Forçar Desligamento"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:152
 #, fuzzy
 msgid "VM state"
 msgstr "Estado"
@@ -3377,7 +3377,7 @@ msgstr "rede"
 msgid "no"
 msgstr "não"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:156
 msgid "no state saved"
 msgstr ""
 

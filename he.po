@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-15 03:43+0000\n"
+"POT-Creation-Date: 2025-06-16 03:43+0000\n"
 "PO-Revision-Date: 2025-05-18 09:10+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -117,7 +117,7 @@ msgstr "גישה"
 msgid "Action"
 msgstr "פעולה"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
@@ -331,8 +331,8 @@ msgstr "מכלא"
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/vmRenameDialog.jsx:89
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
@@ -500,7 +500,7 @@ msgstr "לא ניתן למחוק את האחסון עבור $0"
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:81
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:99
 msgid "Could not revert to snapshot"
 msgstr "לא ניתן להחזיר לתמונת המצב"
 
@@ -508,7 +508,7 @@ msgstr "לא ניתן להחזיר לתמונת המצב"
 msgid "Crashed"
 msgstr "קרס"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:359
 #: src/components/networks/createNetworkDialog.tsx:558
 #: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
@@ -560,8 +560,8 @@ msgstr "יצירת כרך חדש"
 msgid "Create new virtual machine"
 msgstr "יצירת מכונה וירטואלית חדשה"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:280
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:75
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:346
 msgid "Create snapshot"
 msgstr "יצירת תמונת מצב"
 
@@ -592,7 +592,7 @@ msgstr "יצירת מכונה וירטואלית"
 msgid "Creating VM $0"
 msgstr "יצירת מכונה וירטואלית $0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:68
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
@@ -602,7 +602,7 @@ msgstr ""
 msgid "Creation of VM $0 failed"
 msgstr "היצירה של המכונה הווירטואלית $0 נכשלה"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:110
 msgid "Creation time"
 msgstr "זמן יצירה"
 
@@ -610,7 +610,7 @@ msgstr "זמן יצירה"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:119
 msgid "Current"
 msgstr "נוכחית"
 
@@ -680,7 +680,7 @@ msgstr "מחיקת קובצי אחסון משויכים:"
 msgid "Delete network?"
 msgstr "למחוק את הרשת?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:218
 msgid "Delete snapshot?"
 msgstr "למחוק תמונת מצב?"
 
@@ -695,8 +695,8 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr "אפשר למחוק תיקיות משותפות רק כאשר האורחת כבויה"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:64
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:63
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:137
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:89
 msgid "Description"
 msgstr "תיאור"
 
@@ -799,7 +799,7 @@ msgstr "ניתן לאחסן את דמויות הכוננים בתיקיית הב
 msgid "Disk settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות הכונן"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:162
 msgid "Disk-only snapshot"
 msgstr "תמונת מצב בכונן בלבד"
 
@@ -816,11 +816,11 @@ msgstr "לא להריץ את המכונה הווירטואלית הזאת על �
 msgid "Do nothing"
 msgstr "לא לעשות כלום"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:164
 msgid "Domain has crashed"
 msgstr "שם התחום קרס"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:163
 msgid "Domain is blocked on resource"
 msgstr "שם התחום חסום במשאב"
 
@@ -1055,7 +1055,7 @@ msgstr "לאלץ הפעלה מחדש"
 msgid "Force reboot $0?"
 msgstr "לאלץ הפעלה מחדש"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:137
 msgid "Force revert"
 msgstr "אילוץ החזרה"
 
@@ -1554,17 +1554,17 @@ msgstr "לא ניתן לשמור את הזיכרון"
 msgid "Memory must not be 0"
 msgstr "אסור שהזיכרון יהיה 0"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:198
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:264
 #, fuzzy
 #| msgid "Source must not be empty"
 msgid "Memory save location can not be empty"
 msgstr "המקור לא יכול להישאר ריק"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:115
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
 #, fuzzy
 #| msgid "Memory must not be 0"
 msgid "Memory state path"
@@ -1642,8 +1642,8 @@ msgstr "NAT אל $0"
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטואלית $0 נכשלה"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:70
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/create-vm-dialog/createVmDialog.jsx:268
 #: src/components/networks/createNetworkDialog.tsx:185
@@ -1656,13 +1656,13 @@ msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטו�
 msgid "Name"
 msgstr "שם"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:193
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:259
 #, fuzzy
 #| msgid "VM $0 already exists"
 msgid "Name already exists"
 msgstr "המכונה הווירטואלית $0 כבר קיימת"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:261
 #, fuzzy
 #| msgid "Name must not be empty"
 msgid "Name can not be empty"
@@ -1785,7 +1785,7 @@ msgstr "לא נמצא התקן עלייה"
 msgid "No connection available"
 msgstr "אין חיבור זמין"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
 msgstr "אין תיאור"
 
@@ -1825,11 +1825,11 @@ msgstr "לא הוגדרה רשת למארח הזה"
 msgid "No networks available"
 msgstr "אין רשתות זמינות"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:188
 msgid "No parent"
 msgstr "אין הורה"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
 msgstr "לא מוגדרות תמונות מצב למכונה הווירטואלית הזאת"
 
@@ -1943,7 +1943,7 @@ msgstr "סקירה"
 msgid "PCI"
 msgstr "PCI"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr "תמונת מצב הורה"
 
@@ -1966,7 +1966,7 @@ msgstr "הנתיב לקובץ ISO על מערכת הקבצים של המארח"
 msgid "Path to cloud image file on host's file system"
 msgstr "הנתיב לקובץ דמות הענן במערכת הקבצים של המארח"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:121
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
 #, fuzzy
 #| msgid "Path to file"
 msgid "Path to directory"
@@ -2091,7 +2091,7 @@ msgstr "אורך קידומת"
 msgid "Prefix length should not be empty"
 msgstr "אורך הקידומת לא אמור להיות ריק"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2275,16 +2275,16 @@ msgstr ""
 msgid "Resume"
 msgstr "המשך"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:107
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 msgid "Revert"
 msgstr "החזרה אחורה"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:113
 msgid "Revert to snapshot $0"
 msgstr "החזרה לתמונת מצב $0"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:122
 msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
@@ -2480,7 +2480,7 @@ msgstr "לכבות"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "יש לכבות את המכונה הווירטואלית כדי לערוך הגדרות קושחה"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.ts:233
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:161 src/helpers.ts:233
 msgid "Shutting down"
 msgstr "מתבצע כיבוי"
 
@@ -2498,13 +2498,13 @@ msgstr "גודל"
 msgid "Slot"
 msgstr "משבצת"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:219
 #, fuzzy
 #| msgid "The $0 could not be deleted"
 msgid "Snapshot $0 could not be deleted"
 msgstr "לא ניתן למחוק את ה־$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:220
 #, fuzzy
 #| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
@@ -2512,7 +2512,7 @@ msgid ""
 "lost."
 msgstr "לאחר מחיקת תמונת המצב, כל התוכן שנלכד בה יאבד."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:238
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 msgid "Snapshot failed to be created"
 msgstr "יצירת תמונת המצב נכשלה"
 
@@ -2842,7 +2842,7 @@ msgstr "כרך זה כבר בשימוש על ידי מכונה וירטואלי�
 msgid "Threads per core"
 msgstr "תהליכונים למעבד"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:156
 #, fuzzy
 #| msgid "Total size: $0"
 msgid "Total space available: $0."
@@ -3055,7 +3055,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "כיבוי המכונה הווירטואלית $0 נכשל"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:152
 msgid "VM state"
 msgstr "מצב מכונה וירטואלית"
 
@@ -3323,7 +3323,7 @@ msgstr "רשת"
 msgid "no"
 msgstr "לא"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:156
 msgid "no state saved"
 msgstr "לא נשמר מצב"
 

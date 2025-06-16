@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-15 03:43+0000\n"
+"POT-Creation-Date: 2025-06-16 03:43+0000\n"
 "PO-Revision-Date: 2025-05-29 08:02+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Action"
 msgstr "Tigawt"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
@@ -308,8 +308,8 @@ msgstr ""
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/vmRenameDialog.jsx:89
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
@@ -471,7 +471,7 @@ msgstr ""
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:81
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:99
 msgid "Could not revert to snapshot"
 msgstr ""
 
@@ -479,7 +479,7 @@ msgstr ""
 msgid "Crashed"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:359
 #: src/components/networks/createNetworkDialog.tsx:558
 #: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
@@ -526,8 +526,8 @@ msgstr ""
 msgid "Create new virtual machine"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:280
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:75
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:346
 msgid "Create snapshot"
 msgstr ""
 
@@ -558,7 +558,7 @@ msgstr ""
 msgid "Creating VM $0"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:68
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
@@ -568,7 +568,7 @@ msgstr ""
 msgid "Creation of VM $0 failed"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:110
 msgid "Creation time"
 msgstr ""
 
@@ -576,7 +576,7 @@ msgstr ""
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:119
 msgid "Current"
 msgstr ""
 
@@ -642,7 +642,7 @@ msgstr ""
 msgid "Delete network?"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:218
 msgid "Delete snapshot?"
 msgstr ""
 
@@ -657,8 +657,8 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr ""
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:64
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:63
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:137
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:89
 msgid "Description"
 msgstr "Aglam"
 
@@ -755,7 +755,7 @@ msgstr ""
 msgid "Disk settings could not be saved"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:162
 msgid "Disk-only snapshot"
 msgstr ""
 
@@ -772,11 +772,11 @@ msgstr ""
 msgid "Do nothing"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:164
 msgid "Domain has crashed"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:163
 msgid "Domain is blocked on resource"
 msgstr ""
 
@@ -993,7 +993,7 @@ msgstr ""
 msgid "Force reboot $0?"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:137
 msgid "Force revert"
 msgstr ""
 
@@ -1450,15 +1450,15 @@ msgstr ""
 msgid "Memory must not be 0"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:198
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:264
 msgid "Memory save location can not be empty"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:115
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
 msgid "Memory state path"
 msgstr ""
 
@@ -1528,8 +1528,8 @@ msgstr ""
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:70
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/create-vm-dialog/createVmDialog.jsx:268
 #: src/components/networks/createNetworkDialog.tsx:185
@@ -1542,11 +1542,11 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:193
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:259
 msgid "Name already exists"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:261
 msgid "Name can not be empty"
 msgstr ""
 
@@ -1655,7 +1655,7 @@ msgstr ""
 msgid "No connection available"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
 msgstr ""
 
@@ -1691,11 +1691,11 @@ msgstr ""
 msgid "No networks available"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:188
 msgid "No parent"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
 msgstr ""
 
@@ -1801,7 +1801,7 @@ msgstr ""
 msgid "PCI"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr ""
 
@@ -1824,7 +1824,7 @@ msgstr ""
 msgid "Path to cloud image file on host's file system"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:121
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
 msgid "Path to directory"
 msgstr ""
 
@@ -1945,7 +1945,7 @@ msgstr ""
 msgid "Prefix length should not be empty"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2121,16 +2121,16 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:107
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 msgid "Revert"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:113
 msgid "Revert to snapshot $0"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:122
 msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
@@ -2305,7 +2305,7 @@ msgstr ""
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.ts:233
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:161 src/helpers.ts:233
 msgid "Shutting down"
 msgstr ""
 
@@ -2323,17 +2323,17 @@ msgstr ""
 msgid "Slot"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:219
 msgid "Snapshot $0 could not be deleted"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:220
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:238
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 msgid "Snapshot failed to be created"
 msgstr ""
 
@@ -2651,7 +2651,7 @@ msgstr ""
 msgid "Threads per core"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:156
 msgid "Total space available: $0."
 msgstr ""
 
@@ -2850,7 +2850,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:152
 msgid "VM state"
 msgstr ""
 
@@ -3116,7 +3116,7 @@ msgstr ""
 msgid "no"
 msgstr ""
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:156
 msgid "no state saved"
 msgstr ""
 

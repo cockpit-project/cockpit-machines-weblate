@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-15 03:43+0000\n"
+"POT-Creation-Date: 2025-06-16 03:43+0000\n"
 "PO-Revision-Date: 2025-06-08 06:02+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -99,7 +99,7 @@ msgid "Action"
 msgstr "동작"
 
 # ctx::sourcefile::Navigation Menu
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:176
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/nics/vmNicsCard.tsx:498
 #: src/components/networks/networkList.tsx:77
@@ -315,8 +315,8 @@ msgstr "캐쉬"
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/hostdevs/hostDevAdd.jsx:237
 #: src/components/vm/vmRenameDialog.jsx:89
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:291
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:117
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
@@ -484,7 +484,7 @@ msgstr "디스크 저장소를 삭제 할 수 없습니다"
 msgid "Could not dynamically add watchdog"
 msgstr "동적으로 와치독을 추가 할 수 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:81
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:99
 msgid "Could not revert to snapshot"
 msgstr "순간찍기로 전환 할 수 없습니다"
 
@@ -492,7 +492,7 @@ msgstr "순간찍기로 전환 할 수 없습니다"
 msgid "Crashed"
 msgstr "충돌"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:288
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:359
 #: src/components/networks/createNetworkDialog.tsx:558
 #: src/components/storagePools/storageVolumeCreate.tsx:143
 #: src/components/storagePools/createStoragePoolDialog.tsx:526
@@ -539,8 +539,8 @@ msgstr "신규 단순 볼륨 만들기"
 msgid "Create new virtual machine"
 msgstr "새로운 가상 머신 만들기"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:280
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:65
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:75
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:346
 msgid "Create snapshot"
 msgstr "순간찍기 생성"
 
@@ -571,7 +571,7 @@ msgstr "VM 생성 중"
 msgid "Creating VM $0"
 msgstr "VM $0 생성 중"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:58
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:68
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
@@ -583,7 +583,7 @@ msgstr ""
 msgid "Creation of VM $0 failed"
 msgstr "VM $0 생성이 실패했습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:87
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:110
 msgid "Creation time"
 msgstr "생성 시간"
 
@@ -591,7 +591,7 @@ msgstr "생성 시간"
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:96
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:119
 msgid "Current"
 msgstr "현재"
 
@@ -656,7 +656,7 @@ msgstr "관련된 저장소 파일 삭제:"
 msgid "Delete network?"
 msgstr "네트워크 삭제?"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:218
 msgid "Delete snapshot?"
 msgstr "순간찍기삭제?"
 
@@ -673,8 +673,8 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr "공유된 디렉토리 삭제하기는 게스트가 종료된 경우에만 할 수 있습니다"
 
 #: src/components/vm/vmEditDescriptionDialog.jsx:64
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:63
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:137
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:89
 msgid "Description"
 msgstr "설명"
 
@@ -771,7 +771,7 @@ msgstr "디스크 이미지는 사용자 홈 디렉토리에 저장 될 수 있�
 msgid "Disk settings could not be saved"
 msgstr "디스크 설정을 저장 할 수 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:139
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:162
 msgid "Disk-only snapshot"
 msgstr "디스크-전용 순간찍기"
 
@@ -788,11 +788,11 @@ msgstr "동시에 출발지와 대상 호스트에서 이 VM을 동작하지 마
 msgid "Do nothing"
 msgstr "아무 것도 하지 않기"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:141
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:164
 msgid "Domain has crashed"
 msgstr "도메인이 충돌했습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:140
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:163
 msgid "Domain is blocked on resource"
 msgstr "도메인은 리소스에서 차단되었습니다"
 
@@ -1009,7 +1009,7 @@ msgstr "강제 재시작"
 msgid "Force reboot $0?"
 msgstr "$0를 강제 재시작 할까요?"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:114
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:137
 msgid "Force revert"
 msgstr "강제로 되돌리기"
 
@@ -1481,15 +1481,15 @@ msgstr "메모리는 저장 할 수 없습니다"
 msgid "Memory must not be 0"
 msgstr "메모리는 0이 아니어야 합니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:198
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:264
 msgid "Memory save location can not be empty"
 msgstr "메모리 저장 위치는 비워 둘 수 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:105
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
 msgstr "메모리 순간찍기는 대략 $0를 사용합니다."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:115
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
 msgid "Memory state path"
 msgstr "메모리 상태 경로"
 
@@ -1559,8 +1559,8 @@ msgstr "$0에 NAT"
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:50
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:104
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:70
 #: src/components/vm/vmCloneDialog.jsx:82
 #: src/components/create-vm-dialog/createVmDialog.jsx:268
 #: src/components/networks/createNetworkDialog.tsx:185
@@ -1573,11 +1573,11 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 msgid "Name"
 msgstr "이름"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:193
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:259
 msgid "Name already exists"
 msgstr "이름이 이미 존재합니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:195
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:261
 msgid "Name can not be empty"
 msgstr "이름은 비워 둘 수 없습니다"
 
@@ -1686,7 +1686,7 @@ msgstr "부팅 장치를 찾을 수 없습니다"
 msgid "No connection available"
 msgstr "사용 가능한 연결 없음"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:118
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
 msgstr "설명 없음"
 
@@ -1722,11 +1722,11 @@ msgstr "이 호스트에 정의된 네트워크가 없습니다"
 msgid "No networks available"
 msgstr "사용 가능한 네트워크가 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:165
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:188
 msgid "No parent"
 msgstr "원인 개체 없음"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:244
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
 msgstr "이 VM을 위해 정의된 순간찍기가 없음"
 
@@ -1838,7 +1838,7 @@ msgstr "개요"
 msgid "PCI"
 msgstr "PCI"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:163
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr "상위 순간찍기"
 
@@ -1861,7 +1861,7 @@ msgstr "호스트의 파일 시스템에서 ISO 파일로의 경로"
 msgid "Path to cloud image file on host's file system"
 msgstr "호스트 파일 시스템에서 클라우드 이미지 파일 경로"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:121
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
 msgid "Path to directory"
 msgstr "디렉토리의 경로"
 
@@ -1982,7 +1982,7 @@ msgstr "접두 길이"
 msgid "Prefix length should not be empty"
 msgstr "프리픽스 길이는 비워둘 수 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:245
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
 msgid ""
 "Previously taken snapshots allow you to revert to an earlier state if "
 "something goes wrong"
@@ -2163,16 +2163,16 @@ msgstr "네트워크(SLIRP-기반 모의)와 PCI 장치 할당 제한"
 msgid "Resume"
 msgstr "다시 시작"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:107
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:188
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 msgid "Revert"
 msgstr "되돌리기"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:95
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:113
 msgid "Revert to snapshot $0"
 msgstr "순간찍기 $0로 되돌리기"
 
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.jsx:99
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:122
 msgid ""
 "Reverting to this snapshot will take the VM back to the time of the snapshot "
 "and the current state will be lost, along with any data not captured in a "
@@ -2356,7 +2356,7 @@ msgstr "종료"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "펌웨어 구성을 편집하려면 VM을 종료하십시오"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:138 src/helpers.ts:233
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:161 src/helpers.ts:233
 msgid "Shutting down"
 msgstr "종료 중"
 
@@ -2374,17 +2374,17 @@ msgstr "크기"
 msgid "Slot"
 msgstr "슬롯"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:196
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:219
 msgid "Snapshot $0 could not be deleted"
 msgstr "순간찍기 $0는 삭제 될 수 없습니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:197
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:220
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
 msgstr "순간찍기 $0는 $1에서 삭제됩니다. 획득된 모든 내용이 손실됩니다."
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:238
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 msgid "Snapshot failed to be created"
 msgstr "순간찍기를 생성하는데 실패했습니다"
 
@@ -2715,7 +2715,7 @@ msgstr "이 볼륨은 이미 다른 가상 머신에서 사용하고 있습니�
 msgid "Threads per core"
 msgstr "코어 당 스레드"
 
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.jsx:109
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:156
 msgid "Total space available: $0."
 msgstr "전체 사용 가능한 공간: $0."
 
@@ -2921,7 +2921,7 @@ msgstr ""
 msgid "VM needs shutdown"
 msgstr "VM 종료가 필요합니다"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:129
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:152
 msgid "VM state"
 msgstr "VM 상태"
 
@@ -3195,7 +3195,7 @@ msgstr "네트워크"
 msgid "no"
 msgstr "아니요"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.jsx:133
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:156
 msgid "no state saved"
 msgstr "저장된 상태 없음"
 
