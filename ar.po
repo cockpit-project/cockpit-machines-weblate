@@ -16,8 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-29 03:48+0000\n"
 "PO-Revision-Date: 2025-06-30 12:46+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/ar/>\n"
 "Language: ar\n"
@@ -85,12 +84,12 @@ msgstr "الشبكة $0"
 #: src/components/vm/overview/vmOverviewCard.jsx:140
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "$0 vCPU"
-msgstr[1] "$0 vCPU"
-msgstr[2] "$0 vCPUs"
-msgstr[3] "$0 vCPUs"
-msgstr[4] "$0 vCPUs"
-msgstr[5] "$0 vCPUs"
+msgstr[0] "$0 نواة افتراضية"
+msgstr[1] "نواة معالج افتراضية واحدة"
+msgstr[2] "نواتنا معالج افتراضيتان"
+msgstr[3] "$0 أنوية معالج افتراضية"
+msgstr[4] "$0 نواة معالج افتراضية"
+msgstr[5] "$0 نواة معالج افتراضية"
 
 #: src/components/vm/nics/nicEdit.tsx:224
 msgid "$0 virtual network interface settings"
@@ -844,7 +843,7 @@ msgstr "الموت"
 #: src/components/vm/disks/diskEdit.tsx:217
 #: src/components/vm/nics/vmNicsCard.tsx:538
 msgid "Edit"
-msgstr "تعديل"
+msgstr "عدِّل"
 
 #: src/components/vm/disks/diskEdit.tsx:325
 msgid "Edit $0 attributes"
@@ -1733,7 +1732,7 @@ msgstr "لا شبكات متاحة"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:188
 msgid "No parent"
-msgstr ""
+msgstr "غير مرتبط بأصل"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
@@ -1765,19 +1764,20 @@ msgstr "لا شبكات افتراضية"
 
 #: src/components/storagePools/storagePoolDelete.tsx:197
 msgid "No volumes exist in this storage pool."
-msgstr "لا وحدات تخزين موجودة في مجنع التخزين هذا."
+msgstr "لا وحدات تخزين موجودة في مجمع التخزين هذا."
 
 #: src/components/networks/network.tsx:165
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
-msgstr ""
+msgstr "لا يمكن حذف الشبكة غير الدائمة. فهي تختفي تلقائيًا عند إيقاف تفعيلها."
 
 #: src/components/storagePools/storagePoolDelete.tsx:236
 msgid ""
 "Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
 "deactivated."
 msgstr ""
+"لا يمكن حذف مجمع التخزين غير الدائم. فهو يختفي تلقائيًا عند إيقاف تفعيله."
 
 #: src/components/networks/createNetworkDialog.tsx:266
 msgid "None"
@@ -1785,15 +1785,15 @@ msgstr "لا شيء"
 
 #: src/helpers.ts:269
 msgid "None (isolated network)"
-msgstr ""
+msgstr "لا شيء (شبكة معزولة)"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:601
 msgid "Offline token"
-msgstr ""
+msgstr "رمز مصادقة غير متصل بالشبكة"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:234
 msgid "Offline token must not be empty"
-msgstr ""
+msgstr "رمز المصادقة المستخدم في حال عدم الاتصال بالشبكة يجب ألا يترك فارغاً"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:544
 msgid "Old token expired"
@@ -1801,23 +1801,25 @@ msgstr "انتهت صلاحية الرمز القديم"
 
 #: src/components/vm/overview/helpers.jsx:33
 msgid "On the host"
-msgstr ""
+msgstr "على المضيف"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:81
 msgid ""
 "One or more selected volumes are used by domains. Detach the disks first to "
 "allow volume deletion."
 msgstr ""
+"وحدة تخزين أو أكثر من المحددة قيد الاستخدام من قبل النطاقات. افصل الأقراص "
+"أولاً للسماح بحذف وحدة التخزين."
 
 #: src/components/vm/overview/bootOrder.jsx:368
 #: src/components/vm/overview/memoryModal.jsx:147
 #: src/components/vm/nics/nicEdit.tsx:67
 msgid "Only editable when the guest is shut off"
-msgstr ""
+msgstr "قابل للتعديل فقط عند إيقاف تشغيل الضيف"
 
 #: src/helpers.ts:267
 msgid "Open"
-msgstr ""
+msgstr "فتح"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:469
 msgid "Operating system"
@@ -1826,7 +1828,7 @@ msgstr "نظام التشغيل"
 #: src/components/storagePools/storagePool.tsx:185
 #: src/components/storagePools/storagePool.tsx:192
 msgid "Operation is in progress"
-msgstr ""
+msgstr "العملية قد المعالجة"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:100
 msgid "Other VMs using SPICE"
@@ -1835,11 +1837,11 @@ msgstr ""
 #: src/components/vm/vmDetailsPage.jsx:119
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
-msgstr ""
+msgstr "لمحة عامة"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:66
 msgid "PCI"
-msgstr ""
+msgstr "PCI"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
@@ -1850,7 +1852,7 @@ msgstr ""
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.jsx:60
 msgid "Path"
-msgstr ""
+msgstr "مسار"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:147
 msgid "Path on host's filesystem"
