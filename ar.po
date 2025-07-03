@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-01 03:50+0000\n"
-"PO-Revision-Date: 2025-07-01 03:45+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-07-03 00:32+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/ar/>\n"
 "Language: ar\n"
@@ -780,7 +779,7 @@ msgstr "يجب ألا يكون مسار صورة القرص فارغاً"
 
 #: src/components/common/machinesConnectionSelector.tsx:93
 msgid "Disk images can be stored in user home directory"
-msgstr "يمكن تخزين صور القرص في الدليل الرئيسي للمستخدم"
+msgstr "يمكن تخزين صور القرص في المجلد الرئيسي للمستخدم"
 
 #: src/components/vm/disks/diskEdit.tsx:280
 msgid "Disk settings could not be saved"
@@ -1003,7 +1002,7 @@ msgstr "تعذر إزالة نظام الملفات $0"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:92
 msgid "Filesystem directory"
-msgstr "دليل نظام الملفات"
+msgstr "مجلد نظام الملفات"
 
 #: src/components/vms/hostvmslist.tsx:152
 msgid "Filter by name"
@@ -1869,7 +1868,7 @@ msgstr "المسار إلى ملف الصورة السحابية على نظام
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
 msgid "Path to directory"
-msgstr "المسار إلى الدليل"
+msgstr "المسار إلى المجلد"
 
 #: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
@@ -2023,16 +2022,18 @@ msgid ""
 "Provides a bridge from the guest virtual machine directly onto the LAN. This "
 "needs a bridge device on the host with one or more physical NICs."
 msgstr ""
+"يوفِّر جسرًا يربط الآلة الافتراضية للضيف مباشرةً بشبكة LAN. يتطلب هذا جهاز جسر "
+"على المضيف يحوي على بطاقة شبكة فعلية (NIC) واحدة أو أكثر."
 
 #: src/components/vm/nics/nicBody.tsx:123
 msgid ""
 "Provides a connection whose details are described by the named network "
 "definition."
-msgstr ""
+msgstr "يوفر اتصالاً يتم وصف تفاصيله عبر تعريف الشبكة المسماة."
 
 #: src/components/vm/nics/nicBody.tsx:146
 msgid "Provides a virtual LAN with NAT to the outside world."
-msgstr ""
+msgstr "توفير شبكة LAN افتراضية مع NAT للعالم الخارجي."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:829
 msgid "Public SSH key"
@@ -2092,23 +2093,23 @@ msgstr "إزالة"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:141
 msgid "Remove SPICE audio and host devices"
-msgstr ""
+msgstr "إزالة أجهزة الصوت SPICE والأجهزة المضيفة"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:179
 msgid "Remove and delete file"
-msgstr ""
+msgstr "إزالة وحذف ملف"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:165
 msgid "Remove disk from VM?"
-msgstr ""
+msgstr "إزالة قرص من الجهاز الافتراضي؟"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:74
 msgid "Remove filesystem?"
-msgstr ""
+msgstr "إزالة نظام الملفات؟"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:270
 msgid "Remove host device from VM?"
-msgstr ""
+msgstr "إزالة جهاز مضيف من الجهاز الافتراضي؟"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:841
 msgid "Remove item"
@@ -2116,11 +2117,11 @@ msgstr "إزالة العنصر"
 
 #: src/components/vm/nics/vmNicsCard.tsx:553
 msgid "Remove network interface?"
-msgstr ""
+msgstr "إزالة واجهة شبكة؟"
 
 #: src/components/networks/networkOverviewTab.tsx:74
 msgid "Remove static host from DHCP"
-msgstr ""
+msgstr "إزالة المضيف الثابت من DHCP"
 
 #: src/components/vm/vmRenameDialog.jsx:86 src/components/vm/vmActions.jsx:460
 msgid "Rename"
@@ -2159,7 +2160,7 @@ msgstr "إعادة التعيين"
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
-msgstr ""
+msgstr "قيود في الشبكات (المحاكاة المعتمدة على SLIRP) وتعيين أجهزة PCI"
 
 #: src/components/vm/vmActions.jsx:231
 msgid "Resume"
@@ -2168,11 +2169,11 @@ msgstr "استئناف"
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 msgid "Revert"
-msgstr ""
+msgstr "الرجوع"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:113
 msgid "Revert to snapshot $0"
-msgstr ""
+msgstr "الرجوع إلى اللقطة $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:122
 msgid ""
@@ -2180,6 +2181,8 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
+"سيؤدي العودة إلى لقطة النظام هذه إلى إعادة الآلة الافتراضية إلى وقت أخذ "
+"اللقطة، مع فقدان الحالة الحالية وأي بيانات غير مضمنة في اللقطة"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:729
 msgid "Root password"
@@ -2187,15 +2190,15 @@ msgstr "كلمة سر الجذؤ"
 
 #: src/components/create-vm-dialog/pxe-helpers.js:99
 msgid "Route to $0"
-msgstr ""
+msgstr "التوجيه إلى $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.js:101
 msgid "Routed network"
-msgstr ""
+msgstr "الشبكة الموجّهة"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:156
 msgid "Row select"
-msgstr ""
+msgstr "تحديد الصف"
 
 #: src/components/vm/vmActions.jsx:389
 msgid "Run"
@@ -2204,7 +2207,7 @@ msgstr "شغِّل"
 #: src/components/vm/overview/vmOverviewCard.jsx:107
 #: src/components/networks/networkOverviewTab.tsx:135
 msgid "Run when host boots"
-msgstr ""
+msgstr "التشغيل عند بدء إقلاع المضيف"
 
 #: src/helpers.ts:230
 msgid "Running"
@@ -2216,7 +2219,7 @@ msgstr "SPICE"
 
 #: src/components/vm/consoles/desktopConsole.jsx:52
 msgid "SPICE TLS port"
-msgstr ""
+msgstr "منفذ SPICE TLS"
 
 #: src/components/vm/consoles/desktopConsole.jsx:48
 msgid "SPICE address"
@@ -2232,6 +2235,7 @@ msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"SPICE غير معتمد على هذا المضيف وسيؤدي إلى عدم إقلاع هذا الجهاز الافتراضي."
 
 #: src/components/vm/consoles/desktopConsole.jsx:50
 msgid "SPICE port"
@@ -2266,27 +2270,27 @@ msgstr "إرسال مفتاح"
 
 #: src/components/vm/vmActions.jsx:325 src/components/vm/vmActions.jsx:330
 msgid "Send non-maskable interrupt"
-msgstr ""
+msgstr "إرسال مقاطعة غير قابلة للإلغاء (NMI)"
 
 #: src/components/vm/vmActions.jsx:319
 msgid "Send non-maskable interrupt to $0?"
-msgstr ""
+msgstr "إرسال مقاطعة غير قابلة للإلغاء (NMI) للقطة $0؟"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
-msgstr ""
+msgstr "متسلسل"
 
 #: src/components/vm/consoles/consoles.jsx:129
 msgid "Serial console"
-msgstr ""
+msgstr "وحدة التحكم المتسلسلة"
 
 #: src/components/vm/consoles/consoles.jsx:132
 msgid "Serial console ($0)"
-msgstr ""
+msgstr "وحدة التحكم المتسلسلة ($0)"
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
-msgstr ""
+msgstr "عيّن مدى DHCP"
 
 #: src/components/vm/nics/nicAdd.tsx:100
 msgid "Set manually"
@@ -2297,6 +2301,8 @@ msgid ""
 "Setting the user passwords for unattended installation requires starting the "
 "VM when creating it"
 msgstr ""
+"يتطلب تعيين كلمات سر المستخدم للتثبيت غير المراقب بدء تشغيل الجهاز الافتراضي "
+"عند إنشائه"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:258
 msgid "Share"
@@ -2304,16 +2310,16 @@ msgstr "مشاركة"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:190
 msgid "Share a host directory with the guest"
-msgstr ""
+msgstr "‍شارك مجلد المضيف مع الضيف"
 
 #: src/components/vm/vmDetailsPage.jsx:195
 msgid "Shared directories"
-msgstr ""
+msgstr "المجلدات المشتركة"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
 #: src/components/vm/vmDetailsPage.jsx:197
 msgid "Shared host directories need to be manually mounted inside the VM"
-msgstr ""
+msgstr "يجب تركيب مجلدات المضيف المشتركة يدوياً داخل الجهاز الافتراضي"
 
 #: src/components/vm/vmMigrateDialog.jsx:99
 msgid "Shared storage"
@@ -2322,7 +2328,7 @@ msgstr "التخزين المشترك"
 #: src/components/vm/disks/diskAdd.tsx:291
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:240
 msgid "Show additional options"
-msgstr ""
+msgstr "إظهار خيارات إضافية"
 
 #: src/components/vm/overview/watchdog.jsx:57
 msgid "Show less"
@@ -2339,7 +2345,7 @@ msgstr "أوقف التشغيل"
 
 #: src/components/vm/vmActions.jsx:247 src/components/vm/vmActions.jsx:278
 msgid "Shut down $0?"
-msgstr "أيقاف تشغيل $0؟"
+msgstr "إيقاف تشغيل $0؟"
 
 #: src/helpers.ts:234
 #, fuzzy
@@ -2348,11 +2354,11 @@ msgstr "إنهِ"
 
 #: src/components/vm/overview/firmware.jsx:159
 msgid "Shut off the VM in order to edit firmware configuration"
-msgstr ""
+msgstr "يجب إيقاف تشغيل الآلة الافتراضية لتعديل إعدادات البرنامج الثابت"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:161 src/helpers.ts:233
 msgid "Shutting down"
-msgstr ""
+msgstr "جاري إيقاف التشغيل"
 
 #: src/components/storagePools/storagePoolVolumesTab.tsx:90
 #: src/components/storagePools/storagePoolList.tsx:77
@@ -2366,25 +2372,25 @@ msgstr "الحجم"
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
 #: src/components/vm/overview/bootOrder.jsx:149
 msgid "Slot"
-msgstr ""
+msgstr "الفتحة"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:219
 msgid "Snapshot $0 could not be deleted"
-msgstr ""
+msgstr "اللقطة $0 لا يمكن حذفها"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:220
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
-msgstr ""
+msgstr "سيتم حذف اللقطة $0 من $1. ستفقد جميع محتوياتها الملتقطة."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 msgid "Snapshot failed to be created"
-msgstr ""
+msgstr "تعذر إنشاء اللقطة"
 
 #: src/components/vm/vmDetailsPage.jsx:183
 msgid "Snapshots"
-msgstr ""
+msgstr "اللقطات"
 
 #: src/components/vm/overview/cpuModal.jsx:264
 msgid "Sockets"
@@ -2392,7 +2398,7 @@ msgstr "مقابس التوصيل"
 
 #: src/components/common/needsShutdown.tsx:189
 msgid "Some configuration changes only take effect after a fresh boot:"
-msgstr ""
+msgstr "لا تسري بعض تغييرات التهيئة إلا بعد إقلاع جديد:"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:229
 #: src/components/vm/disks/diskAdd.tsx:719
@@ -2402,15 +2408,15 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:484
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
 msgid "Source"
-msgstr ""
+msgstr "مصدر"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:58
 msgid "Source format"
-msgstr ""
+msgstr "تهيئة المصدر"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:165
 msgid "Source must not be empty"
-msgstr ""
+msgstr "يجب ألا يترك المصدر فارغاً"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:60
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:78
@@ -2420,20 +2426,20 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:43
 #: src/components/storagePools/storagePoolOverviewTab.tsx:48
 msgid "Source path"
-msgstr ""
+msgstr "مسار المصدر"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:242
 #: src/components/storagePools/createStoragePoolDialog.tsx:255
 msgid "Source path should not be empty"
-msgstr ""
+msgstr "يجب ألا يترك مسار المصدر فارغاً"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:222
 msgid "Source should start with http, ftp or nfs protocol"
-msgstr ""
+msgstr "المصدر يجب أن يبدأ ببروتوكول http, ftp، أو nfs"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:276
 msgid "Source volume group"
-msgstr ""
+msgstr "مجموعة وحدة تخزين المصدر"
 
 #: src/components/networks/createNetworkDialog.tsx:318
 msgid "Start"
@@ -2441,20 +2447,20 @@ msgstr "بدء"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:299
 msgid "Start pool when host boots"
-msgstr ""
+msgstr "بدء المجمع مع إقلاع المضيف"
 
 #: src/components/networks/createNetworkDialog.tsx:127
 #: src/components/networks/createNetworkDialog.tsx:155
 msgid "Start should not be empty"
-msgstr ""
+msgstr "البدء يجب ألا يترك فارغاً"
 
 #: src/components/vm/confirmDialog.jsx:74
 msgid "Started"
-msgstr ""
+msgstr "تم البدء"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:297
 msgid "Startup"
-msgstr ""
+msgstr "بدء التشغيل"
 
 #: src/components/vm/overview/vmOverviewCard.jsx:163
 #: src/components/vm/nics/vmNicsCard.tsx:489
@@ -2467,85 +2473,85 @@ msgstr "حالة"
 
 #: src/components/networks/networkOverviewTab.tsx:319
 msgid "Static host entries"
-msgstr ""
+msgstr "إدخالات المضيف الثابت"
 
 #: src/components/networks/networkOverviewTab.tsx:75
 msgid "Static host from DHCP could not be removed"
-msgstr ""
+msgstr "تعذرت إزالة المضيف الثابت من DHCP"
 
 #: src/components/vm/vmMigrateDialog.jsx:92
 #: src/components/create-vm-dialog/createVmDialog.jsx:977
 msgid "Storage"
-msgstr ""
+msgstr "التخزين"
 
 #: src/components/vm/vmMigrateDialog.jsx:111
 msgid "Storage is at a shared location"
-msgstr ""
+msgstr "التخزين في الموقع المشترك"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1004
 msgid "Storage limit"
-msgstr ""
+msgstr "حد التخزين"
 
 #: src/components/storagePools/storagePool.tsx:133
 msgid "Storage pool $0 failed to get activated"
-msgstr ""
+msgstr "فشل تنشيط مجمع التخزين $0"
 
 #: src/components/storagePools/storagePool.tsx:153
 msgid "Storage pool $0 failed to get deactivated"
-msgstr ""
+msgstr "فشل إلغاء تنشيط مجمع التخزين $0"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:479
 msgid "Storage pool failed to be created"
-msgstr ""
+msgstr "فشل إنشاء مجمع تخزين"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:71
 msgid "Storage pool name"
-msgstr ""
+msgstr "اسم مجمع التخزين"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:972
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/storagePools/storagePoolList.tsx:71
 #: src/components/storagePools/storagePoolList.tsx:73
 msgid "Storage pools"
-msgstr ""
+msgstr "مجاميع التخزين"
 
 #: src/components/vm/disks/diskAdd.tsx:551
 msgid "Storage pools could not be fetched"
-msgstr ""
+msgstr "تعذر جلب مجاميع التخزين"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:241
 msgid "Storage size must not be 0"
-msgstr ""
+msgstr "حجم التجزين يجب ألا يكون صفراً"
 
 #: src/components/vm/disks/diskEdit.tsx:67
 msgid "Storage volume"
-msgstr ""
+msgstr "وحدة تخزينية"
 
 #: src/components/vm/disks/diskAdd.tsx:693
 #: src/components/storagePools/storageVolumeCreate.tsx:89
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
+msgstr "يجب ألا يتجاوز حجم الوحدة التخزينية سعة مجمع التخزين ($0$1)"
 
 #: src/components/storagePools/storagePool.tsx:83
 msgid "Storage volumes"
-msgstr ""
+msgstr "الوحدات التخزينية"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:57
 msgid "Storage volumes could not be deleted"
-msgstr ""
+msgstr "تعذر حذف وحدات التخزين"
 
 #: src/components/vm/vmMigrateDialog.jsx:207
 msgid ""
 "Storage volumes must be shared between this host and the destination host."
-msgstr ""
+msgstr "يجب مشاركة الوحدات التخزينية بين هذا المضيف والمضيف الذي يمثل الوجهة."
 
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
-msgstr ""
+msgstr "موقوف عن العمل (PM)"
 
 #: src/components/vm/usesSpice.jsx:33
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "حوِّل إلى بروتوكول VNC لمواصلة استخدام هذه الآلة."
 
 #: src/helpers.ts:226
 msgid "System"
@@ -2553,15 +2559,15 @@ msgstr "النظام"
 
 #: src/components/vm/nics/vmNicsCard.tsx:237
 msgid "TAP device"
-msgstr ""
+msgstr "جهاز TAP"
 
 #: src/components/common/needsShutdown.tsx:157
 msgid "TPM"
-msgstr ""
+msgstr "TPM"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:153
 msgid "Table of selectable host devices"
-msgstr ""
+msgstr "جدول الأجهزة المضيفة القابلة للتحديد"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:114
 #: src/components/vm/disks/vmDiskColumns.tsx:170
@@ -2572,37 +2578,37 @@ msgstr "الهدف"
 #: src/components/storagePools/createStoragePoolDialog.tsx:143
 #: src/components/storagePools/storagePoolOverviewTab.tsx:63
 msgid "Target path"
-msgstr ""
+msgstr "المسار الهدف"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:149
 msgid "Target path should not be empty"
-msgstr ""
+msgstr "المسار الهدف يجب ألا يكون فارغاً"
 
 #: src/components/vm/vmMigrateDialog.jsx:75
 msgid "Temporary"
-msgstr ""
+msgstr "مؤقت"
 
 #: src/components/vm/vmMigrateDialog.jsx:83
 msgid "Temporary migration"
-msgstr ""
+msgstr "الترحيل المؤقَّت"
 
 #: src/components/vm/deleteDialog.jsx:82
 msgid "The VM $0 is running and will be forced off before deletion."
-msgstr ""
+msgstr "الجهاز الافتراضي $0 قيد التشغيل وسيتم إطفاؤه بالقوة قبل الحذف."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:260
 #: src/components/vm/nics/vmNicsCard.tsx:567
 #: src/components/vm/nics/vmNicsCard.tsx:575
 msgid "The VM needs to be running or shut off to detach this device"
-msgstr ""
+msgstr "يجب أن يكون الجهاز الافتراضي قيد التشغيل أو الإيقاف لفصل هذا الجهاز"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:217
 msgid "The directory on the server being exported"
-msgstr ""
+msgstr "المجلد المُصدَّر من الخادم"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:218
 msgid "The host path that is to be exported."
-msgstr ""
+msgstr "مسار المضيف الذي سيتم تصديره."
 
 #: src/components/vm/vmMigrateDialog.jsx:72
 msgid ""
