@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-16 03:48+0000\n"
+"POT-Creation-Date: 2025-07-18 03:50+0000\n"
 "PO-Revision-Date: 2025-05-16 04:47+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -42,7 +42,7 @@ msgstr "$0 $1 disponível no local padrão"
 msgid "$0 $1 available on host"
 msgstr "$0 $1 disponível no host"
 
-#: src/components/vm/overview/cpuModal.jsx:321
+#: src/components/vm/overview/cpuModal.tsx:334
 msgid "$0 CPU details"
 msgstr "Detalhes de CPU de $0"
 
@@ -62,15 +62,7 @@ msgstr[1] "$0 pools de armazenamento"
 msgid "$0 does not support unattended installation."
 msgstr "$0 não oferece suporte a instalação autônoma."
 
-#: src/components/vm/consoles/desktopConsole.jsx:61
-msgid ""
-"$0 is available for most operating systems. To install it, search for it in "
-"GNOME Software or run the following:"
-msgstr ""
-"$0 está disponível para a maioria dos sistemas operacionais. Para instalá-"
-"lo, procure-o no GNOME Software ou execute o seguinte:"
-
-#: src/components/vm/overview/memoryModal.jsx:154
+#: src/components/vm/overview/memoryModal.tsx:194
 msgid "$0 memory adjustment"
 msgstr "$0 ajuste de memória"
 
@@ -78,7 +70,7 @@ msgstr "$0 ajuste de memória"
 msgid "$0 network"
 msgstr "$0 Rede"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:140
+#: src/components/vm/overview/vmOverviewCard.tsx:159
 #: src/components/vm/vmUsageCard.jsx:42
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
@@ -103,7 +95,7 @@ msgstr ""
 msgid "Access"
 msgstr "Acesso"
 
-#: src/components/vm/overview/watchdog.jsx:183
+#: src/components/vm/overview/watchdog.tsx:203
 msgid "Action"
 msgstr "Ação"
 
@@ -127,8 +119,8 @@ msgstr "Ative o pool de armazenamento para administrar volumes"
 
 #: src/components/networks/networkOverviewTab.tsx:281
 #: src/components/vm/disks/diskAdd.tsx:968
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:265
 msgid "Add"
@@ -141,6 +133,10 @@ msgstr "Adicionar chaves SSH"
 #: src/components/vm/vmActions.jsx:483
 msgid "Add TPM"
 msgstr "Adicionar TPM"
+
+#: src/components/vm/consoles/vnc.jsx:468
+msgid "Add VNC"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -160,6 +156,12 @@ msgstr "Adicionar dispositivo host"
 msgid "Add network interface"
 msgstr "Adicionar Interface de Rede"
 
+#: src/components/vm/consoles/serial.jsx:163
+#, fuzzy
+#| msgid "Serial console"
+msgid "Add serial console"
+msgstr "Console Serial"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
 msgstr "Adicionar diretório compartilhado"
@@ -168,15 +170,15 @@ msgstr "Adicionar diretório compartilhado"
 msgid "Add virtual network interface"
 msgstr "Adicionar interface de rede virtual"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 msgid "Add vsock interface"
 msgstr "Adicionar interface vsock"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Add watchdog device type"
 msgstr "Adicionar tipo de dispositivo watchdog"
 
-#: src/components/vm/overview/watchdog.jsx:109
+#: src/components/vm/overview/watchdog.tsx:128
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 "A adição de um watchdog exigirá uma reinicialização para entrar em vigor."
@@ -193,7 +195,6 @@ msgstr "Adicional"
 
 #: src/components/networks/networkOverviewTab.tsx:153
 #: src/components/networks/networkOverviewTab.tsx:173
-#: src/components/vm/consoles/desktopConsole.jsx:47
 #: src/components/vm/nics/vmNicsCard.tsx:205
 msgid "Address"
 msgstr "Endereço"
@@ -235,19 +236,19 @@ msgstr "Também apagar todos os volumes deste pool:"
 msgid "Always attach"
 msgstr "Sempre anexar"
 
-#: src/components/vm/overview/helpers.jsx:29
+#: src/components/vm/overview/helpers.tsx:31
 msgid "An example of vsock-aware software is socat"
 msgstr "Um exemplo de software compatível com vsock é o socat"
 
-#: src/components/vm/overview/cpuModal.jsx:327
+#: src/components/vm/overview/cpuModal.tsx:340
 msgid "Apply"
 msgstr "Aplicar"
 
-#: src/components/vm/overview/watchdog.jsx:205
+#: src/components/vm/overview/watchdog.tsx:226
 msgid "Apply on next boot"
 msgstr "Aplicar na próxima inicialização"
 
-#: src/components/vm/overview/vsock.jsx:47
+#: src/components/vm/overview/vsock.tsx:49
 msgid "Assign automatically"
 msgstr "Atribuir automaticamente"
 
@@ -269,7 +270,7 @@ msgstr "Automação"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:73
 #: src/components/networks/networkOverviewTab.tsx:130
-#: src/components/vm/overview/vmOverviewCard.jsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:213
 msgid "Autostart"
 msgstr "Auto-iniciar"
 
@@ -281,22 +282,22 @@ msgstr "Dispositivo de bloco"
 msgid "Blocked"
 msgstr "Bloqueado"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.tsx:206
 msgid "Boot order"
 msgstr "Ordem de Inicialização"
 
-#: src/components/vm/overview/bootOrder.jsx:244
+#: src/components/vm/overview/bootOrder.tsx:284
 msgid "Boot order settings could not be saved"
 msgstr "As configurações de ordem de boot não puderam ser salvas"
 
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/disks/vmDisksCard.tsx:221
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/overview/bootOrder.jsx:107
-#: src/components/vm/overview/bootOrder.jsx:119
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:140
-#: src/components/vm/overview/bootOrder.jsx:154
+#: src/components/vm/overview/bootOrder.tsx:127
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:160
+#: src/components/vm/overview/bootOrder.tsx:174
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
@@ -308,13 +309,13 @@ msgstr "Bus"
 msgid "CD/DVD disc"
 msgstr "CD/DVD"
 
-#: src/components/common/needsShutdown.tsx:145
-#: src/components/vm/overview/vmOverviewCard.jsx:182
+#: src/components/common/needsShutdown.tsx:190
+#: src/components/vm/overview/vmOverviewCard.tsx:201
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
 msgstr "CPU"
 
-#: src/components/vm/overview/cpuModal.jsx:208
+#: src/components/vm/overview/cpuModal.tsx:221
 msgid "CPU mode could not be saved"
 msgstr "Não foi possível salvar o modo da CPU"
 
@@ -335,17 +336,18 @@ msgstr "Cache"
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/confirmDialog.jsx:56
+#: src/components/vm/consoles/vnc.jsx:146
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:263
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
-#: src/components/vm/overview/firmware.jsx:101
-#: src/components/vm/overview/memoryModal.jsx:164
-#: src/components/vm/overview/vsock.jsx:243
-#: src/components/vm/overview/cpuModal.jsx:330
-#: src/components/vm/overview/bootOrder.jsx:323
-#: src/components/vm/overview/watchdog.jsx:216
-#: src/components/vm/vmReplaceSpiceDialog.jsx:160
+#: src/components/vm/overview/bootOrder.tsx:368
+#: src/components/vm/overview/cpuModal.tsx:343
+#: src/components/vm/overview/memoryModal.tsx:209
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/firmware.tsx:120
+#: src/components/vm/overview/watchdog.tsx:237
+#: src/components/vm/vmReplaceSpiceDialog.jsx:163
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
@@ -356,11 +358,11 @@ msgstr "Cache"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/components/vm/overview/vsock.jsx:201
+#: src/components/vm/overview/vsock.tsx:230
 msgid "Cannot edit vsock device on a transient VM"
 msgstr "Não é possível editar o dispositivo vsock em uma VM transitória"
 
-#: src/components/vm/overview/watchdog.jsx:163
+#: src/components/vm/overview/watchdog.tsx:183
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Não é possível editar o dispositivo watchdog em uma VM transitória"
 
@@ -368,15 +370,15 @@ msgstr "Não é possível editar o dispositivo watchdog em uma VM transitória"
 msgid "Capacity"
 msgstr "Capacidade"
 
-#: src/components/vm/overview/bootOrder.jsx:313
+#: src/components/vm/overview/bootOrder.tsx:353
 msgid "Change boot order"
 msgstr "Alterar ordem de Inicialização"
 
-#: src/components/vm/overview/firmware.jsx:80
+#: src/components/vm/overview/firmware.tsx:94
 msgid "Change firmware"
 msgstr "Alterar firmware"
 
-#: src/components/common/needsShutdown.tsx:212
+#: src/components/common/needsShutdown.tsx:265
 msgid "Changes pending"
 msgstr "Mudanças pendentes"
 
@@ -409,9 +411,13 @@ msgstr "Escolha um sistema operacional"
 msgid "Class"
 msgstr "Classe"
 
-#: src/components/vm/consoles/desktopConsole.jsx:58
+#: src/components/vm/consoles/common.jsx:76
+#, fuzzy
+#| msgid ""
+#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
-"Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
+"Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
+"Viewer application on your system."
 msgstr ""
 "Clicar em \"Iniciar visualizador remoto\" fará o download de um arquivo .vv "
 "e iniciará $0."
@@ -433,6 +439,10 @@ msgstr "Não é possível carregar a imagem"
 msgid "Cockpit Project"
 msgstr "Projeto Cockpit"
 
+#: src/components/vm/consoles/consoles.jsx:226
+msgid "Compress"
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr ""
@@ -441,32 +451,22 @@ msgstr ""
 msgid "Confirm this action"
 msgstr "Confirme esta ação"
 
+#: src/components/vm/consoles/serial.jsx:96
+#: src/components/vm/consoles/vnc.jsx:411
 #: src/components/vm/consoles/serialConsole.jsx:95
 msgid "Connect"
 msgstr "Conectar"
-
-#: src/components/vm/consoles/desktopConsole.jsx:46
-#, fuzzy
-msgid "Connect with any viewer application for following protocols"
-msgstr ""
-"Conecte-se com qualquer aplicativo de visualização para seguintes os "
-"protocolos"
-
-#: src/components/vm/consoles/vnc.jsx:192
-msgid "Connecting"
-msgstr "Conectando"
 
 #: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/storagePools/storagePoolList.tsx:78
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/vms/hostvmslist.tsx:202
-#: src/components/vm/overview/vmOverviewCard.jsx:158
+#: src/components/vm/overview/vmOverviewCard.tsx:177
 msgid "Connection"
 msgstr "Conexão"
 
-#: src/components/vm/vmDetailsPage.jsx:101
-#: src/components/vm/vmDetailsPage.jsx:139
+#: src/components/vm/consoles/consoles.jsx:238
 msgid "Console"
 msgstr "Console"
 
@@ -484,7 +484,11 @@ msgstr "Converter console gráfico SPICE para VNC"
 msgid "Copy storage"
 msgstr "Nenhum Armazenamento"
 
-#: src/components/vm/overview/cpuModal.jsx:275
+#: src/components/vm/consoles/common.jsx:114
+msgid "Copy to clipboard"
+msgstr "Copiar para área de transferência"
+
+#: src/components/vm/overview/cpuModal.tsx:288
 msgid "Cores per socket"
 msgstr "Núcleos por soquete"
 
@@ -501,7 +505,7 @@ msgstr "Não foi possível excluir todo armazenamento para $0"
 msgid "Could not delete disk's storage"
 msgstr "Não foi possível redefinir o pool de armazenamento"
 
-#: src/components/vm/overview/watchdog.jsx:108
+#: src/components/vm/overview/watchdog.tsx:127
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
@@ -616,7 +620,7 @@ msgstr "Criação da vm $0 falhou"
 msgid "Creation time"
 msgstr "Tempo de criação"
 
-#: src/components/vm/consoles/vnc.jsx:152
+#: src/components/vm/consoles/vnc.jsx:236
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -625,15 +629,15 @@ msgstr "Ctrl+Alt+$0"
 msgid "Current"
 msgstr "Atual"
 
-#: src/components/vm/overview/memoryModal.jsx:131
+#: src/components/vm/overview/memoryModal.tsx:171
 msgid "Current allocation"
 msgstr "Alocação atual"
 
-#: src/components/vm/overview/firmware.jsx:134
+#: src/components/vm/overview/firmware.tsx:159
 msgid "Custom firmware: $0"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:158
+#: src/components/vm/overview/vsock.tsx:187
 #, fuzzy
 msgid "Custom identifier"
 msgstr "Arquivo de imagem de disco"
@@ -716,11 +720,6 @@ msgstr "Descrição"
 msgid "Deselect others"
 msgstr "Desmarcar os outros"
 
-#: src/components/vm/consoles/consoles.jsx:131
-#, fuzzy
-msgid "Desktop viewer"
-msgstr "Desktop"
-
 #: src/components/vm/vmMigrateDialog.jsx:49
 #, fuzzy
 #| msgid "Description"
@@ -745,10 +744,10 @@ msgstr "Detalhes"
 #: src/components/networks/createNetworkDialog.tsx:231
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/disks/vmDisksCard.tsx:207
-#: src/components/vm/overview/bootOrder.jsx:99
-#: src/components/vm/overview/bootOrder.jsx:106
-#: src/components/vm/overview/bootOrder.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.tsx:119
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:161
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
 #: src/components/vm/hostdevs/hostDevAdd.tsx:115
@@ -760,12 +759,13 @@ msgstr "Dispositivo"
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: src/components/vm/consoles/vnc.jsx:194
+#: src/components/vm/consoles/consoles.jsx:211
 #: src/components/vm/consoles/serialConsole.jsx:94
 msgid "Disconnect"
 msgstr "Desconectar"
 
-#: src/components/vm/consoles/vnc.jsx:193
+#: src/components/vm/consoles/serial.jsx:93
+#: src/components/vm/consoles/vnc.jsx:408
 #, fuzzy
 #| msgid "Disconnect"
 msgid "Disconnected"
@@ -776,7 +776,7 @@ msgstr "Desconectar"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Desconectado do console serial. Clique no botão conectar."
 
-#: src/components/common/needsShutdown.tsx:123
+#: src/components/common/needsShutdown.tsx:168
 #, fuzzy
 #| msgid "Disks"
 msgid "Disk"
@@ -826,7 +826,7 @@ msgstr "Não foi possível salvar as configurações do disco"
 msgid "Disk-only snapshot"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:156
+#: src/components/vm/vmDetailsPage.jsx:136
 msgid "Disks"
 msgstr "Discos"
 
@@ -855,6 +855,12 @@ msgstr "Baixar um SO"
 #: src/app.jsx:291
 msgid "Download progress"
 msgstr "Progresso do download"
+
+#: src/components/vm/consoles/common.jsx:101
+#, fuzzy
+#| msgid "Downloading $0"
+msgid "Download the MSI from $0"
+msgstr "Baixando $0"
 
 #: src/app.jsx:287
 #, fuzzy
@@ -892,6 +898,13 @@ msgstr "Editar"
 msgid "Edit $0 attributes"
 msgstr "Editar os atributos de $0"
 
+#: src/components/vm/consoles/vnc.jsx:132
+#: src/components/vm/consoles/vnc.jsx:283
+#, fuzzy
+#| msgid "DHCP range"
+msgid "Edit VNC settings"
+msgstr "Intervalo DHCP"
+
 #: src/components/vm/vmActions.jsx:470
 #, fuzzy
 msgid "Edit description"
@@ -901,13 +914,13 @@ msgstr "Descrição"
 msgid "Edit description of VM $0"
 msgstr "Editar descrição da VM $0"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Edit vsock interface"
 msgstr "Adicionar Interface de Rede"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Edit watchdog device type"
 msgstr ""
 
@@ -928,7 +941,7 @@ msgstr "Ejetar"
 msgid "Eject disc from VM?"
 msgstr "Ejetar o disco da VM?"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:242
+#: src/components/vm/overview/vmOverviewCard.tsx:261
 msgid "Emulated machine"
 msgstr "Máquina emulada"
 
@@ -961,7 +974,7 @@ msgstr "Exemplo, $0"
 msgid "Existing disk image on host's file system"
 msgstr "Imagem de disco existente no armazenamento do host"
 
-#: src/components/vm/vmDetailsPage.jsx:147
+#: src/components/vm/consoles/consoles.jsx:226
 msgid "Expand"
 msgstr "Expandir"
 
@@ -978,13 +991,23 @@ msgstr "Falhou"
 msgid "Failed to add TPM to VM $0"
 msgstr "Falha ao adicionar a máquina: $0"
 
+#: src/components/vm/consoles/vnc.jsx:448
+#, fuzzy
+msgid "Failed to add VNC to VM $0"
+msgstr "Falha ao adicionar a máquina: $0"
+
+#: src/components/vm/consoles/serial.jsx:143
+#, fuzzy
+msgid "Failed to add serial console to VM $0"
+msgstr "Falha ao adicionar a máquina: $0"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 #, fuzzy
 #| msgid "Filesystem directory"
 msgid "Failed to add shared directory"
 msgstr "Diretório do sistema de arquivos"
 
-#: src/components/vm/overview/firmware.jsx:72
+#: src/components/vm/overview/firmware.tsx:86
 #, fuzzy
 msgid "Failed to change firmware"
 msgstr "Falha ao mudar senha"
@@ -994,23 +1017,23 @@ msgstr "Falha ao mudar senha"
 msgid "Failed to clone VM $0"
 msgstr "Falha ao adicionar a máquina: $0"
 
-#: src/components/vm/overview/vsock.jsx:128
+#: src/components/vm/overview/vsock.tsx:157
 #, fuzzy
 msgid "Failed to configure vsock"
 msgstr "Falha ao mudar senha"
 
-#: src/components/vm/overview/watchdog.jsx:90
+#: src/components/vm/overview/watchdog.tsx:109
 #, fuzzy
 msgid "Failed to configure watchdog"
 msgstr "Falha ao mudar senha"
 
-#: src/components/vm/overview/vsock.jsx:140
+#: src/components/vm/overview/vsock.tsx:169
 #, fuzzy
 #| msgid "Disk failed to be attached"
 msgid "Failed to detach vsock"
 msgstr "Disco falhou ao ser anexado"
 
-#: src/components/vm/overview/watchdog.jsx:137
+#: src/components/vm/overview/watchdog.tsx:157
 #, fuzzy
 #| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
@@ -1038,7 +1061,7 @@ msgstr "Falha ao substituir dispositivos SPICE"
 msgid "Failed to save network settings"
 msgstr "Não foi possível salvar as configurações de rede"
 
-#: src/components/vm/consoles/vnc.jsx:147
+#: src/components/vm/consoles/vnc.jsx:231
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Não foi possível enviar Ctrl+Alt+$0 para a máquina virtual $1"
 
@@ -1047,12 +1070,12 @@ msgstr "Não foi possível enviar Ctrl+Alt+$0 para a máquina virtual $1"
 msgid "Failed to set description of VM $0"
 msgstr "Falha ao adicionar a máquina: $0"
 
-#: src/components/vm/overview/cpuModal.jsx:248
+#: src/components/vm/overview/cpuModal.tsx:261
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "Menos do que o número máximo de CPUs virtuais deve ser ativado."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:47
-#: src/components/vm/overview/bootOrder.jsx:98
+#: src/components/vm/overview/bootOrder.tsx:118
 msgid "File"
 msgstr "Arquivo"
 
@@ -1069,8 +1092,8 @@ msgstr "Diretório do sistema de arquivos"
 msgid "Filter by name"
 msgstr "Filtrar por nome ou descrição"
 
-#: src/components/vm/overview/firmware.jsx:84
-#: src/components/vm/overview/vmOverviewCard.jsx:248
+#: src/components/vm/overview/vmOverviewCard.tsx:267
+#: src/components/vm/overview/firmware.tsx:103
 #, fuzzy
 msgid "Firmware"
 msgstr "Versão"
@@ -1125,7 +1148,7 @@ msgid ""
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:121
-#: src/components/vm/overview/vmOverviewCard.jsx:154
+#: src/components/vm/overview/vmOverviewCard.tsx:173
 msgid "General"
 msgstr "Geral"
 
@@ -1141,7 +1164,7 @@ msgstr "Obter um novo token RHSM."
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
 #: src/components/storagePools/storageVolumeCreateBody.tsx:152
 #: src/components/vm/disks/vmDisksCard.tsx:53
-#: src/components/vm/overview/memorySelectRow.jsx:89
+#: src/components/vm/overview/memorySelectRow.tsx:108
 msgid "GiB"
 msgstr "GiB"
 
@@ -1159,6 +1182,14 @@ msgstr "Uma boa escolha para virtualização de desktop"
 msgid "Gracefully shutdown"
 msgstr "Forçar Desligamento"
 
+#: src/components/vm/consoles/consoles.jsx:107
+msgid "Graphical"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:458
+msgid "Graphical console support not enabled"
+msgstr ""
+
 #: src/app.jsx:119
 #, fuzzy
 #| msgid "Connecting to virtualization service"
@@ -1174,7 +1205,7 @@ msgstr "Ações adicionais"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/vm/disks/vmDiskColumns.tsx:52
-#: src/components/vm/overview/bootOrder.jsx:103
+#: src/components/vm/overview/bootOrder.tsx:123
 msgid "Host"
 msgstr "Máquina"
 
@@ -1191,7 +1222,7 @@ msgstr "Não foi possível salvar as configurações do disco"
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:174
+#: src/components/vm/vmDetailsPage.jsx:154
 #, fuzzy
 #| msgid "Host device"
 msgid "Host devices"
@@ -1205,7 +1236,7 @@ msgstr "Nome do host"
 msgid "Host should not be empty"
 msgstr "Host não deve estar vazio"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:238
+#: src/components/vm/overview/vmOverviewCard.tsx:257
 #, fuzzy
 msgid "Hypervisor details"
 msgstr "Mais detalhes"
@@ -1284,7 +1315,7 @@ msgstr "Ideal para servidores virtualizados"
 msgid "Ideal networking support"
 msgstr "Suporte de rede ideal"
 
-#: src/components/vm/overview/vsock.jsx:69
+#: src/components/vm/overview/vsock.tsx:77
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
@@ -1360,7 +1391,7 @@ msgstr "Ctrl+Insert"
 msgid "Insert disc media"
 msgstr "Inserir disco"
 
-#: src/components/vm/overview/helpers.jsx:39
+#: src/components/vm/overview/helpers.tsx:41
 msgid "Inside the VM"
 msgstr "Dentro da máquina virtual"
 
@@ -1427,6 +1458,12 @@ msgstr "Nome de arquivo inválido"
 msgid "Isolated network"
 msgstr "Rede isolada"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:149
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr "As chaves estão em ~/.ssh/ e tem a extensão \".pub\"."
@@ -1436,8 +1473,10 @@ msgstr "As chaves estão em ~/.ssh/ e tem a extensão \".pub\"."
 msgid "LVM volume group"
 msgstr "Grupo de volumes LVM"
 
-#: src/components/vm/consoles/desktopConsole.jsx:54
-msgid "Launch remote viewer"
+#: src/components/vm/consoles/common.jsx:166
+#, fuzzy
+#| msgid "Launch remote viewer"
+msgid "Launch viewer"
 msgstr "Iniciar visualizador remoto"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
@@ -1460,13 +1499,13 @@ msgstr ""
 "Deixe a senha em branco se você não deseja que uma senha de superusuário "
 "seja definida"
 
-#: src/components/vm/overview/firmware.jsx:178
+#: src/components/vm/overview/firmware.tsx:203
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
 "Libvirt não detectou uma imagem de firmware UEFI/OVMF instalada no host"
 
-#: src/components/vm/overview/firmware.jsx:172
+#: src/components/vm/overview/firmware.tsx:197
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Não há suporte para UEFI no Libvirt ou no hipervisor"
 
@@ -1480,6 +1519,7 @@ msgstr "Nenhum dispositivos de rede"
 msgid "Loading resources"
 msgstr "Carregando recursos"
 
+#: src/components/vm/consoles/serial.jsx:102
 #: src/components/vm/consoles/serialConsole.jsx:77
 msgid "Loading..."
 msgstr "Carregando..."
@@ -1493,7 +1533,7 @@ msgid "Location"
 msgstr "Local"
 
 #: src/components/networks/networkOverviewTab.tsx:79
-#: src/components/vm/overview/bootOrder.jsx:113
+#: src/components/vm/overview/bootOrder.tsx:133
 msgid "MAC"
 msgstr "MAC"
 
@@ -1536,10 +1576,6 @@ msgstr "Máquinas Virtuais"
 msgid "Managing virtual machines"
 msgstr "Máquinas Virtuais"
 
-#: src/components/vm/consoles/desktopConsole.jsx:44
-msgid "Manual connection"
-msgstr "Conexão manual"
-
 #: src/components/networks/createNetworkDialog.tsx:357
 #, fuzzy
 msgid "Mask or prefix length"
@@ -1550,19 +1586,19 @@ msgstr "Comprimento da máscara ou prefixo"
 msgid "Mask or prefix length should not be empty"
 msgstr "Comprimento da mascara ou prefixo não pode estar vazio"
 
-#: src/components/vm/overview/memoryModal.jsx:140
+#: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
 msgstr "Alocação máxima"
 
-#: src/components/vm/overview/memoryModal.jsx:105
+#: src/components/vm/overview/memoryModal.tsx:145
 msgid "Maximum memory could not be saved"
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:230
+#: src/components/vm/overview/cpuModal.tsx:243
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr "Número máximo de CPUs virtuais alocadas para o SO convidado"
 
-#: src/components/vm/overview/cpuModal.jsx:229
+#: src/components/vm/overview/cpuModal.tsx:242
 msgid ""
 "Maximum number of virtual CPUs allocated for the guest OS, which must be "
 "between 1 and $0"
@@ -1583,13 +1619,13 @@ msgid "Media will be ejected from $0:"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:897
-#: src/components/vm/overview/vmOverviewCard.jsx:177
+#: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/vm/vmUsageCard.jsx:53
 msgid "Memory"
 msgstr "Memória"
 
-#: src/components/vm/overview/memoryModal.jsx:102
-#: src/components/vm/overview/memoryModal.jsx:118
+#: src/components/vm/overview/memoryModal.tsx:142
+#: src/components/vm/overview/memoryModal.tsx:158
 msgid "Memory could not be saved"
 msgstr ""
 
@@ -1612,7 +1648,7 @@ msgstr ""
 #: src/components/create-vm-dialog/createVmDialog.jsx:910
 #: src/components/create-vm-dialog/createVmDialog.jsx:1017
 #: src/components/storagePools/storageVolumeCreateBody.tsx:150
-#: src/components/vm/overview/memorySelectRow.jsx:87
+#: src/components/vm/overview/memorySelectRow.tsx:106
 msgid "MiB"
 msgstr "MiB"
 
@@ -1629,8 +1665,8 @@ msgstr ""
 msgid "Migration failed"
 msgstr "A migração falhou"
 
-#: src/components/vm/overview/cpuModal.jsx:293
-#: src/components/vm/overview/cpuModal.jsx:295
+#: src/components/vm/overview/cpuModal.tsx:306
+#: src/components/vm/overview/cpuModal.tsx:308
 #: src/components/vm/nics/vmNicsCard.tsx:190
 #: src/components/vm/nics/nicBody.tsx:227
 msgid "Mode"
@@ -1751,7 +1787,7 @@ msgstr "Boot por Rede (PXE)"
 msgid "Network file system"
 msgstr "Sistema de arquivos de rede"
 
-#: src/components/common/needsShutdown.tsx:134
+#: src/components/common/needsShutdown.tsx:179
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interface"
@@ -1769,7 +1805,7 @@ msgstr "A interface de rede $0 será removida de $1"
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:165
+#: src/components/vm/vmDetailsPage.jsx:145
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interfaces"
@@ -1810,14 +1846,9 @@ msgstr ""
 msgid "No VM is running or defined on this host"
 msgstr "Nenhuma VM está sendo executada ou definida neste host"
 
-#: src/components/vm/overview/bootOrder.jsx:342
+#: src/components/vm/overview/bootOrder.tsx:380
 msgid "No boot device found"
 msgstr "Nenhum dispositivo de inicialização encontrado"
-
-#: src/components/vm/consoles/desktopConsole.jsx:45
-#, fuzzy
-msgid "No connection available"
-msgstr "Indisponível"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 #, fuzzy
@@ -1936,7 +1967,7 @@ msgstr "O nome não deve estar vazio"
 msgid "Old token expired"
 msgstr ""
 
-#: src/components/vm/overview/helpers.jsx:33
+#: src/components/vm/overview/helpers.tsx:35
 msgid "On the host"
 msgstr ""
 
@@ -1946,8 +1977,8 @@ msgid ""
 "allow volume deletion."
 msgstr ""
 
-#: src/components/vm/overview/memoryModal.jsx:147
-#: src/components/vm/overview/bootOrder.jsx:368
+#: src/components/vm/overview/bootOrder.tsx:406
+#: src/components/vm/overview/memoryModal.tsx:187
 #: src/components/vm/nics/nicEdit.tsx:67
 msgid "Only editable when the guest is shut off"
 msgstr ""
@@ -1970,7 +2001,7 @@ msgid "Other VMs using SPICE"
 msgstr ""
 
 #: src/components/storagePools/storagePool.tsx:77
-#: src/components/vm/vmDetailsPage.jsx:119
+#: src/components/vm/vmDetailsPage.jsx:109
 msgid "Overview"
 msgstr "Visão geral"
 
@@ -1982,6 +2013,22 @@ msgstr ""
 #, fuzzy
 msgid "Parent snapshot"
 msgstr "Criar Snapshot"
+
+#: src/components/vm/consoles/vnc.jsx:177
+#, fuzzy
+msgid "Password"
+msgstr "Definir uma Senha"
+
+#: src/components/vm/consoles/vnc.jsx:197
+msgid ""
+"Password must be 8 characters or less. VNC passwords do not provide "
+"encryption and are generally cryptographically weak. They can not be used to "
+"secure connections in untrusted networks."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:97
+msgid "Password must be at most 8 characters."
+msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -2071,14 +2118,10 @@ msgstr "Por favor insira o novo nome do volume"
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:40
-msgid "Please start the virtual machine to access its console."
-msgstr "Por favor, inicie a máquina virtual para acessar seu console."
-
 #: src/components/vm/disks/diskAdd.tsx:216
 #: src/components/vm/disks/vmDiskColumns.tsx:50
 #: src/components/vm/disks/mediaEject.tsx:98
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/vm/overview/bootOrder.tsx:121
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Pool"
@@ -2099,12 +2142,28 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
+#: src/components/vm/consoles/vnc.jsx:158
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/overview/bootOrder.jsx:104
-#: src/components/vm/overview/bootOrder.jsx:120
+#: src/components/vm/overview/bootOrder.tsx:124
+#: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "Porta"
+
+#: src/components/vm/consoles/vnc.jsx:91
+msgid "Port must be 5900 or larger."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:171
+msgid ""
+"Port must be a number that is at least 5900. Leave empty to automatically "
+"assign a free port when the machine starts."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:88
+#, fuzzy
+msgid "Port must be a number."
+msgstr "A hora precisa ser um número entre 0-23"
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -2114,7 +2173,7 @@ msgstr ""
 msgid "Pre-formatted block device"
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:266
+#: src/components/vm/overview/cpuModal.tsx:279
 msgid "Preferred number of sockets to expose to the guest."
 msgstr "Número preferido de soquetes para expor ao convidado."
 
@@ -2141,8 +2200,8 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:133
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.tsx:153
+#: src/components/vm/overview/bootOrder.tsx:168
 #: src/components/vm/hostdevs/hostDevCard.tsx:252
 #: src/components/vm/hostdevs/hostDevCard.tsx:258
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
@@ -2155,8 +2214,8 @@ msgid "Profile"
 msgstr "Alterar o perfil"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
-#: src/components/vm/overview/bootOrder.jsx:100
-#: src/components/vm/overview/bootOrder.jsx:161
+#: src/components/vm/overview/bootOrder.tsx:120
+#: src/components/vm/overview/bootOrder.tsx:181
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 msgid "Protocol"
 msgstr "Protocolo"
@@ -2217,18 +2276,34 @@ msgstr ""
 msgid "Remote URL"
 msgstr "URL remoto"
 
-#: src/components/vm/consoles/desktopConsole.jsx:55
+#: src/components/vm/consoles/common.jsx:79
 #, fuzzy
-msgid "Remote viewer details"
+#| msgid ""
+#| "$0 is available for most operating systems. To install it, search for it "
+#| "in GNOME Software or run the following:"
+msgid ""
+"Remote Viewer is available for most operating systems. To install it, search "
+"for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
+msgstr ""
+"$0 está disponível para a maioria dos sistemas operacionais. Para instalá-"
+"lo, procure-o no GNOME Software ou execute o seguinte:"
+
+#: src/components/vm/consoles/common.jsx:139
+#, fuzzy
+msgid "Remote viewer"
 msgstr "Detalhes do visualizador remoto"
+
+#: src/components/vm/consoles/common.jsx:111
+msgid "Remote viewer applications can connect to the following address:"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:72
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:81
 #: src/components/vm/disks/vmDiskColumns.tsx:166
 #: src/components/vm/disks/vmDiskColumns.tsx:252
-#: src/components/vm/overview/vsock.jsx:240
-#: src/components/vm/overview/watchdog.jsx:213
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/overview/watchdog.tsx:234
 #: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/nics/vmNicsCard.tsx:566
 #: src/components/vm/hostdevs/hostDevCard.tsx:268
@@ -2278,7 +2353,7 @@ msgstr ""
 msgid "Rename VM $0"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#: src/components/vm/vmReplaceSpiceDialog.jsx:160
 msgid "Replace"
 msgstr ""
 
@@ -2300,9 +2375,25 @@ msgstr "Substituir SPICE nas VMs selecionadas."
 msgid "Replace SPICE on the virtual machine."
 msgstr "Substituir SPICE na máquina virtual."
 
+#: src/components/vm/consoles/spice.jsx:77
+msgid "Replace with VNC"
+msgstr ""
+
 #: src/helpers.ts:286
 msgid "Reset"
 msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:481
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its graphical console"
+msgstr "Por favor, inicie a máquina virtual para acessar seu console."
+
+#: src/components/vm/consoles/serial.jsx:175
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its serial console"
+msgstr "Por favor, inicie a máquina virtual para acessar seu console."
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2354,7 +2445,7 @@ msgid "Run"
 msgstr "Executar"
 
 #: src/components/networks/networkOverviewTab.tsx:135
-#: src/components/vm/overview/vmOverviewCard.jsx:107
+#: src/components/vm/overview/vmOverviewCard.tsx:126
 msgid "Run when host boots"
 msgstr ""
 
@@ -2362,19 +2453,11 @@ msgstr ""
 msgid "Running"
 msgstr "Executando"
 
-#: src/components/common/needsShutdown.tsx:153
+#: src/components/common/needsShutdown.tsx:198
 #, fuzzy
 #| msgid "SPICE port"
 msgid "SPICE"
 msgstr "SPICE Porta"
-
-#: src/components/vm/consoles/desktopConsole.jsx:52
-msgid "SPICE TLS port"
-msgstr "SPICE TLS Porta"
-
-#: src/components/vm/consoles/desktopConsole.jsx:48
-msgid "SPICE address"
-msgstr "SPICE Endereço"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:134
 #: src/components/vm/vmReplaceSpiceDialog.jsx:136
@@ -2389,22 +2472,19 @@ msgid ""
 "not boot."
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:50
-msgid "SPICE port"
-msgstr "SPICE Porta"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:866
 #, fuzzy
 #| msgid "Send key"
 msgid "SSH keys"
 msgstr "Chave de envio"
 
+#: src/components/vm/consoles/vnc.jsx:143
 #: src/components/vm/disks/diskEdit.tsx:338
-#: src/components/vm/overview/firmware.jsx:98
-#: src/components/vm/overview/memoryModal.jsx:161
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/bootOrder.jsx:320
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:365
+#: src/components/vm/overview/memoryModal.tsx:206
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:117
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
 #: src/components/vm/nics/nicEdit.tsx:237
 msgid "Save"
@@ -2414,12 +2494,7 @@ msgstr "Salvar"
 msgid "Select all"
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:128
-#, fuzzy
-msgid "Select console type"
-msgstr "Tipo de console"
-
-#: src/components/vm/consoles/vnc.jsx:169
+#: src/components/vm/consoles/vnc.jsx:258
 msgid "Send key"
 msgstr "Chave de envio"
 
@@ -2431,19 +2506,27 @@ msgstr "Enviar interrupção não mascarada"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Enviar interrupção não mascarada para $0?"
 
+#: src/components/vm/consoles/consoles.jsx:167
+#: src/components/vm/consoles/consoles.jsx:191
 #: src/components/vm/disks/vmDiskColumns.tsx:121
 #, fuzzy
 #| msgid "Serial console"
 msgid "Serial"
 msgstr "Console Serial"
 
-#: src/components/vm/consoles/consoles.jsx:129
+#: src/components/vm/consoles/consoles.jsx:167
+#, fuzzy
+#| msgid "Serial console ($0)"
+msgid "Serial ($0)"
+msgstr "Console serial ($0)"
+
+#: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
 msgstr "Console Serial"
 
-#: src/components/vm/consoles/consoles.jsx:132
-msgid "Serial console ($0)"
-msgstr "Console serial ($0)"
+#: src/components/vm/consoles/serial.jsx:153
+msgid "Serial console support not enabled"
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.tsx:313
 #, fuzzy
@@ -2468,12 +2551,12 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:195
+#: src/components/vm/vmDetailsPage.jsx:175
 msgid "Shared directories"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.jsx:197
+#: src/components/vm/vmDetailsPage.jsx:177
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 
@@ -2488,13 +2571,13 @@ msgstr "Nenhum Armazenamento"
 msgid "Show additional options"
 msgstr "Ações adicionais"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 #, fuzzy
 #| msgid "show less"
 msgid "Show less"
 msgstr "mostrar menos"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 #, fuzzy
 #| msgid "show more"
 msgid "Show more"
@@ -2514,7 +2597,7 @@ msgstr "Desligar $0?"
 msgid "Shut off"
 msgstr "desligar"
 
-#: src/components/vm/overview/firmware.jsx:159
+#: src/components/vm/overview/firmware.tsx:184
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 
@@ -2529,7 +2612,7 @@ msgstr "Encerrar"
 msgid "Size"
 msgstr "Tamanho"
 
-#: src/components/vm/overview/bootOrder.jsx:149
+#: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 #: src/components/vm/hostdevs/hostDevCard.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2553,16 +2636,16 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "Disco falhou ao ser criado"
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:163
 #, fuzzy
 msgid "Snapshots"
 msgstr "Criar Snapshot"
 
-#: src/components/vm/overview/cpuModal.jsx:264
+#: src/components/vm/overview/cpuModal.tsx:277
 msgid "Sockets"
 msgstr "Sockets"
 
-#: src/components/common/needsShutdown.tsx:189
+#: src/components/common/needsShutdown.tsx:242
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
@@ -2624,6 +2707,19 @@ msgstr "Iniciar pool quando o host inicializa"
 msgid "Start should not be empty"
 msgstr ""
 
+#: src/components/vm/consoles/serial.jsx:130
+#: src/components/vm/consoles/vnc.jsx:428
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to access the console"
+msgstr "Por favor, inicie a máquina virtual para acessar seu console."
+
+#: src/components/vm/consoles/spice.jsx:68
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to launch remote viewer."
+msgstr "Por favor, inicie a máquina virtual para acessar seu console."
+
 #: src/components/vm/confirmDialog.jsx:74
 #, fuzzy
 #| msgid "Start"
@@ -2638,7 +2734,7 @@ msgstr "Comece"
 #: src/components/networks/networkList.tsx:76
 #: src/components/vms/hostvmslist.tsx:156
 #: src/components/vms/hostvmslist.tsx:203
-#: src/components/vm/overview/vmOverviewCard.jsx:163
+#: src/components/vm/overview/vmOverviewCard.tsx:182
 #: src/components/vm/nics/vmNicsCard.tsx:489
 msgid "State"
 msgstr "Estado"
@@ -2726,6 +2822,12 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
+#: src/components/vm/consoles/common.jsx:115
+#, fuzzy
+#| msgid "Copy to clipboard"
+msgid "Successfully copied to clipboard!"
+msgstr "Copiar para área de transferência"
+
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "suspenso (PM)"
@@ -2744,7 +2846,7 @@ msgstr "Sistema"
 msgid "TAP device"
 msgstr "Dispositivo Host"
 
-#: src/components/common/needsShutdown.tsx:157
+#: src/components/common/needsShutdown.tsx:210
 msgid "TPM"
 msgstr ""
 
@@ -2753,7 +2855,7 @@ msgid "Table of selectable host devices"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:170
-#: src/components/vm/overview/bootOrder.jsx:155
+#: src/components/vm/overview/bootOrder.tsx:175
 #: src/components/vm/hostdevs/hostDevCard.tsx:114
 msgid "Target"
 msgstr "Alvo"
@@ -2868,6 +2970,10 @@ msgstr ""
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 
+#: src/components/vm/consoles/spice.jsx:64
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr ""
+
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
@@ -2882,7 +2988,7 @@ msgstr ""
 msgid "This volume is already used by another VM."
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:284
+#: src/components/vm/overview/cpuModal.tsx:297
 msgid "Threads per core"
 msgstr "Tópicos por núcleo"
 
@@ -2890,7 +2996,7 @@ msgstr "Tópicos por núcleo"
 msgid "Total space available: $0."
 msgstr "Espaço total disponível: $0."
 
-#: src/components/vm/overview/firmware.jsx:165
+#: src/components/vm/overview/firmware.tsx:190
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr ""
 
@@ -2900,21 +3006,17 @@ msgstr "Solução de problemas"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:78
 #: src/components/storagePools/createStoragePoolDialog.tsx:115
-#: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/overview/bootOrder.jsx:131
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:153
-#: src/components/vm/overview/bootOrder.jsx:160
-#: src/components/vm/overview/bootOrder.jsx:166
+#: src/components/vm/overview/bootOrder.tsx:138
+#: src/components/vm/overview/bootOrder.tsx:151
+#: src/components/vm/overview/bootOrder.tsx:166
+#: src/components/vm/overview/bootOrder.tsx:173
+#: src/components/vm/overview/bootOrder.tsx:180
+#: src/components/vm/overview/bootOrder.tsx:186
 #: src/components/vm/nics/vmNicsCard.tsx:402
 #: src/components/vm/hostdevs/hostDevCard.tsx:189
 #: src/components/vm/hostdevs/hostDevAdd.tsx:56
 msgid "Type"
 msgstr "Tipo"
-
-#: src/components/vm/overview/bootOrder.jsx:167
-msgid "Type ID"
-msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:376
 msgid "URL (ISO image or distro install tree)"
@@ -2945,7 +3047,7 @@ msgstr "Nome único, padrão: $0"
 msgid "Unique network name"
 msgstr "Nome único de rede"
 
-#: src/components/vm/overview/bootOrder.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:176
 msgid "Unit"
 msgstr "Unidade"
 
@@ -2953,13 +3055,13 @@ msgstr "Unidade"
 msgid "Unknown"
 msgstr "Desconhecido"
 
-#: src/components/vm/overview/firmware.jsx:136
+#: src/components/vm/overview/firmware.tsx:161
 #, fuzzy
 msgid "Unknown firmware"
 msgstr "alvo desconhecido"
 
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:158
 #: src/components/vm/hostdevs/hostDevCard.tsx:97
 #: src/components/vm/hostdevs/hostDevCard.tsx:98
 msgid "Unspecified"
@@ -2975,7 +3077,7 @@ msgstr "Escolha um sistema operacional"
 msgid "Url"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:132
+#: src/components/vm/vmDetailsPage.jsx:122
 msgid "Usage"
 msgstr "Uso"
 
@@ -3092,7 +3194,7 @@ msgid ""
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:255
 #, fuzzy
 #| msgid "Force shut down"
 msgid "VM needs shutdown"
@@ -3107,29 +3209,21 @@ msgstr "Estado"
 msgid "VM will launch with root permissions"
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:53
-msgid "VNC TLS port"
-msgstr "VNC TLS Porta"
+#: src/components/common/needsShutdown.tsx:202
+msgid "VNC"
+msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:49
-msgid "VNC address"
-msgstr "VNC Endereço"
-
-#: src/components/vm/consoles/consoles.jsx:130
+#: src/components/vm/consoles/vnc.jsx:122
 #, fuzzy
-msgid "VNC console"
-msgstr "Consoles"
-
-#: src/components/vm/consoles/desktopConsole.jsx:51
-msgid "VNC port"
-msgstr "VNC Porta"
+msgid "VNC settings could not be saved"
+msgstr "Não foi possível salvar as configurações do disco"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.tsx:152
+#: src/components/vm/overview/bootOrder.tsx:167
 #: src/components/vm/hostdevs/hostDevCard.tsx:219
 #: src/components/vm/hostdevs/hostDevCard.tsx:251
 #: src/components/vm/hostdevs/hostDevCard.tsx:257
@@ -3145,8 +3239,7 @@ msgstr ""
 #: src/components/networks/networkList.tsx:57
 #: src/components/vms/hostvmslist.tsx:196
 #: src/components/vms/hostvmslist.tsx:198
-#: src/components/vm/vmDetailsPage.jsx:95
-#: src/components/vm/vmDetailsPage.jsx:248 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:230 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Máquinas Virtuais"
 
@@ -3165,7 +3258,7 @@ msgstr "Rede Virtual"
 msgid "Virtual network failed to be created"
 msgstr "Rede virtual falou em ser criada"
 
-#: src/components/vm/overview/helpers.jsx:28
+#: src/components/vm/overview/helpers.tsx:30
 msgid ""
 "Virtual socket support enables communication between the host and guest over "
 "a socket. It still requires special vsock-aware software to communicate over "
@@ -3180,7 +3273,7 @@ msgstr "Serviço de virtualização (libvirt) não está ativo"
 #: src/components/vm/disks/diskAdd.tsx:160
 #: src/components/vm/disks/vmDiskColumns.tsx:51
 #: src/components/vm/disks/mediaEject.tsx:102
-#: src/components/vm/overview/bootOrder.jsx:102
+#: src/components/vm/overview/bootOrder.tsx:122
 #: src/components/vm/deleteDialog.jsx:65
 msgid "Volume"
 msgstr "Volume"
@@ -3199,21 +3292,21 @@ msgstr "Nome do Grupo de Volume"
 msgid "Volume group name should not be empty"
 msgstr "Nome do Grupo de Volume não pode ser vazio"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:214
+#: src/components/vm/overview/vmOverviewCard.tsx:233
 msgid "Vsock"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:162
+#: src/components/vm/overview/bootOrder.tsx:182
 #: src/components/vm/hostdevs/hostDevCard.tsx:120
 msgid "WWPN"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:149
-#: src/components/vm/overview/vmOverviewCard.jsx:200
+#: src/components/common/needsShutdown.tsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:219
 msgid "Watchdog"
 msgstr ""
 
-#: src/components/vm/overview/helpers.jsx:27
+#: src/components/vm/overview/helpers.tsx:29
 msgid ""
 "Watchdogs act when systems stop responding. To use this virtual watchdog "
 "device, the guest system also needs to have an additional driver and a "
@@ -3238,8 +3331,8 @@ msgstr ""
 msgid "active"
 msgstr "ativo"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/watchdog.tsx:274
 #, fuzzy
 #| msgid "Add"
 msgid "add"
@@ -3257,7 +3350,7 @@ msgstr "ponte"
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.tsx:324
 msgid "custom"
 msgstr "personalizado"
 
@@ -3277,11 +3370,11 @@ msgstr "disco"
 msgid "down"
 msgstr "down"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/bootOrder.jsx:361
-#: src/components/vm/overview/vmOverviewCard.jsx:117
-#: src/components/vm/overview/vmOverviewCard.jsx:125
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/bootOrder.tsx:399
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/vmOverviewCard.tsx:136
+#: src/components/vm/overview/vmOverviewCard.tsx:144
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "edit"
 msgstr ""
 
@@ -3358,11 +3451,11 @@ msgid "more info"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.jsx:206
+#: src/components/vm/vmDetailsPage.jsx:186
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:205
+#: src/components/vm/vmDetailsPage.jsx:185
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
@@ -3381,8 +3474,8 @@ msgid "no state saved"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:327
-#: src/components/vm/overview/vsock.jsx:270
-#: src/components/vm/overview/watchdog.jsx:250
+#: src/components/vm/overview/vsock.tsx:299
+#: src/components/vm/overview/watchdog.tsx:270
 msgid "none"
 msgstr ""
 
@@ -3428,23 +3521,23 @@ msgstr "up"
 msgid "user"
 msgstr "usuário"
 
-#: src/components/vm/overview/cpuModal.jsx:195
+#: src/components/vm/overview/cpuModal.tsx:208
 #, fuzzy
 #| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
 msgstr "Configurações de VCPU não puderam ser salvas"
 
-#: src/components/vm/overview/cpuModal.jsx:246
-#: src/components/vm/overview/cpuModal.jsx:256
+#: src/components/vm/overview/cpuModal.tsx:259
+#: src/components/vm/overview/cpuModal.tsx:269
 msgid "vCPU count"
 msgstr "quantidade de vCPU"
 
-#: src/components/vm/overview/cpuModal.jsx:226
-#: src/components/vm/overview/cpuModal.jsx:238
+#: src/components/vm/overview/cpuModal.tsx:239
+#: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
 msgstr "Máximo de vCPU"
 
-#: src/components/common/needsShutdown.tsx:141
+#: src/components/common/needsShutdown.tsx:186
 msgid "vCPUs"
 msgstr "vCPUs"
 
@@ -3473,7 +3566,7 @@ msgstr ""
 "o pacote virt-install precisa estar instalado no sistema para poder criar "
 "novas VMs"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:131
+#: src/components/vm/overview/vmOverviewCard.tsx:150
 #, fuzzy
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
@@ -3486,7 +3579,7 @@ msgstr ""
 msgid "vm"
 msgstr ""
 
-#: src/components/vm/overview/vmOverviewCard.jsx:218
+#: src/components/vm/overview/vmOverviewCard.tsx:237
 msgid "vsock requires special software"
 msgstr ""
 
@@ -3495,6 +3588,52 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:126
 msgid "yes"
 msgstr "sim"
+
+#, fuzzy
+#~ msgid "Connect with any viewer application for following protocols"
+#~ msgstr ""
+#~ "Conecte-se com qualquer aplicativo de visualização para seguintes os "
+#~ "protocolos"
+
+#~ msgid "Connecting"
+#~ msgstr "Conectando"
+
+#, fuzzy
+#~ msgid "Desktop viewer"
+#~ msgstr "Desktop"
+
+#~ msgid "Manual connection"
+#~ msgstr "Conexão manual"
+
+#, fuzzy
+#~ msgid "No connection available"
+#~ msgstr "Indisponível"
+
+#~ msgid "SPICE TLS port"
+#~ msgstr "SPICE TLS Porta"
+
+#~ msgid "SPICE address"
+#~ msgstr "SPICE Endereço"
+
+#~ msgid "SPICE port"
+#~ msgstr "SPICE Porta"
+
+#, fuzzy
+#~ msgid "Select console type"
+#~ msgstr "Tipo de console"
+
+#~ msgid "VNC TLS port"
+#~ msgstr "VNC TLS Porta"
+
+#~ msgid "VNC address"
+#~ msgstr "VNC Endereço"
+
+#, fuzzy
+#~ msgid "VNC console"
+#~ msgstr "Consoles"
+
+#~ msgid "VNC port"
+#~ msgstr "VNC Porta"
 
 #, fuzzy
 #~| msgid "bridge"
@@ -3687,9 +3826,6 @@ msgstr "sim"
 #~ msgid "Copy"
 #~ msgstr "Copiar"
 
-#~ msgid "Copy to clipboard"
-#~ msgstr "Copiar para área de transferência"
-
 #~ msgid "Delay"
 #~ msgstr "Atraso"
 
@@ -3721,10 +3857,6 @@ msgstr "sim"
 #, fuzzy
 #~ msgid "Handheld"
 #~ msgstr "Portátil"
-
-#, fuzzy
-#~ msgid "Hours must be a number between 0 and 23"
-#~ msgstr "A hora precisa ser um número entre 0-23"
 
 #~ msgid "IPv4 network"
 #~ msgstr "Rede IPv4"

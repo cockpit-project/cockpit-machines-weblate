@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-16 03:48+0000\n"
+"POT-Creation-Date: 2025-07-18 03:50+0000\n"
 "PO-Revision-Date: 2025-06-07 04:53+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -29,7 +29,7 @@ msgstr "$0 $1 ხელმისაწვდომია ნაგულის�
 msgid "$0 $1 available on host"
 msgstr "ჰოსტზე ხელმისაწვდომია $0 $1"
 
-#: src/components/vm/overview/cpuModal.jsx:321
+#: src/components/vm/overview/cpuModal.tsx:334
 msgid "$0 CPU details"
 msgstr "ინფორმაცია $0-ე CPU-ის შესახებ"
 
@@ -49,15 +49,7 @@ msgstr[1] "$0 საცავის პული"
 msgid "$0 does not support unattended installation."
 msgstr "$0-ს ოპერაციულ სისტემას ავტომატური დაყენების საშუალება არ გააჩნია."
 
-#: src/components/vm/consoles/desktopConsole.jsx:61
-msgid ""
-"$0 is available for most operating systems. To install it, search for it in "
-"GNOME Software or run the following:"
-msgstr ""
-"$0 ხელმისაწვდომია ოპერაციული სისტემების უმრავლესობისთვის. დასაყენებლად "
-"მოძებნეთ ის GNOME-ის პროგრამებში ან გაუშვით:"
-
-#: src/components/vm/overview/memoryModal.jsx:154
+#: src/components/vm/overview/memoryModal.tsx:194
 msgid "$0 memory adjustment"
 msgstr "$0-ის მეხსიერების შესწორება"
 
@@ -65,7 +57,7 @@ msgstr "$0-ის მეხსიერების შესწორება"
 msgid "$0 network"
 msgstr "$0 ქსელი"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:140
+#: src/components/vm/overview/vmOverviewCard.tsx:159
 #: src/components/vm/vmUsageCard.jsx:42
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
@@ -89,7 +81,7 @@ msgstr ""
 msgid "Access"
 msgstr "წვდომა"
 
-#: src/components/vm/overview/watchdog.jsx:183
+#: src/components/vm/overview/watchdog.tsx:203
 msgid "Action"
 msgstr "ქმედება"
 
@@ -113,8 +105,8 @@ msgstr "საცავის პულის აქტივაცია სა
 
 #: src/components/networks/networkOverviewTab.tsx:281
 #: src/components/vm/disks/diskAdd.tsx:968
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:265
 msgid "Add"
@@ -127,6 +119,10 @@ msgstr "SSH გასაღებების დამატება"
 #: src/components/vm/vmActions.jsx:483
 msgid "Add TPM"
 msgstr "TPM-ის დამატება"
+
+#: src/components/vm/consoles/vnc.jsx:468
+msgid "Add VNC"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -146,6 +142,12 @@ msgstr "ჰოსტის მოწყობილობის დამატ�
 msgid "Add network interface"
 msgstr "ქსელის ინტერფეისის დამატება"
 
+#: src/components/vm/consoles/serial.jsx:163
+#, fuzzy
+#| msgid "Serial console"
+msgid "Add serial console"
+msgstr "სერიული კონსოლი"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
 msgstr "ზიარი საქაღალდის დამატება"
@@ -154,15 +156,15 @@ msgstr "ზიარი საქაღალდის დამატება"
 msgid "Add virtual network interface"
 msgstr "ქსელის ვირტუალური ინტერფეისის დამატება"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 msgid "Add vsock interface"
 msgstr "Vsock ინტერფეისის დამატება"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Add watchdog device type"
 msgstr "Watchdog-ის ტიპის მოწყობილობის დამატება"
 
-#: src/components/vm/overview/watchdog.jsx:109
+#: src/components/vm/overview/watchdog.tsx:128
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 "Watchdog-ის დამატებისას ცვლილებების ძალაში შესასვლელად გადატვირთვაა საჭირო."
@@ -179,7 +181,6 @@ msgstr "დამატებითი"
 
 #: src/components/networks/networkOverviewTab.tsx:153
 #: src/components/networks/networkOverviewTab.tsx:173
-#: src/components/vm/consoles/desktopConsole.jsx:47
 #: src/components/vm/nics/vmNicsCard.tsx:205
 msgid "Address"
 msgstr "მისამართი"
@@ -221,19 +222,19 @@ msgstr "ასევე წაიშლება ამ პულში მდ�
 msgid "Always attach"
 msgstr "ყოველთვის მიბმა"
 
-#: src/components/vm/overview/helpers.jsx:29
+#: src/components/vm/overview/helpers.tsx:31
 msgid "An example of vsock-aware software is socat"
 msgstr "VSock-ჩართული პროგრამების მაგალითია socket"
 
-#: src/components/vm/overview/cpuModal.jsx:327
+#: src/components/vm/overview/cpuModal.tsx:340
 msgid "Apply"
 msgstr "გადატარება"
 
-#: src/components/vm/overview/watchdog.jsx:205
+#: src/components/vm/overview/watchdog.tsx:226
 msgid "Apply on next boot"
 msgstr "შემდეგ ჩატვირთვაზე გადატარება"
 
-#: src/components/vm/overview/vsock.jsx:47
+#: src/components/vm/overview/vsock.tsx:49
 msgid "Assign automatically"
 msgstr "ავტომატური მინიჭება"
 
@@ -255,7 +256,7 @@ msgstr "ავტომატიზაცია"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:73
 #: src/components/networks/networkOverviewTab.tsx:130
-#: src/components/vm/overview/vmOverviewCard.jsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:213
 msgid "Autostart"
 msgstr "ავტომატური გაშვება"
 
@@ -267,22 +268,22 @@ msgstr "ბლოკური მოწყობილობა"
 msgid "Blocked"
 msgstr "დაბლოკილია"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.tsx:206
 msgid "Boot order"
 msgstr "ჩატვირთვის მიმდევრობა"
 
-#: src/components/vm/overview/bootOrder.jsx:244
+#: src/components/vm/overview/bootOrder.tsx:284
 msgid "Boot order settings could not be saved"
 msgstr "ჩატვირთვის მიმდევრობის შენახვის შეცდომა"
 
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/disks/vmDisksCard.tsx:221
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/overview/bootOrder.jsx:107
-#: src/components/vm/overview/bootOrder.jsx:119
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:140
-#: src/components/vm/overview/bootOrder.jsx:154
+#: src/components/vm/overview/bootOrder.tsx:127
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:160
+#: src/components/vm/overview/bootOrder.tsx:174
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
@@ -294,13 +295,13 @@ msgstr "მატარებელი"
 msgid "CD/DVD disc"
 msgstr "CD/DVD დისკი"
 
-#: src/components/common/needsShutdown.tsx:145
-#: src/components/vm/overview/vmOverviewCard.jsx:182
+#: src/components/common/needsShutdown.tsx:190
+#: src/components/vm/overview/vmOverviewCard.tsx:201
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
 msgstr "CPU"
 
-#: src/components/vm/overview/cpuModal.jsx:208
+#: src/components/vm/overview/cpuModal.tsx:221
 msgid "CPU mode could not be saved"
 msgstr "CPU-ის პარამეტრების შენახვის შეცდომა"
 
@@ -320,17 +321,18 @@ msgstr "ქეში"
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/confirmDialog.jsx:56
+#: src/components/vm/consoles/vnc.jsx:146
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:263
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
-#: src/components/vm/overview/firmware.jsx:101
-#: src/components/vm/overview/memoryModal.jsx:164
-#: src/components/vm/overview/vsock.jsx:243
-#: src/components/vm/overview/cpuModal.jsx:330
-#: src/components/vm/overview/bootOrder.jsx:323
-#: src/components/vm/overview/watchdog.jsx:216
-#: src/components/vm/vmReplaceSpiceDialog.jsx:160
+#: src/components/vm/overview/bootOrder.tsx:368
+#: src/components/vm/overview/cpuModal.tsx:343
+#: src/components/vm/overview/memoryModal.tsx:209
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/firmware.tsx:120
+#: src/components/vm/overview/watchdog.tsx:237
+#: src/components/vm/vmReplaceSpiceDialog.jsx:163
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
@@ -341,11 +343,11 @@ msgstr "ქეში"
 msgid "Cancel"
 msgstr "გაუქმება"
 
-#: src/components/vm/overview/vsock.jsx:201
+#: src/components/vm/overview/vsock.tsx:230
 msgid "Cannot edit vsock device on a transient VM"
 msgstr "დროებით ვმ-ზე vsock მოწყობილობის ჩასწორება შეუძლებელია"
 
-#: src/components/vm/overview/watchdog.jsx:163
+#: src/components/vm/overview/watchdog.tsx:183
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Watchdog ტიპის მოწყობილობის ჩასწორება დროებით ვმ-ზე შეუძლებელია"
 
@@ -353,15 +355,15 @@ msgstr "Watchdog ტიპის მოწყობილობის ჩას�
 msgid "Capacity"
 msgstr "მოცულობა"
 
-#: src/components/vm/overview/bootOrder.jsx:313
+#: src/components/vm/overview/bootOrder.tsx:353
 msgid "Change boot order"
 msgstr "ჩატვირთვის მიმდევრობის შეცვლა"
 
-#: src/components/vm/overview/firmware.jsx:80
+#: src/components/vm/overview/firmware.tsx:94
 msgid "Change firmware"
 msgstr "მიკროკოდის შეცვლა"
 
-#: src/components/common/needsShutdown.tsx:212
+#: src/components/common/needsShutdown.tsx:265
 msgid "Changes pending"
 msgstr "დარჩენილი ცვლილებები"
 
@@ -393,9 +395,13 @@ msgstr "აირჩეთ ოპერაციული სისტემა"
 msgid "Class"
 msgstr "კლასი"
 
-#: src/components/vm/consoles/desktopConsole.jsx:58
+#: src/components/vm/consoles/common.jsx:76
+#, fuzzy
+#| msgid ""
+#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
-"Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
+"Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
+"Viewer application on your system."
 msgstr ""
 "\"დაშორებული დამთვალიერებლის გაშვება\"-ზე დაჭერა გადმოწერს .vv ფაილს და "
 "გაუშვებს $0-ს."
@@ -416,6 +422,10 @@ msgstr "ღრუბლოვანი საბაზისო გამოს�
 msgid "Cockpit Project"
 msgstr "პროექტი Cockpit"
 
+#: src/components/vm/consoles/consoles.jsx:226
+msgid "Compress"
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "ერთდრიულად ჩაწერადი"
@@ -424,16 +434,10 @@ msgstr "ერთდრიულად ჩაწერადი"
 msgid "Confirm this action"
 msgstr "ქმედების დასტური"
 
+#: src/components/vm/consoles/serial.jsx:96
+#: src/components/vm/consoles/vnc.jsx:411
 #: src/components/vm/consoles/serialConsole.jsx:95
 msgid "Connect"
-msgstr "დაკავშირება"
-
-#: src/components/vm/consoles/desktopConsole.jsx:46
-msgid "Connect with any viewer application for following protocols"
-msgstr "დაუკავშირდით ნებისმიერი მაყურებლით შემდეგი პროტოკოლებით"
-
-#: src/components/vm/consoles/vnc.jsx:192
-msgid "Connecting"
 msgstr "დაკავშირება"
 
 #: src/components/common/machinesConnectionSelector.tsx:54
@@ -441,12 +445,11 @@ msgstr "დაკავშირება"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/vms/hostvmslist.tsx:202
-#: src/components/vm/overview/vmOverviewCard.jsx:158
+#: src/components/vm/overview/vmOverviewCard.tsx:177
 msgid "Connection"
 msgstr "კავშირი"
 
-#: src/components/vm/vmDetailsPage.jsx:101
-#: src/components/vm/vmDetailsPage.jsx:139
+#: src/components/vm/consoles/consoles.jsx:238
 msgid "Console"
 msgstr "კონსოლი"
 
@@ -463,7 +466,11 @@ msgstr "SPICE გრაფიკული კონსოლის VNC-ში �
 msgid "Copy storage"
 msgstr "საცავის კოპირება"
 
-#: src/components/vm/overview/cpuModal.jsx:275
+#: src/components/vm/consoles/common.jsx:114
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/components/vm/overview/cpuModal.tsx:288
 msgid "Cores per socket"
 msgstr "ბირთვების რაოდენობა თითოეულ სოკეტზე"
 
@@ -479,7 +486,7 @@ msgstr "$0-სთვის საცავის სრულად წაშლ
 msgid "Could not delete disk's storage"
 msgstr "დისკის საცავის წაშლა შეუძლებელია"
 
-#: src/components/vm/overview/watchdog.jsx:108
+#: src/components/vm/overview/watchdog.tsx:127
 msgid "Could not dynamically add watchdog"
 msgstr "Watchdog-ს დინამიკურად ვერ დაამატებთ"
 
@@ -586,7 +593,7 @@ msgstr "ვმ-ის ($0) შექმნის შეცდომა"
 msgid "Creation time"
 msgstr "შექმნის დრო"
 
-#: src/components/vm/consoles/vnc.jsx:152
+#: src/components/vm/consoles/vnc.jsx:236
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -594,15 +601,15 @@ msgstr "Ctrl+Alt+$0"
 msgid "Current"
 msgstr "მიმდინარე"
 
-#: src/components/vm/overview/memoryModal.jsx:131
+#: src/components/vm/overview/memoryModal.tsx:171
 msgid "Current allocation"
 msgstr "მიმდინარე განაწილება"
 
-#: src/components/vm/overview/firmware.jsx:134
+#: src/components/vm/overview/firmware.tsx:159
 msgid "Custom firmware: $0"
 msgstr "ხელით მითითებული მიკროკოდი: $0"
 
-#: src/components/vm/overview/vsock.jsx:158
+#: src/components/vm/overview/vsock.tsx:187
 msgid "Custom identifier"
 msgstr "ხელით მითითებული იდენტიფიკატორი"
 
@@ -683,10 +690,6 @@ msgstr "აღწერა"
 msgid "Deselect others"
 msgstr "სხვების მონიშვნის მოხსნა"
 
-#: src/components/vm/consoles/consoles.jsx:131
-msgid "Desktop viewer"
-msgstr "სამუშაო მაგიდის დამთვალიერებელი"
-
 #: src/components/vm/vmMigrateDialog.jsx:49
 msgid "Destination URI"
 msgstr "სამიზნე URI"
@@ -709,10 +712,10 @@ msgstr "დეტალები"
 #: src/components/networks/createNetworkDialog.tsx:231
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/disks/vmDisksCard.tsx:207
-#: src/components/vm/overview/bootOrder.jsx:99
-#: src/components/vm/overview/bootOrder.jsx:106
-#: src/components/vm/overview/bootOrder.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.tsx:119
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:161
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
 #: src/components/vm/hostdevs/hostDevAdd.tsx:115
@@ -724,12 +727,13 @@ msgstr "მოწყობილობა"
 msgid "Devices"
 msgstr "მოწყობილობები"
 
-#: src/components/vm/consoles/vnc.jsx:194
+#: src/components/vm/consoles/consoles.jsx:211
 #: src/components/vm/consoles/serialConsole.jsx:94
 msgid "Disconnect"
 msgstr "გათიშვა"
 
-#: src/components/vm/consoles/vnc.jsx:193
+#: src/components/vm/consoles/serial.jsx:93
+#: src/components/vm/consoles/vnc.jsx:408
 msgid "Disconnected"
 msgstr "გათიშულია"
 
@@ -737,7 +741,7 @@ msgstr "გათიშულია"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "სერიული კონსოლი გაითიშა. დააწექით კავშირის ღილაკს."
 
-#: src/components/common/needsShutdown.tsx:123
+#: src/components/common/needsShutdown.tsx:168
 msgid "Disk"
 msgstr "დისკი"
 
@@ -777,7 +781,7 @@ msgstr "დისკის პარამეტრების შენახ�
 msgid "Disk-only snapshot"
 msgstr "მხოლოდ-დისკის სწრაფი ასლი"
 
-#: src/components/vm/vmDetailsPage.jsx:156
+#: src/components/vm/vmDetailsPage.jsx:136
 msgid "Disks"
 msgstr "დისკები"
 
@@ -805,6 +809,12 @@ msgstr "OS-ის გადმოწერა"
 #: src/app.jsx:291
 msgid "Download progress"
 msgstr "გადმოწერა"
+
+#: src/components/vm/consoles/common.jsx:101
+#, fuzzy
+#| msgid "Downloading image for VM $0"
+msgid "Download the MSI from $0"
+msgstr "ასლის გადმოწერა ვმ-სთვის $0"
 
 #: src/app.jsx:287
 msgid "Downloading image for VM $0"
@@ -835,6 +845,13 @@ msgstr "ჩასწორება"
 msgid "Edit $0 attributes"
 msgstr "$0-ის ატრიბუტების ჩასწორება"
 
+#: src/components/vm/consoles/vnc.jsx:132
+#: src/components/vm/consoles/vnc.jsx:283
+#, fuzzy
+#| msgid "DHCP Settings"
+msgid "Edit VNC settings"
+msgstr "DHCP-ის მორგება"
+
 #: src/components/vm/vmActions.jsx:470
 msgid "Edit description"
 msgstr "აღწერის ჩასწორება"
@@ -843,11 +860,11 @@ msgstr "აღწერის ჩასწორება"
 msgid "Edit description of VM $0"
 msgstr "აღწერის ჩასწორება ვმ-სთვის $0"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 msgid "Edit vsock interface"
 msgstr "Vsock ინტერფეისის ჩასწორება"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Edit watchdog device type"
 msgstr "Watchdog ტიპის მოწყობილობის ჩასწორება"
 
@@ -868,7 +885,7 @@ msgstr "გამოღება"
 msgid "Eject disc from VM?"
 msgstr "გამოვიღო დისკი ვმ-დან?"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:242
+#: src/components/vm/overview/vmOverviewCard.tsx:261
 msgid "Emulated machine"
 msgstr "ემულირებული მანქანა"
 
@@ -902,7 +919,7 @@ msgstr "მაგალითად, $0"
 msgid "Existing disk image on host's file system"
 msgstr "დისკის არსებული გამოსახულების ბილიკი ჰოსტის ფაილურ სისტემაზე"
 
-#: src/components/vm/vmDetailsPage.jsx:147
+#: src/components/vm/consoles/consoles.jsx:226
 msgid "Expand"
 msgstr "გაფართოება"
 
@@ -918,11 +935,23 @@ msgstr "შეცდომა"
 msgid "Failed to add TPM to VM $0"
 msgstr "ჩავარდა TPM-ის დამატება ვმ-ზე $0"
 
+#: src/components/vm/consoles/vnc.jsx:448
+#, fuzzy
+#| msgid "Failed to add TPM to VM $0"
+msgid "Failed to add VNC to VM $0"
+msgstr "ჩავარდა TPM-ის დამატება ვმ-ზე $0"
+
+#: src/components/vm/consoles/serial.jsx:143
+#, fuzzy
+#| msgid "Failed to add TPM to VM $0"
+msgid "Failed to add serial console to VM $0"
+msgstr "ჩავარდა TPM-ის დამატება ვმ-ზე $0"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 msgid "Failed to add shared directory"
 msgstr "გაზიარებული საქაღალდის დამატების შეცდომა"
 
-#: src/components/vm/overview/firmware.jsx:72
+#: src/components/vm/overview/firmware.tsx:86
 msgid "Failed to change firmware"
 msgstr "მიკროკოდის შეცვლის შეცდომა"
 
@@ -930,19 +959,19 @@ msgstr "მიკროკოდის შეცვლის შეცდომ�
 msgid "Failed to clone VM $0"
 msgstr "ვმ-ის ($0) ასლის შექმნის შეცდომა"
 
-#: src/components/vm/overview/vsock.jsx:128
+#: src/components/vm/overview/vsock.tsx:157
 msgid "Failed to configure vsock"
 msgstr "Vsock-ის მორგების შეცდომა"
 
-#: src/components/vm/overview/watchdog.jsx:90
+#: src/components/vm/overview/watchdog.tsx:109
 msgid "Failed to configure watchdog"
 msgstr "Watchdog-ის მორგების შეცდომა"
 
-#: src/components/vm/overview/vsock.jsx:140
+#: src/components/vm/overview/vsock.tsx:169
 msgid "Failed to detach vsock"
 msgstr "Vsock-ის მოხსნის შეცდომა"
 
-#: src/components/vm/overview/watchdog.jsx:137
+#: src/components/vm/overview/watchdog.tsx:157
 msgid "Failed to detach watchdog"
 msgstr "Watchdog-ის მოხსნის შეცდომა"
 
@@ -966,7 +995,7 @@ msgstr "SPICE მოწყობილობების ჩანაცვლ�
 msgid "Failed to save network settings"
 msgstr "ქსელის პარამეტრების შენახვის შეცდომა"
 
-#: src/components/vm/consoles/vnc.jsx:147
+#: src/components/vm/consoles/vnc.jsx:231
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Ctrl+Alt+$0-ის ვმ-თან ($1) გაგზავნის შეცდომა"
 
@@ -974,12 +1003,12 @@ msgstr "Ctrl+Alt+$0-ის ვმ-თან ($1) გაგზავნის შ
 msgid "Failed to set description of VM $0"
 msgstr "ჩავარდა აღწერის დაყენება ვმ-სთვის $0"
 
-#: src/components/vm/overview/cpuModal.jsx:248
+#: src/components/vm/overview/cpuModal.tsx:261
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr "ჩართული უნდა იყოს ხელმისაწვდომზე ნაკლები ვირტუალური პროცესორი."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:47
-#: src/components/vm/overview/bootOrder.jsx:98
+#: src/components/vm/overview/bootOrder.tsx:118
 msgid "File"
 msgstr "ფაილი"
 
@@ -995,8 +1024,8 @@ msgstr "ფაილური სიტემის საქაღალდე"
 msgid "Filter by name"
 msgstr "სახელით გაფილტვრა"
 
-#: src/components/vm/overview/firmware.jsx:84
-#: src/components/vm/overview/vmOverviewCard.jsx:248
+#: src/components/vm/overview/vmOverviewCard.tsx:267
+#: src/components/vm/overview/firmware.tsx:103
 msgid "Firmware"
 msgstr "მიკროკოდი"
 
@@ -1049,7 +1078,7 @@ msgstr ""
 "დარჩება საწყისზე მიგრაციის შემდეგ."
 
 #: src/components/networks/networkOverviewTab.tsx:121
-#: src/components/vm/overview/vmOverviewCard.jsx:154
+#: src/components/vm/overview/vmOverviewCard.tsx:173
 msgid "General"
 msgstr "ზოგადი"
 
@@ -1065,7 +1094,7 @@ msgstr "ახალი RHSM კოდის მიღება."
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
 #: src/components/storagePools/storageVolumeCreateBody.tsx:152
 #: src/components/vm/disks/vmDisksCard.tsx:53
-#: src/components/vm/overview/memorySelectRow.jsx:89
+#: src/components/vm/overview/memorySelectRow.tsx:108
 msgid "GiB"
 msgstr "გიბ"
 
@@ -1081,6 +1110,14 @@ msgstr "კარგი არჩევანი სამუშაო მაგ
 msgid "Gracefully shutdown"
 msgstr "ძალით გამორთვა"
 
+#: src/components/vm/consoles/consoles.jsx:107
+msgid "Graphical"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:458
+msgid "Graphical console support not enabled"
+msgstr ""
+
 #: src/app.jsx:119
 msgid "Hardware virtualization is disabled"
 msgstr "აპარატურული ვირტუალიზაცია გამორთულია"
@@ -1093,7 +1130,7 @@ msgstr "დამატებითი პარამეტრების დ�
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/vm/disks/vmDiskColumns.tsx:52
-#: src/components/vm/overview/bootOrder.jsx:103
+#: src/components/vm/overview/bootOrder.tsx:123
 msgid "Host"
 msgstr "ჰოსტი"
 
@@ -1109,7 +1146,7 @@ msgstr "ჰოსტის მოწყობილობის მიბმი�
 msgid "Host device will be removed from $0:"
 msgstr "$0-დან წაიშლება ჰოსტის მოწყობილობა:"
 
-#: src/components/vm/vmDetailsPage.jsx:174
+#: src/components/vm/vmDetailsPage.jsx:154
 msgid "Host devices"
 msgstr "ჰოსტის მოწყობილობები"
 
@@ -1121,7 +1158,7 @@ msgstr "ჰოსტის სახელი"
 msgid "Host should not be empty"
 msgstr "ჰოსტი ცარიელი არ შეიძლება იყოს"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:238
+#: src/components/vm/overview/vmOverviewCard.tsx:257
 msgid "Hypervisor details"
 msgstr "ინფორმაცია ჰაიპერვაიზორის შესახებ"
 
@@ -1196,7 +1233,7 @@ msgstr "იდეალურია სერვერული ვმ-ები
 msgid "Ideal networking support"
 msgstr "ქსელის იდეალური მხარდაჭერა"
 
-#: src/components/vm/overview/vsock.jsx:69
+#: src/components/vm/overview/vsock.tsx:77
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
@@ -1263,7 +1300,7 @@ msgstr "ჩადება"
 msgid "Insert disc media"
 msgstr "დისკის ჩადება"
 
-#: src/components/vm/overview/helpers.jsx:39
+#: src/components/vm/overview/helpers.tsx:41
 msgid "Inside the VM"
 msgstr "ვმ-ის შიგნით"
 
@@ -1323,6 +1360,12 @@ msgstr "ფაილის არასწორი სახელი"
 msgid "Isolated network"
 msgstr "იზოლირებული ქსელი"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:149
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr "გასაღებები ~/.ssh/-შია და \".pub\" გაფართოება აქვს."
@@ -1331,8 +1374,10 @@ msgstr "გასაღებები ~/.ssh/-შია და \".pub\" გა�
 msgid "LVM volume group"
 msgstr "LVM ტომების ჯგუფი"
 
-#: src/components/vm/consoles/desktopConsole.jsx:54
-msgid "Launch remote viewer"
+#: src/components/vm/consoles/common.jsx:166
+#, fuzzy
+#| msgid "Launch remote viewer"
+msgid "Launch viewer"
 msgstr "დაშორებული მაყურებლის გაშვება"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
@@ -1349,14 +1394,14 @@ msgstr "მომხმარებლის პაროლის არ შე
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr "თუ არ გნებავთ პაროლის დაყენება, დატოვეთ ის ცარიელი"
 
-#: src/components/vm/overview/firmware.jsx:178
+#: src/components/vm/overview/firmware.tsx:203
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
 "Libvirt-მა ჰოსტზე დაყენებული ვერცერთი UEFI/OMVF მიკროკოდის გამოსახულება ვერ "
 "იპოვა"
 
-#: src/components/vm/overview/firmware.jsx:172
+#: src/components/vm/overview/firmware.tsx:197
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt-ს ან ჰაიპერვაიზორს UEFI-ის მხარდაჭერა არ გააჩნია"
 
@@ -1368,6 +1413,7 @@ msgstr "ხელმისაწვდომი ქსელური მოწ�
 msgid "Loading resources"
 msgstr "რესურსების ჩატვირთვა"
 
+#: src/components/vm/consoles/serial.jsx:102
 #: src/components/vm/consoles/serialConsole.jsx:77
 msgid "Loading..."
 msgstr "ჩატვირთვა..."
@@ -1382,7 +1428,7 @@ msgid "Location"
 msgstr "მდებარეობა"
 
 #: src/components/networks/networkOverviewTab.tsx:79
-#: src/components/vm/overview/bootOrder.jsx:113
+#: src/components/vm/overview/bootOrder.tsx:133
 msgid "MAC"
 msgstr "MAC"
 
@@ -1420,10 +1466,6 @@ msgstr "მართეთ თქვენი ვირტუალური მ
 msgid "Managing virtual machines"
 msgstr "ვირტუალური მანქანების მართვა"
 
-#: src/components/vm/consoles/desktopConsole.jsx:44
-msgid "Manual connection"
-msgstr "ხელით მითითებული კავშირი"
-
 #: src/components/networks/createNetworkDialog.tsx:357
 msgid "Mask or prefix length"
 msgstr "ნიღაბი ან პრეფიქსის სიგრზე"
@@ -1432,21 +1474,21 @@ msgstr "ნიღაბი ან პრეფიქსის სიგრზე
 msgid "Mask or prefix length should not be empty"
 msgstr "ნიღაბი ან პრეფიქსის სიგრძე ცარიელი არ შეიძლება იყოს"
 
-#: src/components/vm/overview/memoryModal.jsx:140
+#: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
 msgstr "მაქსიმალური განაწილება"
 
-#: src/components/vm/overview/memoryModal.jsx:105
+#: src/components/vm/overview/memoryModal.tsx:145
 msgid "Maximum memory could not be saved"
 msgstr "მაქსიმალური მეხსიერების შენახვის პრობლემა"
 
-#: src/components/vm/overview/cpuModal.jsx:230
+#: src/components/vm/overview/cpuModal.tsx:243
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
 "სტუმარი ოპერაციული სისტემისთვის გამოყოფილი ვირტუალური პროცესორების "
 "მაქსიმალური რაოდენობა"
 
-#: src/components/vm/overview/cpuModal.jsx:229
+#: src/components/vm/overview/cpuModal.tsx:242
 msgid ""
 "Maximum number of virtual CPUs allocated for the guest OS, which must be "
 "between 1 and $0"
@@ -1465,13 +1507,13 @@ msgid "Media will be ejected from $0:"
 msgstr "მოხდება დისკის $0-დან ამოღება:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:897
-#: src/components/vm/overview/vmOverviewCard.jsx:177
+#: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/vm/vmUsageCard.jsx:53
 msgid "Memory"
 msgstr "მეხსიერება"
 
-#: src/components/vm/overview/memoryModal.jsx:102
-#: src/components/vm/overview/memoryModal.jsx:118
+#: src/components/vm/overview/memoryModal.tsx:142
+#: src/components/vm/overview/memoryModal.tsx:158
 msgid "Memory could not be saved"
 msgstr "მეხსიერების შენახვის შეცდომა"
 
@@ -1494,7 +1536,7 @@ msgstr "მეხსიერების მდგომარეობის �
 #: src/components/create-vm-dialog/createVmDialog.jsx:910
 #: src/components/create-vm-dialog/createVmDialog.jsx:1017
 #: src/components/storagePools/storageVolumeCreateBody.tsx:150
-#: src/components/vm/overview/memorySelectRow.jsx:87
+#: src/components/vm/overview/memorySelectRow.tsx:106
 msgid "MiB"
 msgstr "მიბ"
 
@@ -1511,8 +1553,8 @@ msgstr "ვმ-ის სხვა ჰოსტზე გადატანა"
 msgid "Migration failed"
 msgstr "მიგრაციის შეცდომა"
 
-#: src/components/vm/overview/cpuModal.jsx:293
-#: src/components/vm/overview/cpuModal.jsx:295
+#: src/components/vm/overview/cpuModal.tsx:306
+#: src/components/vm/overview/cpuModal.tsx:308
 #: src/components/vm/nics/vmNicsCard.tsx:190
 #: src/components/vm/nics/nicBody.tsx:227
 msgid "Mode"
@@ -1626,7 +1668,7 @@ msgstr "ქსელური ჩატვირთვა (PXE)"
 msgid "Network file system"
 msgstr "ქსელური ფაილური სისტემა"
 
-#: src/components/common/needsShutdown.tsx:134
+#: src/components/common/needsShutdown.tsx:179
 msgid "Network interface"
 msgstr "ქსელის ინტერფეისი"
 
@@ -1642,7 +1684,7 @@ msgstr "ქსელის ინტერფეისი $0 წაშლილ�
 msgid "Network interface settings could not be saved"
 msgstr "ქსელის ინტერფეისის პარამეტრების შენახვის შეცდომა"
 
-#: src/components/vm/vmDetailsPage.jsx:165
+#: src/components/vm/vmDetailsPage.jsx:145
 msgid "Network interfaces"
 msgstr "ქსელის ინტერფეისები"
 
@@ -1676,13 +1718,9 @@ msgstr "SSH გასაღებები მითითებული არ
 msgid "No VM is running or defined on this host"
 msgstr "ამ ჰოსტზე გაშვებული ან აღწერილი ვმ-ი არ არსებობს"
 
-#: src/components/vm/overview/bootOrder.jsx:342
+#: src/components/vm/overview/bootOrder.tsx:380
 msgid "No boot device found"
 msgstr "ჩასატვირთი მოწყობილობის გარეშე"
-
-#: src/components/vm/consoles/desktopConsole.jsx:45
-msgid "No connection available"
-msgstr "კავშირი ხელმიუწვდომელია"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
@@ -1789,7 +1827,7 @@ msgstr "გათიშული კოდი ცარიელი არ შ�
 msgid "Old token expired"
 msgstr "ძველი კოდის ვადა ამოიწურა"
 
-#: src/components/vm/overview/helpers.jsx:33
+#: src/components/vm/overview/helpers.tsx:35
 msgid "On the host"
 msgstr "ჰოსტზე"
 
@@ -1801,8 +1839,8 @@ msgstr ""
 "ერთი ან მეტი არჩეული ტომი დომენების მიერ გამოიყენება. ტომის წასაშლელად ჯერ "
 "მოაძრეთ დისკები."
 
-#: src/components/vm/overview/memoryModal.jsx:147
-#: src/components/vm/overview/bootOrder.jsx:368
+#: src/components/vm/overview/bootOrder.tsx:406
+#: src/components/vm/overview/memoryModal.tsx:187
 #: src/components/vm/nics/nicEdit.tsx:67
 msgid "Only editable when the guest is shut off"
 msgstr "ჩასწორებადია მხოლოდ მაშინ, როცა სტუმარი გათიშულია"
@@ -1825,7 +1863,7 @@ msgid "Other VMs using SPICE"
 msgstr "სხვა VM-ები, რომლებიც SPICE-ს იყენებენ"
 
 #: src/components/storagePools/storagePool.tsx:77
-#: src/components/vm/vmDetailsPage.jsx:119
+#: src/components/vm/vmDetailsPage.jsx:109
 msgid "Overview"
 msgstr "გადახედვა"
 
@@ -1836,6 +1874,23 @@ msgstr "PCI"
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr "მშობელი სწრაფი ასლი"
+
+#: src/components/vm/consoles/vnc.jsx:177
+#, fuzzy
+#| msgid "Root password"
+msgid "Password"
+msgstr "Root-ის პაროლი"
+
+#: src/components/vm/consoles/vnc.jsx:197
+msgid ""
+"Password must be 8 characters or less. VNC passwords do not provide "
+"encryption and are generally cryptographically weak. They can not be used to "
+"secure connections in untrusted networks."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:97
+msgid "Password must be at most 8 characters."
+msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -1918,14 +1973,10 @@ msgstr "შეიყვანეთ ახალი ტომის სახე
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr "იხილეთ $0, რომ გაიგოთ, როგორ მოირგოთ თქვენი ვმ-ი ხელით."
 
-#: src/components/vm/consoles/consoles.jsx:40
-msgid "Please start the virtual machine to access its console."
-msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
-
 #: src/components/vm/disks/diskAdd.tsx:216
 #: src/components/vm/disks/vmDiskColumns.tsx:50
 #: src/components/vm/disks/mediaEject.tsx:98
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/vm/overview/bootOrder.tsx:121
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "პული"
@@ -1946,12 +1997,27 @@ msgstr "პულის ტიპს ტომის შექმნის მ�
 msgid "Pool's volumes are used by VMs "
 msgstr "პულის ტომები გამოიყენება ვმ-ების მიერ "
 
+#: src/components/vm/consoles/vnc.jsx:158
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/overview/bootOrder.jsx:104
-#: src/components/vm/overview/bootOrder.jsx:120
+#: src/components/vm/overview/bootOrder.tsx:124
+#: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "პორტი"
+
+#: src/components/vm/consoles/vnc.jsx:91
+msgid "Port must be 5900 or larger."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:171
+msgid ""
+"Port must be a number that is at least 5900. Leave empty to automatically "
+"assign a free port when the machine starts."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:88
+msgid "Port must be a number."
+msgstr ""
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -1961,7 +2027,7 @@ msgstr "გამორთვა"
 msgid "Pre-formatted block device"
 msgstr "წინასწარ დაფორმატებული ბლოკური მოწყობილობა"
 
-#: src/components/vm/overview/cpuModal.jsx:266
+#: src/components/vm/overview/cpuModal.tsx:279
 msgid "Preferred number of sockets to expose to the guest."
 msgstr "სტუმრისათვის გადასაცემი სოკეტების რაოდენობა."
 
@@ -1989,8 +2055,8 @@ msgstr ""
 msgid "Private"
 msgstr "პირადი"
 
-#: src/components/vm/overview/bootOrder.jsx:133
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.tsx:153
+#: src/components/vm/overview/bootOrder.tsx:168
 #: src/components/vm/hostdevs/hostDevCard.tsx:252
 #: src/components/vm/hostdevs/hostDevCard.tsx:258
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
@@ -2002,8 +2068,8 @@ msgid "Profile"
 msgstr "პროფილი"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
-#: src/components/vm/overview/bootOrder.jsx:100
-#: src/components/vm/overview/bootOrder.jsx:161
+#: src/components/vm/overview/bootOrder.tsx:120
+#: src/components/vm/overview/bootOrder.tsx:181
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 msgid "Protocol"
 msgstr "პროტოკოლი"
@@ -2064,17 +2130,35 @@ msgstr "გამოცემულია $0"
 msgid "Remote URL"
 msgstr "დაშორებული URL"
 
-#: src/components/vm/consoles/desktopConsole.jsx:55
-msgid "Remote viewer details"
+#: src/components/vm/consoles/common.jsx:79
+#, fuzzy
+#| msgid ""
+#| "$0 is available for most operating systems. To install it, search for it "
+#| "in GNOME Software or run the following:"
+msgid ""
+"Remote Viewer is available for most operating systems. To install it, search "
+"for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
+msgstr ""
+"$0 ხელმისაწვდომია ოპერაციული სისტემების უმრავლესობისთვის. დასაყენებლად "
+"მოძებნეთ ის GNOME-ის პროგრამებში ან გაუშვით:"
+
+#: src/components/vm/consoles/common.jsx:139
+#, fuzzy
+#| msgid "Remote viewer details"
+msgid "Remote viewer"
 msgstr "დაშორებული მაყურებლის დეტალები"
+
+#: src/components/vm/consoles/common.jsx:111
+msgid "Remote viewer applications can connect to the following address:"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:72
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:81
 #: src/components/vm/disks/vmDiskColumns.tsx:166
 #: src/components/vm/disks/vmDiskColumns.tsx:252
-#: src/components/vm/overview/vsock.jsx:240
-#: src/components/vm/overview/watchdog.jsx:213
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/overview/watchdog.tsx:234
 #: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/nics/vmNicsCard.tsx:566
 #: src/components/vm/hostdevs/hostDevCard.tsx:268
@@ -2122,7 +2206,7 @@ msgstr "გადარქმევა"
 msgid "Rename VM $0"
 msgstr "ვმ-ის გადარქმევა ($0)"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#: src/components/vm/vmReplaceSpiceDialog.jsx:160
 msgid "Replace"
 msgstr "ჩანაცვლება"
 
@@ -2144,9 +2228,27 @@ msgstr "SPICE მოწყობილობების ჩანაცვლ�
 msgid "Replace SPICE on the virtual machine."
 msgstr "SPICE-ის ჩანაცვლება ვირტუალურ მანქანაზე."
 
+#: src/components/vm/consoles/spice.jsx:77
+#, fuzzy
+#| msgid "Replace"
+msgid "Replace with VNC"
+msgstr "ჩანაცვლება"
+
 #: src/helpers.ts:286
 msgid "Reset"
 msgstr "საწყის მნიშვნელობებზე დაბრუნება"
+
+#: src/components/vm/consoles/vnc.jsx:481
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its graphical console"
+msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
+
+#: src/components/vm/consoles/serial.jsx:175
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its serial console"
+msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2198,7 +2300,7 @@ msgid "Run"
 msgstr "გაშვება"
 
 #: src/components/networks/networkOverviewTab.tsx:135
-#: src/components/vm/overview/vmOverviewCard.jsx:107
+#: src/components/vm/overview/vmOverviewCard.tsx:126
 msgid "Run when host boots"
 msgstr "ჰოსტის ჩატვირთვისას გაშვება"
 
@@ -2206,17 +2308,9 @@ msgstr "ჰოსტის ჩატვირთვისას გაშვე�
 msgid "Running"
 msgstr "გაშვებულია"
 
-#: src/components/common/needsShutdown.tsx:153
+#: src/components/common/needsShutdown.tsx:198
 msgid "SPICE"
 msgstr "SPICE"
-
-#: src/components/vm/consoles/desktopConsole.jsx:52
-msgid "SPICE TLS port"
-msgstr "SPICE-ის TLS პორტი"
-
-#: src/components/vm/consoles/desktopConsole.jsx:48
-msgid "SPICE address"
-msgstr "SPICE-ის მისამართი"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:134
 #: src/components/vm/vmReplaceSpiceDialog.jsx:136
@@ -2231,20 +2325,17 @@ msgstr ""
 "ამ ჰოსტზე SPICE მხარდაჭერილი არაა და გამოიწვევს იმას, რომ ვირტუალური მანქანა "
 "არ ჩაიტვირთება."
 
-#: src/components/vm/consoles/desktopConsole.jsx:50
-msgid "SPICE port"
-msgstr "SPICE-ის პორტი"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:866
 msgid "SSH keys"
 msgstr "SSH გასაღებები"
 
+#: src/components/vm/consoles/vnc.jsx:143
 #: src/components/vm/disks/diskEdit.tsx:338
-#: src/components/vm/overview/firmware.jsx:98
-#: src/components/vm/overview/memoryModal.jsx:161
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/bootOrder.jsx:320
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:365
+#: src/components/vm/overview/memoryModal.tsx:206
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:117
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
 #: src/components/vm/nics/nicEdit.tsx:237
 msgid "Save"
@@ -2254,11 +2345,7 @@ msgstr "შენახვა"
 msgid "Select all"
 msgstr "ყველას მონიშვნა"
 
-#: src/components/vm/consoles/consoles.jsx:128
-msgid "Select console type"
-msgstr "აირჩიეთ კონსოლის ტიპი"
-
-#: src/components/vm/consoles/vnc.jsx:169
+#: src/components/vm/consoles/vnc.jsx:258
 msgid "Send key"
 msgstr "ღილაკის გაგზავნა"
 
@@ -2270,17 +2357,25 @@ msgstr "შეუნიღბვადი წყვეტის გაგზა�
 msgid "Send non-maskable interrupt to $0?"
 msgstr "გავუგზავნო შეუნიღბვადი წყვეტა $0-ს?"
 
+#: src/components/vm/consoles/consoles.jsx:167
+#: src/components/vm/consoles/consoles.jsx:191
 #: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "სერიული ნომერი"
 
-#: src/components/vm/consoles/consoles.jsx:129
+#: src/components/vm/consoles/consoles.jsx:167
+#, fuzzy
+#| msgid "Serial console ($0)"
+msgid "Serial ($0)"
+msgstr "სერიული კონსოლი ($0)"
+
+#: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
 msgstr "სერიული კონსოლი"
 
-#: src/components/vm/consoles/consoles.jsx:132
-msgid "Serial console ($0)"
-msgstr "სერიული კონსოლი ($0)"
+#: src/components/vm/consoles/serial.jsx:153
+msgid "Serial console support not enabled"
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2306,12 +2401,12 @@ msgstr "გაზიარება"
 msgid "Share a host directory with the guest"
 msgstr "ჰოსტის საქაღალდის სტუმართან გაზიარება"
 
-#: src/components/vm/vmDetailsPage.jsx:195
+#: src/components/vm/vmDetailsPage.jsx:175
 msgid "Shared directories"
 msgstr "გაზიარებული საქაღალდეები"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.jsx:197
+#: src/components/vm/vmDetailsPage.jsx:177
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "ჰოსტის გაზიარებული საქაღალდე ვმ-ის შიგნით ხელით უნდა მიამაგროთ"
 
@@ -2324,11 +2419,11 @@ msgstr "გაზიარებული საცავი"
 msgid "Show additional options"
 msgstr "დამატებითი პარამეტრების ჩვენება"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 msgid "Show less"
 msgstr "ნაკლების ჩვენება"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 msgid "Show more"
 msgstr "მეტის ჩვენება"
 
@@ -2345,7 +2440,7 @@ msgstr "გამოვრთო $0?"
 msgid "Shut off"
 msgstr "გათიშვა"
 
-#: src/components/vm/overview/firmware.jsx:159
+#: src/components/vm/overview/firmware.tsx:184
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "მიკროკოდის კონფიგურაციისთვის საჭიროა ვმ-ის გამორთვა"
 
@@ -2359,7 +2454,7 @@ msgstr "მიმდინარეობს გათიშვა"
 msgid "Size"
 msgstr "ზომა"
 
-#: src/components/vm/overview/bootOrder.jsx:149
+#: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 #: src/components/vm/hostdevs/hostDevCard.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2382,15 +2477,15 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "სწრაფი ასლის შექმნის შეცდომა"
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:163
 msgid "Snapshots"
 msgstr "სწრაფი ასლები"
 
-#: src/components/vm/overview/cpuModal.jsx:264
+#: src/components/vm/overview/cpuModal.tsx:277
 msgid "Sockets"
 msgstr "სოკეტები"
 
-#: src/components/common/needsShutdown.tsx:189
+#: src/components/common/needsShutdown.tsx:242
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 "კონფიგურაციის ზოგიერთი ცვლილება ძალაში მხოლოდ გადატვირთვის შემდეგ შევა:"
@@ -2449,6 +2544,19 @@ msgstr "პულის გაშვება ჰოსტის ჩატვი
 msgid "Start should not be empty"
 msgstr "დასაწყისი ცარიელი არ შეიძლება იყოს"
 
+#: src/components/vm/consoles/serial.jsx:130
+#: src/components/vm/consoles/vnc.jsx:428
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to access the console"
+msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
+
+#: src/components/vm/consoles/spice.jsx:68
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to launch remote viewer."
+msgstr "კონსოლზე წვდომისათვის საჭიროა ვირტუალური მანქანა ჯერ გაუშვათ."
+
 #: src/components/vm/confirmDialog.jsx:74
 msgid "Started"
 msgstr "გაშვებულია"
@@ -2461,7 +2569,7 @@ msgstr "გაშვება"
 #: src/components/networks/networkList.tsx:76
 #: src/components/vms/hostvmslist.tsx:156
 #: src/components/vms/hostvmslist.tsx:203
-#: src/components/vm/overview/vmOverviewCard.jsx:163
+#: src/components/vm/overview/vmOverviewCard.tsx:182
 #: src/components/vm/nics/vmNicsCard.tsx:489
 msgid "State"
 msgstr "მდგომარეობა"
@@ -2540,6 +2648,10 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr "საცავის ტომები გაზიარებული უნდა იყოს ამ და სამიზნე ჰოსტებს შორის."
 
+#: src/components/vm/consoles/common.jsx:115
+msgid "Successfully copied to clipboard!"
+msgstr ""
+
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "შეჩერებულია (PM)"
@@ -2556,7 +2668,7 @@ msgstr "სისტემა"
 msgid "TAP device"
 msgstr "TAP მოწყობილობა"
 
-#: src/components/common/needsShutdown.tsx:157
+#: src/components/common/needsShutdown.tsx:210
 msgid "TPM"
 msgstr "TPM"
 
@@ -2565,7 +2677,7 @@ msgid "Table of selectable host devices"
 msgstr "ჰოსტის არჩევადი მოწყობილობების ცხრილი"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:170
-#: src/components/vm/overview/bootOrder.jsx:155
+#: src/components/vm/overview/bootOrder.tsx:175
 #: src/components/vm/hostdevs/hostDevCard.tsx:114
 msgid "Target"
 msgstr "სამიზნე"
@@ -2690,6 +2802,10 @@ msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 "ეს რეკომენდებული ტიპია მაღალი წარმადობისთვის, ან დამატებითი უსაფრთხოებისთვის."
 
+#: src/components/vm/consoles/spice.jsx:64
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr ""
+
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
@@ -2706,7 +2822,7 @@ msgstr "ეს ტომი $0-ის მიერ უკვე გამოი�
 msgid "This volume is already used by another VM."
 msgstr "ეს ტომი უკვე გამოიყენება სხვა ვმ-ის მიერ."
 
-#: src/components/vm/overview/cpuModal.jsx:284
+#: src/components/vm/overview/cpuModal.tsx:297
 msgid "Threads per core"
 msgstr "ნაკადების რიცხვი თითოეულ ბირთვზე"
 
@@ -2714,7 +2830,7 @@ msgstr "ნაკადების რიცხვი თითოეულ ბ
 msgid "Total space available: $0."
 msgstr "სულ ხელმისაწვდომი სივრცე: $0."
 
-#: src/components/vm/overview/firmware.jsx:165
+#: src/components/vm/overview/firmware.tsx:190
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr ""
 "დროებითი ვმ-ებს მიკროკოდის კონფიგურაციის ჩასწორების მხარდაჭერა არ გააჩნიათ"
@@ -2725,21 +2841,17 @@ msgstr "პრობლემების პოვნა"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:78
 #: src/components/storagePools/createStoragePoolDialog.tsx:115
-#: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/overview/bootOrder.jsx:131
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:153
-#: src/components/vm/overview/bootOrder.jsx:160
-#: src/components/vm/overview/bootOrder.jsx:166
+#: src/components/vm/overview/bootOrder.tsx:138
+#: src/components/vm/overview/bootOrder.tsx:151
+#: src/components/vm/overview/bootOrder.tsx:166
+#: src/components/vm/overview/bootOrder.tsx:173
+#: src/components/vm/overview/bootOrder.tsx:180
+#: src/components/vm/overview/bootOrder.tsx:186
 #: src/components/vm/nics/vmNicsCard.tsx:402
 #: src/components/vm/hostdevs/hostDevCard.tsx:189
 #: src/components/vm/hostdevs/hostDevAdd.tsx:56
 msgid "Type"
 msgstr "ტიპი"
-
-#: src/components/vm/overview/bootOrder.jsx:167
-msgid "Type ID"
-msgstr "ტიპის ID"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:376
 msgid "URL (ISO image or distro install tree)"
@@ -2769,7 +2881,7 @@ msgstr "უნიკალური სახელი, ნაგულისხ
 msgid "Unique network name"
 msgstr "ქსელის უნიკალური სახელი"
 
-#: src/components/vm/overview/bootOrder.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:176
 msgid "Unit"
 msgstr "ერთეული"
 
@@ -2777,12 +2889,12 @@ msgstr "ერთეული"
 msgid "Unknown"
 msgstr "უცნობი"
 
-#: src/components/vm/overview/firmware.jsx:136
+#: src/components/vm/overview/firmware.tsx:161
 msgid "Unknown firmware"
 msgstr "უცნობი მიკროკოდი"
 
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:158
 #: src/components/vm/hostdevs/hostDevCard.tsx:97
 #: src/components/vm/hostdevs/hostDevCard.tsx:98
 msgid "Unspecified"
@@ -2796,7 +2908,7 @@ msgstr "მხარდაუჭერელი და ძველი ოპე
 msgid "Url"
 msgstr "Url"
 
-#: src/components/vm/vmDetailsPage.jsx:132
+#: src/components/vm/vmDetailsPage.jsx:122
 msgid "Usage"
 msgstr "გამოყენება"
 
@@ -2912,7 +3024,7 @@ msgstr ""
 "VM გაშვებულია არაპრივილეგირებული უფლებებით, პროცესზე და PTY-ზე წვდომა თქვენს "
 "ანგარიშს გააჩნია"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:255
 msgid "VM needs shutdown"
 msgstr "ვმ-ს გამორთვა სჭირდება"
 
@@ -2924,28 +3036,22 @@ msgstr "ვმ-ის მდგომარეობა"
 msgid "VM will launch with root permissions"
 msgstr "ვმ-ი root-ის უფლებებით გაეშვება"
 
-#: src/components/vm/consoles/desktopConsole.jsx:53
-msgid "VNC TLS port"
-msgstr "VNC-ის TLS პორტი"
+#: src/components/common/needsShutdown.tsx:202
+msgid "VNC"
+msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:49
-msgid "VNC address"
-msgstr "VNC-ის მისამართი"
-
-#: src/components/vm/consoles/consoles.jsx:130
-msgid "VNC console"
-msgstr "VNC-ის კონსოლი"
-
-#: src/components/vm/consoles/desktopConsole.jsx:51
-msgid "VNC port"
-msgstr "VNC-ის პორტი"
+#: src/components/vm/consoles/vnc.jsx:122
+#, fuzzy
+#| msgid "Disk settings could not be saved"
+msgid "VNC settings could not be saved"
+msgstr "დისკის პარამეტრების შენახვის შეცდომა"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
 msgstr "სწორი კოდი"
 
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.tsx:152
+#: src/components/vm/overview/bootOrder.tsx:167
 #: src/components/vm/hostdevs/hostDevCard.tsx:219
 #: src/components/vm/hostdevs/hostDevCard.tsx:251
 #: src/components/vm/hostdevs/hostDevCard.tsx:257
@@ -2961,8 +3067,7 @@ msgstr "მომწოდებლის მხარდაჭერა და�
 #: src/components/networks/networkList.tsx:57
 #: src/components/vms/hostvmslist.tsx:196
 #: src/components/vms/hostvmslist.tsx:198
-#: src/components/vm/vmDetailsPage.jsx:95
-#: src/components/vm/vmDetailsPage.jsx:248 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:230 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "ვირტუალური მანქანები"
 
@@ -2978,7 +3083,7 @@ msgstr "ვირტუალური ქსელი"
 msgid "Virtual network failed to be created"
 msgstr "ვირტუალური ქსელის შექმნის შეცდომა"
 
-#: src/components/vm/overview/helpers.jsx:28
+#: src/components/vm/overview/helpers.tsx:30
 msgid ""
 "Virtual socket support enables communication between the host and guest over "
 "a socket. It still requires special vsock-aware software to communicate over "
@@ -2996,7 +3101,7 @@ msgstr "ვირტუალიზაციის სერვისი (libvir
 #: src/components/vm/disks/diskAdd.tsx:160
 #: src/components/vm/disks/vmDiskColumns.tsx:51
 #: src/components/vm/disks/mediaEject.tsx:102
-#: src/components/vm/overview/bootOrder.jsx:102
+#: src/components/vm/overview/bootOrder.tsx:122
 #: src/components/vm/deleteDialog.jsx:65
 msgid "Volume"
 msgstr "ტომი"
@@ -3013,21 +3118,21 @@ msgstr "ტომების ჯგუფის სახელი"
 msgid "Volume group name should not be empty"
 msgstr "ტომების ჯგუფის სახელი ცარიელი არ შეიძლება იყოს"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:214
+#: src/components/vm/overview/vmOverviewCard.tsx:233
 msgid "Vsock"
 msgstr "Vsock"
 
-#: src/components/vm/overview/bootOrder.jsx:162
+#: src/components/vm/overview/bootOrder.tsx:182
 #: src/components/vm/hostdevs/hostDevCard.tsx:120
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:149
-#: src/components/vm/overview/vmOverviewCard.jsx:200
+#: src/components/common/needsShutdown.tsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:219
 msgid "Watchdog"
 msgstr "საკონტროლო ტაიმერი"
 
-#: src/components/vm/overview/helpers.jsx:27
+#: src/components/vm/overview/helpers.tsx:29
 msgid ""
 "Watchdogs act when systems stop responding. To use this virtual watchdog "
 "device, the guest system also needs to have an additional driver and a "
@@ -3055,8 +3160,8 @@ msgstr "აირჩიეთ ყველაზე ახლოს მდგო
 msgid "active"
 msgstr "აქტიური"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "add"
 msgstr "დამატება"
 
@@ -3072,7 +3177,7 @@ msgstr "ხიდი"
 msgid "cdrom"
 msgstr "CD წამკითხავი"
 
-#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.tsx:324
 msgid "custom"
 msgstr "ხელით"
 
@@ -3092,11 +3197,11 @@ msgstr "დისკი"
 msgid "down"
 msgstr "დაბლა"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/bootOrder.jsx:361
-#: src/components/vm/overview/vmOverviewCard.jsx:117
-#: src/components/vm/overview/vmOverviewCard.jsx:125
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/bootOrder.tsx:399
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/vmOverviewCard.tsx:136
+#: src/components/vm/overview/vmOverviewCard.tsx:144
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "edit"
 msgstr "ჩასწორება"
 
@@ -3170,11 +3275,11 @@ msgid "more info"
 msgstr "მეტი ინფორმაცია"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.jsx:206
+#: src/components/vm/vmDetailsPage.jsx:186
 msgid "mount point: The mount point inside the guest"
 msgstr "მიმაგრების წერტილი: მიმაგრების წერტილი სტუმრის შიგნით"
 
-#: src/components/vm/vmDetailsPage.jsx:205
+#: src/components/vm/vmDetailsPage.jsx:185
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "მიმაგრების ჭდე: გამოტანილ მიმაგრების წერტილზე მიბმული ჭდე"
 
@@ -3193,8 +3298,8 @@ msgid "no state saved"
 msgstr "მდგომარეობა შენახული არაა"
 
 #: src/components/networks/networkOverviewTab.tsx:327
-#: src/components/vm/overview/vsock.jsx:270
-#: src/components/vm/overview/watchdog.jsx:250
+#: src/components/vm/overview/vsock.tsx:299
+#: src/components/vm/overview/watchdog.tsx:270
 msgid "none"
 msgstr "არცერთი"
 
@@ -3238,21 +3343,21 @@ msgstr "მაღლა"
 msgid "user"
 msgstr "მომხმარებელი"
 
-#: src/components/vm/overview/cpuModal.jsx:195
+#: src/components/vm/overview/cpuModal.tsx:208
 msgid "vCPU and CPU topology settings could not be saved"
 msgstr "VCPU-ის და CPU-ის ტოპოლოგიის პარამეტრების შენახვის შეცდომა"
 
-#: src/components/vm/overview/cpuModal.jsx:246
-#: src/components/vm/overview/cpuModal.jsx:256
+#: src/components/vm/overview/cpuModal.tsx:259
+#: src/components/vm/overview/cpuModal.tsx:269
 msgid "vCPU count"
 msgstr "vCPU-ების რაოდენობა"
 
-#: src/components/vm/overview/cpuModal.jsx:226
-#: src/components/vm/overview/cpuModal.jsx:238
+#: src/components/vm/overview/cpuModal.tsx:239
+#: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
 msgstr "vCPU-ის მაქსიმუმი"
 
-#: src/components/common/needsShutdown.tsx:141
+#: src/components/common/needsShutdown.tsx:186
 msgid "vCPUs"
 msgstr "vCPU-ები"
 
@@ -3276,7 +3381,7 @@ msgid ""
 "new VMs"
 msgstr "ახალი ვმ-ების შესაქმნელად საჭიროა პაკეტი virt-install"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:131
+#: src/components/vm/overview/vmOverviewCard.tsx:150
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
@@ -3286,7 +3391,7 @@ msgstr "ამ ატრიბუტის ჩასასწორებლა�
 msgid "vm"
 msgstr "ვმ"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:218
+#: src/components/vm/overview/vmOverviewCard.tsx:237
 msgid "vsock requires special software"
 msgstr "vsock-ს სპეციალური პროგრამები სჭირდება"
 
@@ -3295,6 +3400,48 @@ msgstr "vsock-ს სპეციალური პროგრამები 
 #: src/components/networks/networkOverviewTab.tsx:126
 msgid "yes"
 msgstr "დიახ"
+
+#~ msgid "Connect with any viewer application for following protocols"
+#~ msgstr "დაუკავშირდით ნებისმიერი მაყურებლით შემდეგი პროტოკოლებით"
+
+#~ msgid "Connecting"
+#~ msgstr "დაკავშირება"
+
+#~ msgid "Desktop viewer"
+#~ msgstr "სამუშაო მაგიდის დამთვალიერებელი"
+
+#~ msgid "Manual connection"
+#~ msgstr "ხელით მითითებული კავშირი"
+
+#~ msgid "No connection available"
+#~ msgstr "კავშირი ხელმიუწვდომელია"
+
+#~ msgid "SPICE TLS port"
+#~ msgstr "SPICE-ის TLS პორტი"
+
+#~ msgid "SPICE address"
+#~ msgstr "SPICE-ის მისამართი"
+
+#~ msgid "SPICE port"
+#~ msgstr "SPICE-ის პორტი"
+
+#~ msgid "Select console type"
+#~ msgstr "აირჩიეთ კონსოლის ტიპი"
+
+#~ msgid "Type ID"
+#~ msgstr "ტიპის ID"
+
+#~ msgid "VNC TLS port"
+#~ msgstr "VNC-ის TLS პორტი"
+
+#~ msgid "VNC address"
+#~ msgstr "VNC-ის მისამართი"
+
+#~ msgid "VNC console"
+#~ msgstr "VNC-ის კონსოლი"
+
+#~ msgid "VNC port"
+#~ msgstr "VNC-ის პორტი"
 
 #~ msgid "Bridge"
 #~ msgstr "ხიდი"

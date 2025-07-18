@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-16 03:48+0000\n"
+"POT-Creation-Date: 2025-07-18 03:50+0000\n"
 "PO-Revision-Date: 2021-04-10 18:04+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "$0 $1 available on host"
 msgstr "$0 nie je k dispozícií v žiadom repozitári."
 
-#: src/components/vm/overview/cpuModal.jsx:321
+#: src/components/vm/overview/cpuModal.tsx:334
 #, fuzzy
 #| msgid "$0 vCPU details"
 msgid "$0 CPU details"
@@ -53,15 +53,7 @@ msgstr[2] "$0 fondov úložisk"
 msgid "$0 does not support unattended installation."
 msgstr "Vybraný operačný systém nepodporuje bezobslužnú inštaláciu"
 
-#: src/components/vm/consoles/desktopConsole.jsx:61
-msgid ""
-"$0 is available for most operating systems. To install it, search for it in "
-"GNOME Software or run the following:"
-msgstr ""
-"$0 je k dispozícií pre väčšinu operačných systémov. Pre inštaláciu "
-"vyhľadejte v GNOME Software alebo spusťte nasledujúce:"
-
-#: src/components/vm/overview/memoryModal.jsx:154
+#: src/components/vm/overview/memoryModal.tsx:194
 msgid "$0 memory adjustment"
 msgstr "$0 úprava nastavenia pamäti"
 
@@ -69,7 +61,7 @@ msgstr "$0 úprava nastavenia pamäti"
 msgid "$0 network"
 msgstr "$0 Sieť"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:140
+#: src/components/vm/overview/vmOverviewCard.tsx:159
 #: src/components/vm/vmUsageCard.jsx:42
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
@@ -92,7 +84,7 @@ msgstr ""
 msgid "Access"
 msgstr "Prístup"
 
-#: src/components/vm/overview/watchdog.jsx:183
+#: src/components/vm/overview/watchdog.tsx:203
 #, fuzzy
 #| msgid "Connection"
 msgid "Action"
@@ -120,8 +112,8 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:281
 #: src/components/vm/disks/diskAdd.tsx:968
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:265
 msgid "Add"
@@ -133,6 +125,10 @@ msgstr ""
 
 #: src/components/vm/vmActions.jsx:483
 msgid "Add TPM"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:468
+msgid "Add VNC"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:253
@@ -155,6 +151,12 @@ msgstr "zariadenie hostiteľa"
 msgid "Add network interface"
 msgstr "Pridať sieťové rozhranie"
 
+#: src/components/vm/consoles/serial.jsx:163
+#, fuzzy
+#| msgid "Serial console"
+msgid "Add serial console"
+msgstr "Sériová konzola"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
 msgstr ""
@@ -163,19 +165,19 @@ msgstr ""
 msgid "Add virtual network interface"
 msgstr "Pridať virtuálne sieťové rozhranie"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Add vsock interface"
 msgstr "Pridať sieťové rozhranie"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 #, fuzzy
 #| msgid "host device"
 msgid "Add watchdog device type"
 msgstr "zariadenie hostiteľa"
 
-#: src/components/vm/overview/watchdog.jsx:109
+#: src/components/vm/overview/watchdog.tsx:128
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 
@@ -191,7 +193,6 @@ msgstr "Ďalšie"
 
 #: src/components/networks/networkOverviewTab.tsx:153
 #: src/components/networks/networkOverviewTab.tsx:173
-#: src/components/vm/consoles/desktopConsole.jsx:47
 #: src/components/vm/nics/vmNicsCard.tsx:205
 msgid "Address"
 msgstr "Adresa"
@@ -229,19 +230,19 @@ msgstr ""
 msgid "Always attach"
 msgstr "Vždy pripojiť"
 
-#: src/components/vm/overview/helpers.jsx:29
+#: src/components/vm/overview/helpers.tsx:31
 msgid "An example of vsock-aware software is socat"
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:327
+#: src/components/vm/overview/cpuModal.tsx:340
 msgid "Apply"
 msgstr "Použiť"
 
-#: src/components/vm/overview/watchdog.jsx:205
+#: src/components/vm/overview/watchdog.tsx:226
 msgid "Apply on next boot"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:47
+#: src/components/vm/overview/vsock.tsx:49
 #, fuzzy
 #| msgid "Generate automatically"
 msgid "Assign automatically"
@@ -265,7 +266,7 @@ msgstr "Automaticky"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:73
 #: src/components/networks/networkOverviewTab.tsx:130
-#: src/components/vm/overview/vmOverviewCard.jsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:213
 msgid "Autostart"
 msgstr "Automatické spustenie"
 
@@ -279,22 +280,22 @@ msgstr "ariadenie hostiteľa"
 msgid "Blocked"
 msgstr "Blokované"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.tsx:206
 msgid "Boot order"
 msgstr "Poradie zavádzania"
 
-#: src/components/vm/overview/bootOrder.jsx:244
+#: src/components/vm/overview/bootOrder.tsx:284
 msgid "Boot order settings could not be saved"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/disks/vmDisksCard.tsx:221
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/overview/bootOrder.jsx:107
-#: src/components/vm/overview/bootOrder.jsx:119
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:140
-#: src/components/vm/overview/bootOrder.jsx:154
+#: src/components/vm/overview/bootOrder.tsx:127
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:160
+#: src/components/vm/overview/bootOrder.tsx:174
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
@@ -306,13 +307,13 @@ msgstr "Zbernica"
 msgid "CD/DVD disc"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:145
-#: src/components/vm/overview/vmOverviewCard.jsx:182
+#: src/components/common/needsShutdown.tsx:190
+#: src/components/vm/overview/vmOverviewCard.tsx:201
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
 msgstr "CPU"
 
-#: src/components/vm/overview/cpuModal.jsx:208
+#: src/components/vm/overview/cpuModal.tsx:221
 #, fuzzy
 #| msgid "VCPU settings could not be saved"
 msgid "CPU mode could not be saved"
@@ -334,17 +335,18 @@ msgstr "Vyrovnávacia pamäť"
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/confirmDialog.jsx:56
+#: src/components/vm/consoles/vnc.jsx:146
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:263
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
-#: src/components/vm/overview/firmware.jsx:101
-#: src/components/vm/overview/memoryModal.jsx:164
-#: src/components/vm/overview/vsock.jsx:243
-#: src/components/vm/overview/cpuModal.jsx:330
-#: src/components/vm/overview/bootOrder.jsx:323
-#: src/components/vm/overview/watchdog.jsx:216
-#: src/components/vm/vmReplaceSpiceDialog.jsx:160
+#: src/components/vm/overview/bootOrder.tsx:368
+#: src/components/vm/overview/cpuModal.tsx:343
+#: src/components/vm/overview/memoryModal.tsx:209
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/firmware.tsx:120
+#: src/components/vm/overview/watchdog.tsx:237
+#: src/components/vm/vmReplaceSpiceDialog.jsx:163
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
@@ -355,11 +357,11 @@ msgstr "Vyrovnávacia pamäť"
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: src/components/vm/overview/vsock.jsx:201
+#: src/components/vm/overview/vsock.tsx:230
 msgid "Cannot edit vsock device on a transient VM"
 msgstr ""
 
-#: src/components/vm/overview/watchdog.jsx:163
+#: src/components/vm/overview/watchdog.tsx:183
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr ""
 
@@ -367,17 +369,17 @@ msgstr ""
 msgid "Capacity"
 msgstr "Kapacita"
 
-#: src/components/vm/overview/bootOrder.jsx:313
+#: src/components/vm/overview/bootOrder.tsx:353
 #, fuzzy
 #| msgid "Boot order"
 msgid "Change boot order"
 msgstr "Poradie zavádzania"
 
-#: src/components/vm/overview/firmware.jsx:80
+#: src/components/vm/overview/firmware.tsx:94
 msgid "Change firmware"
 msgstr "Zmeniť firmware"
 
-#: src/components/common/needsShutdown.tsx:212
+#: src/components/common/needsShutdown.tsx:265
 msgid "Changes pending"
 msgstr ""
 
@@ -405,9 +407,10 @@ msgstr "Vyberte operačný systém"
 msgid "Class"
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:58
+#: src/components/vm/consoles/common.jsx:76
 msgid ""
-"Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
+"Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
+"Viewer application on your system."
 msgstr ""
 
 #: src/components/vm/vmCloneDialog.jsx:98 src/components/vm/vmActions.jsx:413
@@ -426,6 +429,10 @@ msgstr "Cloudový obraz"
 msgid "Cockpit Project"
 msgstr ""
 
+#: src/components/vm/consoles/consoles.jsx:226
+msgid "Compress"
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr ""
@@ -434,31 +441,22 @@ msgstr ""
 msgid "Confirm this action"
 msgstr ""
 
+#: src/components/vm/consoles/serial.jsx:96
+#: src/components/vm/consoles/vnc.jsx:411
 #: src/components/vm/consoles/serialConsole.jsx:95
 msgid "Connect"
 msgstr "Pripojiť"
-
-#: src/components/vm/consoles/desktopConsole.jsx:46
-msgid "Connect with any viewer application for following protocols"
-msgstr ""
-
-#: src/components/vm/consoles/vnc.jsx:192
-#, fuzzy
-#| msgid "Connection"
-msgid "Connecting"
-msgstr "Spojenie"
 
 #: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/storagePools/storagePoolList.tsx:78
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/vms/hostvmslist.tsx:202
-#: src/components/vm/overview/vmOverviewCard.jsx:158
+#: src/components/vm/overview/vmOverviewCard.tsx:177
 msgid "Connection"
 msgstr "Spojenie"
 
-#: src/components/vm/vmDetailsPage.jsx:101
-#: src/components/vm/vmDetailsPage.jsx:139
+#: src/components/vm/consoles/consoles.jsx:238
 msgid "Console"
 msgstr "Konzola"
 
@@ -477,7 +475,11 @@ msgstr ""
 msgid "Copy storage"
 msgstr "Úložisko"
 
-#: src/components/vm/overview/cpuModal.jsx:275
+#: src/components/vm/consoles/common.jsx:114
+msgid "Copy to clipboard"
+msgstr ""
+
+#: src/components/vm/overview/cpuModal.tsx:288
 msgid "Cores per socket"
 msgstr ""
 
@@ -499,7 +501,7 @@ msgstr "$0 sa nepodarilo zmazať"
 msgid "Could not delete disk's storage"
 msgstr "$0 sa nepodarilo zmazať"
 
-#: src/components/vm/overview/watchdog.jsx:108
+#: src/components/vm/overview/watchdog.tsx:127
 msgid "Could not dynamically add watchdog"
 msgstr ""
 
@@ -614,7 +616,7 @@ msgstr ""
 msgid "Creation time"
 msgstr "Čas vytvorenia"
 
-#: src/components/vm/consoles/vnc.jsx:152
+#: src/components/vm/consoles/vnc.jsx:236
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -622,15 +624,15 @@ msgstr "Ctrl+Alt+$0"
 msgid "Current"
 msgstr "Súčasný"
 
-#: src/components/vm/overview/memoryModal.jsx:131
+#: src/components/vm/overview/memoryModal.tsx:171
 msgid "Current allocation"
 msgstr "Súčasná alokácia"
 
-#: src/components/vm/overview/firmware.jsx:134
+#: src/components/vm/overview/firmware.tsx:159
 msgid "Custom firmware: $0"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:158
+#: src/components/vm/overview/vsock.tsx:187
 msgid "Custom identifier"
 msgstr ""
 
@@ -719,10 +721,6 @@ msgstr "Popis"
 msgid "Deselect others"
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:131
-msgid "Desktop viewer"
-msgstr ""
-
 #: src/components/vm/vmMigrateDialog.jsx:49
 #, fuzzy
 #| msgid "Description"
@@ -748,10 +746,10 @@ msgstr ""
 #: src/components/networks/createNetworkDialog.tsx:231
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/disks/vmDisksCard.tsx:207
-#: src/components/vm/overview/bootOrder.jsx:99
-#: src/components/vm/overview/bootOrder.jsx:106
-#: src/components/vm/overview/bootOrder.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.tsx:119
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:161
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
 #: src/components/vm/hostdevs/hostDevAdd.tsx:115
@@ -763,12 +761,13 @@ msgstr "Zariadenie"
 msgid "Devices"
 msgstr "Zariadenia"
 
-#: src/components/vm/consoles/vnc.jsx:194
+#: src/components/vm/consoles/consoles.jsx:211
 #: src/components/vm/consoles/serialConsole.jsx:94
 msgid "Disconnect"
 msgstr "Odpojiť"
 
-#: src/components/vm/consoles/vnc.jsx:193
+#: src/components/vm/consoles/serial.jsx:93
+#: src/components/vm/consoles/vnc.jsx:408
 #, fuzzy
 #| msgid "Disconnect"
 msgid "Disconnected"
@@ -778,7 +777,7 @@ msgstr "Odpojiť"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Odpojené od sériovej konzoly. Kliknite na tlačítko Pripojiť."
 
-#: src/components/common/needsShutdown.tsx:123
+#: src/components/common/needsShutdown.tsx:168
 #, fuzzy
 #| msgid "Disks"
 msgid "Disk"
@@ -826,7 +825,7 @@ msgstr "Nastavenia disku nebolo možné uložiť"
 msgid "Disk-only snapshot"
 msgstr "Zachytený stav iba disku"
 
-#: src/components/vm/vmDetailsPage.jsx:156
+#: src/components/vm/vmDetailsPage.jsx:136
 msgid "Disks"
 msgstr "Disky"
 
@@ -854,6 +853,12 @@ msgstr "Stiahnúť operačný systém"
 #: src/app.jsx:291
 msgid "Download progress"
 msgstr ""
+
+#: src/components/vm/consoles/common.jsx:101
+#, fuzzy
+#| msgid "Downloading $0"
+msgid "Download the MSI from $0"
+msgstr "Sťahuje sa $0"
 
 #: src/app.jsx:287
 #, fuzzy
@@ -890,6 +895,13 @@ msgstr "Upraviť"
 msgid "Edit $0 attributes"
 msgstr "Upraviť $0 atribúty"
 
+#: src/components/vm/consoles/vnc.jsx:132
+#: src/components/vm/consoles/vnc.jsx:283
+#, fuzzy
+#| msgid "DHCP range"
+msgid "Edit VNC settings"
+msgstr "DHCP rozsah"
+
 #: src/components/vm/vmActions.jsx:470
 #, fuzzy
 #| msgid "No description"
@@ -902,13 +914,13 @@ msgstr "Bez popisu"
 msgid "Edit description of VM $0"
 msgstr "Bez popisu"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Edit vsock interface"
 msgstr "Pridať sieťové rozhranie"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Edit watchdog device type"
 msgstr ""
 
@@ -931,7 +943,7 @@ msgstr ""
 msgid "Eject disc from VM?"
 msgstr "Odstraňuje sa $0"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:242
+#: src/components/vm/overview/vmOverviewCard.tsx:261
 msgid "Emulated machine"
 msgstr "Emulovaný stroj"
 
@@ -964,7 +976,7 @@ msgstr ""
 msgid "Existing disk image on host's file system"
 msgstr "Existujúcí obraz disku na súborovom systéme hostiteľa"
 
-#: src/components/vm/vmDetailsPage.jsx:147
+#: src/components/vm/consoles/consoles.jsx:226
 msgid "Expand"
 msgstr "Rozbaliť"
 
@@ -984,13 +996,25 @@ msgstr "Neúspešné"
 msgid "Failed to add TPM to VM $0"
 msgstr "Nepodarilo sa klonovanie virt. stroja $0"
 
+#: src/components/vm/consoles/vnc.jsx:448
+#, fuzzy
+#| msgid "Failed to clone VM $0"
+msgid "Failed to add VNC to VM $0"
+msgstr "Nepodarilo sa klonovanie virt. stroja $0"
+
+#: src/components/vm/consoles/serial.jsx:143
+#, fuzzy
+#| msgid "Failed to clone VM $0"
+msgid "Failed to add serial console to VM $0"
+msgstr "Nepodarilo sa klonovanie virt. stroja $0"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 #, fuzzy
 #| msgid "Failed to change firmware"
 msgid "Failed to add shared directory"
 msgstr "Nepodarilo sa zmeniť firmware"
 
-#: src/components/vm/overview/firmware.jsx:72
+#: src/components/vm/overview/firmware.tsx:86
 msgid "Failed to change firmware"
 msgstr "Nepodarilo sa zmeniť firmware"
 
@@ -998,25 +1022,25 @@ msgstr "Nepodarilo sa zmeniť firmware"
 msgid "Failed to clone VM $0"
 msgstr "Nepodarilo sa klonovanie virt. stroja $0"
 
-#: src/components/vm/overview/vsock.jsx:128
+#: src/components/vm/overview/vsock.tsx:157
 #, fuzzy
 #| msgid "Failed to change firmware"
 msgid "Failed to configure vsock"
 msgstr "Nepodarilo sa zmeniť firmware"
 
-#: src/components/vm/overview/watchdog.jsx:90
+#: src/components/vm/overview/watchdog.tsx:109
 #, fuzzy
 #| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
 msgstr "Nepodarilo sa zmeniť firmware"
 
-#: src/components/vm/overview/vsock.jsx:140
+#: src/components/vm/overview/vsock.tsx:169
 #, fuzzy
 #| msgid "Disk failed to be attached"
 msgid "Failed to detach vsock"
 msgstr "Disk sa nepodarilo pripojiť"
 
-#: src/components/vm/overview/watchdog.jsx:137
+#: src/components/vm/overview/watchdog.tsx:157
 #, fuzzy
 #| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
@@ -1048,7 +1072,7 @@ msgstr "Nepodarilo sa klonovanie virt. stroja $0"
 msgid "Failed to save network settings"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:147
+#: src/components/vm/consoles/vnc.jsx:231
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Nepodarilo sa poslať klávesy Ctrl+Alt+$0 do virt. stroja $1"
 
@@ -1058,12 +1082,12 @@ msgstr "Nepodarilo sa poslať klávesy Ctrl+Alt+$0 do virt. stroja $1"
 msgid "Failed to set description of VM $0"
 msgstr "Nepodarilo sa klonovanie virt. stroja $0"
 
-#: src/components/vm/overview/cpuModal.jsx:248
+#: src/components/vm/overview/cpuModal.tsx:261
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:47
-#: src/components/vm/overview/bootOrder.jsx:98
+#: src/components/vm/overview/bootOrder.tsx:118
 msgid "File"
 msgstr "Súbor"
 
@@ -1081,8 +1105,8 @@ msgstr ""
 msgid "Filter by name"
 msgstr "Filtrovať podľa mena"
 
-#: src/components/vm/overview/firmware.jsx:84
-#: src/components/vm/overview/vmOverviewCard.jsx:248
+#: src/components/vm/overview/vmOverviewCard.tsx:267
+#: src/components/vm/overview/firmware.tsx:103
 msgid "Firmware"
 msgstr "Firmware"
 
@@ -1138,7 +1162,7 @@ msgid ""
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:121
-#: src/components/vm/overview/vmOverviewCard.jsx:154
+#: src/components/vm/overview/vmOverviewCard.tsx:173
 msgid "General"
 msgstr "Všeobecné"
 
@@ -1154,7 +1178,7 @@ msgstr ""
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
 #: src/components/storagePools/storageVolumeCreateBody.tsx:152
 #: src/components/vm/disks/vmDisksCard.tsx:53
-#: src/components/vm/overview/memorySelectRow.jsx:89
+#: src/components/vm/overview/memorySelectRow.tsx:108
 msgid "GiB"
 msgstr "GiB"
 
@@ -1168,6 +1192,14 @@ msgstr ""
 
 #: src/helpers.ts:287
 msgid "Gracefully shutdown"
+msgstr ""
+
+#: src/components/vm/consoles/consoles.jsx:107
+msgid "Graphical"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:458
+msgid "Graphical console support not enabled"
 msgstr ""
 
 #: src/app.jsx:119
@@ -1184,7 +1216,7 @@ msgstr "Skryť ďalšie možnosti"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/vm/disks/vmDiskColumns.tsx:52
-#: src/components/vm/overview/bootOrder.jsx:103
+#: src/components/vm/overview/bootOrder.tsx:123
 msgid "Host"
 msgstr "Hostiteľ"
 
@@ -1202,7 +1234,7 @@ msgstr "Nastavenia disku nebolo možné uložiť"
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:174
+#: src/components/vm/vmDetailsPage.jsx:154
 #, fuzzy
 #| msgid "Host device"
 msgid "Host devices"
@@ -1216,7 +1248,7 @@ msgstr "Názov hostiteľa"
 msgid "Host should not be empty"
 msgstr "Je nutné vyplniť hostiteľa"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:238
+#: src/components/vm/overview/vmOverviewCard.tsx:257
 msgid "Hypervisor details"
 msgstr "Podrobnosti o hypervizoru"
 
@@ -1293,7 +1325,7 @@ msgstr ""
 msgid "Ideal networking support"
 msgstr ""
 
-#: src/components/vm/overview/vsock.jsx:69
+#: src/components/vm/overview/vsock.tsx:77
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
@@ -1366,7 +1398,7 @@ msgstr "Ctrl+Insert"
 msgid "Insert disc media"
 msgstr ""
 
-#: src/components/vm/overview/helpers.jsx:39
+#: src/components/vm/overview/helpers.tsx:41
 msgid "Inside the VM"
 msgstr ""
 
@@ -1430,6 +1462,12 @@ msgstr ""
 msgid "Isolated network"
 msgstr "Izolovaná sieť"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:149
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr ""
@@ -1438,8 +1476,8 @@ msgstr ""
 msgid "LVM volume group"
 msgstr "LVM skupina zväzkov"
 
-#: src/components/vm/consoles/desktopConsole.jsx:54
-msgid "Launch remote viewer"
+#: src/components/vm/consoles/common.jsx:166
+msgid "Launch viewer"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
@@ -1456,14 +1494,14 @@ msgstr "Ak nechcete vytvoriť užívateľský účet, heslo nevypĺňajte"
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr "Ak nechcete nastaviť root heslo, heslo nevypĺňajte"
 
-#: src/components/vm/overview/firmware.jsx:178
+#: src/components/vm/overview/firmware.tsx:203
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
 "Libvirt nedetegoval na hostiteľovi žiadny nainštalovaný obraz UEFI/OVMF "
 "firmvéru"
 
-#: src/components/vm/overview/firmware.jsx:172
+#: src/components/vm/overview/firmware.tsx:197
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt alebo hypervízor nepodporuje UEFI"
 
@@ -1477,6 +1515,7 @@ msgstr "Žiadne sieťové zariadenia"
 msgid "Loading resources"
 msgstr ""
 
+#: src/components/vm/consoles/serial.jsx:102
 #: src/components/vm/consoles/serialConsole.jsx:77
 msgid "Loading..."
 msgstr "Načítavanie..."
@@ -1492,7 +1531,7 @@ msgid "Location"
 msgstr "Spojenie"
 
 #: src/components/networks/networkOverviewTab.tsx:79
-#: src/components/vm/overview/bootOrder.jsx:113
+#: src/components/vm/overview/bootOrder.tsx:133
 msgid "MAC"
 msgstr "MAC"
 
@@ -1536,10 +1575,6 @@ msgstr "Správa virtuálnych strojov"
 msgid "Managing virtual machines"
 msgstr "Správa virtuálnych strojov"
 
-#: src/components/vm/consoles/desktopConsole.jsx:44
-msgid "Manual connection"
-msgstr ""
-
 #: src/components/networks/createNetworkDialog.tsx:357
 msgid "Mask or prefix length"
 msgstr ""
@@ -1548,19 +1583,19 @@ msgstr ""
 msgid "Mask or prefix length should not be empty"
 msgstr ""
 
-#: src/components/vm/overview/memoryModal.jsx:140
+#: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
 msgstr ""
 
-#: src/components/vm/overview/memoryModal.jsx:105
+#: src/components/vm/overview/memoryModal.tsx:145
 msgid "Maximum memory could not be saved"
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:230
+#: src/components/vm/overview/cpuModal.tsx:243
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:229
+#: src/components/vm/overview/cpuModal.tsx:242
 msgid ""
 "Maximum number of virtual CPUs allocated for the guest OS, which must be "
 "between 1 and $0"
@@ -1581,13 +1616,13 @@ msgid "Media will be ejected from $0:"
 msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:897
-#: src/components/vm/overview/vmOverviewCard.jsx:177
+#: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/vm/vmUsageCard.jsx:53
 msgid "Memory"
 msgstr "Pamäť"
 
-#: src/components/vm/overview/memoryModal.jsx:102
-#: src/components/vm/overview/memoryModal.jsx:118
+#: src/components/vm/overview/memoryModal.tsx:142
+#: src/components/vm/overview/memoryModal.tsx:158
 msgid "Memory could not be saved"
 msgstr ""
 
@@ -1612,7 +1647,7 @@ msgstr ""
 #: src/components/create-vm-dialog/createVmDialog.jsx:910
 #: src/components/create-vm-dialog/createVmDialog.jsx:1017
 #: src/components/storagePools/storageVolumeCreateBody.tsx:150
-#: src/components/vm/overview/memorySelectRow.jsx:87
+#: src/components/vm/overview/memorySelectRow.tsx:106
 msgid "MiB"
 msgstr "MiB"
 
@@ -1631,8 +1666,8 @@ msgstr ""
 msgid "Migration failed"
 msgstr "Čas vytvorenia"
 
-#: src/components/vm/overview/cpuModal.jsx:293
-#: src/components/vm/overview/cpuModal.jsx:295
+#: src/components/vm/overview/cpuModal.tsx:306
+#: src/components/vm/overview/cpuModal.tsx:308
 #: src/components/vm/nics/vmNicsCard.tsx:190
 #: src/components/vm/nics/nicBody.tsx:227
 msgid "Mode"
@@ -1758,7 +1793,7 @@ msgstr "Zavádzanie zo siete (PXE)"
 msgid "Network file system"
 msgstr "Sieťový súborový systém"
 
-#: src/components/common/needsShutdown.tsx:134
+#: src/components/common/needsShutdown.tsx:179
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interface"
@@ -1780,7 +1815,7 @@ msgstr "$0 sa nepodarilo zmazať"
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:165
+#: src/components/vm/vmDetailsPage.jsx:145
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interfaces"
@@ -1820,13 +1855,9 @@ msgstr ""
 msgid "No VM is running or defined on this host"
 msgstr "Na tomto stroji nie sú spustené ani definované žiadne virt. stroje"
 
-#: src/components/vm/overview/bootOrder.jsx:342
+#: src/components/vm/overview/bootOrder.tsx:380
 msgid "No boot device found"
 msgstr ""
-
-#: src/components/vm/consoles/desktopConsole.jsx:45
-msgid "No connection available"
-msgstr "Nie je k dispozícií žiadne pripojenie"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
@@ -1936,7 +1967,7 @@ msgstr "Je nutné vyplniť názov"
 msgid "Old token expired"
 msgstr ""
 
-#: src/components/vm/overview/helpers.jsx:33
+#: src/components/vm/overview/helpers.tsx:35
 #, fuzzy
 #| msgid "Run when host boots"
 msgid "On the host"
@@ -1948,8 +1979,8 @@ msgid ""
 "allow volume deletion."
 msgstr ""
 
-#: src/components/vm/overview/memoryModal.jsx:147
-#: src/components/vm/overview/bootOrder.jsx:368
+#: src/components/vm/overview/bootOrder.tsx:406
+#: src/components/vm/overview/memoryModal.tsx:187
 #: src/components/vm/nics/nicEdit.tsx:67
 msgid "Only editable when the guest is shut off"
 msgstr "Možné upraviť len pokiaľ je hosť vypnutý"
@@ -1972,7 +2003,7 @@ msgid "Other VMs using SPICE"
 msgstr ""
 
 #: src/components/storagePools/storagePool.tsx:77
-#: src/components/vm/vmDetailsPage.jsx:119
+#: src/components/vm/vmDetailsPage.jsx:109
 msgid "Overview"
 msgstr "Prehľad"
 
@@ -1983,6 +2014,23 @@ msgstr ""
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr "Nadradený zachytený stav"
+
+#: src/components/vm/consoles/vnc.jsx:177
+#, fuzzy
+#| msgid "Root password"
+msgid "Password"
+msgstr "Heslo pre účet root"
+
+#: src/components/vm/consoles/vnc.jsx:197
+msgid ""
+"Password must be 8 characters or less. VNC passwords do not provide "
+"encryption and are generally cryptographically weak. They can not be used to "
+"secure connections in untrusted networks."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:97
+msgid "Password must be at most 8 characters."
+msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -2067,14 +2115,10 @@ msgstr ""
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:40
-msgid "Please start the virtual machine to access its console."
-msgstr ""
-
 #: src/components/vm/disks/diskAdd.tsx:216
 #: src/components/vm/disks/vmDiskColumns.tsx:50
 #: src/components/vm/disks/mediaEject.tsx:98
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/vm/overview/bootOrder.tsx:121
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Úložisko"
@@ -2095,12 +2139,29 @@ msgstr ""
 msgid "Pool's volumes are used by VMs "
 msgstr ""
 
+#: src/components/vm/consoles/vnc.jsx:158
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/overview/bootOrder.jsx:104
-#: src/components/vm/overview/bootOrder.jsx:120
+#: src/components/vm/overview/bootOrder.tsx:124
+#: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "Port"
+
+#: src/components/vm/consoles/vnc.jsx:91
+msgid "Port must be 5900 or larger."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:171
+msgid ""
+"Port must be a number that is at least 5900. Leave empty to automatically "
+"assign a free port when the machine starts."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:88
+#, fuzzy
+#| msgid "Hours must be a number between 0 and 23"
+msgid "Port must be a number."
+msgstr "Hodiny musia byť čísla medzi 0 a 23"
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -2112,7 +2173,7 @@ msgstr ""
 msgid "Pre-formatted block device"
 msgstr "presmerované zariadenie"
 
-#: src/components/vm/overview/cpuModal.jsx:266
+#: src/components/vm/overview/cpuModal.tsx:279
 msgid "Preferred number of sockets to expose to the guest."
 msgstr ""
 
@@ -2138,8 +2199,8 @@ msgstr ""
 msgid "Private"
 msgstr "Súkromný"
 
-#: src/components/vm/overview/bootOrder.jsx:133
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.tsx:153
+#: src/components/vm/overview/bootOrder.tsx:168
 #: src/components/vm/hostdevs/hostDevCard.tsx:252
 #: src/components/vm/hostdevs/hostDevCard.tsx:258
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
@@ -2151,8 +2212,8 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
-#: src/components/vm/overview/bootOrder.jsx:100
-#: src/components/vm/overview/bootOrder.jsx:161
+#: src/components/vm/overview/bootOrder.tsx:120
+#: src/components/vm/overview/bootOrder.tsx:181
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 msgid "Protocol"
 msgstr "Protokol"
@@ -2217,8 +2278,26 @@ msgstr ""
 msgid "Remote URL"
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:55
-msgid "Remote viewer details"
+#: src/components/vm/consoles/common.jsx:79
+#, fuzzy
+#| msgid ""
+#| "$0 is available for most operating systems. To install it, search for it "
+#| "in GNOME Software or run the following:"
+msgid ""
+"Remote Viewer is available for most operating systems. To install it, search "
+"for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
+msgstr ""
+"$0 je k dispozícií pre väčšinu operačných systémov. Pre inštaláciu "
+"vyhľadejte v GNOME Software alebo spusťte nasledujúce:"
+
+#: src/components/vm/consoles/common.jsx:139
+#, fuzzy
+#| msgid "Network file system"
+msgid "Remote viewer"
+msgstr "Sieťový súborový systém"
+
+#: src/components/vm/consoles/common.jsx:111
+msgid "Remote viewer applications can connect to the following address:"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:81
@@ -2226,8 +2305,8 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:81
 #: src/components/vm/disks/vmDiskColumns.tsx:166
 #: src/components/vm/disks/vmDiskColumns.tsx:252
-#: src/components/vm/overview/vsock.jsx:240
-#: src/components/vm/overview/watchdog.jsx:213
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/overview/watchdog.tsx:234
 #: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/nics/vmNicsCard.tsx:566
 #: src/components/vm/hostdevs/hostDevCard.tsx:268
@@ -2285,7 +2364,7 @@ msgstr ""
 msgid "Rename VM $0"
 msgstr ""
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#: src/components/vm/vmReplaceSpiceDialog.jsx:160
 msgid "Replace"
 msgstr ""
 
@@ -2309,8 +2388,20 @@ msgstr ""
 msgid "Replace SPICE on the virtual machine."
 msgstr "Vytvoriť nový virtuálny počítač"
 
+#: src/components/vm/consoles/spice.jsx:77
+msgid "Replace with VNC"
+msgstr ""
+
 #: src/helpers.ts:286
 msgid "Reset"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:481
+msgid "Restart this virtual machine to access its graphical console"
+msgstr ""
+
+#: src/components/vm/consoles/serial.jsx:175
+msgid "Restart this virtual machine to access its serial console"
 msgstr ""
 
 #: src/components/common/machinesConnectionSelector.tsx:90
@@ -2359,7 +2450,7 @@ msgid "Run"
 msgstr "Spustiť"
 
 #: src/components/networks/networkOverviewTab.tsx:135
-#: src/components/vm/overview/vmOverviewCard.jsx:107
+#: src/components/vm/overview/vmOverviewCard.tsx:126
 msgid "Run when host boots"
 msgstr "Spustiť pri štarte stroja"
 
@@ -2367,19 +2458,11 @@ msgstr "Spustiť pri štarte stroja"
 msgid "Running"
 msgstr "Beží"
 
-#: src/components/common/needsShutdown.tsx:153
+#: src/components/common/needsShutdown.tsx:198
 #, fuzzy
 #| msgid "SPICE port"
 msgid "SPICE"
 msgstr "SPICE port"
-
-#: src/components/vm/consoles/desktopConsole.jsx:52
-msgid "SPICE TLS port"
-msgstr "SPICE TLS port"
-
-#: src/components/vm/consoles/desktopConsole.jsx:48
-msgid "SPICE address"
-msgstr "SPICE adresa"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:134
 #: src/components/vm/vmReplaceSpiceDialog.jsx:136
@@ -2394,22 +2477,19 @@ msgid ""
 "not boot."
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:50
-msgid "SPICE port"
-msgstr "SPICE port"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:866
 #, fuzzy
 #| msgid "Send key"
 msgid "SSH keys"
 msgstr "Poslať stlačenie klávesy"
 
+#: src/components/vm/consoles/vnc.jsx:143
 #: src/components/vm/disks/diskEdit.tsx:338
-#: src/components/vm/overview/firmware.jsx:98
-#: src/components/vm/overview/memoryModal.jsx:161
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/bootOrder.jsx:320
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:365
+#: src/components/vm/overview/memoryModal.tsx:206
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:117
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
 #: src/components/vm/nics/nicEdit.tsx:237
 msgid "Save"
@@ -2419,11 +2499,7 @@ msgstr "Uložiť"
 msgid "Select all"
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:128
-msgid "Select console type"
-msgstr "Vybrať typ konzole"
-
-#: src/components/vm/consoles/vnc.jsx:169
+#: src/components/vm/consoles/vnc.jsx:258
 msgid "Send key"
 msgstr "Poslať stlačenie klávesy"
 
@@ -2437,21 +2513,27 @@ msgstr "Poslať nemaskovateľné prerušenie"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Poslať nemaskovateľné prerušenie"
 
+#: src/components/vm/consoles/consoles.jsx:167
+#: src/components/vm/consoles/consoles.jsx:191
 #: src/components/vm/disks/vmDiskColumns.tsx:121
 #, fuzzy
 #| msgid "Serial console"
 msgid "Serial"
 msgstr "Sériová konzola"
 
-#: src/components/vm/consoles/consoles.jsx:129
+#: src/components/vm/consoles/consoles.jsx:167
+#, fuzzy
+#| msgid "Serial console"
+msgid "Serial ($0)"
+msgstr "Sériová konzola"
+
+#: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
 msgstr "Sériová konzola"
 
-#: src/components/vm/consoles/consoles.jsx:132
-#, fuzzy
-#| msgid "Serial console"
-msgid "Serial console ($0)"
-msgstr "Sériová konzola"
+#: src/components/vm/consoles/serial.jsx:153
+msgid "Serial console support not enabled"
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2477,12 +2559,12 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:195
+#: src/components/vm/vmDetailsPage.jsx:175
 msgid "Shared directories"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.jsx:197
+#: src/components/vm/vmDetailsPage.jsx:177
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 
@@ -2497,13 +2579,13 @@ msgstr "Úložisko"
 msgid "Show additional options"
 msgstr "Zobraziť ďalšie možnosti"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 #, fuzzy
 #| msgid "show less"
 msgid "Show less"
 msgstr "ukázať menej"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 #, fuzzy
 #| msgid "show more"
 msgid "Show more"
@@ -2524,7 +2606,7 @@ msgstr "Vypnúť"
 msgid "Shut off"
 msgstr "Vypnúť"
 
-#: src/components/vm/overview/firmware.jsx:159
+#: src/components/vm/overview/firmware.tsx:184
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Vypnite virt. stroj aby bolo možné upraviť konfiguráciu firmvéru"
 
@@ -2538,7 +2620,7 @@ msgstr "Vypína sa"
 msgid "Size"
 msgstr "Veľkosť"
 
-#: src/components/vm/overview/bootOrder.jsx:149
+#: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 #: src/components/vm/hostdevs/hostDevCard.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2564,15 +2646,15 @@ msgstr "Zmazaním zachyteného stavu bude všetok ním zachytený obsah zmazaný
 msgid "Snapshot failed to be created"
 msgstr "Nepodarilo sa zachytiť stav"
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:163
 msgid "Snapshots"
 msgstr "Zachytené stavy"
 
-#: src/components/vm/overview/cpuModal.jsx:264
+#: src/components/vm/overview/cpuModal.tsx:277
 msgid "Sockets"
 msgstr "Sokety"
 
-#: src/components/common/needsShutdown.tsx:189
+#: src/components/common/needsShutdown.tsx:242
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
@@ -2632,6 +2714,15 @@ msgstr ""
 msgid "Start should not be empty"
 msgstr "Je nutné vyplniť začiatok"
 
+#: src/components/vm/consoles/serial.jsx:130
+#: src/components/vm/consoles/vnc.jsx:428
+msgid "Start the virtual machine to access the console"
+msgstr ""
+
+#: src/components/vm/consoles/spice.jsx:68
+msgid "Start the virtual machine to launch remote viewer."
+msgstr ""
+
 #: src/components/vm/confirmDialog.jsx:74
 #, fuzzy
 #| msgid "Start"
@@ -2646,7 +2737,7 @@ msgstr ""
 #: src/components/networks/networkList.tsx:76
 #: src/components/vms/hostvmslist.tsx:156
 #: src/components/vms/hostvmslist.tsx:203
-#: src/components/vm/overview/vmOverviewCard.jsx:163
+#: src/components/vm/overview/vmOverviewCard.tsx:182
 #: src/components/vm/nics/vmNicsCard.tsx:489
 msgid "State"
 msgstr "Stav"
@@ -2731,6 +2822,10 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
+#: src/components/vm/consoles/common.jsx:115
+msgid "Successfully copied to clipboard!"
+msgstr ""
+
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr ""
@@ -2749,7 +2844,7 @@ msgstr "Systém"
 msgid "TAP device"
 msgstr "ariadenie hostiteľa"
 
-#: src/components/common/needsShutdown.tsx:157
+#: src/components/common/needsShutdown.tsx:210
 msgid "TPM"
 msgstr ""
 
@@ -2758,7 +2853,7 @@ msgid "Table of selectable host devices"
 msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:170
-#: src/components/vm/overview/bootOrder.jsx:155
+#: src/components/vm/overview/bootOrder.tsx:175
 #: src/components/vm/hostdevs/hostDevCard.tsx:114
 msgid "Target"
 msgstr "Cieľ"
@@ -2872,6 +2967,10 @@ msgstr ""
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 
+#: src/components/vm/consoles/spice.jsx:64
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr ""
+
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
@@ -2886,7 +2985,7 @@ msgstr ""
 msgid "This volume is already used by another VM."
 msgstr ""
 
-#: src/components/vm/overview/cpuModal.jsx:284
+#: src/components/vm/overview/cpuModal.tsx:297
 msgid "Threads per core"
 msgstr ""
 
@@ -2896,7 +2995,7 @@ msgstr ""
 msgid "Total space available: $0."
 msgstr "Celková veľkosť: $0"
 
-#: src/components/vm/overview/firmware.jsx:165
+#: src/components/vm/overview/firmware.tsx:190
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr "Dočasné virt. stroje neumožnujú úpravy konfigurácie firmvéru"
 
@@ -2906,21 +3005,17 @@ msgstr "Riešiť problém"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:78
 #: src/components/storagePools/createStoragePoolDialog.tsx:115
-#: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/overview/bootOrder.jsx:131
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:153
-#: src/components/vm/overview/bootOrder.jsx:160
-#: src/components/vm/overview/bootOrder.jsx:166
+#: src/components/vm/overview/bootOrder.tsx:138
+#: src/components/vm/overview/bootOrder.tsx:151
+#: src/components/vm/overview/bootOrder.tsx:166
+#: src/components/vm/overview/bootOrder.tsx:173
+#: src/components/vm/overview/bootOrder.tsx:180
+#: src/components/vm/overview/bootOrder.tsx:186
 #: src/components/vm/nics/vmNicsCard.tsx:402
 #: src/components/vm/hostdevs/hostDevCard.tsx:189
 #: src/components/vm/hostdevs/hostDevAdd.tsx:56
 msgid "Type"
 msgstr "Typ"
-
-#: src/components/vm/overview/bootOrder.jsx:167
-msgid "Type ID"
-msgstr "Iden. typu"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:376
 msgid "URL (ISO image or distro install tree)"
@@ -2952,7 +3047,7 @@ msgstr "Unikátne meno"
 msgid "Unique network name"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:176
 msgid "Unit"
 msgstr "Jednotka"
 
@@ -2960,12 +3055,12 @@ msgstr "Jednotka"
 msgid "Unknown"
 msgstr "Neznáme"
 
-#: src/components/vm/overview/firmware.jsx:136
+#: src/components/vm/overview/firmware.tsx:161
 msgid "Unknown firmware"
 msgstr "Neznámy firmware"
 
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:158
 #: src/components/vm/hostdevs/hostDevCard.tsx:97
 #: src/components/vm/hostdevs/hostDevCard.tsx:98
 msgid "Unspecified"
@@ -2981,7 +3076,7 @@ msgstr "Vyberte operačný systém"
 msgid "Url"
 msgstr "Url"
 
-#: src/components/vm/vmDetailsPage.jsx:132
+#: src/components/vm/vmDetailsPage.jsx:122
 msgid "Usage"
 msgstr "Využitie"
 
@@ -3095,7 +3190,7 @@ msgid ""
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:255
 #, fuzzy
 #| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
@@ -3109,28 +3204,22 @@ msgstr "Stav virt. stroja"
 msgid "VM will launch with root permissions"
 msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:53
-msgid "VNC TLS port"
-msgstr "VNC TLS port"
+#: src/components/common/needsShutdown.tsx:202
+msgid "VNC"
+msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:49
-msgid "VNC address"
-msgstr "VNC adresa"
-
-#: src/components/vm/consoles/consoles.jsx:130
-msgid "VNC console"
-msgstr "VNC konzola"
-
-#: src/components/vm/consoles/desktopConsole.jsx:51
-msgid "VNC port"
-msgstr "VNC port"
+#: src/components/vm/consoles/vnc.jsx:122
+#, fuzzy
+#| msgid "Disk settings could not be saved"
+msgid "VNC settings could not be saved"
+msgstr "Nastavenia disku nebolo možné uložiť"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.tsx:152
+#: src/components/vm/overview/bootOrder.tsx:167
 #: src/components/vm/hostdevs/hostDevCard.tsx:219
 #: src/components/vm/hostdevs/hostDevCard.tsx:251
 #: src/components/vm/hostdevs/hostDevCard.tsx:257
@@ -3146,8 +3235,7 @@ msgstr ""
 #: src/components/networks/networkList.tsx:57
 #: src/components/vms/hostvmslist.tsx:196
 #: src/components/vms/hostvmslist.tsx:198
-#: src/components/vm/vmDetailsPage.jsx:95
-#: src/components/vm/vmDetailsPage.jsx:248 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:230 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Virtuálne stroje"
 
@@ -3163,7 +3251,7 @@ msgstr "Virtuálna sieť"
 msgid "Virtual network failed to be created"
 msgstr "Vytvorenie virtuálnej siete sa nepodarilo"
 
-#: src/components/vm/overview/helpers.jsx:28
+#: src/components/vm/overview/helpers.tsx:30
 msgid ""
 "Virtual socket support enables communication between the host and guest over "
 "a socket. It still requires special vsock-aware software to communicate over "
@@ -3178,7 +3266,7 @@ msgstr "Virtualizačná služba (libvirt) nie je aktívna"
 #: src/components/vm/disks/diskAdd.tsx:160
 #: src/components/vm/disks/vmDiskColumns.tsx:51
 #: src/components/vm/disks/mediaEject.tsx:102
-#: src/components/vm/overview/bootOrder.jsx:102
+#: src/components/vm/overview/bootOrder.tsx:122
 #: src/components/vm/deleteDialog.jsx:65
 msgid "Volume"
 msgstr "Zväzok"
@@ -3195,21 +3283,21 @@ msgstr "Názov skupiny zväzkov"
 msgid "Volume group name should not be empty"
 msgstr "Je potrebné vyplniť názov skupiny zväzkov"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:214
+#: src/components/vm/overview/vmOverviewCard.tsx:233
 msgid "Vsock"
 msgstr ""
 
-#: src/components/vm/overview/bootOrder.jsx:162
+#: src/components/vm/overview/bootOrder.tsx:182
 #: src/components/vm/hostdevs/hostDevCard.tsx:120
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:149
-#: src/components/vm/overview/vmOverviewCard.jsx:200
+#: src/components/common/needsShutdown.tsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:219
 msgid "Watchdog"
 msgstr ""
 
-#: src/components/vm/overview/helpers.jsx:27
+#: src/components/vm/overview/helpers.tsx:29
 msgid ""
 "Watchdogs act when systems stop responding. To use this virtual watchdog "
 "device, the guest system also needs to have an additional driver and a "
@@ -3234,8 +3322,8 @@ msgstr ""
 msgid "active"
 msgstr "Aktívny"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/watchdog.tsx:274
 #, fuzzy
 #| msgid "Add"
 msgid "add"
@@ -3253,7 +3341,7 @@ msgstr "most"
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.tsx:324
 msgid "custom"
 msgstr "lastné"
 
@@ -3273,11 +3361,11 @@ msgstr "disk"
 msgid "down"
 msgstr "vypnuté"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/bootOrder.jsx:361
-#: src/components/vm/overview/vmOverviewCard.jsx:117
-#: src/components/vm/overview/vmOverviewCard.jsx:125
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/bootOrder.tsx:399
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/vmOverviewCard.tsx:136
+#: src/components/vm/overview/vmOverviewCard.tsx:144
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "edit"
 msgstr "upraviť"
 
@@ -3353,11 +3441,11 @@ msgid "more info"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.jsx:206
+#: src/components/vm/vmDetailsPage.jsx:186
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.jsx:205
+#: src/components/vm/vmDetailsPage.jsx:185
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
@@ -3376,8 +3464,8 @@ msgid "no state saved"
 msgstr "žiaden uložený stav"
 
 #: src/components/networks/networkOverviewTab.tsx:327
-#: src/components/vm/overview/vsock.jsx:270
-#: src/components/vm/overview/watchdog.jsx:250
+#: src/components/vm/overview/vsock.tsx:299
+#: src/components/vm/overview/watchdog.tsx:270
 msgid "none"
 msgstr ""
 
@@ -3423,23 +3511,23 @@ msgstr "spustené"
 msgid "user"
 msgstr "užívateľ"
 
-#: src/components/vm/overview/cpuModal.jsx:195
+#: src/components/vm/overview/cpuModal.tsx:208
 #, fuzzy
 #| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
 msgstr "Nastavenia virt. procesoru nebolo možné uložiť"
 
-#: src/components/vm/overview/cpuModal.jsx:246
-#: src/components/vm/overview/cpuModal.jsx:256
+#: src/components/vm/overview/cpuModal.tsx:259
+#: src/components/vm/overview/cpuModal.tsx:269
 msgid "vCPU count"
 msgstr "Počet virt. procesorov"
 
-#: src/components/vm/overview/cpuModal.jsx:226
-#: src/components/vm/overview/cpuModal.jsx:238
+#: src/components/vm/overview/cpuModal.tsx:239
+#: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
 msgstr "Maximum virt. procesorov"
 
-#: src/components/common/needsShutdown.tsx:141
+#: src/components/common/needsShutdown.tsx:186
 msgid "vCPUs"
 msgstr "virt. procesory"
 
@@ -3467,7 +3555,7 @@ msgstr ""
 "Balík virt-install musí byť nainštalovaný aby bolo možné vytvárať nové "
 "virtuálne stroje"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:131
+#: src/components/vm/overview/vmOverviewCard.tsx:150
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
@@ -3479,7 +3567,7 @@ msgstr ""
 msgid "vm"
 msgstr "virt. stroj"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:218
+#: src/components/vm/overview/vmOverviewCard.tsx:237
 msgid "vsock requires special software"
 msgstr ""
 
@@ -3488,6 +3576,41 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:126
 msgid "yes"
 msgstr "áno"
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgid "Connecting"
+#~ msgstr "Spojenie"
+
+#~ msgid "No connection available"
+#~ msgstr "Nie je k dispozícií žiadne pripojenie"
+
+#~ msgid "SPICE TLS port"
+#~ msgstr "SPICE TLS port"
+
+#~ msgid "SPICE address"
+#~ msgstr "SPICE adresa"
+
+#~ msgid "SPICE port"
+#~ msgstr "SPICE port"
+
+#~ msgid "Select console type"
+#~ msgstr "Vybrať typ konzole"
+
+#~ msgid "Type ID"
+#~ msgstr "Iden. typu"
+
+#~ msgid "VNC TLS port"
+#~ msgstr "VNC TLS port"
+
+#~ msgid "VNC address"
+#~ msgstr "VNC adresa"
+
+#~ msgid "VNC console"
+#~ msgstr "VNC konzola"
+
+#~ msgid "VNC port"
+#~ msgstr "VNC port"
 
 #, fuzzy
 #~| msgid "bridge"
@@ -3724,9 +3847,6 @@ msgstr "áno"
 
 #~ msgid "Handheld"
 #~ msgstr "Pre držanie do ruky"
-
-#~ msgid "Hours must be a number between 0 and 23"
-#~ msgstr "Hodiny musia byť čísla medzi 0 a 23"
 
 #~ msgid "IPv4 network"
 #~ msgstr "IPv4 sieť"

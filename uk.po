@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-16 03:48+0000\n"
+"POT-Creation-Date: 2025-07-18 03:50+0000\n"
 "PO-Revision-Date: 2025-07-01 04:07+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -31,7 +31,7 @@ msgstr "$0 $1 доступно у типовому місці"
 msgid "$0 $1 available on host"
 msgstr "$0 $1 доступно в основній системі"
 
-#: src/components/vm/overview/cpuModal.jsx:321
+#: src/components/vm/overview/cpuModal.tsx:334
 msgid "$0 CPU details"
 msgstr "Подробиці щодо процесора $0"
 
@@ -53,16 +53,7 @@ msgstr[2] "$0 буферів сховищ"
 msgid "$0 does not support unattended installation."
 msgstr "Для $0 не передбачено підтримки автоматичного встановлення."
 
-#: src/components/vm/consoles/desktopConsole.jsx:61
-msgid ""
-"$0 is available for most operating systems. To install it, search for it in "
-"GNOME Software or run the following:"
-msgstr ""
-"$0 можна користуватися у більшості операційних систем. Щоб встановити "
-"пакунок із програмою, знайдіть відповідний запис у Програмних засобах GNOME "
-"або віддайте таку команду:"
-
-#: src/components/vm/overview/memoryModal.jsx:154
+#: src/components/vm/overview/memoryModal.tsx:194
 msgid "$0 memory adjustment"
 msgstr "Коригування пам'яті $0"
 
@@ -70,7 +61,7 @@ msgstr "Коригування пам'яті $0"
 msgid "$0 network"
 msgstr "Мережа $0"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:140
+#: src/components/vm/overview/vmOverviewCard.tsx:159
 #: src/components/vm/vmUsageCard.jsx:42
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
@@ -95,7 +86,7 @@ msgstr ""
 msgid "Access"
 msgstr "Доступ"
 
-#: src/components/vm/overview/watchdog.jsx:183
+#: src/components/vm/overview/watchdog.tsx:203
 msgid "Action"
 msgstr "Дія"
 
@@ -119,8 +110,8 @@ msgstr "Активувати буфер зберігання даних для �
 
 #: src/components/networks/networkOverviewTab.tsx:281
 #: src/components/vm/disks/diskAdd.tsx:968
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:265
 msgid "Add"
@@ -133,6 +124,10 @@ msgstr "Додати ключі SSH"
 #: src/components/vm/vmActions.jsx:483
 msgid "Add TPM"
 msgstr "Додати TPM"
+
+#: src/components/vm/consoles/vnc.jsx:468
+msgid "Add VNC"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -152,6 +147,12 @@ msgstr "Додати пристрій основної системи"
 msgid "Add network interface"
 msgstr "Додати інтерфейс мережі"
 
+#: src/components/vm/consoles/serial.jsx:163
+#, fuzzy
+#| msgid "Serial console"
+msgid "Add serial console"
+msgstr "Послідовна консоль"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
 msgstr "Додати спільний каталог"
@@ -160,15 +161,15 @@ msgstr "Додати спільний каталог"
 msgid "Add virtual network interface"
 msgstr "Додати інтерфейс віртуальної мережі"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 msgid "Add vsock interface"
 msgstr "Додати інтерфейс vsock"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Add watchdog device type"
 msgstr "Додати тип пристрою нагляду"
 
-#: src/components/vm/overview/watchdog.jsx:109
+#: src/components/vm/overview/watchdog.tsx:128
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 "Для набуття чинності додавання засобу спостереження систему слід "
@@ -185,7 +186,6 @@ msgstr "Додаткові"
 
 #: src/components/networks/networkOverviewTab.tsx:153
 #: src/components/networks/networkOverviewTab.tsx:173
-#: src/components/vm/consoles/desktopConsole.jsx:47
 #: src/components/vm/nics/vmNicsCard.tsx:205
 msgid "Address"
 msgstr "Адреса"
@@ -227,19 +227,19 @@ msgstr "Також вилучити усі томи у цьому буфері:"
 msgid "Always attach"
 msgstr "Завжди долучати"
 
-#: src/components/vm/overview/helpers.jsx:29
+#: src/components/vm/overview/helpers.tsx:31
 msgid "An example of vsock-aware software is socat"
 msgstr "Прикладом сумісного з vsock програмного забезпечення є socat"
 
-#: src/components/vm/overview/cpuModal.jsx:327
+#: src/components/vm/overview/cpuModal.tsx:340
 msgid "Apply"
 msgstr "Застосувати"
 
-#: src/components/vm/overview/watchdog.jsx:205
+#: src/components/vm/overview/watchdog.tsx:226
 msgid "Apply on next boot"
 msgstr "Застосувати під час наступного завантаження"
 
-#: src/components/vm/overview/vsock.jsx:47
+#: src/components/vm/overview/vsock.tsx:49
 msgid "Assign automatically"
 msgstr "Призначити автоматично"
 
@@ -261,7 +261,7 @@ msgstr "Автоматизація"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:73
 #: src/components/networks/networkOverviewTab.tsx:130
-#: src/components/vm/overview/vmOverviewCard.jsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:213
 msgid "Autostart"
 msgstr "Автозапуск"
 
@@ -273,22 +273,22 @@ msgstr "Блоковий пристрій"
 msgid "Blocked"
 msgstr "Заблоковано"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:187
+#: src/components/vm/overview/vmOverviewCard.tsx:206
 msgid "Boot order"
 msgstr "Порядок завантаження"
 
-#: src/components/vm/overview/bootOrder.jsx:244
+#: src/components/vm/overview/bootOrder.tsx:284
 msgid "Boot order settings could not be saved"
 msgstr "Не вдалося зберегти параметри порядку завантаження"
 
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/disks/vmDisksCard.tsx:221
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/overview/bootOrder.jsx:107
-#: src/components/vm/overview/bootOrder.jsx:119
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:140
-#: src/components/vm/overview/bootOrder.jsx:154
+#: src/components/vm/overview/bootOrder.tsx:127
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:160
+#: src/components/vm/overview/bootOrder.tsx:174
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
@@ -300,13 +300,13 @@ msgstr "Канал"
 msgid "CD/DVD disc"
 msgstr "Диск CD/DVD"
 
-#: src/components/common/needsShutdown.tsx:145
-#: src/components/vm/overview/vmOverviewCard.jsx:182
+#: src/components/common/needsShutdown.tsx:190
+#: src/components/vm/overview/vmOverviewCard.tsx:201
 #: src/components/vm/vmUsageCard.jsx:61
 msgid "CPU"
 msgstr "Процесор"
 
-#: src/components/vm/overview/cpuModal.jsx:208
+#: src/components/vm/overview/cpuModal.tsx:221
 msgid "CPU mode could not be saved"
 msgstr "Не вдалося зберегти режим процесора"
 
@@ -326,17 +326,18 @@ msgstr "Кеш"
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/confirmDialog.jsx:56
+#: src/components/vm/consoles/vnc.jsx:146
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:263
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
 #: src/components/vm/disks/diskEdit.tsx:341
-#: src/components/vm/overview/firmware.jsx:101
-#: src/components/vm/overview/memoryModal.jsx:164
-#: src/components/vm/overview/vsock.jsx:243
-#: src/components/vm/overview/cpuModal.jsx:330
-#: src/components/vm/overview/bootOrder.jsx:323
-#: src/components/vm/overview/watchdog.jsx:216
-#: src/components/vm/vmReplaceSpiceDialog.jsx:160
+#: src/components/vm/overview/bootOrder.tsx:368
+#: src/components/vm/overview/cpuModal.tsx:343
+#: src/components/vm/overview/memoryModal.tsx:209
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/firmware.tsx:120
+#: src/components/vm/overview/watchdog.tsx:237
+#: src/components/vm/vmReplaceSpiceDialog.jsx:163
 #: src/components/vm/vmEditDescriptionDialog.jsx:79
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:140
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:362
@@ -347,11 +348,11 @@ msgstr "Кеш"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: src/components/vm/overview/vsock.jsx:201
+#: src/components/vm/overview/vsock.tsx:230
 msgid "Cannot edit vsock device on a transient VM"
 msgstr "Не можна редагувати пристрій vsock на проміжній ВМ"
 
-#: src/components/vm/overview/watchdog.jsx:163
+#: src/components/vm/overview/watchdog.tsx:183
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Не можна редагувати пристрій watchdog на проміжній ВМ"
 
@@ -359,15 +360,15 @@ msgstr "Не можна редагувати пристрій watchdog на пр
 msgid "Capacity"
 msgstr "Місткість"
 
-#: src/components/vm/overview/bootOrder.jsx:313
+#: src/components/vm/overview/bootOrder.tsx:353
 msgid "Change boot order"
 msgstr "Змінити порядок завантаження"
 
-#: src/components/vm/overview/firmware.jsx:80
+#: src/components/vm/overview/firmware.tsx:94
 msgid "Change firmware"
 msgstr "Змінити мікропрограму"
 
-#: src/components/common/needsShutdown.tsx:212
+#: src/components/common/needsShutdown.tsx:265
 msgid "Changes pending"
 msgstr "Зміни у черзі"
 
@@ -400,9 +401,13 @@ msgstr "Виберіть операційну систему"
 msgid "Class"
 msgstr "Клас"
 
-#: src/components/vm/consoles/desktopConsole.jsx:58
+#: src/components/vm/consoles/common.jsx:76
+#, fuzzy
+#| msgid ""
+#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
-"Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
+"Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
+"Viewer application on your system."
 msgstr ""
 "У результаті натискання «Запустити віддалений переглядач» буде отримано "
 "файл .vv і запущено $0."
@@ -423,6 +428,10 @@ msgstr "Базовий образ хмари"
 msgid "Cockpit Project"
 msgstr "Проєкт Cockpit"
 
+#: src/components/vm/consoles/consoles.jsx:226
+msgid "Compress"
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
 msgstr "Придатний до паралельного запису"
@@ -431,30 +440,22 @@ msgstr "Придатний до паралельного запису"
 msgid "Confirm this action"
 msgstr "Підтвердьте цю дію"
 
+#: src/components/vm/consoles/serial.jsx:96
+#: src/components/vm/consoles/vnc.jsx:411
 #: src/components/vm/consoles/serialConsole.jsx:95
 msgid "Connect"
 msgstr "З'єднатися"
-
-#: src/components/vm/consoles/desktopConsole.jsx:46
-msgid "Connect with any viewer application for following protocols"
-msgstr ""
-"З’єднатися із будь-якою програмою перегляду для вказаних нижче протоколів"
-
-#: src/components/vm/consoles/vnc.jsx:192
-msgid "Connecting"
-msgstr "З'єднання"
 
 #: src/components/common/machinesConnectionSelector.tsx:54
 #: src/components/storagePools/storagePoolList.tsx:78
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/vms/hostvmslist.tsx:202
-#: src/components/vm/overview/vmOverviewCard.jsx:158
+#: src/components/vm/overview/vmOverviewCard.tsx:177
 msgid "Connection"
 msgstr "З’єднання"
 
-#: src/components/vm/vmDetailsPage.jsx:101
-#: src/components/vm/vmDetailsPage.jsx:139
+#: src/components/vm/consoles/consoles.jsx:238
 msgid "Console"
 msgstr "Консоль"
 
@@ -471,7 +472,11 @@ msgstr "Перетворити графічну консоль SPICE на VNC"
 msgid "Copy storage"
 msgstr "Копіювати сховище даних"
 
-#: src/components/vm/overview/cpuModal.jsx:275
+#: src/components/vm/consoles/common.jsx:114
+msgid "Copy to clipboard"
+msgstr "Копіювати до буфера"
+
+#: src/components/vm/overview/cpuModal.tsx:288
 msgid "Cores per socket"
 msgstr "Кількість ядер на сокет"
 
@@ -487,7 +492,7 @@ msgstr "Не вдалося вилучити усе сховище для $0"
 msgid "Could not delete disk's storage"
 msgstr "Не вдалося вилучити сховище даних диска"
 
-#: src/components/vm/overview/watchdog.jsx:108
+#: src/components/vm/overview/watchdog.tsx:127
 msgid "Could not dynamically add watchdog"
 msgstr "Не вдалося динамічно додати засіб спостереження"
 
@@ -594,7 +599,7 @@ msgstr "Не вдалося створити ВМ $0"
 msgid "Creation time"
 msgstr "Час створення"
 
-#: src/components/vm/consoles/vnc.jsx:152
+#: src/components/vm/consoles/vnc.jsx:236
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -602,15 +607,15 @@ msgstr "Ctrl+Alt+$0"
 msgid "Current"
 msgstr "Поточне"
 
-#: src/components/vm/overview/memoryModal.jsx:131
+#: src/components/vm/overview/memoryModal.tsx:171
 msgid "Current allocation"
 msgstr "Поточне отримання"
 
-#: src/components/vm/overview/firmware.jsx:134
+#: src/components/vm/overview/firmware.tsx:159
 msgid "Custom firmware: $0"
 msgstr "Нетипова мікропрограма: $0"
 
-#: src/components/vm/overview/vsock.jsx:158
+#: src/components/vm/overview/vsock.tsx:187
 msgid "Custom identifier"
 msgstr "Нетиповий ідентифікатор"
 
@@ -691,10 +696,6 @@ msgstr "Опис"
 msgid "Deselect others"
 msgstr "Скасувати позначення інших"
 
-#: src/components/vm/consoles/consoles.jsx:131
-msgid "Desktop viewer"
-msgstr "Стільничний переглядач"
-
 #: src/components/vm/vmMigrateDialog.jsx:49
 msgid "Destination URI"
 msgstr "Адреса призначення"
@@ -718,10 +719,10 @@ msgstr "Подробиці"
 #: src/components/networks/createNetworkDialog.tsx:231
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/disks/vmDisksCard.tsx:207
-#: src/components/vm/overview/bootOrder.jsx:99
-#: src/components/vm/overview/bootOrder.jsx:106
-#: src/components/vm/overview/bootOrder.jsx:138
-#: src/components/vm/overview/bootOrder.jsx:141
+#: src/components/vm/overview/bootOrder.tsx:119
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:161
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
 #: src/components/vm/hostdevs/hostDevAdd.tsx:115
@@ -733,12 +734,13 @@ msgstr "Пристрій"
 msgid "Devices"
 msgstr "Пристрої"
 
-#: src/components/vm/consoles/vnc.jsx:194
+#: src/components/vm/consoles/consoles.jsx:211
 #: src/components/vm/consoles/serialConsole.jsx:94
 msgid "Disconnect"
 msgstr "Від’єднатися"
 
-#: src/components/vm/consoles/vnc.jsx:193
+#: src/components/vm/consoles/serial.jsx:93
+#: src/components/vm/consoles/vnc.jsx:408
 msgid "Disconnected"
 msgstr "Від'єднано"
 
@@ -746,7 +748,7 @@ msgstr "Від'єднано"
 msgid "Disconnected from serial console. Click the connect button."
 msgstr "Від'єднано від послідовної консолі. Натисніть кнопку «З'єднатися»."
 
-#: src/components/common/needsShutdown.tsx:123
+#: src/components/common/needsShutdown.tsx:168
 msgid "Disk"
 msgstr "Диск"
 
@@ -786,7 +788,7 @@ msgstr "Не вдалося зберегти параметри диска"
 msgid "Disk-only snapshot"
 msgstr "Знімок лише на диску"
 
-#: src/components/vm/vmDetailsPage.jsx:156
+#: src/components/vm/vmDetailsPage.jsx:136
 msgid "Disks"
 msgstr "Диски"
 
@@ -817,6 +819,12 @@ msgstr "Отримати операційну систему"
 msgid "Download progress"
 msgstr "Поступ отримання"
 
+#: src/components/vm/consoles/common.jsx:101
+#, fuzzy
+#| msgid "Downloading image for VM $0"
+msgid "Download the MSI from $0"
+msgstr "Отримуємо образ для ВМ $0"
+
 #: src/app.jsx:287
 msgid "Downloading image for VM $0"
 msgstr "Отримуємо образ для ВМ $0"
@@ -846,6 +854,13 @@ msgstr "Змінити"
 msgid "Edit $0 attributes"
 msgstr "Редагувати атрибути $0"
 
+#: src/components/vm/consoles/vnc.jsx:132
+#: src/components/vm/consoles/vnc.jsx:283
+#, fuzzy
+#| msgid "DHCP Settings"
+msgid "Edit VNC settings"
+msgstr "Параметри DHCP"
+
 #: src/components/vm/vmActions.jsx:470
 msgid "Edit description"
 msgstr "Редагувати опис"
@@ -854,11 +869,11 @@ msgstr "Редагувати опис"
 msgid "Edit description of VM $0"
 msgstr "Редагувати опис ВМ $0"
 
-#: src/components/vm/overview/vsock.jsx:213
+#: src/components/vm/overview/vsock.tsx:242
 msgid "Edit vsock interface"
 msgstr "Редагувати інтерфейс vsock"
 
-#: src/components/vm/overview/watchdog.jsx:175
+#: src/components/vm/overview/watchdog.tsx:195
 msgid "Edit watchdog device type"
 msgstr "Змінити тип пристрою нагляду"
 
@@ -879,7 +894,7 @@ msgstr "Виштовхнути"
 msgid "Eject disc from VM?"
 msgstr "Виштовхнути диск з ВМ?"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:242
+#: src/components/vm/overview/vmOverviewCard.tsx:261
 msgid "Emulated machine"
 msgstr "Емульована машина"
 
@@ -913,7 +928,7 @@ msgstr "Приклад, $0"
 msgid "Existing disk image on host's file system"
 msgstr "Наявний образ диска у файловій системі основної системи"
 
-#: src/components/vm/vmDetailsPage.jsx:147
+#: src/components/vm/consoles/consoles.jsx:226
 msgid "Expand"
 msgstr "Розгорнути"
 
@@ -929,11 +944,23 @@ msgstr "Помилка"
 msgid "Failed to add TPM to VM $0"
 msgstr "Не вдалося додати TPM до ВМ $0"
 
+#: src/components/vm/consoles/vnc.jsx:448
+#, fuzzy
+#| msgid "Failed to add TPM to VM $0"
+msgid "Failed to add VNC to VM $0"
+msgstr "Не вдалося додати TPM до ВМ $0"
+
+#: src/components/vm/consoles/serial.jsx:143
+#, fuzzy
+#| msgid "Failed to add TPM to VM $0"
+msgid "Failed to add serial console to VM $0"
+msgstr "Не вдалося додати TPM до ВМ $0"
+
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 msgid "Failed to add shared directory"
 msgstr "Не вдалося додати спільний каталог"
 
-#: src/components/vm/overview/firmware.jsx:72
+#: src/components/vm/overview/firmware.tsx:86
 msgid "Failed to change firmware"
 msgstr "Не вдалося змінити мікропрограму"
 
@@ -941,19 +968,19 @@ msgstr "Не вдалося змінити мікропрограму"
 msgid "Failed to clone VM $0"
 msgstr "Не вдалося клонувати ВМ $0"
 
-#: src/components/vm/overview/vsock.jsx:128
+#: src/components/vm/overview/vsock.tsx:157
 msgid "Failed to configure vsock"
 msgstr "Не вдалося налаштувати vsock"
 
-#: src/components/vm/overview/watchdog.jsx:90
+#: src/components/vm/overview/watchdog.tsx:109
 msgid "Failed to configure watchdog"
 msgstr "Не вдалося налаштувати спостереження"
 
-#: src/components/vm/overview/vsock.jsx:140
+#: src/components/vm/overview/vsock.tsx:169
 msgid "Failed to detach vsock"
 msgstr "Не вдалося від'єднати vsock"
 
-#: src/components/vm/overview/watchdog.jsx:137
+#: src/components/vm/overview/watchdog.tsx:157
 msgid "Failed to detach watchdog"
 msgstr "Не вдалося від'єднати спостереження"
 
@@ -977,7 +1004,7 @@ msgstr "Не вдалося замінити пристрої SPICE"
 msgid "Failed to save network settings"
 msgstr "Не вдалося зберегти параметри мережі"
 
-#: src/components/vm/consoles/vnc.jsx:147
+#: src/components/vm/consoles/vnc.jsx:231
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Не вдалося надіслати комбінацію клавіш Ctrl+Alt+$0 до ВМ $1"
 
@@ -985,13 +1012,13 @@ msgstr "Не вдалося надіслати комбінацію клавіш
 msgid "Failed to set description of VM $0"
 msgstr "Не вдалося встановити опис ВМ $0"
 
-#: src/components/vm/overview/cpuModal.jsx:248
+#: src/components/vm/overview/cpuModal.tsx:261
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
 msgstr ""
 "Має бути увімкнено менше за максимальну кількість віртуальних процесорів."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:47
-#: src/components/vm/overview/bootOrder.jsx:98
+#: src/components/vm/overview/bootOrder.tsx:118
 msgid "File"
 msgstr "Файл"
 
@@ -1007,8 +1034,8 @@ msgstr "Каталог файлової системи"
 msgid "Filter by name"
 msgstr "Фільтрувати за назвою"
 
-#: src/components/vm/overview/firmware.jsx:84
-#: src/components/vm/overview/vmOverviewCard.jsx:248
+#: src/components/vm/overview/vmOverviewCard.tsx:267
+#: src/components/vm/overview/firmware.tsx:103
 msgid "Firmware"
 msgstr "Мікропрограма"
 
@@ -1061,7 +1088,7 @@ msgstr ""
 "сховища даних після перенесення лишатиметься у початковій системі."
 
 #: src/components/networks/networkOverviewTab.tsx:121
-#: src/components/vm/overview/vmOverviewCard.jsx:154
+#: src/components/vm/overview/vmOverviewCard.tsx:173
 msgid "General"
 msgstr "Загальний"
 
@@ -1077,7 +1104,7 @@ msgstr "Отримати новий жетон RHSM."
 #: src/components/create-vm-dialog/createVmDialog.jsx:1019
 #: src/components/storagePools/storageVolumeCreateBody.tsx:152
 #: src/components/vm/disks/vmDisksCard.tsx:53
-#: src/components/vm/overview/memorySelectRow.jsx:89
+#: src/components/vm/overview/memorySelectRow.tsx:108
 msgid "GiB"
 msgstr "ГіБ"
 
@@ -1093,6 +1120,14 @@ msgstr "Чудовий вибір для стільничної віртуалі
 msgid "Gracefully shutdown"
 msgstr "Штатно вимкнути"
 
+#: src/components/vm/consoles/consoles.jsx:107
+msgid "Graphical"
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:458
+msgid "Graphical console support not enabled"
+msgstr ""
+
 #: src/app.jsx:119
 msgid "Hardware virtualization is disabled"
 msgstr "Апаратну віртуалізацію вимкнено"
@@ -1105,7 +1140,7 @@ msgstr "Приховати додаткові параметри"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
 #: src/components/vm/disks/vmDiskColumns.tsx:52
-#: src/components/vm/overview/bootOrder.jsx:103
+#: src/components/vm/overview/bootOrder.tsx:123
 msgid "Host"
 msgstr "Вузол"
 
@@ -1121,7 +1156,7 @@ msgstr "Не вдалося долучити пристрій основної �
 msgid "Host device will be removed from $0:"
 msgstr "Пристрій основної буде вилучено з $0:"
 
-#: src/components/vm/vmDetailsPage.jsx:174
+#: src/components/vm/vmDetailsPage.jsx:154
 msgid "Host devices"
 msgstr "Пристрої основної системи"
 
@@ -1133,7 +1168,7 @@ msgstr "Назва вузла"
 msgid "Host should not be empty"
 msgstr "Вузол не повинен бути порожнім"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:238
+#: src/components/vm/overview/vmOverviewCard.tsx:257
 msgid "Hypervisor details"
 msgstr "Докладніше про гіпервізор"
 
@@ -1208,7 +1243,7 @@ msgstr "Ідеальний для серверних ВМ"
 msgid "Ideal networking support"
 msgstr "Ідеальна підтримка роботи у мережі"
 
-#: src/components/vm/overview/vsock.jsx:69
+#: src/components/vm/overview/vsock.tsx:77
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
@@ -1277,7 +1312,7 @@ msgstr "Вставити"
 msgid "Insert disc media"
 msgstr "Вставте дисковий носій даних"
 
-#: src/components/vm/overview/helpers.jsx:39
+#: src/components/vm/overview/helpers.tsx:41
 msgid "Inside the VM"
 msgstr "Всередині ВМ"
 
@@ -1337,6 +1372,12 @@ msgstr "Некоректна назва файла"
 msgid "Isolated network"
 msgstr "Ізольована мережа"
 
+#: src/components/vm/vmReplaceSpiceDialog.jsx:149
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr "Ключі зберігаються у ~/.ssh/ і мають суфікс назви «.pub»."
@@ -1345,8 +1386,10 @@ msgstr "Ключі зберігаються у ~/.ssh/ і мають суфік�
 msgid "LVM volume group"
 msgstr "Група томів LVM"
 
-#: src/components/vm/consoles/desktopConsole.jsx:54
-msgid "Launch remote viewer"
+#: src/components/vm/consoles/common.jsx:166
+#, fuzzy
+#| msgid "Launch remote viewer"
+msgid "Launch viewer"
 msgstr "Запустити віддалений переглядач"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
@@ -1367,14 +1410,14 @@ msgstr ""
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr "Не заповнюйте поле пароля, якщо ви не хочете встановлювати пароль root"
 
-#: src/components/vm/overview/firmware.jsx:178
+#: src/components/vm/overview/firmware.tsx:203
 msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr ""
 "Libvirt не вдалося виявити жодного образу мікропрограми UEFI/OVMF, "
 "встановлено у основній системі"
 
-#: src/components/vm/overview/firmware.jsx:172
+#: src/components/vm/overview/firmware.tsx:197
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "У libvirt або гіпервізорі не передбачено підтримки UEFI"
 
@@ -1386,6 +1429,7 @@ msgstr "Завантажуємо доступні мережеві пристр�
 msgid "Loading resources"
 msgstr "Завантаження ресурсів"
 
+#: src/components/vm/consoles/serial.jsx:102
 #: src/components/vm/consoles/serialConsole.jsx:77
 msgid "Loading..."
 msgstr "Завантаження…"
@@ -1401,7 +1445,7 @@ msgid "Location"
 msgstr "Адреса"
 
 #: src/components/networks/networkOverviewTab.tsx:79
-#: src/components/vm/overview/bootOrder.jsx:113
+#: src/components/vm/overview/bootOrder.tsx:133
 msgid "MAC"
 msgstr "MAC"
 
@@ -1439,10 +1483,6 @@ msgstr "Керування вашими віртуальними машинам�
 msgid "Managing virtual machines"
 msgstr "Керування віртуальними машинами"
 
-#: src/components/vm/consoles/desktopConsole.jsx:44
-msgid "Manual connection"
-msgstr "З’єднання вручну"
-
 #: src/components/networks/createNetworkDialog.tsx:357
 msgid "Mask or prefix length"
 msgstr "Довжина маски або префікса"
@@ -1451,21 +1491,21 @@ msgstr "Довжина маски або префікса"
 msgid "Mask or prefix length should not be empty"
 msgstr "Довжина маски або префікса повинна бути непорожньою"
 
-#: src/components/vm/overview/memoryModal.jsx:140
+#: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
 msgstr "Максимальне отримання"
 
-#: src/components/vm/overview/memoryModal.jsx:105
+#: src/components/vm/overview/memoryModal.tsx:145
 msgid "Maximum memory could not be saved"
 msgstr "Не вдалося зберегти дані щодо максимального обсягу пам'яті"
 
-#: src/components/vm/overview/cpuModal.jsx:230
+#: src/components/vm/overview/cpuModal.tsx:243
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
 "Максимальна кількість віртуальних процесорів, наданих для гостьової "
 "операційної системи"
 
-#: src/components/vm/overview/cpuModal.jsx:229
+#: src/components/vm/overview/cpuModal.tsx:242
 msgid ""
 "Maximum number of virtual CPUs allocated for the guest OS, which must be "
 "between 1 and $0"
@@ -1486,13 +1526,13 @@ msgid "Media will be ejected from $0:"
 msgstr "Носій даних буде виштовхнуто з $0:"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:897
-#: src/components/vm/overview/vmOverviewCard.jsx:177
+#: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/vm/vmUsageCard.jsx:53
 msgid "Memory"
 msgstr "Пам'ять"
 
-#: src/components/vm/overview/memoryModal.jsx:102
-#: src/components/vm/overview/memoryModal.jsx:118
+#: src/components/vm/overview/memoryModal.tsx:142
+#: src/components/vm/overview/memoryModal.tsx:158
 msgid "Memory could not be saved"
 msgstr "Не вдалося зберегти дані щодо обсягу пам'яті"
 
@@ -1515,7 +1555,7 @@ msgstr "Шлях до стану пам'яті"
 #: src/components/create-vm-dialog/createVmDialog.jsx:910
 #: src/components/create-vm-dialog/createVmDialog.jsx:1017
 #: src/components/storagePools/storageVolumeCreateBody.tsx:150
-#: src/components/vm/overview/memorySelectRow.jsx:87
+#: src/components/vm/overview/memorySelectRow.tsx:106
 msgid "MiB"
 msgstr "МіБ"
 
@@ -1532,8 +1572,8 @@ msgstr "Перенести ВМ на іншу основну систему"
 msgid "Migration failed"
 msgstr "Помилка під час перенесення"
 
-#: src/components/vm/overview/cpuModal.jsx:293
-#: src/components/vm/overview/cpuModal.jsx:295
+#: src/components/vm/overview/cpuModal.tsx:306
+#: src/components/vm/overview/cpuModal.tsx:308
 #: src/components/vm/nics/vmNicsCard.tsx:190
 #: src/components/vm/nics/nicBody.tsx:227
 msgid "Mode"
@@ -1647,7 +1687,7 @@ msgstr "Мережеве завантаження (PXE)"
 msgid "Network file system"
 msgstr "Мережева файлова система"
 
-#: src/components/common/needsShutdown.tsx:134
+#: src/components/common/needsShutdown.tsx:179
 msgid "Network interface"
 msgstr "Інтерфейс мережі"
 
@@ -1663,7 +1703,7 @@ msgstr "Інтерфейс мережі $0 буде вилучено з $1"
 msgid "Network interface settings could not be saved"
 msgstr "Не вдалося зберегти параметри інтерфейсу мережі"
 
-#: src/components/vm/vmDetailsPage.jsx:165
+#: src/components/vm/vmDetailsPage.jsx:145
 msgid "Network interfaces"
 msgstr "Інтерфейси мережі"
 
@@ -1697,13 +1737,9 @@ msgstr "Не вказано ключів SSH"
 msgid "No VM is running or defined on this host"
 msgstr "У цій основній системі не запущено або не визначено віртуальних машин"
 
-#: src/components/vm/overview/bootOrder.jsx:342
+#: src/components/vm/overview/bootOrder.tsx:380
 msgid "No boot device found"
 msgstr "Не знайдено пристрою для завантаження"
-
-#: src/components/vm/consoles/desktopConsole.jsx:45
-msgid "No connection available"
-msgstr "Немає доступних з'єднань"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:141
 msgid "No description"
@@ -1812,7 +1848,7 @@ msgstr "Автономний жетон не може бути порожнім"
 msgid "Old token expired"
 msgstr "Термін дії старого жетона сплив"
 
-#: src/components/vm/overview/helpers.jsx:33
+#: src/components/vm/overview/helpers.tsx:35
 msgid "On the host"
 msgstr "На основній системі"
 
@@ -1824,8 +1860,8 @@ msgstr ""
 "Один або декілька позначених томів використовуються доменами. Щоб уможливити "
 "вилучення цих томів, спочатку від'єднайте диски."
 
-#: src/components/vm/overview/memoryModal.jsx:147
-#: src/components/vm/overview/bootOrder.jsx:368
+#: src/components/vm/overview/bootOrder.tsx:406
+#: src/components/vm/overview/memoryModal.tsx:187
 #: src/components/vm/nics/nicEdit.tsx:67
 msgid "Only editable when the guest is shut off"
 msgstr "Можна редагувати, лише якщо гостьову систему вимкнено"
@@ -1848,7 +1884,7 @@ msgid "Other VMs using SPICE"
 msgstr "Інші ВМ з використанням SPICE"
 
 #: src/components/storagePools/storagePool.tsx:77
-#: src/components/vm/vmDetailsPage.jsx:119
+#: src/components/vm/vmDetailsPage.jsx:109
 msgid "Overview"
 msgstr "Огляд"
 
@@ -1859,6 +1895,23 @@ msgstr "PCI"
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
 msgstr "Батьківський знімок"
+
+#: src/components/vm/consoles/vnc.jsx:177
+#, fuzzy
+#| msgid "Root password"
+msgid "Password"
+msgstr "Пароль root"
+
+#: src/components/vm/consoles/vnc.jsx:197
+msgid ""
+"Password must be 8 characters or less. VNC passwords do not provide "
+"encryption and are generally cryptographically weak. They can not be used to "
+"secure connections in untrusted networks."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:97
+msgid "Password must be at most 8 characters."
+msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -1943,15 +1996,10 @@ msgstr ""
 "Будь ласка, ознайомтеся із $0, щоб дізнатися про те, як змінити налаштування "
 "вашої ВМ вручну."
 
-#: src/components/vm/consoles/consoles.jsx:40
-msgid "Please start the virtual machine to access its console."
-msgstr ""
-"Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
-
 #: src/components/vm/disks/diskAdd.tsx:216
 #: src/components/vm/disks/vmDiskColumns.tsx:50
 #: src/components/vm/disks/mediaEject.tsx:98
-#: src/components/vm/overview/bootOrder.jsx:101
+#: src/components/vm/overview/bootOrder.tsx:121
 #: src/components/vm/deleteDialog.jsx:68
 msgid "Pool"
 msgstr "Буфер"
@@ -1972,12 +2020,29 @@ msgstr "Для типу буфера не пердебачено підтрим�
 msgid "Pool's volumes are used by VMs "
 msgstr "Томи буфера використовуються ВМ "
 
+#: src/components/vm/consoles/vnc.jsx:158
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/overview/bootOrder.jsx:104
-#: src/components/vm/overview/bootOrder.jsx:120
+#: src/components/vm/overview/bootOrder.tsx:124
+#: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "Порт"
+
+#: src/components/vm/consoles/vnc.jsx:91
+msgid "Port must be 5900 or larger."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:171
+msgid ""
+"Port must be a number that is at least 5900. Leave empty to automatically "
+"assign a free port when the machine starts."
+msgstr ""
+
+#: src/components/vm/consoles/vnc.jsx:88
+#, fuzzy
+#| msgid "Hours must be a number between 0 and 23"
+msgid "Port must be a number."
+msgstr "Години слід вказувати у форматі числа від 0 до 23"
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -1987,7 +2052,7 @@ msgstr "Вимкнути живлення"
 msgid "Pre-formatted block device"
 msgstr "Попередньо форматований блоковий пристрій"
 
-#: src/components/vm/overview/cpuModal.jsx:266
+#: src/components/vm/overview/cpuModal.tsx:279
 msgid "Preferred number of sockets to expose to the guest."
 msgstr "Бажана кількість сокетів, які слід надавати гостьовій системі."
 
@@ -2015,8 +2080,8 @@ msgstr ""
 msgid "Private"
 msgstr "Закрита"
 
-#: src/components/vm/overview/bootOrder.jsx:133
-#: src/components/vm/overview/bootOrder.jsx:148
+#: src/components/vm/overview/bootOrder.tsx:153
+#: src/components/vm/overview/bootOrder.tsx:168
 #: src/components/vm/hostdevs/hostDevCard.tsx:252
 #: src/components/vm/hostdevs/hostDevCard.tsx:258
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
@@ -2028,8 +2093,8 @@ msgid "Profile"
 msgstr "Профіль"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
-#: src/components/vm/overview/bootOrder.jsx:100
-#: src/components/vm/overview/bootOrder.jsx:161
+#: src/components/vm/overview/bootOrder.tsx:120
+#: src/components/vm/overview/bootOrder.tsx:181
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 msgid "Protocol"
 msgstr "Протокол"
@@ -2092,17 +2157,36 @@ msgstr "Випущено $0"
 msgid "Remote URL"
 msgstr "Віддалена адреса"
 
-#: src/components/vm/consoles/desktopConsole.jsx:55
-msgid "Remote viewer details"
+#: src/components/vm/consoles/common.jsx:79
+#, fuzzy
+#| msgid ""
+#| "$0 is available for most operating systems. To install it, search for it "
+#| "in GNOME Software or run the following:"
+msgid ""
+"Remote Viewer is available for most operating systems. To install it, search "
+"for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
+msgstr ""
+"$0 можна користуватися у більшості операційних систем. Щоб встановити "
+"пакунок із програмою, знайдіть відповідний запис у Програмних засобах GNOME "
+"або віддайте таку команду:"
+
+#: src/components/vm/consoles/common.jsx:139
+#, fuzzy
+#| msgid "Remote viewer details"
+msgid "Remote viewer"
 msgstr "Параметри віддаленого переглядача"
+
+#: src/components/vm/consoles/common.jsx:111
+msgid "Remote viewer applications can connect to the following address:"
+msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:72
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:81
 #: src/components/vm/disks/vmDiskColumns.tsx:166
 #: src/components/vm/disks/vmDiskColumns.tsx:252
-#: src/components/vm/overview/vsock.jsx:240
-#: src/components/vm/overview/watchdog.jsx:213
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/overview/watchdog.tsx:234
 #: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/nics/vmNicsCard.tsx:566
 #: src/components/vm/hostdevs/hostDevCard.tsx:268
@@ -2150,7 +2234,7 @@ msgstr "Перейменувати"
 msgid "Rename VM $0"
 msgstr "Перейменувати ВМ $0"
 
-#: src/components/vm/vmReplaceSpiceDialog.jsx:157
+#: src/components/vm/vmReplaceSpiceDialog.jsx:160
 msgid "Replace"
 msgstr "Замінити"
 
@@ -2172,9 +2256,29 @@ msgstr "Замінити SPICE на вибраних ВМ."
 msgid "Replace SPICE on the virtual machine."
 msgstr "Замінити SPICE у віртуальній машині."
 
+#: src/components/vm/consoles/spice.jsx:77
+#, fuzzy
+#| msgid "Replace"
+msgid "Replace with VNC"
+msgstr "Замінити"
+
 #: src/helpers.ts:286
 msgid "Reset"
 msgstr "Скинути"
+
+#: src/components/vm/consoles/vnc.jsx:481
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its graphical console"
+msgstr ""
+"Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
+
+#: src/components/vm/consoles/serial.jsx:175
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Restart this virtual machine to access its serial console"
+msgstr ""
+"Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2227,7 +2331,7 @@ msgid "Run"
 msgstr "Запустити"
 
 #: src/components/networks/networkOverviewTab.tsx:135
-#: src/components/vm/overview/vmOverviewCard.jsx:107
+#: src/components/vm/overview/vmOverviewCard.tsx:126
 msgid "Run when host boots"
 msgstr "Запустити під час завантаження основної системи"
 
@@ -2235,17 +2339,9 @@ msgstr "Запустити під час завантаження основно
 msgid "Running"
 msgstr "Працює"
 
-#: src/components/common/needsShutdown.tsx:153
+#: src/components/common/needsShutdown.tsx:198
 msgid "SPICE"
 msgstr "SPICE"
-
-#: src/components/vm/consoles/desktopConsole.jsx:52
-msgid "SPICE TLS port"
-msgstr "Порт TLS SPICE"
-
-#: src/components/vm/consoles/desktopConsole.jsx:48
-msgid "SPICE address"
-msgstr "Адреса SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.jsx:134
 #: src/components/vm/vmReplaceSpiceDialog.jsx:136
@@ -2260,20 +2356,17 @@ msgstr ""
 "На цій основній системі не передбачено підтримки SPICE, її використання "
 "призведе до неможливості завантажити віртуальну машину."
 
-#: src/components/vm/consoles/desktopConsole.jsx:50
-msgid "SPICE port"
-msgstr "Порт SPICE"
-
 #: src/components/create-vm-dialog/createVmDialog.jsx:866
 msgid "SSH keys"
 msgstr "Ключі SSH"
 
+#: src/components/vm/consoles/vnc.jsx:143
 #: src/components/vm/disks/diskEdit.tsx:338
-#: src/components/vm/overview/firmware.jsx:98
-#: src/components/vm/overview/memoryModal.jsx:161
-#: src/components/vm/overview/vsock.jsx:194
-#: src/components/vm/overview/bootOrder.jsx:320
-#: src/components/vm/overview/watchdog.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:365
+#: src/components/vm/overview/memoryModal.tsx:206
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:117
+#: src/components/vm/overview/watchdog.tsx:176
 #: src/components/vm/vmEditDescriptionDialog.jsx:76
 #: src/components/vm/nics/nicEdit.tsx:237
 msgid "Save"
@@ -2283,11 +2376,7 @@ msgstr "Зберегти"
 msgid "Select all"
 msgstr "Вибрати все"
 
-#: src/components/vm/consoles/consoles.jsx:128
-msgid "Select console type"
-msgstr "Вибір типу консолі"
-
-#: src/components/vm/consoles/vnc.jsx:169
+#: src/components/vm/consoles/vnc.jsx:258
 msgid "Send key"
 msgstr "Надіслати ключ"
 
@@ -2299,17 +2388,25 @@ msgstr "Надіслати немасковане переривання"
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Надіслати немасковане переривання на $0?"
 
+#: src/components/vm/consoles/consoles.jsx:167
+#: src/components/vm/consoles/consoles.jsx:191
 #: src/components/vm/disks/vmDiskColumns.tsx:121
 msgid "Serial"
 msgstr "Серійний номер"
 
-#: src/components/vm/consoles/consoles.jsx:129
+#: src/components/vm/consoles/consoles.jsx:167
+#, fuzzy
+#| msgid "Serial console ($0)"
+msgid "Serial ($0)"
+msgstr "Послідовна консоль ($0)"
+
+#: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
 msgstr "Послідовна консоль"
 
-#: src/components/vm/consoles/consoles.jsx:132
-msgid "Serial console ($0)"
-msgstr "Послідовна консоль ($0)"
+#: src/components/vm/consoles/serial.jsx:153
+msgid "Serial console support not enabled"
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2336,12 +2433,12 @@ msgid "Share a host directory with the guest"
 msgstr ""
 "Надати каталог основної системи у спільне користування гостьовій системі"
 
-#: src/components/vm/vmDetailsPage.jsx:195
+#: src/components/vm/vmDetailsPage.jsx:175
 msgid "Shared directories"
 msgstr "Спільні каталоги"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.jsx:197
+#: src/components/vm/vmDetailsPage.jsx:177
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "Спільні каталоги основної системи має бути змонтовано вручну у ВМ"
 
@@ -2354,11 +2451,11 @@ msgstr "Спільне сховище даних"
 msgid "Show additional options"
 msgstr "Показати додаткові параметри"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 msgid "Show less"
 msgstr "Показати менше"
 
-#: src/components/vm/overview/watchdog.jsx:57
+#: src/components/vm/overview/watchdog.tsx:66
 msgid "Show more"
 msgstr "Показати більше"
 
@@ -2375,7 +2472,7 @@ msgstr "Вимкнути $0?"
 msgid "Shut off"
 msgstr "Вимкнути"
 
-#: src/components/vm/overview/firmware.jsx:159
+#: src/components/vm/overview/firmware.tsx:184
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr ""
 "Вимкніть віртуальну машину, щоб розпочати редагування налаштувань "
@@ -2391,7 +2488,7 @@ msgstr "Вимикання"
 msgid "Size"
 msgstr "Розмір"
 
-#: src/components/vm/overview/bootOrder.jsx:149
+#: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 #: src/components/vm/hostdevs/hostDevCard.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2414,15 +2511,15 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "Не вдалося створити знімок"
 
-#: src/components/vm/vmDetailsPage.jsx:183
+#: src/components/vm/vmDetailsPage.jsx:163
 msgid "Snapshots"
 msgstr "Знімки"
 
-#: src/components/vm/overview/cpuModal.jsx:264
+#: src/components/vm/overview/cpuModal.tsx:277
 msgid "Sockets"
 msgstr "Сокети"
 
-#: src/components/common/needsShutdown.tsx:189
+#: src/components/common/needsShutdown.tsx:242
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 "Деякі зміни у налаштуваннях набудуть чинності лише після перезавантаження:"
@@ -2481,6 +2578,21 @@ msgstr "Запускати резервне сховище після заван
 msgid "Start should not be empty"
 msgstr "Початок повинен бути непорожнім"
 
+#: src/components/vm/consoles/serial.jsx:130
+#: src/components/vm/consoles/vnc.jsx:428
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to access the console"
+msgstr ""
+"Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
+
+#: src/components/vm/consoles/spice.jsx:68
+#, fuzzy
+#| msgid "Please start the virtual machine to access its console."
+msgid "Start the virtual machine to launch remote viewer."
+msgstr ""
+"Будь ласка, запустіть віртуальну машину, щоб отримати доступ до її консолі."
+
 #: src/components/vm/confirmDialog.jsx:74
 msgid "Started"
 msgstr "Почато"
@@ -2493,7 +2605,7 @@ msgstr "Запуск"
 #: src/components/networks/networkList.tsx:76
 #: src/components/vms/hostvmslist.tsx:156
 #: src/components/vms/hostvmslist.tsx:203
-#: src/components/vm/overview/vmOverviewCard.jsx:163
+#: src/components/vm/overview/vmOverviewCard.tsx:182
 #: src/components/vm/nics/vmNicsCard.tsx:489
 msgid "State"
 msgstr "Стан"
@@ -2576,6 +2688,12 @@ msgstr ""
 "Томи сховища даних мають бути спільними між цією основною системою та "
 "основною системою призначення."
 
+#: src/components/vm/consoles/common.jsx:115
+#, fuzzy
+#| msgid "Copy to clipboard"
+msgid "Successfully copied to clipboard!"
+msgstr "Копіювати до буфера"
+
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
 msgstr "призупинено (PM)"
@@ -2592,7 +2710,7 @@ msgstr "Система"
 msgid "TAP device"
 msgstr "Пристрій TAP"
 
-#: src/components/common/needsShutdown.tsx:157
+#: src/components/common/needsShutdown.tsx:210
 msgid "TPM"
 msgstr "TPM"
 
@@ -2601,7 +2719,7 @@ msgid "Table of selectable host devices"
 msgstr "Таблиця придатних для вибору пристроїв основної системи"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:170
-#: src/components/vm/overview/bootOrder.jsx:155
+#: src/components/vm/overview/bootOrder.tsx:175
 #: src/components/vm/hostdevs/hostDevCard.tsx:114
 msgid "Target"
 msgstr "Призначення"
@@ -2731,6 +2849,10 @@ msgstr ""
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr "Це рекомендований тип для високої швидкодії і додаткового захисту."
 
+#: src/components/vm/consoles/spice.jsx:64
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr ""
+
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
@@ -2748,7 +2870,7 @@ msgstr "Цей том вже використано $0."
 msgid "This volume is already used by another VM."
 msgstr "Цей том вже використано іншою ВМ."
 
-#: src/components/vm/overview/cpuModal.jsx:284
+#: src/components/vm/overview/cpuModal.tsx:297
 msgid "Threads per core"
 msgstr "Потоків на ядро"
 
@@ -2756,7 +2878,7 @@ msgstr "Потоків на ядро"
 msgid "Total space available: $0."
 msgstr "Загалом доступного місця: $0."
 
-#: src/components/vm/overview/firmware.jsx:165
+#: src/components/vm/overview/firmware.tsx:190
 msgid "Transient VMs don't support editing firmware configuration"
 msgstr ""
 "Для тимчасових віртуальних машин не передбачено підтримки редагування "
@@ -2768,21 +2890,17 @@ msgstr "Діагностика проблем"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:78
 #: src/components/storagePools/createStoragePoolDialog.tsx:115
-#: src/components/vm/overview/bootOrder.jsx:118
-#: src/components/vm/overview/bootOrder.jsx:131
-#: src/components/vm/overview/bootOrder.jsx:146
-#: src/components/vm/overview/bootOrder.jsx:153
-#: src/components/vm/overview/bootOrder.jsx:160
-#: src/components/vm/overview/bootOrder.jsx:166
+#: src/components/vm/overview/bootOrder.tsx:138
+#: src/components/vm/overview/bootOrder.tsx:151
+#: src/components/vm/overview/bootOrder.tsx:166
+#: src/components/vm/overview/bootOrder.tsx:173
+#: src/components/vm/overview/bootOrder.tsx:180
+#: src/components/vm/overview/bootOrder.tsx:186
 #: src/components/vm/nics/vmNicsCard.tsx:402
 #: src/components/vm/hostdevs/hostDevCard.tsx:189
 #: src/components/vm/hostdevs/hostDevAdd.tsx:56
 msgid "Type"
 msgstr "Тип"
-
-#: src/components/vm/overview/bootOrder.jsx:167
-msgid "Type ID"
-msgstr "Ідентифікатор типу"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:376
 msgid "URL (ISO image or distro install tree)"
@@ -2812,7 +2930,7 @@ msgstr "Унікальна назва, типовий варіант: $0"
 msgid "Unique network name"
 msgstr "Унікальна назва мережі"
 
-#: src/components/vm/overview/bootOrder.jsx:156
+#: src/components/vm/overview/bootOrder.tsx:176
 msgid "Unit"
 msgstr "Модуль"
 
@@ -2820,12 +2938,12 @@ msgstr "Модуль"
 msgid "Unknown"
 msgstr "Невідомий"
 
-#: src/components/vm/overview/firmware.jsx:136
+#: src/components/vm/overview/firmware.tsx:161
 msgid "Unknown firmware"
 msgstr "Невідома мікропрограма"
 
-#: src/components/vm/overview/bootOrder.jsx:137
-#: src/components/vm/overview/bootOrder.jsx:138
+#: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/overview/bootOrder.tsx:158
 #: src/components/vm/hostdevs/hostDevCard.tsx:97
 #: src/components/vm/hostdevs/hostDevCard.tsx:98
 msgid "Unspecified"
@@ -2839,7 +2957,7 @@ msgstr "Непідтримувані і застарілі операційні 
 msgid "Url"
 msgstr "Адреса"
 
-#: src/components/vm/vmDetailsPage.jsx:132
+#: src/components/vm/vmDetailsPage.jsx:122
 msgid "Usage"
 msgstr "Використання"
 
@@ -2958,7 +3076,7 @@ msgstr ""
 "ВМ запущено із непривілейованим обмеженим доступом з процесом і PTY, "
 "власником яких є в ваш обліковий запис користувача"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:255
 msgid "VM needs shutdown"
 msgstr "ВМ потребує вимикання"
 
@@ -2970,28 +3088,22 @@ msgstr "Стан ВМ"
 msgid "VM will launch with root permissions"
 msgstr "ВМ буде запущено із правами доступу root"
 
-#: src/components/vm/consoles/desktopConsole.jsx:53
-msgid "VNC TLS port"
-msgstr "Порт TLS VNC"
+#: src/components/common/needsShutdown.tsx:202
+msgid "VNC"
+msgstr ""
 
-#: src/components/vm/consoles/desktopConsole.jsx:49
-msgid "VNC address"
-msgstr "Адреса VNC"
-
-#: src/components/vm/consoles/consoles.jsx:130
-msgid "VNC console"
-msgstr "Консоль VNC"
-
-#: src/components/vm/consoles/desktopConsole.jsx:51
-msgid "VNC port"
-msgstr "Порт VNC"
+#: src/components/vm/consoles/vnc.jsx:122
+#, fuzzy
+#| msgid "Disk settings could not be saved"
+msgid "VNC settings could not be saved"
+msgstr "Не вдалося зберегти параметри диска"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
 msgstr "Чинний жетон"
 
-#: src/components/vm/overview/bootOrder.jsx:132
-#: src/components/vm/overview/bootOrder.jsx:147
+#: src/components/vm/overview/bootOrder.tsx:152
+#: src/components/vm/overview/bootOrder.tsx:167
 #: src/components/vm/hostdevs/hostDevCard.tsx:219
 #: src/components/vm/hostdevs/hostDevCard.tsx:251
 #: src/components/vm/hostdevs/hostDevCard.tsx:257
@@ -3007,8 +3119,7 @@ msgstr "Постачальником припинено підтримку $0"
 #: src/components/networks/networkList.tsx:57
 #: src/components/vms/hostvmslist.tsx:196
 #: src/components/vms/hostvmslist.tsx:198
-#: src/components/vm/vmDetailsPage.jsx:95
-#: src/components/vm/vmDetailsPage.jsx:248 src/manifest.json:0
+#: src/components/vm/vmDetailsPage.jsx:230 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Віртуальні машини"
 
@@ -3024,7 +3135,7 @@ msgstr "Віртуальна мережа"
 msgid "Virtual network failed to be created"
 msgstr "Не вдалося створити віртуальну мережу"
 
-#: src/components/vm/overview/helpers.jsx:28
+#: src/components/vm/overview/helpers.tsx:30
 msgid ""
 "Virtual socket support enables communication between the host and guest over "
 "a socket. It still requires special vsock-aware software to communicate over "
@@ -3043,7 +3154,7 @@ msgstr "Служба віртуалізації (libvirt) не є активно
 #: src/components/vm/disks/diskAdd.tsx:160
 #: src/components/vm/disks/vmDiskColumns.tsx:51
 #: src/components/vm/disks/mediaEject.tsx:102
-#: src/components/vm/overview/bootOrder.jsx:102
+#: src/components/vm/overview/bootOrder.tsx:122
 #: src/components/vm/deleteDialog.jsx:65
 msgid "Volume"
 msgstr "Том"
@@ -3060,21 +3171,21 @@ msgstr "Назва групи томів"
 msgid "Volume group name should not be empty"
 msgstr "Назва групи томів має бути непорожньою"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:214
+#: src/components/vm/overview/vmOverviewCard.tsx:233
 msgid "Vsock"
 msgstr "Vsock"
 
-#: src/components/vm/overview/bootOrder.jsx:162
+#: src/components/vm/overview/bootOrder.tsx:182
 #: src/components/vm/hostdevs/hostDevCard.tsx:120
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:149
-#: src/components/vm/overview/vmOverviewCard.jsx:200
+#: src/components/common/needsShutdown.tsx:194
+#: src/components/vm/overview/vmOverviewCard.tsx:219
 msgid "Watchdog"
 msgstr "Сторожовик"
 
-#: src/components/vm/overview/helpers.jsx:27
+#: src/components/vm/overview/helpers.tsx:29
 msgid ""
 "Watchdogs act when systems stop responding. To use this virtual watchdog "
 "device, the guest system also needs to have an additional driver and a "
@@ -3102,8 +3213,8 @@ msgstr "Вам слід вибрати найвідповіднішу опера
 msgid "active"
 msgstr "активний"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "add"
 msgstr "додати"
 
@@ -3119,7 +3230,7 @@ msgstr "місток"
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/helpers.ts:250 src/components/vm/overview/cpuModal.jsx:311
+#: src/helpers.ts:250 src/components/vm/overview/cpuModal.tsx:324
 msgid "custom"
 msgstr "нетиповий"
 
@@ -3139,11 +3250,11 @@ msgstr "диск"
 msgid "down"
 msgstr "нижче"
 
-#: src/components/vm/overview/vsock.jsx:288
-#: src/components/vm/overview/bootOrder.jsx:361
-#: src/components/vm/overview/vmOverviewCard.jsx:117
-#: src/components/vm/overview/vmOverviewCard.jsx:125
-#: src/components/vm/overview/watchdog.jsx:254
+#: src/components/vm/overview/bootOrder.tsx:399
+#: src/components/vm/overview/vsock.tsx:317
+#: src/components/vm/overview/vmOverviewCard.tsx:136
+#: src/components/vm/overview/vmOverviewCard.tsx:144
+#: src/components/vm/overview/watchdog.tsx:274
 msgid "edit"
 msgstr "редагувати"
 
@@ -3217,11 +3328,11 @@ msgid "more info"
 msgstr "додаткова інформація"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.jsx:206
+#: src/components/vm/vmDetailsPage.jsx:186
 msgid "mount point: The mount point inside the guest"
 msgstr "точка монтування: точка монтування всередині гостьової системи"
 
-#: src/components/vm/vmDetailsPage.jsx:205
+#: src/components/vm/vmDetailsPage.jsx:185
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 "мітка монтування: мітка, яку пов'язано із експортованою точкою монтування"
@@ -3241,8 +3352,8 @@ msgid "no state saved"
 msgstr "немає збережених станів"
 
 #: src/components/networks/networkOverviewTab.tsx:327
-#: src/components/vm/overview/vsock.jsx:270
-#: src/components/vm/overview/watchdog.jsx:250
+#: src/components/vm/overview/vsock.tsx:299
+#: src/components/vm/overview/watchdog.tsx:270
 msgid "none"
 msgstr "немає"
 
@@ -3286,22 +3397,22 @@ msgstr "вище"
 msgid "user"
 msgstr "користувач"
 
-#: src/components/vm/overview/cpuModal.jsx:195
+#: src/components/vm/overview/cpuModal.tsx:208
 msgid "vCPU and CPU topology settings could not be saved"
 msgstr ""
 "Не вдалося зберегти параметри топології віртуальних і звичайних процесорів"
 
-#: src/components/vm/overview/cpuModal.jsx:246
-#: src/components/vm/overview/cpuModal.jsx:256
+#: src/components/vm/overview/cpuModal.tsx:259
+#: src/components/vm/overview/cpuModal.tsx:269
 msgid "vCPU count"
 msgstr "К-ть вірт. процесорів"
 
-#: src/components/vm/overview/cpuModal.jsx:226
-#: src/components/vm/overview/cpuModal.jsx:238
+#: src/components/vm/overview/cpuModal.tsx:239
+#: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
 msgstr "Макс. вірт. процесорів"
 
-#: src/components/common/needsShutdown.tsx:141
+#: src/components/common/needsShutdown.tsx:186
 msgid "vCPUs"
 msgstr "Вірт. проц."
 
@@ -3329,7 +3440,7 @@ msgstr ""
 "Для створення нових віртуальних машин у системі має бути встановлено пакунок "
 "virt-install"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:131
+#: src/components/vm/overview/vmOverviewCard.tsx:150
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
@@ -3341,7 +3452,7 @@ msgstr ""
 msgid "vm"
 msgstr "vm"
 
-#: src/components/vm/overview/vmOverviewCard.jsx:218
+#: src/components/vm/overview/vmOverviewCard.tsx:237
 msgid "vsock requires special software"
 msgstr "vsock потребує спеціалізованого програмного забезпечення"
 
@@ -3350,6 +3461,49 @@ msgstr "vsock потребує спеціалізованого програмн
 #: src/components/networks/networkOverviewTab.tsx:126
 msgid "yes"
 msgstr "так"
+
+#~ msgid "Connect with any viewer application for following protocols"
+#~ msgstr ""
+#~ "З’єднатися із будь-якою програмою перегляду для вказаних нижче протоколів"
+
+#~ msgid "Connecting"
+#~ msgstr "З'єднання"
+
+#~ msgid "Desktop viewer"
+#~ msgstr "Стільничний переглядач"
+
+#~ msgid "Manual connection"
+#~ msgstr "З’єднання вручну"
+
+#~ msgid "No connection available"
+#~ msgstr "Немає доступних з'єднань"
+
+#~ msgid "SPICE TLS port"
+#~ msgstr "Порт TLS SPICE"
+
+#~ msgid "SPICE address"
+#~ msgstr "Адреса SPICE"
+
+#~ msgid "SPICE port"
+#~ msgstr "Порт SPICE"
+
+#~ msgid "Select console type"
+#~ msgstr "Вибір типу консолі"
+
+#~ msgid "Type ID"
+#~ msgstr "Ідентифікатор типу"
+
+#~ msgid "VNC TLS port"
+#~ msgstr "Порт TLS VNC"
+
+#~ msgid "VNC address"
+#~ msgstr "Адреса VNC"
+
+#~ msgid "VNC console"
+#~ msgstr "Консоль VNC"
+
+#~ msgid "VNC port"
+#~ msgstr "Порт VNC"
 
 #, fuzzy
 #~| msgid "bridge"
@@ -3603,9 +3757,6 @@ msgstr "так"
 #~ msgid "Copy"
 #~ msgstr "Копіювати"
 
-#~ msgid "Copy to clipboard"
-#~ msgstr "Копіювати до буфера"
-
 #~ msgid "Create new task file with this content."
 #~ msgstr "Створити файл завдання із цим вмістом."
 
@@ -3647,9 +3798,6 @@ msgstr "так"
 
 #~ msgid "Handheld"
 #~ msgstr "Кишеньковий пристрій"
-
-#~ msgid "Hours must be a number between 0 and 23"
-#~ msgstr "Години слід вказувати у форматі числа від 0 до 23"
 
 #~ msgid "IPv4 network"
 #~ msgstr "Мережа IPv4"
