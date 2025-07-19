@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-18 03:50+0000\n"
-"PO-Revision-Date: 2025-07-09 15:08+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2025-07-19 08:53+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/de/>\n"
 "Language: de\n"
@@ -138,7 +138,7 @@ msgstr "TPM hinzufügen"
 
 #: src/components/vm/consoles/vnc.jsx:468
 msgid "Add VNC"
-msgstr ""
+msgstr "VNC hinzufügen"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -159,10 +159,8 @@ msgid "Add network interface"
 msgstr "Netzwerkschnittstelle hinzufügen"
 
 #: src/components/vm/consoles/serial.jsx:163
-#, fuzzy
-#| msgid "Serial console"
 msgid "Add serial console"
-msgstr "Serielle Konsole"
+msgstr "Serielle Konsole hinzufügen"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
@@ -411,15 +409,10 @@ msgid "Class"
 msgstr "Klasse"
 
 #: src/components/vm/consoles/common.jsx:76
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
 "Viewer application on your system."
 msgstr ""
-"Klick auf\"Remote Viewer starten\" lädt eine .vv-Datei herunter und startet "
-"$0."
 
 #: src/components/vm/vmCloneDialog.jsx:98 src/components/vm/vmActions.jsx:413
 msgid "Clone"
@@ -439,7 +432,7 @@ msgstr "Cockpit-Projekt"
 
 #: src/components/vm/consoles/consoles.jsx:226
 msgid "Compress"
-msgstr ""
+msgstr "Komprimieren"
 
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
@@ -847,10 +840,8 @@ msgid "Download progress"
 msgstr "Fortschritt beim Herunterladen"
 
 #: src/components/vm/consoles/common.jsx:101
-#, fuzzy
-#| msgid "Downloading image for VM $0"
 msgid "Download the MSI from $0"
-msgstr "Abbild für VM $0 wird heruntergeladen"
+msgstr "MSI von $0 herunterladen"
 
 #: src/app.jsx:287
 msgid "Downloading image for VM $0"
@@ -883,10 +874,8 @@ msgstr "$0 Attribute bearbeiten"
 
 #: src/components/vm/consoles/vnc.jsx:132
 #: src/components/vm/consoles/vnc.jsx:283
-#, fuzzy
-#| msgid "DHCP Settings"
 msgid "Edit VNC settings"
-msgstr "DHCP-Einstellungen"
+msgstr "VNC-Einstellungen bearbeiten"
 
 #: src/components/vm/vmActions.jsx:470
 msgid "Edit description"
@@ -977,16 +966,12 @@ msgid "Failed to add TPM to VM $0"
 msgstr "Fehler beim Hinzufügen des TPM zur VM $0"
 
 #: src/components/vm/consoles/vnc.jsx:448
-#, fuzzy
-#| msgid "Failed to add TPM to VM $0"
 msgid "Failed to add VNC to VM $0"
-msgstr "Fehler beim Hinzufügen des TPM zur VM $0"
+msgstr "Fehler beim Hinzufügen von VNC zur VM $0"
 
 #: src/components/vm/consoles/serial.jsx:143
-#, fuzzy
-#| msgid "Failed to add TPM to VM $0"
 msgid "Failed to add serial console to VM $0"
-msgstr "Fehler beim Hinzufügen des TPM zur VM $0"
+msgstr "Fehler beim Hinzufügen der seriellen Konsole zur VM $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 msgid "Failed to add shared directory"
@@ -1157,11 +1142,11 @@ msgstr "Anständig herunterfahren"
 
 #: src/components/vm/consoles/consoles.jsx:107
 msgid "Graphical"
-msgstr ""
+msgstr "Grafisch"
 
 #: src/components/vm/consoles/vnc.jsx:458
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "Unterstützung der grafischen Konsole nicht aktiviert"
 
 #: src/app.jsx:119
 msgid "Hardware virtualization is disabled"
@@ -1413,6 +1398,8 @@ msgid ""
 "It can also be used to enable the inline graphical console in the browser, "
 "which does not support SPICE."
 msgstr ""
+"Es kann auch verwendet werden, um die grafische Inline-Konsole im Browser zu "
+"aktivieren, die SPICE nicht unterstützt."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
@@ -1424,10 +1411,8 @@ msgid "LVM volume group"
 msgstr "LVM Speichergruppe (VG)"
 
 #: src/components/vm/consoles/common.jsx:166
-#, fuzzy
-#| msgid "Launch remote viewer"
 msgid "Launch viewer"
-msgstr "Fernbetrachter starten"
+msgstr "Betrachter starten"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
 msgid ""
@@ -1931,10 +1916,8 @@ msgid "Parent snapshot"
 msgstr "Übergeordneter Schnappschuss"
 
 #: src/components/vm/consoles/vnc.jsx:177
-#, fuzzy
-#| msgid "Root password"
 msgid "Password"
-msgstr "Root-Passwort"
+msgstr "Passwort"
 
 #: src/components/vm/consoles/vnc.jsx:197
 msgid ""
@@ -1942,10 +1925,14 @@ msgid ""
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
+"Das Passwort darf höchstens 8 Zeichen lang sein. VNC-Passwörter bieten keine "
+"Verschlüsselung und sind im Allgemeinen kryptografisch schwach. Sie können "
+"nicht verwendet werden, um Verbindungen in nicht vertrauenswürdigen "
+"Netzwerken zu sichern."
 
 #: src/components/vm/consoles/vnc.jsx:97
 msgid "Password must be at most 8 characters."
-msgstr ""
+msgstr "Das Passwort darf höchstens 8 Zeichen lang sein."
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -2062,19 +2049,19 @@ msgstr "Port"
 
 #: src/components/vm/consoles/vnc.jsx:91
 msgid "Port must be 5900 or larger."
-msgstr ""
+msgstr "Der Port muss 5900 oder größer sein."
 
 #: src/components/vm/consoles/vnc.jsx:171
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
+"Der Port muss eine Nummer sein, die mindestens 5900 beträgt. Leer lassen, um "
+"beim Start der Maschine automatisch einen freien Port zuzuweisen."
 
 #: src/components/vm/consoles/vnc.jsx:88
-#, fuzzy
-#| msgid "Hours must be a number between 0 and 23"
 msgid "Port must be a number."
-msgstr "Die Stunde muss eine Zahl zwischen 0 und 23 sein"
+msgstr "Der Port muss eine Nummer sein."
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -2193,22 +2180,14 @@ msgid "Remote URL"
 msgstr "Remote-URL"
 
 #: src/components/vm/consoles/common.jsx:79
-#, fuzzy
-#| msgid ""
-#| "$0 is available for most operating systems. To install it, search for it "
-#| "in GNOME Software or run the following:"
 msgid ""
 "Remote Viewer is available for most operating systems. To install it, search "
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
 msgstr ""
-"$0 ist für die meisten Betriebssysteme verfügbar. Um es zu installieren, "
-"suchen Sie es in der GNOME-Software oder führen Sie Folgendes aus:"
 
 #: src/components/vm/consoles/common.jsx:139
-#, fuzzy
-#| msgid "Remote viewer details"
 msgid "Remote viewer"
-msgstr "Fernbetrachter-Details"
+msgstr "Fernbetrachter"
 
 #: src/components/vm/consoles/common.jsx:111
 msgid "Remote viewer applications can connect to the following address:"
@@ -2291,26 +2270,24 @@ msgid "Replace SPICE on the virtual machine."
 msgstr "SPICE auf der virtuellen Maschine ersetzen."
 
 #: src/components/vm/consoles/spice.jsx:77
-#, fuzzy
-#| msgid "Replace"
 msgid "Replace with VNC"
-msgstr "Ersetzen"
+msgstr "Mit VNC ersetzen"
 
 #: src/helpers.ts:286
 msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: src/components/vm/consoles/vnc.jsx:481
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its graphical console"
-msgstr "Starten Sie die virtuelle Maschine, um auf die Konsole zuzugreifen."
+msgstr ""
+"Starten Sie diese virtuelle Maschine neu, um auf ihre grafische Konsole "
+"zuzugreifen"
 
 #: src/components/vm/consoles/serial.jsx:175
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
-msgstr "Starten Sie die virtuelle Maschine, um auf die Konsole zuzugreifen."
+msgstr ""
+"Starten Sie diese virtuelle Maschine neu, um auf ihre serielle Konsole "
+"zuzugreifen"
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2427,10 +2404,8 @@ msgid "Serial"
 msgstr "Seriell"
 
 #: src/components/vm/consoles/consoles.jsx:167
-#, fuzzy
-#| msgid "Serial console ($0)"
 msgid "Serial ($0)"
-msgstr "Serielle Konsole ($0)"
+msgstr "Seriell ($0)"
 
 #: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
@@ -2438,7 +2413,7 @@ msgstr "Serielle Konsole"
 
 #: src/components/vm/consoles/serial.jsx:153
 msgid "Serial console support not enabled"
-msgstr ""
+msgstr "Unterstützung der seriellen Konsole nicht aktiviert"
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2615,16 +2590,12 @@ msgstr "Start sollte nicht leer sein"
 
 #: src/components/vm/consoles/serial.jsx:130
 #: src/components/vm/consoles/vnc.jsx:428
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to access the console"
-msgstr "Starten Sie die virtuelle Maschine, um auf die Konsole zuzugreifen."
+msgstr "Starten Sie die virtuelle Maschine, um auf die Konsole zuzugreifen"
 
 #: src/components/vm/consoles/spice.jsx:68
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to launch remote viewer."
-msgstr "Starten Sie die virtuelle Maschine, um auf die Konsole zuzugreifen."
+msgstr ""
 
 #: src/components/vm/confirmDialog.jsx:74
 msgid "Started"
@@ -2722,10 +2693,8 @@ msgstr ""
 "werden."
 
 #: src/components/vm/consoles/common.jsx:115
-#, fuzzy
-#| msgid "Copy to clipboard"
 msgid "Successfully copied to clipboard!"
-msgstr "In Zwischenablage kopieren"
+msgstr "Erfolgreich in die Zwischenablage kopiert!"
 
 #: src/helpers.ts:237
 msgid "Suspended (PM)"
@@ -2885,6 +2854,8 @@ msgstr ""
 #: src/components/vm/consoles/spice.jsx:64
 msgid "This machine has a SPICE graphical console that can not be shown here."
 msgstr ""
+"Diese Maschine hat eine grafische SPICE-Konsole, die hier nicht angezeigt "
+"werden kann."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -3129,10 +3100,8 @@ msgid "VNC"
 msgstr ""
 
 #: src/components/vm/consoles/vnc.jsx:122
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "VNC settings could not be saved"
-msgstr "Festplatten-Einstellungen konnten nicht gespeichert werden"
+msgstr "VNC-Einstellungen konnten nicht gespeichert werden"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
@@ -3327,7 +3296,7 @@ msgstr "iSCSI-Direktziel"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:192
 msgid "iSCSI initiator IQN"
-msgstr "iSCSI initiator IQN"
+msgstr "IQN des iSCSI-Initiators"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:94
 msgid "iSCSI target"
@@ -3449,7 +3418,7 @@ msgstr "Anzahl vCPUs"
 #: src/components/vm/overview/cpuModal.tsx:239
 #: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
-msgstr "vCPU maximum"
+msgstr "vCPU-Maximum"
 
 # ctx::sourcefile::/rhn/systems/details/virtualization/VirtualGuestsList.do
 #: src/components/common/needsShutdown.tsx:186
