@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-19 03:44+0000\n"
-"PO-Revision-Date: 2025-07-18 07:19+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-07-20 18:02+0000\n"
+"Last-Translator: عمّار عبدالله <ammar-dmour19@proton.me>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/ar/>\n"
 "Language: ar\n"
@@ -142,7 +141,7 @@ msgstr "أضف TPM"
 
 #: src/components/vm/consoles/vnc.jsx:468
 msgid "Add VNC"
-msgstr ""
+msgstr "إضافة VNC"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -437,7 +436,7 @@ msgstr "مشروع Cockpit"
 
 #: src/components/vm/consoles/consoles.jsx:226
 msgid "Compress"
-msgstr ""
+msgstr "ضغط"
 
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
@@ -1125,11 +1124,11 @@ msgstr "إيقاف التشغيل الآمن"
 
 #: src/components/vm/consoles/consoles.jsx:107
 msgid "Graphical"
-msgstr ""
+msgstr "رسومي"
 
 #: src/components/vm/consoles/vnc.jsx:458
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "لم يتم تمكين دعم وحدة التحكم الرسومية"
 
 #: src/app.jsx:119
 msgid "Hardware virtualization is disabled"
@@ -1378,6 +1377,8 @@ msgid ""
 "It can also be used to enable the inline graphical console in the browser, "
 "which does not support SPICE."
 msgstr ""
+"يمكن استخدامه أيضًا لتمكين وحدة التحكم الرسومية المضمنة في المتصفح، والتي لا "
+"تدعم SPICE."
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
@@ -1897,10 +1898,13 @@ msgid ""
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
+"يجب أن تتكون كلمة المرور من 8 أحرف أو أقل. لا توفر كلمات مرور VNC تشفيرًا وهي "
+"ضعيفة التشفير بشكل عام. لا يمكن استخدامها لتأمين الاتصالات في الشبكات غير "
+"الموثوق بها."
 
 #: src/components/vm/consoles/vnc.jsx:97
 msgid "Password must be at most 8 characters."
-msgstr ""
+msgstr "يجب أن تتكون كلمة السر من 8 أحرف على الأكثر."
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -1931,7 +1935,7 @@ msgstr "المسار إلى الملف على نظام ملفات المضيف"
 
 #: src/helpers.ts:289 src/components/vm/vmActions.jsx:220
 msgid "Pause"
-msgstr "إيقاف"
+msgstr "إيقاف مؤقَّت"
 
 #: src/helpers.ts:232
 msgid "Paused"
@@ -2017,17 +2021,19 @@ msgstr "منفذ"
 
 #: src/components/vm/consoles/vnc.jsx:91
 msgid "Port must be 5900 or larger."
-msgstr ""
+msgstr "يجب أن يكون رقم المنفذ 5900 أو أكبر."
 
 #: src/components/vm/consoles/vnc.jsx:171
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
+"يجب أن يكون المنفذ رقماً لا يقل عن 5900. اتركه فارغاً لتعيين منفذ متاح تلقائياً "
+"عند بدء تشغيل الجهاز."
 
 #: src/components/vm/consoles/vnc.jsx:88
 msgid "Port must be a number."
-msgstr ""
+msgstr "يجب أن يكون المنفذ رقماً."
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -2159,7 +2165,7 @@ msgstr "تفاصيل العاِرض عن بعد"
 
 #: src/components/vm/consoles/common.jsx:111
 msgid "Remote viewer applications can connect to the following address:"
-msgstr ""
+msgstr "يمكن لتطبيقات العرض عن بُعد الاتصال بالعنوان التالي:"
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:72
@@ -2381,7 +2387,7 @@ msgstr "وحدة التحكم المتسلسلة"
 
 #: src/components/vm/consoles/serial.jsx:153
 msgid "Serial console support not enabled"
-msgstr ""
+msgstr "لم يتم تمكين دعم وحدة التحكم التسلسلية"
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2803,7 +2809,7 @@ msgstr "هذا هو النوع الموصى به للأداء العالي أو 
 
 #: src/components/vm/consoles/spice.jsx:64
 msgid "This machine has a SPICE graphical console that can not be shown here."
-msgstr ""
+msgstr "يحتوي هذا الجهاز على وحدة تحكم رسومية SPICE لا يمكن عرضها هنا."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -3162,7 +3168,7 @@ msgstr "إضافة"
 
 #: src/components/networks/networkOverviewTab.tsx:206
 msgid "add entry"
-msgstr ""
+msgstr "إضافة إدخال"
 
 #: src/helpers.ts:257
 msgid "bridge"
@@ -3170,7 +3176,7 @@ msgstr "جسر"
 
 #: src/helpers.ts:243
 msgid "cdrom"
-msgstr ""
+msgstr "cdrom"
 
 #: src/helpers.ts:250 src/components/vm/overview/cpuModal.tsx:324
 msgid "custom"
@@ -3178,7 +3184,7 @@ msgstr "مخصّص"
 
 #: src/helpers.ts:255
 msgid "direct"
-msgstr ""
+msgstr "مباشر"
 
 #: src/helpers.ts:222
 msgid "disabled"
@@ -3190,7 +3196,7 @@ msgstr "قرص"
 
 #: src/helpers.ts:283
 msgid "down"
-msgstr ""
+msgstr "أسفل"
 
 #: src/components/vm/overview/bootOrder.tsx:399
 #: src/components/vm/overview/vsock.tsx:317
@@ -3218,7 +3224,7 @@ msgstr "جهاز مضيف"
 
 #: src/helpers.ts:252
 msgid "host passthrough"
-msgstr ""
+msgstr "مرور المضيف من خلال المضيف"
 
 #: src/helpers.ts:260
 msgid "hostdev"
@@ -3226,19 +3232,19 @@ msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:101
 msgid "iSCSI direct target"
-msgstr ""
+msgstr "هدف iSCSI المباشر"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:192
 msgid "iSCSI initiator IQN"
-msgstr ""
+msgstr "المُبتدئ iSCSI (IQN)"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:94
 msgid "iSCSI target"
-msgstr ""
+msgstr "هدف iSCSI"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:220
 msgid "iSCSI target IQN"
-msgstr ""
+msgstr "الهدف iSCSI (IQN)"
 
 #: src/components/storagePools/storagePool.tsx:66
 #: src/components/networks/network.tsx:67
@@ -3259,7 +3265,7 @@ msgstr "iso"
 
 #: src/manifest.json:0
 msgid "libvirt"
-msgstr "libvirt"
+msgstr ""
 
 #: src/helpers.ts:261
 msgid "mcast"
@@ -3290,7 +3296,7 @@ msgstr "لا"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:156
 msgid "no state saved"
-msgstr ""
+msgstr "لا توجد حالة محفوظة"
 
 #: src/components/networks/networkOverviewTab.tsx:327
 #: src/components/vm/overview/vsock.tsx:299
@@ -3304,19 +3310,19 @@ msgstr ""
 
 #: src/manifest.json:0
 msgid "qcow2"
-msgstr "qcow2"
+msgstr ""
 
 #: src/manifest.json:0
 msgid "qemu"
-msgstr "qemu"
+msgstr ""
 
 #: src/helpers.ts:246
 msgid "redirected device"
-msgstr ""
+msgstr "جهاز مُحوَّل"
 
 #: src/components/networks/networkOverviewTab.tsx:70
 msgid "remove"
-msgstr "أزِل"
+msgstr "إزالة"
 
 #: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
@@ -3332,7 +3338,7 @@ msgstr "udp"
 
 #: src/helpers.ts:282
 msgid "up"
-msgstr ""
+msgstr "أعلى"
 
 #: src/helpers.ts:258
 msgid "user"
@@ -3340,25 +3346,25 @@ msgstr "المُستخدم"
 
 #: src/components/vm/overview/cpuModal.tsx:208
 msgid "vCPU and CPU topology settings could not be saved"
-msgstr ""
+msgstr "تعذّر حفظ إعدادات وحدات المعالجة الافتراضية (vCPU) وهيكلية المعالج"
 
 #: src/components/vm/overview/cpuModal.tsx:259
 #: src/components/vm/overview/cpuModal.tsx:269
 msgid "vCPU count"
-msgstr ""
+msgstr "عدد وحدات المعالجة المركزية الافتراضية"
 
 #: src/components/vm/overview/cpuModal.tsx:239
 #: src/components/vm/overview/cpuModal.tsx:251
 msgid "vCPU maximum"
-msgstr ""
+msgstr "الحد الأقصى لوحدة المعالجة المركزية الافتراضية"
 
 #: src/components/common/needsShutdown.tsx:186
 msgid "vCPUs"
-msgstr ""
+msgstr "وحدات المعالجة المركزية الافتراضية"
 
 #: src/helpers.ts:264
 msgid "vhostuser"
-msgstr ""
+msgstr "واجهة المستخدم الافتراضية للمضيف"
 
 #: src/components/common/stateIcon.tsx:77
 msgid "view more..."
@@ -3368,27 +3374,27 @@ msgstr "عرض المزيد.."
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr ""
+msgstr "يجب تثبيت حزمة virt-install على النظام لاستنساخ الآلات الافتراضية"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1533
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
-msgstr ""
+msgstr "يجب تثبيت حزمة virt-install على النظام لإنشاء أجهزة افتراضية جديدة"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:150
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
-msgstr ""
+msgstr "يجب أن تكون حزمة virt-install مثبتة على النظام لتحرير هذه السمة"
 
 #: src/manifest.json:0
 msgid "vm"
-msgstr ""
+msgstr "VM"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:237
 msgid "vsock requires special software"
-msgstr ""
+msgstr "يتطلب vsock برنامجاً خاصاً"
 
 #: src/helpers.ts:278 src/components/storagePools/storagePoolOverviewTab.tsx:69
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
