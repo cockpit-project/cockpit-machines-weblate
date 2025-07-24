@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-21 03:58+0000\n"
+"POT-Creation-Date: 2025-07-24 03:51+0000\n"
 "PO-Revision-Date: 2025-07-19 11:06+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -125,7 +125,7 @@ msgstr "Додати ключі SSH"
 msgid "Add TPM"
 msgstr "Додати TPM"
 
-#: src/components/vm/consoles/vnc.jsx:468
+#: src/components/vm/consoles/vnc.jsx:502
 msgid "Add VNC"
 msgstr "Додати VNC"
 
@@ -324,7 +324,7 @@ msgstr "Кеш"
 #: src/components/vm/vmMigrateDialog.jsx:199
 #: src/components/vm/vmRenameDialog.jsx:89
 #: src/components/vm/confirmDialog.jsx:56
-#: src/components/vm/consoles/vnc.jsx:146
+#: src/components/vm/consoles/vnc.jsx:159
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:263
 #: src/components/vm/disks/diskAdd.tsx:971
 #: src/components/vm/disks/mediaEject.tsx:129
@@ -436,7 +436,7 @@ msgid "Confirm this action"
 msgstr "Підтвердьте цю дію"
 
 #: src/components/vm/consoles/serial.jsx:96
-#: src/components/vm/consoles/vnc.jsx:411
+#: src/components/vm/consoles/vnc.jsx:445
 #: src/components/vm/consoles/serialConsole.jsx:95
 msgid "Connect"
 msgstr "З'єднатися"
@@ -594,7 +594,7 @@ msgstr "Не вдалося створити ВМ $0"
 msgid "Creation time"
 msgstr "Час створення"
 
-#: src/components/vm/consoles/vnc.jsx:236
+#: src/components/vm/consoles/vnc.jsx:267
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -735,7 +735,7 @@ msgid "Disconnect"
 msgstr "Від’єднатися"
 
 #: src/components/vm/consoles/serial.jsx:93
-#: src/components/vm/consoles/vnc.jsx:408
+#: src/components/vm/consoles/vnc.jsx:442
 msgid "Disconnected"
 msgstr "Від'єднано"
 
@@ -847,8 +847,8 @@ msgstr "Змінити"
 msgid "Edit $0 attributes"
 msgstr "Редагувати атрибути $0"
 
-#: src/components/vm/consoles/vnc.jsx:132
-#: src/components/vm/consoles/vnc.jsx:283
+#: src/components/vm/consoles/vnc.jsx:145
+#: src/components/vm/consoles/vnc.jsx:317
 msgid "Edit VNC settings"
 msgstr "Редагувати параметри VNC"
 
@@ -935,7 +935,7 @@ msgstr "Помилка"
 msgid "Failed to add TPM to VM $0"
 msgstr "Не вдалося додати TPM до ВМ $0"
 
-#: src/components/vm/consoles/vnc.jsx:448
+#: src/components/vm/consoles/vnc.jsx:482
 msgid "Failed to add VNC to VM $0"
 msgstr "Не вдалося додати VNC до ВМ $0"
 
@@ -991,7 +991,7 @@ msgstr "Не вдалося замінити пристрої SPICE"
 msgid "Failed to save network settings"
 msgstr "Не вдалося зберегти параметри мережі"
 
-#: src/components/vm/consoles/vnc.jsx:231
+#: src/components/vm/consoles/vnc.jsx:262
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Не вдалося надіслати комбінацію клавіш Ctrl+Alt+$0 до ВМ $1"
 
@@ -1111,7 +1111,7 @@ msgstr "Штатно вимкнути"
 msgid "Graphical"
 msgstr "Графіка"
 
-#: src/components/vm/consoles/vnc.jsx:458
+#: src/components/vm/consoles/vnc.jsx:492
 msgid "Graphical console support not enabled"
 msgstr "Підтримку графічної консолі не увімкнено"
 
@@ -1426,6 +1426,10 @@ msgid "Local install media (ISO image or distro install tree)"
 msgstr ""
 "Локальний носій даних для встановлення (образ ISO або ієрархія каталогів "
 "встановлення дистрибутиву)"
+
+#: src/components/vm/consoles/vnc.jsx:235
+msgid "Local scaling"
+msgstr ""
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
 msgid "Location"
@@ -1768,6 +1772,10 @@ msgstr "Немає доступних мереж"
 msgid "No parent"
 msgstr "Немає батьківського запису"
 
+#: src/components/vm/consoles/vnc.jsx:234
+msgid "No scaling or resizing"
+msgstr ""
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
 msgstr "Для цієї ВМ не визначено знімків"
@@ -1883,11 +1891,11 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Батьківський знімок"
 
-#: src/components/vm/consoles/vnc.jsx:177
+#: src/components/vm/consoles/vnc.jsx:190
 msgid "Password"
 msgstr "Пароль"
 
-#: src/components/vm/consoles/vnc.jsx:197
+#: src/components/vm/consoles/vnc.jsx:210
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
@@ -1897,7 +1905,7 @@ msgstr ""
 "забезпечують шифрування і, загалом, є криптографічно нестійкими. Ними можна "
 "скористатися для захисту з'єднань у ненадійних мережах."
 
-#: src/components/vm/consoles/vnc.jsx:97
+#: src/components/vm/consoles/vnc.jsx:110
 msgid "Password must be at most 8 characters."
 msgstr "Кількість символів у паролі не повинна перевищувати 8."
 
@@ -2008,7 +2016,7 @@ msgstr "Для типу буфера не пердебачено підтрим�
 msgid "Pool's volumes are used by VMs "
 msgstr "Томи буфера використовуються ВМ "
 
-#: src/components/vm/consoles/vnc.jsx:158
+#: src/components/vm/consoles/vnc.jsx:171
 #: src/components/vm/disks/vmDiskColumns.tsx:53
 #: src/components/vm/overview/bootOrder.tsx:124
 #: src/components/vm/overview/bootOrder.tsx:140
@@ -2016,11 +2024,11 @@ msgstr "Томи буфера використовуються ВМ "
 msgid "Port"
 msgstr "Порт"
 
-#: src/components/vm/consoles/vnc.jsx:91
+#: src/components/vm/consoles/vnc.jsx:104
 msgid "Port must be 5900 or larger."
 msgstr "Номер порту має бути не меншим за 5900."
 
-#: src/components/vm/consoles/vnc.jsx:171
+#: src/components/vm/consoles/vnc.jsx:184
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
@@ -2028,7 +2036,7 @@ msgstr ""
 "Номер порту повинен бути не меншим за 5900. Не заповнюйте, щоб програма "
 "автоматично призначила вільний порт при запуску машини."
 
-#: src/components/vm/consoles/vnc.jsx:88
+#: src/components/vm/consoles/vnc.jsx:101
 msgid "Port must be a number."
 msgstr "Порт має бути вказано числом."
 
@@ -2155,6 +2163,10 @@ msgstr ""
 "переглядач» у Програмних засобах GNOME, KDE Discover або віддайте таку "
 "команду:"
 
+#: src/components/vm/consoles/vnc.jsx:236
+msgid "Remote resizing"
+msgstr ""
+
 #: src/components/vm/consoles/common.jsx:139
 msgid "Remote viewer"
 msgstr "Віддалений переглядач"
@@ -2249,7 +2261,7 @@ msgstr "Замінити на VNC"
 msgid "Reset"
 msgstr "Скинути"
 
-#: src/components/vm/consoles/vnc.jsx:481
+#: src/components/vm/consoles/vnc.jsx:515
 msgid "Restart this virtual machine to access its graphical console"
 msgstr ""
 "Перезапустіть цю віртуальну машину, щоб отримати доступ до її графічної "
@@ -2341,7 +2353,7 @@ msgstr ""
 msgid "SSH keys"
 msgstr "Ключі SSH"
 
-#: src/components/vm/consoles/vnc.jsx:143
+#: src/components/vm/consoles/vnc.jsx:156
 #: src/components/vm/disks/diskEdit.tsx:338
 #: src/components/vm/overview/bootOrder.tsx:365
 #: src/components/vm/overview/memoryModal.tsx:206
@@ -2357,7 +2369,7 @@ msgstr "Зберегти"
 msgid "Select all"
 msgstr "Вибрати все"
 
-#: src/components/vm/consoles/vnc.jsx:258
+#: src/components/vm/consoles/vnc.jsx:291
 msgid "Send key"
 msgstr "Надіслати ключ"
 
@@ -2558,7 +2570,7 @@ msgid "Start should not be empty"
 msgstr "Початок повинен бути непорожнім"
 
 #: src/components/vm/consoles/serial.jsx:130
-#: src/components/vm/consoles/vnc.jsx:428
+#: src/components/vm/consoles/vnc.jsx:462
 msgid "Start the virtual machine to access the console"
 msgstr "Запустіть віртуальну машину, щоб отримати доступ до її консолі"
 
@@ -3063,7 +3075,7 @@ msgstr "ВМ буде запущено із правами доступу root"
 msgid "VNC"
 msgstr "VNC"
 
-#: src/components/vm/consoles/vnc.jsx:122
+#: src/components/vm/consoles/vnc.jsx:135
 msgid "VNC settings could not be saved"
 msgstr "Не вдалося зберегти параметри VNC"
 
