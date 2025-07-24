@@ -10,34 +10,30 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-21 03:58+0000\n"
-"PO-Revision-Date: 2021-05-31 20:02+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
-"Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/ru/>\n"
+"PO-Revision-Date: 2025-07-24 16:52+0000\n"
+"Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-machines/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:929
 msgid "$0 $1 available at default location"
-msgstr ""
+msgstr "$0 $1 доступен в месте по умолчанию"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:246
 #: src/components/create-vm-dialog/createVmDialog.jsx:879
-#, fuzzy
-#| msgid "$0 is not available from any repository."
 msgid "$0 $1 available on host"
-msgstr "Компонент $0 недоступен в репозиториях."
+msgstr "$0 $1 доступен на хосте"
 
 #: src/components/vm/overview/cpuModal.tsx:334
-#, fuzzy
-#| msgid "$0 vCPU details"
 msgid "$0 CPU details"
-msgstr "Сведения о VCPU $0"
+msgstr "Сведения о ЦП $0"
 
 #: src/components/aggregateStatusCards.tsx:69
 msgid "$0 Network"
@@ -54,12 +50,8 @@ msgstr[1] "$0 буфера устройств хранения"
 msgstr[2] "$0 буферов устройств хранения"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:1303
-#, fuzzy
-#| msgid ""
-#| "The selected operating system does not support unattended installation"
 msgid "$0 does not support unattended installation."
-msgstr ""
-"Выбранная операционная система не поддерживает автоматической установки"
+msgstr "$0 не поддерживает автоматическую установку."
 
 #: src/components/vm/overview/memoryModal.tsx:194
 msgid "$0 memory adjustment"
@@ -74,9 +66,9 @@ msgstr "$0 сеть"
 #: src/components/vm/vmUsageCard.jsx:42
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
-msgstr[0] "Вирт. процессор"
-msgstr[1] "Вирт. процессора"
-msgstr[2] "Вирт. процессоров"
+msgstr[0] "$0 Вирт. процессор"
+msgstr[1] "$0 Вирт. процессора"
+msgstr[2] "$0 Вирт. процессоров"
 
 #: src/components/vm/nics/nicEdit.tsx:224
 msgid "$0 virtual network interface settings"
@@ -87,6 +79,9 @@ msgid ""
 "A copy of the VM will run on the destination and will disappear when it is "
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
+"Копия виртуальной машины будет запущена на целевом компьютере и исчезнет при "
+"его отключении. При этом исходный хост сохранит свою копию конфигурации "
+"виртуальной машины."
 
 #: src/components/vm/disks/vmDisksCard.tsx:223
 #: src/components/vm/disks/diskEdit.tsx:166
@@ -95,10 +90,8 @@ msgstr "Доступ"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/overview/watchdog.tsx:203
-#, fuzzy
-#| msgid "Connection"
 msgid "Action"
-msgstr "Подключение"
+msgstr "Действие"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/storagePools/storagePoolList.tsx:80
@@ -107,10 +100,8 @@ msgstr "Подключение"
 #: src/components/vm/disks/vmDisksCard.tsx:229
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/nics/vmNicsCard.tsx:498
-#, fuzzy
-#| msgid "Connection"
 msgid "Actions"
-msgstr "Подключение"
+msgstr "Действия"
 
 #: src/components/storagePools/storagePool.tsx:180
 #: src/components/networks/network.tsx:189
@@ -132,19 +123,19 @@ msgstr "Добавить"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:867
 msgid "Add SSH keys"
-msgstr ""
+msgstr "Добавить SSH-ключи"
 
 #: src/components/vm/vmActions.jsx:483
 msgid "Add TPM"
-msgstr ""
+msgstr "Добавить модуль TPM"
 
 #: src/components/vm/consoles/vnc.jsx:468
 msgid "Add VNC"
-msgstr ""
+msgstr "Добавить VNC"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
-msgstr ""
+msgstr "Добавить статическую запись хоста DHCP"
 
 #: src/components/vm/disks/diskAdd.tsx:819
 #: src/components/vm/disks/vmDisksCard.tsx:87
@@ -153,52 +144,42 @@ msgstr "Добавить диск"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:152
 #: src/components/vm/hostdevs/hostDevAdd.tsx:282
-#, fuzzy
-#| msgid "host device"
 msgid "Add host device"
-msgstr "главное устройство"
+msgstr "Добавить хост-устройство"
 
 #: src/components/vm/nics/vmNicsCard.tsx:129
 msgid "Add network interface"
 msgstr "Добавить сетевой интерфейс"
 
 #: src/components/vm/consoles/serial.jsx:163
-#, fuzzy
-#| msgid "Serial console"
 msgid "Add serial console"
-msgstr "Последовательная консоль"
+msgstr "Добавить последовательную консоль"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
-#, fuzzy
-#| msgid "No such file or directory"
 msgid "Add shared directory"
-msgstr "Нет такого файла или каталога"
+msgstr "Добавить общий каталог"
 
 #: src/components/vm/nics/nicAdd.tsx:255
 msgid "Add virtual network interface"
 msgstr "Добавление виртуального сетевого интерфейса"
 
 #: src/components/vm/overview/vsock.tsx:242
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Add vsock interface"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Добавить интерфейс vsock"
 
 #: src/components/vm/overview/watchdog.tsx:195
 #, fuzzy
 #| msgid "host device"
 msgid "Add watchdog device type"
-msgstr "главное устройство"
+msgstr "Добавить тип устройства-сторожа"
 
 #: src/components/vm/overview/watchdog.tsx:128
 msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:135
-#, fuzzy
-#| msgid "Only editable when the guest is shut off"
 msgid "Adding shared directories is possible only when the guest is shut off"
-msgstr "Может редактироваться, только когда гостевая система выключена"
+msgstr "Добавление общих каталогов возможно только при выключенном госте"
 
 #: src/components/vm/disks/vmDisksCard.tsx:227
 msgid "Additional"
@@ -235,10 +216,8 @@ msgid ""
 msgstr ""
 
 #: src/components/storagePools/storagePoolDelete.tsx:188
-#, fuzzy
-#| msgid "Delete the volumes inside this pool"
 msgid "Also delete all volumes inside this pool:"
-msgstr "Удалить тома в этом пуле"
+msgstr "Также удалить все тома внутри этого пула:"
 
 #: src/components/vm/disks/diskAdd.tsx:193
 #: src/components/vm/nics/nicAdd.tsx:125
