@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-04 04:09+0000\n"
-"PO-Revision-Date: 2025-07-16 23:53+0000\n"
-"Last-Translator: JW Wang <v72807647@gmail.com>\n"
+"PO-Revision-Date: 2025-08-09 22:55+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-machines/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -121,7 +121,7 @@ msgstr "新增 TPM"
 
 #: src/components/vm/consoles/vnc.jsx:502
 msgid "Add VNC"
-msgstr ""
+msgstr "新增 VNC 連線"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -142,10 +142,8 @@ msgid "Add network interface"
 msgstr "新增網路介面"
 
 #: src/components/vm/consoles/serial.jsx:163
-#, fuzzy
-#| msgid "Serial console"
 msgid "Add serial console"
-msgstr "序列控制台"
+msgstr "新增序列控制台"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:131
 msgid "Add shared directory"
@@ -388,13 +386,11 @@ msgid "Class"
 msgstr "類別"
 
 #: src/components/vm/consoles/common.jsx:76
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
 "Viewer application on your system."
-msgstr "點選 \"啟動 Remote Viewer\" 將會下載一個 .vv 檔案並啟動 $0 。"
+msgstr "按一下「啟動檢視器」會下載 $0 檔案，並在您的系統上啟動 Remote Viewer "
+"應用程式。"
 
 #: src/components/vm/vmCloneDialog.jsx:98 src/components/vm/vmActions.jsx:413
 msgid "Clone"
@@ -414,7 +410,7 @@ msgstr "Cockpit 專案"
 
 #: src/components/vm/consoles/consoles.jsx:227
 msgid "Compress"
-msgstr ""
+msgstr "壓縮"
 
 #: src/components/vm/disks/vmDisksCard.tsx:251
 msgid "Concurrently writeable"
@@ -795,10 +791,8 @@ msgid "Download progress"
 msgstr "下載進度"
 
 #: src/components/vm/consoles/common.jsx:101
-#, fuzzy
-#| msgid "Downloading image for VM $0"
 msgid "Download the MSI from $0"
-msgstr "正在為虛擬機器 $0 下載映像"
+msgstr "從 $0 下載 MSI 檔"
 
 #: src/app.jsx:287
 msgid "Downloading image for VM $0"
@@ -831,10 +825,8 @@ msgstr "編輯 $0 屬性"
 
 #: src/components/vm/consoles/vnc.jsx:145
 #: src/components/vm/consoles/vnc.jsx:317
-#, fuzzy
-#| msgid "DHCP Settings"
 msgid "Edit VNC settings"
-msgstr "DHCP 設定"
+msgstr "編輯 VNC 設定"
 
 #: src/components/vm/vmActions.jsx:470
 msgid "Edit description"
@@ -919,16 +911,12 @@ msgid "Failed to add TPM to VM $0"
 msgstr "為虛擬機器 $0 新增 TPM 失敗"
 
 #: src/components/vm/consoles/vnc.jsx:482
-#, fuzzy
-#| msgid "Failed to add TPM to VM $0"
 msgid "Failed to add VNC to VM $0"
-msgstr "為虛擬機器 $0 新增 TPM 失敗"
+msgstr "將 VNC 新增至虛擬機器失敗 $0"
 
 #: src/components/vm/consoles/serial.jsx:143
-#, fuzzy
-#| msgid "Failed to add TPM to VM $0"
 msgid "Failed to add serial console to VM $0"
-msgstr "為虛擬機器 $0 新增 TPM 失敗"
+msgstr "將序列控制端新增至虛擬機器失敗 $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 msgid "Failed to add shared directory"
@@ -1096,11 +1084,11 @@ msgstr "正常關機"
 
 #: src/components/vm/consoles/consoles.jsx:107
 msgid "Graphical"
-msgstr ""
+msgstr "圖形化"
 
 #: src/components/vm/consoles/vnc.jsx:492
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "未啟用圖形化控制台支援"
 
 #: src/app.jsx:119
 msgid "Hardware virtualization is disabled"
@@ -1346,7 +1334,7 @@ msgstr "隔離的網路"
 msgid ""
 "It can also be used to enable the inline graphical console in the browser, "
 "which does not support SPICE."
-msgstr ""
+msgstr "它也可用於在不支援 SPICE 的瀏覽器中啟用內嵌圖形化控制台。"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:832
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
@@ -1357,10 +1345,8 @@ msgid "LVM volume group"
 msgstr "LVM 磁碟區群組"
 
 #: src/components/vm/consoles/common.jsx:166
-#, fuzzy
-#| msgid "Launch remote viewer"
 msgid "Launch viewer"
-msgstr "啟動 Remote Viewer"
+msgstr "啟動檢視器"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:652
 msgid ""
@@ -1404,7 +1390,7 @@ msgstr "本機安裝媒體 (ISO 映像檔或發行版 install tree)"
 
 #: src/components/vm/consoles/vnc.jsx:235
 msgid "Local scaling"
-msgstr ""
+msgstr "本地縮放"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
@@ -1748,7 +1734,7 @@ msgstr "無上層"
 
 #: src/components/vm/consoles/vnc.jsx:234
 msgid "No scaling or resizing"
-msgstr ""
+msgstr "無須縮放或調整大小"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 msgid "No snapshots defined for this VM"
@@ -1863,21 +1849,21 @@ msgid "Parent snapshot"
 msgstr "上層快照"
 
 #: src/components/vm/consoles/vnc.jsx:190
-#, fuzzy
-#| msgid "Root password"
 msgid "Password"
-msgstr "Root 密碼"
+msgstr "密碼"
 
 #: src/components/vm/consoles/vnc.jsx:210
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
-msgstr ""
+msgstr "密碼必須至少 8 個字元以下。VNC "
+"密碼不提供加密功能，而且通常加密功能較弱。在不信任的網路中，這些密碼無法用來"
+"保護連線。"
 
 #: src/components/vm/consoles/vnc.jsx:110
 msgid "Password must be at most 8 characters."
-msgstr ""
+msgstr "密碼最多必須有 8 個字元。"
 
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/hostdevs/hostDevCard.tsx:128
@@ -1994,18 +1980,17 @@ msgstr "連接埠"
 
 #: src/components/vm/consoles/vnc.jsx:104
 msgid "Port must be 5900 or larger."
-msgstr ""
+msgstr "連接埠必須是 5900 或更大。"
 
 #: src/components/vm/consoles/vnc.jsx:184
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
-msgstr ""
+msgstr "連接埠必須至少為 5900。留空則可在機器啟動時自動指定一個空閒的連接埠。"
 
 #: src/components/vm/consoles/vnc.jsx:101
-#, fuzzy
 msgid "Port must be a number."
-msgstr "小時需要是0-23之間的數字"
+msgstr "小時需要是0-23之間的數字。"
 
 #: src/helpers.ts:288
 msgid "Power off"
@@ -2117,30 +2102,24 @@ msgid "Remote URL"
 msgstr "遠端 URL"
 
 #: src/components/vm/consoles/common.jsx:79
-#, fuzzy
-#| msgid ""
-#| "$0 is available for most operating systems. To install it, search for it "
-#| "in GNOME Software or run the following:"
 msgid ""
 "Remote Viewer is available for most operating systems. To install it, search "
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
 msgstr ""
-"$0 適用於大多數的作業系統。 如果想安裝該軟體，請在 GNOME 軟體中搜尋或執行以下"
-"命令："
+"Remote Viewer 適用於大多數的作業系統。要安裝它，請在 GNOME 軟體、KDE "
+"Discover 中搜尋「Remote Viewer」，或執行下列步驟："
 
 #: src/components/vm/consoles/vnc.jsx:236
 msgid "Remote resizing"
-msgstr ""
+msgstr "遠端調整大小"
 
 #: src/components/vm/consoles/common.jsx:139
-#, fuzzy
-#| msgid "Remote viewer details"
 msgid "Remote viewer"
-msgstr "Remote viewer 詳細資訊"
+msgstr "遠端檢視器"
 
 #: src/components/vm/consoles/common.jsx:111
 msgid "Remote viewer applications can connect to the following address:"
-msgstr ""
+msgstr "遠端檢視器應用程式可連線至下列位址："
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:72
@@ -2219,26 +2198,20 @@ msgid "Replace SPICE on the virtual machine."
 msgstr "取代虛擬機器上的 SPICE。"
 
 #: src/components/vm/consoles/spice.jsx:77
-#, fuzzy
-#| msgid "Replace"
 msgid "Replace with VNC"
-msgstr "取代"
+msgstr "以 VNC 取代"
 
 #: src/helpers.ts:286
 msgid "Reset"
 msgstr "重置"
 
 #: src/components/vm/consoles/vnc.jsx:515
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its graphical console"
-msgstr "請啟動虛擬機器以存取它的控制台。"
+msgstr "重新啟動此虛擬機器以存取其圖形化主控台"
 
 #: src/components/vm/consoles/serial.jsx:175
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
-msgstr "請啟動虛擬機器以存取它的控制台。"
+msgstr "請啟動虛擬機器以存取它的控制台"
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2350,10 +2323,8 @@ msgid "Serial"
 msgstr "序號"
 
 #: src/components/vm/consoles/consoles.jsx:168
-#, fuzzy
-#| msgid "Serial console ($0)"
 msgid "Serial ($0)"
-msgstr "序列控制台 ($0)"
+msgstr "序列埠 ($0)"
 
 #: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
@@ -2361,7 +2332,7 @@ msgstr "序列控制台"
 
 #: src/components/vm/consoles/serial.jsx:153
 msgid "Serial console support not enabled"
-msgstr ""
+msgstr "未啟用序列控制端支援"
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2426,7 +2397,7 @@ msgstr "將 $0 關機？"
 
 #: src/helpers.ts:234
 msgid "Shut off"
-msgstr "已關閉"
+msgstr "關閉"
 
 #: src/components/vm/overview/firmware.tsx:184
 msgid "Shut off the VM in order to edit firmware configuration"
@@ -2534,16 +2505,12 @@ msgstr "開始不得為空值"
 
 #: src/components/vm/consoles/serial.jsx:130
 #: src/components/vm/consoles/vnc.jsx:462
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to access the console"
-msgstr "請啟動虛擬機器以存取它的控制台。"
+msgstr "請啟動虛擬機器以存取它的控制台"
 
 #: src/components/vm/consoles/spice.jsx:68
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to launch remote viewer."
-msgstr "請啟動虛擬機器以存取它的控制台。"
+msgstr "啟動虛擬機器以啟動遠端檢視器。"
 
 #: src/components/vm/confirmDialog.jsx:74
 msgid "Started"
@@ -2784,7 +2751,7 @@ msgstr "這是為了高效能或更佳安全性的建議類型。"
 
 #: src/components/vm/consoles/spice.jsx:64
 msgid "This machine has a SPICE graphical console that can not be shown here."
-msgstr ""
+msgstr "這台機器有 SPICE 圖形控制台，在此無法顯示。"
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -2861,7 +2828,7 @@ msgstr "唯一的網路名稱"
 
 #: src/components/vm/overview/bootOrder.tsx:176
 msgid "Unit"
-msgstr "單位"
+msgstr "單元"
 
 #: src/components/vm/nics/vmNicsCard.tsx:454
 msgid "Unknown"
@@ -3018,10 +2985,8 @@ msgid "VNC"
 msgstr ""
 
 #: src/components/vm/consoles/vnc.jsx:135
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "VNC settings could not be saved"
-msgstr "磁碟設定無法儲存"
+msgstr "無法儲存 VNC 設定"
 
 #: src/components/create-vm-dialog/createVmDialog.jsx:548
 msgid "Valid token"
