@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-08 03:31+0000\n"
-"PO-Revision-Date: 2025-09-09 02:34+0000\n"
+"PO-Revision-Date: 2025-09-09 21:16+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/fr/>\n"
@@ -513,7 +513,7 @@ msgstr "Impossible d’ajouter dynamiquement un dispositif de surveillance"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:99
 msgid "Could not revert to snapshot"
-msgstr "N’a pas pu revenir à l’instantané"
+msgstr "Impossible de revenir à l’instantané"
 
 #: src/helpers.ts:235
 msgid "Crashed"
@@ -570,7 +570,7 @@ msgstr "Créer une nouvelle machine virtuelle"
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:346
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:75
 msgid "Create snapshot"
-msgstr "Créer Instantané"
+msgstr "Créer un instantané"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:520
 #: src/components/storagePools/createStoragePoolDialog.tsx:576
@@ -775,7 +775,7 @@ msgstr "Disque"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:167
 msgid "Disk $0 could not be removed"
-msgstr "Le disque $0 ne peut pas être supprimé"
+msgstr "Le disque $0 n’a pas pu être retiré"
 
 #: src/components/vm/disks/diskAdd.tsx:954
 msgid "Disk failed to be added"
@@ -1046,7 +1046,7 @@ msgstr "Fichier"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:75
 msgid "Filesystem $0 could not be removed"
-msgstr "Le système de fichier $0 n’a pas pu être supprimé"
+msgstr "Le système de fichiers $0 n’a pas pu être supprimé"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:92
 msgid "Filesystem directory"
@@ -1176,7 +1176,7 @@ msgstr "Le dispositif hôte n’a pas pu être attaché"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:272
 msgid "Host device will be removed from $0:"
-msgstr "Le dispositif hôte sera retiré de $0 :"
+msgstr "Le périphérique hôte sera retiré de $0 :"
 
 #: src/components/vm/vmDetailsPage.tsx:214
 msgid "Host devices"
@@ -1468,7 +1468,7 @@ msgstr ""
 
 #: src/components/vm/consoles/vnc.jsx:235
 msgid "Local scaling"
-msgstr "Mise à l'échelle locale"
+msgstr "Mise à l’échelle locale"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
 msgid "Location"
@@ -1575,7 +1575,7 @@ msgstr "L’emplacement de sauvegarde mémoire ne peut pas être vide"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
-msgstr "L’instantané mémoire utilisera environ $0."
+msgstr "L’instantané de mémoire utilisera environ $0."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
 msgid "Memory state path"
@@ -1722,11 +1722,11 @@ msgstr "Interface réseau"
 
 #: src/components/vm/nics/vmNicsCard.tsx:561
 msgid "Network interface $0 could not be removed"
-msgstr "L’interface réseau $0 n’a pas pu être supprimée"
+msgstr "L’interface réseau $0 n’a pas pu être retirée"
 
 #: src/components/vm/nics/vmNicsCard.tsx:562
 msgid "Network interface $0 will be removed from $1"
-msgstr "L’interface réseau $0 sera supprimée de $1"
+msgstr "L’interface réseau $0 sera retirée de $1"
 
 #: src/components/vm/nics/nicAdd.tsx:221 src/components/vm/nics/nicEdit.tsx:187
 msgid "Network interface settings could not be saved"
@@ -1776,30 +1776,24 @@ msgid "No description"
 msgstr "Aucune description"
 
 #: src/components/vm/disks/vmDisksCard.tsx:294
-#, fuzzy
-#| msgid "disk"
 msgid "No disks"
-msgstr "disque"
+msgstr "Aucun disque"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Pas de périphérique hôte sélectionné"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-#, fuzzy
-#| msgid "host device"
 msgid "No host devices"
-msgstr "périphérique hôte"
+msgstr "Aucun périphérique hôte"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Aucun périphérique réseau disponible"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "No network interfaces"
-msgstr "Interfaces réseau"
+msgstr "Aucune interface réseau"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1815,19 +1809,15 @@ msgstr "Pas de parent"
 
 #: src/components/vm/consoles/vnc.jsx:234
 msgid "No scaling or resizing"
-msgstr "Aucun redimensionnement ou mise à l'échelle"
+msgstr "Aucun redimensionnement ou mise à l’échelle"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-#, fuzzy
-#| msgid "Shared directories"
 msgid "No shared directories"
-msgstr "Répertoires partagés"
+msgstr "Aucun répertoire partagé"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-#, fuzzy
-#| msgid "snapshot"
 msgid "No snapshots"
-msgstr "instantané"
+msgstr "Aucun instantané"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -1939,7 +1929,7 @@ msgstr "PCI"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:186
 msgid "Parent snapshot"
-msgstr "Aperçu des parents"
+msgstr "Instantanés parents"
 
 #: src/components/vm/consoles/vnc.jsx:190
 msgid "Password"
@@ -2250,11 +2240,11 @@ msgstr "Retirer le disque de la VM ?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:74
 msgid "Remove filesystem?"
-msgstr "Supprimer le système de fichiers ?"
+msgstr "Supprimer le système de fichiers ?"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:270
 msgid "Remove host device from VM?"
-msgstr "Retirer le dispositif hôte de la VM ?"
+msgstr "Retirer le périphérique hôte de la VM ?"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:936
 msgid "Remove item"
@@ -2266,7 +2256,7 @@ msgstr "Supprimer l’interface réseau ?"
 
 #: src/components/networks/networkOverviewTab.tsx:74
 msgid "Remove static host from DHCP"
-msgstr "Entrées d’hôtes statiques"
+msgstr "Retirer l’hôte statique du DHCP"
 
 #: src/components/vm/vmRenameDialog.tsx:106 src/components/vm/vmActions.tsx:495
 msgid "Rename"
@@ -2339,9 +2329,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
-"Le retour à cet instantané ramènera la machine virtuelle au moment de "
-"l’instantané et l’état actuel sera perdu, ainsi que toutes les données non "
-"saisies dans un instantané"
+"Revenir à cet instantané ramènera la machine virtuelle à son état au moment "
+"de la prise de l’instantané. L’état actuel sera perdu, ainsi que toutes les "
+"données non capturées dans un instantané."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:811
 msgid "Root password"
@@ -2538,25 +2528,20 @@ msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
 msgstr ""
-"L’instantané $0 sera supprimé de $1. Tout son contenu capturé sera perdu."
+"L’instantané $0 sera supprimé de $1. Toutes les données capturées seront "
+"perdues."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:304
 msgid "Snapshot failed to be created"
-msgstr "L’instantané n’a pas été créé"
+msgstr "La création de l’instantané a échoué"
 
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Instantanés"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-#, fuzzy
-#| msgid ""
-#| "Previously taken snapshots allow you to revert to an earlier state if "
-#| "something goes wrong"
 msgid "Snapshots allow you to revert to an earlier state"
-msgstr ""
-"Les clichés pris précédemment vous permettent de revenir à un état antérieur "
-"si quelque chose ne va pas"
+msgstr "Les instantanés vous permettent de revenir à un état antérieur"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -2654,7 +2639,7 @@ msgstr "Entrées d’hôtes statiques"
 
 #: src/components/networks/networkOverviewTab.tsx:75
 msgid "Static host from DHCP could not be removed"
-msgstr "L’hôte statique du DHCP n’a pas pu être supprimé"
+msgstr "L’hôte statique du DHCP n’a pas pu être retiré"
 
 #: src/components/vm/vmMigrateDialog.tsx:121
 #: src/components/create-vm-dialog/createVmDialog.tsx:1119
@@ -2803,9 +2788,9 @@ msgid ""
 "The migrated VM configuration is removed from the source host. The "
 "destination host is considered the new home of the VM."
 msgstr ""
-"La configuration de machine virtuelle migrée est supprimée de l’hôte source. "
-"L’hôte de destination est considéré comme le nouveau domicile de la machine "
-"virtuelle."
+"La configuration de la machine virtuelle ayant été migrée a été retirée de l’"
+"hôte source. L’hôte de destination est désormais le nouveau lieu de "
+"résidence de la machine virtuelle."
 
 #: src/components/vm/nics/nicBody.tsx:237
 msgid "The mode influences the delivery of packets."
@@ -2828,7 +2813,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:76
 msgid "The static host entry for $0 will be removed:"
-msgstr "L’entrée de l’hôte statique pour $0 sera supprimée :"
+msgstr "L’entrée d’hôte statique pour $0 sera retirée :"
 
 #: src/components/storagePools/storagePoolDelete.tsx:151
 #: src/components/storagePools/storagePoolDelete.tsx:155
@@ -2852,11 +2837,11 @@ msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:168
 msgid "This disk will be removed from $0:"
-msgstr "Ce disque sera retiré de $0 :"
+msgstr "Ce disque sera retiré de $0 :"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:76
 msgid "This filesystem will be removed from $0:"
-msgstr "Ce système de fichiers sera supprimé de $0 :"
+msgstr "Ce système de fichiers sera supprimé de $0 :"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:161
 msgid ""
@@ -3366,7 +3351,7 @@ msgstr "mcast"
 
 #: src/components/common/infoPopover.tsx:34
 msgid "more info"
-msgstr "plus d'infos"
+msgstr "plus d’infos"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
 #: src/components/vm/vmDetailsPage.tsx:246
@@ -3415,7 +3400,7 @@ msgstr "périphérique redirigé"
 
 #: src/components/networks/networkOverviewTab.tsx:70
 msgid "remove"
-msgstr "supprimer"
+msgstr "retirer"
 
 #: src/components/vm/disks/diskAdd.tsx:323
 msgid "serial number"
