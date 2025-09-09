@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-09 22:55+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -1715,29 +1715,31 @@ msgstr "找不到開機裝置"
 msgid "No description"
 msgstr "無描述"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "主機與此虛擬機器之間沒有共享目錄"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "沒有為此虛擬機器定義磁碟"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "磁碟"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "未選擇主機裝置"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "未指派主機裝置給此虛擬機器"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "主機裝置"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "沒有網路裝置"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "沒有為此虛擬機器定義的網路介面"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "網路介面"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1755,9 +1757,16 @@ msgstr "無上層"
 msgid "No scaling or resizing"
 msgstr "無須縮放或調整大小"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "共享的目錄"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "此虛擬機器沒有已定義的快照"
+#, fuzzy
+msgid "No snapshots"
+msgstr "建立快照"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2034,12 +2043,6 @@ msgstr "前綴長度"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "前綴長度不應為空值"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr "先前建立的快照允許您在發生意外時還原到先前的狀態"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2456,6 +2459,14 @@ msgstr "快照建立失敗"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "快照"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr "先前建立的快照允許您在發生意外時還原到先前的狀態"
 
 # translation auto-copied from project Satellite6 Katello, version Sam-1.3.0,
 # document katello, author snowlet
@@ -3362,6 +3373,21 @@ msgstr "vsock 需要特殊的軟體"
 msgid "yes"
 msgstr "是"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "主機與此虛擬機器之間沒有共享目錄"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "沒有為此虛擬機器定義磁碟"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "未指派主機裝置給此虛擬機器"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "沒有為此虛擬機器定義的網路介面"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "此虛擬機器沒有已定義的快照"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr "使用任意可使用下列協定的檢視應用程式連線"
 
@@ -3464,10 +3490,6 @@ msgstr "是"
 
 #~ msgid "Session"
 #~ msgstr "作業階段"
-
-#, fuzzy
-#~ msgid "snapshot"
-#~ msgstr "建立快照"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "立即啟動VM"

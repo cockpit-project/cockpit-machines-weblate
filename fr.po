@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-09-09 02:34+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1775,29 +1775,31 @@ msgstr "Aucun périphérique de démarrage trouvé"
 msgid "No description"
 msgstr "Aucune description"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "Aucun répertoire partagé entre l’hôte et cette machine virtuelle"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Aucun disque défini pour cette machine virtuelle"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "disque"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Pas de périphérique hôte sélectionné"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "Aucun périphérique hôte affecté à cette machine virtuelle"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "périphérique hôte"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Aucun périphérique réseau disponible"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Aucune interface réseau définie pour cette machine virtuelle"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "Interfaces réseau"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1815,9 +1817,17 @@ msgstr "Pas de parent"
 msgid "No scaling or resizing"
 msgstr "Aucun redimensionnement ou mise à l'échelle"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "Répertoires partagés"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "Aucun instantané défini pour cette machine virtuelle"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "instantané"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2106,14 +2116,6 @@ msgstr "Longueur du préfixe"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "La longueur du préfixe ne doit pas être vide"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"Les clichés pris précédemment vous permettent de revenir à un état antérieur "
-"si quelque chose ne va pas"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2545,6 +2547,16 @@ msgstr "L’instantané n’a pas été créé"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Instantanés"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"Les clichés pris précédemment vous permettent de revenir à un état antérieur "
+"si quelque chose ne va pas"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3489,6 +3501,21 @@ msgstr "vsock nécessite un logiciel spécial"
 msgid "yes"
 msgstr "oui"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "Aucun répertoire partagé entre l’hôte et cette machine virtuelle"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Aucun disque défini pour cette machine virtuelle"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Aucun périphérique hôte affecté à cette machine virtuelle"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Aucune interface réseau définie pour cette machine virtuelle"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Aucun instantané défini pour cette machine virtuelle"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr ""
 #~ "Connectez-vous à n’importe quelle application de visualisation pour les "
@@ -3609,9 +3636,6 @@ msgstr "oui"
 #~| msgid "host device"
 #~ msgid "$1 host device"
 #~ msgstr "périphérique hôte"
-
-#~ msgid "snapshot"
-#~ msgstr "instantané"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Démarrer immédiatement la VM"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-10 06:43+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1734,29 +1734,31 @@ msgstr "Bulunan önyükleme aygıtı yok"
 msgid "No description"
 msgstr "Açıklama yok"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "Anamakine ve bu sanal makine arasında paylaşılan dizinler yok"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Bu sanal makine için tanımlanan diskler yok"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "disk"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Seçilen anamakine aygıtı yok"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "Bu sanal makineye atanan anamakine aygıtları yok"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "anamakine aygıtı"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Ağ aygıtları yok"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Bu sanal makine için tanımlanan ağ arayüzleri yok"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "Ağ arayüzleri"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1774,9 +1776,17 @@ msgstr "Üst öğe yok"
 msgid "No scaling or resizing"
 msgstr "Ölçeklendirme veya yeniden boyutlandırma yok"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "Paylaşılan dizinler"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "Bu sanal makine için tanımlanan anlık görüntüler yok"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "anlık görüntü"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2062,14 +2072,6 @@ msgstr "Ön ek uzunluğu"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "Ön ek uzunluğu boş olmamalıdır"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"Önceden kaydedilmiş anlık görüntüler, bir şeyler ters giderse daha önceki "
-"bir duruma geri dönmenizi sağlar"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2494,6 +2496,16 @@ msgstr "Anlık görüntünün oluşturulması başarısız oldu"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Anlık görüntüler"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"Önceden kaydedilmiş anlık görüntüler, bir şeyler ters giderse daha önceki "
+"bir duruma geri dönmenizi sağlar"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3429,6 +3441,21 @@ msgstr "vsock özel yazılım gerektirir"
 msgid "yes"
 msgstr "evet"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "Anamakine ve bu sanal makine arasında paylaşılan dizinler yok"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Bu sanal makine için tanımlanan diskler yok"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Bu sanal makineye atanan anamakine aygıtları yok"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Bu sanal makine için tanımlanan ağ arayüzleri yok"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Bu sanal makine için tanımlanan anlık görüntüler yok"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr ""
 #~ "Aşağıdaki protokoller için herhangi bir görüntüleyici uygulamasıyla bağlan"
@@ -3549,9 +3576,6 @@ msgstr "evet"
 
 #~ msgid "$1 host device"
 #~ msgstr "$1 anamakine aygıtı"
-
-#~ msgid "snapshot"
-#~ msgstr "anlık görüntü"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Sanal makineyi hemen başlat"

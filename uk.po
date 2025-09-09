@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-10 11:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -1747,29 +1747,31 @@ msgstr "Не знайдено пристрою для завантаження"
 msgid "No description"
 msgstr "Немає опису"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "У основної системи і цієї ВМ немає спільних каталогів"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Для цієї ВМ не визначено дисків"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "диск"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Не вибрано пристрою основної системи"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "Із цією ВМ не пов'язано жодних пристроїв основної системи"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "пристрій основної системи"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Немає пристроїв мережі"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Немає інтерфейсів мережі, які визначено для цієї ВМ"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "Інтерфейси мережі"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1787,9 +1789,17 @@ msgstr "Немає батьківського запису"
 msgid "No scaling or resizing"
 msgstr "Без масштабування і зміни розмірів"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "Спільні каталоги"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "Для цієї ВМ не визначено знімків"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "знімок"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2074,14 +2084,6 @@ msgstr "Довжина префікса"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "Довжина префікса повинна бути непорожньою"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"За допомогою раніше зроблених знімків ви зможете повернутися до попереднього "
-"стану, якщо щось піде не так"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2515,6 +2517,16 @@ msgstr "Не вдалося створити знімок"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Знімки"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"За допомогою раніше зроблених знімків ви зможете повернутися до попереднього "
+"стану, якщо щось піде не так"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3453,6 +3465,21 @@ msgstr "vsock потребує спеціалізованого програмн
 msgid "yes"
 msgstr "так"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "У основної системи і цієї ВМ немає спільних каталогів"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Для цієї ВМ не визначено дисків"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Із цією ВМ не пов'язано жодних пристроїв основної системи"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Немає інтерфейсів мережі, які визначено для цієї ВМ"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Для цієї ВМ не визначено знімків"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr ""
 #~ "З’єднатися із будь-якою програмою перегляду для вказаних нижче протоколів"
@@ -3577,9 +3604,6 @@ msgstr "так"
 
 #~ msgid "$1 host device"
 #~ msgstr "пристрій основної системи $1"
-
-#~ msgid "snapshot"
-#~ msgstr "знімок"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Негайно запустити ВМ"

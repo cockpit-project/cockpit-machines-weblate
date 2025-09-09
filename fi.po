@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-09-04 08:53+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1735,30 +1735,31 @@ msgstr "Käynnistyslaitetta ei löytynyt"
 msgid "No description"
 msgstr "Ei kuvausta"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr ""
-"Isäntäkoneen ja tämän virtuaalikoneen välillä ei ole jaettuja hakemistoja"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "levy"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Isäntälaitetta ei valittu"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "Tälle virtuaalikoneelle ei ole määritetty isäntälaitteita"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "isäntälaite"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Ei verkkolaitteita"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Tälle virtuaalikoneelle ei ole määritetty verkkoliitäntöjä"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "Verkkoliitännät"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1776,9 +1777,17 @@ msgstr "Ei vanhempi"
 msgid "No scaling or resizing"
 msgstr "Ei skaalausta tai koon muuttamista"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "Jaetut hakemistot"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "Tälle virtuaalikoneelle ei ole määritetty tilannevedoksia"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "tilannevedos"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2063,14 +2072,6 @@ msgstr "Etuliitteen pituus"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "Etuliitteen pituuss ei tulisi olla tyhjä"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"Aiemmin otettujen tilannevedoksien avulla voit palata aikaisempaan tilaan, "
-"jos jokin menee pieleen"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2495,6 +2496,16 @@ msgstr "Tilannevedoksen luominen epäonnistui"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Tilannevedokset"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"Aiemmin otettujen tilannevedoksien avulla voit palata aikaisempaan tilaan, "
+"jos jokin menee pieleen"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3425,6 +3436,22 @@ msgstr "vsock vaatii erikoisohjelmiston"
 msgid "yes"
 msgstr "kyllä"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr ""
+#~ "Isäntäkoneen ja tämän virtuaalikoneen välillä ei ole jaettuja hakemistoja"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Tälle virtuaalikoneelle ei ole määritetty levyjä"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Tälle virtuaalikoneelle ei ole määritetty isäntälaitteita"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Tälle virtuaalikoneelle ei ole määritetty verkkoliitäntöjä"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Tälle virtuaalikoneelle ei ole määritetty tilannevedoksia"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr "Yhdistä mihin tahansa katseluohjelmaan seuraaviin protokolliin"
 
@@ -3548,9 +3575,6 @@ msgstr "kyllä"
 
 #~ msgid "$1 host device"
 #~ msgstr "$1 isäntälaite"
-
-#~ msgid "snapshot"
-#~ msgstr "tilannevedos"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Käynnistä virtuaalikone välittömästi"

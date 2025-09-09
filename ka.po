@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-10 11:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -1728,29 +1728,31 @@ msgstr "ჩასატვირთი მოწყობილობის გ�
 msgid "No description"
 msgstr "აღწერის გარეშე"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "ამ ვმ-სა და ჰოსტს შორის საქაღალდეები გაზიარებული არაა"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "ამ ვმ-ს დისკები არ გააჩნია"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "დისკი"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "ჰოსტის მოწყობილობა არჩეული არაა"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "ამ ვმ-ს არ გააჩნია ჰოსტის მიბმული მოწყობილობები"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "ჰოსტის მოწყობილობა"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "ქსელის მოწყობილობების გარეშე"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "ამ ვმ-ს ქსელის ინტერფეისები არ გააჩნია"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "ქსელის ინტერფეისები"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1768,9 +1770,17 @@ msgstr "მშობლის გარეშე"
 msgid "No scaling or resizing"
 msgstr "მასშტაბის ან ზომის შეცვლის გარეშე"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "გაზიარებული საქაღალდეები"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "ამ ვმ-ს სწრაფი ასლები არ გააჩნია"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "სწრაფი ასლი"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2051,14 +2061,6 @@ msgstr "პრეფიქსის სიგრძე"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "პრეფიქსის სიგრძე ცარიელი არ შეიძლება იყოს"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"ადრე შექმნილი სწრაფი ასლები საშუალებად გაძლევთ, თუ რამე მოხდა, წინა "
-"მდგომარეობას დაუბრუნდეთ"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2483,6 +2485,16 @@ msgstr "სწრაფი ასლის შექმნის შეცდო
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "სწრაფი ასლები"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"ადრე შექმნილი სწრაფი ასლები საშუალებად გაძლევთ, თუ რამე მოხდა, წინა "
+"მდგომარეობას დაუბრუნდეთ"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3399,6 +3411,21 @@ msgstr "vsock-ს სპეციალური პროგრამები 
 msgid "yes"
 msgstr "დიახ"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "ამ ვმ-სა და ჰოსტს შორის საქაღალდეები გაზიარებული არაა"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "ამ ვმ-ს დისკები არ გააჩნია"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "ამ ვმ-ს არ გააჩნია ჰოსტის მიბმული მოწყობილობები"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "ამ ვმ-ს ქსელის ინტერფეისები არ გააჩნია"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "ამ ვმ-ს სწრაფი ასლები არ გააჩნია"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr "დაუკავშირდით ნებისმიერი მაყურებლით შემდეგი პროტოკოლებით"
 
@@ -3518,9 +3545,6 @@ msgstr "დიახ"
 
 #~ msgid "$1 host device"
 #~ msgstr "ჰოსტის მოწყობილობა $1"
-
-#~ msgid "snapshot"
-#~ msgstr "სწრაფი ასლი"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "ვმ-ის დაუყოვნებლივი გაშვება"

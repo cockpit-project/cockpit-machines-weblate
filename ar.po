@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-07-20 18:02+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -1759,29 +1759,31 @@ msgstr "لم يعثر على جهاز إقلاع"
 msgid "No description"
 msgstr "لا وصف"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "لا توجد أدلة مشتركة بين المضيف وهذا الجهاز الافتراضي"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "لا توجد أقراص محددة لهذا الجهاز الافتراضي"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "قرص"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "لم يتم تحديد جهاز مضيف"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "لا توجد أجهزة مضيفة مخصصة لهذا الجهاز الافتراضي"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "جهاز مضيف"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "لا توجد أجهزة شبكة"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "لا توجد واجهات شبكة معرَّفة لهذا الجهاز الافتراضي"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "واجهات الشبكة"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1799,9 +1801,17 @@ msgstr "غير مرتبط بأصل"
 msgid "No scaling or resizing"
 msgstr ""
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "المجلدات المشتركة"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "لا توجد لقطات محددة لهذا الجهاز الافتراضي"
+#, fuzzy
+#| msgid "Snapshots"
+msgid "No snapshots"
+msgstr "اللقطات"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2084,13 +2094,6 @@ msgstr "طول البادئة"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "طول البادئة ينبغي ألا يترك فارغاً"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"تُمكّنك اللقطات المحفوظة مسبقاً من العودة إلى حالة سابقة في حال حدث خطأ ما"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2520,6 +2523,15 @@ msgstr "تعذر إنشاء اللقطة"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "اللقطات"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"تُمكّنك اللقطات المحفوظة مسبقاً من العودة إلى حالة سابقة في حال حدث خطأ ما"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3430,6 +3442,21 @@ msgstr "يتطلب vsock برنامجاً خاصاً"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
 msgid "yes"
 msgstr "نعم"
+
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "لا توجد أدلة مشتركة بين المضيف وهذا الجهاز الافتراضي"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "لا توجد أقراص محددة لهذا الجهاز الافتراضي"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "لا توجد أجهزة مضيفة مخصصة لهذا الجهاز الافتراضي"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "لا توجد واجهات شبكة معرَّفة لهذا الجهاز الافتراضي"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "لا توجد لقطات محددة لهذا الجهاز الافتراضي"
 
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr "الاتصال مع أي تطبيق للعرض مع البروتوكولات التالية"

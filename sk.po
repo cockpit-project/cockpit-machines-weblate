@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2021-04-10 18:04+0000\n"
 "Last-Translator: Matej Marusak <mmarusak@redhat.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/cockpit-"
@@ -1884,13 +1884,11 @@ msgstr ""
 msgid "No description"
 msgstr "Bez popisu"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr ""
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr ""
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "disk"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 #, fuzzy
@@ -1899,16 +1897,20 @@ msgid "No host device selected"
 msgstr "zariadenie hostiteľa"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr ""
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "zariadenie hostiteľa"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Žiadne sieťové zariadenia"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr ""
+#, fuzzy
+#| msgid "Add network interface"
+msgid "No network interfaces"
+msgstr "Pridať sieťové rozhranie"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1926,9 +1928,17 @@ msgstr ""
 msgid "No scaling or resizing"
 msgstr ""
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Failed to change firmware"
+msgid "No shared directories"
+msgstr "Nepodarilo sa zmeniť firmware"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr ""
+#, fuzzy
+#| msgid "Snapshots"
+msgid "No snapshots"
+msgstr "Zachytené stavy"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2212,12 +2222,6 @@ msgstr "Dĺžka eor"
 
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
-msgstr ""
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
 msgstr ""
 
 #: src/helpers.ts:272
@@ -2677,6 +2681,10 @@ msgstr "Nepodarilo sa zachytiť stav"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Zachytené stavy"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3689,11 +3697,6 @@ msgstr "áno"
 #~| msgid "host device"
 #~ msgid "$1 host device"
 #~ msgstr "zariadenie hostiteľa"
-
-#, fuzzy
-#~| msgid "Snapshots"
-#~ msgid "snapshot"
-#~ msgstr "Zachytené stavy"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Okamžite spustiť virt. stroj"

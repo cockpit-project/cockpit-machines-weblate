@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-05 00:56+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1874,13 +1874,11 @@ msgstr "Nenhum dispositivo de inicialização encontrado"
 msgid "No description"
 msgstr "Descrição"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr ""
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Nenhum disco definido para esta VM"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "disco"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 #, fuzzy
@@ -1890,8 +1888,9 @@ msgstr "Nenhum dispositivo de inicialização encontrado"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
 #, fuzzy
-msgid "No host devices assigned to this VM"
-msgstr "Nenhum disco definido para esta VM"
+#| msgid "Host device"
+msgid "No host devices"
+msgstr "Dispositivo Host"
 
 #: src/components/vm/nics/nicBody.tsx:174
 #, fuzzy
@@ -1899,8 +1898,10 @@ msgid "No network devices"
 msgstr "Nenhum dispositivos de rede"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Nenhuma interface de rede definida para esta VM"
+#, fuzzy
+#| msgid "Add network interface"
+msgid "No network interfaces"
+msgstr "Adicionar Interface de Rede"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1919,10 +1920,16 @@ msgstr "Parente"
 msgid "No scaling or resizing"
 msgstr ""
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Add shared directory"
+msgid "No shared directories"
+msgstr "Adicionar diretório compartilhado"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 #, fuzzy
-msgid "No snapshots defined for this VM"
-msgstr "Nenhum disco definido para esta VM"
+msgid "No snapshots"
+msgstr "Criar Snapshot"
 
 #: src/helpers.ts:239
 #, fuzzy
@@ -2211,12 +2218,6 @@ msgstr "Comprimento do prefixo"
 #, fuzzy
 msgid "Prefix length should not be empty"
 msgstr "O comprimento do prefixo não deve estar vazio"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2658,6 +2659,10 @@ msgstr "Disco falhou ao ser criado"
 #, fuzzy
 msgid "Snapshots"
 msgstr "Criar Snapshot"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3603,6 +3608,20 @@ msgstr ""
 msgid "yes"
 msgstr "sim"
 
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Nenhum disco definido para esta VM"
+
+#, fuzzy
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Nenhum disco definido para esta VM"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Nenhuma interface de rede definida para esta VM"
+
+#, fuzzy
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Nenhum disco definido para esta VM"
+
 #, fuzzy
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr ""
@@ -3698,10 +3717,6 @@ msgstr "sim"
 
 #~ msgid "Session"
 #~ msgstr "Sessão"
-
-#, fuzzy
-#~ msgid "snapshot"
-#~ msgstr "Criar Snapshot"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Imediatamente Iniciar VM"

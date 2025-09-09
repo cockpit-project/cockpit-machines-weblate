@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 03:19+0000\n"
+"POT-Creation-Date: 2025-09-08 03:31+0000\n"
 "PO-Revision-Date: 2025-08-11 08:29+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -1730,29 +1730,31 @@ msgstr "Ingen startenhet hittades"
 msgid "No description"
 msgstr "Ingen beskrivning"
 
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
-msgid "No directories shared between the host and this VM"
-msgstr "Inga kataloger delade mellan värden och denna VM"
-
 #: src/components/vm/disks/vmDisksCard.tsx:294
-msgid "No disks defined for this VM"
-msgstr "Inga diskar är definerade för denna VM"
+#, fuzzy
+#| msgid "disk"
+msgid "No disks"
+msgstr "disk"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Ingen värdenhet vald"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-msgid "No host devices assigned to this VM"
-msgstr "Inga värd enheter är definerade för denna VM"
+#, fuzzy
+#| msgid "host device"
+msgid "No host devices"
+msgstr "värdenhet"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Inga nätverksenheter"
 
 #: src/components/vm/nics/vmNicsCard.tsx:653
-msgid "No network interfaces defined for this VM"
-msgstr "Inga nätverksgränssnitt är definierade för denna VM"
+#, fuzzy
+#| msgid "Network interfaces"
+msgid "No network interfaces"
+msgstr "Nätverksgränssnitt"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1770,9 +1772,17 @@ msgstr "Ingen förälder"
 msgid "No scaling or resizing"
 msgstr "Ingen skalning eller storleksändring"
 
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:103
+#, fuzzy
+#| msgid "Shared directories"
+msgid "No shared directories"
+msgstr "Delade kataloger"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-msgid "No snapshots defined for this VM"
-msgstr "Inga ögonblicksbilder har definierats för denna VM"
+#, fuzzy
+#| msgid "snapshot"
+msgid "No snapshots"
+msgstr "ögonblicksbild"
 
 #: src/helpers.ts:239
 msgid "No state"
@@ -2056,14 +2066,6 @@ msgstr "Prefixlängd"
 #: src/components/networks/createNetworkDialog.tsx:149
 msgid "Prefix length should not be empty"
 msgstr "Prefixlängden ska inte vara tom"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-msgid ""
-"Previously taken snapshots allow you to revert to an earlier state if "
-"something goes wrong"
-msgstr ""
-"Med tidigare tagna ögonblicksbilder kan du återgå till ett tidigare läge om "
-"något går fel"
 
 #: src/helpers.ts:272
 msgid "Private"
@@ -2491,6 +2493,16 @@ msgstr "Misslyckades att skapa ögonblicksbild"
 #: src/components/vm/vmDetailsPage.tsx:223
 msgid "Snapshots"
 msgstr "Ögonblicksbilder"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
+#, fuzzy
+#| msgid ""
+#| "Previously taken snapshots allow you to revert to an earlier state if "
+#| "something goes wrong"
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr ""
+"Med tidigare tagna ögonblicksbilder kan du återgå till ett tidigare läge om "
+"något går fel"
 
 #: src/components/vm/overview/cpuModal.tsx:278
 msgid "Sockets"
@@ -3416,6 +3428,21 @@ msgstr "vsock kräver speciell programvara"
 msgid "yes"
 msgstr "ja"
 
+#~ msgid "No directories shared between the host and this VM"
+#~ msgstr "Inga kataloger delade mellan värden och denna VM"
+
+#~ msgid "No disks defined for this VM"
+#~ msgstr "Inga diskar är definerade för denna VM"
+
+#~ msgid "No host devices assigned to this VM"
+#~ msgstr "Inga värd enheter är definerade för denna VM"
+
+#~ msgid "No network interfaces defined for this VM"
+#~ msgstr "Inga nätverksgränssnitt är definierade för denna VM"
+
+#~ msgid "No snapshots defined for this VM"
+#~ msgstr "Inga ögonblicksbilder har definierats för denna VM"
+
 #~ msgid "Connect with any viewer application for following protocols"
 #~ msgstr "Anslut med valfritt visarprogram för följande protokoll"
 
@@ -3537,9 +3564,6 @@ msgstr "ja"
 #~| msgid "host device"
 #~ msgid "$1 host device"
 #~ msgstr "värdenhet"
-
-#~ msgid "snapshot"
-#~ msgstr "ögonblicksbild"
 
 #~ msgid "Immediately start VM"
 #~ msgstr "Starta VM:en omedelbart"
