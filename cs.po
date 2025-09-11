@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2025-09-11 01:28+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -53,7 +53,7 @@ msgstr[0] "$0 fond úložiště"
 msgstr[1] "$0 fondy úložiště"
 msgstr[2] "$0 fondů úložiště"
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr "$0 konzole"
 
@@ -107,7 +107,7 @@ msgstr "Akce"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 msgid "Actions"
 msgstr "Akce"
 
@@ -209,8 +209,8 @@ msgstr "Adresa"
 msgid "Address not within subnet"
 msgstr "Adresa nespadá do dané podsítě"
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr "Vše"
 
@@ -325,6 +325,7 @@ msgstr "CD/DVD disk"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr "Procesor"
 
@@ -401,7 +402,7 @@ msgstr "Čekající změny"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Změny se projeví až po vypnutí virt. stroje"
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -478,7 +479,7 @@ msgstr "Připojit"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "Spojení"
 
@@ -606,11 +607,11 @@ msgstr "Vytvořit virtuální síť"
 msgid "Create volume"
 msgstr "Vytvořit svazek"
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr "Vytváří se virt. stroj"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr "Vytváří se virt. stroj $0"
 
@@ -834,7 +835,7 @@ msgstr "Zachycený stav pouze disku"
 
 # auto translated by TM merge from project: blivet-gui, version: master,
 # DocId: po/blivet-gui
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "Disky"
 
@@ -859,7 +860,7 @@ msgstr "Doména je blokována kvůli prostředku"
 msgid "Download an OS"
 msgstr "Stáhnout operační systém"
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr "Kolik už staženo"
 
@@ -867,11 +868,11 @@ msgstr "Kolik už staženo"
 msgid "Download the MSI from $0"
 msgstr "Stáhněte si MSI z $0"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr "Stahuje se obraz pro virt. stroj $0"
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr "Stahování: $0%"
 
@@ -946,7 +947,7 @@ msgstr "Vysunout disk z virt. stroje?"
 msgid "Emulated machine"
 msgstr "Emulovaný stroj"
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "Zapněte podporu virtualizace v nastavení BIOS/EFI."
 
@@ -1031,7 +1032,7 @@ msgstr "Nepodařilo se odpojit vsock"
 msgid "Failed to detach watchdog"
 msgstr "Nepodařilo se odpojit resetátor"
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr "Nepodařilo se stáhnout si některé prostředky"
 
@@ -1078,7 +1079,7 @@ msgstr "Souborový systém $0 nebylo možné odebrat"
 msgid "Filesystem directory"
 msgstr "Složka v souborovém systému"
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr "Filtrovat podle názvu"
 
@@ -1164,7 +1165,7 @@ msgstr "Získat nový RHSM token."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr "Přejít na seznam virt. strojů"
 
@@ -1184,7 +1185,7 @@ msgstr "Grafická"
 msgid "Graphical console support not enabled"
 msgstr "Podpora pro grafickou konzoli nezapnuta"
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "Hardwarová podpora virtualizace je vypnutá"
 
@@ -1214,7 +1215,7 @@ msgstr "Zařízení hostitele se nepodařilo připojit"
 msgid "Host device will be removed from $0:"
 msgstr "Zařízení hostitele bude odebráno z $0:"
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 msgid "Host devices"
 msgstr "Zařízení hostitele"
 
@@ -1324,7 +1325,7 @@ msgstr ""
 msgid "Idle"
 msgstr "Nečinné"
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr "Ignorovat"
 
@@ -1597,6 +1598,8 @@ msgstr "Médium bude vysunuto z $0:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr "Paměť"
 
@@ -1705,7 +1708,7 @@ msgstr "Nepodařilo se změnit stav síť. rozhraní $0 virt. stroje $1"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "Název"
 
@@ -1780,7 +1783,7 @@ msgstr "Síťové rozhraní $0 bude odebráno z $1"
 msgid "Network interface settings could not be saved"
 msgstr "Nastavení síťového rozhraní se nepodařilo uložit"
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 msgid "Network interfaces"
 msgstr "Síťová rozhraní"
 
@@ -1810,7 +1813,7 @@ msgstr "Název pro nový svazek"
 msgid "No SSH keys specified"
 msgstr "Neuvedeny žádné SSH klíče"
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr "Na tomto hostiteli nejsou spuštěné nebo definované žádné virt. stroje"
 
@@ -1968,7 +1971,7 @@ msgstr "Ostatní virt. stroje používající SPICE"
 
 # auto translated by TM merge from project: Fedora Release Notes, version:
 # f23, DocId: pot/Overview
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "Přehled"
@@ -2519,12 +2522,12 @@ msgstr "Sdílení"
 msgid "Share a host directory with the guest"
 msgstr "Sdílet složku na hostiteli s hostem"
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr "Sdílené složky"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "Složky sdílené s hostitelem je třeba ve virt. stroji připojit ručně"
 
@@ -2602,7 +2605,7 @@ msgstr "Zachycený stav $0 bude vymazán z $1. Veškerý obsah v něm bude ztrac
 msgid "Snapshot failed to be created"
 msgstr "Zachycený stav se nepodařilo pořídit"
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr "Zachycené stavy"
 
@@ -2700,8 +2703,8 @@ msgstr "Při spuštění"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr "Stav"
 
@@ -3060,7 +3063,7 @@ msgstr "URL adresa"
 
 # auto translated by TM merge from project: audit-viewer, version: default,
 # DocId: audit-viewer
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr "Použití"
 
@@ -3128,7 +3131,7 @@ msgstr "Zařízení hostitele ve virt. stroji $0"
 msgid "VM $0 already exists"
 msgstr "Virt. stroj $0 už existuje"
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr "Virt. stroj $0 na spojení $1 neexistuje"
 
@@ -3217,11 +3220,11 @@ msgstr "Výrobce"
 msgid "Vendor support ended $0"
 msgstr "Podpora od výrobce skončila $0"
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Virtuální stroje"
 
@@ -3443,11 +3446,11 @@ msgid "more info"
 msgstr "další informace"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr "přípojný bod: Přípojný bod uvnitř hosta"
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "štítek připojení: Štítek přiřazený k exportovanému přípojnému bodu"
 

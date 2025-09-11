@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2025-09-04 08:53+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -45,7 +45,7 @@ msgid_plural "$0 Storage pools"
 msgstr[0] "$0 tallennustilavaranto"
 msgstr[1] "$0 tallennustilavarantoa"
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr "$0-konsoli"
 
@@ -94,7 +94,7 @@ msgstr "Toiminto"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 msgid "Actions"
 msgstr "Toimet"
 
@@ -194,8 +194,8 @@ msgstr "Osoite"
 msgid "Address not within subnet"
 msgstr "Osoite ei aliverkossa"
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr "Kaikki"
 
@@ -304,6 +304,7 @@ msgstr "CD/DVD-levy"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr "Suoritin"
 
@@ -377,7 +378,7 @@ msgstr "Muutokset odottavat"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Muutokset tulevat voimaan virtuaalikoneen sammuttamisen jälkeen"
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -448,7 +449,7 @@ msgstr "Yhdistä"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "Yhteys"
 
@@ -572,11 +573,11 @@ msgstr "Luo virtuaaliverkko"
 msgid "Create volume"
 msgstr "Luo taltio"
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr "Virtuaalikoneen luominen"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr "Luodaan virtuaalikone $0"
 
@@ -789,7 +790,7 @@ msgstr "Levyn asetuksia ei voitu tallentaa"
 msgid "Disk-only snapshot"
 msgstr "Vain levy -tilannevedos"
 
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "Levyt"
 
@@ -816,7 +817,7 @@ msgstr "Toimialue on estetty resurssilla"
 msgid "Download an OS"
 msgstr "Lataa käyttöjärjestelmä"
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr "Latauksen edistyminen"
 
@@ -824,11 +825,11 @@ msgstr "Latauksen edistyminen"
 msgid "Download the MSI from $0"
 msgstr "Lataa MSI $0:sta"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr "Ladataan levykuvaa VM:lle $0"
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr "Ladataan: $0%"
 
@@ -896,7 +897,7 @@ msgstr "Poistetaanko levy VM:stä?"
 msgid "Emulated machine"
 msgstr "Sulautettu kone"
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "Ota virtualisointituki käyttöön BIOS:in/EFI:n asetuksissa."
 
@@ -979,7 +980,7 @@ msgstr "vsockin irrottaminen epäonnistui"
 msgid "Failed to detach watchdog"
 msgstr "Vahtikoiran irrottaminen epäonnistui"
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr "Joidenkin resurssien hakeminen epäonnistui"
 
@@ -1024,7 +1025,7 @@ msgstr "Tiedostojärjestelmää $0 ei voitu poistaa"
 msgid "Filesystem directory"
 msgstr "Tiedostojärjestelmän hakemisto"
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr "Suodata nimen mukaan"
 
@@ -1102,7 +1103,7 @@ msgstr "Hanki uusi RHSM-tokeni."
 msgid "GiB"
 msgstr "Git"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr "Siirry virtuaalikoneiden luetteloon"
 
@@ -1122,7 +1123,7 @@ msgstr "Graafinen"
 msgid "Graphical console support not enabled"
 msgstr "Graafisen konsolin tuki ei käytössä"
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "Laitteistovirtualisointi on pois käytöstä"
 
@@ -1150,7 +1151,7 @@ msgstr "Isäntälaitetta ei voitu liittää"
 msgid "Host device will be removed from $0:"
 msgstr "Isäntälaite poistetaan $0:sta:"
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 msgid "Host devices"
 msgstr "Isäntälaite"
 
@@ -1253,7 +1254,7 @@ msgstr "Tunniste voidaan katkaista siitä erikseen kertomatta $0 merkkiin "
 msgid "Idle"
 msgstr "Jouten"
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr "Ohita"
 
@@ -1518,6 +1519,8 @@ msgstr "Media poistetaan $0:sta:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr "Muisti"
 
@@ -1618,7 +1621,7 @@ msgstr "Virtuaalikoneen $1 verkkokortti $0 ei muuttanut tilaa"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "Nimi"
 
@@ -1693,7 +1696,7 @@ msgstr "Verkkoliitäntä $0 poistetaan kohdasta $1"
 msgid "Network interface settings could not be saved"
 msgstr "Verkkoliitännän asetuksia ei voitu tallentaa"
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 msgid "Network interfaces"
 msgstr "Verkkoliitännät"
 
@@ -1723,7 +1726,7 @@ msgstr "Uusi taltion nimi"
 msgid "No SSH keys specified"
 msgstr "SSH-avaimia ei määritetty"
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr "Mikään virtuaalikone ei ole käynnissä tai määritelty tässä isännässä"
 
@@ -1888,7 +1891,7 @@ msgstr "Toiminto käynnissä"
 msgid "Other VMs using SPICE"
 msgstr "Muut SPICEa käyttävät virtuaalikoneet"
 
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "Esittely"
@@ -2416,12 +2419,12 @@ msgstr "Jako"
 msgid "Share a host directory with the guest"
 msgstr "Jaa isäntähakemisto vieraalle"
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr "Jaetut hakemistot"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "Jaetut isäntähakemistot on liitettävä manuaalisesti virtuaalikoneessa"
 
@@ -2493,7 +2496,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "Tilannevedoksen luominen epäonnistui"
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr "Tilannevedokset"
 
@@ -2591,8 +2594,8 @@ msgstr "Aloittaa"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr "Tila"
 
@@ -2934,7 +2937,7 @@ msgstr "Ei tuetut ja vanhemmat käyttöjärjestelmät"
 msgid "Url"
 msgstr "Url"
 
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr "Käyttö"
 
@@ -3007,7 +3010,7 @@ msgstr "VM $0 isäntälaitteet"
 msgid "VM $0 already exists"
 msgstr "Virtuaalikone $0 on jo olemassa"
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr "Virtuaalikone $0 ei ole olemassa yhteydellä $1"
 
@@ -3092,11 +3095,11 @@ msgstr "Toimittaja"
 msgid "Vendor support ended $0"
 msgstr "Toimittajatuki päättyi $0"
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Virtuaalikoneet"
 
@@ -3304,11 +3307,11 @@ msgid "more info"
 msgstr "lisätietoja"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr "liitoskohta: liitoskohta vieraskoneessa"
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "liitostunniste: vietyyn liitoskohtaan liittyvä tunniste"
 

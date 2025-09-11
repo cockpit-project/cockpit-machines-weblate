@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2020-11-17 03:35+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -49,7 +49,7 @@ msgid_plural "$0 Storage pools"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr "Forbindelse"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 #, fuzzy
 #| msgid "Connection"
 msgid "Actions"
@@ -203,8 +203,8 @@ msgstr "Adresse"
 msgid "Address not within subnet"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr ""
 
@@ -313,6 +313,7 @@ msgstr ""
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr ""
 
@@ -386,7 +387,7 @@ msgstr ""
 msgid "Changes will take effect after shutting down the VM"
 msgstr ""
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -451,7 +452,7 @@ msgstr ""
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "Forbindelse"
 
@@ -575,11 +576,11 @@ msgstr ""
 msgid "Create volume"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr ""
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr ""
 
@@ -795,7 +796,7 @@ msgstr ""
 msgid "Disk-only snapshot"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "Diske"
 
@@ -820,7 +821,7 @@ msgstr ""
 msgid "Download an OS"
 msgstr ""
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr ""
 
@@ -828,11 +829,11 @@ msgstr ""
 msgid "Download the MSI from $0"
 msgstr ""
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr ""
 
@@ -907,7 +908,7 @@ msgstr "Enheder"
 msgid "Emulated machine"
 msgstr ""
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
@@ -988,7 +989,7 @@ msgstr ""
 msgid "Failed to detach watchdog"
 msgstr ""
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr ""
 
@@ -1033,7 +1034,7 @@ msgstr ""
 msgid "Filesystem directory"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr ""
 
@@ -1108,7 +1109,7 @@ msgstr ""
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr ""
 
@@ -1128,7 +1129,7 @@ msgstr ""
 msgid "Graphical console support not enabled"
 msgstr ""
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr ""
 
@@ -1156,7 +1157,7 @@ msgstr ""
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 #, fuzzy
 #| msgid "Devices"
 msgid "Host devices"
@@ -1259,7 +1260,7 @@ msgstr ""
 msgid "Idle"
 msgstr ""
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr ""
 
@@ -1517,6 +1518,8 @@ msgstr ""
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr ""
 
@@ -1619,7 +1622,7 @@ msgstr ""
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "Navn"
 
@@ -1696,7 +1699,7 @@ msgstr ""
 msgid "Network interface settings could not be saved"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 #, fuzzy
 #| msgid "Networks"
 msgid "Network interfaces"
@@ -1730,7 +1733,7 @@ msgstr "Nyt diskenhedsnavn"
 msgid "No SSH keys specified"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr ""
 
@@ -1889,7 +1892,7 @@ msgstr ""
 msgid "Other VMs using SPICE"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr ""
@@ -2408,12 +2411,12 @@ msgstr ""
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 
@@ -2483,7 +2486,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr ""
 
@@ -2574,8 +2577,8 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr ""
 
@@ -2905,7 +2908,7 @@ msgstr ""
 msgid "Url"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr ""
 
@@ -2973,7 +2976,7 @@ msgstr "Enheder"
 msgid "VM $0 already exists"
 msgstr ""
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr ""
 
@@ -3056,11 +3059,11 @@ msgstr ""
 msgid "Vendor support ended $0"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr ""
 
@@ -3264,11 +3267,11 @@ msgid "more info"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 

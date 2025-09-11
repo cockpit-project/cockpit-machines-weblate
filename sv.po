@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2025-09-09 21:16+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -44,7 +44,7 @@ msgid_plural "$0 Storage pools"
 msgstr[0] "$0 Lagringspool"
 msgstr[1] "$0 Lagringspooler"
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr "$0 konsol"
 
@@ -94,7 +94,7 @@ msgstr "Åtgärd"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -193,8 +193,8 @@ msgstr "Adress"
 msgid "Address not within subnet"
 msgstr "Adress inte inom subnät"
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr "Alla"
 
@@ -303,6 +303,7 @@ msgstr "CD/DVD skiva"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr "CPU"
 
@@ -376,7 +377,7 @@ msgstr "Ändringar väntar"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Ändringar kommer verkställas efter att VM:en stängs av"
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -447,7 +448,7 @@ msgstr "Anslut"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "Anslutning"
 
@@ -572,11 +573,11 @@ msgstr "Skapa virtuellt nätverk"
 msgid "Create volume"
 msgstr "Skapa volym"
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr "Skapar VM"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr "Skapar VM $0"
 
@@ -787,7 +788,7 @@ msgstr "Inställningarna för disken kunde inte sparas"
 msgid "Disk-only snapshot"
 msgstr "Endast diskögonblicksbild"
 
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "Diskar"
 
@@ -812,7 +813,7 @@ msgstr "Domänen är blockerad av en resurs"
 msgid "Download an OS"
 msgstr "Ladda ner ett OS"
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr "Hämtningsförlopp"
 
@@ -820,11 +821,11 @@ msgstr "Hämtningsförlopp"
 msgid "Download the MSI from $0"
 msgstr "Ladda ner MSI från $0"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr "Hämtar avbilden för VM $0"
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr "Hämtar: $0 %"
 
@@ -891,7 +892,7 @@ msgstr "Ta bort disk från VM?"
 msgid "Emulated machine"
 msgstr "Emulerad maskin"
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "Aktivera virtualiseringsstöd i BIOS/EFI-inställningar."
 
@@ -975,7 +976,7 @@ msgstr "Misslyckades att koppla ifrån vsock"
 msgid "Failed to detach watchdog"
 msgstr "Misslyckades att koppla ifrån vakthunden"
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr "Misslyckades att hämta några resurser"
 
@@ -1020,7 +1021,7 @@ msgstr "Filsystem $0 kunde inte raderas"
 msgid "Filesystem directory"
 msgstr "Filsystemskatalog"
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr "Filtrera efter namn"
 
@@ -1098,7 +1099,7 @@ msgstr "Hämta ett nytt RHSM-bevis (token)."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr "Gå till VM-listan"
 
@@ -1118,7 +1119,7 @@ msgstr "Grafisk"
 msgid "Graphical console support not enabled"
 msgstr "Stöd för grafisk konsol är inte aktiverat"
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "Hårdvaruvirtualisering är inaktiverad"
 
@@ -1146,7 +1147,7 @@ msgstr "Värdenheten kunde inte anslutas"
 msgid "Host device will be removed from $0:"
 msgstr "Värdenheter kommer tas bort från $0:"
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 msgid "Host devices"
 msgstr "Värdenheter"
 
@@ -1249,7 +1250,7 @@ msgstr "Identifierare kan tyst avkortas till $0 tecken "
 msgid "Idle"
 msgstr "Overksam"
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr "Ignorera"
 
@@ -1512,6 +1513,8 @@ msgstr "Media kommer att matas ut från $0:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr "Minne"
 
@@ -1613,7 +1616,7 @@ msgstr "NIC $0 på VM $1 kunde inte ändra läge"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "Namn"
 
@@ -1688,7 +1691,7 @@ msgstr "Nätverksgränssnitt $0 kommer tas bort från $1"
 msgid "Network interface settings could not be saved"
 msgstr "Inställningar för nätverksgränssnitt kunde inte sparas"
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 msgid "Network interfaces"
 msgstr "Nätverksgränssnitt"
 
@@ -1718,7 +1721,7 @@ msgstr "Nytt volymnamn"
 msgid "No SSH keys specified"
 msgstr "Inga SSH-nycklar specificerade"
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr "Ingen VM kör eller är definierad på denna värd"
 
@@ -1873,7 +1876,7 @@ msgstr "Operation pågår"
 msgid "Other VMs using SPICE"
 msgstr "Andra VMs använder SPICE"
 
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "Översikt"
@@ -2402,12 +2405,12 @@ msgstr "Dela"
 msgid "Share a host directory with the guest"
 msgstr "Dela en värdkatalog med gäst"
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr "Delade kataloger"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "Delade värdkataloger behöver monteras manuellt inuti VM:en"
 
@@ -2480,7 +2483,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "Misslyckades att skapa ögonblicksbild"
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr "Ögonblicksbilder"
 
@@ -2572,8 +2575,8 @@ msgstr "Uppstart"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr "Tillstånd"
 
@@ -2914,7 +2917,7 @@ msgstr "Ostödda och äldre operativsystem"
 msgid "Url"
 msgstr "Url"
 
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr "Användning"
 
@@ -2982,7 +2985,7 @@ msgstr "VM $0 VärdEnheter"
 msgid "VM $0 already exists"
 msgstr "VM $0 existerar redan"
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr "VM $0 finns inte på $1 -anslutning"
 
@@ -3067,11 +3070,11 @@ msgstr "Leverantör"
 msgid "Vendor support ended $0"
 msgstr "Leverantörssupport slutade $0"
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Virtuella maskiner"
 
@@ -3279,11 +3282,11 @@ msgid "more info"
 msgstr "mer information"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr "monteringspunkt: monteringspunkten inuti gästen"
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 "monteringstagg: taggen associerad med den exporterade monteringspunkten"

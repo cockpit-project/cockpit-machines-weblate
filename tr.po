@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2025-09-09 21:16+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -47,7 +47,7 @@ msgid_plural "$0 Storage pools"
 msgstr[0] "$0 Depolama havuzu"
 msgstr[1] "$0 Depolama havuzu"
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr "$0 konsolu"
 
@@ -97,7 +97,7 @@ msgstr "Eylem"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 msgid "Actions"
 msgstr "Eylemler"
 
@@ -194,8 +194,8 @@ msgstr "Adres"
 msgid "Address not within subnet"
 msgstr "Adres alt ağ içinde değil"
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr "Tümü"
 
@@ -304,6 +304,7 @@ msgstr "CD/DVD disk"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr "CPU"
 
@@ -377,7 +378,7 @@ msgstr "Değişiklikler bekliyor"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "Değişiklikler, sanal makine kapatıldıktan sonra etkili olacaktır"
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -449,7 +450,7 @@ msgstr "Bağlan"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "Bağlantı"
 
@@ -575,11 +576,11 @@ msgstr "Sanal ağ oluştur"
 msgid "Create volume"
 msgstr "Birim oluştur"
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr "Sanal makine oluşturuluyor"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr "$0 sanal makinesi oluşturuluyor"
 
@@ -790,7 +791,7 @@ msgstr "Disk ayarları kaydedilemedi"
 msgid "Disk-only snapshot"
 msgstr "Sadece disk anlık görüntüsü"
 
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "Diskler"
 
@@ -816,7 +817,7 @@ msgstr "Etki alanı, kaynakta engellendi"
 msgid "Download an OS"
 msgstr "Bir işletim sistemi indir"
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr "İndirme ilerlemesi"
 
@@ -824,11 +825,11 @@ msgstr "İndirme ilerlemesi"
 msgid "Download the MSI from $0"
 msgstr "MSI dosyasını $0 adresinden indir"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr "$0 sanal makinesi için kalıp indiriliyor"
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr "İndiriliyor: %$0"
 
@@ -895,7 +896,7 @@ msgstr "Disk sanal makineden çıkarılsın mı?"
 msgid "Emulated machine"
 msgstr "Benzetilmiş makine"
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "BIOS/EFI ayarlarında sanallaştırma desteğini etkinleştirin."
 
@@ -978,7 +979,7 @@ msgstr "vsock ayırma başarısız oldu"
 msgid "Failed to detach watchdog"
 msgstr "Gözlemci ayırma başarısız oldu"
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr "Bazı kaynakların alınması başarısız oldu"
 
@@ -1024,7 +1025,7 @@ msgstr "$0 dosya sistemi kaldırılamadı"
 msgid "Filesystem directory"
 msgstr "Dosya sistemi dizini"
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr "Ada göre süz"
 
@@ -1102,7 +1103,7 @@ msgstr "Yeni bir RHSM belirteci edinin."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr "Sanal makineler listesine git"
 
@@ -1122,7 +1123,7 @@ msgstr "Grafiksel"
 msgid "Graphical console support not enabled"
 msgstr "Grafiksel konsol desteği etkin değil"
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "Donanım sanallaştırma etkisizleştirildi"
 
@@ -1150,7 +1151,7 @@ msgstr "Anamakine aygıtı eklenemedi"
 msgid "Host device will be removed from $0:"
 msgstr "Anamakine $0 sanal makinesinden kaldırılacaktır:"
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 msgid "Host devices"
 msgstr "Anamakine aygıtları"
 
@@ -1253,7 +1254,7 @@ msgstr "Tanımlayıcı sessizce $0 karaktere kadar kısaltılabilir "
 msgid "Idle"
 msgstr "Boşta"
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr "Yok say"
 
@@ -1517,6 +1518,8 @@ msgstr "Ortam $0 sanal makinesinden çıkarılacak:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr "Bellek"
 
@@ -1617,7 +1620,7 @@ msgstr "$1 sanal makinesinin $0 NIC'inin durumunu değiştirme başarısız oldu
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "Ad"
 
@@ -1692,7 +1695,7 @@ msgstr "$0 ağ arayüzü $1 sanal makinesinden kaldırılacak"
 msgid "Network interface settings could not be saved"
 msgstr "Ağ arayüzü ayarları kaydedilemedi"
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 msgid "Network interfaces"
 msgstr "Ağ arayüzleri"
 
@@ -1722,7 +1725,7 @@ msgstr "Yeni birim adı"
 msgid "No SSH keys specified"
 msgstr "SSH anahtarı belirtilmedi"
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr "Bu anamakinede çalışan veya tanımlı sanal makine yok"
 
@@ -1876,7 +1879,7 @@ msgstr "İşlem devam ediyor"
 msgid "Other VMs using SPICE"
 msgstr "SPICE kullanan diğer sanal makineler"
 
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "Genel Bakış"
@@ -2404,12 +2407,12 @@ msgstr "Paylaş"
 msgid "Share a host directory with the guest"
 msgstr "Bir anamakine dizinini misafir ile paylaş"
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr "Paylaşılan dizinler"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 "Paylaşılan anamakine dizinlerinin sanal makine içinde el ile bağlanması "
@@ -2483,7 +2486,7 @@ msgstr ""
 msgid "Snapshot failed to be created"
 msgstr "Anlık görüntünün oluşturulması başarısız oldu"
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr "Anlık görüntüler"
 
@@ -2576,8 +2579,8 @@ msgstr "Başlatma"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr "Durum"
 
@@ -2922,7 +2925,7 @@ msgstr "Desteklenmeyen ve eski işletim sistemleri"
 msgid "Url"
 msgstr "URL"
 
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr "Kullanım"
 
@@ -2995,7 +2998,7 @@ msgstr "$0 Sanal Makinesi Anamakine Aygıtları"
 msgid "VM $0 already exists"
 msgstr "$0 sanal makinesi zaten var"
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr "$0 sanal makinesi $1 bağlantısında mevcut değil"
 
@@ -3080,11 +3083,11 @@ msgstr "Üretici"
 msgid "Vendor support ended $0"
 msgstr "Üretici desteği $0 tarihinde sona erdi"
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Sanal makineler"
 
@@ -3292,11 +3295,11 @@ msgid "more info"
 msgstr "daha fazla bilgi"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr "bağlama noktası: Konuk içindeki bağlama noktası"
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 "bağlama etiketi: Dışa aktarılan bağlama noktasıyla ilişkilendirilmiş etiket"

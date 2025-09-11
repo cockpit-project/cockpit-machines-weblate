@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-09 03:24+0000\n"
+"POT-Creation-Date: 2025-09-10 03:19+0000\n"
 "PO-Revision-Date: 2025-09-09 21:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -46,7 +46,7 @@ msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "$0 저장소 풀"
 
-#: src/components/vm/vmDetailsPage.tsx:132
+#: src/components/vm/vmDetailsPage.tsx:128
 msgid "$0 console"
 msgstr "$0 콘솔"
 
@@ -99,7 +99,7 @@ msgstr "동작"
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:204
+#: src/components/vms/hostvmslist.tsx:264
 msgid "Actions"
 msgstr "동작"
 
@@ -196,8 +196,8 @@ msgstr "주소"
 msgid "Address not within subnet"
 msgstr "서브넷 내에 없는 주소"
 
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:129
+#: src/components/vms/hostvmslist.tsx:162
+#: src/components/vms/hostvmslist.tsx:180
 msgid "All"
 msgstr "모두"
 
@@ -304,6 +304,7 @@ msgstr "CD/DVD 디스크"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
+#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
 msgid "CPU"
 msgstr "CPU"
 
@@ -377,7 +378,7 @@ msgstr "보류 중인 변경 부분"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "변경은 VM 종료 후에 적용됩니다"
 
-#: src/app.jsx:125
+#: src/app.jsx:123
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -449,7 +450,7 @@ msgstr "연결"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:202
+#: src/components/vms/hostvmslist.tsx:261
 msgid "Connection"
 msgstr "연결"
 
@@ -573,11 +574,11 @@ msgstr "가상 네트워크 만들기"
 msgid "Create volume"
 msgstr "볼륨 만들기"
 
-#: src/components/vms/hostvmslist.tsx:70
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Creating VM"
 msgstr "VM 생성 중"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Creating VM $0"
 msgstr "VM $0 생성 중"
 
@@ -785,7 +786,7 @@ msgstr "디스크 설정을 저장 할 수 없습니다"
 msgid "Disk-only snapshot"
 msgstr "디스크-전용 순간찍기"
 
-#: src/components/vm/vmDetailsPage.tsx:196
+#: src/components/vm/vmDetailsPage.tsx:192
 msgid "Disks"
 msgstr "디스크"
 
@@ -810,7 +811,7 @@ msgstr "도메인은 리소스에서 차단되었습니다"
 msgid "Download an OS"
 msgstr "OS 내려받기"
 
-#: src/app.jsx:294
+#: src/app.jsx:292
 msgid "Download progress"
 msgstr "내려받기 진행"
 
@@ -818,11 +819,11 @@ msgstr "내려받기 진행"
 msgid "Download the MSI from $0"
 msgstr "$0 에서 MSI를 내려받습니다"
 
-#: src/app.jsx:290
+#: src/app.jsx:288
 msgid "Downloading image for VM $0"
 msgstr "VM $0를 위해 이미지 내려받기 중"
 
-#: src/components/vms/hostvmslist.tsx:68
+#: src/components/vms/hostvmslist.tsx:73
 msgid "Downloading: $0%"
 msgstr "내려받기 중: $0%"
 
@@ -889,7 +890,7 @@ msgstr "VM에서 디스크 꺼내기?"
 msgid "Emulated machine"
 msgstr "에뮬레이트된 기기"
 
-#: src/app.jsx:123
+#: src/app.jsx:121
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "BIOS/EFI 설정에서 가상화 지원을 활성화합니다."
 
@@ -970,7 +971,7 @@ msgstr "vsock을 분리하는데 실패함"
 msgid "Failed to detach watchdog"
 msgstr "와치독을 분리하는데 실패함"
 
-#: src/app.jsx:181
+#: src/app.jsx:179
 msgid "Failed to fetch some resources"
 msgstr "몇 가지 자원 가져오기에 실패함"
 
@@ -1015,7 +1016,7 @@ msgstr "파일시스템 $0는 제거 될 수 없습니다"
 msgid "Filesystem directory"
 msgstr "파일 시스템 디렉토리"
 
-#: src/components/vms/hostvmslist.tsx:152
+#: src/components/vms/hostvmslist.tsx:203
 msgid "Filter by name"
 msgstr "이름으로 필터링"
 
@@ -1093,7 +1094,7 @@ msgstr "신규 RHSM 토큰 가져오기."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:280 src/app.jsx:291
+#: src/app.jsx:278 src/app.jsx:289
 msgid "Go to VMs list"
 msgstr "VM 목록으로 이동"
 
@@ -1113,7 +1114,7 @@ msgstr "그래픽"
 msgid "Graphical console support not enabled"
 msgstr "그래픽 콘솔 지원이 활성화되지 않았습니다"
 
-#: src/app.jsx:120
+#: src/app.jsx:118
 msgid "Hardware virtualization is disabled"
 msgstr "하드웨어 가상화가 비활성화 되었습니다"
 
@@ -1141,7 +1142,7 @@ msgstr "호스트 장치는 추가 할 수 없습니다"
 msgid "Host device will be removed from $0:"
 msgstr "호스트 장치는 $0에서 제거됩니다:"
 
-#: src/components/vm/vmDetailsPage.tsx:214
+#: src/components/vm/vmDetailsPage.tsx:210
 msgid "Host devices"
 msgstr "호스트 장치"
 
@@ -1244,7 +1245,7 @@ msgstr "식별자는 $0 문자로 자동으로 잘릴 수 있습니다 "
 msgid "Idle"
 msgstr "유휴"
 
-#: src/app.jsx:134
+#: src/app.jsx:132
 msgid "Ignore"
 msgstr "무시"
 
@@ -1512,6 +1513,8 @@ msgstr "미디어는 $0에서 꺼냅니다:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
+#: src/components/vms/hostvmslist.tsx:117
+#: src/components/vms/hostvmslist.tsx:243
 msgid "Memory"
 msgstr "메모리"
 
@@ -1612,7 +1615,7 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:201
+#: src/components/vms/hostvmslist.tsx:260
 msgid "Name"
 msgstr "이름"
 
@@ -1687,7 +1690,7 @@ msgstr "네트워크 연결장치 $0가 $1에서 제거됩니다"
 msgid "Network interface settings could not be saved"
 msgstr "네트워크 연결장치 설정을 저장하지 못했습니다"
 
-#: src/components/vm/vmDetailsPage.tsx:205
+#: src/components/vm/vmDetailsPage.tsx:201
 msgid "Network interfaces"
 msgstr "네트워크 연결장치"
 
@@ -1717,7 +1720,7 @@ msgstr "새 볼륨 이름"
 msgid "No SSH keys specified"
 msgstr "SSH 키가 지정되지 않았습니다"
 
-#: src/components/vms/hostvmslist.tsx:206
+#: src/components/vms/hostvmslist.tsx:266
 msgid "No VM is running or defined on this host"
 msgstr "이 호스트에서 실행 중이거나 정의된 가상 머신이 없습니다"
 
@@ -1872,7 +1875,7 @@ msgstr "SPICE를 사용하는 다른 VM"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
-#: src/components/vm/vmDetailsPage.tsx:169
+#: src/components/vm/vmDetailsPage.tsx:165
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "개요"
@@ -2393,12 +2396,12 @@ msgstr "공유"
 msgid "Share a host directory with the guest"
 msgstr "게스트와 호스트 디텍토리를 공유합니다"
 
-#: src/components/vm/vmDetailsPage.tsx:235
+#: src/components/vm/vmDetailsPage.tsx:231
 msgid "Shared directories"
 msgstr "공유 디렉토리"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:237
+#: src/components/vm/vmDetailsPage.tsx:233
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "공유 호스트 디렉토리는 VM 안에세 수동으로 적재가 필요합니다"
 
@@ -2472,7 +2475,7 @@ msgstr "순간찍기 $0는 $1에서 삭제됩니다. 획득된 모든 내용이 
 msgid "Snapshot failed to be created"
 msgstr "순간찍기를 생성하는데 실패했습니다"
 
-#: src/components/vm/vmDetailsPage.tsx:223
+#: src/components/vm/vmDetailsPage.tsx:219
 msgid "Snapshots"
 msgstr "순간찍기"
 
@@ -2565,8 +2568,8 @@ msgstr "시작"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:156
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:207
+#: src/components/vms/hostvmslist.tsx:262
 msgid "State"
 msgstr "상태"
 
@@ -2903,7 +2906,7 @@ msgstr "URL"
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: src/components/vm/vmDetailsPage.tsx:181
+#: src/components/vm/vmDetailsPage.tsx:177
 msgid "Usage"
 msgstr "사용량"
 
@@ -2970,7 +2973,7 @@ msgstr "VM $0 호스트 장치"
 msgid "VM $0 already exists"
 msgstr "VM $0이 이미 존재합니다"
 
-#: src/app.jsx:279
+#: src/app.jsx:277
 msgid "VM $0 does not exist on $1 connection"
 msgstr "VM $0이(가) $1 연결에 존재하지 않습니다"
 
@@ -3057,11 +3060,11 @@ msgstr "제조사"
 msgid "Vendor support ended $0"
 msgstr "제조사 지원은 $0에 종료됩니다"
 
-#: src/components/vm/vmDetailsPage.tsx:291
+#: src/components/vm/vmDetailsPage.tsx:287
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:196
-#: src/components/vms/hostvmslist.tsx:198 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "가상 머신"
 
@@ -3269,11 +3272,11 @@ msgid "more info"
 msgstr "더 많은 정보"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:246
+#: src/components/vm/vmDetailsPage.tsx:242
 msgid "mount point: The mount point inside the guest"
 msgstr "적재점: 게스트 안에서 적재점"
 
-#: src/components/vm/vmDetailsPage.tsx:245
+#: src/components/vm/vmDetailsPage.tsx:241
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "적재 태그: 내보낸 적재점과 연결된 태그"
 
