@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-10 03:19+0000\n"
+"POT-Creation-Date: 2025-09-14 03:26+0000\n"
 "PO-Revision-Date: 2025-09-09 21:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -46,7 +46,7 @@ msgid "$0 Storage pool"
 msgid_plural "$0 Storage pools"
 msgstr[0] "$0 저장소 풀"
 
-#: src/components/vm/vmDetailsPage.tsx:128
+#: src/components/vm/vmDetailsPage.tsx:127
 msgid "$0 console"
 msgstr "$0 콘솔"
 
@@ -84,7 +84,7 @@ msgstr ""
 "원래 호스트는 VM 구성의 복사를 유지합니다."
 
 #: src/components/vm/disks/diskEdit.tsx:166
-#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/vmDisksCard.tsx:207
 msgid "Access"
 msgstr "접근"
 
@@ -94,12 +94,12 @@ msgid "Action"
 msgstr "동작"
 
 # ctx::sourcefile::Navigation Menu
-#: src/components/vm/disks/vmDisksCard.tsx:229
+#: src/components/vm/disks/vmDisksCard.tsx:213
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:264
+#: src/components/vms/hostvmslist.tsx:266
 msgid "Actions"
 msgstr "동작"
 
@@ -129,7 +129,7 @@ msgstr "SSH 키 추가"
 msgid "Add TPM"
 msgstr "TPM 추가"
 
-#: src/components/vm/consoles/vnc.jsx:535
+#: src/components/vm/consoles/vnc.tsx:603
 msgid "Add VNC"
 msgstr "VNC 추가"
 
@@ -151,7 +151,7 @@ msgstr "호스트 장치 추가"
 msgid "Add network interface"
 msgstr "네트워크 연결장치 추가"
 
-#: src/components/vm/consoles/serial.jsx:142
+#: src/components/vm/consoles/serial.tsx:155
 msgid "Add serial console"
 msgstr "직렬 콘솔 추가"
 
@@ -179,7 +179,7 @@ msgstr "워치독 추가하기는 적용을 위해 재부팅이 필요합니다.
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr "공유 디렉토리 추가는 게스트가 종료된 경우에만 편집 할 수 있습니다"
 
-#: src/components/vm/disks/vmDisksCard.tsx:227
+#: src/components/vm/disks/vmDisksCard.tsx:211
 msgid "Additional"
 msgstr "추가"
 
@@ -196,8 +196,8 @@ msgstr "주소"
 msgid "Address not within subnet"
 msgstr "서브넷 내에 없는 주소"
 
-#: src/components/vms/hostvmslist.tsx:162
-#: src/components/vms/hostvmslist.tsx:180
+#: src/components/vms/hostvmslist.tsx:164
+#: src/components/vms/hostvmslist.tsx:182
 msgid "All"
 msgstr "모두"
 
@@ -283,7 +283,7 @@ msgid "Boot order settings could not be saved"
 msgstr "부팅 순서 설정을 저장 할 수 없습니다"
 
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/vmDisksCard.tsx:205
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
@@ -304,7 +304,8 @@ msgstr "CD/DVD 디스크"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
-#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
+#: src/components/vms/hostvmslist.tsx:101
+#: src/components/vms/hostvmslist.tsx:244
 msgid "CPU"
 msgstr "CPU"
 
@@ -331,7 +332,7 @@ msgstr "캐쉬"
 #: src/components/vm/deleteDialog.tsx:216
 #: src/components/vm/vmRenameDialog.tsx:109
 #: src/components/vm/confirmDialog.tsx:79
-#: src/components/vm/consoles/vnc.jsx:159
+#: src/components/vm/consoles/vnc.tsx:148
 #: src/components/vm/hostdevs/hostDevAdd.tsx:270
 #: src/components/vm/overview/bootOrder.tsx:368
 #: src/components/vm/overview/cpuModal.tsx:344
@@ -358,7 +359,7 @@ msgstr "과도적인 VM에서 vsock 장치를 편집 할 수 없습니다"
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "과도적인 VM에서 와치독 장치를 편집 할 수 없습니다"
 
-#: src/components/vm/disks/vmDisksCard.tsx:219
+#: src/components/vm/disks/vmDisksCard.tsx:203
 msgid "Capacity"
 msgstr "용량"
 
@@ -378,7 +379,7 @@ msgstr "보류 중인 변경 부분"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "변경은 VM 종료 후에 적용됩니다"
 
-#: src/app.jsx:123
+#: src/app.tsx:127
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -402,7 +403,7 @@ msgstr "운영 체제를 선택하십시오"
 msgid "Class"
 msgstr "등급"
 
-#: src/components/vm/consoles/common.jsx:76
+#: src/components/vm/consoles/common.tsx:85
 msgid ""
 "Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
 "Viewer application on your system."
@@ -426,11 +427,11 @@ msgstr "클라우드 기반 이미지"
 msgid "Cockpit Project"
 msgstr "Cockpit 프로젝트"
 
-#: src/components/vm/consoles/consoles.jsx:299
+#: src/components/vm/consoles/consoles.tsx:327
 msgid "Compress"
 msgstr "압축"
 
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Concurrently writeable"
 msgstr "동시에 쓰기 가능"
 
@@ -438,9 +439,8 @@ msgstr "동시에 쓰기 가능"
 msgid "Confirm this action"
 msgstr "작업 확인"
 
-#: src/components/vm/consoles/serialConsole.jsx:95
-#: src/components/vm/consoles/vnc.jsx:478
-#: src/components/vm/consoles/serial.jsx:85
+#: src/components/vm/consoles/serial.tsx:92
+#: src/components/vm/consoles/vnc.tsx:531
 msgid "Connect"
 msgstr "연결"
 
@@ -450,11 +450,11 @@ msgstr "연결"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:261
+#: src/components/vms/hostvmslist.tsx:263
 msgid "Connection"
 msgstr "연결"
 
-#: src/components/vm/consoles/consoles.jsx:339
+#: src/components/vm/consoles/consoles.tsx:367
 msgid "Console"
 msgstr "콘솔"
 
@@ -471,7 +471,7 @@ msgstr "SPICE 그래픽 콘솔을 VNC로 변환합니다"
 msgid "Copy storage"
 msgstr "저장소 복사"
 
-#: src/components/vm/consoles/common.jsx:114
+#: src/components/vm/consoles/common.tsx:123
 msgid "Copy to clipboard"
 msgstr "클립보드로 복사"
 
@@ -574,11 +574,11 @@ msgstr "가상 네트워크 만들기"
 msgid "Create volume"
 msgstr "볼륨 만들기"
 
-#: src/components/vms/hostvmslist.tsx:75
+#: src/components/vms/hostvmslist.tsx:77
 msgid "Creating VM"
 msgstr "VM 생성 중"
 
-#: src/app.jsx:288
+#: src/app.tsx:322
 msgid "Creating VM $0"
 msgstr "VM $0 생성 중"
 
@@ -598,7 +598,7 @@ msgstr "VM $0 생성이 실패했습니다"
 msgid "Creation time"
 msgstr "생성 시간"
 
-#: src/components/vm/consoles/vnc.jsx:268
+#: src/components/vm/consoles/vnc.tsx:293
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -700,7 +700,7 @@ msgstr "대상 URI"
 msgid "Destination URI must not be empty"
 msgstr "대상 URI는 비워 두면 안됩니다"
 
-#: src/components/vm/consoles/consoles.jsx:333
+#: src/components/vm/consoles/consoles.tsx:361
 msgid "Detach"
 msgstr "분리"
 
@@ -713,7 +713,7 @@ msgstr "삭제를 시도하기 전에 VM에서 이 풀을 사용하는 디스크
 msgid "Details"
 msgstr "상세정보"
 
-#: src/components/vm/disks/vmDisksCard.tsx:207
+#: src/components/vm/disks/vmDisksCard.tsx:191
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
@@ -732,19 +732,14 @@ msgstr "장치"
 msgid "Devices"
 msgstr "장치"
 
-#: src/components/vm/consoles/consoles.jsx:283
-#: src/components/vm/consoles/serialConsole.jsx:94
+#: src/components/vm/consoles/consoles.tsx:311
 msgid "Disconnect"
 msgstr "연결 끊김"
 
-#: src/components/vm/consoles/vnc.jsx:475
-#: src/components/vm/consoles/serial.jsx:82
+#: src/components/vm/consoles/serial.tsx:89
+#: src/components/vm/consoles/vnc.tsx:528
 msgid "Disconnected"
 msgstr "연결 끊김"
-
-#: src/components/vm/consoles/serialConsole.jsx:87
-msgid "Disconnected from serial console. Click the connect button."
-msgstr "시리얼 콘솔에서 연결이 끊어졌습니다. 연결 버튼을 눌러주세요."
 
 #: src/components/common/needsShutdown.tsx:168
 msgid "Disk"
@@ -786,7 +781,7 @@ msgstr "디스크 설정을 저장 할 수 없습니다"
 msgid "Disk-only snapshot"
 msgstr "디스크-전용 순간찍기"
 
-#: src/components/vm/vmDetailsPage.tsx:192
+#: src/components/vm/vmDetailsPage.tsx:188
 msgid "Disks"
 msgstr "디스크"
 
@@ -811,19 +806,19 @@ msgstr "도메인은 리소스에서 차단되었습니다"
 msgid "Download an OS"
 msgstr "OS 내려받기"
 
-#: src/app.jsx:292
+#: src/app.tsx:326
 msgid "Download progress"
 msgstr "내려받기 진행"
 
-#: src/components/vm/consoles/common.jsx:101
+#: src/components/vm/consoles/common.tsx:110
 msgid "Download the MSI from $0"
 msgstr "$0 에서 MSI를 내려받습니다"
 
-#: src/app.jsx:288
+#: src/app.tsx:322
 msgid "Downloading image for VM $0"
 msgstr "VM $0를 위해 이미지 내려받기 중"
 
-#: src/components/vms/hostvmslist.tsx:73
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Downloading: $0%"
 msgstr "내려받기 중: $0%"
 
@@ -848,8 +843,8 @@ msgstr "편집"
 msgid "Edit $0 attributes"
 msgstr "$0 속성 편집"
 
-#: src/components/vm/consoles/vnc.jsx:145
-#: src/components/vm/consoles/vnc.jsx:319
+#: src/components/vm/consoles/vnc.tsx:134
+#: src/components/vm/consoles/vnc.tsx:356
 msgid "Edit VNC settings"
 msgstr "VNC 설정을 수정합니다"
 
@@ -890,7 +885,7 @@ msgstr "VM에서 디스크 꺼내기?"
 msgid "Emulated machine"
 msgstr "에뮬레이트된 기기"
 
-#: src/app.jsx:121
+#: src/app.tsx:125
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "BIOS/EFI 설정에서 가상화 지원을 활성화합니다."
 
@@ -919,7 +914,7 @@ msgstr "예제, $0"
 msgid "Existing disk image on host's file system"
 msgstr "호스트의 파일 시스템에서 기존 디스크 이미지"
 
-#: src/components/vm/consoles/consoles.jsx:299
+#: src/components/vm/consoles/consoles.tsx:327
 msgid "Expand"
 msgstr "확장"
 
@@ -935,11 +930,11 @@ msgstr "실패함"
 msgid "Failed to add TPM to VM $0"
 msgstr "TPM을 VM $0에 추가하는 데 실패하였습니다"
 
-#: src/components/vm/consoles/vnc.jsx:515
+#: src/components/vm/consoles/vnc.tsx:583
 msgid "Failed to add VNC to VM $0"
 msgstr "VNC를 VM $0로 추가하는 데 실패함"
 
-#: src/components/vm/consoles/serial.jsx:122
+#: src/components/vm/consoles/serial.tsx:135
 msgid "Failed to add serial console to VM $0"
 msgstr "직렬 콘솔을 VM $0에 추가하는 데 실패함"
 
@@ -971,7 +966,7 @@ msgstr "vsock을 분리하는데 실패함"
 msgid "Failed to detach watchdog"
 msgstr "와치독을 분리하는데 실패함"
 
-#: src/app.jsx:179
+#: src/app.tsx:210
 msgid "Failed to fetch some resources"
 msgstr "몇 가지 자원 가져오기에 실패함"
 
@@ -991,7 +986,7 @@ msgstr "SPICE 장치를 교체하는데 실패함"
 msgid "Failed to save network settings"
 msgstr "네트워크 설정을 저장하는데 실패함"
 
-#: src/components/vm/consoles/vnc.jsx:263
+#: src/components/vm/consoles/vnc.tsx:288
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "키 Ctrl+Alt+$0를 VM $1으로 보내지 못했습니다"
 
@@ -1016,7 +1011,7 @@ msgstr "파일시스템 $0는 제거 될 수 없습니다"
 msgid "Filesystem directory"
 msgstr "파일 시스템 디렉토리"
 
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:205
 msgid "Filter by name"
 msgstr "이름으로 필터링"
 
@@ -1094,7 +1089,7 @@ msgstr "신규 RHSM 토큰 가져오기."
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:278 src/app.jsx:289
+#: src/app.tsx:312 src/app.tsx:323
 msgid "Go to VMs list"
 msgstr "VM 목록으로 이동"
 
@@ -1106,15 +1101,15 @@ msgstr "데스크탑 가상화를 위한 훌륭한 선택"
 msgid "Gracefully shutdown"
 msgstr "우아한 종료"
 
-#: src/components/vm/consoles/consoles.jsx:161
+#: src/components/vm/consoles/consoles.tsx:198
 msgid "Graphical"
 msgstr "그래픽"
 
-#: src/components/vm/consoles/vnc.jsx:525
+#: src/components/vm/consoles/vnc.tsx:593
 msgid "Graphical console support not enabled"
 msgstr "그래픽 콘솔 지원이 활성화되지 않았습니다"
 
-#: src/app.jsx:118
+#: src/app.tsx:122
 msgid "Hardware virtualization is disabled"
 msgstr "하드웨어 가상화가 비활성화 되었습니다"
 
@@ -1142,7 +1137,7 @@ msgstr "호스트 장치는 추가 할 수 없습니다"
 msgid "Host device will be removed from $0:"
 msgstr "호스트 장치는 $0에서 제거됩니다:"
 
-#: src/components/vm/vmDetailsPage.tsx:210
+#: src/components/vm/vmDetailsPage.tsx:206
 msgid "Host devices"
 msgstr "호스트 장치"
 
@@ -1245,7 +1240,7 @@ msgstr "식별자는 $0 문자로 자동으로 잘릴 수 있습니다 "
 msgid "Idle"
 msgstr "유휴"
 
-#: src/app.jsx:132
+#: src/app.tsx:136
 msgid "Ignore"
 msgstr "무시"
 
@@ -1374,7 +1369,7 @@ msgstr "키는 ~/.ssh/ 에 위치하고 \".pub\" 확장자를 갖고 있습니�
 msgid "LVM volume group"
 msgstr "LVM 볼륨 그룹"
 
-#: src/components/vm/consoles/common.jsx:166
+#: src/components/vm/consoles/common.tsx:195
 msgid "Launch viewer"
 msgstr "표시기 시작"
 
@@ -1410,17 +1405,11 @@ msgstr "사용 할 수 있는 네트워크 장치 적재 중"
 msgid "Loading resources"
 msgstr "자원 적재 중"
 
-# translation auto-copied from project oVirt, version ovirt-3.5, document
-# frontend/webadmin/modules/webadmin/src/main/resources/org/ovirt/engine/ui/frontend/org.ovirt.engine.ui.webadmin.ApplicationConstants
-#: src/components/vm/consoles/serialConsole.jsx:77
-msgid "Loading..."
-msgstr "적재 중..."
-
 #: src/components/create-vm-dialog/createVmDialog.tsx:458
 msgid "Local install media (ISO image or distro install tree)"
 msgstr "로컬 설치 미디어 (ISO 이미지 또는 저장소 설치 트리)"
 
-#: src/components/vm/consoles/vnc.jsx:235
+#: src/components/vm/consoles/vnc.tsx:260
 msgid "Local scaling"
 msgstr "일부 크기 조절"
 
@@ -1513,8 +1502,8 @@ msgstr "미디어는 $0에서 꺼냅니다:"
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
-#: src/components/vms/hostvmslist.tsx:117
-#: src/components/vms/hostvmslist.tsx:243
+#: src/components/vms/hostvmslist.tsx:119
+#: src/components/vms/hostvmslist.tsx:245
 msgid "Memory"
 msgstr "메모리"
 
@@ -1615,7 +1604,7 @@ msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:260
+#: src/components/vms/hostvmslist.tsx:262
 msgid "Name"
 msgstr "이름"
 
@@ -1690,7 +1679,7 @@ msgstr "네트워크 연결장치 $0가 $1에서 제거됩니다"
 msgid "Network interface settings could not be saved"
 msgstr "네트워크 연결장치 설정을 저장하지 못했습니다"
 
-#: src/components/vm/vmDetailsPage.tsx:201
+#: src/components/vm/vmDetailsPage.tsx:197
 msgid "Network interfaces"
 msgstr "네트워크 연결장치"
 
@@ -1720,7 +1709,7 @@ msgstr "새 볼륨 이름"
 msgid "No SSH keys specified"
 msgstr "SSH 키가 지정되지 않았습니다"
 
-#: src/components/vms/hostvmslist.tsx:266
+#: src/components/vms/hostvmslist.tsx:268
 msgid "No VM is running or defined on this host"
 msgstr "이 호스트에서 실행 중이거나 정의된 가상 머신이 없습니다"
 
@@ -1732,7 +1721,7 @@ msgstr "부팅 장치를 찾을 수 없습니다"
 msgid "No description"
 msgstr "설명 없음"
 
-#: src/components/vm/disks/vmDisksCard.tsx:294
+#: src/components/vm/disks/vmDisksCard.tsx:278
 msgid "No disks"
 msgstr "디스크 없음"
 
@@ -1764,7 +1753,7 @@ msgstr "사용 가능한 네트워크가 없습니다"
 msgid "No parent"
 msgstr "원인 개체 없음"
 
-#: src/components/vm/consoles/vnc.jsx:234
+#: src/components/vm/consoles/vnc.tsx:259
 msgid "No scaling or resizing"
 msgstr "크기 조정이나 확장이 어렵습니다"
 
@@ -1875,7 +1864,7 @@ msgstr "SPICE를 사용하는 다른 VM"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
-#: src/components/vm/vmDetailsPage.tsx:165
+#: src/components/vm/vmDetailsPage.tsx:163
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "개요"
@@ -1888,11 +1877,11 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "상위 순간찍기"
 
-#: src/components/vm/consoles/vnc.jsx:190
+#: src/components/vm/consoles/vnc.tsx:179
 msgid "Password"
 msgstr "비밀번호"
 
-#: src/components/vm/consoles/vnc.jsx:210
+#: src/components/vm/consoles/vnc.tsx:199
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
@@ -1902,7 +1891,7 @@ msgstr ""
 "적으로 암호학적인 취약점이 있습니다. 신뢰 할 수 없는 네트워크에서 연결을 보안"
 "하는 데 사용 될 수 없습니다."
 
-#: src/components/vm/consoles/vnc.jsx:110
+#: src/components/vm/consoles/vnc.tsx:99
 msgid "Password must be at most 8 characters."
 msgstr "비밀번호는 최대 8자까지입니다."
 
@@ -2012,18 +2001,18 @@ msgid "Pool's volumes are used by VMs "
 msgstr "풀 볼륨은 VM에서 사용됩니다 "
 
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/consoles/vnc.jsx:171
+#: src/components/vm/consoles/vnc.tsx:160
 #: src/components/vm/overview/bootOrder.tsx:124
 #: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "포트"
 
-#: src/components/vm/consoles/vnc.jsx:104
+#: src/components/vm/consoles/vnc.tsx:93
 msgid "Port must be 5900 or larger."
 msgstr "포트는 5900 이거나 커야 합니다."
 
-#: src/components/vm/consoles/vnc.jsx:184
+#: src/components/vm/consoles/vnc.tsx:173
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
@@ -2031,7 +2020,7 @@ msgstr ""
 "포트는 적어도 5900 이상의 숫자여야 합니다. 비워 두면 장비가 시작 할 때에 여"
 "유 포트를 자동으로 할당합니다."
 
-#: src/components/vm/consoles/vnc.jsx:101
+#: src/components/vm/consoles/vnc.tsx:90
 msgid "Port must be a number."
 msgstr "포트는 숫자여야 합니다."
 
@@ -2114,7 +2103,7 @@ msgid "Range"
 msgstr "범위"
 
 #: src/components/vm/disks/diskEdit.tsx:174
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Read-only"
 msgstr "읽기-전용"
 
@@ -2139,7 +2128,7 @@ msgstr "$0 출시됨"
 msgid "Remote URL"
 msgstr "원격 URL"
 
-#: src/components/vm/consoles/common.jsx:79
+#: src/components/vm/consoles/common.tsx:88
 msgid ""
 "Remote Viewer is available for most operating systems. To install it, search "
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
@@ -2147,15 +2136,15 @@ msgstr ""
 "원격 표시기는 대부분의 운영 체제에서 사용 할 수 있습니다. 설치하려면 그놈 소"
 "프트웨어, KDE Discover에서 \"원격 표시기\"를 검색하거나, 다음을 실행하세요:"
 
-#: src/components/vm/consoles/vnc.jsx:236
+#: src/components/vm/consoles/vnc.tsx:261
 msgid "Remote resizing"
 msgstr "원격 크기 조절"
 
-#: src/components/vm/consoles/common.jsx:139
+#: src/components/vm/consoles/common.tsx:156
 msgid "Remote viewer"
 msgstr "원격 뷰어"
 
-#: src/components/vm/consoles/common.jsx:111
+#: src/components/vm/consoles/common.tsx:120
 msgid "Remote viewer applications can connect to the following address:"
 msgstr "원격 표시기 응용프로그램은 다음 주소로 연결 할 수 있습니다:"
 
@@ -2234,7 +2223,7 @@ msgstr "선택한 VM에서 SPICE 장치를 교체합니다."
 msgid "Replace SPICE on the virtual machine."
 msgstr "가상 장비에서 SPICE를 교체합니다."
 
-#: src/components/vm/consoles/spice.jsx:77
+#: src/components/vm/consoles/spice.tsx:94
 msgid "Replace with VNC"
 msgstr "VNC로 교체합니다"
 
@@ -2242,11 +2231,11 @@ msgstr "VNC로 교체합니다"
 msgid "Reset"
 msgstr "초기화"
 
-#: src/components/vm/consoles/vnc.jsx:548
+#: src/components/vm/consoles/vnc.tsx:624
 msgid "Restart this virtual machine to access its graphical console"
 msgstr "이와 같은 가상 장비를 재시작하고 해당 그래픽 콘솔에 접근하세요"
 
-#: src/components/vm/consoles/serial.jsx:154
+#: src/components/vm/consoles/serial.tsx:167
 msgid "Restart this virtual machine to access its serial console"
 msgstr "이 가상 장비를 재시작하여 직렬 콘솔에 접근하세요"
 
@@ -2328,7 +2317,7 @@ msgstr "SSH 키"
 
 #: src/components/vm/disks/diskEdit.tsx:337
 #: src/components/vm/vmEditDescriptionDialog.tsx:88
-#: src/components/vm/consoles/vnc.jsx:156
+#: src/components/vm/consoles/vnc.tsx:145
 #: src/components/vm/overview/bootOrder.tsx:365
 #: src/components/vm/overview/memoryModal.tsx:206
 #: src/components/vm/overview/firmware.tsx:117
@@ -2342,7 +2331,7 @@ msgstr "저장"
 msgid "Select all"
 msgstr "모두 선택"
 
-#: src/components/vm/consoles/vnc.jsx:292
+#: src/components/vm/consoles/vnc.tsx:317
 msgid "Send key"
 msgstr "키 전송"
 
@@ -2355,12 +2344,12 @@ msgid "Send non-maskable interrupt to $0?"
 msgstr "마스크 불가능 인터럽트를 $0로 보낼까요?"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:121
-#: src/components/vm/consoles/consoles.jsx:241
-#: src/components/vm/consoles/consoles.jsx:263
+#: src/components/vm/consoles/consoles.tsx:276
+#: src/components/vm/consoles/consoles.tsx:293
 msgid "Serial"
 msgstr "직렬"
 
-#: src/components/vm/consoles/consoles.jsx:241
+#: src/components/vm/consoles/consoles.tsx:276
 msgid "Serial ($0)"
 msgstr "직렬 ($0)"
 
@@ -2368,7 +2357,7 @@ msgstr "직렬 ($0)"
 msgid "Serial console"
 msgstr "직렬 콘솔"
 
-#: src/components/vm/consoles/serial.jsx:132
+#: src/components/vm/consoles/serial.tsx:145
 msgid "Serial console support not enabled"
 msgstr "직렬 콘솔 지원이 활성화 되지 않았습니다"
 
@@ -2396,12 +2385,12 @@ msgstr "공유"
 msgid "Share a host directory with the guest"
 msgstr "게스트와 호스트 디텍토리를 공유합니다"
 
-#: src/components/vm/vmDetailsPage.tsx:231
+#: src/components/vm/vmDetailsPage.tsx:227
 msgid "Shared directories"
 msgstr "공유 디렉토리"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:233
+#: src/components/vm/vmDetailsPage.tsx:229
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr "공유 호스트 디렉토리는 VM 안에세 수동으로 적재가 필요합니다"
 
@@ -2475,7 +2464,7 @@ msgstr "순간찍기 $0는 $1에서 삭제됩니다. 획득된 모든 내용이 
 msgid "Snapshot failed to be created"
 msgstr "순간찍기를 생성하는데 실패했습니다"
 
-#: src/components/vm/vmDetailsPage.tsx:219
+#: src/components/vm/vmDetailsPage.tsx:215
 msgid "Snapshots"
 msgstr "순간찍기"
 
@@ -2493,7 +2482,7 @@ msgstr "소켓"
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr "몇 가지 구성은 일반적인 부팅 후에만 영향을 미칩니다:"
 
-#: src/components/vm/disks/vmDisksCard.tsx:225
+#: src/components/vm/disks/vmDisksCard.tsx:209
 #: src/components/vm/disks/diskAdd.tsx:719
 #: src/components/vm/disks/diskAdd.tsx:755
 #: src/components/vm/hostdevs/hostDevCard.tsx:229
@@ -2547,12 +2536,12 @@ msgstr "호스트 부팅 시 풀 시작"
 msgid "Start should not be empty"
 msgstr "시작은 비워둘 수 없습니다"
 
-#: src/components/vm/consoles/vnc.jsx:495
-#: src/components/vm/consoles/serial.jsx:109
+#: src/components/vm/consoles/serial.tsx:116
+#: src/components/vm/consoles/vnc.tsx:556
 msgid "Start the virtual machine to access the console"
 msgstr "가상 장비를 시작하여 콘솔에 접근하세요."
 
-#: src/components/vm/consoles/spice.jsx:68
+#: src/components/vm/consoles/spice.tsx:85
 msgid "Start the virtual machine to launch remote viewer."
 msgstr "가상 장비를 시작하고 원격 콘솔 표시기를 시작하세요."
 
@@ -2568,8 +2557,8 @@ msgstr "시작"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:207
-#: src/components/vms/hostvmslist.tsx:262
+#: src/components/vms/hostvmslist.tsx:209
+#: src/components/vms/hostvmslist.tsx:264
 msgid "State"
 msgstr "상태"
 
@@ -2647,7 +2636,7 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr "저장소 볼륨은 이 호스트와 대상 호스트 사이에서 공유되어야 합니다."
 
-#: src/components/vm/consoles/common.jsx:115
+#: src/components/vm/consoles/common.tsx:124
 msgid "Successfully copied to clipboard!"
 msgstr "성공적으로 클립보드로 복사됨!"
 
@@ -2799,7 +2788,7 @@ msgstr ""
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr "이는 고성능 또는 향상된 보안을 위해 추천된 유형입니다."
 
-#: src/components/vm/consoles/spice.jsx:64
+#: src/components/vm/consoles/spice.tsx:81
 msgid "This machine has a SPICE graphical console that can not be shown here."
 msgstr "이와 같은 장비는 여기에 보여 줄 수 없는 SPICE 그래픽 콘솔이 있습니다."
 
@@ -2906,7 +2895,7 @@ msgstr "URL"
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
-#: src/components/vm/vmDetailsPage.tsx:177
+#: src/components/vm/vmDetailsPage.tsx:175
 msgid "Usage"
 msgstr "사용량"
 
@@ -2929,7 +2918,7 @@ msgstr ""
 "다. 이는 공유된 저장소 풀, NFS, 또는 다른 공유하는 저장소 방식이 될 수 있습니"
 "다."
 
-#: src/components/vm/disks/vmDisksCard.tsx:217
+#: src/components/vm/disks/vmDisksCard.tsx:201
 msgid "Used"
 msgstr "사용 중"
 
@@ -2973,7 +2962,7 @@ msgstr "VM $0 호스트 장치"
 msgid "VM $0 already exists"
 msgstr "VM $0이 이미 존재합니다"
 
-#: src/app.jsx:277
+#: src/app.tsx:311
 msgid "VM $0 does not exist on $1 connection"
 msgstr "VM $0이(가) $1 연결에 존재하지 않습니다"
 
@@ -3037,7 +3026,7 @@ msgstr "가상장비는 root 권한으로 시작합니다"
 msgid "VNC"
 msgstr "VNC"
 
-#: src/components/vm/consoles/vnc.jsx:135
+#: src/components/vm/consoles/vnc.tsx:124
 msgid "VNC settings could not be saved"
 msgstr "VNC 설정을 저장 할 수 없습니다"
 
@@ -3060,11 +3049,11 @@ msgstr "제조사"
 msgid "Vendor support ended $0"
 msgstr "제조사 지원은 $0에 종료됩니다"
 
-#: src/components/vm/vmDetailsPage.tsx:287
+#: src/components/vm/vmDetailsPage.tsx:283
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:255
-#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:257
+#: src/components/vms/hostvmslist.tsx:259 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "가상 머신"
 
@@ -3140,7 +3129,7 @@ msgstr ""
 "합니다."
 
 #: src/components/vm/disks/diskEdit.tsx:183
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Writeable"
 msgstr "쓰기 가능"
 
@@ -3272,11 +3261,11 @@ msgid "more info"
 msgstr "더 많은 정보"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:242
+#: src/components/vm/vmDetailsPage.tsx:238
 msgid "mount point: The mount point inside the guest"
 msgstr "적재점: 게스트 안에서 적재점"
 
-#: src/components/vm/vmDetailsPage.tsx:241
+#: src/components/vm/vmDetailsPage.tsx:237
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr "적재 태그: 내보낸 적재점과 연결된 태그"
 
@@ -3401,6 +3390,14 @@ msgstr "vsock은 특별한 소프트웨어가 필요합니다"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
 msgid "yes"
 msgstr "예"
+
+#~ msgid "Disconnected from serial console. Click the connect button."
+#~ msgstr "시리얼 콘솔에서 연결이 끊어졌습니다. 연결 버튼을 눌러주세요."
+
+# translation auto-copied from project oVirt, version ovirt-3.5, document
+# frontend/webadmin/modules/webadmin/src/main/resources/org/ovirt/engine/ui/frontend/org.ovirt.engine.ui.webadmin.ApplicationConstants
+#~ msgid "Loading..."
+#~ msgstr "적재 중..."
 
 #~ msgid "No directories shared between the host and this VM"
 #~ msgstr "호스트와 이 VM 사이에서 공유된 디렉토리가 없습니다"

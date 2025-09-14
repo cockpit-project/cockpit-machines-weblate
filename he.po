@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-10 03:19+0000\n"
+"POT-Creation-Date: 2025-09-14 03:26+0000\n"
 "PO-Revision-Date: 2025-05-18 09:10+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -67,7 +67,7 @@ msgstr[1] "$0 מאגרי אחסון"
 msgstr[2] "$0 מאגרי אחסון"
 msgstr[3] "$0 מאגרי אחסון"
 
-#: src/components/vm/vmDetailsPage.tsx:128
+#: src/components/vm/vmDetailsPage.tsx:127
 #, fuzzy
 #| msgid "VNC console"
 msgid "$0 console"
@@ -107,7 +107,7 @@ msgstr ""
 "שומר על העותק שלו של הגדרות המכונה הווירטואלית."
 
 #: src/components/vm/disks/diskEdit.tsx:166
-#: src/components/vm/disks/vmDisksCard.tsx:223
+#: src/components/vm/disks/vmDisksCard.tsx:207
 msgid "Access"
 msgstr "גישה"
 
@@ -115,12 +115,12 @@ msgstr "גישה"
 msgid "Action"
 msgstr "פעולה"
 
-#: src/components/vm/disks/vmDisksCard.tsx:229
+#: src/components/vm/disks/vmDisksCard.tsx:213
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/nics/vmNicsCard.tsx:505
 #: src/components/networks/networkList.tsx:77
 #: src/components/storagePools/storagePoolList.tsx:80
-#: src/components/vms/hostvmslist.tsx:264
+#: src/components/vms/hostvmslist.tsx:266
 msgid "Actions"
 msgstr "פעולות"
 
@@ -150,7 +150,7 @@ msgstr "הוספת מפתחות SSH"
 msgid "Add TPM"
 msgstr "הוספת TPM"
 
-#: src/components/vm/consoles/vnc.jsx:535
+#: src/components/vm/consoles/vnc.tsx:603
 msgid "Add VNC"
 msgstr ""
 
@@ -172,7 +172,7 @@ msgstr "הוספת התקן מארח"
 msgid "Add network interface"
 msgstr "הוספת מנשק רשת"
 
-#: src/components/vm/consoles/serial.jsx:142
+#: src/components/vm/consoles/serial.tsx:155
 #, fuzzy
 #| msgid "Serial console"
 msgid "Add serial console"
@@ -202,7 +202,7 @@ msgstr "הוספת מעקב דורשת הפעלה מחדש כדי להתחיל �
 msgid "Adding shared directories is possible only when the guest is shut off"
 msgstr "הוספת תיקיות משותפות אפשרית רק כשהאורחת כבויה"
 
-#: src/components/vm/disks/vmDisksCard.tsx:227
+#: src/components/vm/disks/vmDisksCard.tsx:211
 msgid "Additional"
 msgstr "נוסף"
 
@@ -219,8 +219,8 @@ msgstr "כתובת"
 msgid "Address not within subnet"
 msgstr "הכתובת אינה בתת־הרשת"
 
-#: src/components/vms/hostvmslist.tsx:162
-#: src/components/vms/hostvmslist.tsx:180
+#: src/components/vms/hostvmslist.tsx:164
+#: src/components/vms/hostvmslist.tsx:182
 msgid "All"
 msgstr "הכול"
 
@@ -306,7 +306,7 @@ msgid "Boot order settings could not be saved"
 msgstr "לא ניתן לשמור הגדרות סדר עלייה"
 
 #: src/components/vm/disks/diskEdit.tsx:133
-#: src/components/vm/disks/vmDisksCard.tsx:221
+#: src/components/vm/disks/vmDisksCard.tsx:205
 #: src/components/vm/disks/diskAdd.tsx:306
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
 #: src/components/vm/hostdevs/hostDevCard.tsx:112
@@ -327,7 +327,8 @@ msgstr "תקליטור/DVD"
 #: src/components/common/needsShutdown.tsx:190
 #: src/components/vm/vmUsageCard.tsx:59
 #: src/components/vm/overview/vmOverviewCard.tsx:201
-#: src/components/vms/hostvmslist.tsx:99 src/components/vms/hostvmslist.tsx:242
+#: src/components/vms/hostvmslist.tsx:101
+#: src/components/vms/hostvmslist.tsx:244
 msgid "CPU"
 msgstr "מעבד"
 
@@ -354,7 +355,7 @@ msgstr "מכלא"
 #: src/components/vm/deleteDialog.tsx:216
 #: src/components/vm/vmRenameDialog.tsx:109
 #: src/components/vm/confirmDialog.tsx:79
-#: src/components/vm/consoles/vnc.jsx:159
+#: src/components/vm/consoles/vnc.tsx:148
 #: src/components/vm/hostdevs/hostDevAdd.tsx:270
 #: src/components/vm/overview/bootOrder.tsx:368
 #: src/components/vm/overview/cpuModal.tsx:344
@@ -383,7 +384,7 @@ msgstr ""
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "עריכת סוג התקן השגחה"
 
-#: src/components/vm/disks/vmDisksCard.tsx:219
+#: src/components/vm/disks/vmDisksCard.tsx:203
 msgid "Capacity"
 msgstr "קיבולת"
 
@@ -403,7 +404,7 @@ msgstr "שינויים ממתינים"
 msgid "Changes will take effect after shutting down the VM"
 msgstr "השינויים יחולו לאחר הפעלת המכונה הווירטואלית מחדש"
 
-#: src/app.jsx:123
+#: src/app.tsx:127
 msgid ""
 "Changing BIOS/EFI settings is specific to each manufacturer. It involves "
 "pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
@@ -423,7 +424,7 @@ msgstr "נא לבחור מערכת הפעלה"
 msgid "Class"
 msgstr "מחלקה"
 
-#: src/components/vm/consoles/common.jsx:76
+#: src/components/vm/consoles/common.tsx:85
 #, fuzzy
 #| msgid ""
 #| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
@@ -448,11 +449,11 @@ msgstr "דמויות בסיס לענן"
 msgid "Cockpit Project"
 msgstr ""
 
-#: src/components/vm/consoles/consoles.jsx:299
+#: src/components/vm/consoles/consoles.tsx:327
 msgid "Compress"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Concurrently writeable"
 msgstr ""
 
@@ -460,9 +461,8 @@ msgstr ""
 msgid "Confirm this action"
 msgstr "אישור הפעולה הזאת"
 
-#: src/components/vm/consoles/serialConsole.jsx:95
-#: src/components/vm/consoles/vnc.jsx:478
-#: src/components/vm/consoles/serial.jsx:85
+#: src/components/vm/consoles/serial.tsx:92
+#: src/components/vm/consoles/vnc.tsx:531
 msgid "Connect"
 msgstr "התחברות"
 
@@ -471,11 +471,11 @@ msgstr "התחברות"
 #: src/components/networks/networkList.tsx:74
 #: src/components/networks/createNetworkDialog.tsx:47
 #: src/components/storagePools/storagePoolList.tsx:78
-#: src/components/vms/hostvmslist.tsx:261
+#: src/components/vms/hostvmslist.tsx:263
 msgid "Connection"
 msgstr "התחברות"
 
-#: src/components/vm/consoles/consoles.jsx:339
+#: src/components/vm/consoles/consoles.tsx:367
 msgid "Console"
 msgstr "מסוף"
 
@@ -492,7 +492,7 @@ msgstr ""
 msgid "Copy storage"
 msgstr "העתקת אחסון"
 
-#: src/components/vm/consoles/common.jsx:114
+#: src/components/vm/consoles/common.tsx:123
 msgid "Copy to clipboard"
 msgstr "העתקה ללוח הגזירים"
 
@@ -604,11 +604,11 @@ msgstr "יצירת רשת וירטואלית"
 msgid "Create volume"
 msgstr "יצירת כרך"
 
-#: src/components/vms/hostvmslist.tsx:75
+#: src/components/vms/hostvmslist.tsx:77
 msgid "Creating VM"
 msgstr "יצירת מכונה וירטואלית"
 
-#: src/app.jsx:288
+#: src/app.tsx:322
 msgid "Creating VM $0"
 msgstr "יצירת מכונה וירטואלית $0"
 
@@ -626,7 +626,7 @@ msgstr "היצירה של המכונה הווירטואלית $0 נכשלה"
 msgid "Creation time"
 msgstr "זמן יצירה"
 
-#: src/components/vm/consoles/vnc.jsx:268
+#: src/components/vm/consoles/vnc.tsx:293
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -731,7 +731,7 @@ msgstr "כתובת יעד מלאה"
 msgid "Destination URI must not be empty"
 msgstr "כתובת היעד המלאה לא יכולה להיות ריקה"
 
-#: src/components/vm/consoles/consoles.jsx:333
+#: src/components/vm/consoles/consoles.tsx:361
 #, fuzzy
 #| msgid "Detachable"
 msgid "Detach"
@@ -748,7 +748,7 @@ msgstr ""
 msgid "Details"
 msgstr "פרטים"
 
-#: src/components/vm/disks/vmDisksCard.tsx:207
+#: src/components/vm/disks/vmDisksCard.tsx:191
 #: src/components/vm/disks/diskAdd.tsx:462
 #: src/components/vm/hostdevs/hostDevCard.tsx:103
 #: src/components/vm/hostdevs/hostDevCard.tsx:261
@@ -767,19 +767,14 @@ msgstr "התקן"
 msgid "Devices"
 msgstr "התקנים"
 
-#: src/components/vm/consoles/consoles.jsx:283
-#: src/components/vm/consoles/serialConsole.jsx:94
+#: src/components/vm/consoles/consoles.tsx:311
 msgid "Disconnect"
 msgstr "ניתוק"
 
-#: src/components/vm/consoles/vnc.jsx:475
-#: src/components/vm/consoles/serial.jsx:82
+#: src/components/vm/consoles/serial.tsx:89
+#: src/components/vm/consoles/vnc.tsx:528
 msgid "Disconnected"
 msgstr "מנותק"
-
-#: src/components/vm/consoles/serialConsole.jsx:87
-msgid "Disconnected from serial console. Click the connect button."
-msgstr "מנותק מהמסוף הטורי. יש ללחוץ על כפתור החיבור."
 
 #: src/components/common/needsShutdown.tsx:168
 #, fuzzy
@@ -825,7 +820,7 @@ msgstr "לא ניתן לשמור את הגדרות הכונן"
 msgid "Disk-only snapshot"
 msgstr "תמונת מצב בכונן בלבד"
 
-#: src/components/vm/vmDetailsPage.tsx:192
+#: src/components/vm/vmDetailsPage.tsx:188
 msgid "Disks"
 msgstr "כוננים"
 
@@ -850,21 +845,21 @@ msgstr "שם התחום חסום במשאב"
 msgid "Download an OS"
 msgstr "הורדת מערכת הפעלה"
 
-#: src/app.jsx:292
+#: src/app.tsx:326
 msgid "Download progress"
 msgstr "תהליך ההורדה"
 
-#: src/components/vm/consoles/common.jsx:101
+#: src/components/vm/consoles/common.tsx:110
 #, fuzzy
 #| msgid "Downloading image for VM $0"
 msgid "Download the MSI from $0"
 msgstr "מתבצעת הורדת דמות עבור המכונה הווירטואלית $0"
 
-#: src/app.jsx:288
+#: src/app.tsx:322
 msgid "Downloading image for VM $0"
 msgstr "מתבצעת הורדת דמות עבור המכונה הווירטואלית $0"
 
-#: src/components/vms/hostvmslist.tsx:73
+#: src/components/vms/hostvmslist.tsx:75
 msgid "Downloading: $0%"
 msgstr "בהורדה: $0%"
 
@@ -889,8 +884,8 @@ msgstr "עריכה"
 msgid "Edit $0 attributes"
 msgstr "עריכת מאפייני $0"
 
-#: src/components/vm/consoles/vnc.jsx:145
-#: src/components/vm/consoles/vnc.jsx:319
+#: src/components/vm/consoles/vnc.tsx:134
+#: src/components/vm/consoles/vnc.tsx:356
 #, fuzzy
 #| msgid "DHCP Settings"
 msgid "Edit VNC settings"
@@ -939,7 +934,7 @@ msgstr "לשלוף תקליטור מהמכונה הווירטואלית?"
 msgid "Emulated machine"
 msgstr "מכונה מדומה"
 
-#: src/app.jsx:121
+#: src/app.tsx:125
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr ""
 
@@ -968,7 +963,7 @@ msgstr "דוגמה, $0"
 msgid "Existing disk image on host's file system"
 msgstr "תמונת כונן קיימת במערכת הקבצים של המארח"
 
-#: src/components/vm/consoles/consoles.jsx:299
+#: src/components/vm/consoles/consoles.tsx:327
 msgid "Expand"
 msgstr "הרחבה"
 
@@ -986,13 +981,13 @@ msgstr "נכשל"
 msgid "Failed to add TPM to VM $0"
 msgstr "שכפול המכונה הווירטואלית $0 נכשל"
 
-#: src/components/vm/consoles/vnc.jsx:515
+#: src/components/vm/consoles/vnc.tsx:583
 #, fuzzy
 #| msgid "Failed to clone VM $0"
 msgid "Failed to add VNC to VM $0"
 msgstr "שכפול המכונה הווירטואלית $0 נכשל"
 
-#: src/components/vm/consoles/serial.jsx:122
+#: src/components/vm/consoles/serial.tsx:135
 #, fuzzy
 #| msgid "Failed to clone VM $0"
 msgid "Failed to add serial console to VM $0"
@@ -1030,7 +1025,7 @@ msgstr "ניתוק ההשגחה נכשל"
 msgid "Failed to detach watchdog"
 msgstr "ניתוק ההשגחה נכשל"
 
-#: src/app.jsx:179
+#: src/app.tsx:210
 msgid "Failed to fetch some resources"
 msgstr "משיכה של חלק מהמשאבים נכשלה"
 
@@ -1052,7 +1047,7 @@ msgstr "שינוי שם המכונה הווירטואלית $0 נכשל"
 msgid "Failed to save network settings"
 msgstr "שמירת הגדרות הרשת נכשלה"
 
-#: src/components/vm/consoles/vnc.jsx:263
+#: src/components/vm/consoles/vnc.tsx:288
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "שליחת צירוף המקשים Ctrl+Alt+$0 למכונה הווירטואלית $1 נכשלה"
 
@@ -1079,7 +1074,7 @@ msgstr "לא ניתן להסיר את מערכת הקבצים $0"
 msgid "Filesystem directory"
 msgstr "תיקיית מערכת קבצים"
 
-#: src/components/vms/hostvmslist.tsx:203
+#: src/components/vms/hostvmslist.tsx:205
 msgid "Filter by name"
 msgstr "סינון לפי שם"
 
@@ -1158,7 +1153,7 @@ msgstr ""
 msgid "GiB"
 msgstr "GiB"
 
-#: src/app.jsx:278 src/app.jsx:289
+#: src/app.tsx:312 src/app.tsx:323
 msgid "Go to VMs list"
 msgstr "מעבר לרשימת המכונות הווירטואליות"
 
@@ -1172,15 +1167,15 @@ msgstr ""
 msgid "Gracefully shutdown"
 msgstr "לאלץ כיבוי"
 
-#: src/components/vm/consoles/consoles.jsx:161
+#: src/components/vm/consoles/consoles.tsx:198
 msgid "Graphical"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:525
+#: src/components/vm/consoles/vnc.tsx:593
 msgid "Graphical console support not enabled"
 msgstr ""
 
-#: src/app.jsx:118
+#: src/app.tsx:122
 #, fuzzy
 #| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
@@ -1212,7 +1207,7 @@ msgstr "לא ניתן לשמור הגדרות סדר עלייה"
 msgid "Host device will be removed from $0:"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:210
+#: src/components/vm/vmDetailsPage.tsx:206
 #, fuzzy
 #| msgid "Host device"
 msgid "Host devices"
@@ -1319,7 +1314,7 @@ msgstr ""
 msgid "Idle"
 msgstr "בהמתנה"
 
-#: src/app.jsx:132
+#: src/app.tsx:136
 msgid "Ignore"
 msgstr ""
 
@@ -1456,7 +1451,7 @@ msgstr ""
 msgid "LVM volume group"
 msgstr "קבוצת כרכים LVM"
 
-#: src/components/vm/consoles/common.jsx:166
+#: src/components/vm/consoles/common.tsx:195
 #, fuzzy
 #| msgid "Launch remote viewer"
 msgid "Launch viewer"
@@ -1497,15 +1492,11 @@ msgstr "אין התקני רשת"
 msgid "Loading resources"
 msgstr "משאבים נטענים"
 
-#: src/components/vm/consoles/serialConsole.jsx:77
-msgid "Loading..."
-msgstr "בטעינה…"
-
 #: src/components/create-vm-dialog/createVmDialog.tsx:458
 msgid "Local install media (ISO image or distro install tree)"
 msgstr "מדיה להתקנה מקומית (דמות ISO או עץ התקנת הפצה)"
 
-#: src/components/vm/consoles/vnc.jsx:235
+#: src/components/vm/consoles/vnc.tsx:260
 msgid "Local scaling"
 msgstr ""
 
@@ -1605,8 +1596,8 @@ msgstr ""
 #: src/components/vm/vmUsageCard.tsx:51
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/create-vm-dialog/createVmDialog.tsx:1012
-#: src/components/vms/hostvmslist.tsx:117
-#: src/components/vms/hostvmslist.tsx:243
+#: src/components/vms/hostvmslist.tsx:119
+#: src/components/vms/hostvmslist.tsx:245
 msgid "Memory"
 msgstr "זיכרון"
 
@@ -1717,7 +1708,7 @@ msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטו�
 #: src/components/storagePools/storageVolumeCreateBody.tsx:64
 #: src/components/storagePools/createStoragePoolDialog.tsx:69
 #: src/components/create-vm-dialog/createVmDialog.tsx:325
-#: src/components/vms/hostvmslist.tsx:260
+#: src/components/vms/hostvmslist.tsx:262
 msgid "Name"
 msgstr "שם"
 
@@ -1804,7 +1795,7 @@ msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 msgid "Network interface settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
-#: src/components/vm/vmDetailsPage.tsx:201
+#: src/components/vm/vmDetailsPage.tsx:197
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Network interfaces"
@@ -1838,7 +1829,7 @@ msgstr "שם חדש לכרך"
 msgid "No SSH keys specified"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:266
+#: src/components/vms/hostvmslist.tsx:268
 msgid "No VM is running or defined on this host"
 msgstr "אף מכונה וירטואלית לא מופעלת או מוגדרת על המארח הזה"
 
@@ -1850,7 +1841,7 @@ msgstr "לא נמצא התקן עלייה"
 msgid "No description"
 msgstr "אין תיאור"
 
-#: src/components/vm/disks/vmDisksCard.tsx:294
+#: src/components/vm/disks/vmDisksCard.tsx:278
 #, fuzzy
 #| msgid "disk"
 msgid "No disks"
@@ -1890,7 +1881,7 @@ msgstr "אין רשתות זמינות"
 msgid "No parent"
 msgstr "אין הורה"
 
-#: src/components/vm/consoles/vnc.jsx:234
+#: src/components/vm/consoles/vnc.tsx:259
 msgid "No scaling or resizing"
 msgstr ""
 
@@ -2007,7 +1998,7 @@ msgstr "המשימה בתהליך"
 msgid "Other VMs using SPICE"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:165
+#: src/components/vm/vmDetailsPage.tsx:163
 #: src/components/storagePools/storagePool.tsx:77
 msgid "Overview"
 msgstr "סקירה"
@@ -2020,20 +2011,20 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "תמונת מצב הורה"
 
-#: src/components/vm/consoles/vnc.jsx:190
+#: src/components/vm/consoles/vnc.tsx:179
 #, fuzzy
 #| msgid "Root password"
 msgid "Password"
 msgstr "ססמת משתמש על (root)"
 
-#: src/components/vm/consoles/vnc.jsx:210
+#: src/components/vm/consoles/vnc.tsx:199
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:110
+#: src/components/vm/consoles/vnc.tsx:99
 msgid "Password must be at most 8 characters."
 msgstr ""
 
@@ -2145,24 +2136,24 @@ msgid "Pool's volumes are used by VMs "
 msgstr "כרכי המאגר משמשים מכונות וירטואליות "
 
 #: src/components/vm/disks/vmDiskColumns.tsx:53
-#: src/components/vm/consoles/vnc.jsx:171
+#: src/components/vm/consoles/vnc.tsx:160
 #: src/components/vm/overview/bootOrder.tsx:124
 #: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/nics/vmNicsCard.tsx:213
 msgid "Port"
 msgstr "פתחה"
 
-#: src/components/vm/consoles/vnc.jsx:104
+#: src/components/vm/consoles/vnc.tsx:93
 msgid "Port must be 5900 or larger."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:184
+#: src/components/vm/consoles/vnc.tsx:173
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:101
+#: src/components/vm/consoles/vnc.tsx:90
 #, fuzzy
 #| msgid "Hours must be a number between 0 and 23"
 msgid "Port must be a number."
@@ -2246,7 +2237,7 @@ msgid "Range"
 msgstr "טווח"
 
 #: src/components/vm/disks/diskEdit.tsx:174
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Read-only"
 msgstr "קריאה בלבד"
 
@@ -2275,7 +2266,7 @@ msgstr ""
 msgid "Remote URL"
 msgstr "כתובת מרוחקת"
 
-#: src/components/vm/consoles/common.jsx:79
+#: src/components/vm/consoles/common.tsx:88
 #, fuzzy
 #| msgid ""
 #| "$0 is available for most operating systems. To install it, search for it "
@@ -2287,17 +2278,17 @@ msgstr ""
 "$0 זמין לרוב מערכות ההפעלה. כדי להתקין אותו, יש לחפש אותו ב„תכנה של GNOME” "
 "או להריץ את הפקודה הבאה:"
 
-#: src/components/vm/consoles/vnc.jsx:236
+#: src/components/vm/consoles/vnc.tsx:261
 msgid "Remote resizing"
 msgstr ""
 
-#: src/components/vm/consoles/common.jsx:139
+#: src/components/vm/consoles/common.tsx:156
 #, fuzzy
 #| msgid "Remote viewer details"
 msgid "Remote viewer"
 msgstr "פרטי המציג מרחוק"
 
-#: src/components/vm/consoles/common.jsx:111
+#: src/components/vm/consoles/common.tsx:120
 msgid "Remote viewer applications can connect to the following address:"
 msgstr ""
 
@@ -2380,7 +2371,7 @@ msgstr ""
 msgid "Replace SPICE on the virtual machine."
 msgstr "יצירת מכונה וירטואלית חדשה"
 
-#: src/components/vm/consoles/spice.jsx:77
+#: src/components/vm/consoles/spice.tsx:94
 msgid "Replace with VNC"
 msgstr ""
 
@@ -2388,13 +2379,13 @@ msgstr ""
 msgid "Reset"
 msgstr "איפוס"
 
-#: src/components/vm/consoles/vnc.jsx:548
+#: src/components/vm/consoles/vnc.tsx:624
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its graphical console"
 msgstr "נא להפעיל את המכונה הווירטואלית כדי לגשת למסוף שלה."
 
-#: src/components/vm/consoles/serial.jsx:154
+#: src/components/vm/consoles/serial.tsx:167
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
@@ -2483,7 +2474,7 @@ msgstr "שליחת מקש"
 
 #: src/components/vm/disks/diskEdit.tsx:337
 #: src/components/vm/vmEditDescriptionDialog.tsx:88
-#: src/components/vm/consoles/vnc.jsx:156
+#: src/components/vm/consoles/vnc.tsx:145
 #: src/components/vm/overview/bootOrder.tsx:365
 #: src/components/vm/overview/memoryModal.tsx:206
 #: src/components/vm/overview/firmware.tsx:117
@@ -2497,7 +2488,7 @@ msgstr "שמירה"
 msgid "Select all"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:292
+#: src/components/vm/consoles/vnc.tsx:317
 msgid "Send key"
 msgstr "שליחת מקש"
 
@@ -2512,12 +2503,12 @@ msgid "Send non-maskable interrupt to $0?"
 msgstr "שליחת פסיקה שלא ניתן למסך"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:121
-#: src/components/vm/consoles/consoles.jsx:241
-#: src/components/vm/consoles/consoles.jsx:263
+#: src/components/vm/consoles/consoles.tsx:276
+#: src/components/vm/consoles/consoles.tsx:293
 msgid "Serial"
 msgstr "טורית"
 
-#: src/components/vm/consoles/consoles.jsx:241
+#: src/components/vm/consoles/consoles.tsx:276
 #, fuzzy
 #| msgid "Serial console"
 msgid "Serial ($0)"
@@ -2527,7 +2518,7 @@ msgstr "מסוף טורי"
 msgid "Serial console"
 msgstr "מסוף טורי"
 
-#: src/components/vm/consoles/serial.jsx:132
+#: src/components/vm/consoles/serial.tsx:145
 msgid "Serial console support not enabled"
 msgstr ""
 
@@ -2554,12 +2545,12 @@ msgstr "שיתוף"
 msgid "Share a host directory with the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:231
+#: src/components/vm/vmDetailsPage.tsx:227
 msgid "Shared directories"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:193
-#: src/components/vm/vmDetailsPage.tsx:233
+#: src/components/vm/vmDetailsPage.tsx:229
 msgid "Shared host directories need to be manually mounted inside the VM"
 msgstr ""
 
@@ -2641,7 +2632,7 @@ msgstr "לאחר מחיקת תמונת המצב, כל התוכן שנלכד בה
 msgid "Snapshot failed to be created"
 msgstr "יצירת תמונת המצב נכשלה"
 
-#: src/components/vm/vmDetailsPage.tsx:219
+#: src/components/vm/vmDetailsPage.tsx:215
 msgid "Snapshots"
 msgstr "תמונות מצב"
 
@@ -2661,7 +2652,7 @@ msgstr "שקעים"
 msgid "Some configuration changes only take effect after a fresh boot:"
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.tsx:225
+#: src/components/vm/disks/vmDisksCard.tsx:209
 #: src/components/vm/disks/diskAdd.tsx:719
 #: src/components/vm/disks/diskAdd.tsx:755
 #: src/components/vm/hostdevs/hostDevCard.tsx:229
@@ -2715,14 +2706,14 @@ msgstr "הפעלת המאגר עם עליית המארח"
 msgid "Start should not be empty"
 msgstr "ההתחלה לא אמורה להיות ריקה"
 
-#: src/components/vm/consoles/vnc.jsx:495
-#: src/components/vm/consoles/serial.jsx:109
+#: src/components/vm/consoles/serial.tsx:116
+#: src/components/vm/consoles/vnc.tsx:556
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to access the console"
 msgstr "נא להפעיל את המכונה הווירטואלית כדי לגשת למסוף שלה."
 
-#: src/components/vm/consoles/spice.jsx:68
+#: src/components/vm/consoles/spice.tsx:85
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to launch remote viewer."
@@ -2742,8 +2733,8 @@ msgstr "בהתחלה"
 #: src/components/vm/nics/vmNicsCard.tsx:496
 #: src/components/networks/networkList.tsx:76
 #: src/components/storagePools/storagePoolList.tsx:79
-#: src/components/vms/hostvmslist.tsx:207
-#: src/components/vms/hostvmslist.tsx:262
+#: src/components/vms/hostvmslist.tsx:209
+#: src/components/vms/hostvmslist.tsx:264
 msgid "State"
 msgstr "מצב"
 
@@ -2827,7 +2818,7 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr ""
 
-#: src/components/vm/consoles/common.jsx:115
+#: src/components/vm/consoles/common.tsx:124
 #, fuzzy
 #| msgid "Copy to clipboard"
 msgid "Successfully copied to clipboard!"
@@ -2976,7 +2967,7 @@ msgstr ""
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 
-#: src/components/vm/consoles/spice.jsx:64
+#: src/components/vm/consoles/spice.tsx:81
 msgid "This machine has a SPICE graphical console that can not be shown here."
 msgstr ""
 
@@ -3085,7 +3076,7 @@ msgstr "נא לבחור מערכת הפעלה"
 msgid "Url"
 msgstr "כתובת"
 
-#: src/components/vm/vmDetailsPage.tsx:177
+#: src/components/vm/vmDetailsPage.tsx:175
 msgid "Usage"
 msgstr "שימוש"
 
@@ -3105,7 +3096,7 @@ msgid ""
 "sharing storage."
 msgstr ""
 
-#: src/components/vm/disks/vmDisksCard.tsx:217
+#: src/components/vm/disks/vmDisksCard.tsx:201
 msgid "Used"
 msgstr "בשימוש"
 
@@ -3155,7 +3146,7 @@ msgstr "התקן מארח"
 msgid "VM $0 already exists"
 msgstr "המכונה הווירטואלית $0 כבר קיימת"
 
-#: src/app.jsx:277
+#: src/app.tsx:311
 msgid "VM $0 does not exist on $1 connection"
 msgstr "המכונה הווירטואלית $0 לא קיימת בחיבור $1"
 
@@ -3219,7 +3210,7 @@ msgstr ""
 msgid "VNC"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.jsx:135
+#: src/components/vm/consoles/vnc.tsx:124
 #, fuzzy
 #| msgid "Disk settings could not be saved"
 msgid "VNC settings could not be saved"
@@ -3242,11 +3233,11 @@ msgstr "ספק"
 msgid "Vendor support ended $0"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:287
+#: src/components/vm/vmDetailsPage.tsx:283
 #: src/components/networks/networkList.tsx:57
 #: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/vms/hostvmslist.tsx:255
-#: src/components/vms/hostvmslist.tsx:257 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:257
+#: src/components/vms/hostvmslist.tsx:259 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "מכונות וירטואליות"
 
@@ -3316,7 +3307,7 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:183
-#: src/components/vm/disks/vmDisksCard.tsx:251
+#: src/components/vm/disks/vmDisksCard.tsx:235
 msgid "Writeable"
 msgstr "ניתן לכתיבה"
 
@@ -3450,11 +3441,11 @@ msgid "more info"
 msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-#: src/components/vm/vmDetailsPage.tsx:242
+#: src/components/vm/vmDetailsPage.tsx:238
 msgid "mount point: The mount point inside the guest"
 msgstr ""
 
-#: src/components/vm/vmDetailsPage.tsx:241
+#: src/components/vm/vmDetailsPage.tsx:237
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
 
@@ -3580,6 +3571,12 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
 msgid "yes"
 msgstr "כן"
+
+#~ msgid "Disconnected from serial console. Click the connect button."
+#~ msgstr "מנותק מהמסוף הטורי. יש ללחוץ על כפתור החיבור."
+
+#~ msgid "Loading..."
+#~ msgstr "בטעינה…"
 
 #~ msgid "No disks defined for this VM"
 #~ msgstr "לא מוגדרים כוננים למכונה הווירטואלית הזאת"
