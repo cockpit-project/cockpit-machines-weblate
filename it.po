@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-17 03:26+0000\n"
-"PO-Revision-Date: 2025-07-26 21:01+0000\n"
+"PO-Revision-Date: 2025-10-23 12:54+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/it/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1070
 msgid "$0 $1 available at default location"
@@ -49,10 +49,8 @@ msgstr[0] "$0 Pool di archiviazione"
 msgstr[1] "$0 Pool di archiviazioni"
 
 #: src/components/vm/vmDetailsPage.tsx:127
-#, fuzzy
-#| msgid "VNC console"
 msgid "$0 console"
-msgstr "Console VNC"
+msgstr "console $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1479
 msgid "$0 does not support unattended installation."
@@ -80,7 +78,7 @@ msgstr "$0 impostazioni dell'interfaccia di rete virtuale"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:111
 msgid "(empty)"
-msgstr ""
+msgstr "(vuoto)"
 
 #: src/components/vm/vmMigrateDialog.tsx:97
 msgid ""
@@ -248,10 +246,8 @@ msgid "Assign automatically"
 msgstr "Assegna automaticamente"
 
 #: src/components/vm/deleteDialog.tsx:106
-#, fuzzy
-#| msgid "Delete associated storage files:"
 msgid "Associated storage files"
-msgstr "Elimina i file di archiviazione associati:"
+msgstr "File di archiviazione associati"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1478
 msgid ""
@@ -714,10 +710,8 @@ msgid "Destination URI must not be empty"
 msgstr "L'URI di destinazione non deve essere vuoto"
 
 #: src/components/vm/consoles/consoles.tsx:379
-#, fuzzy
-#| msgid "Detachable"
 msgid "Detach"
-msgstr "Rimovibile"
+msgstr "Stacca"
 
 #: src/components/storagePools/storagePoolDelete.tsx:99
 msgid ""
@@ -984,10 +978,8 @@ msgid "Failed to configure watchdog"
 msgstr "Impossibile configurare il watchdog"
 
 #: src/components/vm/consoles/vnc.tsx:510
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to connect"
-msgstr "Impossibile clonare la VM $0"
+msgstr "Impossibile connettersi"
 
 #: src/components/vm/overview/vsock.tsx:173
 msgid "Failed to detach vsock"
@@ -1774,30 +1766,24 @@ msgid "No description"
 msgstr "Nessuna descrizione"
 
 #: src/components/vm/disks/vmDisksCard.tsx:283
-#, fuzzy
-#| msgid "disk"
 msgid "No disks"
-msgstr "disco"
+msgstr "Nessun disco"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Nessun dispositivo host selezionato"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:331
-#, fuzzy
-#| msgid "host device"
 msgid "No host devices"
-msgstr "dispositivo host"
+msgstr "Nessun dispositivo host"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Nessun dispositivo di rete"
 
 #: src/components/vm/nics/vmNicsCard.tsx:816
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "No network interfaces"
-msgstr "Interfacce di rete"
+msgstr "Nessuna interfaccia di rete"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1816,10 +1802,8 @@ msgid "No scaling or resizing"
 msgstr "Nessun ridimensionamento o ridimensionamento"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:101
-#, fuzzy
-#| msgid "Shared directories"
 msgid "No shared directories"
-msgstr "Directory condivise"
+msgstr "Nessuna directory condivisa"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
 #, fuzzy
@@ -2408,7 +2392,7 @@ msgstr "Salva"
 
 #: src/components/vm/consoles/vnc.tsx:522
 msgid "Security failure"
-msgstr ""
+msgstr "Fallimento della sicurezza"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:137
 msgid "Select all"
@@ -2557,14 +2541,8 @@ msgid "Snapshots"
 msgstr "Snapshot"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-#, fuzzy
-#| msgid ""
-#| "Previously taken snapshots allow you to revert to an earlier state if "
-#| "something goes wrong"
 msgid "Snapshots allow you to revert to an earlier state"
-msgstr ""
-"Gli snapshot eseguiti in precedenza consentono di tornare a uno stato "
-"precedente se qualcosa va storto"
+msgstr "Gli snapshot consentono di tornare a uno stato precedente"
 
 # translation auto-copied from project Satellite6 Katello, version Sam-1.3.0,
 # document katello, author fvalen
@@ -3040,7 +3018,7 @@ msgstr "Utilizzato da"
 
 #: src/components/vm/disks/vmDisksCard.tsx:191
 msgid "Used on host"
-msgstr ""
+msgstr "Utilizzato sull'host"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:819
 msgid "User login"
@@ -3151,7 +3129,7 @@ msgstr "Impossibile salvare le impostazioni VNC"
 
 #: src/components/vm/consoles/vnc.tsx:508
 msgid "VNC with TLS is not supported by the in-page viewer"
-msgstr ""
+msgstr "VNC con TLS non è supportato dal visualizzatore in-page"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:659
 msgid "Valid token"
