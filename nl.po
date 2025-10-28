@@ -9,17 +9,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 03:33+0000\n"
-"PO-Revision-Date: 2024-09-07 12:38+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
-"Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit-"
-"machines/main/nl/>\n"
+"PO-Revision-Date: 2025-10-28 12:46+0000\n"
+"Last-Translator: Eli Drechsler <elidrechsler@outlook.com>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/cockpit/"
+"cockpit-machines/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1070
 msgid "$0 $1 available at default location"
@@ -47,10 +46,8 @@ msgstr[0] "$0 Opslagpool"
 msgstr[1] "$0 Opslagpools"
 
 #: src/components/vm/vmDetailsPage.tsx:122
-#, fuzzy
-#| msgid "VNC console"
 msgid "$0 console"
-msgstr "VNC-console"
+msgstr "$0-console"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1478
 msgid "$0 does not support unattended installation."
@@ -77,7 +74,7 @@ msgstr "$0 virtueel netwerkinterface instellingen"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:110
 msgid "(empty)"
-msgstr ""
+msgstr "(leeg)"
 
 #: src/components/vm/vmMigrateDialog.tsx:97
 msgid ""
@@ -103,10 +100,8 @@ msgstr "Actie"
 #: src/components/vm/nics/vmNicsCard.tsx:602
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:199
 #: src/components/vm/disks/vmDisksCard.tsx:187
-#, fuzzy
-#| msgid "Action"
 msgid "Actions"
-msgstr "Actie"
+msgstr "Acties"
 
 #: src/components/storagePools/storagePool.tsx:180
 #: src/components/networks/network.tsx:189
@@ -132,11 +127,11 @@ msgstr "Voeg SSH-sleutels toe"
 
 #: src/components/vm/vmActions.tsx:523
 msgid "Add TPM"
-msgstr ""
+msgstr "Voeg TPM toe"
 
 #: src/components/vm/consoles/vnc.tsx:667
 msgid "Add VNC"
-msgstr ""
+msgstr "Voeg VNC toe"
 
 #: src/components/networks/networkOverviewTab.tsx:253
 msgid "Add a DHCP static host entry"
@@ -157,10 +152,8 @@ msgid "Add network interface"
 msgstr "Netwerkinterface toevoegen"
 
 #: src/components/vm/consoles/serial.tsx:156
-#, fuzzy
-#| msgid "Serial console"
 msgid "Add serial console"
-msgstr "Seriële console"
+msgstr "Seriële console toevoegen"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:123
 msgid "Add shared directory"
@@ -249,10 +242,8 @@ msgid "Assign automatically"
 msgstr "Automatisch toewijzen"
 
 #: src/components/vm/deleteDialog.tsx:105
-#, fuzzy
-#| msgid "Delete associated storage files:"
 msgid "Associated storage files"
-msgstr "Verwijder bijbehorende opslagbestanden:"
+msgstr "Gekoppelde opslagbestanden"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1477
 msgid ""
@@ -277,10 +268,8 @@ msgid "Autostart"
 msgstr "Automatische start"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:48
-#, fuzzy
-#| msgid "Host device"
 msgid "Block device"
-msgstr "Hostapparaat"
+msgstr "Blokkeer apparaat"
 
 #: src/helpers.ts:240
 msgid "Blocked"
@@ -412,15 +401,12 @@ msgid "Class"
 msgstr "Klasse"
 
 #: src/components/vm/consoles/common.tsx:85
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
 "Viewer application on your system."
 msgstr ""
-"Klikken op \"Lanceer viewer op afstand\" zal een .vv bestand downloaden en "
-"$0 opstarten."
+"Wanneer u op \"Viewer starten\" klikt, wordt een $0-bestand gedownload en "
+"wordt de Remote Viewer-toepassing op uw systeem gestart."
 
 #: src/components/vm/vmActions.tsx:453 src/components/vm/vmCloneDialog.tsx:121
 msgid "Clone"
@@ -436,15 +422,15 @@ msgstr "Cloud basis image"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Cockpit Project"
 
 #: src/components/vm/consoles/consoles.tsx:339
 msgid "Compress"
-msgstr ""
+msgstr "Comprimeren"
 
 #: src/components/vm/disks/vmDisksCard.tsx:249
 msgid "Concurrently writeable"
-msgstr ""
+msgstr "Gelijktijdig beschrijfbaar"
 
 #: src/components/common/deleteResource.tsx:102
 msgid "Confirm this action"
@@ -599,6 +585,8 @@ msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
 msgstr ""
+"Het maken van momentopnamen van virtuele machines met VFIO-apparaten wordt "
+"niet ondersteund terwijl deze actief zijn."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1453
 msgid "Creation of VM $0 failed"
@@ -704,7 +692,7 @@ msgstr "Beschrijving"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:137
 msgid "Deselect others"
-msgstr ""
+msgstr "Andere deselecteren"
 
 #: src/components/vm/vmMigrateDialog.tsx:64
 msgid "Destination URI"
@@ -715,10 +703,8 @@ msgid "Destination URI must not be empty"
 msgstr "Bestemmings-URI mag niet leeg zijn"
 
 #: src/components/vm/consoles/consoles.tsx:374
-#, fuzzy
-#| msgid "Detachable"
 msgid "Detach"
-msgstr "Demonteerbaar"
+msgstr "Demonteer"
 
 #: src/components/storagePools/storagePoolDelete.tsx:99
 msgid ""
@@ -830,10 +816,8 @@ msgid "Download progress"
 msgstr "Download voortgang"
 
 #: src/components/vm/consoles/common.tsx:110
-#, fuzzy
-#| msgid "Downloading image for VM $0"
 msgid "Download the MSI from $0"
-msgstr "Image voor VM $0 downloaden"
+msgstr "Download de MSI van $0"
 
 #: src/app.tsx:298
 msgid "Downloading image for VM $0"
@@ -866,22 +850,16 @@ msgstr "Bewerk $0 attributen"
 
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/consoles/vnc.tsx:375
-#, fuzzy
-#| msgid "DHCP Settings"
 msgid "Edit VNC settings"
-msgstr "DHCP-instellingen"
+msgstr "Wijzig VNC-instellingen"
 
 #: src/components/vm/vmActions.tsx:510
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description"
-msgstr "Geen beschrijving"
+msgstr "Wijzig beschrijving"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:66
-#, fuzzy
-#| msgid "No description"
 msgid "Edit description of VM $0"
-msgstr "Geen beschrijving"
+msgstr "Geen beschrijving van VM $0"
 
 #: src/components/vm/overview/vsock.tsx:247
 msgid "Edit vsock interface"
@@ -957,22 +935,16 @@ msgid "Failed"
 msgstr "Mislukt"
 
 #: src/components/vm/vmActions.tsx:215
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add TPM to VM $0"
-msgstr "Kan VM $0 niet klonen"
+msgstr "Kan de TPM van VM $0 niet toevoegen"
 
 #: src/components/vm/consoles/vnc.tsx:646
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add VNC to VM $0"
-msgstr "Kan VM $0 niet klonen"
+msgstr "Kan de VNC van VM $0 niet toevoegen"
 
 #: src/components/vm/consoles/serial.tsx:135
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add serial console to VM $0"
-msgstr "Kan VM $0 niet klonen"
+msgstr "Het is niet gelukt om een seriële console toe te voegen aan VM $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:204
 msgid "Failed to add shared directory"
@@ -995,10 +967,8 @@ msgid "Failed to configure watchdog"
 msgstr "Kan watchdog niet configureren"
 
 #: src/components/vm/consoles/vnc.tsx:507
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to connect"
-msgstr "Kan VM $0 niet klonen"
+msgstr "Verbinding maken mislukt"
 
 #: src/components/vm/overview/vsock.tsx:173
 msgid "Failed to detach vsock"
@@ -1021,10 +991,8 @@ msgid "Failed to rename VM $0"
 msgstr "Kan de naam van VM $0 niet wijzigen"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:97
-#, fuzzy
-#| msgid "Failed to rename VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "Kan de naam van VM $0 niet wijzigen"
+msgstr "Het is niet gelukt om SPICE-apparaten te vervangen"
 
 #: src/components/networks/networkOverviewTab.tsx:258
 msgid "Failed to save network settings"
@@ -1035,10 +1003,8 @@ msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Kan toets Ctrl+Alt+$0 niet verzenden naar VM $1"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:58
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to set description of VM $0"
-msgstr "Kan VM $0 niet klonen"
+msgstr "Het is niet gelukt om de beschrijving van VM $0 in te stellen"
 
 #: src/components/vm/overview/cpuModal.tsx:272
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
@@ -1149,11 +1115,11 @@ msgstr "Gracieus afsluiten"
 
 #: src/components/vm/consoles/consoles.tsx:195
 msgid "Graphical"
-msgstr ""
+msgstr "Grafisch"
 
 #: src/components/vm/consoles/vnc.tsx:657
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "Grafische console ondersteuning is niet geactiveerd"
 
 #: src/app.tsx:134
 msgid "Hardware virtualization is disabled"
@@ -1221,8 +1187,6 @@ msgid "IP configuration"
 msgstr "IP-configuratie"
 
 #: src/components/vm/nics/vmNicsCard.tsx:331
-#, fuzzy
-#| msgid "IPv4 address"
 msgid "IPv4 Address"
 msgstr "IPv4-adres"
 
@@ -1249,18 +1213,14 @@ msgid "IPv4 only"
 msgstr "alleen IPv4"
 
 #: src/components/networks/createNetworkDialog.tsx:106
-#, fuzzy
-#| msgid "Prefix length should not be empty"
 msgid "IPv4 prefix length must be 24 or less"
-msgstr "Prefixlengte mag niet leeg zijn"
+msgstr "De lengte van het IPv4-prefix mag maximaal 24 zijn"
 
 #: src/components/networks/createNetworkDialog.tsx:103
 msgid "IPv4 prefix length must be a multiple of 8"
-msgstr ""
+msgstr "De lengte van het IPv4-prefix moet een veelvoud van 8 zijn"
 
 #: src/components/vm/nics/vmNicsCard.tsx:345
-#, fuzzy
-#| msgid "IPv6 address"
 msgid "IPv6 Address"
 msgstr "IPv6-adres"
 
@@ -1421,6 +1381,8 @@ msgid ""
 "It can also be used to enable the inline graphical console in the browser, "
 "which does not support SPICE."
 msgstr ""
+"Het kan ook worden gebruikt om de inline grafische console in de browser in "
+"te schakelen, die geen SPICE ondersteunt."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:927
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
@@ -1431,10 +1393,8 @@ msgid "LVM volume group"
 msgstr "LVM-volumegroep"
 
 #: src/components/vm/consoles/common.tsx:195
-#, fuzzy
-#| msgid "Launch remote viewer"
 msgid "Launch viewer"
-msgstr "Start viewer op afstand"
+msgstr "Start viewer"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:781
 msgid ""
@@ -1473,7 +1433,7 @@ msgstr "Lokale installatiemedia (ISO-image of distro-installatieboom)"
 
 #: src/components/vm/consoles/vnc.tsx:279
 msgid "Local scaling"
-msgstr ""
+msgstr "Lokaal schalen"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:157
 msgid "Location"
@@ -1579,20 +1539,16 @@ msgid "Memory must not be 0"
 msgstr "Geheugen mag niet 0 zijn"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:264
-#, fuzzy
-#| msgid "Source must not be empty"
 msgid "Memory save location can not be empty"
-msgstr "Bron mag niet leeg zijn"
+msgstr "De geheugenopslaglocatie mag niet leeg zijn"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:152
 msgid "Memory snapshot will use about $0."
-msgstr ""
+msgstr "Voor een momentopname van het geheugen wordt ongeveer $0 gebruikt."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:162
-#, fuzzy
-#| msgid "Memory must not be 0"
 msgid "Memory state path"
-msgstr "Geheugen mag niet 0 zijn"
+msgstr "Geheugenstatuspad"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1025
 #: src/components/create-vm-dialog/createVmDialog.tsx:1159
@@ -1622,10 +1578,8 @@ msgid "Mode"
 msgstr "Modus"
 
 #: src/components/vm/nics/nicBody.tsx:236
-#, fuzzy
-#| msgid "Model"
 msgid "Mode help"
-msgstr "Model"
+msgstr "Hulp bij de modus"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:211
 #: src/components/vm/nics/nicBody.tsx:75
@@ -1637,10 +1591,8 @@ msgid "Model type"
 msgstr "Modeltype"
 
 #: src/components/vm/nics/nicBody.tsx:252
-#, fuzzy
-#| msgid "more info"
 msgid "More info"
-msgstr "meer info"
+msgstr "Meer info"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:73
@@ -1653,10 +1605,8 @@ msgid "Mount tag must not be empty"
 msgstr "Aankoppel tag mag niet leeg zijn"
 
 #: src/components/networks/createNetworkDialog.tsx:118
-#, fuzzy
-#| msgid "IPv4 address cannot be same as the network identifier"
 msgid "Must be an address instead of the network identifier, such as $0"
-msgstr "IPv4-adres mag niet hetzelfde zijn als de netwerk-ID"
+msgstr "Moet een adres zijn in plaats van de netwerk-ID, zoals $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.tsx:92
 msgid "NAT to $0"
@@ -1685,10 +1635,8 @@ msgid "Name already exists"
 msgstr "Naam bestaat al"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:261
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Name can not be empty"
-msgstr "Naam mag niet leeg zijn"
+msgstr "Naam kan niet leeg zijn"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:75
 msgid "Name contains invalid characters"
@@ -1796,30 +1744,24 @@ msgid "No description"
 msgstr "Geen beschrijving"
 
 #: src/components/vm/disks/vmDisksCard.tsx:277
-#, fuzzy
-#| msgid "disk"
 msgid "No disks"
-msgstr "schijf"
+msgstr "Geen schrijven"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:247
 msgid "No host device selected"
 msgstr "Geen hostapparaat geselecteerd"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:333
-#, fuzzy
-#| msgid "host device"
 msgid "No host devices"
-msgstr "hostapparaat"
+msgstr "Geen host apparaten"
 
 #: src/components/vm/nics/nicBody.tsx:174
 msgid "No network devices"
 msgstr "Geen netwerkapparaten"
 
 #: src/components/vm/nics/vmNicsCard.tsx:814
-#, fuzzy
-#| msgid "Network interfaces"
 msgid "No network interfaces"
-msgstr "Netwerkinterfaces"
+msgstr "Geen netwerkinterfaces"
 
 #: src/components/networks/networkList.tsx:79
 msgid "No network is defined on this host"
@@ -1835,19 +1777,15 @@ msgstr "Geen ouder"
 
 #: src/components/vm/consoles/vnc.tsx:278
 msgid "No scaling or resizing"
-msgstr ""
+msgstr "Geen schaling of formaatwijziging"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:101
-#, fuzzy
-#| msgid "Shared directories"
 msgid "No shared directories"
-msgstr "Gedeelde mappen"
+msgstr "Geen gedeelde mappen"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:270
-#, fuzzy
-#| msgid "snapshot"
 msgid "No snapshots"
-msgstr "momentopname"
+msgstr "Geen momentopnames"
 
 #: src/helpers.ts:241
 msgid "No state"
@@ -1946,7 +1884,7 @@ msgstr "Bewerking is bezig"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:121
 msgid "Other VMs using SPICE"
-msgstr ""
+msgstr "Andere VM's die SPICE gebruiken"
 
 #: src/components/storagePools/storagePool.tsx:77
 #: src/components/vm/vmDetailsPage.tsx:157
@@ -1962,10 +1900,8 @@ msgid "Parent snapshot"
 msgstr "Ouder momentopname"
 
 #: src/components/vm/consoles/vnc.tsx:200
-#, fuzzy
-#| msgid "Root password"
 msgid "Password"
-msgstr "Rootwachtwoord"
+msgstr "Wachtwoord"
 
 #: src/components/vm/consoles/vnc.tsx:220
 msgid ""
@@ -1973,10 +1909,13 @@ msgid ""
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
+"Het wachtwoord mag maximaal 8 tekens lang zijn. VNC-wachtwoorden bieden geen "
+"encryptie en zijn over het algemeen cryptografisch zwak. Ze kunnen niet "
+"gebruikt worden om verbindingen in niet-vertrouwde netwerken te beveiligen."
 
 #: src/components/vm/consoles/vnc.tsx:117
 msgid "Password must be at most 8 characters."
-msgstr ""
+msgstr "Wachtwoorden mogen maximaal 8 karakters bevatten."
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:129
 #: src/components/vm/hostdevs/hostDevCard.tsx:133
@@ -1998,10 +1937,8 @@ msgid "Path to cloud image file on host's file system"
 msgstr "Pad naar cloud-image op bestandssysteem van host"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:168
-#, fuzzy
-#| msgid "Path to file"
 msgid "Path to directory"
-msgstr "Pad naar bestand"
+msgstr "Pad naar map"
 
 #: src/components/vm/disks/diskAdd.tsx:457
 msgid "Path to file on host's file system"
@@ -2043,7 +1980,7 @@ msgstr "Fysiek schijfapparaat op host"
 
 #: src/components/vm/nics/nicEdit.tsx:167 src/components/vm/nics/nicAdd.tsx:199
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "Kies alstublieft een ander MAC-adres"
 
 #: src/components/vm/disks/diskAdd.tsx:679
 msgid "Please choose a storage pool"
@@ -2060,6 +1997,7 @@ msgstr "Voer een nieuwe volumenaam in"
 #: src/components/vm/vmReplaceSpiceDialog.tsx:99
 msgid "Please see $0 how to reconfigure your VM manually."
 msgstr ""
+"Zie $0 voor informatie over het handmatig opnieuw configureren van uw VM."
 
 #: src/components/vm/disks/diskAdd.tsx:216
 #: src/components/vm/disks/mediaEject.tsx:98
@@ -2095,29 +2033,27 @@ msgstr "Poort"
 
 #: src/components/vm/consoles/vnc.tsx:111
 msgid "Port must be 5900 or larger."
-msgstr ""
+msgstr "Poort moet 5900 of hoger zijn."
 
 #: src/components/vm/consoles/vnc.tsx:194
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
+"Poort moet een nummer zijn dat minimaal 5900 is. Laat dit leeg om "
+"automatisch een vrije poort toe te wijzen wanneer de machine start."
 
 #: src/components/vm/consoles/vnc.tsx:108
-#, fuzzy
-#| msgid "Hours must be a number between 0 and 23"
 msgid "Port must be a number."
-msgstr "Uren moet een getal zijn tussen 0 en 23"
+msgstr "Poort moet een nummer zijn."
 
 #: src/helpers.ts:290
 msgid "Power off"
 msgstr "Uitschakelen"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:97
-#, fuzzy
-#| msgid "redirected device"
 msgid "Pre-formatted block device"
-msgstr "omgeleid apparaat"
+msgstr "Vooraf geformatteerd blokapparaat"
 
 #: src/components/vm/overview/cpuModal.tsx:290
 msgid "Preferred number of sockets to expose to the guest."
@@ -2206,44 +2142,39 @@ msgid "Reboot $0?"
 msgstr "$0 opnieuw opstarten?"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:545
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Recommended operating systems"
-msgstr "Kies een besturingssysteem"
+msgstr "Aanbevolen besturingssystemen"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.tsx:89
 msgid "Released $0"
-msgstr ""
+msgstr "Uitgegeven $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:430
 msgid "Remote URL"
 msgstr "URL op afstand"
 
 #: src/components/vm/consoles/common.tsx:88
-#, fuzzy
-#| msgid ""
-#| "$0 is available for most operating systems. To install it, search for it "
-#| "in GNOME Software or run the following:"
 msgid ""
 "Remote Viewer is available for most operating systems. To install it, search "
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
 msgstr ""
-"$0 is beschikbaar voor de meeste besturingssystemen. Om het te installeren "
-"zoek je het op in GNOME Software of je voert het volgende uit:"
+"Remote Viewer is beschikbaar voor de meeste besturingssystemen. Om het te "
+"installeren, zoekt u naar \"Remote Viewer\" in GNOME Software, KDE Discover, "
+"of voert u het volgende uit:"
 
 #: src/components/vm/consoles/vnc.tsx:280
 msgid "Remote resizing"
-msgstr ""
+msgstr "Op afstand formaatwijziging"
 
 #: src/components/vm/consoles/common.tsx:156
-#, fuzzy
-#| msgid "Remote viewer details"
 msgid "Remote viewer"
-msgstr "Viewerdetails op afstand"
+msgstr "Remote viewer"
 
 #: src/components/vm/consoles/common.tsx:120
 msgid "Remote viewer applications can connect to the following address:"
 msgstr ""
+"Toepassingen voor externe kijkers kunnen verbinding maken met het volgende "
+"adres:"
 
 #: src/components/networks/networkOverviewTab.tsx:81
 #: src/components/vm/hostdevs/hostDevCard.tsx:270
@@ -2261,7 +2192,7 @@ msgstr "Verwijderen"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:162
 msgid "Remove SPICE audio and host devices"
-msgstr ""
+msgstr "SPICE-audio en host apparaten verwijderen"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:200
 msgid "Remove and delete file"
@@ -2301,46 +2232,44 @@ msgstr "Hernoem VM $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:181
 msgid "Replace"
-msgstr ""
+msgstr "Vervangen"
 
 #: src/components/vm/vmActions.tsx:487 src/components/vm/usesSpice.tsx:41
 #: src/components/vm/vmReplaceSpiceDialog.tsx:146
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "SPICE-apparaten vervangen"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:146
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "Vervang SPICE-apparaten in VM $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:153
 msgid "Replace SPICE on selected VMs."
-msgstr ""
+msgstr "SPICE op geselecteerde VM's vervangen."
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:154
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "Nieuwe virtuele machine aanmaken"
+msgstr "Vervang SPICE op de virtuele machine."
 
 #: src/components/vm/consoles/spice.tsx:95
 msgid "Replace with VNC"
-msgstr ""
+msgstr "Vervang met VNC"
 
 #: src/helpers.ts:288
 msgid "Reset"
 msgstr "Resetten"
 
 #: src/components/vm/consoles/vnc.tsx:688
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its graphical console"
-msgstr "Start de virtuele machine om toegang te krijgen tot de console."
+msgstr ""
+"Start deze virtuele machine opnieuw op om toegang te krijgen tot de "
+"grafische console"
 
 #: src/components/vm/consoles/serial.tsx:168
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
-msgstr "Start de virtuele machine om toegang te krijgen tot de console."
+msgstr ""
+"Start deze virtuele machine opnieuw op om toegang te krijgen tot de seriële "
+"console"
 
 #: src/components/common/machinesConnectionSelector.tsx:90
 msgid ""
@@ -2355,7 +2284,7 @@ msgstr "Samenvatten"
 
 #: src/components/vm/consoles/vnc.tsx:594
 msgid "Retry"
-msgstr ""
+msgstr "Opnieuw Proberen"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:130
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:211
@@ -2390,7 +2319,7 @@ msgstr "Gerouteerd netwerk"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:156
 msgid "Row select"
-msgstr ""
+msgstr "Selecteer rij"
 
 #: src/components/vm/vmActions.tsx:427
 msgid "Run"
@@ -2406,23 +2335,21 @@ msgid "Running"
 msgstr "Actief"
 
 #: src/components/common/needsShutdown.tsx:198
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE"
-msgstr "SPICE poort"
+msgstr "SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:155
 #: src/components/vm/vmReplaceSpiceDialog.tsx:157
-#, fuzzy
-#| msgid "SPICE port"
 msgid "SPICE conversion"
-msgstr "SPICE poort"
+msgstr "SPICE conversie"
 
 #: src/components/vm/usesSpice.tsx:35
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"SPICE wordt niet ondersteund op deze host en zorgt ervoor dat deze virtuele "
+"machine niet opstart."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:967
 msgid "SSH keys"
@@ -2442,7 +2369,7 @@ msgstr "Opslaan"
 
 #: src/components/vm/consoles/vnc.tsx:519
 msgid "Security failure"
-msgstr ""
+msgstr "Beveiligingsfout"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:137
 msgid "Select all"
@@ -2467,10 +2394,8 @@ msgid "Serial"
 msgstr "Serieel"
 
 #: src/components/vm/consoles/consoles.tsx:288
-#, fuzzy
-#| msgid "Serial console ($0)"
 msgid "Serial ($0)"
-msgstr "Seriële console ($0)"
+msgstr "Serieel ($0)"
 
 #: src/components/common/needsShutdown.tsx:206
 msgid "Serial console"
@@ -2478,7 +2403,7 @@ msgstr "Seriële console"
 
 #: src/components/vm/consoles/serial.tsx:146
 msgid "Serial console support not enabled"
-msgstr ""
+msgstr "Ondersteuning voor seriële console niet ingeschakeld"
 
 #: src/components/networks/createNetworkDialog.tsx:313
 msgid "Set DHCP range"
@@ -2586,14 +2511,8 @@ msgid "Snapshots"
 msgstr "Momentopnames"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:271
-#, fuzzy
-#| msgid ""
-#| "Previously taken snapshots allow you to revert to an earlier state if "
-#| "something goes wrong"
 msgid "Snapshots allow you to revert to an earlier state"
-msgstr ""
-"Met eerder gemaakte momentopnames kun je terugkeren naar een eerdere "
-"toestand als er iets misgaat"
+msgstr "Met snapshots kunt u terugkeren naar een eerdere staat"
 
 #: src/components/vm/overview/cpuModal.tsx:288
 msgid "Sockets"
@@ -2660,22 +2579,16 @@ msgstr "Start mag niet leeg zijn"
 
 #: src/components/vm/consoles/serial.tsx:116
 #: src/components/vm/consoles/vnc.tsx:619
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to access the console"
-msgstr "Start de virtuele machine om toegang te krijgen tot de console."
+msgstr "Start de virtuele machine om toegang te krijgen tot de console"
 
 #: src/components/vm/consoles/spice.tsx:85
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to launch remote viewer."
-msgstr "Start de virtuele machine om toegang te krijgen tot de console."
+msgstr "Start de virtuele machine om Remote Viewer te openen."
 
 #: src/components/vm/confirmDialog.tsx:98
-#, fuzzy
-#| msgid "Start"
 msgid "Started"
-msgstr "Start"
+msgstr "Gestart"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:297
 msgid "Startup"
@@ -2767,10 +2680,8 @@ msgid ""
 msgstr "Opslagvolumes moeten worden gedeeld tussen deze host en de doelhost."
 
 #: src/components/vm/consoles/common.tsx:124
-#, fuzzy
-#| msgid "Copy to clipboard"
 msgid "Successfully copied to clipboard!"
-msgstr "Kopiëren naar clipboard"
+msgstr "Succesvol naar kladblok gekopieerd!"
 
 #: src/helpers.ts:239
 msgid "Suspended (PM)"
@@ -2778,7 +2689,7 @@ msgstr "Geschorst (PM)"
 
 #: src/components/vm/usesSpice.tsx:36
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "Schakel over naar VNC om deze machine te blijven gebruiken."
 
 #: src/helpers.ts:228
 msgid "System"
@@ -2790,7 +2701,7 @@ msgstr "TAP-apparaat"
 
 #: src/components/common/needsShutdown.tsx:210
 msgid "TPM"
-msgstr ""
+msgstr "TPM"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:153
 msgid "Table of selectable host devices"
@@ -2849,7 +2760,7 @@ msgstr ""
 
 #: src/components/vm/nics/nicBody.tsx:242
 msgid "The mode influences the delivery of packets."
-msgstr ""
+msgstr "De modus heeft invloed op de levering van pakketten."
 
 #: src/components/vm/disks/diskAdd.tsx:152
 msgid "The pool is empty"
@@ -2865,8 +2776,8 @@ msgstr ""
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
-"Het geselecteerde besturingssysteem heeft een minimale "
-"geheugengroottevereiste van $ 0 $ 1"
+"Het geselecteerde besturingssysteem heeft een minimale opslagcapaciteit van $"
+"0 $1"
 
 #: src/components/networks/networkOverviewTab.tsx:76
 msgid "The static host entry for $0 will be removed:"
@@ -2906,43 +2817,35 @@ msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr ""
+"Dit is bedoeld voor een host die SPICE niet ondersteunt vanwege upgrades of "
+"live migratie."
 
 #: src/components/vm/nics/nicBody.tsx:122
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with dynamic / wireless networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "dynamic / wireless networking configs."
 msgstr ""
-"Dit is de aanbevolen configuratie voor algemene gastconnectiviteit op hosts "
-"met dynamische/draadloze netwerkconfiguraties."
+"Dit is het aanbevolen type voor algemene gastconnectiviteit op hosts met "
+"dynamische/draadloze netwerkconfiguraties."
 
 #: src/components/vm/nics/nicBody.tsx:131
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for general guest connectivity on hosts "
-#| "with static wired networking configs."
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "static wired networking configs."
 msgstr ""
-"Dit is de aanbevolen configuratie voor algemene gastconnectiviteit op hosts "
-"met statische bedrade netwerkconfiguraties."
+"Dit is het aanbevolen type voor algemene gastconnectiviteit op hosts met "
+"statische bekabelde netwerkconfiguraties."
 
 #: src/components/vm/nics/nicBody.tsx:137
-#, fuzzy
-#| msgid ""
-#| "This is the recommended config for high performance or enhanced security."
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
-"Dit is de aanbevolen configuratie voor hoge prestaties of verbeterde "
-"beveiliging."
+"Dit is het aanbevolen type voor hoge prestaties of verbeterde beveiliging."
 
 #: src/components/vm/consoles/spice.tsx:81
 msgid "This machine has a SPICE graphical console that can not be shown here."
 msgstr ""
+"Deze machine heeft een SPICE grafische console die hier niet kan worden "
+"weergegeven."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
@@ -2965,10 +2868,8 @@ msgid "Threads per core"
 msgstr "Threads per kern"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:156
-#, fuzzy
-#| msgid "Total size: $0"
 msgid "Total space available: $0."
-msgstr "Totale grootte: $0"
+msgstr "Totale ruimte beschikbaar: $0."
 
 #: src/components/vm/overview/firmware.tsx:191
 msgid "Transient VMs don't support editing firmware configuration"
@@ -3038,10 +2939,8 @@ msgid "Unspecified"
 msgstr "Niet gespecificeerd"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:548
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Unsupported and older operating systems"
-msgstr "Kies een besturingssysteem"
+msgstr "Niet ondersteunde en oudere besturingssystemen"
 
 #: src/components/vm/disks/diskEdit.tsx:65
 msgid "Url"
@@ -3076,7 +2975,7 @@ msgstr "Gebruikt door"
 
 #: src/components/vm/disks/vmDisksCard.tsx:186
 msgid "Used on host"
-msgstr ""
+msgstr "Gebruikt op host"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:819
 msgid "User login"
@@ -3181,17 +3080,15 @@ msgstr "VM wordt gestart met rootrechten"
 
 #: src/components/common/needsShutdown.tsx:202
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: src/components/vm/consoles/vnc.tsx:145
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "VNC settings could not be saved"
-msgstr "Schijfinstellingen konden niet opgeslagen worden"
+msgstr "VNC-instellingen konden niet opgeslagen worden"
 
 #: src/components/vm/consoles/vnc.tsx:505
 msgid "VNC with TLS is not supported by the in-page viewer"
-msgstr ""
+msgstr "VNC met TLS wordt niet ondersteund op de in-pagina viewer"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:659
 msgid "Valid token"
@@ -3208,7 +3105,7 @@ msgstr "Leverancier"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.tsx:87
 msgid "Vendor support ended $0"
-msgstr ""
+msgstr "Leveranciersondersteuning beëindigd $0"
 
 #: src/components/vms/hostvmslist.tsx:253
 #: src/components/vms/hostvmslist.tsx:255
@@ -3543,7 +3440,7 @@ msgstr "vsock vereist speciale software"
 
 #: src/components/vm/vmUsageCard.tsx:39
 msgid "waiting"
-msgstr ""
+msgstr "wachten"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:69
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
