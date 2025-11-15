@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 03:38+0000\n"
-"PO-Revision-Date: 2025-11-14 00:13+0000\n"
+"PO-Revision-Date: 2025-11-15 04:58+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/tr/>\n"
@@ -433,7 +433,7 @@ msgstr "Cockpit Projesi"
 
 #: src/components/vm/nics/nicBody.tsx:550
 msgid "Complex rule \"$0\" can not be edited here."
-msgstr ""
+msgstr "\"$0\" karmaşık kuralı burada düzenlenemez."
 
 #: src/components/vm/consoles/consoles.tsx:339
 msgid "Compress"
@@ -1080,10 +1080,8 @@ msgid "Forward mode"
 msgstr "Yönlendirme kipi"
 
 #: src/components/vm/nics/nicBody.tsx:616
-#, fuzzy
-#| msgid "Forward mode"
 msgid "Forwarded ports"
-msgstr "Yönlendirme kipi"
+msgstr "Yönlendirilmiş bağlantı noktaları"
 
 #: src/components/networks/networkList.tsx:75
 msgid "Forwarding mode"
@@ -1142,11 +1140,11 @@ msgstr "Grafiksel konsol desteği etkin değil"
 
 #: src/components/vm/nics/nicBody.tsx:486
 msgid "Guest port"
-msgstr ""
+msgstr "Misafir bağlantı noktası"
 
 #: src/components/vm/nics/nicBody.tsx:490
 msgid "Guest port help"
-msgstr ""
+msgstr "Misafir bağlantı noktası yardım"
 
 #: src/app.tsx:136
 msgid "Hardware virtualization is disabled"
@@ -1397,10 +1395,8 @@ msgid "Interface type help"
 msgstr "Arayüz türü yardımı"
 
 #: src/components/vm/nics/nicBody.tsx:383
-#, fuzzy
-#| msgid "Invalid IPv4 address"
 msgid "Invalid IP address"
-msgstr "Geçersiz IPv4 adresi"
+msgstr "Geçersiz IP adresi"
 
 #: src/components/networks/createNetworkDialog.tsx:113
 #: src/components/networks/createNetworkDialog.tsx:129
@@ -1835,7 +1831,7 @@ msgstr "Üst öğe yok"
 
 #: src/components/vm/nics/nicBody.tsx:624
 msgid "No ports forwarded"
-msgstr ""
+msgstr "Yönlendirilmiş bağlantı noktaları yok"
 
 #: src/components/vm/consoles/vnc.tsx:279
 msgid "No scaling or resizing"
@@ -2095,13 +2091,11 @@ msgstr "Bağlantı noktası"
 
 #: src/components/vm/nics/vmNicsCard.tsx:305
 msgid "Port forwards"
-msgstr ""
+msgstr "Bağlantı noktası yönlendirmeleri"
 
 #: src/components/vm/nics/nicBody.tsx:392
-#, fuzzy
-#| msgid "Port must be 5900 or larger."
 msgid "Port must be 1 to 65535."
-msgstr "Bağlantı noktası 5900 veya daha büyük olmak zorundadır."
+msgstr "Bağlantı noktası 1 ile 65535 arası olmak zorundadır."
 
 #: src/components/vm/consoles/vnc.tsx:112
 msgid "Port must be 5900 or larger."
@@ -2866,12 +2860,16 @@ msgstr "Havuz boş"
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
 msgstr ""
+"Misafirdeki bağlantı noktası. Eğer boş bırakılırsa, anamakinedeki bağlantı "
+"noktasının aynısı kullanılır."
 
 #: src/components/vm/nics/nicBody.tsx:470
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
 msgstr ""
+"Misafire yönlendirilen anamakinedeki bağlantı noktası. Ayrıca 4000-4050 gibi "
+"bir bağlantı noktası aralığı da belirleyebilirsiniz."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1006
 msgid "The selected operating system has minimum memory requirement of $0 $1"
@@ -2995,7 +2993,7 @@ msgstr "Tür"
 
 #: src/components/vm/nics/nicBody.tsx:516
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:461
 msgid "URL (ISO image or distro install tree)"
