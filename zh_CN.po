@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-15 03:30+0000\n"
-"PO-Revision-Date: 2025-10-03 11:53+0000\n"
+"PO-Revision-Date: 2025-11-16 11:51+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-machines/zh_CN/>\n"
@@ -29,11 +29,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: src/components/vm/nics/nicBody.tsx:322
 msgid " excluding "
-msgstr ""
+msgstr " 除外 "
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1071
 msgid "$0 $1 available at default location"
@@ -431,7 +431,7 @@ msgstr "Cockpit 项目"
 
 #: src/components/vm/nics/nicBody.tsx:550
 msgid "Complex rule \"$0\" can not be edited here."
-msgstr ""
+msgstr "复杂规则 \"$0\" 无法在此处被编辑。"
 
 #: src/components/vm/consoles/consoles.tsx:339
 msgid "Compress"
@@ -1051,10 +1051,8 @@ msgid "Force shut down $0?"
 msgstr "强制关闭 $0?"
 
 #: src/components/vm/vmActions.tsx:554
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shutdown and restart"
-msgstr "强制关机"
+msgstr "强制关机与重启"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
@@ -1067,10 +1065,8 @@ msgid "Forward mode"
 msgstr "转发模式"
 
 #: src/components/vm/nics/nicBody.tsx:616
-#, fuzzy
-#| msgid "Forward mode"
 msgid "Forwarded ports"
-msgstr "转发模式"
+msgstr "已转发端口"
 
 #: src/components/networks/networkList.tsx:75
 msgid "Forwarding mode"
@@ -1128,11 +1124,11 @@ msgstr "图形控制台支持未启用"
 
 #: src/components/vm/nics/nicBody.tsx:486
 msgid "Guest port"
-msgstr ""
+msgstr "客户机端口"
 
 #: src/components/vm/nics/nicBody.tsx:490
 msgid "Guest port help"
-msgstr ""
+msgstr "客户机端口帮助"
 
 #: src/app.tsx:136
 msgid "Hardware virtualization is disabled"
@@ -1171,20 +1167,16 @@ msgid "Host name"
 msgstr "主机名"
 
 #: src/components/vm/nics/nicBody.tsx:463
-#, fuzzy
-#| msgid "Host"
 msgid "Host port"
-msgstr "主机"
+msgstr "主机端口"
 
 #: src/components/vm/nics/nicBody.tsx:398
-#, fuzzy
-#| msgid "Host should not be empty"
 msgid "Host port can not be empty."
-msgstr "主机不能为空"
+msgstr "主机端口不能为空。"
 
 #: src/components/vm/nics/nicBody.tsx:468
 msgid "Host port help"
-msgstr ""
+msgstr "主机端口帮助"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:173
 msgid "Host should not be empty"
@@ -1209,10 +1201,8 @@ msgid "IP address"
 msgstr "IP 地址"
 
 #: src/components/vm/nics/nicBody.tsx:446
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP 地址"
+msgstr "IP 地址帮助"
 
 #: src/components/networks/networkOverviewTab.tsx:274
 msgid "IP address must not be empty"
@@ -1298,7 +1288,7 @@ msgstr "休眠"
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
-msgstr ""
+msgstr "若主机IP被设为 0.0.0.0 或完全未被设置，该端口将被绑定至主机上所有的IP地址。"
 
 #: src/app.tsx:150
 msgid "Ignore"
@@ -1384,10 +1374,8 @@ msgid "Interface type help"
 msgstr "接口类型帮助"
 
 #: src/components/vm/nics/nicBody.tsx:383
-#, fuzzy
-#| msgid "Invalid IPv4 address"
 msgid "Invalid IP address"
-msgstr "无效的 IPv4 地址"
+msgstr "无效的 IP 地址"
 
 #: src/components/networks/createNetworkDialog.tsx:113
 #: src/components/networks/createNetworkDialog.tsx:129
@@ -1463,10 +1451,8 @@ msgid "Loading available network devices"
 msgstr "加载可用的网络设备"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1597
-#, fuzzy
-#| msgid "Loading system modifications..."
 msgid "Loading operating system information..."
-msgstr "加载系统改变..."
+msgstr "加载系统信息..."
 
 #: src/components/libvirtSlate.tsx:30
 msgid "Loading resources"
@@ -1817,7 +1803,7 @@ msgstr "没有上级"
 
 #: src/components/vm/nics/nicBody.tsx:624
 msgid "No ports forwarded"
-msgstr ""
+msgstr "未转发任何端口"
 
 #: src/components/vm/consoles/vnc.tsx:279
 msgid "No scaling or resizing"
@@ -2069,13 +2055,11 @@ msgstr "端口"
 
 #: src/components/vm/nics/vmNicsCard.tsx:305
 msgid "Port forwards"
-msgstr ""
+msgstr "端口转发"
 
 #: src/components/vm/nics/nicBody.tsx:392
-#, fuzzy
-#| msgid "Port must be 5900 or larger."
 msgid "Port must be 1 to 65535."
-msgstr "端口号必须是 5900 或更大。"
+msgstr "端口号必须是 1 至 65535。"
 
 #: src/components/vm/consoles/vnc.tsx:112
 msgid "Port must be 5900 or larger."
@@ -2508,13 +2492,11 @@ msgstr "关闭 VM 以编辑固件配置"
 #: src/components/vm/consoles/serial.tsx:196
 #: src/components/vm/consoles/vnc.tsx:706
 msgid "Shutdown and restart"
-msgstr ""
+msgstr "关闭与重启"
 
 #: src/components/vm/vmActions.tsx:541
-#, fuzzy
-#| msgid "Shut down $0?"
 msgid "Shutdown and restart $0?"
-msgstr "关闭 $0?"
+msgstr "关闭与重启 $0?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:162 src/helpers.ts:235
 msgid "Shutting down"
@@ -2562,12 +2544,10 @@ msgid "Sockets"
 msgstr "套接字"
 
 #: src/components/common/needsShutdown.tsx:263
-#, fuzzy
-#| msgid "Some configuration changes only take effect after a fresh boot:"
 msgid ""
 "Some configuration changes only take effect after a complete shutdown and "
 "restart:"
-msgstr "一些配置更改只有在全新引导后才会生效："
+msgstr "一些配置更改只有在完全关闭与重启后才会生效："
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
 #: src/components/vm/hostdevs/hostDevCard.tsx:231
@@ -2746,10 +2726,8 @@ msgid "TAP device"
 msgstr "TAP 设备"
 
 #: src/components/vm/nics/nicBody.tsx:515
-#, fuzzy
-#| msgid "CPU"
 msgid "TCP"
-msgstr "CPU"
+msgstr "TCP"
 
 #: src/components/common/needsShutdown.tsx:230
 msgid "TPM"
@@ -2819,13 +2797,13 @@ msgstr "池为空"
 #: src/components/vm/nics/nicBody.tsx:492
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
-msgstr ""
+msgstr "客户机上的端口。若留空则使用与主机相同的端口。"
 
 #: src/components/vm/nics/nicBody.tsx:470
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
-msgstr ""
+msgstr "被转发到客户机的主机端口，你也可以指定一个端口范围如 4000-4050 。"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1006
 msgid "The selected operating system has minimum memory requirement of $0 $1"
@@ -3249,8 +3227,6 @@ msgid "add entry"
 msgstr "添加条目"
 
 #: src/components/vm/nics/nicBody.tsx:316
-#, fuzzy
-#| msgid "All"
 msgid "all"
 msgstr "所有"
 
@@ -3479,7 +3455,7 @@ msgstr "vsock 需要特殊软件"
 
 #: src/components/vm/vmUsageCard.tsx:39
 msgid "waiting"
-msgstr ""
+msgstr "等待"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:69
 #: src/components/storagePools/storagePoolOverviewTab.tsx:74
