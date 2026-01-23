@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-22 04:02+0000\n"
+"POT-Creation-Date: 2026-01-23 03:57+0000\n"
 "PO-Revision-Date: 2026-01-16 10:14+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -73,7 +73,7 @@ msgstr "$0 não oferece suporte a instalação autônoma."
 msgid "$0 memory adjustment"
 msgstr "$0 ajuste de memória"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:104
+#: src/components/create-vm-dialog/pxe-helpers.tsx:105
 msgid "$0 network"
 msgstr "$0 Rede"
 
@@ -129,7 +129,7 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "Ative o pool de armazenamento para administrar volumes"
 
 #: src/components/networks/networkOverviewTab.tsx:281
-#: src/components/vm/hostdevs/hostDevAdd.tsx:267
+#: src/components/vm/hostdevs/hostDevAdd.tsx:274
 #: src/components/vm/nics/nicBody.tsx:606 src/components/vm/nics/nicAdd.tsx:335
 #: src/components/vm/disks/diskAdd.tsx:986
 #: src/components/vm/overview/vsock.tsx:236
@@ -158,8 +158,8 @@ msgstr "Adicionar uma entrada de host estático DHCP"
 msgid "Add disk"
 msgstr "Adicionar disco"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:284
-#: src/components/vm/hostdevs/hostDevCard.tsx:154
+#: src/components/vm/hostdevs/hostDevAdd.tsx:291
+#: src/components/vm/hostdevs/hostDevCard.tsx:153
 msgid "Add host device"
 msgstr "Adicionar dispositivo host"
 
@@ -287,6 +287,10 @@ msgstr "Auto-iniciar"
 msgid "Backend"
 msgstr "Backend"
 
+#: src/libvirtApi/nodeDevice.ts:50
+msgid "Base System Peripheral"
+msgstr ""
+
 #: src/components/vm/disks/vmDiskColumns.tsx:49
 msgid "Block device"
 msgstr "Dispositivo de bloco"
@@ -299,22 +303,28 @@ msgstr "Bloqueado"
 msgid "Boot order"
 msgstr "Ordem de Inicialização"
 
-#: src/components/vm/overview/bootOrder.tsx:284
+#: src/components/vm/overview/bootOrder.tsx:286
 msgid "Boot order settings could not be saved"
 msgstr "As configurações de ordem de boot não puderam ser salvas"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:116
-#: src/components/vm/hostdevs/hostDevCard.tsx:105
-#: src/components/vm/hostdevs/hostDevCard.tsx:113
-#: src/components/vm/hostdevs/hostDevCard.tsx:264
+#: src/libvirtApi/nodeDevice.ts:48
+#, fuzzy
+#| msgid "bridge"
+msgid "Bridge"
+msgstr "ponte"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:113
+#: src/components/vm/hostdevs/hostDevCard.tsx:104
+#: src/components/vm/hostdevs/hostDevCard.tsx:112
+#: src/components/vm/hostdevs/hostDevCard.tsx:263
 #: src/components/vm/disks/diskEdit.tsx:133
 #: src/components/vm/disks/vmDisksCard.tsx:260
 #: src/components/vm/disks/diskAdd.tsx:307
 #: src/components/vm/overview/bootOrder.tsx:127
 #: src/components/vm/overview/bootOrder.tsx:139
-#: src/components/vm/overview/bootOrder.tsx:157
-#: src/components/vm/overview/bootOrder.tsx:160
-#: src/components/vm/overview/bootOrder.tsx:174
+#: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:161
+#: src/components/vm/overview/bootOrder.tsx:176
 msgid "Bus"
 msgstr "Bus"
 
@@ -350,7 +360,7 @@ msgstr "Cache"
 #: src/components/vm/vmEditDescriptionDialog.tsx:94
 #: src/components/vm/confirmDialog.tsx:79
 #: src/components/vm/consoles/vnc.tsx:171
-#: src/components/vm/hostdevs/hostDevAdd.tsx:272
+#: src/components/vm/hostdevs/hostDevAdd.tsx:279
 #: src/components/vm/vmMigrateDialog.tsx:240
 #: src/components/vm/nics/nicEdit.tsx:324 src/components/vm/nics/nicAdd.tsx:338
 #: src/components/vm/vmCloneDialog.tsx:124
@@ -366,7 +376,7 @@ msgstr "Cache"
 #: src/components/vm/overview/cpuModal.tsx:354
 #: src/components/vm/overview/vsock.tsx:285
 #: src/components/vm/overview/firmware.tsx:121
-#: src/components/vm/overview/bootOrder.tsx:368
+#: src/components/vm/overview/bootOrder.tsx:370
 #: src/components/vm/overview/watchdog.tsx:241
 #: src/components/vm/deleteDialog.tsx:215
 msgid "Cancel"
@@ -380,7 +390,7 @@ msgstr "Não é possível editar o dispositivo vsock em uma VM transitória"
 msgid "Cannot edit watchdog device on a transient VM"
 msgstr "Não é possível editar o dispositivo watchdog em uma VM transitória"
 
-#: src/components/vm/overview/bootOrder.tsx:353
+#: src/components/vm/overview/bootOrder.tsx:355
 msgid "Change boot order"
 msgstr "Alterar ordem de Inicialização"
 
@@ -417,7 +427,7 @@ msgstr "Verificando a validade do token..."
 msgid "Choose an operating system"
 msgstr "Escolha um sistema operacional"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:201
+#: src/components/vm/hostdevs/hostDevCard.tsx:200
 msgid "Class"
 msgstr "Classe"
 
@@ -441,6 +451,10 @@ msgstr "Fechar"
 #, fuzzy
 msgid "Cloud base image"
 msgstr "Não é possível carregar a imagem"
+
+#: src/libvirtApi/nodeDevice.ts:72
+msgid "Co-Processor"
+msgstr ""
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
@@ -746,16 +760,16 @@ msgstr "Detalhes"
 
 #: src/components/networks/networkList.tsx:73
 #: src/components/networks/createNetworkDialog.tsx:231
-#: src/components/vm/hostdevs/hostDevAdd.tsx:115
-#: src/components/vm/hostdevs/hostDevAdd.tsx:150
-#: src/components/vm/hostdevs/hostDevCard.tsx:104
-#: src/components/vm/hostdevs/hostDevCard.tsx:263
+#: src/components/vm/hostdevs/hostDevAdd.tsx:112
+#: src/components/vm/hostdevs/hostDevAdd.tsx:157
+#: src/components/vm/hostdevs/hostDevCard.tsx:103
+#: src/components/vm/hostdevs/hostDevCard.tsx:262
 #: src/components/vm/disks/vmDisksCard.tsx:257
 #: src/components/vm/disks/diskAdd.tsx:463
 #: src/components/vm/overview/bootOrder.tsx:119
 #: src/components/vm/overview/bootOrder.tsx:126
-#: src/components/vm/overview/bootOrder.tsx:158
-#: src/components/vm/overview/bootOrder.tsx:161
+#: src/components/vm/overview/bootOrder.tsx:159
+#: src/components/vm/overview/bootOrder.tsx:162
 msgid "Device"
 msgstr "Dispositivo"
 
@@ -816,6 +830,10 @@ msgstr "Snapshot apenas de disco"
 msgid "Disks"
 msgstr "Discos"
 
+#: src/libvirtApi/nodeDevice.ts:45
+msgid "Display Controller"
+msgstr ""
+
 #: src/components/vm/vmMigrateDialog.tsx:224
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
@@ -826,6 +844,12 @@ msgstr ""
 #: src/helpers.ts:289
 msgid "Do nothing"
 msgstr "Não fazer nada"
+
+#: src/libvirtApi/nodeDevice.ts:52
+#, fuzzy
+#| msgid "Docking station"
+msgid "Docking Station"
+msgstr "Estação de ancoragem"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:163
 msgid "Domain has crashed"
@@ -923,6 +947,10 @@ msgstr "Máquina emulada"
 #: src/app.tsx:149
 msgid "Enable virtualization support in BIOS/EFI settings."
 msgstr "Habilite o suporte a virtualização nas configurações de BIOS/EFI."
+
+#: src/libvirtApi/nodeDevice.ts:58
+msgid "Encryption Controller"
+msgstr ""
 
 #: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
@@ -1210,16 +1238,16 @@ msgstr "Ações adicionais"
 msgid "Host"
 msgstr "Máquina"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:160
+#: src/components/create-vm-dialog/pxe-helpers.tsx:162
 msgid "Host device"
 msgstr "Dispositivo Host"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:242
+#: src/components/vm/hostdevs/hostDevAdd.tsx:249
 #, fuzzy
 msgid "Host device could not be attached"
 msgstr "Não foi possível salvar as configurações do disco"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:274
+#: src/components/vm/hostdevs/hostDevCard.tsx:273
 msgid "Host device will be removed from $0:"
 msgstr ""
 
@@ -1422,6 +1450,10 @@ msgstr "Rede IPv4 não deve estar vazia"
 msgid "Inject a non-maskable interrupt"
 msgstr "Enviar interrupção não mascarada"
 
+#: src/libvirtApi/nodeDevice.ts:51
+msgid "Input Device Controller"
+msgstr ""
+
 #: src/components/vm/disks/diskAdd.tsx:986
 #: src/components/vm/disks/vmDiskColumns.tsx:243
 #, fuzzy
@@ -1456,7 +1488,11 @@ msgstr "A fonte de instalação não deve estar vazia"
 msgid "Installation type"
 msgstr "Tipo de Instalação"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:137
+#: src/libvirtApi/nodeDevice.ts:56
+msgid "Intelligent Controller"
+msgstr ""
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:136
 #, fuzzy
 msgid "Interface"
 msgstr "Tipo de Interface"
@@ -1501,7 +1537,7 @@ msgstr "Prefixo IPv6 inválido"
 msgid "Invalid filename"
 msgstr "Nome de arquivo inválido"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:107
+#: src/components/create-vm-dialog/pxe-helpers.tsx:108
 #, fuzzy
 msgid "Isolated network"
 msgstr "Rede isolada"
@@ -1581,7 +1617,7 @@ msgstr ""
 msgid "Local scaling"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:157
+#: src/components/vm/hostdevs/hostDevAdd.tsx:164
 msgid "Location"
 msgstr "Local"
 
@@ -1640,6 +1676,13 @@ msgstr "Comprimento da máscara ou prefixo"
 msgid "Mask or prefix length should not be empty"
 msgstr "Comprimento da mascara ou prefixo não pode estar vazio"
 
+#: src/libvirtApi/nodeDevice.ts:43
+#, fuzzy
+#| msgid "$0 Storage pool"
+#| msgid_plural "$0 Storage pools"
+msgid "Mass Storage Controller"
+msgstr "$0 pool de armazenamento"
+
 #: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
 msgstr "Alocação máxima"
@@ -1677,6 +1720,12 @@ msgstr ""
 #: src/components/vms/hostvmslist.tsx:245 src/components/vm/vmUsageCard.tsx:57
 #: src/components/vm/overview/vmOverviewCard.tsx:188
 msgid "Memory"
+msgstr "Memória"
+
+#: src/libvirtApi/nodeDevice.ts:47
+#, fuzzy
+#| msgid "Memory"
+msgid "Memory Controller"
 msgstr "Memória"
 
 #: src/components/vm/overview/memoryModal.tsx:142
@@ -1720,6 +1769,10 @@ msgstr ""
 msgid "Migration failed"
 msgstr "A migração falhou"
 
+#: src/libvirtApi/nodeDevice.ts:74
+msgid "Miscellaneous"
+msgstr ""
+
 #: src/components/vm/nics/nicBody.tsx:265
 #: src/components/vm/nics/vmNicsCard.tsx:180
 #: src/components/vm/overview/cpuModal.tsx:317
@@ -1733,7 +1786,7 @@ msgstr "Modo"
 msgid "Mode help"
 msgstr "Modelo"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:211
+#: src/components/vm/hostdevs/hostDevCard.tsx:210
 #: src/components/vm/nics/nicBody.tsx:108
 msgid "Model"
 msgstr "Modelo"
@@ -1758,11 +1811,15 @@ msgstr ""
 msgid "Mount tag must not be empty"
 msgstr "Host não deve estar vazio"
 
+#: src/libvirtApi/nodeDevice.ts:46
+msgid "Multimedia Controller"
+msgstr ""
+
 #: src/components/networks/createNetworkDialog.tsx:118
 msgid "Must be an address instead of the network identifier, such as $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:92
+#: src/components/create-vm-dialog/pxe-helpers.tsx:93
 msgid "NAT to $0"
 msgstr ""
 
@@ -1833,6 +1890,12 @@ msgstr ""
 msgid "Network $0 will be permanently deleted."
 msgstr "A rede $0 será excluída permanentemente."
 
+#: src/libvirtApi/nodeDevice.ts:44
+#, fuzzy
+#| msgid "Add network interface"
+msgid "Network Controller"
+msgstr "Adicionar Interface de Rede"
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:463
 #, fuzzy
 msgid "Network boot (PXE)"
@@ -1901,7 +1964,7 @@ msgstr ""
 msgid "No VM is running or defined on this host"
 msgstr "Nenhuma VM está sendo executada ou definida neste host"
 
-#: src/components/vm/overview/bootOrder.tsx:380
+#: src/components/vm/overview/bootOrder.tsx:382
 msgid "No boot device found"
 msgstr "Nenhum dispositivo de inicialização encontrado"
 
@@ -1916,13 +1979,13 @@ msgstr "Descrição"
 msgid "No disks"
 msgstr "disco"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:247
+#: src/components/vm/hostdevs/hostDevAdd.tsx:254
 #, fuzzy
 #| msgid "No boot device found"
 msgid "No host device selected"
 msgstr "Nenhum dispositivo de inicialização encontrado"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:333
+#: src/components/vm/hostdevs/hostDevCard.tsx:332
 #, fuzzy
 #| msgid "Host device"
 msgid "No host devices"
@@ -1943,7 +2006,7 @@ msgstr "Adicionar Interface de Rede"
 msgid "No network is defined on this host"
 msgstr "Não há rede definida para este host"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:166
+#: src/components/create-vm-dialog/pxe-helpers.tsx:168
 msgid "No networks available"
 msgstr ""
 
@@ -2003,6 +2066,10 @@ msgstr ""
 msgid "No volumes exist in this storage pool."
 msgstr "Nenhum volume existe neste pool de armazenamento."
 
+#: src/libvirtApi/nodeDevice.ts:61
+msgid "Non-Essential Instrumentation"
+msgstr ""
+
 #: src/components/networks/network.tsx:152
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
@@ -2049,7 +2116,7 @@ msgstr ""
 
 #: src/components/vm/nics/nicEdit.tsx:69
 #: src/components/vm/overview/memoryModal.tsx:187
-#: src/components/vm/overview/bootOrder.tsx:406
+#: src/components/vm/overview/bootOrder.tsx:408
 msgid "Only editable when the guest is shut off"
 msgstr ""
 
@@ -2100,8 +2167,8 @@ msgstr ""
 msgid "Password must be at most 8 characters."
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:129
-#: src/components/vm/hostdevs/hostDevCard.tsx:133
+#: src/components/vm/hostdevs/hostDevCard.tsx:128
+#: src/components/vm/hostdevs/hostDevCard.tsx:132
 #: src/components/vm/disks/diskEdit.tsx:63
 #: src/components/vm/deleteDialog.tsx:80
 msgid "Path"
@@ -2274,11 +2341,19 @@ msgstr "O comprimento do prefixo não deve estar vazio"
 msgid "Private"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:157
-#: src/components/vm/hostdevs/hostDevCard.tsx:254
-#: src/components/vm/hostdevs/hostDevCard.tsx:260
-#: src/components/vm/overview/bootOrder.tsx:153
-#: src/components/vm/overview/bootOrder.tsx:168
+#: src/libvirtApi/nodeDevice.ts:60
+msgid "Processing Accelerator"
+msgstr ""
+
+#: src/libvirtApi/nodeDevice.ts:53
+msgid "Processor"
+msgstr ""
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:164
+#: src/components/vm/hostdevs/hostDevCard.tsx:253
+#: src/components/vm/hostdevs/hostDevCard.tsx:259
+#: src/components/vm/overview/bootOrder.tsx:154
+#: src/components/vm/overview/bootOrder.tsx:170
 msgid "Product"
 msgstr ""
 
@@ -2287,11 +2362,11 @@ msgstr ""
 msgid "Profile"
 msgstr "Alterar o perfil"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:120
+#: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/nics/nicBody.tsx:506
 #: src/components/vm/disks/vmDiskColumns.tsx:50
 #: src/components/vm/overview/bootOrder.tsx:120
-#: src/components/vm/overview/bootOrder.tsx:181
+#: src/components/vm/overview/bootOrder.tsx:183
 msgid "Protocol"
 msgstr "Protocolo"
 
@@ -2374,8 +2449,8 @@ msgid "Remote viewer applications can connect to the following address:"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:81
-#: src/components/vm/hostdevs/hostDevCard.tsx:270
-#: src/components/vm/hostdevs/hostDevCard.tsx:276
+#: src/components/vm/hostdevs/hostDevCard.tsx:269
+#: src/components/vm/hostdevs/hostDevCard.tsx:275
 #: src/components/vm/nics/vmNicsCard.tsx:707
 #: src/components/vm/nics/vmNicsCard.tsx:722
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:66
@@ -2403,7 +2478,7 @@ msgstr "Remover o disco da VM?"
 msgid "Remove filesystem?"
 msgstr "Remover o sistema de arquivos?"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:272
+#: src/components/vm/hostdevs/hostDevCard.tsx:271
 msgid "Remove host device from VM?"
 msgstr "Remover o dispositivo host da VM?"
 
@@ -2504,16 +2579,16 @@ msgstr ""
 msgid "Root password"
 msgstr "Definir uma Senha"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:97
+#: src/components/create-vm-dialog/pxe-helpers.tsx:98
 msgid "Route to $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:99
+#: src/components/create-vm-dialog/pxe-helpers.tsx:100
 #, fuzzy
 msgid "Routed network"
 msgstr "Rede roteada"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:156
+#: src/components/vm/hostdevs/hostDevAdd.tsx:163
 msgid "Row select"
 msgstr "Seleção de linha"
 
@@ -2555,6 +2630,10 @@ msgstr ""
 msgid "SSH keys"
 msgstr "Chave de envio"
 
+#: src/libvirtApi/nodeDevice.ts:57
+msgid "Satellite Communication Controller"
+msgstr ""
+
 #: src/components/vm/vmEditDescriptionDialog.tsx:91
 #: src/components/vm/consoles/vnc.tsx:168
 #: src/components/vm/nics/nicEdit.tsx:321
@@ -2562,7 +2641,7 @@ msgstr "Chave de envio"
 #: src/components/vm/overview/memoryModal.tsx:206
 #: src/components/vm/overview/vsock.tsx:236
 #: src/components/vm/overview/firmware.tsx:118
-#: src/components/vm/overview/bootOrder.tsx:365
+#: src/components/vm/overview/bootOrder.tsx:367
 #: src/components/vm/overview/watchdog.tsx:180
 msgid "Save"
 msgstr "Salvar"
@@ -2600,6 +2679,12 @@ msgstr "Console Serial"
 #| msgid "Serial console ($0)"
 msgid "Serial ($0)"
 msgstr "Console serial ($0)"
+
+#: src/libvirtApi/nodeDevice.ts:54
+#, fuzzy
+#| msgid "Serial console"
+msgid "Serial Bus Controller"
+msgstr "Console Serial"
 
 #: src/components/common/needsShutdown.tsx:227
 msgid "Serial console"
@@ -2700,6 +2785,14 @@ msgstr "Desligar $0?"
 msgid "Shutting down"
 msgstr "Encerrar"
 
+#: src/libvirtApi/nodeDevice.ts:59
+msgid "Signal Processing Controller"
+msgstr ""
+
+#: src/libvirtApi/nodeDevice.ts:49
+msgid "Simple Communication Controller"
+msgstr ""
+
 #: src/components/storagePools/storagePoolVolumesTab.tsx:90
 #: src/components/storagePools/storageVolumeCreateBody.tsx:134
 #: src/components/storagePools/storagePoolList.tsx:75
@@ -2707,11 +2800,11 @@ msgstr "Encerrar"
 msgid "Size"
 msgstr "Tamanho"
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:128
-#: src/components/vm/hostdevs/hostDevCard.tsx:107
-#: src/components/vm/hostdevs/hostDevCard.tsx:114
-#: src/components/vm/hostdevs/hostDevCard.tsx:255
-#: src/components/vm/overview/bootOrder.tsx:169
+#: src/components/vm/hostdevs/hostDevAdd.tsx:125
+#: src/components/vm/hostdevs/hostDevCard.tsx:106
+#: src/components/vm/hostdevs/hostDevCard.tsx:113
+#: src/components/vm/hostdevs/hostDevCard.tsx:254
+#: src/components/vm/overview/bootOrder.tsx:171
 msgid "Slot"
 msgstr ""
 
@@ -2751,7 +2844,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:53
-#: src/components/vm/hostdevs/hostDevCard.tsx:231
+#: src/components/vm/hostdevs/hostDevCard.tsx:230
 #: src/components/vm/nics/nicBody.tsx:254
 #: src/components/vm/nics/vmNicsCard.tsx:608
 #: src/components/vm/disks/vmDisksCard.tsx:176
@@ -2955,15 +3048,15 @@ msgstr "CPU"
 msgid "TPM"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:153
+#: src/components/vm/hostdevs/hostDevAdd.tsx:160
 msgid "Table of selectable host devices"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:115
+#: src/components/vm/hostdevs/hostDevCard.tsx:114
 #: src/components/vm/nics/vmNicsCard.tsx:616
 #: src/components/vm/disks/vmDisksCard.tsx:177
 #: src/components/vm/disks/vmDiskColumns.tsx:192
-#: src/components/vm/overview/bootOrder.tsx:175
+#: src/components/vm/overview/bootOrder.tsx:177
 msgid "Target"
 msgstr "Alvo"
 
@@ -3125,14 +3218,14 @@ msgstr "Solução de problemas"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:78
 #: src/components/storagePools/createStoragePoolDialog.tsx:115
 #: src/components/vm/hostdevs/hostDevAdd.tsx:56
-#: src/components/vm/hostdevs/hostDevCard.tsx:191
+#: src/components/vm/hostdevs/hostDevCard.tsx:190
 #: src/components/vm/nics/vmNicsCard.tsx:835
 #: src/components/vm/overview/bootOrder.tsx:138
-#: src/components/vm/overview/bootOrder.tsx:151
-#: src/components/vm/overview/bootOrder.tsx:166
-#: src/components/vm/overview/bootOrder.tsx:173
-#: src/components/vm/overview/bootOrder.tsx:180
-#: src/components/vm/overview/bootOrder.tsx:186
+#: src/components/vm/overview/bootOrder.tsx:152
+#: src/components/vm/overview/bootOrder.tsx:168
+#: src/components/vm/overview/bootOrder.tsx:175
+#: src/components/vm/overview/bootOrder.tsx:182
+#: src/components/vm/overview/bootOrder.tsx:188
 msgid "Type"
 msgstr "Tipo"
 
@@ -3148,11 +3241,15 @@ msgstr ""
 msgid "USB"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:125
+#: src/components/vm/hostdevs/hostDevCard.tsx:124
 msgid "UUID"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:172
+#: src/libvirtApi/nodeDevice.ts:42
+msgid "Unclassified"
+msgstr ""
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:179
 msgid "Undefined"
 msgstr ""
 
@@ -3169,7 +3266,7 @@ msgstr "Nome único, padrão: $0"
 msgid "Unique network name"
 msgstr "Nome único de rede"
 
-#: src/components/vm/overview/bootOrder.tsx:176
+#: src/components/vm/overview/bootOrder.tsx:178
 msgid "Unit"
 msgstr "Unidade"
 
@@ -3178,10 +3275,10 @@ msgstr "Unidade"
 msgid "Unknown firmware"
 msgstr "alvo desconhecido"
 
+#: src/components/vm/hostdevs/hostDevCard.tsx:97
 #: src/components/vm/hostdevs/hostDevCard.tsx:98
-#: src/components/vm/hostdevs/hostDevCard.tsx:99
-#: src/components/vm/overview/bootOrder.tsx:157
 #: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/overview/bootOrder.tsx:159
 msgid "Unspecified"
 msgstr ""
 
@@ -3257,7 +3354,7 @@ msgstr "Senha de Usuário"
 msgid "Uses SPICE"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:330
+#: src/components/vm/hostdevs/hostDevCard.tsx:329
 msgid "VM $0 Host Devices"
 msgstr "Dispositivos do host da VM $0"
 
@@ -3344,12 +3441,12 @@ msgstr ""
 msgid "Valid token"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevAdd.tsx:157
-#: src/components/vm/hostdevs/hostDevCard.tsx:221
-#: src/components/vm/hostdevs/hostDevCard.tsx:253
-#: src/components/vm/hostdevs/hostDevCard.tsx:259
-#: src/components/vm/overview/bootOrder.tsx:152
-#: src/components/vm/overview/bootOrder.tsx:167
+#: src/components/vm/hostdevs/hostDevAdd.tsx:164
+#: src/components/vm/hostdevs/hostDevCard.tsx:220
+#: src/components/vm/hostdevs/hostDevCard.tsx:252
+#: src/components/vm/hostdevs/hostDevCard.tsx:258
+#: src/components/vm/overview/bootOrder.tsx:153
+#: src/components/vm/overview/bootOrder.tsx:169
 msgid "Vendor"
 msgstr "Fabricante"
 
@@ -3370,7 +3467,7 @@ msgstr "Máquinas Virtuais"
 msgid "Virtual machines management"
 msgstr "Máquinas Virtuais"
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:152
+#: src/components/create-vm-dialog/pxe-helpers.tsx:153
 #, fuzzy
 msgid "Virtual network"
 msgstr "Rede Virtual"
@@ -3418,8 +3515,8 @@ msgstr "Nome do Grupo de Volume não pode ser vazio"
 msgid "Vsock"
 msgstr ""
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:121
-#: src/components/vm/overview/bootOrder.tsx:182
+#: src/components/vm/hostdevs/hostDevCard.tsx:120
+#: src/components/vm/overview/bootOrder.tsx:184
 msgid "WWPN"
 msgstr ""
 
@@ -3433,6 +3530,10 @@ msgid ""
 "Watchdogs act when systems stop responding. To use this virtual watchdog "
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
+msgstr ""
+
+#: src/libvirtApi/nodeDevice.ts:55
+msgid "Wireless Controller"
 msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:183
@@ -3505,7 +3606,7 @@ msgstr "down"
 #: src/components/vm/overview/vsock.tsx:328
 #: src/components/vm/overview/vmOverviewCard.tsx:130
 #: src/components/vm/overview/vmOverviewCard.tsx:138
-#: src/components/vm/overview/bootOrder.tsx:399
+#: src/components/vm/overview/bootOrder.tsx:401
 #: src/components/vm/overview/watchdog.tsx:278
 msgid "edit"
 msgstr ""
@@ -3794,11 +3895,6 @@ msgstr "sim"
 #~ msgstr "VNC Porta"
 
 #, fuzzy
-#~| msgid "bridge"
-#~ msgid "Bridge"
-#~ msgstr "ponte"
-
-#, fuzzy
 #~ msgid "Passthrough"
 #~ msgstr "para hospedar o caminho"
 
@@ -3807,11 +3903,6 @@ msgstr "sim"
 
 #~ msgid "Help"
 #~ msgstr "Ajuda"
-
-#, fuzzy
-#~| msgid "Memory"
-#~ msgid "Memory file"
-#~ msgstr "Memória"
 
 #~ msgid "Disk failed to be attached"
 #~ msgstr "Disco falhou ao ser anexado"
@@ -3985,9 +4076,6 @@ msgstr "sim"
 
 #~ msgid "Desktop"
 #~ msgstr "Desktop"
-
-#~ msgid "Docking station"
-#~ msgstr "Estação de ancoragem"
 
 #, fuzzy
 #~ msgid "Error message"
