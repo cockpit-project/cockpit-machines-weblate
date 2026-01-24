@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-23 03:57+0000\n"
-"PO-Revision-Date: 2025-11-13 14:58+0000\n"
+"PO-Revision-Date: 2026-01-24 11:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-machines/uk/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/components/vm/nics/nicBody.tsx:322
 msgid " excluding "
@@ -281,7 +281,7 @@ msgstr "Модуль обробки"
 
 #: src/libvirtApi/nodeDevice.ts:50
 msgid "Base System Peripheral"
-msgstr ""
+msgstr "Периферія основної системи"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
 msgid "Block device"
@@ -300,10 +300,8 @@ msgid "Boot order settings could not be saved"
 msgstr "Не вдалося зберегти параметри порядку завантаження"
 
 #: src/libvirtApi/nodeDevice.ts:48
-#, fuzzy
-#| msgid "bridge"
 msgid "Bridge"
-msgstr "місток"
+msgstr "Місток"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
@@ -445,7 +443,7 @@ msgstr "Базовий образ хмари"
 
 #: src/libvirtApi/nodeDevice.ts:72
 msgid "Co-Processor"
-msgstr ""
+msgstr "Співпроцесор"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
@@ -820,7 +818,7 @@ msgstr "Диски"
 
 #: src/libvirtApi/nodeDevice.ts:45
 msgid "Display Controller"
-msgstr ""
+msgstr "Контролер дисплея"
 
 #: src/components/vm/vmMigrateDialog.tsx:224
 msgid ""
@@ -834,8 +832,6 @@ msgid "Do nothing"
 msgstr "Нічого не робити"
 
 #: src/libvirtApi/nodeDevice.ts:52
-#, fuzzy
-#| msgid "Docking station"
 msgid "Docking Station"
 msgstr "Станція заряджання"
 
@@ -936,7 +932,7 @@ msgstr "Увімкніть підтримку віртуалізації у па
 
 #: src/libvirtApi/nodeDevice.ts:58
 msgid "Encryption Controller"
-msgstr ""
+msgstr "Контролер шифрування"
 
 #: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
@@ -1390,7 +1386,7 @@ msgstr "Вставити немасковане переривання"
 
 #: src/libvirtApi/nodeDevice.ts:51
 msgid "Input Device Controller"
-msgstr ""
+msgstr "Контролер пристроїв введення"
 
 #: src/components/vm/disks/diskAdd.tsx:986
 #: src/components/vm/disks/vmDiskColumns.tsx:243
@@ -1423,7 +1419,7 @@ msgstr "Тип встановлення"
 
 #: src/libvirtApi/nodeDevice.ts:56
 msgid "Intelligent Controller"
-msgstr ""
+msgstr "Смарт-контролер"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:136
 msgid "Interface"
@@ -1593,11 +1589,8 @@ msgid "Mask or prefix length should not be empty"
 msgstr "Довжина маски або префікса повинна бути непорожньою"
 
 #: src/libvirtApi/nodeDevice.ts:43
-#, fuzzy
-#| msgid "$0 Storage pool"
-#| msgid_plural "$0 Storage pools"
 msgid "Mass Storage Controller"
-msgstr "$0 буфер сховища"
+msgstr "Контролер сховищ даних"
 
 #: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
@@ -1641,10 +1634,8 @@ msgid "Memory"
 msgstr "Пам'ять"
 
 #: src/libvirtApi/nodeDevice.ts:47
-#, fuzzy
-#| msgid "Memory file"
 msgid "Memory Controller"
-msgstr "Файл пам'яті"
+msgstr "Контролер пам'яті"
 
 #: src/components/vm/overview/memoryModal.tsx:142
 #: src/components/vm/overview/memoryModal.tsx:158
@@ -1689,7 +1680,7 @@ msgstr "Помилка під час перенесення"
 
 #: src/libvirtApi/nodeDevice.ts:74
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Інше"
 
 #: src/components/vm/nics/nicBody.tsx:265
 #: src/components/vm/nics/vmNicsCard.tsx:180
@@ -1727,7 +1718,7 @@ msgstr "Мітка монтування не може бути порожньо�
 
 #: src/libvirtApi/nodeDevice.ts:46
 msgid "Multimedia Controller"
-msgstr ""
+msgstr "Контролер мультимедіа"
 
 #: src/components/networks/createNetworkDialog.tsx:118
 msgid "Must be an address instead of the network identifier, such as $0"
@@ -1803,10 +1794,8 @@ msgid "Network $0 will be permanently deleted."
 msgstr "Мережу $0 буде остаточно вилучено."
 
 #: src/libvirtApi/nodeDevice.ts:44
-#, fuzzy
-#| msgid "Network interface"
 msgid "Network Controller"
-msgstr "Інтерфейс мережі"
+msgstr "Контролер мережі"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:463
 msgid "Network boot (PXE)"
@@ -1952,7 +1941,7 @@ msgstr "У цьому буфері сховища даних не існує т�
 
 #: src/libvirtApi/nodeDevice.ts:61
 msgid "Non-Essential Instrumentation"
-msgstr ""
+msgstr "Некритичне керування"
 
 #: src/components/networks/network.tsx:152
 msgid ""
@@ -2225,11 +2214,11 @@ msgstr "Закрита"
 
 #: src/libvirtApi/nodeDevice.ts:60
 msgid "Processing Accelerator"
-msgstr ""
+msgstr "Пришвидшувач обробки"
 
 #: src/libvirtApi/nodeDevice.ts:53
 msgid "Processor"
-msgstr ""
+msgstr "Процесор"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:164
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2516,7 +2505,7 @@ msgstr "Ключі SSH"
 
 #: src/libvirtApi/nodeDevice.ts:57
 msgid "Satellite Communication Controller"
-msgstr ""
+msgstr "Контролер супутникового зв'язку"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:91
 #: src/components/vm/consoles/vnc.tsx:168
@@ -2561,10 +2550,8 @@ msgid "Serial ($0)"
 msgstr "Послідовна ($0)"
 
 #: src/libvirtApi/nodeDevice.ts:54
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial Bus Controller"
-msgstr "Послідовна консоль"
+msgstr "Контролер послідовної шини"
 
 #: src/components/common/needsShutdown.tsx:227
 msgid "Serial console"
@@ -2661,11 +2648,11 @@ msgstr "Вимикання"
 
 #: src/libvirtApi/nodeDevice.ts:59
 msgid "Signal Processing Controller"
-msgstr ""
+msgstr "Контролер обробки сигналів"
 
 #: src/libvirtApi/nodeDevice.ts:49
 msgid "Simple Communication Controller"
-msgstr ""
+msgstr "Контролер простого обміну даними"
 
 #: src/components/storagePools/storagePoolVolumesTab.tsx:90
 #: src/components/storagePools/storageVolumeCreateBody.tsx:134
@@ -3127,10 +3114,8 @@ msgid "UUID"
 msgstr "UUID"
 
 #: src/libvirtApi/nodeDevice.ts:42
-#, fuzzy
-#| msgid "Unspecified"
 msgid "Unclassified"
-msgstr "Не вказано"
+msgstr "Поза класифікацією"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:179
 msgid "Undefined"
@@ -3413,7 +3398,7 @@ msgstr ""
 
 #: src/libvirtApi/nodeDevice.ts:55
 msgid "Wireless Controller"
-msgstr ""
+msgstr "Контролер бездротового зв'язку"
 
 #: src/components/vm/disks/diskEdit.tsx:183
 #: src/components/vm/disks/vmDisksCard.tsx:268
