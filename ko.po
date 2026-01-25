@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-24 03:50+0000\n"
-"PO-Revision-Date: 2025-12-25 18:09+0000\n"
+"PO-Revision-Date: 2026-01-25 13:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/components/vm/nics/nicBody.tsx:322
 msgid " excluding "
@@ -276,7 +276,7 @@ msgstr "백엔드"
 
 #: src/libvirtApi/nodeDevice.ts:50
 msgid "Base System Peripheral"
-msgstr ""
+msgstr "기본 시스템 주변 장치"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
 msgid "Block device"
@@ -437,7 +437,7 @@ msgstr "클라우드 기반 이미지"
 
 #: src/libvirtApi/nodeDevice.ts:72
 msgid "Co-Processor"
-msgstr ""
+msgstr "보조-프로세서"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
@@ -808,7 +808,7 @@ msgstr "디스크"
 
 #: src/libvirtApi/nodeDevice.ts:45
 msgid "Display Controller"
-msgstr ""
+msgstr "화면 제어기"
 
 #: src/components/vm/vmMigrateDialog.tsx:224
 msgid ""
@@ -820,8 +820,6 @@ msgid "Do nothing"
 msgstr "아무 것도 하지 않기"
 
 #: src/libvirtApi/nodeDevice.ts:52
-#, fuzzy
-#| msgid "Docking station"
 msgid "Docking Station"
 msgstr "도킹 스테이션"
 
@@ -922,7 +920,7 @@ msgstr "BIOS/EFI 설정에서 가상화 지원을 활성화합니다."
 
 #: src/libvirtApi/nodeDevice.ts:58
 msgid "Encryption Controller"
-msgstr ""
+msgstr "암호 제어기"
 
 #: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
@@ -1374,7 +1372,7 @@ msgstr "마스크 불가능 인터럽트 주입"
 
 #: src/libvirtApi/nodeDevice.ts:51
 msgid "Input Device Controller"
-msgstr ""
+msgstr "입력 장치 제어기"
 
 #: src/components/vm/disks/diskAdd.tsx:986
 #: src/components/vm/disks/vmDiskColumns.tsx:243
@@ -1407,7 +1405,7 @@ msgstr "설치 유형"
 
 #: src/libvirtApi/nodeDevice.ts:56
 msgid "Intelligent Controller"
-msgstr ""
+msgstr "지능형 제어기"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:136
 msgid "Interface"
@@ -1575,11 +1573,8 @@ msgid "Mask or prefix length should not be empty"
 msgstr "매스크 또는 프리픽스 길이는 비워둘 수 없습니다"
 
 #: src/libvirtApi/nodeDevice.ts:43
-#, fuzzy
-#| msgid "$0 Storage pool"
-#| msgid_plural "$0 Storage pools"
 msgid "Mass Storage Controller"
-msgstr "$0 저장소 풀"
+msgstr "대용량 저장소 제어기"
 
 #: src/components/vm/overview/memoryModal.tsx:180
 msgid "Maximum allocation"
@@ -1619,10 +1614,8 @@ msgid "Memory"
 msgstr "메모리"
 
 #: src/libvirtApi/nodeDevice.ts:47
-#, fuzzy
-#| msgid "Memory file"
 msgid "Memory Controller"
-msgstr "메모리 파일"
+msgstr "메모리 제어기"
 
 #: src/components/vm/overview/memoryModal.tsx:142
 #: src/components/vm/overview/memoryModal.tsx:158
@@ -1667,7 +1660,7 @@ msgstr "이전이 실패했습니다"
 
 #: src/libvirtApi/nodeDevice.ts:74
 msgid "Miscellaneous"
-msgstr ""
+msgstr "기타"
 
 #: src/components/vm/nics/nicBody.tsx:265
 #: src/components/vm/nics/vmNicsCard.tsx:180
@@ -1705,7 +1698,7 @@ msgstr "적재 태그는 비워두면 안됩니다"
 
 #: src/libvirtApi/nodeDevice.ts:46
 msgid "Multimedia Controller"
-msgstr ""
+msgstr "멀티미디어 제어기"
 
 #: src/components/networks/createNetworkDialog.tsx:118
 msgid "Must be an address instead of the network identifier, such as $0"
@@ -1781,10 +1774,8 @@ msgid "Network $0 will be permanently deleted."
 msgstr "네트워크 $0는 영구히 삭제됩니다."
 
 #: src/libvirtApi/nodeDevice.ts:44
-#, fuzzy
-#| msgid "Network interface"
 msgid "Network Controller"
-msgstr "네트워크 연결장치"
+msgstr "네트워크 제어기"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:463
 msgid "Network boot (PXE)"
@@ -1930,7 +1921,7 @@ msgstr "이 저장소 풀에 대해 볼륨이 없습니다."
 
 #: src/libvirtApi/nodeDevice.ts:61
 msgid "Non-Essential Instrumentation"
-msgstr ""
+msgstr "필수적이지 않은 장치"
 
 #: src/components/networks/network.tsx:152
 msgid ""
@@ -2202,11 +2193,11 @@ msgstr "비공개"
 
 #: src/libvirtApi/nodeDevice.ts:60
 msgid "Processing Accelerator"
-msgstr ""
+msgstr "처리 가속기"
 
 #: src/libvirtApi/nodeDevice.ts:53
 msgid "Processor"
-msgstr ""
+msgstr "프로세서"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:164
 #: src/components/vm/hostdevs/hostDevCard.tsx:253
@@ -2480,7 +2471,7 @@ msgstr "SSH 키"
 
 #: src/libvirtApi/nodeDevice.ts:57
 msgid "Satellite Communication Controller"
-msgstr ""
+msgstr "위성 통신 제어기"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:91
 #: src/components/vm/consoles/vnc.tsx:168
@@ -2525,10 +2516,8 @@ msgid "Serial ($0)"
 msgstr "직렬 ($0)"
 
 #: src/libvirtApi/nodeDevice.ts:54
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial Bus Controller"
-msgstr "직렬 콘솔"
+msgstr "직렬 버스 제어기"
 
 #: src/components/common/needsShutdown.tsx:227
 msgid "Serial console"
@@ -2628,11 +2617,11 @@ msgstr "종료 중"
 
 #: src/libvirtApi/nodeDevice.ts:59
 msgid "Signal Processing Controller"
-msgstr ""
+msgstr "신호 처리 제어기"
 
 #: src/libvirtApi/nodeDevice.ts:49
 msgid "Simple Communication Controller"
-msgstr ""
+msgstr "단순 통신 제어기"
 
 #: src/components/storagePools/storagePoolVolumesTab.tsx:90
 #: src/components/storagePools/storageVolumeCreateBody.tsx:134
@@ -3077,10 +3066,8 @@ msgid "UUID"
 msgstr "UUID"
 
 #: src/libvirtApi/nodeDevice.ts:42
-#, fuzzy
-#| msgid "Unspecified"
 msgid "Unclassified"
-msgstr "지정되지 않음"
+msgstr "미분류"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:179
 msgid "Undefined"
@@ -3362,7 +3349,7 @@ msgstr ""
 
 #: src/libvirtApi/nodeDevice.ts:55
 msgid "Wireless Controller"
-msgstr ""
+msgstr "무선 제어기"
 
 #: src/components/vm/disks/diskEdit.tsx:183
 #: src/components/vm/disks/vmDisksCard.tsx:268
