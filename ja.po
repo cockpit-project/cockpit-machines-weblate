@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-29 04:20+0000\n"
+"POT-Creation-Date: 2026-01-30 04:23+0000\n"
 "PO-Revision-Date: 2026-01-29 07:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -157,7 +157,7 @@ msgstr "ホストデバイスの追加"
 msgid "Add network interface"
 msgstr "ネットワークインターフェイスの追加"
 
-#: src/components/vm/consoles/serial.tsx:170
+#: src/components/vm/consoles/serial.tsx:177
 #, fuzzy
 #| msgid "Serial console"
 msgid "Add serial console"
@@ -468,7 +468,7 @@ msgstr ""
 msgid "Confirm this action"
 msgstr "この動作を確認"
 
-#: src/components/vm/consoles/serial.tsx:94
+#: src/components/vm/consoles/serial.tsx:99
 #: src/components/vm/consoles/vnc.tsx:596
 msgid "Connect"
 msgstr "接続"
@@ -770,7 +770,7 @@ msgstr "デバイス"
 msgid "Disconnect"
 msgstr "切断"
 
-#: src/components/vm/consoles/serial.tsx:91
+#: src/components/vm/consoles/serial.tsx:96
 #: src/components/vm/consoles/vnc.tsx:590
 msgid "Disconnected"
 msgstr "切断されています"
@@ -989,7 +989,7 @@ msgstr "TPM を仮想マシン $0 に追加できませんでした"
 msgid "Failed to add VNC to VM $0"
 msgstr "TPM を仮想マシン $0 に追加できませんでした"
 
-#: src/components/vm/consoles/serial.tsx:149
+#: src/components/vm/consoles/serial.tsx:156
 #, fuzzy
 #| msgid "Failed to add TPM to VM $0"
 msgid "Failed to add serial console to VM $0"
@@ -2462,7 +2462,7 @@ msgstr "リセット"
 msgid "Restart this virtual machine to access its graphical console"
 msgstr "仮想マシンを起動して、コンソールにアクセスしてください。"
 
-#: src/components/vm/consoles/serial.tsx:189
+#: src/components/vm/consoles/serial.tsx:196
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
@@ -2609,7 +2609,7 @@ msgstr "シリアルコンソール"
 msgid "Serial console"
 msgstr "シリアルコンソール"
 
-#: src/components/vm/consoles/serial.tsx:160
+#: src/components/vm/consoles/serial.tsx:167
 msgid "Serial console support not enabled"
 msgstr ""
 
@@ -2683,7 +2683,7 @@ msgstr "ファームウェア設定を編集するためにVMをシャットオ�
 
 #: src/components/common/needsShutdown.tsx:283
 #: src/components/vm/vmActions.tsx:532
-#: src/components/vm/consoles/serial.tsx:196
+#: src/components/vm/consoles/serial.tsx:203
 #: src/components/vm/consoles/vnc.tsx:707
 msgid "Shutdown and restart"
 msgstr ""
@@ -2805,7 +2805,7 @@ msgid "Source volume group"
 msgstr "ソースボリュームグループ"
 
 #: src/components/networks/createNetworkDialog.tsx:318
-#: src/components/vm/consoles/serial.tsx:129
+#: src/components/vm/consoles/serial.tsx:136
 #: src/components/vm/consoles/vnc.tsx:628
 msgid "Start"
 msgstr "起動"
@@ -2819,7 +2819,7 @@ msgstr "ホスト起動時にプールを起動する"
 msgid "Start should not be empty"
 msgstr "開始は空欄にできません"
 
-#: src/components/vm/consoles/serial.tsx:122
+#: src/components/vm/consoles/serial.tsx:129
 #: src/components/vm/consoles/vnc.tsx:621
 #, fuzzy
 #| msgid "Please start the virtual machine to access its console."
@@ -2986,6 +2986,12 @@ msgstr "一時的"
 msgid "Temporary migration"
 msgstr "一時的な移行"
 
+#: src/components/vm/consoles/serial.tsx:105
+#, fuzzy
+#| msgid "No networks available"
+msgid "Terminal not available"
+msgstr "利用可能なネットワークはありません"
+
 #: src/components/vm/deleteDialog.tsx:102
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "仮想マシン $0 が実行中で、削除前に強制的にオフになります。"
@@ -3063,6 +3069,12 @@ msgstr "次に、上記をコピーして貼り付けます。"
 #: src/components/vm/vmActions.tsx:480
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "これはtransient VMです。削除したい場合はシャットダウンしてください。"
+
+#: src/components/vm/consoles/serial.tsx:105
+#, fuzzy
+#| msgid "Libvirt or hypervisor does not support UEFI"
+msgid "This browser does not support WebGL2."
+msgstr "libvirtまたはハイパーバイザーがUEFIをサポートしていません"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:190
 msgid "This disk will be removed from $0:"
