@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 04:34+0000\n"
+"POT-Creation-Date: 2026-02-14 04:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 04:34+0000\n"
+"POT-Creation-Date: 2026-02-14 04:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/components/vm/nics/nicBody.tsx:309
+#: src/components/vm/nics/nicBody.tsx:366
 msgid " excluding "
 msgstr ""
 
@@ -101,7 +101,7 @@ msgid_plural "$0 vCPUs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/vm/nics/nicEdit.tsx:295
+#: src/components/vm/nics/nicEdit.tsx:222
 msgid "$0 virtual network interface settings"
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 
 #: src/components/vm/overview/vsock.tsx:223
 #: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/nics/nicAdd.tsx:322 src/components/vm/nics/nicBody.tsx:593
+#: src/components/vm/nics/nicAdd.tsx:279 src/components/vm/nics/nicBody.tsx:599
 #: src/components/vm/hostdevs/hostDevAdd.tsx:261
 #: src/components/vm/disks/diskAdd.tsx:973
 #: src/components/networks/networkOverviewTab.tsx:268
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Add shared directory"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.tsx:302
+#: src/components/vm/nics/nicAdd.tsx:268
 msgid "Add virtual network interface"
 msgstr ""
 
@@ -243,7 +243,7 @@ msgstr ""
 msgid "Also delete all volumes inside this pool:"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.tsx:115
+#: src/components/vm/nics/nicAdd.tsx:141
 #: src/components/vm/disks/diskAdd.tsx:181
 msgid "Always attach"
 msgstr ""
@@ -363,7 +363,6 @@ msgstr ""
 #: src/components/vm/overview/watchdog.tsx:228
 #: src/components/vm/overview/firmware.tsx:108
 #: src/components/vm/vmRenameDialog.tsx:96
-#: src/components/vm/nics/nicEdit.tsx:311 src/components/vm/nics/nicAdd.tsx:325
 #: src/components/vm/vmReplaceSpiceDialog.tsx:171
 #: src/components/vm/hostdevs/hostDevAdd.tsx:266
 #: src/components/vm/vmCloneDialog.tsx:111
@@ -454,7 +453,7 @@ msgstr ""
 msgid "Cockpit Project"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:537
+#: src/components/vm/nics/nicBody.tsx:557
 msgid "Complex rule \"$0\" can not be edited here."
 msgstr ""
 
@@ -1101,7 +1100,7 @@ msgstr ""
 msgid "Forward mode"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:603
+#: src/components/vm/nics/nicBody.tsx:609
 msgid "Forwarded ports"
 msgstr ""
 
@@ -1121,7 +1120,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.tsx:85
+#: src/components/vm/nics/nicAdd.tsx:91
 msgid "Generate automatically"
 msgstr ""
 
@@ -1157,11 +1156,11 @@ msgstr ""
 msgid "Graphical console support not enabled"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:473
+#: src/components/vm/nics/nicBody.tsx:504
 msgid "Guest port"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:477
+#: src/components/vm/nics/nicBody.tsx:508
 msgid "Guest port help"
 msgstr ""
 
@@ -1201,15 +1200,15 @@ msgstr ""
 msgid "Host name"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:450
+#: src/components/vm/nics/nicBody.tsx:489
 msgid "Host port"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:385
+#: src/components/vm/nics/nicBody.tsx:442
 msgid "Host port can not be empty."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:455
+#: src/components/vm/nics/nicBody.tsx:494
 msgid "Host port help"
 msgstr ""
 
@@ -1229,13 +1228,13 @@ msgstr ""
 msgid "IP"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:429
+#: src/components/vm/nics/nicBody.tsx:475
 #: src/components/vm/nics/vmNicsCard.tsx:620
 #: src/components/networks/networkOverviewTab.tsx:255
 msgid "IP address"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:433
+#: src/components/vm/nics/nicBody.tsx:479
 msgid "IP address help"
 msgstr ""
 
@@ -1319,7 +1318,7 @@ msgstr ""
 msgid "Idle"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:435
+#: src/components/vm/nics/nicBody.tsx:481
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
@@ -1408,15 +1407,15 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:208
+#: src/components/vm/nics/nicBody.tsx:237
 msgid "Interface type"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:210
+#: src/components/vm/nics/nicBody.tsx:239
 msgid "Interface type help"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:370
+#: src/components/vm/nics/nicBody.tsx:427
 msgid "Invalid IP address"
 msgstr ""
 
@@ -1518,14 +1517,14 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.tsx:59 src/components/vm/nics/nicAdd.tsx:81
+#: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 #: src/components/vm/nics/vmNicsCard.tsx:615
 #: src/components/vm/nics/vmNicsCard.tsx:809
 #: src/components/networks/networkOverviewTab.tsx:246
 msgid "MAC address"
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.tsx:168 src/components/vm/nics/nicAdd.tsx:201
+#: src/components/vm/nics/nicEdit.tsx:108 src/components/vm/nics/nicAdd.tsx:187
 msgid "MAC address already in use"
 msgstr ""
 
@@ -1653,16 +1652,16 @@ msgstr ""
 
 #: src/components/vm/overview/cpuModal.tsx:304
 #: src/components/vm/overview/cpuModal.tsx:306
-#: src/components/vm/nics/nicBody.tsx:252
+#: src/components/vm/nics/nicBody.tsx:282
 #: src/components/vm/nics/vmNicsCard.tsx:167
 msgid "Mode"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:256
+#: src/components/vm/nics/nicBody.tsx:286
 msgid "Mode help"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:95
+#: src/components/vm/nics/nicBody.tsx:59
 #: src/components/vm/hostdevs/hostDevCard.tsx:197
 msgid "Model"
 msgstr ""
@@ -1671,7 +1670,7 @@ msgstr ""
 msgid "Model type"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:272
+#: src/components/vm/nics/nicBody.tsx:302
 msgid "More info"
 msgstr ""
 
@@ -1766,6 +1765,10 @@ msgstr ""
 msgid "Network Controller"
 msgstr ""
 
+#: src/components/vm/nics/nicAdd.tsx:120
+msgid "Network MAC can not be empty."
+msgstr ""
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:453
 msgid "Network boot (PXE)"
 msgstr ""
@@ -1786,7 +1789,7 @@ msgstr ""
 msgid "Network interface $0 will be removed from $1"
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.tsx:237 src/components/vm/nics/nicAdd.tsx:244
+#: src/components/vm/nics/nicEdit.tsx:172 src/components/vm/nics/nicAdd.tsx:226
 msgid "Network interface settings could not be saved"
 msgstr ""
 
@@ -1844,7 +1847,7 @@ msgstr ""
 msgid "No host devices"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:194
+#: src/components/vm/nics/nicBody.tsx:217
 msgid "No network devices"
 msgstr ""
 
@@ -1864,7 +1867,7 @@ msgstr ""
 msgid "No parent"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:611
+#: src/components/vm/nics/nicBody.tsx:617
 msgid "No ports forwarded"
 msgstr ""
 
@@ -1878,6 +1881,10 @@ msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
 msgid "No snapshots"
+msgstr ""
+
+#: src/components/vm/nics/nicBody.tsx:332
+msgid "No sources available"
 msgstr ""
 
 #: src/helpers.ts:225
@@ -1900,7 +1907,7 @@ msgstr ""
 msgid "No storage volumes defined for this storage pool"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:192
+#: src/components/vm/nics/nicBody.tsx:215
 msgid "No virtual networks"
 msgstr ""
 
@@ -1956,7 +1963,7 @@ msgstr ""
 
 #: src/components/vm/overview/memoryModal.tsx:174
 #: src/components/vm/overview/bootOrder.tsx:395
-#: src/components/vm/nics/nicEdit.tsx:56
+#: src/components/vm/nics/nicEdit.tsx:51
 msgid "Only editable when the guest is shut off"
 msgstr ""
 
@@ -2048,7 +2055,7 @@ msgstr ""
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.tsx:112
+#: src/components/vm/nics/nicAdd.tsx:135
 #: src/components/vm/disks/diskAdd.tsx:178
 msgid "Persistence"
 msgstr ""
@@ -2066,7 +2073,7 @@ msgstr ""
 msgid "Physical disk device on host"
 msgstr ""
 
-#: src/components/vm/nics/nicEdit.tsx:168 src/components/vm/nics/nicAdd.tsx:201
+#: src/components/vm/nics/nicEdit.tsx:109 src/components/vm/nics/nicAdd.tsx:187
 msgid "Please choose a different MAC address"
 msgstr ""
 
@@ -2122,7 +2129,7 @@ msgstr ""
 msgid "Port forwards"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:379
+#: src/components/vm/nics/nicBody.tsx:436
 msgid "Port must be 1 to 65535."
 msgstr ""
 
@@ -2136,7 +2143,7 @@ msgid ""
 "assign a free port when the machine starts."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:377 src/components/vm/consoles/vnc.tsx:97
+#: src/components/vm/nics/nicBody.tsx:434 src/components/vm/consoles/vnc.tsx:97
 msgid "Port must be a number."
 msgstr ""
 
@@ -2190,25 +2197,25 @@ msgstr ""
 
 #: src/components/vm/overview/bootOrder.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:493
+#: src/components/vm/nics/nicBody.tsx:517
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 #: src/components/vm/disks/vmDiskColumns.tsx:37
 msgid "Protocol"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:152
+#: src/components/vm/nics/nicBody.tsx:104
 msgid ""
 "Provides a bridge from the guest virtual machine directly onto the LAN. This "
 "needs a bridge device on the host with one or more physical NICs."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:143
+#: src/components/vm/nics/nicBody.tsx:95
 msgid ""
 "Provides a connection whose details are described by the named network "
 "definition."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:167
+#: src/components/vm/nics/nicBody.tsx:119
 msgid "Provides a virtual LAN with NAT to the outside world."
 msgstr ""
 
@@ -2302,8 +2309,8 @@ msgstr ""
 msgid "Remove host device from VM?"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:512
-#: src/components/vm/nics/nicBody.tsx:547
+#: src/components/vm/nics/nicBody.tsx:536
+#: src/components/vm/nics/nicBody.tsx:567
 #: src/components/create-vm-dialog/createVmDialog.tsx:926
 msgid "Remove item"
 msgstr ""
@@ -2447,7 +2454,7 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.tsx:354
 #: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/overview/firmware.tsx:105
-#: src/components/vm/nics/nicEdit.tsx:308
+#: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
 #: src/components/vm/disks/diskEdit.tsx:324
@@ -2500,7 +2507,7 @@ msgstr ""
 msgid "Set DHCP range"
 msgstr ""
 
-#: src/components/vm/nics/nicAdd.tsx:90
+#: src/components/vm/nics/nicAdd.tsx:98
 msgid "Set manually"
 msgstr ""
 
@@ -2631,7 +2638,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
-#: src/components/vm/nics/nicBody.tsx:241
+#: src/components/vm/nics/nicBody.tsx:270
 #: src/components/vm/nics/vmNicsCard.tsx:595
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/disks/diskAdd.tsx:711
@@ -2806,7 +2813,7 @@ msgstr ""
 msgid "TAP device"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:502
+#: src/components/vm/nics/nicBody.tsx:526
 msgid "TCP"
 msgstr ""
 
@@ -2871,7 +2878,7 @@ msgid ""
 "destination host is considered the new home of the VM."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:262
+#: src/components/vm/nics/nicBody.tsx:292
 msgid "The mode influences the delivery of packets."
 msgstr ""
 
@@ -2879,12 +2886,12 @@ msgstr ""
 msgid "The pool is empty"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:479
+#: src/components/vm/nics/nicBody.tsx:510
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:457
+#: src/components/vm/nics/nicBody.tsx:496
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
@@ -2938,19 +2945,19 @@ msgid ""
 "live migration."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:142
+#: src/components/vm/nics/nicBody.tsx:94
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "dynamic / wireless networking configs."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:151
+#: src/components/vm/nics/nicBody.tsx:103
 msgid ""
 "This is the recommended type for general guest connectivity on hosts with "
 "static wired networking configs."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:157
+#: src/components/vm/nics/nicBody.tsx:109
 msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 
@@ -3002,7 +3009,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:503
+#: src/components/vm/nics/nicBody.tsx:527
 msgid "UDP"
 msgstr ""
 
@@ -3316,7 +3323,7 @@ msgstr ""
 msgid "add entry"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:303
+#: src/components/vm/nics/nicBody.tsx:360
 msgid "all"
 msgstr ""
 
