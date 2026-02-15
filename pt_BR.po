@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-09 04:51+0000\n"
-"PO-Revision-Date: 2026-01-16 10:14+0000\n"
-"Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
+"PO-Revision-Date: 2026-02-15 07:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/cockpit/cockpit-machines/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -289,7 +289,7 @@ msgstr "Backend"
 
 #: src/libvirtApi/nodeDevice.ts:50
 msgid "Base System Peripheral"
-msgstr ""
+msgstr "Periférico do sistema base"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:49
 msgid "Block device"
@@ -308,10 +308,8 @@ msgid "Boot order settings could not be saved"
 msgstr "As configurações de ordem de boot não puderam ser salvas"
 
 #: src/libvirtApi/nodeDevice.ts:48
-#, fuzzy
-#| msgid "bridge"
 msgid "Bridge"
-msgstr "ponte"
+msgstr "Ponte"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:113
 #: src/components/vm/hostdevs/hostDevCard.tsx:104
@@ -448,13 +446,12 @@ msgid "Close"
 msgstr "Fechar"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:458
-#, fuzzy
 msgid "Cloud base image"
-msgstr "Não é possível carregar a imagem"
+msgstr "Imagem Cloud Base"
 
 #: src/libvirtApi/nodeDevice.ts:72
 msgid "Co-Processor"
-msgstr ""
+msgstr "Coprocessador"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
@@ -832,7 +829,7 @@ msgstr "Discos"
 
 #: src/libvirtApi/nodeDevice.ts:45
 msgid "Display Controller"
-msgstr ""
+msgstr "Controlador de tela"
 
 #: src/components/vm/vmMigrateDialog.tsx:224
 msgid ""
@@ -846,8 +843,6 @@ msgid "Do nothing"
 msgstr "Não fazer nada"
 
 #: src/libvirtApi/nodeDevice.ts:52
-#, fuzzy
-#| msgid "Docking station"
 msgid "Docking Station"
 msgstr "Estação de ancoragem"
 
@@ -950,7 +945,7 @@ msgstr "Habilite o suporte a virtualização nas configurações de BIOS/EFI."
 
 #: src/libvirtApi/nodeDevice.ts:58
 msgid "Encryption Controller"
-msgstr ""
+msgstr "Controlador de criptografia"
 
 #: src/components/networks/createNetworkDialog.tsx:325
 msgid "End"
@@ -992,76 +987,60 @@ msgid "Failed"
 msgstr "Falhou"
 
 #: src/components/vm/vmActions.tsx:172
-#, fuzzy
 msgid "Failed to add TPM to VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao adicionar TPM à VM: $0"
 
 #: src/components/vm/consoles/vnc.tsx:656
-#, fuzzy
 msgid "Failed to add VNC to VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao adicionar VNC à VM: $0"
 
 #: src/components/vm/consoles/serial.tsx:156
-#, fuzzy
 msgid "Failed to add serial console to VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao adicionar console serial à VM: $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:211
-#, fuzzy
-#| msgid "Filesystem directory"
 msgid "Failed to add shared directory"
-msgstr "Diretório do sistema de arquivos"
+msgstr "Falha ao adicionar diretório compartilhado"
 
 #: src/components/vm/overview/firmware.tsx:87
-#, fuzzy
 msgid "Failed to change firmware"
-msgstr "Falha ao mudar senha"
+msgstr "Falha ao mudar o firmware"
 
 #: src/components/vm/vmCloneDialog.tsx:90
-#, fuzzy
 msgid "Failed to clone VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao clonar a VM $0"
 
 #: src/components/vm/overview/vsock.tsx:170
-#, fuzzy
 msgid "Failed to configure vsock"
-msgstr "Falha ao mudar senha"
+msgstr "Falha ao configurar vsock"
 
 #: src/components/vm/overview/watchdog.tsx:118
-#, fuzzy
 msgid "Failed to configure watchdog"
-msgstr "Falha ao mudar senha"
+msgstr "Falha ao configurar watchdog"
 
 #: src/components/vm/consoles/vnc.tsx:509
-#, fuzzy
 msgid "Failed to connect"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao conectar"
 
 #: src/components/vm/overview/vsock.tsx:181
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach vsock"
-msgstr "Disco falhou ao ser anexado"
+msgstr "Falha ao desanexar vsock"
 
 #: src/components/vm/overview/watchdog.tsx:160
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Disco falhou ao ser anexado"
+msgstr "Falha ao desanexar watchdog"
 
 #: src/state.ts:278
-#, fuzzy
 msgid "Failed to fetch some resources"
-msgstr "Falha ao mudar senha"
+msgstr "Falha ao obter alguns recursos"
 
 #: src/components/vm/nics/vmNicsCard.tsx:505
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "Não foi possível buscar endereços de IP das interfaces presentes em $0"
 
 #: src/components/vm/vmRenameDialog.tsx:72
-#, fuzzy
 msgid "Failed to rename VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao renomear a VM $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:97
 msgid "Failed to replace SPICE devices"
@@ -1076,9 +1055,8 @@ msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Não foi possível enviar Ctrl+Alt+$0 para a máquina virtual $1"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:58
-#, fuzzy
 msgid "Failed to set description of VM $0"
-msgstr "Falha ao adicionar a máquina: $0"
+msgstr "Falha ao definir a descrição da VM $0"
 
 #: src/components/vm/overview/cpuModal.tsx:272
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
@@ -1098,23 +1076,19 @@ msgid "Filesystem directory"
 msgstr "Diretório do sistema de arquivos"
 
 #: src/components/vms/hostvmslist.tsx:275
-#, fuzzy
 msgid "Filter by name"
-msgstr "Filtrar por nome ou descrição"
+msgstr "Filtrar por nome"
 
 #: src/components/vm/overview/firmware.tsx:104
 #: src/components/vm/overview/vmOverviewCard.tsx:259
-#, fuzzy
 msgid "Firmware"
-msgstr "Versão"
+msgstr "Firmware"
 
 #: src/components/vm/disks/mediaEject.tsx:126
-#, fuzzy
 msgid "Force eject"
-msgstr "Forçar reinicialização"
+msgstr "Forçar ejeção"
 
 #: src/components/vm/vmActions.tsx:352 src/components/vm/vmActions.tsx:357
-#, fuzzy
 msgid "Force reboot"
 msgstr "Forçar reinicialização"
 
@@ -1123,9 +1097,8 @@ msgid "Force reboot $0?"
 msgstr "Forçar reinicialização de $0?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:137
-#, fuzzy
 msgid "Force revert"
-msgstr "Forçar reinicialização"
+msgstr "Forçar inversão"
 
 #: src/components/vm/vmActions.tsx:288 src/components/vm/vmActions.tsx:293
 msgid "Force shut down"
@@ -1136,10 +1109,8 @@ msgid "Force shut down $0?"
 msgstr "Forçar desligamento de $0?"
 
 #: src/components/vm/vmActions.tsx:544
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shutdown and restart"
-msgstr "Forçar Desligamento"
+msgstr "Forçar desligamento e reinicialização"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:120
 #: src/components/storagePools/createStoragePoolDialog.tsx:257
@@ -1148,14 +1119,12 @@ msgid "Format"
 msgstr "Formate"
 
 #: src/components/networks/createNetworkDialog.tsx:206
-#, fuzzy
 msgid "Forward mode"
-msgstr "Modo Forward"
+msgstr "Modo de redirecionamento"
 
 #: src/components/vm/nics/nicBody.tsx:616
-#, fuzzy
 msgid "Forwarded ports"
-msgstr "Modo Forward"
+msgstr "Portas encaminhadas"
 
 #: src/components/networks/networkList.tsx:75
 msgid "Forwarding mode"
@@ -1167,6 +1136,10 @@ msgid ""
 "writable disk images will be transferred. Unused storage will remain on the "
 "origin after migration."
 msgstr ""
+"As imagens completas dos discos e a memória do domínio serão migradas. "
+"Somente as imagens de disco graváveis e não compartilhadas serão "
+"transferidas. O espaço de armazenamento não utilizado permanecerá na origem "
+"após a migração."
 
 #: src/components/networks/networkOverviewTab.tsx:121
 #: src/components/vm/overview/vmOverviewCard.tsx:167
@@ -1198,38 +1171,33 @@ msgid "Good choice for desktop virtualization"
 msgstr "Uma boa escolha para virtualização de desktop"
 
 #: src/helpers.ts:286
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Forçar Desligamento"
+msgstr "Desligamento normal"
 
 #: src/components/vm/consoles/consoles.tsx:195
 msgid "Graphical"
-msgstr ""
+msgstr "Gráfico"
 
 #: src/components/vm/consoles/vnc.tsx:667
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "Suporte para console gráfico não habilitado"
 
 #: src/components/vm/nics/nicBody.tsx:486
 msgid "Guest port"
-msgstr ""
+msgstr "Porta de convidado"
 
 #: src/components/vm/nics/nicBody.tsx:490
 msgid "Guest port help"
-msgstr ""
+msgstr "Ajuda da porta de convidado"
 
 #: src/app.tsx:146
-#, fuzzy
-#| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Conectando-se ao serviço de virtualização"
+msgstr "A virtualização de hardware está desabilitada"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:238
 #: src/components/vm/disks/diskAdd.tsx:292
-#, fuzzy
 msgid "Hide additional options"
-msgstr "Ações adicionais"
+msgstr "Ocultar opções adicionais"
 
 #: src/components/storagePools/storagePoolOverviewTab.tsx:36
 #: src/components/storagePools/createStoragePoolDialog.tsx:167
@@ -1243,35 +1211,28 @@ msgid "Host device"
 msgstr "Dispositivo Host"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:249
-#, fuzzy
 msgid "Host device could not be attached"
-msgstr "Não foi possível salvar as configurações do disco"
+msgstr "O dispositivo host não pôde ser anexado"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:273
 msgid "Host device will be removed from $0:"
-msgstr ""
+msgstr "O dispositivo host será removido de $0:"
 
 #: src/components/vm/vmDetailsPage.tsx:189
-#, fuzzy
-#| msgid "Host device"
 msgid "Host devices"
-msgstr "Dispositivo Host"
+msgstr "Dispositivos do host"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:170
 msgid "Host name"
 msgstr "Nome do host"
 
 #: src/components/vm/nics/nicBody.tsx:463
-#, fuzzy
-#| msgid "Host"
 msgid "Host port"
-msgstr "Máquina"
+msgstr "Porta do host"
 
 #: src/components/vm/nics/nicBody.tsx:398
-#, fuzzy
-#| msgid "Host should not be empty"
 msgid "Host port can not be empty."
-msgstr "Host não deve estar vazio"
+msgstr "Porta do host não pode estar vazia."
 
 #: src/components/vm/nics/nicBody.tsx:468
 msgid "Host port help"
@@ -3079,7 +3040,7 @@ msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:105
 msgid "Terminal not available"
-msgstr ""
+msgstr "Terminal não disponível"
 
 #: src/components/vm/deleteDialog.tsx:102
 msgid "The VM $0 is running and will be forced off before deletion."
@@ -3156,10 +3117,8 @@ msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:105
-#, fuzzy
-#| msgid "Libvirt or hypervisor does not support UEFI"
 msgid "This browser does not support WebGL2."
-msgstr "Não há suporte para UEFI no Libvirt ou no hipervisor"
+msgstr "Este navegador não suporta WebGL2."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:190
 msgid "This disk will be removed from $0:"
