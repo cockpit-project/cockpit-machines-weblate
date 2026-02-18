@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 04:50+0000\n"
+"POT-Creation-Date: 2026-02-18 04:34+0000\n"
 "PO-Revision-Date: 2026-02-01 04:58+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -88,7 +88,7 @@ msgstr ""
 "Kopio virtuaalikoneesta suoritetaan kohteessa ja katoaa, kun se sammutetaan. "
 "Samaan aikaan isäntäkone säilyttää kopion virtuaalikoneen kokoonpanosta."
 
-#: src/components/vm/disks/diskEdit.tsx:153
+#: src/components/vm/disks/diskEdit.tsx:128
 #: src/components/vm/disks/vmDisksCard.tsx:252
 msgid "Access"
 msgstr "Pääsy"
@@ -309,7 +309,7 @@ msgstr "silta"
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/disks/diskEdit.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 #: src/components/vm/disks/diskAdd.tsx:294
 #: src/components/vm/disks/vmDisksCard.tsx:247
 msgid "Bus"
@@ -319,7 +319,7 @@ msgstr "Väylä"
 msgid "CD/DVD disc"
 msgstr "CD/DVD-levy"
 
-#: src/components/common/needsShutdown.tsx:198
+#: src/components/common/needsShutdown.tsx:206
 #: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:93
 #: src/components/vms/hostvmslist.tsx:301
@@ -330,9 +330,9 @@ msgstr "Suoritin"
 msgid "CPU mode could not be saved"
 msgstr "CPU:n moodia ei voitu tallentaa"
 
-#: src/components/vm/disks/diskEdit.tsx:78
+#: src/components/vm/disks/diskEdit.tsx:165
 #: src/components/vm/disks/diskAdd.tsx:283
-#: src/components/vm/disks/vmDiskColumns.tsx:131
+#: src/components/vm/disks/vmDisksCard.tsx:263
 msgid "Cache"
 msgstr "Välimuisti"
 
@@ -357,7 +357,6 @@ msgstr "Välimuisti"
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/confirmDialog.tsx:66
 #: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/disks/diskEdit.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/disks/diskAdd.tsx:976
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
@@ -383,7 +382,7 @@ msgstr "Vaihda käynnistysjärjestystä"
 msgid "Change firmware"
 msgstr "Vaihda laiteohjelmisto"
 
-#: src/components/common/needsShutdown.tsx:285
+#: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
 msgstr "Muutokset odottavat"
 
@@ -506,7 +505,7 @@ msgstr "$0 ei voitu poistaa"
 msgid "Could not delete all storage for $0"
 msgstr "Ei voitu poistaa kaikkea tallennustilaa $0:lle"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:162
+#: src/components/vm/disks/vmDiskColumns.tsx:159
 msgid "Could not delete disk's storage"
 msgstr "Ei voitu poistaa levyn tallennustilaa"
 
@@ -765,11 +764,11 @@ msgstr "Katkaise yhteys"
 msgid "Disconnected"
 msgstr "Yhteys katkaistu"
 
-#: src/components/common/needsShutdown.tsx:174
+#: src/components/common/needsShutdown.tsx:182
 msgid "Disk"
 msgstr "Levy"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:176
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
 msgstr "Levyä $0 ei voitu poistaa"
 
@@ -797,7 +796,7 @@ msgstr "Levykuvan polku ei voi olla tyhjä"
 msgid "Disk images can be stored in user home directory"
 msgstr "Levykuvat voidaan tallentaa käyttäjän kotihakemistoon"
 
-#: src/components/vm/disks/diskEdit.tsx:266
+#: src/components/vm/disks/diskEdit.tsx:187
 msgid "Disk settings could not be saved"
 msgstr "Levyn asetuksia ei voitu tallentaa"
 
@@ -871,11 +870,11 @@ msgid "Dying"
 msgstr "Kuolemassa"
 
 #: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/diskEdit.tsx:203
+#: src/components/vm/disks/diskEdit.tsx:246
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: src/components/vm/disks/diskEdit.tsx:311
+#: src/components/vm/disks/diskEdit.tsx:201
 msgid "Edit $0 attributes"
 msgstr "Muokkaa $0 attribuuttia"
 
@@ -910,7 +909,7 @@ msgid "Editing transient network interfaces is not allowed"
 msgstr "Väliaikaisten verkkoliitäntöjen muokkaaminen ei ole sallittua"
 
 #: src/components/vm/disks/mediaEject.tsx:109
-#: src/components/vm/disks/vmDiskColumns.tsx:238
+#: src/components/vm/disks/vmDiskColumns.tsx:235
 msgid "Eject"
 msgstr "Poista"
 
@@ -1097,7 +1096,7 @@ msgstr "Pakota sammutus ja käynnistä uudelleen"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:107
-#: src/components/vm/disks/vmDiskColumns.tsx:133
+#: src/components/vm/disks/vmDiskColumns.tsx:130
 msgid "Format"
 msgstr "Alusta"
 
@@ -1228,7 +1227,7 @@ msgstr "Nimen ei saa olla tyhjä"
 msgid "Hypervisor details"
 msgstr "Hypervisorin yksityiskohdat"
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:42
 msgid "ID"
 msgstr "Tunniste"
 
@@ -1384,7 +1383,7 @@ msgid "Input Device Controller"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:973
-#: src/components/vm/disks/vmDiskColumns.tsx:230
+#: src/components/vm/disks/vmDiskColumns.tsx:227
 msgid "Insert"
 msgstr "Insert"
 
@@ -1550,13 +1549,9 @@ msgstr "MAC-osoite on jo käytössä"
 msgid "MAC address must not be empty"
 msgstr "MAC-osoite ei saa olla tyhjä"
 
-#: src/components/vm/disks/diskEdit.tsx:122
+#: src/components/vm/disks/diskEdit.tsx:79
 msgid "Machine must be shut off before changing bus type"
 msgstr "Kone on sammutettava ennen väylätyypin vaihtamista"
-
-#: src/components/vm/disks/diskEdit.tsx:80
-msgid "Machine must be shut off before changing cache mode"
-msgstr "Kone on sammutettava ennen välimuistiin tilan vaihtamista"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1807,7 +1802,7 @@ msgstr "Verkkokäynnistys (PXE)"
 msgid "Network file system"
 msgstr "Verkkotiedostojärjestelmä"
 
-#: src/components/common/needsShutdown.tsx:187
+#: src/components/common/needsShutdown.tsx:195
 msgid "Network interface"
 msgstr "verkkoliitäntä"
 
@@ -1865,7 +1860,7 @@ msgstr "Käynnistyslaitetta ei löytynyt"
 msgid "No description"
 msgstr "Ei kuvausta"
 
-#: src/components/vm/disks/vmDisksCard.tsx:281
+#: src/components/vm/disks/vmDisksCard.tsx:287
 msgid "No disks"
 msgstr "Ei levyjä"
 
@@ -2056,7 +2051,7 @@ msgstr "Salasanan on oltava enintään kahdeksan merkkiä pitkä."
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/deleteDialog.tsx:67
-#: src/components/vm/disks/diskEdit.tsx:50
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "Path"
 msgstr "Polku"
 
@@ -2278,7 +2273,7 @@ msgstr "Julkinen avain"
 msgid "Range"
 msgstr "Alue"
 
-#: src/components/vm/disks/diskEdit.tsx:161
+#: src/components/vm/disks/diskEdit.tsx:108
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Read-only"
 msgstr "Vain luku"
@@ -2331,8 +2326,8 @@ msgstr "Etäkatselimet voivat muodostaa yhteyden seuraavaan osoitteeseen:"
 #: src/components/vm/nics/vmNicsCard.tsx:709
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/disks/vmDiskColumns.tsx:175
-#: src/components/vm/disks/vmDiskColumns.tsx:256
+#: src/components/vm/disks/vmDiskColumns.tsx:172
+#: src/components/vm/disks/vmDiskColumns.tsx:253
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/networks/networkOverviewTab.tsx:68
@@ -2343,11 +2338,11 @@ msgstr "Poista"
 msgid "Remove SPICE audio and host devices"
 msgstr "Poista SPICE-ääni- ja isäntälaitteet"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:188
+#: src/components/vm/disks/vmDiskColumns.tsx:185
 msgid "Remove and delete file"
 msgstr "Poista ja poista tiedosto"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:174
+#: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "Remove disk from VM?"
 msgstr "Poistetaanko levy VM:stä?"
 
@@ -2482,7 +2477,7 @@ msgstr "Suorita, kun isäntä käynnistyy"
 msgid "Running"
 msgstr "Käynnissä"
 
-#: src/components/common/needsShutdown.tsx:206
+#: src/components/common/needsShutdown.tsx:214
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2515,7 +2510,7 @@ msgstr ""
 #: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/disks/diskEdit.tsx:324
+#: src/components/vm/disks/diskEdit.tsx:209
 msgid "Save"
 msgstr "Tallenna"
 
@@ -2541,7 +2536,7 @@ msgstr "Lähetä kohteeseen $0 ei-peitettävä keskeytys?"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:132
+#: src/components/vm/disks/vmDiskColumns.tsx:129
 msgid "Serial"
 msgstr "Sarjanumero"
 
@@ -2555,7 +2550,7 @@ msgstr "Sarja ($0)"
 msgid "Serial Bus Controller"
 msgstr "Sarjakonsoli"
 
-#: src/components/common/needsShutdown.tsx:214
+#: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
 msgstr "Sarjakonsoli"
 
@@ -2630,7 +2625,7 @@ msgstr "Sammuta"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Sammuta virtuaalikone, jotta voit muokata laiteohjelmiston kokoonpanoa"
 
-#: src/components/common/needsShutdown.tsx:270
+#: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/consoles/serial.tsx:190
 #: src/components/vm/consoles/vnc.tsx:694 src/components/vm/vmActions.tsx:525
 msgid "Shutdown and restart"
@@ -2695,7 +2690,7 @@ msgstr "Tilannevedosten avulla voit palata aiempaan tilaan"
 msgid "Sockets"
 msgstr "Pistokkeet"
 
-#: src/components/common/needsShutdown.tsx:251
+#: src/components/common/needsShutdown.tsx:259
 msgid ""
 "Some configuration changes only take effect after a complete shutdown and "
 "restart:"
@@ -2837,7 +2832,7 @@ msgstr "Tallennusvarantoja ei voitu hakea"
 msgid "Storage size must not be 0"
 msgstr "Tallennuskoko ei saa olla 0"
 
-#: src/components/vm/disks/diskEdit.tsx:54
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Storage volume"
 msgstr "Varastointivarannon taltio"
 
@@ -2884,7 +2879,7 @@ msgstr "TAP-laite"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/components/common/needsShutdown.tsx:218
+#: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
 msgstr "TPM"
 
@@ -2895,7 +2890,7 @@ msgstr "Taulukko valittavista olevista isäntälaitteista"
 #: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/nics/vmNicsCard.tsx:603
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/disks/vmDiskColumns.tsx:179
+#: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 msgid "Target"
 msgstr "Kohde"
@@ -2930,7 +2925,7 @@ msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.tsx:710
 #: src/components/vm/nics/vmNicsCard.tsx:718
-#: src/components/vm/disks/vmDiskColumns.tsx:264
+#: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "Virtuaalikoneen on oltava käynnissä tai sammutettuna laitteen irrottamiseksi"
@@ -3008,7 +3003,7 @@ msgstr "Tämä virtuaalikone on ohimenevä. Sammuta se, jos haluat poistaa sen."
 msgid "This browser does not support WebGL2."
 msgstr "Tämä selain ei tue WebGL2:ta."
 
-#: src/components/vm/disks/vmDiskColumns.tsx:177
+#: src/components/vm/disks/vmDiskColumns.tsx:174
 msgid "This disk will be removed from $0:"
 msgstr "Tämä levy poistetaan $0:sta:"
 
@@ -3156,7 +3151,7 @@ msgstr "Määrittämätön"
 msgid "Unsupported and older operating systems"
 msgstr "Ei tuetut ja vanhemmat käyttöjärjestelmät"
 
-#: src/components/vm/disks/diskEdit.tsx:52
+#: src/components/vm/disks/diskEdit.tsx:46
 msgid "Url"
 msgstr "Url"
 
@@ -3281,7 +3276,7 @@ msgstr ""
 "VM julkaistiin etuoikeutetulla rajoitetulla pääsyllä, jossa prosessin ja "
 "PTY:n omistaa käyttäjätilisi"
 
-#: src/components/common/needsShutdown.tsx:275
+#: src/components/common/needsShutdown.tsx:283
 msgid "VM needs shutdown"
 msgstr "Virtuaalikone vaatii sammutuksen"
 
@@ -3293,7 +3288,7 @@ msgstr "Virtuaalikoneen tila"
 msgid "VM will launch with root permissions"
 msgstr "VM käynnistyy pääkäyttäjän oikeuksin"
 
-#: src/components/common/needsShutdown.tsx:210
+#: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
 msgstr "VNC"
 
@@ -3386,7 +3381,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:198
 msgid "Watchdog"
 msgstr "Vahtikoira"
@@ -3405,7 +3400,7 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:170
+#: src/components/vm/disks/diskEdit.tsx:112
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Writeable"
 msgstr "Kirjoitettava"
@@ -3621,7 +3616,7 @@ msgstr "vCPU-lasku"
 msgid "vCPU maximum"
 msgstr "vCPU enintään"
 
-#: src/components/common/needsShutdown.tsx:194
+#: src/components/common/needsShutdown.tsx:202
 msgid "vCPUs"
 msgstr "vCPU:t"
 
@@ -3674,6 +3669,9 @@ msgstr "odotetaan"
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "kyllä"
+
+#~ msgid "Machine must be shut off before changing cache mode"
+#~ msgstr "Kone on sammutettava ennen välimuistiin tilan vaihtamista"
 
 #~ msgid "Additional"
 #~ msgstr "Ylimääräinen"

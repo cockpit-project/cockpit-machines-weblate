@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 04:50+0000\n"
+"POT-Creation-Date: 2026-02-18 04:34+0000\n"
 "PO-Revision-Date: 2026-02-03 08:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -91,7 +91,7 @@ msgstr ""
 "VM의 복사는 대상에서 실행해야 하고 이를 종료 할 때에 사라집니다. 그 동안에, "
 "원래 호스트는 VM 구성의 복사를 유지합니다."
 
-#: src/components/vm/disks/diskEdit.tsx:153
+#: src/components/vm/disks/diskEdit.tsx:128
 #: src/components/vm/disks/vmDisksCard.tsx:252
 msgid "Access"
 msgstr "접근"
@@ -307,7 +307,7 @@ msgstr "브릿지"
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/disks/diskEdit.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 #: src/components/vm/disks/diskAdd.tsx:294
 #: src/components/vm/disks/vmDisksCard.tsx:247
 msgid "Bus"
@@ -317,7 +317,7 @@ msgstr "버스"
 msgid "CD/DVD disc"
 msgstr "CD/DVD 디스크"
 
-#: src/components/common/needsShutdown.tsx:198
+#: src/components/common/needsShutdown.tsx:206
 #: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:93
 #: src/components/vms/hostvmslist.tsx:301
@@ -328,9 +328,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "CPU 설정을 저장 할 수 없습니다"
 
-#: src/components/vm/disks/diskEdit.tsx:78
+#: src/components/vm/disks/diskEdit.tsx:165
 #: src/components/vm/disks/diskAdd.tsx:283
-#: src/components/vm/disks/vmDiskColumns.tsx:131
+#: src/components/vm/disks/vmDisksCard.tsx:263
 msgid "Cache"
 msgstr "캐쉬"
 
@@ -355,7 +355,6 @@ msgstr "캐쉬"
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/confirmDialog.tsx:66
 #: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/disks/diskEdit.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/disks/diskAdd.tsx:976
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
@@ -381,7 +380,7 @@ msgstr "부팅 순서 변경"
 msgid "Change firmware"
 msgstr "펌웨어 변경"
 
-#: src/components/common/needsShutdown.tsx:285
+#: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
 msgstr "보류 중인 변경 부분"
 
@@ -505,7 +504,7 @@ msgstr "$0를 삭제 할 수 없습니다"
 msgid "Could not delete all storage for $0"
 msgstr "$0를 위해 모든 저장소를 삭제 할 수 없습니다"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:162
+#: src/components/vm/disks/vmDiskColumns.tsx:159
 msgid "Could not delete disk's storage"
 msgstr "디스크 저장소를 삭제 할 수 없습니다"
 
@@ -759,11 +758,11 @@ msgstr "연결 끊김"
 msgid "Disconnected"
 msgstr "연결 끊김"
 
-#: src/components/common/needsShutdown.tsx:174
+#: src/components/common/needsShutdown.tsx:182
 msgid "Disk"
 msgstr "디스크"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:176
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
 msgstr "디스크 $0는 제거 될 수 없습니다"
 
@@ -791,7 +790,7 @@ msgstr "디스크 이름 경로는 비워두면 안됩니다"
 msgid "Disk images can be stored in user home directory"
 msgstr "디스크 이미지는 사용자 홈 디렉토리에 저장 될 수 있습니다"
 
-#: src/components/vm/disks/diskEdit.tsx:266
+#: src/components/vm/disks/diskEdit.tsx:187
 msgid "Disk settings could not be saved"
 msgstr "디스크 설정을 저장 할 수 없습니다"
 
@@ -861,11 +860,11 @@ msgid "Dying"
 msgstr "종료 중"
 
 #: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/diskEdit.tsx:203
+#: src/components/vm/disks/diskEdit.tsx:246
 msgid "Edit"
 msgstr "편집"
 
-#: src/components/vm/disks/diskEdit.tsx:311
+#: src/components/vm/disks/diskEdit.tsx:201
 msgid "Edit $0 attributes"
 msgstr "$0 속성 편집"
 
@@ -899,7 +898,7 @@ msgid "Editing transient network interfaces is not allowed"
 msgstr "임시 네트워크 연결장치 편집하기는 허용되지 않습니다"
 
 #: src/components/vm/disks/mediaEject.tsx:109
-#: src/components/vm/disks/vmDiskColumns.tsx:238
+#: src/components/vm/disks/vmDiskColumns.tsx:235
 msgid "Eject"
 msgstr "꺼내기"
 
@@ -1084,7 +1083,7 @@ msgstr "강제 종료 및 재시작"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:107
-#: src/components/vm/disks/vmDiskColumns.tsx:133
+#: src/components/vm/disks/vmDiskColumns.tsx:130
 msgid "Format"
 msgstr "포멧"
 
@@ -1215,7 +1214,7 @@ msgstr "호스트는 비워둘 수 없습니다"
 msgid "Hypervisor details"
 msgstr "하이퍼바이저 세부 사항"
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:42
 msgid "ID"
 msgstr "ID"
 
@@ -1372,7 +1371,7 @@ msgid "Input Device Controller"
 msgstr "입력 장치 제어기"
 
 #: src/components/vm/disks/diskAdd.tsx:973
-#: src/components/vm/disks/vmDiskColumns.tsx:230
+#: src/components/vm/disks/vmDiskColumns.tsx:227
 msgid "Insert"
 msgstr "Insert"
 
@@ -1541,13 +1540,9 @@ msgstr "MAC 주사기 이미 사용중입니다"
 msgid "MAC address must not be empty"
 msgstr "맥 주소는 비워두면 안됩니다"
 
-#: src/components/vm/disks/diskEdit.tsx:122
+#: src/components/vm/disks/diskEdit.tsx:79
 msgid "Machine must be shut off before changing bus type"
 msgstr "버스 유형을 변경하기 전에 장치를 종료해야 합니다"
-
-#: src/components/vm/disks/diskEdit.tsx:80
-msgid "Machine must be shut off before changing cache mode"
-msgstr "캐쉬 방법을 변경하기 전에 장치를 종료해야 합니다"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1788,7 +1783,7 @@ msgstr "네트워크 부팅(PXE)"
 msgid "Network file system"
 msgstr "네트워크 파일 시스템"
 
-#: src/components/common/needsShutdown.tsx:187
+#: src/components/common/needsShutdown.tsx:195
 msgid "Network interface"
 msgstr "네트워크 연결장치"
 
@@ -1846,7 +1841,7 @@ msgstr "부팅 장치를 찾을 수 없습니다"
 msgid "No description"
 msgstr "설명 없음"
 
-#: src/components/vm/disks/vmDisksCard.tsx:281
+#: src/components/vm/disks/vmDisksCard.tsx:287
 msgid "No disks"
 msgstr "디스크 없음"
 
@@ -2037,7 +2032,7 @@ msgstr "비밀번호는 최대 8자까지입니다."
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/deleteDialog.tsx:67
-#: src/components/vm/disks/diskEdit.tsx:50
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "Path"
 msgstr "경로"
 
@@ -2258,7 +2253,7 @@ msgstr "공개 키"
 msgid "Range"
 msgstr "범위"
 
-#: src/components/vm/disks/diskEdit.tsx:161
+#: src/components/vm/disks/diskEdit.tsx:108
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Read-only"
 msgstr "읽기-전용"
@@ -2310,8 +2305,8 @@ msgstr "원격 표시기 응용프로그램은 다음 주소로 연결 할 수 �
 #: src/components/vm/nics/vmNicsCard.tsx:709
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/disks/vmDiskColumns.tsx:175
-#: src/components/vm/disks/vmDiskColumns.tsx:256
+#: src/components/vm/disks/vmDiskColumns.tsx:172
+#: src/components/vm/disks/vmDiskColumns.tsx:253
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/networks/networkOverviewTab.tsx:68
@@ -2322,11 +2317,11 @@ msgstr "제거"
 msgid "Remove SPICE audio and host devices"
 msgstr "SPICE 오디오와 호스트 장치를 제거합니다"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:188
+#: src/components/vm/disks/vmDiskColumns.tsx:185
 msgid "Remove and delete file"
 msgstr "제거하고 파일을 삭제합니다"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:174
+#: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "Remove disk from VM?"
 msgstr "VM에서 디스크 제거?"
 
@@ -2457,7 +2452,7 @@ msgstr "호스트 부팅 시 실행"
 msgid "Running"
 msgstr "작동중"
 
-#: src/components/common/needsShutdown.tsx:206
+#: src/components/common/needsShutdown.tsx:214
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2489,7 +2484,7 @@ msgstr "위성 통신 제어기"
 #: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/disks/diskEdit.tsx:324
+#: src/components/vm/disks/diskEdit.tsx:209
 msgid "Save"
 msgstr "저장"
 
@@ -2515,7 +2510,7 @@ msgstr "마스크 불가능 인터럽트를 $0로 보낼까요?"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:132
+#: src/components/vm/disks/vmDiskColumns.tsx:129
 msgid "Serial"
 msgstr "직렬"
 
@@ -2527,7 +2522,7 @@ msgstr "직렬 ($0)"
 msgid "Serial Bus Controller"
 msgstr "직렬 버스 제어기"
 
-#: src/components/common/needsShutdown.tsx:214
+#: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
 msgstr "직렬 콘솔"
 
@@ -2606,7 +2601,7 @@ msgstr "종료"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "펌웨어 구성을 편집하려면 VM을 종료하십시오"
 
-#: src/components/common/needsShutdown.tsx:270
+#: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/consoles/serial.tsx:190
 #: src/components/vm/consoles/vnc.tsx:694 src/components/vm/vmActions.tsx:525
 msgid "Shutdown and restart"
@@ -2673,7 +2668,7 @@ msgstr "순간찍기는 당신이 이전 상태로 되돌 수 있도록 합니�
 msgid "Sockets"
 msgstr "소켓"
 
-#: src/components/common/needsShutdown.tsx:251
+#: src/components/common/needsShutdown.tsx:259
 msgid ""
 "Some configuration changes only take effect after a complete shutdown and "
 "restart:"
@@ -2813,7 +2808,7 @@ msgstr "저장소 풀은 가져 올 수 없습니다"
 msgid "Storage size must not be 0"
 msgstr "저장소 크기가 0이 되어서는 안됩니다"
 
-#: src/components/vm/disks/diskEdit.tsx:54
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Storage volume"
 msgstr "저장소 볼륨"
 
@@ -2861,7 +2856,7 @@ msgstr "탭 장치"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/components/common/needsShutdown.tsx:218
+#: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
 msgstr "TPM"
 
@@ -2872,7 +2867,7 @@ msgstr "선택 할 수 있는 호스트 장치의 표"
 #: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/nics/vmNicsCard.tsx:603
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/disks/vmDiskColumns.tsx:179
+#: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 msgid "Target"
 msgstr "대상"
@@ -2904,7 +2899,7 @@ msgstr "VM $0는 실행되고 있으므로 삭제 전 강제로 종료됩니다.
 
 #: src/components/vm/nics/vmNicsCard.tsx:710
 #: src/components/vm/nics/vmNicsCard.tsx:718
-#: src/components/vm/disks/vmDiskColumns.tsx:264
+#: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "이 장치를 분리하려면 VM이 실행 중이거나 종료되어 있어야합니다"
 
@@ -2979,7 +2974,7 @@ msgstr "이 VM은 일시적입니다. 삭제하려면 VM을 종료하십시오."
 msgid "This browser does not support WebGL2."
 msgstr "이 웹 검색기는 WebGL2를 지원하지 않습니다."
 
-#: src/components/vm/disks/vmDiskColumns.tsx:177
+#: src/components/vm/disks/vmDiskColumns.tsx:174
 msgid "This disk will be removed from $0:"
 msgstr "이 디스크는 $0에서 제거됩니다:"
 
@@ -3119,7 +3114,7 @@ msgstr "지정되지 않음"
 msgid "Unsupported and older operating systems"
 msgstr "미지원 및 오래된 운영 체제"
 
-#: src/components/vm/disks/diskEdit.tsx:52
+#: src/components/vm/disks/diskEdit.tsx:46
 msgid "Url"
 msgstr "URL"
 
@@ -3240,7 +3235,7 @@ msgstr ""
 "자신의 사용자 계정에 의해 소유한 프로세스와 PTY와 함께 권한 없이 제한된 접근"
 "으로 시작된 가상장비"
 
-#: src/components/common/needsShutdown.tsx:275
+#: src/components/common/needsShutdown.tsx:283
 msgid "VM needs shutdown"
 msgstr "VM 종료가 필요합니다"
 
@@ -3252,7 +3247,7 @@ msgstr "VM 상태"
 msgid "VM will launch with root permissions"
 msgstr "가상장비는 root 권한으로 시작합니다"
 
-#: src/components/common/needsShutdown.tsx:210
+#: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
 msgstr "VNC"
 
@@ -3347,7 +3342,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:198
 msgid "Watchdog"
 msgstr "와치독"
@@ -3366,7 +3361,7 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr "무선 제어기"
 
-#: src/components/vm/disks/diskEdit.tsx:170
+#: src/components/vm/disks/diskEdit.tsx:112
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Writeable"
 msgstr "쓰기 가능"
@@ -3585,7 +3580,7 @@ msgstr "vCPU 최대"
 # auto translated by TM merge from project: RHEV Administration Guide,
 # version: 3.6-async1, DocId: chap-
 # Administering_and_Maintaining_the_Red_Hat_Enterprise_Virtualization_Environment
-#: src/components/common/needsShutdown.tsx:194
+#: src/components/common/needsShutdown.tsx:202
 msgid "vCPUs"
 msgstr "vCPU"
 
@@ -3633,6 +3628,9 @@ msgstr "대기 중"
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "예"
+
+#~ msgid "Machine must be shut off before changing cache mode"
+#~ msgstr "캐쉬 방법을 변경하기 전에 장치를 종료해야 합니다"
 
 #~ msgid "Additional"
 #~ msgstr "추가"

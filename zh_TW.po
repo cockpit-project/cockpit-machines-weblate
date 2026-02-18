@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 04:50+0000\n"
+"POT-Creation-Date: 2026-02-18 04:34+0000\n"
 "PO-Revision-Date: 2026-01-27 21:58+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -87,7 +87,7 @@ msgstr ""
 "虛擬機器的副本將在目的地上執行，且將在虛擬機器關閉後消失。同時，原本的主機會"
 "保留其原有虛擬機器的設定值。"
 
-#: src/components/vm/disks/diskEdit.tsx:153
+#: src/components/vm/disks/diskEdit.tsx:128
 #: src/components/vm/disks/vmDisksCard.tsx:252
 msgid "Access"
 msgstr "存取"
@@ -305,7 +305,7 @@ msgstr "橋接"
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/disks/diskEdit.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 #: src/components/vm/disks/diskAdd.tsx:294
 #: src/components/vm/disks/vmDisksCard.tsx:247
 msgid "Bus"
@@ -315,7 +315,7 @@ msgstr "匯流排"
 msgid "CD/DVD disc"
 msgstr "CD/DVD 光碟"
 
-#: src/components/common/needsShutdown.tsx:198
+#: src/components/common/needsShutdown.tsx:206
 #: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:93
 #: src/components/vms/hostvmslist.tsx:301
@@ -326,9 +326,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "無法儲存 CPU 模式"
 
-#: src/components/vm/disks/diskEdit.tsx:78
+#: src/components/vm/disks/diskEdit.tsx:165
 #: src/components/vm/disks/diskAdd.tsx:283
-#: src/components/vm/disks/vmDiskColumns.tsx:131
+#: src/components/vm/disks/vmDisksCard.tsx:263
 msgid "Cache"
 msgstr "快取"
 
@@ -353,7 +353,6 @@ msgstr "快取"
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/confirmDialog.tsx:66
 #: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/disks/diskEdit.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/disks/diskAdd.tsx:976
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
@@ -379,7 +378,7 @@ msgstr "變更開機順序"
 msgid "Change firmware"
 msgstr "變更韌體"
 
-#: src/components/common/needsShutdown.tsx:285
+#: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
 msgstr "未套用的變更"
 
@@ -502,7 +501,7 @@ msgstr "無法刪除 $0"
 msgid "Could not delete all storage for $0"
 msgstr "無法刪除 $0 的所有儲存空間"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:162
+#: src/components/vm/disks/vmDiskColumns.tsx:159
 msgid "Could not delete disk's storage"
 msgstr "無法刪除磁碟的儲存空間"
 
@@ -755,11 +754,11 @@ msgstr "中斷連線"
 msgid "Disconnected"
 msgstr "已斷線"
 
-#: src/components/common/needsShutdown.tsx:174
+#: src/components/common/needsShutdown.tsx:182
 msgid "Disk"
 msgstr "磁碟"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:176
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
 msgstr "無法移除磁碟 $0"
 
@@ -787,7 +786,7 @@ msgstr "磁碟映像路徑不可為空值"
 msgid "Disk images can be stored in user home directory"
 msgstr "磁碟映像檔可以被儲存在使用者的家目錄"
 
-#: src/components/vm/disks/diskEdit.tsx:266
+#: src/components/vm/disks/diskEdit.tsx:187
 msgid "Disk settings could not be saved"
 msgstr "磁碟設定無法儲存"
 
@@ -857,11 +856,11 @@ msgid "Dying"
 msgstr "垂死"
 
 #: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/diskEdit.tsx:203
+#: src/components/vm/disks/diskEdit.tsx:246
 msgid "Edit"
 msgstr "編輯"
 
-#: src/components/vm/disks/diskEdit.tsx:311
+#: src/components/vm/disks/diskEdit.tsx:201
 msgid "Edit $0 attributes"
 msgstr "編輯 $0 屬性"
 
@@ -895,7 +894,7 @@ msgid "Editing transient network interfaces is not allowed"
 msgstr "不允許編輯暫時性網路介面"
 
 #: src/components/vm/disks/mediaEject.tsx:109
-#: src/components/vm/disks/vmDiskColumns.tsx:238
+#: src/components/vm/disks/vmDiskColumns.tsx:235
 msgid "Eject"
 msgstr "退出"
 
@@ -1086,7 +1085,7 @@ msgstr "強制關機"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:107
-#: src/components/vm/disks/vmDiskColumns.tsx:133
+#: src/components/vm/disks/vmDiskColumns.tsx:130
 msgid "Format"
 msgstr "格式"
 
@@ -1222,7 +1221,7 @@ msgstr "主機不應為空值"
 msgid "Hypervisor details"
 msgstr "虛擬機器管理程式詳細資料"
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:42
 msgid "ID"
 msgstr "ID"
 
@@ -1379,7 +1378,7 @@ msgid "Input Device Controller"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:973
-#: src/components/vm/disks/vmDiskColumns.tsx:230
+#: src/components/vm/disks/vmDiskColumns.tsx:227
 msgid "Insert"
 msgstr "插入"
 
@@ -1547,13 +1546,9 @@ msgstr "MAC 位址已被使用"
 msgid "MAC address must not be empty"
 msgstr "MAC 位址不得為空值"
 
-#: src/components/vm/disks/diskEdit.tsx:122
+#: src/components/vm/disks/diskEdit.tsx:79
 msgid "Machine must be shut off before changing bus type"
 msgstr "必須先將機器關機才能變更匯流排類型"
-
-#: src/components/vm/disks/diskEdit.tsx:80
-msgid "Machine must be shut off before changing cache mode"
-msgstr "必須先將機器關機才能變更快取模式"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1801,7 +1796,7 @@ msgstr "網路開機 (PXE)"
 msgid "Network file system"
 msgstr "網絡檔案系統"
 
-#: src/components/common/needsShutdown.tsx:187
+#: src/components/common/needsShutdown.tsx:195
 msgid "Network interface"
 msgstr "網路介面"
 
@@ -1859,7 +1854,7 @@ msgstr "找不到開機裝置"
 msgid "No description"
 msgstr "無描述"
 
-#: src/components/vm/disks/vmDisksCard.tsx:281
+#: src/components/vm/disks/vmDisksCard.tsx:287
 #, fuzzy
 #| msgid "disk"
 msgid "No disks"
@@ -2054,7 +2049,7 @@ msgstr "密碼最多必須有 8 個字元。"
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/deleteDialog.tsx:67
-#: src/components/vm/disks/diskEdit.tsx:50
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "Path"
 msgstr "路徑"
 
@@ -2274,7 +2269,7 @@ msgstr "公鑰"
 msgid "Range"
 msgstr "範圍"
 
-#: src/components/vm/disks/diskEdit.tsx:161
+#: src/components/vm/disks/diskEdit.tsx:108
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Read-only"
 msgstr "唯讀"
@@ -2326,8 +2321,8 @@ msgstr "遠端檢視器應用程式可連線至下列位址："
 #: src/components/vm/nics/vmNicsCard.tsx:709
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/disks/vmDiskColumns.tsx:175
-#: src/components/vm/disks/vmDiskColumns.tsx:256
+#: src/components/vm/disks/vmDiskColumns.tsx:172
+#: src/components/vm/disks/vmDiskColumns.tsx:253
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/networks/networkOverviewTab.tsx:68
@@ -2338,11 +2333,11 @@ msgstr "移除"
 msgid "Remove SPICE audio and host devices"
 msgstr "移除 SPICE 音訊與主機裝置"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:188
+#: src/components/vm/disks/vmDiskColumns.tsx:185
 msgid "Remove and delete file"
 msgstr "移除並刪除檔案"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:174
+#: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "Remove disk from VM?"
 msgstr "從虛擬機器移除磁碟？"
 
@@ -2473,7 +2468,7 @@ msgstr "在主機開機時執行"
 msgid "Running"
 msgstr "執行中"
 
-#: src/components/common/needsShutdown.tsx:206
+#: src/components/common/needsShutdown.tsx:214
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2504,7 +2499,7 @@ msgstr ""
 #: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/disks/diskEdit.tsx:324
+#: src/components/vm/disks/diskEdit.tsx:209
 msgid "Save"
 msgstr "儲存"
 
@@ -2530,7 +2525,7 @@ msgstr "對 $0 送出非可遮蔽中斷？"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:132
+#: src/components/vm/disks/vmDiskColumns.tsx:129
 msgid "Serial"
 msgstr "序號"
 
@@ -2544,7 +2539,7 @@ msgstr "序列埠 ($0)"
 msgid "Serial Bus Controller"
 msgstr "序列控制台"
 
-#: src/components/common/needsShutdown.tsx:214
+#: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
 msgstr "序列控制台"
 
@@ -2621,7 +2616,7 @@ msgstr "關閉"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "將虛擬機器關機以編輯韌體設定"
 
-#: src/components/common/needsShutdown.tsx:270
+#: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/consoles/serial.tsx:190
 #: src/components/vm/consoles/vnc.tsx:694 src/components/vm/vmActions.tsx:525
 msgid "Shutdown and restart"
@@ -2694,7 +2689,7 @@ msgstr "先前建立的快照允許您在發生意外時還原到先前的狀態
 msgid "Sockets"
 msgstr "插槽"
 
-#: src/components/common/needsShutdown.tsx:251
+#: src/components/common/needsShutdown.tsx:259
 #, fuzzy
 #| msgid "Some configuration changes only take effect after a fresh boot:"
 msgid ""
@@ -2836,7 +2831,7 @@ msgstr "無法取得儲存集區"
 msgid "Storage size must not be 0"
 msgstr "儲存空間大小必須不為 0"
 
-#: src/components/vm/disks/diskEdit.tsx:54
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Storage volume"
 msgstr "儲存磁碟區"
 
@@ -2886,7 +2881,7 @@ msgstr "TAP 裝置"
 msgid "TCP"
 msgstr "CPU"
 
-#: src/components/common/needsShutdown.tsx:218
+#: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
 msgstr "TPM"
 
@@ -2897,7 +2892,7 @@ msgstr "可選擇的主機裝置列表"
 #: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/nics/vmNicsCard.tsx:603
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/disks/vmDiskColumns.tsx:179
+#: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 msgid "Target"
 msgstr "目標"
@@ -2931,7 +2926,7 @@ msgstr "虛擬機器 $0 正在執行中，將在刪除前被強制關閉。"
 
 #: src/components/vm/nics/vmNicsCard.tsx:710
 #: src/components/vm/nics/vmNicsCard.tsx:718
-#: src/components/vm/disks/vmDiskColumns.tsx:264
+#: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "虛擬機器須為執行中或已關閉，才能拆離此裝置"
 
@@ -3005,7 +3000,7 @@ msgstr "此虛擬機器是暫時的。如果想要刪除它，將其關機即可
 msgid "This browser does not support WebGL2."
 msgstr "Libvirt 或虛擬機器管理程式不支援 UEFI"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:177
+#: src/components/vm/disks/vmDiskColumns.tsx:174
 msgid "This disk will be removed from $0:"
 msgstr "此磁碟將從 $0 被移除："
 
@@ -3141,7 +3136,7 @@ msgstr "未指定"
 msgid "Unsupported and older operating systems"
 msgstr "未受支援與舊版作業系統"
 
-#: src/components/vm/disks/diskEdit.tsx:52
+#: src/components/vm/disks/diskEdit.tsx:46
 msgid "Url"
 msgstr "Url"
 
@@ -3260,7 +3255,7 @@ msgid ""
 msgstr ""
 "虛擬機器以無特權的限制存取模式啟動，其處理程序及 PTY 皆由您的使用者帳號所擁有"
 
-#: src/components/common/needsShutdown.tsx:275
+#: src/components/common/needsShutdown.tsx:283
 msgid "VM needs shutdown"
 msgstr "虛擬機器需要關機"
 
@@ -3272,7 +3267,7 @@ msgstr "虛擬機器狀態"
 msgid "VM will launch with root permissions"
 msgstr "虛擬機器將以 root 權限啟動"
 
-#: src/components/common/needsShutdown.tsx:210
+#: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
 msgstr "VNC"
 
@@ -3366,7 +3361,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:198
 msgid "Watchdog"
 msgstr "看門狗"
@@ -3384,7 +3379,7 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:170
+#: src/components/vm/disks/diskEdit.tsx:112
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Writeable"
 msgstr "可寫入"
@@ -3603,7 +3598,7 @@ msgid "vCPU maximum"
 msgstr "vCPU 最大值"
 
 # ctx::sourcefile::/rhn/systems/details/virtualization/VirtualGuestsList.do
-#: src/components/common/needsShutdown.tsx:194
+#: src/components/common/needsShutdown.tsx:202
 msgid "vCPUs"
 msgstr "vCPUs"
 
@@ -3650,6 +3645,9 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "是"
+
+#~ msgid "Machine must be shut off before changing cache mode"
+#~ msgstr "必須先將機器關機才能變更快取模式"
 
 #~ msgid "Additional"
 #~ msgstr "額外"

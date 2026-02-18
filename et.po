@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 04:50+0000\n"
+"POT-Creation-Date: 2026-02-18 04:34+0000\n"
 "PO-Revision-Date: 2026-02-18 10:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -93,7 +93,7 @@ msgid ""
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:153
+#: src/components/vm/disks/diskEdit.tsx:128
 #: src/components/vm/disks/vmDisksCard.tsx:252
 msgid "Access"
 msgstr "Ligipääs"
@@ -307,7 +307,7 @@ msgstr "Võrgusild"
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/disks/diskEdit.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 #: src/components/vm/disks/diskAdd.tsx:294
 #: src/components/vm/disks/vmDisksCard.tsx:247
 msgid "Bus"
@@ -317,7 +317,7 @@ msgstr "Siin"
 msgid "CD/DVD disc"
 msgstr "CD/DVD-plaat"
 
-#: src/components/common/needsShutdown.tsx:198
+#: src/components/common/needsShutdown.tsx:206
 #: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:93
 #: src/components/vms/hostvmslist.tsx:301
@@ -328,9 +328,9 @@ msgstr "Protsessor"
 msgid "CPU mode could not be saved"
 msgstr "Protsessori režiimi salvestamine ei õnnestunud"
 
-#: src/components/vm/disks/diskEdit.tsx:78
+#: src/components/vm/disks/diskEdit.tsx:165
 #: src/components/vm/disks/diskAdd.tsx:283
-#: src/components/vm/disks/vmDiskColumns.tsx:131
+#: src/components/vm/disks/vmDisksCard.tsx:263
 msgid "Cache"
 msgstr "Vahemälu"
 
@@ -355,7 +355,6 @@ msgstr "Vahemälu"
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/confirmDialog.tsx:66
 #: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/disks/diskEdit.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/disks/diskAdd.tsx:976
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
@@ -381,7 +380,7 @@ msgstr "Muuda alglaadimise järjekorda"
 msgid "Change firmware"
 msgstr "Muuda püsivara"
 
-#: src/components/common/needsShutdown.tsx:285
+#: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
 msgstr "Muudatused on ootel"
 
@@ -498,7 +497,7 @@ msgstr "Kustutamine ei õnnestunud: $0"
 msgid "Could not delete all storage for $0"
 msgstr "Kogu andmeruumi kustutamine ei õnnestunud: $0"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:162
+#: src/components/vm/disks/vmDiskColumns.tsx:159
 msgid "Could not delete disk's storage"
 msgstr "Ketta andmeruumi kustutamine ei õnnestunud"
 
@@ -749,11 +748,11 @@ msgstr "Katkesta ühendus"
 msgid "Disconnected"
 msgstr "Ühendamata"
 
-#: src/components/common/needsShutdown.tsx:174
+#: src/components/common/needsShutdown.tsx:182
 msgid "Disk"
 msgstr "Ketas"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:176
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
 msgstr ""
 
@@ -781,7 +780,7 @@ msgstr ""
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:266
+#: src/components/vm/disks/diskEdit.tsx:187
 msgid "Disk settings could not be saved"
 msgstr "Kettaseadistuste salvestamine ei õnnestunud"
 
@@ -851,11 +850,11 @@ msgid "Dying"
 msgstr "Suremas"
 
 #: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/diskEdit.tsx:203
+#: src/components/vm/disks/diskEdit.tsx:246
 msgid "Edit"
 msgstr "Muuda"
 
-#: src/components/vm/disks/diskEdit.tsx:311
+#: src/components/vm/disks/diskEdit.tsx:201
 msgid "Edit $0 attributes"
 msgstr ""
 
@@ -889,7 +888,7 @@ msgid "Editing transient network interfaces is not allowed"
 msgstr ""
 
 #: src/components/vm/disks/mediaEject.tsx:109
-#: src/components/vm/disks/vmDiskColumns.tsx:238
+#: src/components/vm/disks/vmDiskColumns.tsx:235
 msgid "Eject"
 msgstr "Väljasta"
 
@@ -1074,7 +1073,7 @@ msgstr "Lülita sundkorras välja ja käivita uuesti"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:107
-#: src/components/vm/disks/vmDiskColumns.tsx:133
+#: src/components/vm/disks/vmDiskColumns.tsx:130
 msgid "Format"
 msgstr "Vorming"
 
@@ -1202,7 +1201,7 @@ msgstr ""
 msgid "Hypervisor details"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:42
 msgid "ID"
 msgstr "ID"
 
@@ -1353,7 +1352,7 @@ msgid "Input Device Controller"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:973
-#: src/components/vm/disks/vmDiskColumns.tsx:230
+#: src/components/vm/disks/vmDiskColumns.tsx:227
 msgid "Insert"
 msgstr "Sisesta"
 
@@ -1514,13 +1513,9 @@ msgstr "MAC-aadress on juba kasutuse"
 msgid "MAC address must not be empty"
 msgstr "MAC-aadress ei tohi jääda tühjaks"
 
-#: src/components/vm/disks/diskEdit.tsx:122
+#: src/components/vm/disks/diskEdit.tsx:79
 msgid "Machine must be shut off before changing bus type"
 msgstr "Enne siini tüüpi vahetamist peab masin olema lülitatud välja"
-
-#: src/components/vm/disks/diskEdit.tsx:80
-msgid "Machine must be shut off before changing cache mode"
-msgstr "Enne puhverdusrežiimi vahetamist peab masin olema lülitatud välja"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1759,7 +1754,7 @@ msgstr "Alglaadimine võrgust (PXE)"
 msgid "Network file system"
 msgstr "Võrgupõhine failisüsteem (NFS)"
 
-#: src/components/common/needsShutdown.tsx:187
+#: src/components/common/needsShutdown.tsx:195
 msgid "Network interface"
 msgstr "Võrguliides"
 
@@ -1819,7 +1814,7 @@ msgstr "Alglaadimisseadet ei leidu"
 msgid "No description"
 msgstr "Kirjeldust pole"
 
-#: src/components/vm/disks/vmDisksCard.tsx:281
+#: src/components/vm/disks/vmDisksCard.tsx:287
 msgid "No disks"
 msgstr "Kettaid pole"
 
@@ -2002,7 +1997,7 @@ msgstr "Salasõna pikkus peab olema 8 või vähem tähemärki."
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/deleteDialog.tsx:67
-#: src/components/vm/disks/diskEdit.tsx:50
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "Path"
 msgstr "Asukoht"
 
@@ -2222,7 +2217,7 @@ msgstr "Avalik võti"
 msgid "Range"
 msgstr "Ulatus"
 
-#: src/components/vm/disks/diskEdit.tsx:161
+#: src/components/vm/disks/diskEdit.tsx:108
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Read-only"
 msgstr "Vaid loetav"
@@ -2272,8 +2267,8 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:709
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/disks/vmDiskColumns.tsx:175
-#: src/components/vm/disks/vmDiskColumns.tsx:256
+#: src/components/vm/disks/vmDiskColumns.tsx:172
+#: src/components/vm/disks/vmDiskColumns.tsx:253
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/networks/networkOverviewTab.tsx:68
@@ -2284,11 +2279,11 @@ msgstr "Eemalda"
 msgid "Remove SPICE audio and host devices"
 msgstr "Eemalda SPICE'i heli- ja muud alussüsteemi seadmed"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:188
+#: src/components/vm/disks/vmDiskColumns.tsx:185
 msgid "Remove and delete file"
 msgstr "Eemalda ja kustuta fail"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:174
+#: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "Remove disk from VM?"
 msgstr "Kas eemaldad ketta virtuaalmasinast?"
 
@@ -2417,7 +2412,7 @@ msgstr "Käivita alussüsteemi alglaadimisel"
 msgid "Running"
 msgstr "Töötab"
 
-#: src/components/common/needsShutdown.tsx:206
+#: src/components/common/needsShutdown.tsx:214
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2450,7 +2445,7 @@ msgstr "Satelliitside kontroller"
 #: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/disks/diskEdit.tsx:324
+#: src/components/vm/disks/diskEdit.tsx:209
 msgid "Save"
 msgstr "Salvesta"
 
@@ -2476,7 +2471,7 @@ msgstr "Kas saadame maskeerimatu katkestuse masinale $0?"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:132
+#: src/components/vm/disks/vmDiskColumns.tsx:129
 msgid "Serial"
 msgstr "Jadaühendus"
 
@@ -2488,7 +2483,7 @@ msgstr "Jadaühendus ($0)"
 msgid "Serial Bus Controller"
 msgstr "Jadaühenduse siini kontroller"
 
-#: src/components/common/needsShutdown.tsx:214
+#: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
 msgstr "Jadaühenduse konsool"
 
@@ -2563,7 +2558,7 @@ msgstr "Lülita välja"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "Püsivara seadistuse muutmiseks lülita virtuaalmasin välja"
 
-#: src/components/common/needsShutdown.tsx:270
+#: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/consoles/serial.tsx:190
 #: src/components/vm/consoles/vnc.tsx:694 src/components/vm/vmActions.tsx:525
 msgid "Shutdown and restart"
@@ -2626,7 +2621,7 @@ msgstr ""
 msgid "Sockets"
 msgstr "Soklid"
 
-#: src/components/common/needsShutdown.tsx:251
+#: src/components/common/needsShutdown.tsx:259
 msgid ""
 "Some configuration changes only take effect after a complete shutdown and "
 "restart:"
@@ -2766,7 +2761,7 @@ msgstr "Andmeruumikogumite laadimine ei õnnestunud"
 msgid "Storage size must not be 0"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:54
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Storage volume"
 msgstr ""
 
@@ -2813,7 +2808,7 @@ msgstr "TAP-seade"
 msgid "TCP"
 msgstr "TCP"
 
-#: src/components/common/needsShutdown.tsx:218
+#: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
 msgstr "TPM"
 
@@ -2824,7 +2819,7 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/nics/vmNicsCard.tsx:603
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/disks/vmDiskColumns.tsx:179
+#: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 msgid "Target"
 msgstr "Sihtmärk"
@@ -2856,7 +2851,7 @@ msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.tsx:710
 #: src/components/vm/nics/vmNicsCard.tsx:718
-#: src/components/vm/disks/vmDiskColumns.tsx:264
+#: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 
@@ -2927,7 +2922,7 @@ msgstr ""
 msgid "This browser does not support WebGL2."
 msgstr ""
 
-#: src/components/vm/disks/vmDiskColumns.tsx:177
+#: src/components/vm/disks/vmDiskColumns.tsx:174
 msgid "This disk will be removed from $0:"
 msgstr ""
 
@@ -3060,7 +3055,7 @@ msgstr "Täpsustamata"
 msgid "Unsupported and older operating systems"
 msgstr "Mittetoetatud ja vanemad operatsioonisüsteemid"
 
-#: src/components/vm/disks/diskEdit.tsx:52
+#: src/components/vm/disks/diskEdit.tsx:46
 msgid "Url"
 msgstr "Võrguaadress"
 
@@ -3174,7 +3169,7 @@ msgid ""
 "by your user account"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:275
+#: src/components/common/needsShutdown.tsx:283
 msgid "VM needs shutdown"
 msgstr ""
 
@@ -3186,7 +3181,7 @@ msgstr ""
 msgid "VM will launch with root permissions"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:210
+#: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
 msgstr "VNC"
 
@@ -3276,7 +3271,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:198
 msgid "Watchdog"
 msgstr "Valvetaimer (watchdog)"
@@ -3292,7 +3287,7 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:170
+#: src/components/vm/disks/diskEdit.tsx:112
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Writeable"
 msgstr "Kirjutatav"
@@ -3508,7 +3503,7 @@ msgstr ""
 msgid "vCPU maximum"
 msgstr ""
 
-#: src/components/common/needsShutdown.tsx:194
+#: src/components/common/needsShutdown.tsx:202
 msgid "vCPUs"
 msgstr ""
 
@@ -3555,3 +3550,6 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr ""
+
+#~ msgid "Machine must be shut off before changing cache mode"
+#~ msgstr "Enne puhverdusrežiimi vahetamist peab masin olema lülitatud välja"

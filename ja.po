@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-16 04:50+0000\n"
+"POT-Creation-Date: 2026-02-18 04:34+0000\n"
 "PO-Revision-Date: 2026-02-03 08:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "仮想マシンのコピーは移行先で実行され、シャットダウンしても消えます。一方、作"
 "成元のホストは仮想マシン設定のコピーを保持します。"
 
-#: src/components/vm/disks/diskEdit.tsx:153
+#: src/components/vm/disks/diskEdit.tsx:128
 #: src/components/vm/disks/vmDisksCard.tsx:252
 msgid "Access"
 msgstr "アクセス"
@@ -314,7 +314,7 @@ msgstr "ブリッジ"
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/disks/diskEdit.tsx:120
+#: src/components/vm/disks/diskEdit.tsx:91
 #: src/components/vm/disks/diskAdd.tsx:294
 #: src/components/vm/disks/vmDisksCard.tsx:247
 msgid "Bus"
@@ -324,7 +324,7 @@ msgstr "バス"
 msgid "CD/DVD disc"
 msgstr "CD/DVD ディスク"
 
-#: src/components/common/needsShutdown.tsx:198
+#: src/components/common/needsShutdown.tsx:206
 #: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:93
 #: src/components/vms/hostvmslist.tsx:301
@@ -335,9 +335,9 @@ msgstr "CPU"
 msgid "CPU mode could not be saved"
 msgstr "CPU モードを保存できませんでした"
 
-#: src/components/vm/disks/diskEdit.tsx:78
+#: src/components/vm/disks/diskEdit.tsx:165
 #: src/components/vm/disks/diskAdd.tsx:283
-#: src/components/vm/disks/vmDiskColumns.tsx:131
+#: src/components/vm/disks/vmDisksCard.tsx:263
 msgid "Cache"
 msgstr "キャッシュ"
 
@@ -362,7 +362,6 @@ msgstr "キャッシュ"
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/confirmDialog.tsx:66
 #: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/disks/diskEdit.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/disks/diskAdd.tsx:976
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
@@ -388,7 +387,7 @@ msgstr "ブート順序の変更"
 msgid "Change firmware"
 msgstr "ファームウェアの変更"
 
-#: src/components/common/needsShutdown.tsx:285
+#: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
 msgstr "変更を保留中"
 
@@ -514,7 +513,7 @@ msgstr "$0 を削除できませんでした"
 msgid "Could not delete all storage for $0"
 msgstr "$0 のすべてのストレージを削除できませんでした"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:162
+#: src/components/vm/disks/vmDiskColumns.tsx:159
 msgid "Could not delete disk's storage"
 msgstr "ディスクのストレージを削除できませんでした"
 
@@ -773,11 +772,11 @@ msgstr "切断"
 msgid "Disconnected"
 msgstr "切断されています"
 
-#: src/components/common/needsShutdown.tsx:174
+#: src/components/common/needsShutdown.tsx:182
 msgid "Disk"
 msgstr "ディスク"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:176
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
 msgstr "ディスク $0 は削除できませんでした"
 
@@ -805,7 +804,7 @@ msgstr "ディスクイメージパスは空欄にできません"
 msgid "Disk images can be stored in user home directory"
 msgstr "ディスクイメージはユーザーのホームディレクトリーに保存できます"
 
-#: src/components/vm/disks/diskEdit.tsx:266
+#: src/components/vm/disks/diskEdit.tsx:187
 msgid "Disk settings could not be saved"
 msgstr "ディスク設定を保存できませんでした"
 
@@ -880,11 +879,11 @@ msgid "Dying"
 msgstr "終了中"
 
 #: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/diskEdit.tsx:203
+#: src/components/vm/disks/diskEdit.tsx:246
 msgid "Edit"
 msgstr "編集"
 
-#: src/components/vm/disks/diskEdit.tsx:311
+#: src/components/vm/disks/diskEdit.tsx:201
 msgid "Edit $0 attributes"
 msgstr "$0 属性の編集"
 
@@ -920,7 +919,7 @@ msgid "Editing transient network interfaces is not allowed"
 msgstr "一時的なネットワークインターフェースの編集は許可されていません"
 
 #: src/components/vm/disks/mediaEject.tsx:109
-#: src/components/vm/disks/vmDiskColumns.tsx:238
+#: src/components/vm/disks/vmDiskColumns.tsx:235
 msgid "Eject"
 msgstr "取り出し"
 
@@ -1107,7 +1106,7 @@ msgstr "シャットダウンの強制"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:107
-#: src/components/vm/disks/vmDiskColumns.tsx:133
+#: src/components/vm/disks/vmDiskColumns.tsx:130
 msgid "Format"
 msgstr "フォーマット"
 
@@ -1244,7 +1243,7 @@ msgstr "ホストは空にできません"
 msgid "Hypervisor details"
 msgstr "ハイパーバイザー詳細"
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:42
 msgid "ID"
 msgstr "ID"
 
@@ -1404,7 +1403,7 @@ msgid "Input Device Controller"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:973
-#: src/components/vm/disks/vmDiskColumns.tsx:230
+#: src/components/vm/disks/vmDiskColumns.tsx:227
 msgid "Insert"
 msgstr "挿入"
 
@@ -1576,13 +1575,9 @@ msgstr "MAC アドレスはすでに使用中です"
 msgid "MAC address must not be empty"
 msgstr "MAC アドレスを空欄にすることはできません"
 
-#: src/components/vm/disks/diskEdit.tsx:122
+#: src/components/vm/disks/diskEdit.tsx:79
 msgid "Machine must be shut off before changing bus type"
 msgstr "バスタイプの変更前にマシンをシャットオフする必要があります"
-
-#: src/components/vm/disks/diskEdit.tsx:80
-msgid "Machine must be shut off before changing cache mode"
-msgstr "キャッシュモードの変更前にマシンをシャットオフする必要があります"
 
 #: org.cockpit_project.machines.metainfo.xml:5
 msgid "Machines"
@@ -1831,7 +1826,7 @@ msgstr "ネットワークブート (PXE)"
 msgid "Network file system"
 msgstr "ネットワークファイルシステム"
 
-#: src/components/common/needsShutdown.tsx:187
+#: src/components/common/needsShutdown.tsx:195
 msgid "Network interface"
 msgstr "ネットワークインターフェイス"
 
@@ -1889,7 +1884,7 @@ msgstr "ブートデバイスが見つかりません"
 msgid "No description"
 msgstr "説明なし"
 
-#: src/components/vm/disks/vmDisksCard.tsx:281
+#: src/components/vm/disks/vmDisksCard.tsx:287
 #, fuzzy
 #| msgid "disk"
 msgid "No disks"
@@ -2088,7 +2083,7 @@ msgstr ""
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
 #: src/components/vm/deleteDialog.tsx:67
-#: src/components/vm/disks/diskEdit.tsx:50
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "Path"
 msgstr "パス"
 
@@ -2312,7 +2307,7 @@ msgstr "公開鍵"
 msgid "Range"
 msgstr "範囲"
 
-#: src/components/vm/disks/diskEdit.tsx:161
+#: src/components/vm/disks/diskEdit.tsx:108
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Read-only"
 msgstr "読み取り専用"
@@ -2370,8 +2365,8 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:709
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/disks/vmDiskColumns.tsx:175
-#: src/components/vm/disks/vmDiskColumns.tsx:256
+#: src/components/vm/disks/vmDiskColumns.tsx:172
+#: src/components/vm/disks/vmDiskColumns.tsx:253
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/networks/networkOverviewTab.tsx:68
@@ -2382,11 +2377,11 @@ msgstr "削除"
 msgid "Remove SPICE audio and host devices"
 msgstr "SPICE オーディオおよびホストデバイスの削除"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:188
+#: src/components/vm/disks/vmDiskColumns.tsx:185
 msgid "Remove and delete file"
 msgstr "ファイルの削除"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:174
+#: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "Remove disk from VM?"
 msgstr "仮想マシンからディスクを削除しますか?"
 
@@ -2525,7 +2520,7 @@ msgstr "ホスト起動時に実行します"
 msgid "Running"
 msgstr "実行中"
 
-#: src/components/common/needsShutdown.tsx:206
+#: src/components/common/needsShutdown.tsx:214
 msgid "SPICE"
 msgstr "SPICE"
 
@@ -2558,7 +2553,7 @@ msgstr ""
 #: src/components/vm/nics/nicEdit.tsx:234
 #: src/components/vm/consoles/vnc.tsx:155
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/disks/diskEdit.tsx:324
+#: src/components/vm/disks/diskEdit.tsx:209
 msgid "Save"
 msgstr "保存"
 
@@ -2584,7 +2579,7 @@ msgstr "マスク不可割り込みを $0? に送信します"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:132
+#: src/components/vm/disks/vmDiskColumns.tsx:129
 msgid "Serial"
 msgstr "シリアル"
 
@@ -2600,7 +2595,7 @@ msgstr "シリアルコンソール ($0)"
 msgid "Serial Bus Controller"
 msgstr "シリアルコンソール"
 
-#: src/components/common/needsShutdown.tsx:214
+#: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
 msgstr "シリアルコンソール"
 
@@ -2676,7 +2671,7 @@ msgstr "シャットオフ"
 msgid "Shut off the VM in order to edit firmware configuration"
 msgstr "ファームウェア設定を編集するためにVMをシャットオフ"
 
-#: src/components/common/needsShutdown.tsx:270
+#: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/consoles/serial.tsx:190
 #: src/components/vm/consoles/vnc.tsx:694 src/components/vm/vmActions.tsx:525
 msgid "Shutdown and restart"
@@ -2749,7 +2744,7 @@ msgstr ""
 msgid "Sockets"
 msgstr "ソケット"
 
-#: src/components/common/needsShutdown.tsx:251
+#: src/components/common/needsShutdown.tsx:259
 #, fuzzy
 #| msgid "Some configuration changes only take effect after a fresh boot:"
 msgid ""
@@ -2895,7 +2890,7 @@ msgstr "ストレージプールを取得できませんでした"
 msgid "Storage size must not be 0"
 msgstr "ストレージサイズは 0 であってはいけません"
 
-#: src/components/vm/disks/diskEdit.tsx:54
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Storage volume"
 msgstr "ストレージボリューム"
 
@@ -2947,7 +2942,7 @@ msgstr "TAP デバイス"
 msgid "TCP"
 msgstr "CPU"
 
-#: src/components/common/needsShutdown.tsx:218
+#: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
 msgstr "TPM"
 
@@ -2958,7 +2953,7 @@ msgstr "選択可能なホストデバイスの表"
 #: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/nics/vmNicsCard.tsx:603
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/disks/vmDiskColumns.tsx:179
+#: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 msgid "Target"
 msgstr "ターゲット"
@@ -2990,7 +2985,7 @@ msgstr "仮想マシン $0 が実行中で、削除前に強制的にオフに�
 
 #: src/components/vm/nics/vmNicsCard.tsx:710
 #: src/components/vm/nics/vmNicsCard.tsx:718
-#: src/components/vm/disks/vmDiskColumns.tsx:264
+#: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
 "このデバイスを切断するには、VM を実行するか、シャットオフする必要があります"
@@ -3068,7 +3063,7 @@ msgstr "これはtransient VMです。削除したい場合はシャットダウ
 msgid "This browser does not support WebGL2."
 msgstr "libvirtまたはハイパーバイザーがUEFIをサポートしていません"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:177
+#: src/components/vm/disks/vmDiskColumns.tsx:174
 msgid "This disk will be removed from $0:"
 msgstr "このディスクは $0 から削除されます:"
 
@@ -3223,7 +3218,7 @@ msgstr "指定なし"
 msgid "Unsupported and older operating systems"
 msgstr "サポートされていない古いオペレーティングシステム"
 
-#: src/components/vm/disks/diskEdit.tsx:52
+#: src/components/vm/disks/diskEdit.tsx:46
 msgid "Url"
 msgstr "URL"
 
@@ -3342,7 +3337,7 @@ msgstr ""
 "権限なしの制限付きアクセスで仮想マシンを起動しました (プロセスと PTY はお使い"
 "のユーザーアカウントが所有しています)"
 
-#: src/components/common/needsShutdown.tsx:275
+#: src/components/common/needsShutdown.tsx:283
 msgid "VM needs shutdown"
 msgstr "VM をシャットダウンする必要があります"
 
@@ -3354,7 +3349,7 @@ msgstr "VM の状態"
 msgid "VM will launch with root permissions"
 msgstr "VM は、root 権限で起動します"
 
-#: src/components/common/needsShutdown.tsx:210
+#: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
 msgstr ""
 
@@ -3449,7 +3444,7 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/common/needsShutdown.tsx:202
+#: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:198
 msgid "Watchdog"
 msgstr "ウォッチドッグ"
@@ -3468,7 +3463,7 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:170
+#: src/components/vm/disks/diskEdit.tsx:112
 #: src/components/vm/disks/vmDisksCard.tsx:255
 msgid "Writeable"
 msgstr "書き込み可能"
@@ -3686,7 +3681,7 @@ msgstr "vCPU 数"
 msgid "vCPU maximum"
 msgstr "vCPU 最大値"
 
-#: src/components/common/needsShutdown.tsx:194
+#: src/components/common/needsShutdown.tsx:202
 msgid "vCPUs"
 msgstr "vCPU"
 
@@ -3739,6 +3734,9 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "はい"
+
+#~ msgid "Machine must be shut off before changing cache mode"
+#~ msgstr "キャッシュモードの変更前にマシンをシャットオフする必要があります"
 
 #~ msgid "Additional"
 #~ msgstr "追加"
