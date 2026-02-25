@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2026-02-23 03:58+0000\n"
 "Last-Translator: Kohei Takahashi <flast@flast.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -103,7 +103,7 @@ msgstr "アクション"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -274,7 +274,7 @@ msgstr "自動化"
 msgid "Autostart"
 msgstr "自動起動"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr ""
 
@@ -876,7 +876,7 @@ msgstr "期間"
 msgid "Dying"
 msgstr "終了中"
 
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "編集"
@@ -908,11 +908,11 @@ msgstr "vsock インターフェイスの編集"
 msgid "Edit watchdog device type"
 msgstr "ウォッチドッグデバイスタイプの編集"
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "一時的なゲストのネットワークインターフェースの編集は許可されていません"
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr "一時的なネットワークインターフェースの編集は許可されていません"
 
@@ -1022,7 +1022,7 @@ msgstr "ウォッチドッグの割り当てを解除できませんでした"
 msgid "Failed to fetch some resources"
 msgstr "一部のリソースの取得に失敗しました"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "$0 のインターフェイスの IP アドレスの取得に失敗しました"
 
@@ -1251,7 +1251,7 @@ msgstr "IP"
 
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "IP アドレス"
 
@@ -1268,10 +1268,6 @@ msgstr "IP アドレスを空欄にすることはできません"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "IP 設定"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-msgid "IPv4 Address"
-msgstr "IPv4 アドレス"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1303,10 +1299,6 @@ msgstr "IPv4 接頭辞の長さは 24 以下である必要があります"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr "IPv4 接頭辞の長さは 8 の倍数である必要があります"
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-msgid "IPv6 Address"
-msgstr "IPv6 アドレス"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1525,7 +1517,7 @@ msgstr ""
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "libvirtまたはハイパーバイザーがUEFIをサポートしていません"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 msgid "Loading available network devices"
 msgstr "利用可能なネットワークデバイスの読み込み"
 
@@ -1559,8 +1551,8 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "MAC アドレス"
@@ -1709,7 +1701,7 @@ msgstr "モデル"
 msgid "Model"
 msgstr "モデル"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "モデルタイプ"
 
@@ -1741,7 +1733,7 @@ msgstr "ネットワーク識別子ではなくアドレスである必要があ
 msgid "NAT to $0"
 msgstr "$0 への NAT"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "仮想マシン $1 の NIC $0 は、状態の変更に失敗しました"
 
@@ -1828,11 +1820,11 @@ msgstr "ネットワークファイルシステム"
 msgid "Network interface"
 msgstr "ネットワークインターフェイス"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Network interface $0 could not be removed"
 msgstr "ネットワークインターフェース $0 は削除できませんでした"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 msgid "Network interface $0 will be removed from $1"
 msgstr "ネットワークインターフェース $0 は、$1 から削除されます"
 
@@ -1902,7 +1894,7 @@ msgstr "ホストデバイス"
 msgid "No network devices"
 msgstr "ネットワークデバイスはありません"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 #, fuzzy
 #| msgid "Network interfaces"
 msgid "No network interfaces"
@@ -2357,8 +2349,8 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2394,7 +2386,7 @@ msgstr "仮想マシンからホストデバイスを削除しますか?"
 msgid "Remove item"
 msgstr "アイテムの削除"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 msgid "Remove network interface?"
 msgstr "ネットワークインターフェースを削除しますか?"
 
@@ -2751,7 +2743,7 @@ msgstr "一部の設定変更は、再起動後にのみ有効になります:"
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -2829,7 +2821,7 @@ msgstr "起動"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "状態"
@@ -2947,7 +2939,7 @@ msgid "Table of selectable host devices"
 msgstr "選択可能なホストデバイスの表"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -2979,8 +2971,8 @@ msgstr "ターミナルは利用できません"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "仮想マシン $0 が実行中で、削除前に強制的にオフになります。"
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
@@ -3145,7 +3137,7 @@ msgstr "トラブルシュート"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3502,7 +3494,7 @@ msgstr "cdrom"
 msgid "custom"
 msgstr "カスタム"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr ""
 
@@ -3728,6 +3720,12 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "はい"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 アドレス"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 アドレス"
 
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr "キャッシュモードの変更前にマシンをシャットオフする必要があります"

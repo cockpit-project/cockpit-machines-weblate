@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2026-02-16 16:58+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -113,7 +113,7 @@ msgstr "Akce"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -291,7 +291,7 @@ msgstr "Automatizace"
 msgid "Autostart"
 msgstr "Automatické spouštění"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr "Podpůrná vrstva"
 
@@ -913,7 +913,7 @@ msgstr "Vypíná se"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "Upravit"
@@ -947,11 +947,11 @@ msgstr "Upravit vsock rozhraní"
 msgid "Edit watchdog device type"
 msgstr "Upravit typ zařízení resetátoru"
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "Upravování síťových rozhraní přechodných hostů není možné"
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Upravování přechodných síťových rozhraní není možné"
 
@@ -1065,7 +1065,7 @@ msgstr "Nepodařilo se odpojit resetátor"
 msgid "Failed to fetch some resources"
 msgstr "Nepodařilo se stáhnout si některé prostředky"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "Nepodařilo se zjistit IP adresy rozhraní nacházející se v $0"
 
@@ -1306,7 +1306,7 @@ msgstr "IP adresa"
 # po/ipa
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "IP adresa"
 
@@ -1323,10 +1323,6 @@ msgstr "IP adresu je třeba vyplnit"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "Nastavení pro IP protokol"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-msgid "IPv4 Address"
-msgstr "IPv4 adresa"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1356,10 +1352,6 @@ msgstr "Je třeba, aby délka IPv4 předpony byla 24 nebo méně"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr "Je třeba, aby délka IPv4 předpony byla násobkem 8"
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-msgid "IPv6 Address"
-msgstr "IPv6 adresa"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1576,7 +1568,7 @@ msgstr "Libvirt nenalezlo na hostiteli žádný obraz UEFI/OVMF firmware"
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt nebo hypervizor nepodporuje UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 msgid "Loading available network devices"
 msgstr "Načítání sítových zařízení, která jsou k dispozici"
 
@@ -1610,8 +1602,8 @@ msgstr "MAC"
 # auto translated by TM merge from project: libvirt, version: master, DocId:
 # libvirt
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "MAC adresa"
@@ -1769,7 +1761,7 @@ msgstr "Nápověda k režimu"
 msgid "Model"
 msgstr "Model"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "Typ modelu"
 
@@ -1799,7 +1791,7 @@ msgstr "Je třeba, aby bylo adresa a ne identifikátor sítě, jako např. $0"
 msgid "NAT to $0"
 msgstr "NAT na $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "Nepodařilo se změnit stav síť. rozhraní $0 virt. stroje $1"
 
@@ -1886,11 +1878,11 @@ msgstr "Síťový souborový systém"
 msgid "Network interface"
 msgstr "Síťové rozhraní"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Network interface $0 could not be removed"
 msgstr "Síťové rozhraní $0 nebylo možné odebrat"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 msgid "Network interface $0 will be removed from $1"
 msgstr "Síťové rozhraní $0 bude odebráno z $1"
 
@@ -1958,7 +1950,7 @@ msgstr "Žádná zařízení hostitele"
 msgid "No network devices"
 msgstr "Žádná síťová zařízení"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 msgid "No network interfaces"
 msgstr "Žádná síťová rozhraní"
 
@@ -2420,8 +2412,8 @@ msgstr "Aplikace Prohlížeč vzdálených se může připojit k následující 
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2457,7 +2449,7 @@ msgstr "Odebrat zařízení hostitele z virt. stroje?"
 msgid "Remove item"
 msgstr "Odebrat položku"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 msgid "Remove network interface?"
 msgstr "Odebrat síťové rozhraní?"
 
@@ -2813,7 +2805,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -2891,7 +2883,7 @@ msgstr "Při spuštění"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "Stav"
@@ -3014,7 +3006,7 @@ msgstr "Tabulka zařízení hostitele, která je možné vybrat"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -3046,8 +3038,8 @@ msgstr "Terminál není k dispozici"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "Virt. stroj $0 je spuštěný a před smazáním bude vynuceně vypnut."
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
@@ -3210,7 +3202,7 @@ msgstr "Řešit potíže"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3576,7 +3568,7 @@ msgstr "cdrom"
 msgid "custom"
 msgstr "uživatelsky určené"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr "výchozí"
 
@@ -3817,6 +3809,12 @@ msgstr "čeká se"
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "ano"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 adresa"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 adresa"
 
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr ""

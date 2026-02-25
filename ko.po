@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2026-02-25 14:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/cockpit/"
@@ -105,7 +105,7 @@ msgstr "동작"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -270,7 +270,7 @@ msgstr "자동화"
 msgid "Autostart"
 msgstr "자동 시작"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr "백엔드"
 
@@ -860,7 +860,7 @@ msgstr "지속기간"
 msgid "Dying"
 msgstr "종료 중"
 
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "편집"
@@ -890,11 +890,11 @@ msgstr "vsock 연결장치 편집"
 msgid "Edit watchdog device type"
 msgstr "와치독 장치 유형을 편집합니다"
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "임시 게스트의 네트워크 연결장치 편집하기는 허용되지 않습니다"
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr "임시 네트워크 연결장치 편집하기는 허용되지 않습니다"
 
@@ -1004,7 +1004,7 @@ msgstr "와치독을 분리하는데 실패함"
 msgid "Failed to fetch some resources"
 msgstr "몇 가지 자원 가져오기에 실패함"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "$0에 표시된 연결장치의 IP 주소를 가져오지 못했습니다"
 
@@ -1225,7 +1225,7 @@ msgstr "IP"
 
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "네트워크 주소"
 
@@ -1240,10 +1240,6 @@ msgstr "IP 주소는 비워두면 안됩니다"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "IP 구성"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-msgid "IPv4 Address"
-msgstr "IPv4 주소"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1273,10 +1269,6 @@ msgstr "IPv4 접두사 길이는 24 자 이내여야 합니다"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr "IPv4 접두사 길이는 8의 배수여야 합니다"
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-msgid "IPv6 Address"
-msgstr "IPv6 주소"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1492,7 +1484,7 @@ msgstr ""
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt 또는 하이퍼바이저는 UEFI를 지원하지 않습니다"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 msgid "Loading available network devices"
 msgstr "사용 할 수 있는 네트워크 장치 적재 중"
 
@@ -1527,8 +1519,8 @@ msgstr "MAC"
 # auto translated by TM merge from project: RHOSP Director Installation and
 # Usage , version: 11-Korean, DocId: master
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "MAC 주소"
@@ -1671,7 +1663,7 @@ msgstr "방식(mode) 도움말"
 msgid "Model"
 msgstr "방식"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "모델 유형"
 
@@ -1701,7 +1693,7 @@ msgstr "$0와 같은 네트워크 식별자 대신에 주소여야 합니다"
 msgid "NAT to $0"
 msgstr "$0에 NAT"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "VM $1의 NIC $0은 상태 변경에 실패했습니다"
 
@@ -1786,11 +1778,11 @@ msgstr "네트워크 파일 시스템"
 msgid "Network interface"
 msgstr "네트워크 연결장치"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Network interface $0 could not be removed"
 msgstr "네트워크 연결장치 $0는 제거 될 수 없습니다"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 msgid "Network interface $0 will be removed from $1"
 msgstr "네트워크 연결장치 $0가 $1에서 제거됩니다"
 
@@ -1856,7 +1848,7 @@ msgstr "호스트 장치 없음"
 msgid "No network devices"
 msgstr "네트워크 장치 없음"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 msgid "No network interfaces"
 msgstr "네트워크 연결장치 없음"
 
@@ -2299,8 +2291,8 @@ msgstr "원격 표시기 응용프로그램은 다음 주소로 연결 할 수 �
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2336,7 +2328,7 @@ msgstr "VM에서 호스트 장치를 제거?"
 msgid "Remove item"
 msgstr "항목 제거"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 msgid "Remove network interface?"
 msgstr "네트워크 연결장치 제거?"
 
@@ -2675,7 +2667,7 @@ msgstr "몇 가지 구성은 완전 종료 및 재시작 후에만 영향을 미
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -2749,7 +2741,7 @@ msgstr "시작"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "상태"
@@ -2863,7 +2855,7 @@ msgid "Table of selectable host devices"
 msgstr "선택 할 수 있는 호스트 장치의 표"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -2895,8 +2887,8 @@ msgstr "터미널을 사용 할 수 없음"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "VM $0는 실행되고 있으므로 삭제 전 강제로 종료됩니다."
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "이 장치를 분리하려면 VM이 실행 중이거나 종료되어 있어야합니다"
@@ -3047,7 +3039,7 @@ msgstr "문제 해결"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3402,7 +3394,7 @@ msgstr "cdrom"
 msgid "custom"
 msgstr "사용자 지정"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr "기본값"
 
@@ -3626,6 +3618,12 @@ msgstr "대기 중"
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "예"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 주소"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 주소"
 
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr "캐쉬 방법을 변경하기 전에 장치를 종료해야 합니다"

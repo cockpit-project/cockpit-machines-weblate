@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2026-01-24 11:58+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -107,7 +107,7 @@ msgstr "Azione"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -275,7 +275,7 @@ msgstr "Automazione"
 msgid "Autostart"
 msgstr "Avvio automatico"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr "Backend"
 
@@ -878,7 +878,7 @@ msgstr "Durata"
 msgid "Dying"
 msgstr "In chiusura"
 
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "Modifica"
@@ -908,12 +908,12 @@ msgstr "Modifica l'interfaccia vsock"
 msgid "Edit watchdog device type"
 msgstr "Modifica il tipo di dispositivo watchdog"
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr ""
 "La modifica delle interfacce di rete degli ospiti transitori non è consentita"
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Non è consentita la modifica delle interfacce di rete temporanee"
 
@@ -1026,7 +1026,7 @@ msgstr "Impossibile scollegare il watchdog"
 msgid "Failed to fetch some resources"
 msgstr "Impossibile recuperare alcune risorse"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr ""
 "Impossibile recuperare gli indirizzi IP delle interfacce presenti in $0"
@@ -1250,7 +1250,7 @@ msgstr "IP"
 
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "Indirizzo IP"
 
@@ -1265,10 +1265,6 @@ msgstr "L'indirizzo IP non può essere vuoto"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "Configurazione IP"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-msgid "IPv4 Address"
-msgstr "Indirizzo IPv4"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1299,10 +1295,6 @@ msgstr "La lunghezza del prefisso IPv4 deve essere 24 o inferiore"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr "La lunghezza del prefisso IPv4 deve essere un multiplo di 8"
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-msgid "IPv6 Address"
-msgstr "Indirizzo IPv6"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1521,7 +1513,7 @@ msgstr ""
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt o hypervisor non supporta UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 msgid "Loading available network devices"
 msgstr "Caricamento dei dispositivi di rete disponibili"
 
@@ -1556,8 +1548,8 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "Indirizzo MAC"
@@ -1702,7 +1694,7 @@ msgstr "Modalità aiuto"
 msgid "Model"
 msgstr "Modello"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "Tipo di modello"
 
@@ -1732,7 +1724,7 @@ msgstr "Deve essere un indirizzo invece dell'identificatore di rete, come $0"
 msgid "NAT to $0"
 msgstr "NAT su $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "NIC $0 di VM $1 non è riuscito a cambiare stato"
 
@@ -1819,11 +1811,11 @@ msgstr "File system di rete"
 msgid "Network interface"
 msgstr "Interfaccia di rete"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Network interface $0 could not be removed"
 msgstr "L'interfaccia di rete $0 non può essere rimossa"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 msgid "Network interface $0 will be removed from $1"
 msgstr "L'interfaccia di rete $0 sarà rimossa da $1"
 
@@ -1889,7 +1881,7 @@ msgstr "Nessun dispositivo host"
 msgid "No network devices"
 msgstr "Nessun dispositivo di rete"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 msgid "No network interfaces"
 msgstr "Nessuna interfaccia di rete"
 
@@ -2343,8 +2335,8 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2380,7 +2372,7 @@ msgstr "Rimuovere il dispositivo host dalla VM?"
 msgid "Remove item"
 msgstr "Rimuovi elemento"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 msgid "Remove network interface?"
 msgstr "Rimuovere l'interfaccia di rete?"
 
@@ -2729,7 +2721,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -2803,7 +2795,7 @@ msgstr "Avvio"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "Stato"
@@ -2925,7 +2917,7 @@ msgid "Table of selectable host devices"
 msgstr "Tabella dei dispositivi host selezionabili"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -2960,8 +2952,8 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 "La VM $0 è in esecuzione e sarà spenta forzatamente prima dell'eliminazione."
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
@@ -3128,7 +3120,7 @@ msgstr "Risoluzione problemi"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3488,7 +3480,7 @@ msgstr "cdrom"
 msgid "custom"
 msgstr "personalizzato"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr "predefinito"
 
@@ -3715,6 +3707,12 @@ msgstr "In attesa"
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "si"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Indirizzo IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Indirizzo IPv6"
 
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr "La macchina deve essere spenta prima di cambiare la modalità cache"

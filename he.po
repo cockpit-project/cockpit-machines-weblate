@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2025-12-05 11:29+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit/"
@@ -123,7 +123,7 @@ msgstr "פעולה"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -286,7 +286,7 @@ msgstr "אוטומציה"
 msgid "Autostart"
 msgstr "התחלה אוטומטית"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr "מנגנון"
 
@@ -886,7 +886,7 @@ msgstr "משך"
 msgid "Dying"
 msgstr "גוסס"
 
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "עריכה"
@@ -922,11 +922,11 @@ msgstr "הוספת מנשק רשת"
 msgid "Edit watchdog device type"
 msgstr "עריכת סוג התקן השגחה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "עריכת מנשקי הרשת של אורחות חולפות אסורה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr "עריכת מנשקים של רשת חולפת אסורה"
 
@@ -1046,7 +1046,7 @@ msgstr "ניתוק ההשגחה נכשל"
 msgid "Failed to fetch some resources"
 msgstr "משיכה של חלק מהמשאבים נכשלה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "קבלת כתובות ה־IP של המנשקים שקיימים תחת $0 נכשלה"
 
@@ -1282,7 +1282,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "כתובת IP"
 
@@ -1301,12 +1301,6 @@ msgstr "השם לא יכול להישאר ריק"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "הגדרת IP"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-#, fuzzy
-#| msgid "IPv4 address"
-msgid "IPv4 Address"
-msgstr "כתובת IPv4"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1338,12 +1332,6 @@ msgstr "אורך הקידומת לא אמור להיות ריק"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr ""
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-#, fuzzy
-#| msgid "IPv6 address"
-msgid "IPv6 Address"
-msgstr "כתובת IPv6"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1568,7 +1556,7 @@ msgstr "Libvirt לא זיהה תמונת קושחה מסוג UEFI/OVMF מותק�
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt או ה־hypervisor לא תומכים ב־UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 #, fuzzy
 #| msgid "No network devices"
 msgid "Loading available network devices"
@@ -1602,8 +1590,8 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "כתובת MAC"
@@ -1767,7 +1755,7 @@ msgstr "דגם"
 msgid "Model"
 msgstr "דגם"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "סוג דגם"
 
@@ -1799,7 +1787,7 @@ msgstr ""
 msgid "NAT to $0"
 msgstr "NAT אל $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטואלית $0 נכשלה"
 
@@ -1896,13 +1884,13 @@ msgstr "מערכת קבצים רשתית"
 msgid "Network interface"
 msgstr "הוספת מנשק רשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 could not be removed"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 will be removed from $1"
@@ -1980,7 +1968,7 @@ msgstr "התקן מארח"
 msgid "No network devices"
 msgstr "אין התקני רשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 #, fuzzy
 #| msgid "Add network interface"
 msgid "No network interfaces"
@@ -2443,8 +2431,8 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2480,7 +2468,7 @@ msgstr "להסיר התקן מארח ממכונה וירטואלית?"
 msgid "Remove item"
 msgstr "הסרת פריט"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 msgid "Remove network interface?"
 msgstr "להסיר מנשק רשת?"
 
@@ -2839,7 +2827,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -2919,7 +2907,7 @@ msgstr "בהתחלה"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "מצב"
@@ -3041,7 +3029,7 @@ msgid "Table of selectable host devices"
 msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -3077,8 +3065,8 @@ msgstr "אין רשתות זמינות"
 msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "המכונה הווירטואלית פועלת ויהיה עליך לכבות אותה לפני המחיקה."
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "על המכונה הווירטואלית להיות פעילה או כבויה כדי לנתק את ההתקן הזה"
@@ -3222,7 +3210,7 @@ msgstr "איתור תקלות"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3580,7 +3568,7 @@ msgstr "תקליטור"
 msgid "custom"
 msgstr "מותאם אישית"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr ""
 
@@ -3805,6 +3793,16 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "כן"
+
+#, fuzzy
+#~| msgid "IPv4 address"
+#~ msgid "IPv4 Address"
+#~ msgstr "כתובת IPv4"
+
+#, fuzzy
+#~| msgid "IPv6 address"
+#~ msgid "IPv6 Address"
+#~ msgstr "כתובת IPv6"
 
 #~ msgid "Machine must be shut off before changing cache mode"
 #~ msgstr "יש לכבות את המכונה לפני החלפת מצב המטמון"

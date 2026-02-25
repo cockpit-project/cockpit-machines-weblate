@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 04:31+0000\n"
+"POT-Creation-Date: 2026-02-25 04:35+0000\n"
 "PO-Revision-Date: 2025-12-22 06:11+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
@@ -110,7 +110,7 @@ msgstr "Действие"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/storagePools/storagePoolList.tsx:65
 #: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:635
+#: src/components/vm/nics/vmNicsCard.tsx:592
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
 msgid "Actions"
@@ -279,7 +279,7 @@ msgstr "Автоматически"
 msgid "Autostart"
 msgstr "Автозапуск"
 
-#: src/components/vm/nics/vmNicsCard.tsx:841
+#: src/components/vm/nics/vmNicsCard.tsx:793
 msgid "Backend"
 msgstr ""
 
@@ -940,7 +940,7 @@ msgstr "Описание"
 msgid "Dying"
 msgstr "Умирающий"
 
-#: src/components/vm/nics/vmNicsCard.tsx:676
+#: src/components/vm/nics/vmNicsCard.tsx:633
 #: src/components/vm/disks/diskEdit.tsx:245
 msgid "Edit"
 msgstr "Изменить"
@@ -976,11 +976,11 @@ msgstr "Добавить сетевой интерфейс"
 msgid "Edit watchdog device type"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.tsx:664
+#: src/components/vm/nics/vmNicsCard.tsx:621
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr ""
 
-#: src/components/vm/nics/vmNicsCard.tsx:670
+#: src/components/vm/nics/vmNicsCard.tsx:627
 msgid "Editing transient network interfaces is not allowed"
 msgstr ""
 
@@ -1114,7 +1114,7 @@ msgstr "Не удалось присоединить диск"
 msgid "Failed to fetch some resources"
 msgstr "Не удалось изменить микропрограмму"
 
-#: src/components/vm/nics/vmNicsCard.tsx:492
+#: src/components/vm/nics/vmNicsCard.tsx:445
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "Не удалось получить IP-адреса интерфейсов, присутствующих в $0"
 
@@ -1368,7 +1368,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:255
 #: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:620
+#: src/components/vm/nics/vmNicsCard.tsx:573
 msgid "IP address"
 msgstr "IP-адрес"
 
@@ -1387,12 +1387,6 @@ msgstr "Имя не должно быть пустым"
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
 msgstr "Настройка IP"
-
-#: src/components/vm/nics/vmNicsCard.tsx:364
-#, fuzzy
-#| msgid "IPv4 address"
-msgid "IPv4 Address"
-msgstr "IPv4-адрес"
 
 #: src/components/networks/networkOverviewTab.tsx:136
 #: src/components/networks/createNetworkDialog.tsx:337
@@ -1424,12 +1418,6 @@ msgstr "Длина префикса не должна быть пустой"
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr ""
-
-#: src/components/vm/nics/vmNicsCard.tsx:378
-#, fuzzy
-#| msgid "IPv6 address"
-msgid "IPv6 Address"
-msgstr "IPv6-адрес"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1660,7 +1648,7 @@ msgstr ""
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt или гипервизор не поддерживают UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:624
 #, fuzzy
 #| msgid "No network devices"
 msgid "Loading available network devices"
@@ -1699,8 +1687,8 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/vmNicsCard.tsx:615
-#: src/components/vm/nics/vmNicsCard.tsx:809
+#: src/components/vm/nics/vmNicsCard.tsx:568
+#: src/components/vm/nics/vmNicsCard.tsx:766
 #: src/components/vm/nics/nicEdit.tsx:54 src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "MAC-адрес"
@@ -1868,7 +1856,7 @@ msgstr "Модель"
 msgid "Model"
 msgstr "Модель"
 
-#: src/components/vm/nics/vmNicsCard.tsx:815
+#: src/components/vm/nics/vmNicsCard.tsx:772
 msgid "Model type"
 msgstr "Тип модели"
 
@@ -1900,7 +1888,7 @@ msgstr ""
 msgid "NAT to $0"
 msgstr "NAT к $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:570
+#: src/components/vm/nics/vmNicsCard.tsx:523
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr ""
 "Не удалось изменить состояние сетевого адаптера $0 виртуальной машины $1"
@@ -2001,13 +1989,13 @@ msgstr "Сетевая файловая система"
 msgid "Network interface"
 msgstr "Добавить сетевой интерфейс"
 
-#: src/components/vm/nics/vmNicsCard.tsx:692
+#: src/components/vm/nics/vmNicsCard.tsx:649
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 could not be removed"
 msgstr "Не удалось сохранить параметры сетевого интерфейса"
 
-#: src/components/vm/nics/vmNicsCard.tsx:693
+#: src/components/vm/nics/vmNicsCard.tsx:650
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 will be removed from $1"
@@ -2088,7 +2076,7 @@ msgstr "главное устройство"
 msgid "No network devices"
 msgstr "Сетевые устройства отсутствуют"
 
-#: src/components/vm/nics/vmNicsCard.tsx:876
+#: src/components/vm/nics/vmNicsCard.tsx:828
 #, fuzzy
 #| msgid "Add network interface"
 msgid "No network interfaces"
@@ -2566,8 +2554,8 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:68
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
-#: src/components/vm/nics/vmNicsCard.tsx:694
-#: src/components/vm/nics/vmNicsCard.tsx:709
+#: src/components/vm/nics/vmNicsCard.tsx:651
+#: src/components/vm/nics/vmNicsCard.tsx:666
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/disks/vmDiskColumns.tsx:172
@@ -2611,7 +2599,7 @@ msgstr "главное устройство"
 msgid "Remove item"
 msgstr "Сетевая файловая система"
 
-#: src/components/vm/nics/vmNicsCard.tsx:691
+#: src/components/vm/nics/vmNicsCard.tsx:648
 #, fuzzy
 #| msgid "Add network interface"
 msgid "Remove network interface?"
@@ -2986,7 +2974,7 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:40
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:595
+#: src/components/vm/nics/vmNicsCard.tsx:548
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
@@ -3068,7 +3056,7 @@ msgstr "Запуск"
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/storagePools/storagePoolList.tsx:64
 #: src/components/networks/networkList.tsx:63
-#: src/components/vm/nics/vmNicsCard.tsx:628
+#: src/components/vm/nics/vmNicsCard.tsx:585
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 msgid "State"
 msgstr "Состояние"
@@ -3199,7 +3187,7 @@ msgstr ""
 
 # Этап передачи событий
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
-#: src/components/vm/nics/vmNicsCard.tsx:603
+#: src/components/vm/nics/vmNicsCard.tsx:556
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/overview/bootOrder.tsx:164
@@ -3236,8 +3224,8 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr ""
 "Виртуальная машина работает и будет принудительно отключена перед удалением."
 
-#: src/components/vm/nics/vmNicsCard.tsx:710
-#: src/components/vm/nics/vmNicsCard.tsx:718
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/nics/vmNicsCard.tsx:675
 #: src/components/vm/disks/vmDiskColumns.tsx:261
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
@@ -3385,7 +3373,7 @@ msgstr "Устранить неполадки"
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
-#: src/components/vm/nics/vmNicsCard.tsx:822
+#: src/components/vm/nics/vmNicsCard.tsx:779
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
@@ -3747,7 +3735,7 @@ msgstr "дисковод для компакт-дисков"
 msgid "custom"
 msgstr "другой"
 
-#: src/components/vm/nics/vmNicsCard.tsx:844
+#: src/components/vm/nics/vmNicsCard.tsx:796
 msgid "default"
 msgstr ""
 
@@ -3984,6 +3972,16 @@ msgstr ""
 #: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "да"
+
+#, fuzzy
+#~| msgid "IPv4 address"
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4-адрес"
+
+#, fuzzy
+#~| msgid "IPv6 address"
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6-адрес"
 
 #, fuzzy
 #~ msgid "Machine must be shut off before changing cache mode"
