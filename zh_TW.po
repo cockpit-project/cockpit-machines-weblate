@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-31 05:01+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-01-27 21:58+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.15.2\n"
 
-#: src/components/vm/nics/nicBody.tsx:366
+#: src/components/vm/nics/nicBody.tsx:325
 msgid " excluding "
 msgstr ""
 
@@ -71,7 +71,7 @@ msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
 msgstr[0] "$0 個虛擬CPU"
 
-#: src/components/vm/nics/nicEdit.tsx:222
+#: src/components/vm/nics/nicEdit.tsx:218
 msgid "$0 virtual network interface settings"
 msgstr "$0 虛擬網路介面設定"
 
@@ -103,7 +103,7 @@ msgstr "動作"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
-#: src/components/vm/nics/vmNicsCard.tsx:592
+#: src/components/vm/nics/vmNicsCard.tsx:593
 msgid "Actions"
 msgstr "動作"
 
@@ -120,7 +120,7 @@ msgstr "啟用儲存空間集區以管理磁碟區"
 #: src/components/vm/disks/diskAdd.tsx:973
 #: src/components/vm/overview/vsock.tsx:223
 #: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/nics/nicBody.tsx:599 src/components/vm/nics/nicAdd.tsx:279
+#: src/components/vm/nics/nicBody.tsx:558 src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:261
 msgid "Add"
 msgstr "新增"
@@ -151,7 +151,7 @@ msgstr "新增磁碟"
 msgid "Add host device"
 msgstr "新增主機裝置"
 
-#: src/components/vm/nics/vmNicsCard.tsx:103
+#: src/components/vm/nics/vmNicsCard.tsx:104
 msgid "Add network interface"
 msgstr "新增網路介面"
 
@@ -163,7 +163,7 @@ msgstr "新增序列控制台"
 msgid "Add shared directory"
 msgstr "新增共享目錄"
 
-#: src/components/vm/nics/nicAdd.tsx:268
+#: src/components/vm/nics/nicAdd.tsx:263
 msgid "Add virtual network interface"
 msgstr "新增虛擬網路介面"
 
@@ -185,7 +185,7 @@ msgstr "只有在客體已關閉時才能新增共享目錄"
 
 #: src/components/networks/networkOverviewTab.tsx:140
 #: src/components/networks/networkOverviewTab.tsx:160
-#: src/components/vm/nics/vmNicsCard.tsx:182
+#: src/components/vm/nics/vmNicsCard.tsx:183
 msgid "Address"
 msgstr "位址"
 
@@ -195,6 +195,13 @@ msgstr "位址"
 #: src/components/networks/createNetworkDialog.tsx:153
 msgid "Address not within subnet"
 msgstr "位址不在子網路內"
+
+#: src/components/vm/nics/nicBody.tsx:108
+#, fuzzy
+#| msgid ""
+#| "This is the recommended type for high performance or enhanced security."
+msgid "Advanced interface type for high performance or enhanced security."
+msgstr "這是為了高效能或更佳安全性的建議類型。"
 
 #: src/components/vms/hostvmslist.tsx:221
 #: src/components/vms/hostvmslist.tsx:239
@@ -220,7 +227,7 @@ msgid "Also delete all volumes inside this pool:"
 msgstr "同時將這個集區內的所有磁碟區刪除："
 
 #: src/components/vm/disks/diskAdd.tsx:181
-#: src/components/vm/nics/nicAdd.tsx:141
+#: src/components/vm/nics/nicAdd.tsx:135
 msgid "Always attach"
 msgstr "每次都附加"
 
@@ -276,7 +283,7 @@ msgstr "自動化"
 msgid "Autostart"
 msgstr "自動啟動"
 
-#: src/components/vm/nics/vmNicsCard.tsx:793
+#: src/components/vm/nics/vmNicsCard.tsx:794
 msgid "Backend"
 msgstr ""
 
@@ -451,7 +458,7 @@ msgstr ""
 msgid "Cockpit Project"
 msgstr "Cockpit 專案"
 
-#: src/components/vm/nics/nicBody.tsx:557
+#: src/components/vm/nics/nicBody.tsx:516
 msgid "Complex rule \"$0\" can not be edited here."
 msgstr ""
 
@@ -871,7 +878,7 @@ msgid "Dying"
 msgstr "垂死"
 
 #: src/components/vm/disks/diskEdit.tsx:245
-#: src/components/vm/nics/vmNicsCard.tsx:633
+#: src/components/vm/nics/vmNicsCard.tsx:634
 msgid "Edit"
 msgstr "編輯"
 
@@ -900,11 +907,11 @@ msgstr "編輯 vsock 介面"
 msgid "Edit watchdog device type"
 msgstr "編輯 watchdog 裝置類型"
 
-#: src/components/vm/nics/vmNicsCard.tsx:621
+#: src/components/vm/nics/vmNicsCard.tsx:622
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "不允許編輯暫時性客體的網路介面"
 
-#: src/components/vm/nics/vmNicsCard.tsx:627
+#: src/components/vm/nics/vmNicsCard.tsx:628
 msgid "Editing transient network interfaces is not allowed"
 msgstr "不允許編輯暫時性網路介面"
 
@@ -1016,7 +1023,7 @@ msgstr "拆離 watchdog 失敗"
 msgid "Failed to fetch some resources"
 msgstr "取得某些資源失敗"
 
-#: src/components/vm/nics/vmNicsCard.tsx:445
+#: src/components/vm/nics/vmNicsCard.tsx:446
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "未能取得 $0 中介面的 IP 位址"
 
@@ -1068,6 +1075,25 @@ msgstr "以名稱篩選"
 msgid "Firmware"
 msgstr "韌體"
 
+#: src/components/vm/nics/nicBody.tsx:91
+#, fuzzy
+#| msgid ""
+#| "This is the recommended type for general guest connectivity on hosts with "
+#| "dynamic / wireless networking configs."
+msgid ""
+"For general guest connectivity on hosts with dynamic / wireless networking "
+"configs."
+msgstr "這是在具動態或無線網路的主機上提供一般客體連線能力的建議類型。"
+
+#: src/components/vm/nics/nicBody.tsx:100
+#, fuzzy
+#| msgid ""
+#| "This is the recommended type for general guest connectivity on hosts with "
+#| "static wired networking configs."
+msgid ""
+"For general guest connectivity on hosts with static wired networking configs."
+msgstr "這是在具靜態有線網路主機上提供一般客體連線能力的建議類型。"
+
 #: src/components/vm/disks/mediaEject.tsx:113
 msgid "Force eject"
 msgstr "強制退出"
@@ -1108,7 +1134,7 @@ msgstr "格式"
 msgid "Forward mode"
 msgstr "轉發模式"
 
-#: src/components/vm/nics/nicBody.tsx:609
+#: src/components/vm/nics/nicBody.tsx:568
 #, fuzzy
 #| msgid "Forward mode"
 msgid "Forwarded ports"
@@ -1168,11 +1194,11 @@ msgstr "圖形化"
 msgid "Graphical console support not enabled"
 msgstr "未啟用圖形化控制台支援"
 
-#: src/components/vm/nics/nicBody.tsx:504
+#: src/components/vm/nics/nicBody.tsx:463
 msgid "Guest port"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:508
+#: src/components/vm/nics/nicBody.tsx:467
 msgid "Guest port help"
 msgstr ""
 
@@ -1212,19 +1238,19 @@ msgstr "主機裝置"
 msgid "Host name"
 msgstr "主機名稱"
 
-#: src/components/vm/nics/nicBody.tsx:489
+#: src/components/vm/nics/nicBody.tsx:448
 #, fuzzy
 #| msgid "Host"
 msgid "Host port"
 msgstr "主機"
 
-#: src/components/vm/nics/nicBody.tsx:442
+#: src/components/vm/nics/nicBody.tsx:401
 #, fuzzy
 #| msgid "Host should not be empty"
 msgid "Host port can not be empty."
 msgstr "主機不應為空值"
 
-#: src/components/vm/nics/nicBody.tsx:494
+#: src/components/vm/nics/nicBody.tsx:453
 msgid "Host port help"
 msgstr ""
 
@@ -1245,12 +1271,12 @@ msgid "IP"
 msgstr "IP"
 
 #: src/components/networks/networkOverviewTab.tsx:255
-#: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:573
+#: src/components/vm/nics/nicBody.tsx:434
+#: src/components/vm/nics/vmNicsCard.tsx:574
 msgid "IP address"
 msgstr "IP 位址"
 
-#: src/components/vm/nics/nicBody.tsx:479
+#: src/components/vm/nics/nicBody.tsx:438
 #, fuzzy
 #| msgid "IP address"
 msgid "IP address help"
@@ -1328,7 +1354,7 @@ msgstr "識別碼可能會不經提醒就被截斷至 $0 個字元。 "
 msgid "Idle"
 msgstr "閒置"
 
-#: src/components/vm/nics/nicBody.tsx:481
+#: src/components/vm/nics/nicBody.tsx:440
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
@@ -1417,15 +1443,11 @@ msgstr ""
 msgid "Interface"
 msgstr "介面"
 
-#: src/components/vm/nics/nicBody.tsx:237
+#: src/components/vm/nics/nicBody.tsx:261
 msgid "Interface type"
 msgstr "介面類型"
 
-#: src/components/vm/nics/nicBody.tsx:239
-msgid "Interface type help"
-msgstr "介面類型說明"
-
-#: src/components/vm/nics/nicBody.tsx:427
+#: src/components/vm/nics/nicBody.tsx:386
 #, fuzzy
 #| msgid "Invalid IPv4 address"
 msgid "Invalid IP address"
@@ -1500,7 +1522,7 @@ msgstr "Libvirt 未偵測到主機上有安裝任何 UEFI/OVMF 韌體映像檔"
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt 或虛擬機器管理程式不支援 UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:624
+#: src/components/vm/nics/vmNicsCard.tsx:625
 msgid "Loading available network devices"
 msgstr "正在載入可用的網路裝置"
 
@@ -1535,14 +1557,14 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/nicEdit.tsx:54
-#: src/components/vm/nics/vmNicsCard.tsx:568
-#: src/components/vm/nics/vmNicsCard.tsx:766
+#: src/components/vm/nics/nicEdit.tsx:45
+#: src/components/vm/nics/vmNicsCard.tsx:569
+#: src/components/vm/nics/vmNicsCard.tsx:767
 #: src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "MAC 位址"
 
-#: src/components/vm/nics/nicEdit.tsx:108 src/components/vm/nics/nicAdd.tsx:187
+#: src/components/vm/nics/nicEdit.tsx:99 src/components/vm/nics/nicAdd.tsx:179
 msgid "MAC address already in use"
 msgstr "MAC 位址已被使用"
 
@@ -1672,25 +1694,21 @@ msgstr ""
 
 #: src/components/vm/overview/cpuModal.tsx:304
 #: src/components/vm/overview/cpuModal.tsx:306
-#: src/components/vm/nics/nicBody.tsx:282
-#: src/components/vm/nics/vmNicsCard.tsx:167
+#: src/components/vm/nics/nicBody.tsx:275
+#: src/components/vm/nics/vmNicsCard.tsx:168
 msgid "Mode"
 msgstr "模式"
 
-#: src/components/vm/nics/nicBody.tsx:286
-msgid "Mode help"
-msgstr "模式說明"
-
-#: src/components/vm/nics/nicBody.tsx:59
+#: src/components/vm/nics/nicBody.tsx:57
 #: src/components/vm/hostdevs/hostDevCard.tsx:197
 msgid "Model"
 msgstr "型號"
 
-#: src/components/vm/nics/vmNicsCard.tsx:772
+#: src/components/vm/nics/vmNicsCard.tsx:773
 msgid "Model type"
 msgstr "型號類型"
 
-#: src/components/vm/nics/nicBody.tsx:302
+#: src/components/vm/nics/nicBody.tsx:118
 msgid "More info"
 msgstr "更多資訊"
 
@@ -1716,7 +1734,7 @@ msgstr "須為位址而非網路辨識碼，例如 $0"
 msgid "NAT to $0"
 msgstr "NAT 至 $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:523
+#: src/components/vm/nics/vmNicsCard.tsx:524
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "虛擬機器 $1 的網路卡 $0 變更狀態失敗"
 
@@ -1805,21 +1823,27 @@ msgstr "網絡檔案系統"
 msgid "Network interface"
 msgstr "網路介面"
 
-#: src/components/vm/nics/vmNicsCard.tsx:649
+#: src/components/vm/nics/vmNicsCard.tsx:650
 msgid "Network interface $0 could not be removed"
 msgstr "網路介面 $0 無法被移除"
 
-#: src/components/vm/nics/vmNicsCard.tsx:650
+#: src/components/vm/nics/vmNicsCard.tsx:651
 msgid "Network interface $0 will be removed from $1"
 msgstr "網路界面 $0 將被從 $1 移除"
 
-#: src/components/vm/nics/nicEdit.tsx:172 src/components/vm/nics/nicAdd.tsx:226
+#: src/components/vm/nics/nicEdit.tsx:163 src/components/vm/nics/nicAdd.tsx:218
 msgid "Network interface settings could not be saved"
 msgstr "網路介面設定無法被儲存"
 
 #: src/components/vm/vmDetailsPage.tsx:168
 msgid "Network interfaces"
 msgstr "網路介面"
+
+#: src/components/vm/nics/nicBody.tsx:183
+#, fuzzy
+#| msgid "Network interface $0 could not be removed"
+msgid "Network interfaces of type \"$0\" can not be edited here."
+msgstr "網路介面 $0 無法被移除"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:400
 msgid "Network selection does not support PXE."
@@ -1855,6 +1879,12 @@ msgstr "此主機上沒有已定義或執行中的虛擬機器"
 msgid "No boot device found"
 msgstr "找不到開機裝置"
 
+#: src/components/vm/nics/nicBody.tsx:101
+#, fuzzy
+#| msgid "host device"
+msgid "No bridge devices"
+msgstr "主機裝置"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
 msgid "No description"
 msgstr "無描述"
@@ -1875,11 +1905,11 @@ msgstr "未選擇主機裝置"
 msgid "No host devices"
 msgstr "主機裝置"
 
-#: src/components/vm/nics/nicBody.tsx:217
+#: src/components/vm/nics/nicBody.tsx:122
 msgid "No network devices"
 msgstr "沒有網路裝置"
 
-#: src/components/vm/nics/vmNicsCard.tsx:828
+#: src/components/vm/nics/vmNicsCard.tsx:829
 #, fuzzy
 #| msgid "Network interfaces"
 msgid "No network interfaces"
@@ -1897,7 +1927,7 @@ msgstr "沒有可用的網路"
 msgid "No parent"
 msgstr "無上層"
 
-#: src/components/vm/nics/nicBody.tsx:617
+#: src/components/vm/nics/nicBody.tsx:576
 msgid "No ports forwarded"
 msgstr ""
 
@@ -1915,12 +1945,6 @@ msgstr "共享的目錄"
 #, fuzzy
 msgid "No snapshots"
 msgstr "建立快照"
-
-#: src/components/vm/nics/nicBody.tsx:332
-#, fuzzy
-#| msgid "No storage pools available"
-msgid "No sources available"
-msgstr "沒有可用的儲存集區"
 
 #: src/helpers.ts:225
 msgid "No state"
@@ -1942,7 +1966,7 @@ msgstr "沒有可用的儲存集區"
 msgid "No storage volumes defined for this storage pool"
 msgstr "此儲存集區沒有已定義的儲存磁碟區"
 
-#: src/components/vm/nics/nicBody.tsx:215
+#: src/components/vm/nics/nicBody.tsx:92
 msgid "No virtual networks"
 msgstr "沒有虛擬網路"
 
@@ -1998,7 +2022,7 @@ msgstr "一或多個所選的磁碟區正在被虛擬機器使用。先將磁碟
 
 #: src/components/vm/overview/bootOrder.tsx:394
 #: src/components/vm/overview/memoryModal.tsx:173
-#: src/components/vm/nics/nicEdit.tsx:51
+#: src/components/vm/nics/nicEdit.tsx:47
 msgid "Only editable when the guest is shut off"
 msgstr "只有在客體被關閉後才能編輯"
 
@@ -2095,7 +2119,7 @@ msgid "Permissions denied for disk images in home directories"
 msgstr "存取家目錄中的磁碟映像檔時權限被拒"
 
 #: src/components/vm/disks/diskAdd.tsx:178
-#: src/components/vm/nics/nicAdd.tsx:135
+#: src/components/vm/nics/nicAdd.tsx:134
 msgid "Persistence"
 msgstr "持續性"
 
@@ -2112,7 +2136,7 @@ msgstr "實體磁碟裝置"
 msgid "Physical disk device on host"
 msgstr "主機上的實體磁碟裝置"
 
-#: src/components/vm/nics/nicEdit.tsx:109 src/components/vm/nics/nicAdd.tsx:187
+#: src/components/vm/nics/nicEdit.tsx:100 src/components/vm/nics/nicAdd.tsx:179
 msgid "Please choose a different MAC address"
 msgstr "請選擇一個不同的 MAC 位址"
 
@@ -2159,16 +2183,16 @@ msgstr "集區的磁碟區正被用於虛擬機器 "
 #: src/components/vm/disks/vmDiskColumns.tsx:41
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
-#: src/components/vm/nics/vmNicsCard.tsx:190
+#: src/components/vm/nics/vmNicsCard.tsx:191
 #: src/components/vm/consoles/vnc.tsx:170
 msgid "Port"
 msgstr "連接埠"
 
-#: src/components/vm/nics/vmNicsCard.tsx:280
+#: src/components/vm/nics/vmNicsCard.tsx:281
 msgid "Port forwards"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:436
+#: src/components/vm/nics/nicBody.tsx:395
 #, fuzzy
 #| msgid "Port must be 5900 or larger."
 msgid "Port must be 1 to 65535."
@@ -2184,7 +2208,7 @@ msgid ""
 "assign a free port when the machine starts."
 msgstr "連接埠必須至少為 5900。留空則可在機器啟動時自動指定一個空閒的連接埠。"
 
-#: src/components/vm/nics/nicBody.tsx:434 src/components/vm/consoles/vnc.tsx:97
+#: src/components/vm/nics/nicBody.tsx:393 src/components/vm/consoles/vnc.tsx:97
 msgid "Port must be a number."
 msgstr "小時需要是0-23之間的數字。"
 
@@ -2239,26 +2263,12 @@ msgstr "設定檔"
 #: src/components/vm/disks/vmDiskColumns.tsx:37
 #: src/components/vm/overview/bootOrder.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:517
+#: src/components/vm/nics/nicBody.tsx:476
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 msgid "Protocol"
 msgstr "協定"
 
-#: src/components/vm/nics/nicBody.tsx:104
-msgid ""
-"Provides a bridge from the guest virtual machine directly onto the LAN. This "
-"needs a bridge device on the host with one or more physical NICs."
-msgstr ""
-"提供一個從虛擬機器客端直接連至區域網路的橋接。需要一個於主機上具一或多個實體"
-"網路卡的橋接裝置。"
-
-#: src/components/vm/nics/nicBody.tsx:95
-msgid ""
-"Provides a connection whose details are described by the named network "
-"definition."
-msgstr "提供一個由指定名稱網路定義描述詳細資料的連線。"
-
-#: src/components/vm/nics/nicBody.tsx:119
+#: src/components/vm/nics/nicBody.tsx:132
 msgid "Provides a virtual LAN with NAT to the outside world."
 msgstr "提供一個具可連線至外界的 NAT 的虛擬區域網路。"
 
@@ -2327,8 +2337,8 @@ msgstr "遠端檢視器應用程式可連線至下列位址："
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/overview/vsock.tsx:269
 #: src/components/vm/overview/watchdog.tsx:225
-#: src/components/vm/nics/vmNicsCard.tsx:651
-#: src/components/vm/nics/vmNicsCard.tsx:666
+#: src/components/vm/nics/vmNicsCard.tsx:652
+#: src/components/vm/nics/vmNicsCard.tsx:667
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
 msgid "Remove"
@@ -2355,12 +2365,12 @@ msgid "Remove host device from VM?"
 msgstr "從虛擬機器移除主機裝置？"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:927
-#: src/components/vm/nics/nicBody.tsx:536
-#: src/components/vm/nics/nicBody.tsx:567
+#: src/components/vm/nics/nicBody.tsx:495
+#: src/components/vm/nics/nicBody.tsx:526
 msgid "Remove item"
 msgstr "移除項目"
 
-#: src/components/vm/nics/vmNicsCard.tsx:648
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Remove network interface?"
 msgstr "移除網路介面？"
 
@@ -2503,7 +2513,7 @@ msgstr ""
 #: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/overview/memoryModal.tsx:192
 #: src/components/vm/overview/firmware.tsx:104
-#: src/components/vm/nics/nicEdit.tsx:234
+#: src/components/vm/nics/nicEdit.tsx:230
 #: src/components/vm/consoles/vnc.tsx:155
 msgid "Save"
 msgstr "儲存"
@@ -2706,8 +2716,8 @@ msgstr "部份設定變更僅在下一次完整重新開機後生效："
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
-#: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:548
+#: src/components/vm/nics/nicBody.tsx:268
+#: src/components/vm/nics/vmNicsCard.tsx:549
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 msgid "Source"
 msgstr "來源"
@@ -2780,7 +2790,7 @@ msgstr "啟動"
 #: src/components/vms/hostvmslist.tsx:266
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/vm/overview/vmOverviewCard.tsx:163
-#: src/components/vm/nics/vmNicsCard.tsx:585
+#: src/components/vm/nics/vmNicsCard.tsx:586
 msgid "State"
 msgstr "狀態"
 
@@ -2876,11 +2886,11 @@ msgstr "切換至 VNC 以繼續使用此機器。"
 msgid "System"
 msgstr "系統"
 
-#: src/components/vm/nics/vmNicsCard.tsx:214
+#: src/components/vm/nics/vmNicsCard.tsx:215
 msgid "TAP device"
 msgstr "TAP 裝置"
 
-#: src/components/vm/nics/nicBody.tsx:526
+#: src/components/vm/nics/nicBody.tsx:485
 #, fuzzy
 #| msgid "CPU"
 msgid "TCP"
@@ -2897,7 +2907,7 @@ msgstr "可選擇的主機裝置列表"
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/overview/bootOrder.tsx:164
-#: src/components/vm/nics/vmNicsCard.tsx:556
+#: src/components/vm/nics/vmNicsCard.tsx:557
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
 msgid "Target"
 msgstr "目標"
@@ -2930,8 +2940,8 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "虛擬機器 $0 正在執行中，將在刪除前被強制關閉。"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:667
-#: src/components/vm/nics/vmNicsCard.tsx:675
+#: src/components/vm/nics/vmNicsCard.tsx:668
+#: src/components/vm/nics/vmNicsCard.tsx:676
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "虛擬機器須為執行中或已關閉，才能拆離此裝置"
 
@@ -2950,20 +2960,16 @@ msgid ""
 msgstr ""
 "將從來源主機移除被遷移的虛擬機器設定。目標主機將會被作為虛擬機器的新家。"
 
-#: src/components/vm/nics/nicBody.tsx:292
-msgid "The mode influences the delivery of packets."
-msgstr "模式會影響封包的傳遞。"
-
 #: src/components/vm/disks/diskAdd.tsx:140
 msgid "The pool is empty"
 msgstr "集區是空的"
 
-#: src/components/vm/nics/nicBody.tsx:510
+#: src/components/vm/nics/nicBody.tsx:469
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:496
+#: src/components/vm/nics/nicBody.tsx:455
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
@@ -2995,6 +3001,12 @@ msgstr "用於讓客體掛載此匯出點的標籤名稱。"
 msgid "Then copy and paste it above."
 msgstr "然後複製並於上方貼上。"
 
+#: src/components/vm/nics/nicBody.tsx:213
+msgid ""
+"There are no sources for virtual network interfaces on this host. You might "
+"want to create a virtual network."
+msgstr ""
+
 #: src/components/vm/vmActions.tsx:466
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "此虛擬機器是暫時的。如果想要刪除它，將其關機即可。"
@@ -3018,22 +3030,6 @@ msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr "這適用於因為升級或動態遷移後不支援 SPICE 的主機。"
-
-#: src/components/vm/nics/nicBody.tsx:94
-msgid ""
-"This is the recommended type for general guest connectivity on hosts with "
-"dynamic / wireless networking configs."
-msgstr "這是在具動態或無線網路的主機上提供一般客體連線能力的建議類型。"
-
-#: src/components/vm/nics/nicBody.tsx:103
-msgid ""
-"This is the recommended type for general guest connectivity on hosts with "
-"static wired networking configs."
-msgstr "這是在具靜態有線網路主機上提供一般客體連線能力的建議類型。"
-
-#: src/components/vm/nics/nicBody.tsx:109
-msgid "This is the recommended type for high performance or enhanced security."
-msgstr "這是為了高效能或更佳安全性的建議類型。"
 
 #: src/components/vm/consoles/spice.tsx:68
 msgid "This machine has a SPICE graphical console that can not be shown here."
@@ -3078,13 +3074,13 @@ msgstr "疑難排解"
 #: src/components/vm/overview/bootOrder.tsx:162
 #: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/overview/bootOrder.tsx:175
-#: src/components/vm/nics/vmNicsCard.tsx:779
+#: src/components/vm/nics/vmNicsCard.tsx:780
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
 msgid "Type"
 msgstr "類型"
 
-#: src/components/vm/nics/nicBody.tsx:527
+#: src/components/vm/nics/nicBody.tsx:486
 msgid "UDP"
 msgstr ""
 
@@ -3411,7 +3407,7 @@ msgstr "新增"
 msgid "add entry"
 msgstr "新增項目"
 
-#: src/components/vm/nics/nicBody.tsx:360
+#: src/components/vm/nics/nicBody.tsx:319
 #, fuzzy
 #| msgid "All"
 msgid "all"
@@ -3429,7 +3425,7 @@ msgstr "cdrom光碟"
 msgid "custom"
 msgstr "自訂"
 
-#: src/components/vm/nics/vmNicsCard.tsx:796
+#: src/components/vm/nics/vmNicsCard.tsx:797
 msgid "default"
 msgstr ""
 
@@ -3544,7 +3540,7 @@ msgstr "沒有已儲存的狀態"
 #: src/components/networks/networkOverviewTab.tsx:314
 #: src/components/vm/overview/vsock.tsx:297
 #: src/components/vm/overview/watchdog.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:287
+#: src/components/vm/nics/vmNicsCard.tsx:288
 msgid "none"
 msgstr "無"
 
@@ -3650,6 +3646,32 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:264
 msgid "yes"
 msgstr "是"
+
+#~ msgid "Interface type help"
+#~ msgstr "介面類型說明"
+
+#~ msgid "Mode help"
+#~ msgstr "模式說明"
+
+#, fuzzy
+#~| msgid "No storage pools available"
+#~ msgid "No sources available"
+#~ msgstr "沒有可用的儲存集區"
+
+#~ msgid ""
+#~ "Provides a bridge from the guest virtual machine directly onto the LAN. "
+#~ "This needs a bridge device on the host with one or more physical NICs."
+#~ msgstr ""
+#~ "提供一個從虛擬機器客端直接連至區域網路的橋接。需要一個於主機上具一或多個實"
+#~ "體網路卡的橋接裝置。"
+
+#~ msgid ""
+#~ "Provides a connection whose details are described by the named network "
+#~ "definition."
+#~ msgstr "提供一個由指定名稱網路定義描述詳細資料的連線。"
+
+#~ msgid "The mode influences the delivery of packets."
+#~ msgstr "模式會影響封包的傳遞。"
 
 #, fuzzy
 #~| msgid "IPv4 address"

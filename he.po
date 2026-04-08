@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-31 05:01+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2025-12-05 11:29+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/cockpit/"
@@ -37,7 +37,7 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 5.14.3\n"
 
-#: src/components/vm/nics/nicBody.tsx:366
+#: src/components/vm/nics/nicBody.tsx:325
 msgid " excluding "
 msgstr " ללא "
 
@@ -95,7 +95,7 @@ msgstr[1] "$0 מעבדים וירטואליים"
 msgstr[2] "$0 מעבדים וירטואליים"
 msgstr[3] "$0 מעבדים וירטואליים"
 
-#: src/components/vm/nics/nicEdit.tsx:222
+#: src/components/vm/nics/nicEdit.tsx:218
 msgid "$0 virtual network interface settings"
 msgstr "הגדרות מנשק הרשת הווירטואלי $0"
 
@@ -125,7 +125,7 @@ msgstr "פעולה"
 #: src/components/vms/hostvmslist.tsx:324
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/disks/vmDisksCard.tsx:167
-#: src/components/vm/nics/vmNicsCard.tsx:592
+#: src/components/vm/nics/vmNicsCard.tsx:593
 msgid "Actions"
 msgstr "פעולות"
 
@@ -142,7 +142,7 @@ msgstr "יש להפעיל את מאגר האחסון כדי לנהל כרכים"
 #: src/components/vm/disks/diskAdd.tsx:973
 #: src/components/vm/overview/vsock.tsx:223
 #: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/nics/nicBody.tsx:599 src/components/vm/nics/nicAdd.tsx:279
+#: src/components/vm/nics/nicBody.tsx:558 src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/hostdevs/hostDevAdd.tsx:261
 msgid "Add"
 msgstr "הוספה"
@@ -173,7 +173,7 @@ msgstr "הוספת כונן"
 msgid "Add host device"
 msgstr "הוספת התקן מארח"
 
-#: src/components/vm/nics/vmNicsCard.tsx:103
+#: src/components/vm/nics/vmNicsCard.tsx:104
 msgid "Add network interface"
 msgstr "הוספת מנשק רשת"
 
@@ -185,7 +185,7 @@ msgstr "הוספת מסוף טורי"
 msgid "Add shared directory"
 msgstr "הוספת תיקייה משותפת"
 
-#: src/components/vm/nics/nicAdd.tsx:268
+#: src/components/vm/nics/nicAdd.tsx:263
 msgid "Add virtual network interface"
 msgstr "הוספת מנשק רשת וירטואלי"
 
@@ -207,7 +207,7 @@ msgstr "הוספת תיקיות משותפות אפשרית רק כשהאורח�
 
 #: src/components/networks/networkOverviewTab.tsx:140
 #: src/components/networks/networkOverviewTab.tsx:160
-#: src/components/vm/nics/vmNicsCard.tsx:182
+#: src/components/vm/nics/vmNicsCard.tsx:183
 msgid "Address"
 msgstr "כתובת"
 
@@ -217,6 +217,10 @@ msgstr "כתובת"
 #: src/components/networks/createNetworkDialog.tsx:153
 msgid "Address not within subnet"
 msgstr "הכתובת אינה בתת־הרשת"
+
+#: src/components/vm/nics/nicBody.tsx:108
+msgid "Advanced interface type for high performance or enhanced security."
+msgstr ""
 
 #: src/components/vms/hostvmslist.tsx:221
 #: src/components/vms/hostvmslist.tsx:239
@@ -242,7 +246,7 @@ msgid "Also delete all volumes inside this pool:"
 msgstr "למחוק גם את כל הכרכים בתוך המאגר הזה:"
 
 #: src/components/vm/disks/diskAdd.tsx:181
-#: src/components/vm/nics/nicAdd.tsx:141
+#: src/components/vm/nics/nicAdd.tsx:135
 msgid "Always attach"
 msgstr "להצמיד תמיד"
 
@@ -296,7 +300,7 @@ msgstr "אוטומציה"
 msgid "Autostart"
 msgstr "התחלה אוטומטית"
 
-#: src/components/vm/nics/vmNicsCard.tsx:793
+#: src/components/vm/nics/vmNicsCard.tsx:794
 msgid "Backend"
 msgstr "מנגנון"
 
@@ -471,7 +475,7 @@ msgstr ""
 msgid "Cockpit Project"
 msgstr "מיזם Cockpit"
 
-#: src/components/vm/nics/nicBody.tsx:557
+#: src/components/vm/nics/nicBody.tsx:516
 msgid "Complex rule \"$0\" can not be edited here."
 msgstr "לא ניתן לערוך כאן את הכלל המורכב „$0”."
 
@@ -901,7 +905,7 @@ msgid "Dying"
 msgstr "גוסס"
 
 #: src/components/vm/disks/diskEdit.tsx:245
-#: src/components/vm/nics/vmNicsCard.tsx:633
+#: src/components/vm/nics/vmNicsCard.tsx:634
 msgid "Edit"
 msgstr "עריכה"
 
@@ -936,11 +940,11 @@ msgstr "הוספת מנשק רשת"
 msgid "Edit watchdog device type"
 msgstr "עריכת סוג התקן השגחה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:621
+#: src/components/vm/nics/vmNicsCard.tsx:622
 msgid "Editing network interfaces of transient guests is not allowed"
 msgstr "עריכת מנשקי הרשת של אורחות חולפות אסורה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:627
+#: src/components/vm/nics/vmNicsCard.tsx:628
 msgid "Editing transient network interfaces is not allowed"
 msgstr "עריכת מנשקים של רשת חולפת אסורה"
 
@@ -1060,7 +1064,7 @@ msgstr "ניתוק ההשגחה נכשל"
 msgid "Failed to fetch some resources"
 msgstr "משיכה של חלק מהמשאבים נכשלה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:445
+#: src/components/vm/nics/vmNicsCard.tsx:446
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "קבלת כתובות ה־IP של המנשקים שקיימים תחת $0 נכשלה"
 
@@ -1112,6 +1116,17 @@ msgstr "סינון לפי שם"
 msgid "Firmware"
 msgstr "קושחה"
 
+#: src/components/vm/nics/nicBody.tsx:91
+msgid ""
+"For general guest connectivity on hosts with dynamic / wireless networking "
+"configs."
+msgstr ""
+
+#: src/components/vm/nics/nicBody.tsx:100
+msgid ""
+"For general guest connectivity on hosts with static wired networking configs."
+msgstr ""
+
 #: src/components/vm/disks/mediaEject.tsx:113
 msgid "Force eject"
 msgstr "אילוץ שליפה"
@@ -1152,7 +1167,7 @@ msgstr "פרמוט"
 msgid "Forward mode"
 msgstr "מצב העברה"
 
-#: src/components/vm/nics/nicBody.tsx:609
+#: src/components/vm/nics/nicBody.tsx:568
 #, fuzzy
 #| msgid "Forward mode"
 msgid "Forwarded ports"
@@ -1212,11 +1227,11 @@ msgstr ""
 msgid "Graphical console support not enabled"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:504
+#: src/components/vm/nics/nicBody.tsx:463
 msgid "Guest port"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:508
+#: src/components/vm/nics/nicBody.tsx:467
 msgid "Guest port help"
 msgstr ""
 
@@ -1262,19 +1277,19 @@ msgstr "התקן מארח"
 msgid "Host name"
 msgstr "שם מארח"
 
-#: src/components/vm/nics/nicBody.tsx:489
+#: src/components/vm/nics/nicBody.tsx:448
 #, fuzzy
 #| msgid "Host"
 msgid "Host port"
 msgstr "מארח"
 
-#: src/components/vm/nics/nicBody.tsx:442
+#: src/components/vm/nics/nicBody.tsx:401
 #, fuzzy
 #| msgid "Host should not be empty"
 msgid "Host port can not be empty."
 msgstr "המארח לא אמור להיות ריק"
 
-#: src/components/vm/nics/nicBody.tsx:494
+#: src/components/vm/nics/nicBody.tsx:453
 msgid "Host port help"
 msgstr ""
 
@@ -1295,12 +1310,12 @@ msgid "IP"
 msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:255
-#: src/components/vm/nics/nicBody.tsx:475
-#: src/components/vm/nics/vmNicsCard.tsx:573
+#: src/components/vm/nics/nicBody.tsx:434
+#: src/components/vm/nics/vmNicsCard.tsx:574
 msgid "IP address"
 msgstr "כתובת IP"
 
-#: src/components/vm/nics/nicBody.tsx:479
+#: src/components/vm/nics/nicBody.tsx:438
 #, fuzzy
 #| msgid "IP address"
 msgid "IP address help"
@@ -1382,7 +1397,7 @@ msgstr ""
 msgid "Idle"
 msgstr "בהמתנה"
 
-#: src/components/vm/nics/nicBody.tsx:481
+#: src/components/vm/nics/nicBody.tsx:440
 msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
@@ -1481,17 +1496,11 @@ msgstr ""
 msgid "Interface"
 msgstr "סוג מנשק"
 
-#: src/components/vm/nics/nicBody.tsx:237
+#: src/components/vm/nics/nicBody.tsx:261
 msgid "Interface type"
 msgstr "סוג מנשק"
 
-#: src/components/vm/nics/nicBody.tsx:239
-#, fuzzy
-#| msgid "Interface type"
-msgid "Interface type help"
-msgstr "סוג מנשק"
-
-#: src/components/vm/nics/nicBody.tsx:427
+#: src/components/vm/nics/nicBody.tsx:386
 #, fuzzy
 #| msgid "Invalid IPv4 address"
 msgid "Invalid IP address"
@@ -1570,7 +1579,7 @@ msgstr "Libvirt לא זיהה תמונת קושחה מסוג UEFI/OVMF מותק�
 msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt או ה־hypervisor לא תומכים ב־UEFI"
 
-#: src/components/vm/nics/vmNicsCard.tsx:624
+#: src/components/vm/nics/vmNicsCard.tsx:625
 #, fuzzy
 #| msgid "No network devices"
 msgid "Loading available network devices"
@@ -1604,14 +1613,14 @@ msgid "MAC"
 msgstr "MAC"
 
 #: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/nicEdit.tsx:54
-#: src/components/vm/nics/vmNicsCard.tsx:568
-#: src/components/vm/nics/vmNicsCard.tsx:766
+#: src/components/vm/nics/nicEdit.tsx:45
+#: src/components/vm/nics/vmNicsCard.tsx:569
+#: src/components/vm/nics/vmNicsCard.tsx:767
 #: src/components/vm/nics/nicAdd.tsx:83
 msgid "MAC address"
 msgstr "כתובת MAC"
 
-#: src/components/vm/nics/nicEdit.tsx:108 src/components/vm/nics/nicAdd.tsx:187
+#: src/components/vm/nics/nicEdit.tsx:99 src/components/vm/nics/nicAdd.tsx:179
 msgid "MAC address already in use"
 msgstr ""
 
@@ -1755,27 +1764,21 @@ msgstr ""
 
 #: src/components/vm/overview/cpuModal.tsx:304
 #: src/components/vm/overview/cpuModal.tsx:306
-#: src/components/vm/nics/nicBody.tsx:282
-#: src/components/vm/nics/vmNicsCard.tsx:167
+#: src/components/vm/nics/nicBody.tsx:275
+#: src/components/vm/nics/vmNicsCard.tsx:168
 msgid "Mode"
 msgstr "מצב"
 
-#: src/components/vm/nics/nicBody.tsx:286
-#, fuzzy
-#| msgid "Model"
-msgid "Mode help"
-msgstr "דגם"
-
-#: src/components/vm/nics/nicBody.tsx:59
+#: src/components/vm/nics/nicBody.tsx:57
 #: src/components/vm/hostdevs/hostDevCard.tsx:197
 msgid "Model"
 msgstr "דגם"
 
-#: src/components/vm/nics/vmNicsCard.tsx:772
+#: src/components/vm/nics/vmNicsCard.tsx:773
 msgid "Model type"
 msgstr "סוג דגם"
 
-#: src/components/vm/nics/nicBody.tsx:302
+#: src/components/vm/nics/nicBody.tsx:118
 msgid "More info"
 msgstr ""
 
@@ -1803,7 +1806,7 @@ msgstr ""
 msgid "NAT to $0"
 msgstr "NAT אל $0"
 
-#: src/components/vm/nics/vmNicsCard.tsx:523
+#: src/components/vm/nics/vmNicsCard.tsx:524
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "החלפת מצב מתאם הרשת $0 של המכונה הווירטואלית $0 נכשלה"
 
@@ -1900,19 +1903,19 @@ msgstr "מערכת קבצים רשתית"
 msgid "Network interface"
 msgstr "הוספת מנשק רשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:649
+#: src/components/vm/nics/vmNicsCard.tsx:650
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 could not be removed"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:650
+#: src/components/vm/nics/vmNicsCard.tsx:651
 #, fuzzy
 #| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 will be removed from $1"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
-#: src/components/vm/nics/nicEdit.tsx:172 src/components/vm/nics/nicAdd.tsx:226
+#: src/components/vm/nics/nicEdit.tsx:163 src/components/vm/nics/nicAdd.tsx:218
 msgid "Network interface settings could not be saved"
 msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 
@@ -1921,6 +1924,12 @@ msgstr "לא ניתן לשמור את הגדרות מנשק הרשת"
 #| msgid "Add network interface"
 msgid "Network interfaces"
 msgstr "הוספת מנשק רשת"
+
+#: src/components/vm/nics/nicBody.tsx:183
+#, fuzzy
+#| msgid "Complex rule \"$0\" can not be edited here."
+msgid "Network interfaces of type \"$0\" can not be edited here."
+msgstr "לא ניתן לערוך כאן את הכלל המורכב „$0”."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:400
 msgid "Network selection does not support PXE."
@@ -1958,6 +1967,12 @@ msgstr "אף מכונה וירטואלית לא מופעלת או מוגדרת �
 msgid "No boot device found"
 msgstr "לא נמצא התקן עלייה"
 
+#: src/components/vm/nics/nicBody.tsx:101
+#, fuzzy
+#| msgid "host device"
+msgid "No bridge devices"
+msgstr "התקן מארח"
+
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
 msgid "No description"
 msgstr "אין תיאור"
@@ -1980,11 +1995,11 @@ msgstr "לא נמצא התקן עלייה"
 msgid "No host devices"
 msgstr "התקן מארח"
 
-#: src/components/vm/nics/nicBody.tsx:217
+#: src/components/vm/nics/nicBody.tsx:122
 msgid "No network devices"
 msgstr "אין התקני רשת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:828
+#: src/components/vm/nics/vmNicsCard.tsx:829
 #, fuzzy
 #| msgid "Add network interface"
 msgid "No network interfaces"
@@ -2002,7 +2017,7 @@ msgstr "אין רשתות זמינות"
 msgid "No parent"
 msgstr "אין הורה"
 
-#: src/components/vm/nics/nicBody.tsx:617
+#: src/components/vm/nics/nicBody.tsx:576
 msgid "No ports forwarded"
 msgstr ""
 
@@ -2021,12 +2036,6 @@ msgstr "הוספת תיקייה משותפת"
 #| msgid "Snapshots"
 msgid "No snapshots"
 msgstr "תמונות מצב"
-
-#: src/components/vm/nics/nicBody.tsx:332
-#, fuzzy
-#| msgid "No storage pools available"
-msgid "No sources available"
-msgstr "אין מאגרי אחסון זמינים"
 
 #: src/helpers.ts:225
 msgid "No state"
@@ -2048,7 +2057,7 @@ msgstr "אין מאגרי אחסון זמינים"
 msgid "No storage volumes defined for this storage pool"
 msgstr "לא הוגדרו כרכי אחסון למאגר האחסון הזה"
 
-#: src/components/vm/nics/nicBody.tsx:215
+#: src/components/vm/nics/nicBody.tsx:92
 msgid "No virtual networks"
 msgstr "אין רשתות וירטואליות"
 
@@ -2112,7 +2121,7 @@ msgstr ""
 
 #: src/components/vm/overview/bootOrder.tsx:394
 #: src/components/vm/overview/memoryModal.tsx:173
-#: src/components/vm/nics/nicEdit.tsx:51
+#: src/components/vm/nics/nicEdit.tsx:47
 msgid "Only editable when the guest is shut off"
 msgstr "ניתן לעריכה רק כאשר האורח כבוי"
 
@@ -2209,7 +2218,7 @@ msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:178
-#: src/components/vm/nics/nicAdd.tsx:135
+#: src/components/vm/nics/nicAdd.tsx:134
 msgid "Persistence"
 msgstr "עקביות"
 
@@ -2226,7 +2235,7 @@ msgstr "התקן כונן פיזי"
 msgid "Physical disk device on host"
 msgstr "התקן כונן פיזי במארח"
 
-#: src/components/vm/nics/nicEdit.tsx:109 src/components/vm/nics/nicAdd.tsx:187
+#: src/components/vm/nics/nicEdit.tsx:100 src/components/vm/nics/nicAdd.tsx:179
 msgid "Please choose a different MAC address"
 msgstr ""
 
@@ -2273,16 +2282,16 @@ msgstr "כרכי המאגר משמשים מכונות וירטואליות "
 #: src/components/vm/disks/vmDiskColumns.tsx:41
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
-#: src/components/vm/nics/vmNicsCard.tsx:190
+#: src/components/vm/nics/vmNicsCard.tsx:191
 #: src/components/vm/consoles/vnc.tsx:170
 msgid "Port"
 msgstr "פתחה"
 
-#: src/components/vm/nics/vmNicsCard.tsx:280
+#: src/components/vm/nics/vmNicsCard.tsx:281
 msgid "Port forwards"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:436
+#: src/components/vm/nics/nicBody.tsx:395
 #, fuzzy
 #| msgid "Hours must be a number between 0 and 23"
 msgid "Port must be 1 to 65535."
@@ -2298,7 +2307,7 @@ msgid ""
 "assign a free port when the machine starts."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:434 src/components/vm/consoles/vnc.tsx:97
+#: src/components/vm/nics/nicBody.tsx:393 src/components/vm/consoles/vnc.tsx:97
 #, fuzzy
 #| msgid "Hours must be a number between 0 and 23"
 msgid "Port must be a number."
@@ -2357,24 +2366,12 @@ msgstr "פרופיל"
 #: src/components/vm/disks/vmDiskColumns.tsx:37
 #: src/components/vm/overview/bootOrder.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:517
+#: src/components/vm/nics/nicBody.tsx:476
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 msgid "Protocol"
 msgstr "פרוטוקול"
 
-#: src/components/vm/nics/nicBody.tsx:104
-msgid ""
-"Provides a bridge from the guest virtual machine directly onto the LAN. This "
-"needs a bridge device on the host with one or more physical NICs."
-msgstr ""
-
-#: src/components/vm/nics/nicBody.tsx:95
-msgid ""
-"Provides a connection whose details are described by the named network "
-"definition."
-msgstr ""
-
-#: src/components/vm/nics/nicBody.tsx:119
+#: src/components/vm/nics/nicBody.tsx:132
 msgid "Provides a virtual LAN with NAT to the outside world."
 msgstr ""
 
@@ -2451,8 +2448,8 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
 #: src/components/vm/overview/vsock.tsx:269
 #: src/components/vm/overview/watchdog.tsx:225
-#: src/components/vm/nics/vmNicsCard.tsx:651
-#: src/components/vm/nics/vmNicsCard.tsx:666
+#: src/components/vm/nics/vmNicsCard.tsx:652
+#: src/components/vm/nics/vmNicsCard.tsx:667
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
 msgid "Remove"
@@ -2479,12 +2476,12 @@ msgid "Remove host device from VM?"
 msgstr "להסיר התקן מארח ממכונה וירטואלית?"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:927
-#: src/components/vm/nics/nicBody.tsx:536
-#: src/components/vm/nics/nicBody.tsx:567
+#: src/components/vm/nics/nicBody.tsx:495
+#: src/components/vm/nics/nicBody.tsx:526
 msgid "Remove item"
 msgstr "הסרת פריט"
 
-#: src/components/vm/nics/vmNicsCard.tsx:648
+#: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Remove network interface?"
 msgstr "להסיר מנשק רשת?"
 
@@ -2639,7 +2636,7 @@ msgstr ""
 #: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/overview/memoryModal.tsx:192
 #: src/components/vm/overview/firmware.tsx:104
-#: src/components/vm/nics/nicEdit.tsx:234
+#: src/components/vm/nics/nicEdit.tsx:230
 #: src/components/vm/consoles/vnc.tsx:155
 msgid "Save"
 msgstr "שמירה"
@@ -2843,8 +2840,8 @@ msgstr ""
 #: src/components/vm/disks/vmDisksCard.tsx:163
 #: src/components/vm/disks/diskAdd.tsx:711
 #: src/components/vm/disks/diskAdd.tsx:747
-#: src/components/vm/nics/nicBody.tsx:270
-#: src/components/vm/nics/vmNicsCard.tsx:548
+#: src/components/vm/nics/nicBody.tsx:268
+#: src/components/vm/nics/vmNicsCard.tsx:549
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 msgid "Source"
 msgstr "מקור"
@@ -2923,7 +2920,7 @@ msgstr "בהתחלה"
 #: src/components/vms/hostvmslist.tsx:266
 #: src/components/vms/hostvmslist.tsx:322
 #: src/components/vm/overview/vmOverviewCard.tsx:163
-#: src/components/vm/nics/vmNicsCard.tsx:585
+#: src/components/vm/nics/vmNicsCard.tsx:586
 msgid "State"
 msgstr "מצב"
 
@@ -3023,13 +3020,13 @@ msgstr ""
 msgid "System"
 msgstr "מערכת"
 
-#: src/components/vm/nics/vmNicsCard.tsx:214
+#: src/components/vm/nics/vmNicsCard.tsx:215
 #, fuzzy
 #| msgid "Host device"
 msgid "TAP device"
 msgstr "התקן מארח"
 
-#: src/components/vm/nics/nicBody.tsx:526
+#: src/components/vm/nics/nicBody.tsx:485
 #, fuzzy
 #| msgid "CPU"
 msgid "TCP"
@@ -3046,7 +3043,7 @@ msgstr ""
 #: src/components/vm/disks/vmDiskColumns.tsx:176
 #: src/components/vm/disks/vmDisksCard.tsx:164
 #: src/components/vm/overview/bootOrder.tsx:164
-#: src/components/vm/nics/vmNicsCard.tsx:556
+#: src/components/vm/nics/vmNicsCard.tsx:557
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
 msgid "Target"
 msgstr "יעד"
@@ -3081,8 +3078,8 @@ msgid "The VM $0 is running and will be forced off before deletion."
 msgstr "המכונה הווירטואלית פועלת ויהיה עליך לכבות אותה לפני המחיקה."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:667
-#: src/components/vm/nics/vmNicsCard.tsx:675
+#: src/components/vm/nics/vmNicsCard.tsx:668
+#: src/components/vm/nics/vmNicsCard.tsx:676
 msgid "The VM needs to be running or shut off to detach this device"
 msgstr "על המכונה הווירטואלית להיות פעילה או כבויה כדי לנתק את ההתקן הזה"
 
@@ -3100,20 +3097,16 @@ msgid ""
 "destination host is considered the new home of the VM."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:292
-msgid "The mode influences the delivery of packets."
-msgstr ""
-
 #: src/components/vm/disks/diskAdd.tsx:140
 msgid "The pool is empty"
 msgstr "המאגר ריק"
 
-#: src/components/vm/nics/nicBody.tsx:510
+#: src/components/vm/nics/nicBody.tsx:469
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:496
+#: src/components/vm/nics/nicBody.tsx:455
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
@@ -3145,6 +3138,12 @@ msgstr ""
 msgid "Then copy and paste it above."
 msgstr ""
 
+#: src/components/vm/nics/nicBody.tsx:213
+msgid ""
+"There are no sources for virtual network interfaces on this host. You might "
+"want to create a virtual network."
+msgstr ""
+
 #: src/components/vm/vmActions.tsx:466
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr "זו מכונה וירטואלית זמנית. ניתן לכבות אותה אם ברצונך למחוק אותה."
@@ -3167,22 +3166,6 @@ msgstr ""
 msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
-msgstr ""
-
-#: src/components/vm/nics/nicBody.tsx:94
-msgid ""
-"This is the recommended type for general guest connectivity on hosts with "
-"dynamic / wireless networking configs."
-msgstr ""
-
-#: src/components/vm/nics/nicBody.tsx:103
-msgid ""
-"This is the recommended type for general guest connectivity on hosts with "
-"static wired networking configs."
-msgstr ""
-
-#: src/components/vm/nics/nicBody.tsx:109
-msgid "This is the recommended type for high performance or enhanced security."
 msgstr ""
 
 #: src/components/vm/consoles/spice.tsx:68
@@ -3229,13 +3212,13 @@ msgstr "איתור תקלות"
 #: src/components/vm/overview/bootOrder.tsx:162
 #: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/overview/bootOrder.tsx:175
-#: src/components/vm/nics/vmNicsCard.tsx:779
+#: src/components/vm/nics/vmNicsCard.tsx:780
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
 msgid "Type"
 msgstr "סוג"
 
-#: src/components/vm/nics/nicBody.tsx:527
+#: src/components/vm/nics/nicBody.tsx:486
 msgid "UDP"
 msgstr ""
 
@@ -3565,7 +3548,7 @@ msgstr "הוספה"
 msgid "add entry"
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:360
+#: src/components/vm/nics/nicBody.tsx:319
 #, fuzzy
 #| msgid "All"
 msgid "all"
@@ -3583,7 +3566,7 @@ msgstr "תקליטור"
 msgid "custom"
 msgstr "מותאם אישית"
 
-#: src/components/vm/nics/vmNicsCard.tsx:796
+#: src/components/vm/nics/vmNicsCard.tsx:797
 msgid "default"
 msgstr ""
 
@@ -3698,7 +3681,7 @@ msgstr "לא נשמר מצב"
 #: src/components/networks/networkOverviewTab.tsx:314
 #: src/components/vm/overview/vsock.tsx:297
 #: src/components/vm/overview/watchdog.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:287
+#: src/components/vm/nics/vmNicsCard.tsx:288
 msgid "none"
 msgstr ""
 
@@ -3808,6 +3791,21 @@ msgstr ""
 #: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:264
 msgid "yes"
 msgstr "כן"
+
+#, fuzzy
+#~| msgid "Interface type"
+#~ msgid "Interface type help"
+#~ msgstr "סוג מנשק"
+
+#, fuzzy
+#~| msgid "Model"
+#~ msgid "Mode help"
+#~ msgstr "דגם"
+
+#, fuzzy
+#~| msgid "No storage pools available"
+#~ msgid "No sources available"
+#~ msgstr "אין מאגרי אחסון זמינים"
 
 #, fuzzy
 #~| msgid "IPv4 address"
