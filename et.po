@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 05:18+0000\n"
 "PO-Revision-Date: 2026-04-19 15:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
 "cockpit/cockpit-machines/et/>\n"
 "Language: et\n"
@@ -645,7 +645,7 @@ msgstr ""
 #: src/components/vm/disks/diskAdd.tsx:413
 #: src/components/vm/disks/diskAdd.tsx:562
 msgid "Custom path"
-msgstr "Kohendatud: %(path)s"
+msgstr "Kohendatud asukoht"
 
 #: src/components/networks/networkOverviewTab.tsx:294
 msgid "DHCP Settings"
@@ -770,7 +770,7 @@ msgstr "Ketas"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:173
 msgid "Disk $0 could not be removed"
-msgstr "„$0“ failisüsteemi eemaldamine ei õnnestunud"
+msgstr "„$0“ ketta eemaldamine ei õnnestunud"
 
 #: src/components/vm/disks/diskAdd.tsx:706
 msgid "Disk failed to be added"
@@ -999,7 +999,7 @@ msgstr ""
 
 #: src/components/vm/consoles/vnc.tsx:497
 msgid "Failed to connect"
-msgstr ""
+msgstr "Ühendamine ei õnnestunud"
 
 #: src/components/vm/overview/vsock.tsx:168
 msgid "Failed to detach vsock"
@@ -1088,7 +1088,7 @@ msgstr ""
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
 msgid "Force revert"
-msgstr "Taaskäivita sundkorras"
+msgstr "Pööra sundkorras tagasi"
 
 #: src/components/vm/vmActions.tsx:275 src/components/vm/vmActions.tsx:280
 msgid "Force shut down"
@@ -1206,7 +1206,7 @@ msgstr ""
 
 #: src/components/vm/vmDetailsPage.tsx:176
 msgid "Host devices"
-msgstr ""
+msgstr "Alussüsteemi seadmed"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:157
 msgid "Host name"
@@ -1252,11 +1252,11 @@ msgstr "IP-aadressi abiteave"
 
 #: src/components/networks/networkOverviewTab.tsx:261
 msgid "IP address must not be empty"
-msgstr "MAC-aadress ei tohi jääda tühjaks"
+msgstr "IP-aadress ei tohi jääda tühjaks"
 
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
-msgstr "NTP seadistus"
+msgstr "IP-seadistus"
 
 #: src/components/networks/createNetworkDialog.tsx:337
 #: src/components/networks/networkOverviewTab.tsx:136
@@ -1265,11 +1265,11 @@ msgstr "IPv4 aadress"
 
 #: src/components/networks/createNetworkDialog.tsx:110
 msgid "IPv4 address cannot be same as the network's broadcast address"
-msgstr ""
+msgstr "IPv4-aadress ei saa olla sama, kui võrgu leviaadress"
 
 #: src/components/networks/createNetworkDialog.tsx:256
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 ja IPv6"
 
 #: src/components/networks/createNetworkDialog.tsx:98
 msgid "IPv4 network should not be empty"
@@ -1469,15 +1469,19 @@ msgstr ""
 msgid ""
 "Leave the password blank if you do not wish to have a root account created"
 msgstr ""
+"Kui sa ei soovi juurkasutaja (peakasutaja) konto loomist, siis jäta salasõna "
+"tühjaks"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:820
 msgid ""
 "Leave the password blank if you do not wish to have a user account created"
-msgstr ""
+msgstr "Kui sa ei soovi tavakasutaja konto loomist, siis jäta salasõna tühjaks"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:950
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr ""
+"Kui sa ei soovi juurkasutaja (peakasutaja) salasõna lisada, siis jäta "
+"salasõna tühjaks"
 
 #: src/components/vm/overview/firmware.tsx:176
 msgid ""
@@ -1547,7 +1551,7 @@ msgstr "Halda oma virtuaalmasinaid"
 
 #: src/manifest.json:0
 msgid "Managing virtual machines"
-msgstr "Virtuaalmasinate haldus"
+msgstr "Virtuaalmasinate haldamine"
 
 #: src/components/networks/createNetworkDialog.tsx:344
 msgid "Mask or prefix length"
@@ -1588,10 +1592,8 @@ msgid "Media could not be ejected from $0"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:639
-#, fuzzy
-#| msgid "Storage pool failed to be created"
 msgid "Media failed to be inserted"
-msgstr "Andmeruumikogumi loomine ei õnnestunud"
+msgstr "Meediumi sisestamine ei õnnestunud"
 
 #: src/components/vm/disks/mediaEject.tsx:103
 msgid "Media will be ejected from $0:"
@@ -1797,10 +1799,8 @@ msgid "Network interfaces"
 msgstr "Võrguliidesed"
 
 #: src/components/vm/nics/nicBody.tsx:183
-#, fuzzy
-#| msgid "Complex rule \"$0\" can not be edited here."
 msgid "Network interfaces of type \"$0\" can not be edited here."
-msgstr "Keerukat reeglit „$0“ ei saa siinkohal muuta."
+msgstr "„$0“ tüüpi võrguliideseid ei saa siinkohal muuta."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:400
 msgid "Network selection does not support PXE."
@@ -1839,10 +1839,8 @@ msgid "No boot device found"
 msgstr "Alglaadimisseadet ei leidu"
 
 #: src/components/vm/nics/nicBody.tsx:101
-#, fuzzy
-#| msgid "No host devices"
 msgid "No bridge devices"
-msgstr "Alussüsteemi seadmeid pole"
+msgstr "Sildseadmeid pole"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
 msgid "No description"
@@ -1881,10 +1879,8 @@ msgid "No parent"
 msgstr "Ülemsüsteemi ei leidu"
 
 #: src/components/vm/disks/diskAdd.tsx:210
-#, fuzzy
-#| msgid "Pool type doesn't support volume creation"
 msgid "No pools that allow volume creation"
-msgstr "Andmeruumikogumi tüüp ei toeta köidete lisamist"
+msgstr "Pole andmeruumikogumit, mis võimaldaks köidete lisamist"
 
 #: src/components/vm/nics/nicBody.tsx:576
 msgid "No ports forwarded"
@@ -1919,10 +1915,8 @@ msgid "No storage volumes defined for this storage pool"
 msgstr "Selle andmeruumikogumi jaoks pole määratletud ühtegi andmeruumiköidet"
 
 #: src/components/vm/disks/diskAdd.tsx:289
-#, fuzzy
-#| msgid "Create storage volume"
 msgid "No usable storage volumes"
-msgstr "Loo andmeruumi köide"
+msgstr "Pole kasutatavaid andmeruumi köiteid"
 
 #: src/components/vm/nics/nicBody.tsx:92
 msgid "No virtual networks"
@@ -2040,10 +2034,8 @@ msgid "Path"
 msgstr "Asukoht"
 
 #: src/components/vm/disks/diskAdd.tsx:390
-#, fuzzy
-#| msgid "Name can not be empty"
 msgid "Path can not be empty"
-msgstr "Nimi ei tohi jääda tühjaks"
+msgstr "Asukoht ei tohi jääda tühjaks"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:134
 msgid "Path on host's filesystem"
@@ -2530,7 +2522,7 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
 msgid "Share"
-msgstr "Jagamine"
+msgstr "Jaga"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
 msgid "Share a host directory with the guest"
@@ -2609,10 +2601,8 @@ msgid "Size"
 msgstr "Suurus"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:62
-#, fuzzy
-#| msgid "Port must be a number."
 msgid "Size must be a number"
-msgstr "Pordi väärtus peab olema positiivne täisarv."
+msgstr "Suurus peab olema number"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:93
@@ -3099,15 +3089,16 @@ msgstr ""
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:291
 msgid "User login must not be empty when user password is set"
-msgstr ""
+msgstr "Kui salasõna on olemas, siis kasutajanimi ei saa olla tühi"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:818
 msgid "User password"
-msgstr "Kasuta salasõna"
+msgstr "Kasutaja salasõna"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:288
 msgid "User password must not be empty when user login is set"
 msgstr ""
+"Kui kasutaja sisselogimine on lubatud, siis tema salasõna ei tohi olla tühi"
 
 #: src/helpers.ts:213
 msgid "User session"
@@ -3115,7 +3106,7 @@ msgstr "Kasutaja sessioon"
 
 #: src/components/vm/usesSpice.tsx:26
 msgid "Uses SPICE"
-msgstr ""
+msgstr "Kasutab SPICE'i"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:316
 msgid "VM $0 Host Devices"
@@ -3189,7 +3180,7 @@ msgstr "VNC"
 
 #: src/components/vm/consoles/vnc.tsx:134
 msgid "VNC settings could not be saved"
-msgstr "Alglaadimise järjekorra seadistuste salvestamine ei õnnestunud"
+msgstr "VNC seadistuste salvestamine ei õnnestunud"
 
 #: src/components/vm/consoles/vnc.tsx:495
 msgid "VNC with TLS is not supported by the in-page viewer"
@@ -3218,11 +3209,11 @@ msgstr ""
 #: src/components/networks/networkList.tsx:44
 #: src/components/storagePools/storagePoolList.tsx:46 src/manifest.json:0
 msgid "Virtual machines"
-msgstr "_Virtuaalmasin"
+msgstr "Virtuaalmasinad"
 
 #: src/index.html:5
 msgid "Virtual machines management"
-msgstr "Virtuaalmasinate haldur"
+msgstr "Virtuaalmasinate haldus"
 
 #: src/components/create-vm-dialog/pxe-helpers.tsx:140
 msgid "Virtual network"
@@ -3230,7 +3221,7 @@ msgstr "Virtuaalne võrk"
 
 #: src/components/networks/createNetworkDialog.tsx:498
 msgid "Virtual network failed to be created"
-msgstr ""
+msgstr "Virtuaalvõrgu loomine ei õnnestunud"
 
 #: src/components/vm/overview/helpers.tsx:17
 msgid ""
@@ -3254,15 +3245,15 @@ msgstr "Köide"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:73
 msgid "Volume failed to be created"
-msgstr "Konteineri loomine ei õnnestunud"
+msgstr "Köite loomine ei õnnestunud"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:213
 msgid "Volume group name"
-msgstr ""
+msgstr "Köitegrupi nimi"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:270
 msgid "Volume group name should not be empty"
-msgstr ""
+msgstr "Köitegrupi nimi ei tohiks jääda tühjaks"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:212
 msgid "Vsock"
@@ -3314,7 +3305,7 @@ msgstr "lisa"
 
 #: src/components/networks/networkOverviewTab.tsx:193
 msgid "add entry"
-msgstr ""
+msgstr "lisa kirje"
 
 #: src/components/vm/nics/nicBody.tsx:319
 msgid "all"
