@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 05:56+0000\n"
+"POT-Creation-Date: 2026-05-02 05:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-01 05:56+0000\n"
+"POT-Creation-Date: 2026-05-02 05:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,7 @@ msgid ""
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:250
-#: src/components/vm/disks/diskEdit.tsx:128
+#: src/components/vm/disks/diskEdit.tsx:130
 msgid "Access"
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 #: src/components/vm/nics/nicAdd.tsx:274 src/components/vm/nics/nicBody.tsx:558
 #: src/components/vm/overview/vsock.tsx:223
 #: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/disks/diskAdd.tsx:730
+#: src/components/vm/disks/diskAdd.tsx:749
 #: src/components/networks/networkOverviewTab.tsx:268
 msgid "Add"
 msgstr ""
@@ -168,7 +168,7 @@ msgid "Add a DHCP static host entry"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:69
-#: src/components/vm/disks/diskAdd.tsx:718
+#: src/components/vm/disks/diskAdd.tsx:737
 msgid "Add disk"
 msgstr ""
 
@@ -341,7 +341,7 @@ msgstr ""
 #: src/components/vm/overview/bootOrder.tsx:163
 #: src/components/vm/disks/vmDisksCard.tsx:245
 #: src/components/vm/disks/diskAdd.tsx:177
-#: src/components/vm/disks/diskEdit.tsx:91
+#: src/components/vm/disks/diskEdit.tsx:93
 msgid "Bus"
 msgstr ""
 
@@ -362,7 +362,7 @@ msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:261
 #: src/components/vm/disks/diskAdd.tsx:172
-#: src/components/vm/disks/diskEdit.tsx:165
+#: src/components/vm/disks/diskEdit.tsx:167
 msgid "Cache"
 msgstr ""
 
@@ -790,7 +790,7 @@ msgstr ""
 msgid "Disk $0 could not be removed"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.tsx:706
+#: src/components/vm/disks/diskAdd.tsx:725
 msgid "Disk failed to be added"
 msgstr ""
 
@@ -814,7 +814,7 @@ msgstr ""
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:186
+#: src/components/vm/disks/diskEdit.tsx:216
 msgid "Disk settings could not be saved"
 msgstr ""
 
@@ -884,11 +884,11 @@ msgid "Dying"
 msgstr ""
 
 #: src/components/vm/nics/vmNicsCard.tsx:634
-#: src/components/vm/disks/diskEdit.tsx:245
+#: src/components/vm/disks/diskEdit.tsx:275
 msgid "Edit"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:200
+#: src/components/vm/disks/diskEdit.tsx:230
 msgid "Edit $0 attributes"
 msgstr ""
 
@@ -1250,7 +1250,7 @@ msgstr ""
 msgid "Hypervisor details"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:42
+#: src/components/vm/disks/diskEdit.tsx:44
 msgid "ID"
 msgstr ""
 
@@ -1392,12 +1392,12 @@ msgstr ""
 msgid "Input Device Controller"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.tsx:727
+#: src/components/vm/disks/diskAdd.tsx:746
 #: src/components/vm/disks/vmDiskColumns.tsx:229
 msgid "Insert"
 msgstr ""
 
-#: src/components/vm/disks/diskAdd.tsx:718
+#: src/components/vm/disks/diskAdd.tsx:737
 msgid "Insert disc media"
 msgstr ""
 
@@ -1551,7 +1551,7 @@ msgstr ""
 msgid "MAC address must not be empty"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:79
+#: src/components/vm/disks/diskEdit.tsx:81
 msgid "Machine must be shut off before changing bus type"
 msgstr ""
 
@@ -1862,6 +1862,10 @@ msgstr ""
 msgid "No disks"
 msgstr ""
 
+#: src/components/vm/disks/diskEdit.tsx:182
+msgid "No free targets for bus type $0."
+msgstr ""
+
 #: src/components/vm/hostdevs/hostDevAdd.tsx:241
 msgid "No host device selected"
 msgstr ""
@@ -2037,13 +2041,13 @@ msgstr ""
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
-#: src/components/vm/disks/diskEdit.tsx:44
+#: src/components/vm/disks/diskEdit.tsx:46
 #: src/components/vm/deleteDialog.tsx:67
 msgid "Path"
 msgstr ""
 
 #: src/components/vm/disks/diskAdd.tsx:390
-msgid "Path can not be empty"
+msgid "Path cannot be empty"
 msgstr ""
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:134
@@ -2236,7 +2240,7 @@ msgid "Range"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:253
-#: src/components/vm/disks/diskEdit.tsx:108
+#: src/components/vm/disks/diskEdit.tsx:110
 msgid "Read-only"
 msgstr ""
 
@@ -2461,7 +2465,7 @@ msgstr ""
 #: src/components/vm/overview/firmware.tsx:104
 #: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/overview/memoryModal.tsx:192
-#: src/components/vm/disks/diskEdit.tsx:208
+#: src/components/vm/disks/diskEdit.tsx:238
 msgid "Save"
 msgstr ""
 
@@ -2774,7 +2778,7 @@ msgstr ""
 msgid "Storage size must not be 0"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:48
+#: src/components/vm/disks/diskEdit.tsx:50
 msgid "Storage volume"
 msgstr ""
 
@@ -3048,7 +3052,7 @@ msgstr ""
 msgid "Unsupported and older operating systems"
 msgstr ""
 
-#: src/components/vm/disks/diskEdit.tsx:46
+#: src/components/vm/disks/diskEdit.tsx:48
 msgid "Url"
 msgstr ""
 
@@ -3280,7 +3284,7 @@ msgid "Wireless Controller"
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:253
-#: src/components/vm/disks/diskEdit.tsx:112
+#: src/components/vm/disks/diskEdit.tsx:114
 msgid "Writeable"
 msgstr ""
 
