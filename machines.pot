@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 08:14+0000\n"
+"POT-Creation-Date: 2026-06-18 07:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 08:14+0000\n"
+"POT-Creation-Date: 2026-06-18 07:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,7 +159,7 @@ msgstr ""
 msgid "Add TPM"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:665
+#: src/components/vm/consoles/vnc.tsx:620
 msgid "Add VNC"
 msgstr ""
 
@@ -375,7 +375,6 @@ msgstr ""
 #: src/components/common/deleteResource.tsx:116
 #: src/components/vm/disks/mediaEject.tsx:116
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
-#: src/components/vm/consoles/vnc.tsx:158
 #: src/components/vm/overview/firmware.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:356
 #: src/components/vm/overview/cpuModal.tsx:341
@@ -486,7 +485,7 @@ msgid "Confirm this action"
 msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:86
-#: src/components/vm/consoles/vnc.tsx:584
+#: src/components/vm/consoles/vnc.tsx:539
 msgid "Connect"
 msgstr ""
 
@@ -501,6 +500,10 @@ msgstr ""
 
 #: src/components/vm/consoles/consoles.tsx:367
 msgid "Console"
+msgstr ""
+
+#: src/components/vm/consoles/consoles.tsx:385
+msgid "Console type"
 msgstr ""
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:148
@@ -641,7 +644,7 @@ msgstr ""
 msgid "Creation time"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:301
+#: src/components/vm/consoles/vnc.tsx:256
 msgid "Ctrl+Alt+$0"
 msgstr ""
 
@@ -779,7 +782,7 @@ msgid "Disconnect"
 msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:83
-#: src/components/vm/consoles/vnc.tsx:578
+#: src/components/vm/consoles/vnc.tsx:533
 msgid "Disconnected"
 msgstr ""
 
@@ -893,8 +896,8 @@ msgstr ""
 msgid "Edit $0 attributes"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:144
-#: src/components/vm/consoles/vnc.tsx:364
+#: src/components/vm/consoles/vnc.tsx:146
+#: src/components/vm/consoles/vnc.tsx:319
 msgid "Edit VNC settings"
 msgstr ""
 
@@ -984,7 +987,7 @@ msgstr ""
 msgid "Failed to add TPM to VM $0"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:644
+#: src/components/vm/consoles/vnc.tsx:599
 msgid "Failed to add VNC to VM $0"
 msgstr ""
 
@@ -1016,7 +1019,7 @@ msgstr ""
 msgid "Failed to configure watchdog"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:497
+#: src/components/vm/consoles/vnc.tsx:452
 msgid "Failed to connect"
 msgstr ""
 
@@ -1048,7 +1051,7 @@ msgstr ""
 msgid "Failed to save network settings"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:296
+#: src/components/vm/consoles/vnc.tsx:251
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr ""
 
@@ -1183,7 +1186,7 @@ msgstr ""
 msgid "Graphical"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:655
+#: src/components/vm/consoles/vnc.tsx:610
 msgid "Graphical console support not enabled"
 msgstr ""
 
@@ -1523,7 +1526,7 @@ msgstr ""
 msgid "Local install media (ISO image or distro install tree)"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:268
+#: src/components/vm/consoles/vnc.tsx:223
 msgid "Local scaling"
 msgstr ""
 
@@ -1901,7 +1904,7 @@ msgstr ""
 msgid "No ports forwarded"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:267
+#: src/components/vm/consoles/vnc.tsx:222
 msgid "No scaling or resizing"
 msgstr ""
 
@@ -2023,18 +2026,18 @@ msgstr ""
 msgid "Parent snapshot"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:189
+#: src/components/vm/consoles/vnc.tsx:159
 msgid "Password"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:209
+#: src/components/vm/consoles/vnc.tsx:161
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:106
+#: src/components/vm/consoles/vnc.tsx:113
 msgid "Password must be at most 8 characters."
 msgstr ""
 
@@ -2138,7 +2141,7 @@ msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:45
 #: src/components/vm/nics/vmNicsCard.tsx:191
-#: src/components/vm/consoles/vnc.tsx:170
+#: src/components/vm/consoles/vnc.tsx:154
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
 msgid "Port"
@@ -2152,17 +2155,18 @@ msgstr ""
 msgid "Port must be 1 to 65535."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:100
+#: src/components/vm/consoles/vnc.tsx:106
 msgid "Port must be 5900 or larger."
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:183
+#: src/components/vm/consoles/vnc.tsx:156
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
 
-#: src/components/vm/nics/nicBody.tsx:394 src/components/vm/consoles/vnc.tsx:97
+#: src/components/vm/nics/nicBody.tsx:394
+#: src/components/vm/consoles/vnc.tsx:104
 msgid "Port must be a number."
 msgstr ""
 
@@ -2270,7 +2274,7 @@ msgid ""
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:269
+#: src/components/vm/consoles/vnc.tsx:224
 msgid "Remote resizing"
 msgstr ""
 
@@ -2367,7 +2371,7 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:688
+#: src/components/vm/consoles/vnc.tsx:643
 msgid "Restart this virtual machine to access its graphical console"
 msgstr ""
 
@@ -2384,7 +2388,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:584
+#: src/components/vm/consoles/vnc.tsx:539
 msgid "Retry"
 msgstr ""
 
@@ -2458,7 +2462,7 @@ msgstr ""
 
 #: src/components/vm/disks/diskEdit.tsx:238
 #: src/components/vm/nics/nicEdit.tsx:230
-#: src/components/vm/consoles/vnc.tsx:155
+#: src/components/vm/consoles/vnc.tsx:167
 #: src/components/vm/overview/firmware.tsx:104
 #: src/components/vm/overview/bootOrder.tsx:353
 #: src/components/vm/overview/memoryModal.tsx:192
@@ -2468,7 +2472,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:509
+#: src/components/vm/consoles/vnc.tsx:464
 msgid "Security failure"
 msgstr ""
 
@@ -2476,7 +2480,7 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:325
+#: src/components/vm/consoles/vnc.tsx:280
 msgid "Send key"
 msgstr ""
 
@@ -2578,7 +2582,7 @@ msgstr ""
 #: src/components/common/needsShutdown.tsx:278
 #: src/components/vm/vmActions.tsx:525
 #: src/components/vm/consoles/serial.tsx:190
-#: src/components/vm/consoles/vnc.tsx:695
+#: src/components/vm/consoles/vnc.tsx:650
 msgid "Shutdown and restart"
 msgstr ""
 
@@ -2690,7 +2694,7 @@ msgid "Source volume group"
 msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:123
-#: src/components/vm/consoles/vnc.tsx:616
+#: src/components/vm/consoles/vnc.tsx:571
 #: src/components/networks/createNetworkDialog.tsx:305
 msgid "Start"
 msgstr ""
@@ -2705,7 +2709,7 @@ msgid "Start should not be empty"
 msgstr ""
 
 #: src/components/vm/consoles/serial.tsx:116
-#: src/components/vm/consoles/vnc.tsx:609
+#: src/components/vm/consoles/vnc.tsx:564
 msgid "Start the virtual machine to access the console"
 msgstr ""
 
@@ -3185,7 +3189,7 @@ msgstr ""
 msgid "VNC settings could not be saved"
 msgstr ""
 
-#: src/components/vm/consoles/vnc.tsx:495
+#: src/components/vm/consoles/vnc.tsx:450
 msgid "VNC with TLS is not supported by the in-page viewer"
 msgstr ""
 
