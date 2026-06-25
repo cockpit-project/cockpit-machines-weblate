@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 06:50+0000\n"
+"POT-Creation-Date: 2026-06-25 06:34+0000\n"
 "PO-Revision-Date: 2026-05-17 07:00+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -69,8 +69,8 @@ msgstr "Коригування пам'яті $0"
 msgid "$0 network"
 msgstr "Мережа $0"
 
-#: src/components/vm/vmUsageCard.tsx:35
 #: src/components/vm/overview/vmOverviewCard.tsx:140
+#: src/components/vm/vmUsageCard.tsx:35
 msgid "$0 vCPU"
 msgid_plural "$0 vCPUs"
 msgstr[0] "$0 вірт. проц."
@@ -93,8 +93,8 @@ msgstr ""
 "Копія ВМ працюватиме у системі призначення і зникне, коли її буде вимкнено. "
 "Тим часом основна система походження зберігатиме власну копію налаштувань ВМ."
 
-#: src/components/vm/disks/diskEdit.tsx:130
 #: src/components/vm/disks/vmDisksCard.tsx:246
+#: src/components/vm/disks/diskEdit.tsx:130
 msgid "Access"
 msgstr "Доступ"
 
@@ -103,16 +103,16 @@ msgid "Action"
 msgstr "Дія"
 
 #: src/components/vm/disks/vmDisksCard.tsx:162
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/vm/nics/vmNicsCard.tsx:593
-#: src/components/networks/networkList.tsx:64
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/storagePools/storagePoolList.tsx:65
-#: src/components/vms/hostvmslist.tsx:324
+#: src/components/vms/hostvmslist.tsx:317
+#: src/components/networks/networkList.tsx:64
 msgid "Actions"
 msgstr "Дії"
 
-#: src/components/networks/network.tsx:163
-#: src/components/storagePools/storagePool.tsx:160
+#: src/components/storagePools/storagePool.tsx:155
+#: src/components/networks/network.tsx:149
 msgid "Activate"
 msgstr "Задіяти"
 
@@ -121,9 +121,9 @@ msgid "Activate the storage pool to administer volumes"
 msgstr "Активувати буфер зберігання даних для адміністрування томів"
 
 #: src/components/vm/disks/diskAdd.tsx:749
-#: src/components/vm/overview/watchdog.tsx:167
+#: src/components/vm/nics/nicBody.tsx:559 src/components/vm/nics/nicAdd.tsx:274
 #: src/components/vm/overview/vsock.tsx:223
-#: src/components/vm/nics/nicAdd.tsx:274 src/components/vm/nics/nicBody.tsx:559
+#: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/hostdevs/hostDevAdd.tsx:261
 #: src/components/networks/networkOverviewTab.tsx:268
 msgid "Add"
@@ -133,11 +133,11 @@ msgstr "Додати"
 msgid "Add SSH keys"
 msgstr "Додати ключі SSH"
 
-#: src/components/vm/vmActions.tsx:457
+#: src/components/vm/vmActions.tsx:453
 msgid "Add TPM"
 msgstr "Додати TPM"
 
-#: src/components/vm/consoles/vnc.tsx:665
+#: src/components/vm/consoles/vnc.tsx:620
 msgid "Add VNC"
 msgstr "Додати VNC"
 
@@ -150,8 +150,8 @@ msgstr "Додати запис статичного вузла DHCP"
 msgid "Add disk"
 msgstr "Додати диск"
 
-#: src/components/vm/hostdevs/hostDevCard.tsx:140
 #: src/components/vm/hostdevs/hostDevAdd.tsx:278
+#: src/components/vm/hostdevs/hostDevCard.tsx:140
 msgid "Add host device"
 msgstr "Додати пристрій основної системи"
 
@@ -207,8 +207,8 @@ msgstr "Адреса поза межами підмережі"
 msgid "Advanced interface type for high performance or enhanced security."
 msgstr "Розширений тип інтерфейсу для високої швидкодії і додаткового захисту."
 
-#: src/components/vms/hostvmslist.tsx:221
-#: src/components/vms/hostvmslist.tsx:239
+#: src/components/vms/hostvmslist.tsx:214
+#: src/components/vms/hostvmslist.tsx:232
 msgid "All"
 msgstr "Всі"
 
@@ -282,9 +282,9 @@ msgstr "Автоматично"
 msgid "Automation"
 msgstr "Автоматизація"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:192
-#: src/components/networks/networkOverviewTab.tsx:117
+#: src/components/vm/overview/vmOverviewCard.tsx:190
 #: src/components/storagePools/storagePoolOverviewTab.tsx:60
+#: src/components/networks/networkOverviewTab.tsx:117
 msgid "Autostart"
 msgstr "Автозапуск"
 
@@ -296,8 +296,8 @@ msgstr "Модуль обробки"
 msgid "Base System Peripheral"
 msgstr "Периферія основної системи"
 
-#: src/components/vm/deleteDialog.tsx:73
 #: src/components/vm/disks/vmDiskColumns.tsx:40
+#: src/components/vm/deleteDialog.tsx:73
 msgid "Block device"
 msgstr "Блоковий пристрій"
 
@@ -309,7 +309,7 @@ msgstr "Заблоковано"
 msgid "Boot arguments"
 msgstr "Аргументи завантаження"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:185
+#: src/components/vm/overview/vmOverviewCard.tsx:183
 msgid "Boot order"
 msgstr "Порядок завантаження"
 
@@ -321,18 +321,18 @@ msgstr "Не вдалося зберегти параметри порядку �
 msgid "Bridge"
 msgstr "Місток"
 
-#: src/components/vm/disks/diskEdit.tsx:93
 #: src/components/vm/disks/diskAdd.tsx:177
 #: src/components/vm/disks/vmDisksCard.tsx:241
+#: src/components/vm/disks/diskEdit.tsx:93
 #: src/components/vm/overview/bootOrder.tsx:114
 #: src/components/vm/overview/bootOrder.tsx:126
 #: src/components/vm/overview/bootOrder.tsx:145
 #: src/components/vm/overview/bootOrder.tsx:148
 #: src/components/vm/overview/bootOrder.tsx:163
+#: src/components/vm/hostdevs/hostDevAdd.tsx:100
 #: src/components/vm/hostdevs/hostDevCard.tsx:91
 #: src/components/vm/hostdevs/hostDevCard.tsx:99
 #: src/components/vm/hostdevs/hostDevCard.tsx:250
-#: src/components/vm/hostdevs/hostDevAdd.tsx:100
 msgid "Bus"
 msgstr "Канал"
 
@@ -340,10 +340,10 @@ msgstr "Канал"
 msgid "CD/DVD disc"
 msgstr "Диск CD/DVD"
 
-#: src/components/vm/vmUsageCard.tsx:52
-#: src/components/vm/overview/vmOverviewCard.tsx:180
 #: src/components/common/needsShutdown.tsx:206
-#: src/components/vms/hostvmslist.tsx:93 src/components/vms/hostvmslist.tsx:301
+#: src/components/vm/overview/vmOverviewCard.tsx:178
+#: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:86
+#: src/components/vms/hostvmslist.tsx:294
 msgid "CPU"
 msgstr "Процесор"
 
@@ -351,9 +351,9 @@ msgstr "Процесор"
 msgid "CPU mode could not be saved"
 msgstr "Не вдалося зберегти режим процесора"
 
-#: src/components/vm/disks/diskEdit.tsx:167
 #: src/components/vm/disks/diskAdd.tsx:172
 #: src/components/vm/disks/vmDisksCard.tsx:257
+#: src/components/vm/disks/diskEdit.tsx:167
 msgid "Cache"
 msgstr "Кеш"
 
@@ -361,31 +361,30 @@ msgstr "Кеш"
 msgid "Can not determine guest device name"
 msgstr "Не вдалося визначити назву гостьового пристрою"
 
-#: src/components/vm/vmCloneDialog.tsx:111
-#: src/components/vm/vmRenameDialog.tsx:96
-#: src/components/vm/vmReplaceSpiceDialog.tsx:171
-#: src/components/vm/deleteDialog.tsx:216
+#: src/components/create-vm-dialog/createVmDialog.tsx:1734
+#: src/components/common/deleteResource.tsx:116
 #: src/components/vm/disks/mediaEject.tsx:116
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
-#: src/components/vm/overview/watchdog.tsx:228
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
 #: src/components/vm/overview/firmware.tsx:107
+#: src/components/vm/overview/bootOrder.tsx:356
 #: src/components/vm/overview/cpuModal.tsx:341
 #: src/components/vm/overview/memoryModal.tsx:195
-#: src/components/vm/overview/bootOrder.tsx:356
 #: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/watchdog.tsx:228
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
+#: src/components/vm/vmReplaceSpiceDialog.tsx:171
 #: src/components/vm/confirmDialog.tsx:66
-#: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/consoles/vnc.tsx:158
 #: src/components/vm/hostdevs/hostDevAdd.tsx:266
 #: src/components/vm/vmMigrateDialog.tsx:227
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
-#: src/components/create-vm-dialog/createVmDialog.tsx:1734
-#: src/components/networks/createNetworkDialog.tsx:548
-#: src/components/networks/networkOverviewTab.tsx:271
-#: src/components/storagePools/storagePoolDelete.tsx:207
+#: src/components/vm/vmEditDescriptionDialog.tsx:81
+#: src/components/vm/vmCloneDialog.tsx:111
+#: src/components/vm/deleteDialog.tsx:216
+#: src/components/vm/vmRenameDialog.tsx:96
 #: src/components/storagePools/createStoragePoolDialog.tsx:512
-#: src/components/common/deleteResource.tsx:116
+#: src/components/storagePools/storagePoolDelete.tsx:207
+#: src/components/networks/networkOverviewTab.tsx:271
+#: src/components/networks/createNetworkDialog.tsx:548
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -446,13 +445,9 @@ msgstr ""
 "У результаті натискання «Запустити переглядач» буде отримано файл $0 і у "
 "вашій системі запущено програму «Віддалений переглядач»."
 
-#: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:387
+#: src/components/vm/vmActions.tsx:383 src/components/vm/vmCloneDialog.tsx:108
 msgid "Clone"
 msgstr "Клонувати"
-
-#: src/components/common/stateIcon.tsx:59
-msgid "Close"
-msgstr "Закрити"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:446
 msgid "Cloud base image"
@@ -483,21 +478,27 @@ msgid "Confirm this action"
 msgstr "Підтвердьте цю дію"
 
 #: src/components/vm/consoles/serial.tsx:86
-#: src/components/vm/consoles/vnc.tsx:584
+#: src/components/vm/consoles/vnc.tsx:539
 msgid "Connect"
 msgstr "З'єднатися"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:158
-#: src/components/networks/createNetworkDialog.tsx:34
-#: src/components/networks/networkList.tsx:61
-#: src/components/storagePools/storagePoolList.tsx:63
 #: src/components/common/machinesConnectionSelector.tsx:44
-#: src/components/vms/hostvmslist.tsx:321
+#: src/components/vm/overview/vmOverviewCard.tsx:158
+#: src/components/storagePools/storagePoolList.tsx:63
+#: src/components/vms/hostvmslist.tsx:314
+#: src/components/networks/networkList.tsx:61
+#: src/components/networks/createNetworkDialog.tsx:34
 msgid "Connection"
 msgstr "З’єднання"
 
 #: src/components/vm/consoles/consoles.tsx:367
 msgid "Console"
+msgstr "Консоль"
+
+#: src/components/vm/consoles/consoles.tsx:385
+#, fuzzy
+#| msgid "Console"
+msgid "Console type"
 msgstr "Консоль"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:148
@@ -546,9 +547,9 @@ msgid "Crashed"
 msgstr "Аварійне завершення"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:337
-#: src/components/networks/createNetworkDialog.tsx:545
-#: src/components/storagePools/storageVolumeCreate.tsx:95
 #: src/components/storagePools/createStoragePoolDialog.tsx:509
+#: src/components/storagePools/storageVolumeCreate.tsx:95
+#: src/components/networks/createNetworkDialog.tsx:545
 msgid "Create"
 msgstr "Створити"
 
@@ -592,8 +593,8 @@ msgstr "Створити том raw"
 msgid "Create new virtual machine"
 msgstr "Створити віртуальну машину"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:324
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
 msgid "Create snapshot"
 msgstr "Створення знімка"
 
@@ -640,7 +641,7 @@ msgstr "Не вдалося створити ВМ $0"
 msgid "Creation time"
 msgstr "Час створення"
 
-#: src/components/vm/consoles/vnc.tsx:301
+#: src/components/vm/consoles/vnc.tsx:256
 msgid "Ctrl+Alt+$0"
 msgstr "Ctrl+Alt+$0"
 
@@ -669,20 +670,21 @@ msgstr "Нетиповий шлях"
 msgid "DHCP Settings"
 msgstr "Параметри DHCP"
 
-#: src/components/networks/network.tsx:159
-#: src/components/storagePools/storagePool.tsx:151
+#: src/components/storagePools/storagePool.tsx:146
+#: src/components/networks/network.tsx:145
 msgid "Deactivate"
 msgstr "Вимкнути"
 
-#: src/components/vm/deleteDialog.tsx:213 src/components/vm/vmActions.tsx:470
-#: src/components/vm/vmActions.tsx:478 src/components/networks/network.tsx:140
-#: src/components/networks/network.tsx:143
-#: src/components/storagePools/storagePoolDelete.tsx:204
-#: src/components/storagePools/storagePoolDelete.tsx:234
-#: src/components/storagePools/storagePoolDelete.tsx:244
 #: src/components/common/deleteResource.tsx:104
 #: src/components/common/deleteResource.tsx:164
 #: src/components/common/deleteResource.tsx:175
+#: src/components/vm/vmActions.tsx:466 src/components/vm/vmActions.tsx:474
+#: src/components/vm/deleteDialog.tsx:213
+#: src/components/storagePools/storagePoolDelete.tsx:204
+#: src/components/storagePools/storagePoolDelete.tsx:234
+#: src/components/storagePools/storagePoolDelete.tsx:244
+#: src/components/networks/network.tsx:126
+#: src/components/networks/network.tsx:129
 msgid "Delete"
 msgstr "Вилучити"
 
@@ -705,7 +707,7 @@ msgstr[2] "Вилучити $0 томів"
 msgid "Delete associated storage files:"
 msgstr "Вилучити пов’язані файли у сховищі даних:"
 
-#: src/components/networks/network.tsx:130
+#: src/components/networks/network.tsx:116
 msgid "Delete network?"
 msgstr "Вилучити мережу?"
 
@@ -726,8 +728,8 @@ msgid "Deleting shared directories is possible only when the guest is shut off"
 msgstr ""
 "Вилучення спільних каталогів можливе, лише якщо гостьову систему вимкнено"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
 #: src/components/vm/vmEditDescriptionDialog.tsx:66
 msgid "Description"
 msgstr "Опис"
@@ -765,12 +767,12 @@ msgstr "Подробиці"
 #: src/components/vm/overview/bootOrder.tsx:113
 #: src/components/vm/overview/bootOrder.tsx:146
 #: src/components/vm/overview/bootOrder.tsx:149
-#: src/components/vm/hostdevs/hostDevCard.tsx:90
-#: src/components/vm/hostdevs/hostDevCard.tsx:249
 #: src/components/vm/hostdevs/hostDevAdd.tsx:99
 #: src/components/vm/hostdevs/hostDevAdd.tsx:144
-#: src/components/networks/createNetworkDialog.tsx:218
+#: src/components/vm/hostdevs/hostDevCard.tsx:90
+#: src/components/vm/hostdevs/hostDevCard.tsx:249
 #: src/components/networks/networkList.tsx:60
+#: src/components/networks/createNetworkDialog.tsx:218
 msgid "Device"
 msgstr "Пристрій"
 
@@ -783,7 +785,7 @@ msgid "Disconnect"
 msgstr "Від’єднатися"
 
 #: src/components/vm/consoles/serial.tsx:83
-#: src/components/vm/consoles/vnc.tsx:578
+#: src/components/vm/consoles/vnc.tsx:533
 msgid "Disconnected"
 msgstr "Від'єднано"
 
@@ -899,12 +901,12 @@ msgstr "Змінити"
 msgid "Edit $0 attributes"
 msgstr "Редагувати атрибути $0"
 
-#: src/components/vm/consoles/vnc.tsx:144
-#: src/components/vm/consoles/vnc.tsx:364
+#: src/components/vm/consoles/vnc.tsx:146
+#: src/components/vm/consoles/vnc.tsx:319
 msgid "Edit VNC settings"
 msgstr "Редагувати параметри VNC"
 
-#: src/components/vm/vmActions.tsx:444
+#: src/components/vm/vmActions.tsx:440
 msgid "Edit description"
 msgstr "Редагувати опис"
 
@@ -937,7 +939,7 @@ msgstr "Виштовхнути"
 msgid "Eject disc from VM?"
 msgstr "Виштовхнути диск з ВМ?"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:240
+#: src/components/vm/overview/vmOverviewCard.tsx:238
 msgid "Emulated machine"
 msgstr "Емульована машина"
 
@@ -983,15 +985,11 @@ msgstr "Розгорнути"
 msgid "Extended attributes"
 msgstr "Розширені атрибути"
 
-#: src/components/common/stateIcon.tsx:63
-msgid "Failed"
-msgstr "Не вдалося"
-
-#: src/components/vm/vmActions.tsx:159
+#: src/components/vm/vmActions.tsx:155
 msgid "Failed to add TPM to VM $0"
 msgstr "Не вдалося додати TPM до ВМ $0"
 
-#: src/components/vm/consoles/vnc.tsx:644
+#: src/components/vm/consoles/vnc.tsx:599
 msgid "Failed to add VNC to VM $0"
 msgstr "Не вдалося додати VNC до ВМ $0"
 
@@ -1023,7 +1021,7 @@ msgstr "Не вдалося налаштувати vsock"
 msgid "Failed to configure watchdog"
 msgstr "Не вдалося налаштувати спостереження"
 
-#: src/components/vm/consoles/vnc.tsx:497
+#: src/components/vm/consoles/vnc.tsx:452
 msgid "Failed to connect"
 msgstr "Не вдалося встановити з'єднання"
 
@@ -1055,7 +1053,7 @@ msgstr "Не вдалося замінити пристрої SPICE"
 msgid "Failed to save network settings"
 msgstr "Не вдалося зберегти параметри мережі"
 
-#: src/components/vm/consoles/vnc.tsx:296
+#: src/components/vm/consoles/vnc.tsx:251
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Не вдалося надіслати комбінацію клавіш Ctrl+Alt+$0 до ВМ $1"
 
@@ -1081,12 +1079,12 @@ msgstr "Не вдалося вилучити файлову систему $0"
 msgid "Filesystem directory"
 msgstr "Каталог файлової системи"
 
-#: src/components/vms/hostvmslist.tsx:262
+#: src/components/vms/hostvmslist.tsx:255
 msgid "Filter by name"
 msgstr "Фільтрувати за назвою"
 
 #: src/components/vm/overview/firmware.tsx:90
-#: src/components/vm/overview/vmOverviewCard.tsx:246
+#: src/components/vm/overview/vmOverviewCard.tsx:244
 msgid "Firmware"
 msgstr "Мікропрограма"
 
@@ -1109,11 +1107,11 @@ msgstr ""
 msgid "Force eject"
 msgstr "Примусове виштовхування"
 
-#: src/components/vm/vmActions.tsx:339 src/components/vm/vmActions.tsx:344
+#: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
 msgid "Force reboot"
 msgstr "Примусове перезавантаження"
 
-#: src/components/vm/vmActions.tsx:332
+#: src/components/vm/vmActions.tsx:328
 msgid "Force reboot $0?"
 msgstr "Примусово перезавантажити $0?"
 
@@ -1121,21 +1119,21 @@ msgstr "Примусово перезавантажити $0?"
 msgid "Force revert"
 msgstr "Примусове повернення"
 
-#: src/components/vm/vmActions.tsx:275 src/components/vm/vmActions.tsx:280
+#: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
 msgid "Force shut down"
 msgstr "Примусово вимкнути"
 
-#: src/components/vm/vmActions.tsx:268
+#: src/components/vm/vmActions.tsx:264
 msgid "Force shut down $0?"
 msgstr "Примусово вимкнути $0?"
 
-#: src/components/vm/vmActions.tsx:531
+#: src/components/vm/vmActions.tsx:527
 msgid "Force shutdown and restart"
 msgstr "Примусово вимкнути і перезапустити"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:134
-#: src/components/storagePools/createStoragePoolDialog.tsx:244
 #: src/components/storagePools/storageVolumeCreateBody.tsx:103
+#: src/components/storagePools/createStoragePoolDialog.tsx:244
 msgid "Format"
 msgstr "Формат"
 
@@ -1174,11 +1172,11 @@ msgstr "Створити автоматично"
 msgid "Get a new RHSM token."
 msgstr "Отримати новий жетон RHSM."
 
-#: src/components/vm/disks/vmDisksCard.tsx:39
-#: src/components/vm/overview/memorySelectRow.tsx:95
 #: src/components/create-vm-dialog/createVmDialog.tsx:1018
 #: src/components/create-vm-dialog/createVmDialog.tsx:1182
 #: src/components/common/dialog.tsx:100
+#: src/components/vm/disks/vmDisksCard.tsx:39
+#: src/components/vm/overview/memorySelectRow.tsx:95
 msgid "GiB"
 msgstr "ГіБ"
 
@@ -1198,7 +1196,7 @@ msgstr "Штатно вимкнути"
 msgid "Graphical"
 msgstr "Графіка"
 
-#: src/components/vm/consoles/vnc.tsx:655
+#: src/components/vm/consoles/vnc.tsx:610
 msgid "Graphical console support not enabled"
 msgstr "Підтримку графічної консолі не увімкнено"
 
@@ -1221,8 +1219,8 @@ msgstr "Приховати додаткові параметри"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:44
 #: src/components/vm/overview/bootOrder.tsx:110
-#: src/components/storagePools/storagePoolOverviewTab.tsx:23
 #: src/components/storagePools/createStoragePoolDialog.tsx:154
+#: src/components/storagePools/storagePoolOverviewTab.tsx:23
 msgid "Host"
 msgstr "Вузол"
 
@@ -1262,7 +1260,7 @@ msgstr "Довідка з порту основної системи"
 msgid "Host should not be empty"
 msgstr "Вузол не повинен бути порожнім"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:236
+#: src/components/vm/overview/vmOverviewCard.tsx:234
 msgid "Hypervisor details"
 msgstr "Докладніше про гіпервізор"
 
@@ -1292,8 +1290,8 @@ msgstr "IP-адреса має бути непорожньою"
 msgid "IP configuration"
 msgstr "Налаштування IP"
 
-#: src/components/networks/createNetworkDialog.tsx:337
 #: src/components/networks/networkOverviewTab.tsx:136
+#: src/components/networks/createNetworkDialog.tsx:337
 msgid "IPv4 address"
 msgstr "Адреса IPv4"
 
@@ -1321,8 +1319,8 @@ msgstr "Довжина префікса IPv4 не повинна перевищ�
 msgid "IPv4 prefix length must be a multiple of 8"
 msgstr "Довжина префікса IPv4 повинна бути кратною до 8"
 
-#: src/components/networks/createNetworkDialog.tsx:378
 #: src/components/networks/networkOverviewTab.tsx:156
+#: src/components/networks/createNetworkDialog.tsx:378
 msgid "IPv6 address"
 msgstr "Адреса IPv6"
 
@@ -1427,7 +1425,7 @@ msgstr "Вставте дисковий носій даних"
 msgid "Inside the VM"
 msgstr "Всередині ВМ"
 
-#: src/components/vm/vmActions.tsx:375
+#: src/components/vm/vmActions.tsx:371
 msgid "Install"
 msgstr "Встановити"
 
@@ -1554,7 +1552,7 @@ msgstr ""
 "Локальний носій даних для встановлення (образ ISO або ієрархія каталогів "
 "встановлення дистрибутиву)"
 
-#: src/components/vm/consoles/vnc.tsx:268
+#: src/components/vm/consoles/vnc.tsx:223
 msgid "Local scaling"
 msgstr "Локальне масштабування"
 
@@ -1567,15 +1565,14 @@ msgstr "Адреса"
 msgid "MAC"
 msgstr "MAC"
 
-#: src/components/vm/nics/nicAdd.tsx:83
+#: src/components/vm/nics/nicEdit.tsx:45 src/components/vm/nics/nicAdd.tsx:83
 #: src/components/vm/nics/vmNicsCard.tsx:569
 #: src/components/vm/nics/vmNicsCard.tsx:767
-#: src/components/vm/nics/nicEdit.tsx:45
 #: src/components/networks/networkOverviewTab.tsx:246
 msgid "MAC address"
 msgstr "MAC-адреса"
 
-#: src/components/vm/nics/nicAdd.tsx:179 src/components/vm/nics/nicEdit.tsx:99
+#: src/components/vm/nics/nicEdit.tsx:99 src/components/vm/nics/nicAdd.tsx:179
 msgid "MAC address already in use"
 msgstr "MAC-адресу вже використано"
 
@@ -1649,11 +1646,10 @@ msgstr "Не вдалося вставити носій даних"
 msgid "Media will be ejected from $0:"
 msgstr "Носій даних буде виштовхнуто з $0:"
 
-#: src/components/vm/vmUsageCard.tsx:44
-#: src/components/vm/overview/vmOverviewCard.tsx:175
 #: src/components/create-vm-dialog/createVmDialog.tsx:1003
-#: src/components/vms/hostvmslist.tsx:111
-#: src/components/vms/hostvmslist.tsx:302
+#: src/components/vm/overview/vmOverviewCard.tsx:173
+#: src/components/vm/vmUsageCard.tsx:44 src/components/vms/hostvmslist.tsx:104
+#: src/components/vms/hostvmslist.tsx:295
 msgid "Memory"
 msgstr "Пам'ять"
 
@@ -1682,14 +1678,14 @@ msgstr "Знімок пам'яті використовуватиме прибл
 msgid "Memory state path"
 msgstr "Шлях до стану пам'яті"
 
-#: src/components/vm/overview/memorySelectRow.tsx:93
 #: src/components/create-vm-dialog/createVmDialog.tsx:1016
 #: src/components/create-vm-dialog/createVmDialog.tsx:1180
 #: src/components/common/dialog.tsx:99
+#: src/components/vm/overview/memorySelectRow.tsx:93
 msgid "MiB"
 msgstr "МіБ"
 
-#: src/components/vm/vmActions.tsx:410
+#: src/components/vm/vmActions.tsx:406
 #: src/components/vm/vmMigrateDialog.tsx:224
 msgid "Migrate"
 msgstr "Перенести"
@@ -1706,10 +1702,10 @@ msgstr "Помилка під час перенесення"
 msgid "Miscellaneous"
 msgstr "Інше"
 
-#: src/components/vm/overview/cpuModal.tsx:304
-#: src/components/vm/overview/cpuModal.tsx:306
 #: src/components/vm/nics/nicBody.tsx:276
 #: src/components/vm/nics/vmNicsCard.tsx:168
+#: src/components/vm/overview/cpuModal.tsx:304
+#: src/components/vm/overview/cpuModal.tsx:306
 msgid "Mode"
 msgstr "Режим"
 
@@ -1752,17 +1748,17 @@ msgstr "NAT до $0"
 msgid "NIC $0 of VM $1 failed to change state"
 msgstr "NIC $0 ВМ $1, не вдалося змінити стан"
 
-#: src/components/vm/vmCloneDialog.tsx:92
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
 #: src/components/create-vm-dialog/createVmDialog.tsx:313
-#: src/components/networks/createNetworkDialog.tsx:172
-#: src/components/networks/networkList.tsx:59
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
+#: src/components/vm/vmCloneDialog.tsx:92
+#: src/components/storagePools/storageVolumeCreateBody.tsx:113
+#: src/components/storagePools/createStoragePoolDialog.tsx:58
 #: src/components/storagePools/storagePoolList.tsx:61
 #: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/createStoragePoolDialog.tsx:58
-#: src/components/storagePools/storageVolumeCreateBody.tsx:113
-#: src/components/vms/hostvmslist.tsx:320
+#: src/components/vms/hostvmslist.tsx:313
+#: src/components/networks/networkList.tsx:59
+#: src/components/networks/createNetworkDialog.tsx:172
 msgid "Name"
 msgstr "Назва"
 
@@ -1778,13 +1774,13 @@ msgstr "Назва не може бути порожньою"
 msgid "Name contains invalid characters"
 msgstr "У назві містяться некоректні символи"
 
-#: src/components/vm/vmCloneDialog.tsx:51
 #: src/components/create-vm-dialog/createVmDialog.tsx:231
+#: src/components/vm/vmCloneDialog.tsx:51
 msgid "Name must not be empty"
 msgstr "Запис назви не може бути порожнім"
 
-#: src/components/networks/createNetworkDialog.tsx:77
 #: src/components/storagePools/createStoragePoolDialog.tsx:64
+#: src/components/networks/createNetworkDialog.tsx:77
 msgid "Name should not be empty"
 msgstr "Назва має бути непорожньою"
 
@@ -1796,19 +1792,19 @@ msgstr "Назва: "
 msgid "Netmask"
 msgstr "Маска мережі"
 
-#: src/components/networks/network.tsx:131
+#: src/components/networks/network.tsx:117
 msgid "Network $0 could not be deleted"
 msgstr "Не вдалося вилучити мережу $0"
 
-#: src/components/networks/network.tsx:96
+#: src/components/networks/network.tsx:87
 msgid "Network $0 failed to get activated"
 msgstr "Не вдалося активувати мережу $0"
 
-#: src/components/networks/network.tsx:113
+#: src/components/networks/network.tsx:101
 msgid "Network $0 failed to get deactivated"
 msgstr "Не вдалося деактивувати мережу $0"
 
-#: src/components/networks/network.tsx:132
+#: src/components/networks/network.tsx:118
 msgid "Network $0 will be permanently deleted."
 msgstr "Мережу $0 буде остаточно вилучено."
 
@@ -1840,7 +1836,7 @@ msgstr "Не вдалося вилучити інтерфейс мережі $0"
 msgid "Network interface $0 will be removed from $1"
 msgstr "Інтерфейс мережі $0 буде вилучено з $1"
 
-#: src/components/vm/nics/nicAdd.tsx:218 src/components/vm/nics/nicEdit.tsx:163
+#: src/components/vm/nics/nicEdit.tsx:163 src/components/vm/nics/nicAdd.tsx:218
 msgid "Network interface settings could not be saved"
 msgstr "Не вдалося зберегти параметри інтерфейсу мережі"
 
@@ -1878,7 +1874,7 @@ msgstr "Назва нового тому"
 msgid "No SSH keys specified"
 msgstr "Не вказано ключів SSH"
 
-#: src/components/vms/hostvmslist.tsx:326
+#: src/components/vms/hostvmslist.tsx:319
 msgid "No VM is running or defined on this host"
 msgstr "У цій основній системі не запущено або не визначено віртуальних машин"
 
@@ -1938,7 +1934,7 @@ msgstr "Немає буферів, які уможливлюють створе�
 msgid "No ports forwarded"
 msgstr "Немає переспрямованих портів"
 
-#: src/components/vm/consoles/vnc.tsx:267
+#: src/components/vm/consoles/vnc.tsx:222
 msgid "No scaling or resizing"
 msgstr "Без масштабування і зміни розмірів"
 
@@ -1982,7 +1978,7 @@ msgstr "У цьому буфері сховища даних не існує т�
 msgid "Non-Essential Instrumentation"
 msgstr "Некритичне керування"
 
-#: src/components/networks/network.tsx:139
+#: src/components/networks/network.tsx:125
 msgid ""
 "Non-persistent network cannot be deleted. It ceases to exists when it's "
 "deactivated."
@@ -2029,9 +2025,9 @@ msgstr ""
 "Один або декілька позначених томів використовуються доменами. Щоб уможливити "
 "вилучення цих томів, спочатку від'єднайте диски."
 
-#: src/components/vm/overview/memoryModal.tsx:173
-#: src/components/vm/overview/bootOrder.tsx:394
 #: src/components/vm/nics/nicEdit.tsx:47
+#: src/components/vm/overview/bootOrder.tsx:394
+#: src/components/vm/overview/memoryModal.tsx:173
 msgid "Only editable when the guest is shut off"
 msgstr "Можна редагувати, лише якщо гостьову систему вимкнено"
 
@@ -2043,8 +2039,8 @@ msgstr "Відкрита"
 msgid "Operating system"
 msgstr "Операційна система"
 
-#: src/components/storagePools/storagePool.tsx:165
-#: src/components/storagePools/storagePool.tsx:172
+#: src/components/storagePools/storagePool.tsx:160
+#: src/components/storagePools/storagePool.tsx:167
 msgid "Operation is in progress"
 msgstr "Виконується дія"
 
@@ -2053,7 +2049,7 @@ msgid "Other VMs using SPICE"
 msgstr "Інші ВМ з використанням SPICE"
 
 #: src/components/vm/vmDetailsPage.tsx:140
-#: src/components/storagePools/storagePool.tsx:59
+#: src/components/storagePools/storagePool.tsx:60
 msgid "Overview"
 msgstr "Огляд"
 
@@ -2065,11 +2061,11 @@ msgstr "PCI"
 msgid "Parent snapshot"
 msgstr "Батьківський знімок"
 
-#: src/components/vm/consoles/vnc.tsx:189
+#: src/components/vm/consoles/vnc.tsx:159
 msgid "Password"
 msgstr "Пароль"
 
-#: src/components/vm/consoles/vnc.tsx:209
+#: src/components/vm/consoles/vnc.tsx:161
 msgid ""
 "Password must be 8 characters or less. VNC passwords do not provide "
 "encryption and are generally cryptographically weak. They can not be used to "
@@ -2079,14 +2075,14 @@ msgstr ""
 "забезпечують шифрування і, загалом, є криптографічно нестійкими. Ними можна "
 "скористатися для захисту з'єднань у ненадійних мережах."
 
-#: src/components/vm/consoles/vnc.tsx:106
+#: src/components/vm/consoles/vnc.tsx:113
 msgid "Password must be at most 8 characters."
 msgstr "Кількість символів у паролі не повинна перевищувати 8."
 
-#: src/components/vm/deleteDialog.tsx:68
 #: src/components/vm/disks/diskEdit.tsx:46
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
+#: src/components/vm/deleteDialog.tsx:68
 msgid "Path"
 msgstr "Шлях"
 
@@ -2114,7 +2110,7 @@ msgstr "Шлях до каталогу"
 msgid "Path to file on host's file system"
 msgstr "Шлях до файла у файловій системі основної системи"
 
-#: src/helpers.ts:275 src/components/vm/vmActions.tsx:195
+#: src/components/vm/vmActions.tsx:191 src/helpers.ts:275
 msgid "Pause"
 msgstr "Призупинити"
 
@@ -2135,8 +2131,8 @@ msgstr "Доступ заборонено для образів дисків у 
 msgid "Persistence"
 msgstr "Сталість"
 
-#: src/components/networks/networkOverviewTab.tsx:112
 #: src/components/storagePools/storagePoolOverviewTab.tsx:55
+#: src/components/networks/networkOverviewTab.tsx:112
 msgid "Persistent"
 msgstr "Постійний"
 
@@ -2148,7 +2144,7 @@ msgstr "Фізичний пристрій диска"
 msgid "Physical disk device on host"
 msgstr "Фізичний пристрій у основній системі"
 
-#: src/components/vm/nics/nicAdd.tsx:179 src/components/vm/nics/nicEdit.tsx:100
+#: src/components/vm/nics/nicEdit.tsx:100 src/components/vm/nics/nicAdd.tsx:179
 msgid "Please choose a different MAC address"
 msgstr "Будь ласка, виберіть іншу MAC-адресу"
 
@@ -2162,12 +2158,12 @@ msgstr ""
 "Будь ласка, ознайомтеся із $0, щоб дізнатися про те, як змінити налаштування "
 "вашої ВМ вручну."
 
-#: src/components/vm/deleteDialog.tsx:81
 #: src/components/vm/disks/diskAdd.tsx:248
 #: src/components/vm/disks/diskAdd.tsx:321
 #: src/components/vm/disks/mediaEject.tsx:85
 #: src/components/vm/disks/vmDiskColumns.tsx:42
 #: src/components/vm/overview/bootOrder.tsx:108
+#: src/components/vm/deleteDialog.tsx:81
 msgid "Pool"
 msgstr "Буфер"
 
@@ -2184,10 +2180,10 @@ msgid "Pool's volumes are used by VMs "
 msgstr "Томи буфера використовуються ВМ "
 
 #: src/components/vm/disks/vmDiskColumns.tsx:45
+#: src/components/vm/nics/vmNicsCard.tsx:191
+#: src/components/vm/consoles/vnc.tsx:154
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
-#: src/components/vm/nics/vmNicsCard.tsx:191
-#: src/components/vm/consoles/vnc.tsx:170
 msgid "Port"
 msgstr "Порт"
 
@@ -2199,11 +2195,11 @@ msgstr "Переспрямування портів"
 msgid "Port must be 1 to 65535."
 msgstr "Значенням порту має бути число від 1 до 65535."
 
-#: src/components/vm/consoles/vnc.tsx:100
+#: src/components/vm/consoles/vnc.tsx:106
 msgid "Port must be 5900 or larger."
 msgstr "Номер порту має бути не меншим за 5900."
 
-#: src/components/vm/consoles/vnc.tsx:183
+#: src/components/vm/consoles/vnc.tsx:156
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
@@ -2211,7 +2207,8 @@ msgstr ""
 "Номер порту повинен бути не меншим за 5900. Не заповнюйте, щоб програма "
 "автоматично призначила вільний порт при запуску машини."
 
-#: src/components/vm/nics/nicBody.tsx:394 src/components/vm/consoles/vnc.tsx:97
+#: src/components/vm/nics/nicBody.tsx:394
+#: src/components/vm/consoles/vnc.tsx:104
 msgid "Port must be a number."
 msgstr "Порт має бути вказано числом."
 
@@ -2253,9 +2250,9 @@ msgstr "Процесор"
 
 #: src/components/vm/overview/bootOrder.tsx:141
 #: src/components/vm/overview/bootOrder.tsx:157
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
 #: src/components/vm/hostdevs/hostDevCard.tsx:240
 #: src/components/vm/hostdevs/hostDevCard.tsx:246
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
 msgid "Product"
 msgstr "Продукт"
 
@@ -2264,9 +2261,9 @@ msgid "Profile"
 msgstr "Профіль"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:41
+#: src/components/vm/nics/nicBody.tsx:477
 #: src/components/vm/overview/bootOrder.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:477
 #: src/components/vm/hostdevs/hostDevCard.tsx:106
 msgid "Protocol"
 msgstr "Протокол"
@@ -2287,17 +2284,17 @@ msgstr "Відкритий ключ"
 msgid "Range"
 msgstr "Діапазон"
 
-#: src/components/vm/disks/diskEdit.tsx:110
 #: src/components/vm/disks/vmDisksCard.tsx:249
+#: src/components/vm/disks/diskEdit.tsx:110
 msgid "Read-only"
 msgstr "Лише читання"
 
-#: src/components/vm/vmActions.tsx:235 src/components/vm/vmActions.tsx:319
-#: src/components/vm/vmActions.tsx:324
+#: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
+#: src/components/vm/vmActions.tsx:320
 msgid "Reboot"
 msgstr "Перезавантажити"
 
-#: src/components/vm/vmActions.tsx:312
+#: src/components/vm/vmActions.tsx:308
 msgid "Reboot $0?"
 msgstr "Перезавантажити $0?"
 
@@ -2323,7 +2320,7 @@ msgstr ""
 "переглядач» у Програмних засобах GNOME, KDE Discover або віддайте таку "
 "команду:"
 
-#: src/components/vm/consoles/vnc.tsx:269
+#: src/components/vm/consoles/vnc.tsx:224
 msgid "Remote resizing"
 msgstr "Віддалена зміна розмірів"
 
@@ -2339,14 +2336,14 @@ msgstr ""
 
 #: src/components/vm/disks/vmDiskColumns.tsx:169
 #: src/components/vm/disks/vmDiskColumns.tsx:248
-#: src/components/vm/overview/watchdog.tsx:225
-#: src/components/vm/overview/vsock.tsx:269
-#: src/components/vm/nics/vmNicsCard.tsx:652
-#: src/components/vm/nics/vmNicsCard.tsx:667
-#: src/components/vm/hostdevs/hostDevCard.tsx:256
-#: src/components/vm/hostdevs/hostDevCard.tsx:262
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
+#: src/components/vm/nics/vmNicsCard.tsx:652
+#: src/components/vm/nics/vmNicsCard.tsx:667
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/overview/watchdog.tsx:225
+#: src/components/vm/hostdevs/hostDevCard.tsx:256
+#: src/components/vm/hostdevs/hostDevCard.tsx:262
 #: src/components/networks/networkOverviewTab.tsx:68
 msgid "Remove"
 msgstr "Вилучити"
@@ -2371,9 +2368,9 @@ msgstr "Вилучити файлову систему?"
 msgid "Remove host device from VM?"
 msgstr "Вилучити пристрій основної системи з ВМ?"
 
+#: src/components/create-vm-dialog/createVmDialog.tsx:927
 #: src/components/vm/nics/nicBody.tsx:496
 #: src/components/vm/nics/nicBody.tsx:527
-#: src/components/create-vm-dialog/createVmDialog.tsx:927
 msgid "Remove item"
 msgstr "Вилучити запис"
 
@@ -2385,7 +2382,7 @@ msgstr "Вилучити інтерфейс мережі?"
 msgid "Remove static host from DHCP"
 msgstr "Вилучити статичний вузол з DHCP"
 
-#: src/components/vm/vmRenameDialog.tsx:93 src/components/vm/vmActions.tsx:434
+#: src/components/vm/vmActions.tsx:430 src/components/vm/vmRenameDialog.tsx:93
 msgid "Rename"
 msgstr "Перейменувати"
 
@@ -2397,8 +2394,8 @@ msgstr "Перейменувати ВМ $0"
 msgid "Replace"
 msgstr "Замінити"
 
+#: src/components/vm/usesSpice.tsx:42 src/components/vm/vmActions.tsx:417
 #: src/components/vm/vmReplaceSpiceDialog.tsx:133
-#: src/components/vm/usesSpice.tsx:42 src/components/vm/vmActions.tsx:421
 msgid "Replace SPICE devices"
 msgstr "Замінити пристрої SPICE"
 
@@ -2422,7 +2419,7 @@ msgstr "Замінити на VNC"
 msgid "Reset"
 msgstr "Скинути"
 
-#: src/components/vm/consoles/vnc.tsx:688
+#: src/components/vm/consoles/vnc.tsx:643
 msgid "Restart this virtual machine to access its graphical console"
 msgstr ""
 "Перезапустіть цю віртуальну машину, щоб отримати доступ до її графічної "
@@ -2441,16 +2438,16 @@ msgstr ""
 "Обмеження для мережі (заснована на SLIRP емуляція) і призначення пристроїв "
 "PCI"
 
-#: src/components/vm/vmActions.tsx:206
+#: src/components/vm/vmActions.tsx:202
 msgid "Resume"
 msgstr "Відновити"
 
-#: src/components/vm/consoles/vnc.tsx:584
+#: src/components/vm/consoles/vnc.tsx:539
 msgid "Retry"
 msgstr "Повторити спробу"
 
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
 msgid "Revert"
 msgstr "Повернутися"
 
@@ -2484,7 +2481,7 @@ msgstr "Маршрутизована мережа"
 msgid "Row select"
 msgstr "Вибір рядка"
 
-#: src/components/vm/vmActions.tsx:359
+#: src/components/vm/vmActions.tsx:355
 msgid "Run"
 msgstr "Запустити"
 
@@ -2523,18 +2520,18 @@ msgid "Satellite Communication Controller"
 msgstr "Контролер супутникового зв'язку"
 
 #: src/components/vm/disks/diskEdit.tsx:238
-#: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/overview/firmware.tsx:104
-#: src/components/vm/overview/memoryModal.tsx:192
-#: src/components/vm/overview/bootOrder.tsx:353
-#: src/components/vm/overview/vsock.tsx:223
 #: src/components/vm/nics/nicEdit.tsx:230
+#: src/components/vm/consoles/vnc.tsx:167
+#: src/components/vm/overview/firmware.tsx:104
+#: src/components/vm/overview/bootOrder.tsx:353
+#: src/components/vm/overview/memoryModal.tsx:192
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/watchdog.tsx:167
 #: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/consoles/vnc.tsx:155
 msgid "Save"
 msgstr "Зберегти"
 
-#: src/components/vm/consoles/vnc.tsx:509
+#: src/components/vm/consoles/vnc.tsx:464
 msgid "Security failure"
 msgstr "Помилка захисту"
 
@@ -2542,15 +2539,15 @@ msgstr "Помилка захисту"
 msgid "Select all"
 msgstr "Вибрати все"
 
-#: src/components/vm/consoles/vnc.tsx:325
+#: src/components/vm/consoles/vnc.tsx:280
 msgid "Send key"
 msgstr "Надіслати ключ"
 
-#: src/components/vm/vmActions.tsx:295 src/components/vm/vmActions.tsx:300
+#: src/components/vm/vmActions.tsx:291 src/components/vm/vmActions.tsx:296
 msgid "Send non-maskable interrupt"
 msgstr "Надіслати немасковане переривання"
 
-#: src/components/vm/vmActions.tsx:289
+#: src/components/vm/vmActions.tsx:285
 msgid "Send non-maskable interrupt to $0?"
 msgstr "Надіслати немасковане переривання на $0?"
 
@@ -2627,12 +2624,12 @@ msgstr "Показати менше"
 msgid "Show more"
 msgstr "Показати більше"
 
-#: src/components/vm/vmActions.tsx:229 src/components/vm/vmActions.tsx:240
-#: src/components/vm/vmActions.tsx:255 src/components/vm/vmActions.tsx:260
+#: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
+#: src/components/vm/vmActions.tsx:251 src/components/vm/vmActions.tsx:256
 msgid "Shut down"
 msgstr "Вимкнути"
 
-#: src/components/vm/vmActions.tsx:222 src/components/vm/vmActions.tsx:248
+#: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
 msgid "Shut down $0?"
 msgstr "Вимкнути $0?"
 
@@ -2646,18 +2643,18 @@ msgstr ""
 "Вимкніть віртуальну машину, щоб розпочати редагування налаштувань "
 "мікропрограми"
 
-#: src/components/vm/vmActions.tsx:525
-#: src/components/vm/consoles/serial.tsx:190
-#: src/components/vm/consoles/vnc.tsx:695
 #: src/components/common/needsShutdown.tsx:278
+#: src/components/vm/vmActions.tsx:521
+#: src/components/vm/consoles/serial.tsx:190
+#: src/components/vm/consoles/vnc.tsx:650
 msgid "Shutdown and restart"
 msgstr "Вимкнути і перезапустити"
 
-#: src/components/vm/vmActions.tsx:518
+#: src/components/vm/vmActions.tsx:514
 msgid "Shutdown and restart $0?"
 msgstr "Вимкнути і перезапустити $0?"
 
-#: src/helpers.ts:219 src/components/vm/snapshots/vmSnapshotsCard.tsx:147
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:147 src/helpers.ts:219
 msgid "Shutting down"
 msgstr "Вимикання"
 
@@ -2670,9 +2667,9 @@ msgid "Simple Communication Controller"
 msgstr "Контролер простого обміну даними"
 
 #: src/components/vm/disks/vmDisksCard.tsx:160
+#: src/components/storagePools/storageVolumeCreateBody.tsx:120
 #: src/components/storagePools/storagePoolList.tsx:62
 #: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/storageVolumeCreateBody.tsx:120
 msgid "Size"
 msgstr "Розмір"
 
@@ -2681,10 +2678,10 @@ msgid "Size must be a number"
 msgstr "Розмір має бути вказано числом"
 
 #: src/components/vm/overview/bootOrder.tsx:158
+#: src/components/vm/hostdevs/hostDevAdd.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:93
 #: src/components/vm/hostdevs/hostDevCard.tsx:100
 #: src/components/vm/hostdevs/hostDevCard.tsx:241
-#: src/components/vm/hostdevs/hostDevAdd.tsx:112
 msgid "Slot"
 msgstr "Слот"
 
@@ -2743,10 +2740,10 @@ msgstr "Джерело має бути непорожнім"
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:201
-#: src/components/storagePools/storagePoolOverviewTab.tsx:30
-#: src/components/storagePools/storagePoolOverviewTab.tsx:35
 #: src/components/storagePools/createStoragePoolDialog.tsx:218
 #: src/components/storagePools/createStoragePoolDialog.tsx:235
+#: src/components/storagePools/storagePoolOverviewTab.tsx:30
+#: src/components/storagePools/storagePoolOverviewTab.tsx:35
 msgid "Source path"
 msgstr "Шлях до джерела"
 
@@ -2764,7 +2761,7 @@ msgid "Source volume group"
 msgstr "Початкова група томів"
 
 #: src/components/vm/consoles/serial.tsx:123
-#: src/components/vm/consoles/vnc.tsx:616
+#: src/components/vm/consoles/vnc.tsx:571
 #: src/components/networks/createNetworkDialog.tsx:305
 msgid "Start"
 msgstr "Почати"
@@ -2779,7 +2776,7 @@ msgid "Start should not be empty"
 msgstr "Початок повинен бути непорожнім"
 
 #: src/components/vm/consoles/serial.tsx:116
-#: src/components/vm/consoles/vnc.tsx:609
+#: src/components/vm/consoles/vnc.tsx:564
 msgid "Start the virtual machine to access the console"
 msgstr "Запустіть віртуальну машину, щоб отримати доступ до її консолі"
 
@@ -2795,12 +2792,12 @@ msgstr "Почато"
 msgid "Startup"
 msgstr "Запуск"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:163
 #: src/components/vm/nics/vmNicsCard.tsx:586
-#: src/components/networks/networkList.tsx:63
+#: src/components/vm/overview/vmOverviewCard.tsx:163
 #: src/components/storagePools/storagePoolList.tsx:64
-#: src/components/vms/hostvmslist.tsx:266
-#: src/components/vms/hostvmslist.tsx:322
+#: src/components/vms/hostvmslist.tsx:259
+#: src/components/vms/hostvmslist.tsx:315
+#: src/components/networks/networkList.tsx:63
 msgid "State"
 msgstr "Стан"
 
@@ -2812,8 +2809,8 @@ msgstr "Записи статичних вузлів"
 msgid "Static host from DHCP could not be removed"
 msgstr "Не вдалося вилучити статичний вузол з DHCP"
 
-#: src/components/vm/vmMigrateDialog.tsx:108
 #: src/components/create-vm-dialog/createVmDialog.tsx:1140
+#: src/components/vm/vmMigrateDialog.tsx:108
 msgid "Storage"
 msgstr "Сховище даних"
 
@@ -2825,11 +2822,11 @@ msgstr "Сховище даних є адресою спільного кори�
 msgid "Storage limit"
 msgstr "Обмеження сховища даних"
 
-#: src/components/storagePools/storagePool.tsx:114
+#: src/components/storagePools/storagePool.tsx:113
 msgid "Storage pool $0 failed to get activated"
 msgstr "Не вдалося активувати буфер сховища $0"
 
-#: src/components/storagePools/storagePool.tsx:133
+#: src/components/storagePools/storagePool.tsx:129
 msgid "Storage pool $0 failed to get deactivated"
 msgstr "Не вдалося деактивувати буфер сховища $0"
 
@@ -2862,7 +2859,7 @@ msgstr ""
 "Розмір тому сховища даних не повинен перевищувати місткість буфера сховища "
 "даних ($0 $1)"
 
-#: src/components/storagePools/storagePool.tsx:65
+#: src/components/storagePools/storagePool.tsx:66
 msgid "Storage volumes"
 msgstr "Томи даних"
 
@@ -2909,16 +2906,16 @@ msgstr "TPM"
 msgid "Table of selectable host devices"
 msgstr "Таблиця придатних для вибору пристроїв основної системи"
 
-#: src/components/vm/disks/vmDiskColumns.tsx:173
 #: src/components/vm/disks/vmDisksCard.tsx:159
-#: src/components/vm/overview/bootOrder.tsx:164
+#: src/components/vm/disks/vmDiskColumns.tsx:173
 #: src/components/vm/nics/vmNicsCard.tsx:557
+#: src/components/vm/overview/bootOrder.tsx:164
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
 msgid "Target"
 msgstr "Призначення"
 
-#: src/components/storagePools/storagePoolOverviewTab.tsx:50
 #: src/components/storagePools/createStoragePoolDialog.tsx:130
+#: src/components/storagePools/storagePoolOverviewTab.tsx:50
 msgid "Target path"
 msgstr "Шлях призначення"
 
@@ -3020,7 +3017,7 @@ msgstr ""
 "У цій основній системі немає джерел для інтерфейсів віртуальної мережі. "
 "Можливо, вам слід створити віртуальну мережу."
 
-#: src/components/vm/vmActions.tsx:466
+#: src/components/vm/vmActions.tsx:462
 msgid "This VM is transient. Shut it down if you wish to delete it."
 msgstr ""
 "Ця віртуальна машина є тимчасовою. Вимкніть її, якщо хочете її вилучити."
@@ -3084,17 +3081,17 @@ msgstr ""
 msgid "Troubleshoot"
 msgstr "Діагностика проблем"
 
+#: src/components/vm/nics/vmNicsCard.tsx:780
 #: src/components/vm/overview/bootOrder.tsx:125
 #: src/components/vm/overview/bootOrder.tsx:139
 #: src/components/vm/overview/bootOrder.tsx:155
 #: src/components/vm/overview/bootOrder.tsx:162
 #: src/components/vm/overview/bootOrder.tsx:169
 #: src/components/vm/overview/bootOrder.tsx:175
-#: src/components/vm/nics/vmNicsCard.tsx:780
-#: src/components/vm/hostdevs/hostDevCard.tsx:177
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
-#: src/components/storagePools/storagePoolOverviewTab.tsx:65
+#: src/components/vm/hostdevs/hostDevCard.tsx:177
 #: src/components/storagePools/createStoragePoolDialog.tsx:102
+#: src/components/storagePools/storagePoolOverviewTab.tsx:65
 msgid "Type"
 msgstr "Тип"
 
@@ -3231,39 +3228,39 @@ msgstr "ВМ із назвою $0 вже існує"
 msgid "VM $0 does not exist on $1 connection"
 msgstr "На з'єднання $1 не існує ВМ $0"
 
-#: src/components/vm/vmActions.tsx:101
+#: src/components/vm/vmActions.tsx:97
 msgid "VM $0 failed to force reboot"
 msgstr "Не вдалося примусово перезавантажити віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:138
+#: src/components/vm/vmActions.tsx:134
 msgid "VM $0 failed to force shutdown"
 msgstr "Не вдалося примусово вимкнути віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:82
+#: src/components/vm/vmActions.tsx:78
 msgid "VM $0 failed to get installed"
 msgstr "Не вдалося встановити віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:120
+#: src/components/vm/vmActions.tsx:116
 msgid "VM $0 failed to pause"
 msgstr "Не вдалося призупинити віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:93
+#: src/components/vm/vmActions.tsx:89
 msgid "VM $0 failed to reboot"
 msgstr "Не вдалося перезавантажити віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:128
+#: src/components/vm/vmActions.tsx:124
 msgid "VM $0 failed to resume"
 msgstr "Не вдалося відновити роботу віртуальної машини $0"
 
-#: src/components/vm/vmActions.tsx:146
+#: src/components/vm/vmActions.tsx:142
 msgid "VM $0 failed to send NMI"
 msgstr "Не вдалося надіслати NMI віртуальній машині $0"
 
-#: src/components/vm/vmActions.tsx:112 src/components/vm/vmActions.tsx:512
+#: src/components/vm/vmActions.tsx:108 src/components/vm/vmActions.tsx:508
 msgid "VM $0 failed to shutdown"
 msgstr "Не вдалося вимкнути віртуальну машину $0"
 
-#: src/components/vm/vmActions.tsx:73
+#: src/components/vm/vmActions.tsx:69
 msgid "VM $0 failed to start"
 msgstr "Не вдалося запустити віртуальну машину $0"
 
@@ -3295,7 +3292,7 @@ msgstr "VNC"
 msgid "VNC settings could not be saved"
 msgstr "Не вдалося зберегти параметри VNC"
 
-#: src/components/vm/consoles/vnc.tsx:495
+#: src/components/vm/consoles/vnc.tsx:450
 msgid "VNC with TLS is not supported by the in-page viewer"
 msgstr "Підтримки VNC з TLS не передбачено у переглядачі для сторінок"
 
@@ -3305,10 +3302,10 @@ msgstr "Чинний жетон"
 
 #: src/components/vm/overview/bootOrder.tsx:140
 #: src/components/vm/overview/bootOrder.tsx:156
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
 #: src/components/vm/hostdevs/hostDevCard.tsx:207
 #: src/components/vm/hostdevs/hostDevCard.tsx:239
 #: src/components/vm/hostdevs/hostDevCard.tsx:245
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
 msgid "Vendor"
 msgstr "Постачальник"
 
@@ -3317,10 +3314,10 @@ msgid "Vendor support ended $0"
 msgstr "Постачальником припинено підтримку $0"
 
 #: src/components/vm/vmDetailsPage.tsx:249
-#: src/components/networks/networkList.tsx:44
 #: src/components/storagePools/storagePoolList.tsx:46
-#: src/components/vms/hostvmslist.tsx:315
-#: src/components/vms/hostvmslist.tsx:317 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:308
+#: src/components/vms/hostvmslist.tsx:310
+#: src/components/networks/networkList.tsx:44 src/manifest.json:0
 msgid "Virtual machines"
 msgstr "Віртуальні машини"
 
@@ -3351,12 +3348,12 @@ msgstr ""
 msgid "Virtualization service (libvirt) is not active"
 msgstr "Служба віртуалізації (libvirt) не є активною"
 
-#: src/components/vm/deleteDialog.tsx:78
+#: src/components/create-vm-dialog/createVmDialog.tsx:1152
 #: src/components/vm/disks/diskAdd.tsx:327
 #: src/components/vm/disks/mediaEject.tsx:89
 #: src/components/vm/disks/vmDiskColumns.tsx:43
 #: src/components/vm/overview/bootOrder.tsx:109
-#: src/components/create-vm-dialog/createVmDialog.tsx:1152
+#: src/components/vm/deleteDialog.tsx:78
 msgid "Volume"
 msgstr "Том"
 
@@ -3372,7 +3369,7 @@ msgstr "Назва групи томів"
 msgid "Volume group name should not be empty"
 msgstr "Назва групи томів має бути непорожньою"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:212
+#: src/components/vm/overview/vmOverviewCard.tsx:210
 msgid "Vsock"
 msgstr "Vsock"
 
@@ -3381,8 +3378,8 @@ msgstr "Vsock"
 msgid "WWPN"
 msgstr "WWPN"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:198
 #: src/components/common/needsShutdown.tsx:210
+#: src/components/vm/overview/vmOverviewCard.tsx:196
 msgid "Watchdog"
 msgstr "Сторожовик"
 
@@ -3400,8 +3397,8 @@ msgstr ""
 msgid "Wireless Controller"
 msgstr "Контролер бездротового зв'язку"
 
-#: src/components/vm/disks/diskEdit.tsx:114
 #: src/components/vm/disks/vmDisksCard.tsx:249
+#: src/components/vm/disks/diskEdit.tsx:114
 msgid "Writeable"
 msgstr "Придатний до запису"
 
@@ -3413,13 +3410,13 @@ msgstr "Змонтувати спільну теку можна за допом�
 msgid "You need to select the most closely matching operating system"
 msgstr "Вам слід вибрати найвідповіднішу операційну систему"
 
-#: src/components/networks/network.tsx:53
-#: src/components/storagePools/storagePool.tsx:52
+#: src/components/storagePools/storagePool.tsx:53
+#: src/components/networks/network.tsx:54
 msgid "active"
 msgstr "активний"
 
-#: src/components/vm/overview/watchdog.tsx:265
 #: src/components/vm/overview/vsock.tsx:315
+#: src/components/vm/overview/watchdog.tsx:265
 msgid "add"
 msgstr "додати"
 
@@ -3439,7 +3436,7 @@ msgstr "місток"
 msgid "cdrom"
 msgstr "cdrom"
 
-#: src/helpers.ts:236 src/components/vm/overview/cpuModal.tsx:322
+#: src/components/vm/overview/cpuModal.tsx:322 src/helpers.ts:236
 msgid "custom"
 msgstr "нетиповий"
 
@@ -3463,11 +3460,11 @@ msgstr "диск"
 msgid "down"
 msgstr "нижче"
 
-#: src/components/vm/overview/watchdog.tsx:265
 #: src/components/vm/overview/bootOrder.tsx:387
 #: src/components/vm/overview/vsock.tsx:315
 #: src/components/vm/overview/vmOverviewCard.tsx:117
 #: src/components/vm/overview/vmOverviewCard.tsx:125
+#: src/components/vm/overview/watchdog.tsx:265
 msgid "edit"
 msgstr "редагувати"
 
@@ -3511,8 +3508,8 @@ msgstr "Ціль iSCSI"
 msgid "iSCSI target IQN"
 msgstr "IQN цілі iSCSI"
 
-#: src/components/networks/network.tsx:53
-#: src/components/storagePools/storagePool.tsx:52
+#: src/components/storagePools/storagePool.tsx:53
+#: src/components/networks/network.tsx:54
 msgid "inactive"
 msgstr "неактивний"
 
@@ -3546,9 +3543,9 @@ msgstr ""
 msgid "network"
 msgstr "мережа"
 
-#: src/helpers.ts:265 src/components/networks/networkOverviewTab.tsx:113
 #: src/components/storagePools/storagePoolOverviewTab.tsx:56
 #: src/components/storagePools/storagePoolOverviewTab.tsx:61
+#: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:265
 msgid "no"
 msgstr "ні"
 
@@ -3556,9 +3553,9 @@ msgstr "ні"
 msgid "no state saved"
 msgstr "немає збережених станів"
 
-#: src/components/vm/overview/watchdog.tsx:261
-#: src/components/vm/overview/vsock.tsx:297
 #: src/components/vm/nics/vmNicsCard.tsx:288
+#: src/components/vm/overview/vsock.tsx:297
+#: src/components/vm/overview/watchdog.tsx:261
 #: src/components/networks/networkOverviewTab.tsx:314
 msgid "none"
 msgstr "немає"
@@ -3622,11 +3619,7 @@ msgstr "Вірт. проц."
 msgid "vhostuser"
 msgstr "vhostuser"
 
-#: src/components/common/stateIcon.tsx:64
-msgid "view more..."
-msgstr "докладніше…"
-
-#: src/components/vm/vmActions.tsx:397
+#: src/components/vm/vmActions.tsx:393
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
@@ -3654,7 +3647,7 @@ msgstr ""
 msgid "vm"
 msgstr "vm"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:216
+#: src/components/vm/overview/vmOverviewCard.tsx:214
 msgid "vsock requires special software"
 msgstr "vsock потребує спеціалізованого програмного забезпечення"
 
@@ -3662,11 +3655,20 @@ msgstr "vsock потребує спеціалізованого програмн
 msgid "waiting"
 msgstr "очікування"
 
-#: src/helpers.ts:264 src/components/networks/networkOverviewTab.tsx:113
 #: src/components/storagePools/storagePoolOverviewTab.tsx:56
 #: src/components/storagePools/storagePoolOverviewTab.tsx:61
+#: src/components/networks/networkOverviewTab.tsx:113 src/helpers.ts:264
 msgid "yes"
 msgstr "так"
+
+#~ msgid "Close"
+#~ msgstr "Закрити"
+
+#~ msgid "Failed"
+#~ msgstr "Не вдалося"
+
+#~ msgid "view more..."
+#~ msgstr "докладніше…"
 
 #~ msgid "No storage pools available"
 #~ msgstr "Немає доступних буферів зберігання даних"
