@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 05:12+0000\n"
-"PO-Revision-Date: 2026-07-15 17:16+0000\n"
+"PO-Revision-Date: 2026-07-29 15:18+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/ru/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: src/components/vm/nics/nicBody.tsx:326
 msgid " excluding "
-msgstr ""
+msgstr " , исключая "
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1091
 msgid "$0 $1 available at default location"
@@ -54,9 +54,8 @@ msgstr[1] "$0 буфера устройств хранения"
 msgstr[2] "$0 буферов устройств хранения"
 
 #: src/components/vm/vmDetailsPage.tsx:105
-#, fuzzy
 msgid "$0 console"
-msgstr "консоль"
+msgstr "$0 консоль"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1530
 msgid "$0 does not support unattended installation."
@@ -85,7 +84,7 @@ msgstr "Параметры виртуального сетевого интер�
 
 #: src/components/vm/disks/vmDiskColumns.tsx:102
 msgid "(empty)"
-msgstr ""
+msgstr "(пусто)"
 
 #: src/components/vm/vmMigrateDialog.tsx:84
 msgid ""
@@ -181,14 +180,12 @@ msgid "Add vsock interface"
 msgstr "Добавить интерфейс vsock"
 
 #: src/components/vm/overview/watchdog.tsx:186
-#, fuzzy
-#| msgid "host device"
 msgid "Add watchdog device type"
 msgstr "Добавить тип устройства-сторожа"
 
 #: src/components/vm/overview/watchdog.tsx:122
 msgid "Adding a watchdog will require a reboot to take effect."
-msgstr ""
+msgstr "Для вступления в силу добавления сторожа потребуется перезагрузка."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:119
 msgid "Adding shared directories is possible only when the guest is shut off"
@@ -210,6 +207,8 @@ msgstr "Адрес должен находиться в диапазоне ад�
 #: src/components/vm/nics/nicBody.tsx:108
 msgid "Advanced interface type for high performance or enhanced security."
 msgstr ""
+"Расширенный тип интерфейса для высокой производительности или повышенной "
+"безопасности."
 
 #: src/components/vms/hostvmslist.tsx:214
 #: src/components/vms/hostvmslist.tsx:232
@@ -221,12 +220,16 @@ msgid ""
 "All VM activity, including storage, will be temporary. This will result in "
 "data loss on the destination host."
 msgstr ""
+"Вся активность ВМ, включая хранилище, будет временной. Это приведёт к потере "
+"данных на целевом хосте."
 
 #: src/components/vm/disks/diskAdd.tsx:141
 msgid ""
 "Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
 "(-, _, +, .)"
 msgstr ""
+"Допустимые символы: базовый латинский алфавит, цифры и ограниченная "
+"пунктуация (-, _, +, .)"
 
 #: src/components/storagePools/storagePoolDelete.tsx:175
 msgid "Also delete all volumes inside this pool:"
@@ -239,7 +242,7 @@ msgstr "Всегда присоединять"
 
 #: src/components/vm/overview/helpers.tsx:18
 msgid "An example of vsock-aware software is socat"
-msgstr ""
+msgstr "Примером ПО, поддерживающего vsock, является socat"
 
 #: src/components/vm/overview/cpuModal.tsx:338
 msgid "Apply"
@@ -247,41 +250,39 @@ msgstr "Применить"
 
 #: src/components/vm/overview/watchdog.tsx:217
 msgid "Apply on next boot"
-msgstr ""
+msgstr "Применить при следующей загрузке"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1050
 msgid ""
 "Arguments passed to the booted kernel can often be used to control the "
 "installer. Refer to the documentation of the installer of $0."
 msgstr ""
+"Аргументы, передаваемые загружаемому ядру, часто могут использоваться для "
+"управления установщиком. Обратитесь к документации установщика $0."
 
 #: src/components/vm/overview/vsock.tsx:37
-#, fuzzy
-#| msgid "Generate automatically"
 msgid "Assign automatically"
-msgstr "Создать автоматически"
+msgstr "Назначить автоматически"
 
 #: src/components/vm/deleteDialog.tsx:99
-#, fuzzy
-#| msgid "Delete associated storage files:"
 msgid "Associated storage files"
-msgstr "Удаление связанных файлов хранилища:"
+msgstr "Связанные файлы хранилища"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1529
 msgid ""
 "Automated installs are only available when downloading an image, an install "
 "tree or using cloud-init."
 msgstr ""
+"Автоматическая установка доступна только при загрузке образа, дерева "
+"установки или использовании cloud-init."
 
 #: src/components/networks/createNetworkDialog.tsx:224
 msgid "Automatic"
 msgstr "Автоматически"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1668
-#, fuzzy
-#| msgid "Automatic"
 msgid "Automation"
-msgstr "Автоматически"
+msgstr "Автоматизация"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:190
 #: src/components/storagePools/storagePoolOverviewTab.tsx:60
@@ -291,18 +292,16 @@ msgstr "Автозапуск"
 
 #: src/components/vm/nics/vmNicsCard.tsx:794
 msgid "Backend"
-msgstr ""
+msgstr "Бэкенд"
 
 #: src/libvirtApi/nodeDevice.ts:37
 msgid "Base System Peripheral"
-msgstr ""
+msgstr "Периферия базовой системы"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:40
 #: src/components/vm/deleteDialog.tsx:73
-#, fuzzy
-#| msgid "Host device"
 msgid "Block device"
-msgstr "Главное устройство"
+msgstr "Блочное устройство"
 
 #: src/helpers.ts:224
 msgid "Blocked"
@@ -310,7 +309,7 @@ msgstr "Заблокировано"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1039
 msgid "Boot arguments"
-msgstr ""
+msgstr "Аргументы загрузки"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:183
 msgid "Boot order"
@@ -321,10 +320,8 @@ msgid "Boot order settings could not be saved"
 msgstr "Не удалось сохранить параметры порядка загрузки"
 
 #: src/libvirtApi/nodeDevice.ts:35
-#, fuzzy
-#| msgid "bridge"
 msgid "Bridge"
-msgstr "мост"
+msgstr "Мост"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:100
 #: src/components/vm/hostdevs/hostDevCard.tsx:91
@@ -353,10 +350,8 @@ msgid "CPU"
 msgstr "ЦП"
 
 #: src/components/vm/overview/cpuModal.tsx:218
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "CPU mode could not be saved"
-msgstr "Не удалось сохранить параметры виртуальных ЦП"
+msgstr "Не удалось сохранить режим ЦП"
 
 #: src/components/vm/disks/diskAdd.tsx:172
 #: src/components/vm/disks/diskEdit.tsx:167
@@ -366,7 +361,7 @@ msgstr "Кэш"
 
 #: src/components/vm/disks/diskAdd.tsx:649
 msgid "Can not determine guest device name"
-msgstr ""
+msgstr "Не удаётся определить имя устройства гостя"
 
 #: src/components/vm/vmMigrateDialog.tsx:227
 #: src/components/vm/hostdevs/hostDevAdd.tsx:266
@@ -397,17 +392,15 @@ msgstr "Отмена"
 
 #: src/components/vm/overview/vsock.tsx:230
 msgid "Cannot edit vsock device on a transient VM"
-msgstr ""
+msgstr "Нельзя редактировать устройство vsock во временной ВМ"
 
 #: src/components/vm/overview/watchdog.tsx:174
 msgid "Cannot edit watchdog device on a transient VM"
-msgstr ""
+msgstr "Нельзя редактировать устройство-сторож во временной ВМ"
 
 #: src/components/vm/overview/bootOrder.tsx:341
-#, fuzzy
-#| msgid "Boot order"
 msgid "Change boot order"
-msgstr "Порядок загрузки"
+msgstr "Изменить порядок загрузки"
 
 #: src/components/vm/overview/firmware.tsx:81
 msgid "Change firmware"
@@ -415,7 +408,7 @@ msgstr "Изменить микропрограмму"
 
 #: src/components/common/needsShutdown.tsx:293
 msgid "Changes pending"
-msgstr ""
+msgstr "Ожидаются изменения"
 
 #: src/components/common/needsShutdown.tsx:31
 msgid "Changes will take effect after shutting down the VM"
@@ -428,10 +421,14 @@ msgid ""
 "\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
 "computer's manual for details."
 msgstr ""
+"Изменение настроек BIOS/EFI зависит от производителя. Для этого требуется "
+"нажать горячую клавишу во время загрузки (ESC, F1, F12, Del). Включите "
+"параметр «виртуализация», «VM», «VMX», «SVM», «VTX», «VTD». Подробности см. "
+"в руководстве к вашему компьютеру."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:638
 msgid "Checking token validity..."
-msgstr ""
+msgstr "Проверка действительности токена..."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:563
 msgid "Choose an operating system"
@@ -439,18 +436,15 @@ msgstr "Выберите операционную систему"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:187
 msgid "Class"
-msgstr ""
+msgstr "Класс"
 
 #: src/components/vm/consoles/common.tsx:72
-#, fuzzy
-#| msgid ""
-#| "Clicking \"Launch remote viewer\" will download a .vv file and launch $0."
 msgid ""
 "Clicking \"Launch viewer\" will download a $0 file and launch the Remote "
 "Viewer application on your system."
 msgstr ""
-"Нажатие на «Запустить средство удалённого просмотра» приведет к загрузке "
-"файла .vv и запуску $0."
+"Нажатие «Запустить средство удалённого просмотра» приведёт к загрузке файла "
+"$0 и запуску приложения Remote Viewer в вашей системе."
 
 #: src/components/vm/vmActions.tsx:383 src/components/vm/vmCloneDialog.tsx:108
 msgid "Clone"
@@ -462,23 +456,23 @@ msgstr "Базовый образ облака"
 
 #: src/libvirtApi/nodeDevice.ts:59
 msgid "Co-Processor"
-msgstr ""
+msgstr "Сопроцессор"
 
 #: org.cockpit_project.machines.metainfo.xml:19
 msgid "Cockpit Project"
-msgstr ""
+msgstr "Проект Cockpit"
 
 #: src/components/vm/nics/nicBody.tsx:533
 msgid "Complex rule \"$0\" can not be edited here."
-msgstr ""
+msgstr "Сложное правило «$0» не может быть отредактировано здесь."
 
 #: src/components/vm/consoles/consoles.tsx:326
 msgid "Compress"
-msgstr ""
+msgstr "Сжатие"
 
 #: src/components/vm/disks/vmDisksCard.tsx:249
 msgid "Concurrently writeable"
-msgstr ""
+msgstr "Доступно для параллельной записи"
 
 #: src/components/common/deleteResource.tsx:89
 msgid "Confirm this action"
@@ -504,25 +498,21 @@ msgid "Console"
 msgstr "Консоль"
 
 #: src/components/vm/consoles/consoles.tsx:385
-#, fuzzy
-#| msgid "Console"
 msgid "Console type"
-msgstr "Консоль"
+msgstr "Тип консоли"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:148
 msgid "Convert QXL video card to VGA"
-msgstr ""
+msgstr "Преобразовать видеокарту QXL в VGA"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:147
 msgid "Convert SPICE graphics console to VNC"
-msgstr ""
+msgstr "Преобразовать графическую консоль SPICE в VNC"
 
 #: src/components/vm/vmMigrateDialog.tsx:119
 #: src/components/vm/vmMigrateDialog.tsx:132
-#, fuzzy
-#| msgid "No storage"
 msgid "Copy storage"
-msgstr "Нет хранилища"
+msgstr "Копировать хранилище"
 
 #: src/components/vm/consoles/common.tsx:110
 msgid "Copy to clipboard"
@@ -533,26 +523,20 @@ msgid "Cores per socket"
 msgstr "Количество ядер на сокет"
 
 #: src/components/vm/deleteDialog.tsx:191
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Could not delete $0"
 msgstr "Не удалось удалить $0"
 
 #: src/components/vm/deleteDialog.tsx:186
-#, fuzzy
-#| msgid "Could not revert to snapshot"
 msgid "Could not delete all storage for $0"
-msgstr "Не удалось вернуться к снимку"
+msgstr "Не удалось удалить всё хранилище для $0"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:159
-#, fuzzy
-#| msgid "Could not revert to snapshot"
 msgid "Could not delete disk's storage"
-msgstr "Не удалось вернуться к снимку"
+msgstr "Не удалось удалить хранилище диска"
 
 #: src/components/vm/overview/watchdog.tsx:121
 msgid "Could not dynamically add watchdog"
-msgstr ""
+msgstr "Не удалось динамически добавить сторож"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:86
 msgid "Could not revert to snapshot"
@@ -575,43 +559,35 @@ msgstr "Создать ВМ"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1786
 msgid "Create VM by importing a disk image of an existing VM installation"
-msgstr ""
+msgstr "Создать ВМ путём импорта образа диска существующей установки ВМ"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1785
 msgid "Create VM from local or network installation medium"
-msgstr ""
+msgstr "Создать ВМ из локального или сетевого установочного носителя"
 
 #: src/components/vm/vmCloneDialog.tsx:84
 msgid "Create a clone VM based on $0"
 msgstr "Создать клон ВМ на основе $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1696
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and edit"
-msgstr "Создать новый"
+msgstr "Создать и редактировать"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1728
-#, fuzzy
-#| msgid "Create new"
 msgid "Create and run"
-msgstr "Создать новый"
+msgstr "Создать и запустить"
 
 #: src/components/vm/disks/diskAdd.tsx:552
 msgid "Create new"
 msgstr "Создать новый"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1125
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new qcow2 volume"
-msgstr "Создать новый том"
+msgstr "Создать новый том qcow2"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1126
-#, fuzzy
-#| msgid "Create new volume"
 msgid "Create new raw volume"
-msgstr "Создать новый том"
+msgstr "Создать новый том raw"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1713
 msgid "Create new virtual machine"
@@ -646,16 +622,15 @@ msgid "Creating VM"
 msgstr "Создание ВМ"
 
 #: src/app.tsx:232
-#, fuzzy
-#| msgid "Creating VM"
 msgid "Creating VM $0"
-msgstr "Создание ВМ"
+msgstr "Создание ВМ $0"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:54
 msgid ""
 "Creating snapshots of VMs with VFIO devices is not supported while they are "
 "running."
 msgstr ""
+"Создание снимков ВМ с устройствами VFIO не поддерживается во время их работы."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1504
 msgid "Creation of VM $0 failed"
@@ -682,10 +657,8 @@ msgid "Custom firmware: $0"
 msgstr "Специализированная микропрограмма: $0"
 
 #: src/components/vm/overview/vsock.tsx:187
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Custom identifier"
-msgstr "Файл образа диска"
+msgstr "Пользовательский идентификатор"
 
 #: src/components/vm/disks/diskAdd.tsx:413
 #: src/components/vm/disks/diskAdd.tsx:562
@@ -693,10 +666,8 @@ msgid "Custom path"
 msgstr "Пользовательский путь"
 
 #: src/components/networks/networkOverviewTab.tsx:294
-#, fuzzy
-#| msgid "DHCP range"
 msgid "DHCP Settings"
-msgstr "Диапазон адресов DHCP"
+msgstr "Настройки DHCP"
 
 #: src/components/storagePools/storagePool.tsx:146
 #: src/components/networks/network.tsx:145
@@ -717,17 +688,12 @@ msgid "Delete"
 msgstr "Удалить"
 
 #: src/components/vm/deleteDialog.tsx:199
-#, fuzzy
-#| msgid "Delete $0 volume"
-#| msgid_plural "Delete $0 volumes"
 msgid "Delete $0 VM?"
-msgstr "Удалить $0 том"
+msgstr "Удалить ВМ $0?"
 
 #: src/components/storagePools/storagePoolDelete.tsx:193
-#, fuzzy
-#| msgid "Delete storage pool $0"
 msgid "Delete $0 storage pool?"
-msgstr "Удаление пула носителей $0"
+msgstr "Удалить пул хранилища $0?"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:60
 msgid "Delete $0 volume"
@@ -741,15 +707,12 @@ msgid "Delete associated storage files:"
 msgstr "Удаление связанных файлов хранилища:"
 
 #: src/components/networks/network.tsx:116
-#, fuzzy
-#| msgid "Isolated network"
 msgid "Delete network?"
-msgstr "Изолированная сеть"
+msgstr "Удалить сеть?"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:204
-#, fuzzy
 msgid "Delete snapshot?"
-msgstr "Создание моментального снимка"
+msgstr "Удалить снимок?"
 
 #: src/components/storagePools/storagePoolDelete.tsx:185
 msgid ""
@@ -760,10 +723,8 @@ msgstr ""
 "содержимое не будет удалено."
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:68
-#, fuzzy
-#| msgid "Only editable when the guest is shut off"
 msgid "Deleting shared directories is possible only when the guest is shut off"
-msgstr "Может редактироваться, только когда гостевая система выключена"
+msgstr "Удаление общих каталогов возможно только при выключенном госте"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:66
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
@@ -773,25 +734,19 @@ msgstr "Описание"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:124
 msgid "Deselect others"
-msgstr ""
+msgstr "Снять выделение с других"
 
 #: src/components/vm/vmMigrateDialog.tsx:51
-#, fuzzy
-#| msgid "Description"
 msgid "Destination URI"
-msgstr "Описание"
+msgstr "URI назначения"
 
 #: src/components/vm/vmMigrateDialog.tsx:164
-#, fuzzy
-#| msgid "Installation source must not be empty"
 msgid "Destination URI must not be empty"
-msgstr "Источник установки не должен быть пустым"
+msgstr "URI назначения не должен быть пустым"
 
 #: src/components/vm/consoles/consoles.tsx:361
-#, fuzzy
-#| msgid "Detachable"
 msgid "Detach"
-msgstr "Съёмный компьютер"
+msgstr "Отсоединить"
 
 #: src/components/storagePools/storagePoolDelete.tsx:86
 msgid ""
@@ -829,54 +784,40 @@ msgstr "Отключиться"
 
 #: src/components/vm/consoles/vnc.tsx:533
 #: src/components/vm/consoles/serial.tsx:83
-#, fuzzy
-#| msgid "Disconnect"
 msgid "Disconnected"
-msgstr "Отключиться"
+msgstr "Отключено"
 
 #: src/components/common/needsShutdown.tsx:182
-#, fuzzy
-#| msgid "Disks"
 msgid "Disk"
-msgstr "Диски"
+msgstr "Диск"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:170
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "Disk $0 could not be removed"
-msgstr "Не удалось сохранить параметры диска"
+msgstr "Диск $0 не удалось удалить"
 
 #: src/components/vm/disks/diskAdd.tsx:725
-#, fuzzy
-#| msgid "Disk failed to be created"
 msgid "Disk failed to be added"
-msgstr "Не удалось создать диск"
+msgstr "Не удалось добавить диск"
 
 #: src/components/vm/disks/diskAdd.tsx:183
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Disk identifier"
-msgstr "Файл образа диска"
+msgstr "Идентификатор диска"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:459
-#, fuzzy
-#| msgid "Disk image file"
 msgid "Disk image"
-msgstr "Файл образа диска"
+msgstr "Образ диска"
 
 #: src/components/vm/disks/diskAdd.tsx:424
 msgid "Disk image file"
 msgstr "Файл образа диска"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:263
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Disk image path must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Путь к образу диска не должен быть пустым"
 
 #: src/components/common/machinesConnectionSelector.tsx:83
 msgid "Disk images can be stored in user home directory"
-msgstr ""
+msgstr "Образы дисков могут храниться в домашнем каталоге пользователя"
 
 #: src/components/vm/disks/diskEdit.tsx:216
 msgid "Disk settings could not be saved"
@@ -892,22 +833,20 @@ msgstr "Диски"
 
 #: src/libvirtApi/nodeDevice.ts:32
 msgid "Display Controller"
-msgstr ""
+msgstr "Контроллер дисплея"
 
 #: src/components/vm/vmMigrateDialog.tsx:211
 msgid ""
 "Do not run this VM on the origin and destination hosts at the same time."
-msgstr ""
+msgstr "Не запускайте эту ВМ на исходном и целевом хостах одновременно."
 
 #: src/helpers.ts:276
 msgid "Do nothing"
-msgstr ""
+msgstr "Ничего не делать"
 
 #: src/libvirtApi/nodeDevice.ts:39
-#, fuzzy
-#| msgid "Docking station"
 msgid "Docking Station"
-msgstr "Стыковочный узел"
+msgstr "Док-станция"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:150
 msgid "Domain has crashed"
@@ -923,35 +862,27 @@ msgstr "Загрузить ОС"
 
 #: src/app.tsx:236
 msgid "Download progress"
-msgstr ""
+msgstr "Прогресс загрузки"
 
 #: src/components/vm/consoles/common.tsx:97
-#, fuzzy
-#| msgid "Downloading $0"
 msgid "Download the MSI from $0"
-msgstr "Загрузка $0"
+msgstr "Загрузить MSI с $0"
 
 #: src/app.tsx:232
-#, fuzzy
-#| msgid "Downloading $0"
 msgid "Downloading image for VM $0"
-msgstr "Загрузка $0"
+msgstr "Загрузка образа для ВМ $0"
 
 #: src/components/vms/hostvmslist.tsx:60
-#, fuzzy
-#| msgid "Downloading $0"
 msgid "Downloading: $0%"
-msgstr "Загрузка $0"
+msgstr "Загрузка: $0%"
 
 #: src/helpers.ts:277
 msgid "Dump core"
-msgstr ""
+msgstr "Сбросить ядро"
 
 #: src/components/vm/vmMigrateDialog.tsx:72
-#, fuzzy
-#| msgid "Description"
 msgid "Duration"
-msgstr "Описание"
+msgstr "Длительность"
 
 #: src/helpers.ts:222
 msgid "Dying"
@@ -968,49 +899,41 @@ msgstr "Редактировать атрибуты $0"
 
 #: src/components/vm/consoles/vnc.tsx:146
 #: src/components/vm/consoles/vnc.tsx:319
-#, fuzzy
-#| msgid "DHCP range"
 msgid "Edit VNC settings"
-msgstr "Диапазон адресов DHCP"
+msgstr "Изменить настройки VNC"
 
 #: src/components/vm/vmActions.tsx:440
-#, fuzzy
 msgid "Edit description"
-msgstr "Описание"
+msgstr "Изменить описание"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:53
-#, fuzzy
 msgid "Edit description of VM $0"
-msgstr "Описание"
+msgstr "Изменить описание ВМ $0"
 
 #: src/components/vm/overview/vsock.tsx:242
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Edit vsock interface"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Изменить интерфейс vsock"
 
 #: src/components/vm/overview/watchdog.tsx:186
 msgid "Edit watchdog device type"
-msgstr ""
+msgstr "Изменить тип устройства-сторожа"
 
 #: src/components/vm/nics/vmNicsCard.tsx:622
 msgid "Editing network interfaces of transient guests is not allowed"
-msgstr ""
+msgstr "Редактирование сетевых интерфейсов временных гостей не допускается"
 
 #: src/components/vm/nics/vmNicsCard.tsx:628
 msgid "Editing transient network interfaces is not allowed"
-msgstr ""
+msgstr "Редактирование временных сетевых интерфейсов не допускается"
 
 #: src/components/vm/disks/mediaEject.tsx:109
 #: src/components/vm/disks/vmDiskColumns.tsx:232
 msgid "Eject"
-msgstr ""
+msgstr "Извлечь"
 
 #: src/components/vm/disks/mediaEject.tsx:99
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Eject disc from VM?"
-msgstr "Удаление $0"
+msgstr "Извлечь диск из ВМ?"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:238
 msgid "Emulated machine"
@@ -1018,11 +941,11 @@ msgstr "Эмулированный компьютер"
 
 #: src/app.tsx:136
 msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr ""
+msgstr "Включите поддержку виртуализации в настройках BIOS/EFI."
 
 #: src/libvirtApi/nodeDevice.ts:45
 msgid "Encryption Controller"
-msgstr ""
+msgstr "Контроллер шифрования"
 
 #: src/components/networks/createNetworkDialog.tsx:312
 msgid "End"
@@ -1036,14 +959,16 @@ msgstr "Конец не должен быть пустым"
 #: src/components/create-vm-dialog/createVmDialog.tsx:1528
 msgid "Enter root and/or user information to enable unattended installation."
 msgstr ""
+"Введите информацию о root и/или пользователе для включения автоматической "
+"установки."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:642
 msgid "Error checking token"
-msgstr ""
+msgstr "Ошибка проверки токена"
 
 #: src/components/vm/vmMigrateDialog.tsx:55
 msgid "Example, $0"
-msgstr ""
+msgstr "Пример, $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:383
 msgid "Existing disk image on host's file system"
@@ -1054,40 +979,28 @@ msgid "Expand"
 msgstr "Расширить"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:230
-#, fuzzy
-#| msgid "Edit $0 attributes"
 msgid "Extended attributes"
-msgstr "Редактировать атрибуты $0"
+msgstr "Расширенные атрибуты"
 
 #: src/components/vm/vmActions.tsx:155
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add TPM to VM $0"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось добавить TPM в ВМ $0"
 
 #: src/components/vm/consoles/vnc.tsx:599
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add VNC to VM $0"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось добавить VNC в ВМ $0"
 
 #: src/components/vm/disks/diskAdd.tsx:649
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to add disk"
-msgstr "Не удалось присоединить диск"
+msgstr "Не удалось добавить диск"
 
 #: src/components/vm/consoles/serial.tsx:143
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to add serial console to VM $0"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось добавить последовательную консоль в ВМ $0"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:198
-#, fuzzy
-#| msgid "Filesystem directory"
 msgid "Failed to add shared directory"
-msgstr "Каталог файловой системы"
+msgstr "Не удалось добавить общий каталог"
 
 #: src/components/vm/overview/firmware.tsx:73
 msgid "Failed to change firmware"
@@ -1098,68 +1011,52 @@ msgid "Failed to clone VM $0"
 msgstr "Не удалось клонировать ВМ $0"
 
 #: src/components/vm/overview/vsock.tsx:157
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure vsock"
-msgstr "Не удалось изменить микропрограмму"
+msgstr "Не удалось настроить vsock"
 
 #: src/components/vm/overview/watchdog.tsx:105
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to configure watchdog"
-msgstr "Не удалось изменить микропрограмму"
+msgstr "Не удалось настроить сторож"
 
 #: src/components/vm/consoles/vnc.tsx:452
 msgid "Failed to connect"
 msgstr "Не удалось подключиться"
 
 #: src/components/vm/overview/vsock.tsx:168
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach vsock"
-msgstr "Не удалось присоединить диск"
+msgstr "Не удалось отсоединить vsock"
 
 #: src/components/vm/overview/watchdog.tsx:147
-#, fuzzy
-#| msgid "Disk failed to be attached"
 msgid "Failed to detach watchdog"
-msgstr "Не удалось присоединить диск"
+msgstr "Не удалось отсоединить сторож"
 
 #: src/state.ts:265
-#, fuzzy
-#| msgid "Failed to change firmware"
 msgid "Failed to fetch some resources"
-msgstr "Не удалось изменить микропрограмму"
+msgstr "Не удалось получить некоторые ресурсы"
 
 #: src/components/vm/nics/vmNicsCard.tsx:446
 msgid "Failed to fetch the IP addresses of the interfaces present in $0"
 msgstr "Не удалось получить IP-адреса интерфейсов, присутствующих в $0"
 
 #: src/components/vm/vmRenameDialog.tsx:59
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to rename VM $0"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось переименовать ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:84
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to replace SPICE devices"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось заменить устройства SPICE"
 
 #: src/components/networks/networkOverviewTab.tsx:245
 msgid "Failed to save network settings"
-msgstr ""
+msgstr "Не удалось сохранить настройки сети"
 
 #: src/components/vm/consoles/vnc.tsx:251
 msgid "Failed to send key Ctrl+Alt+$0 to VM $1"
 msgstr "Не удалось послать сочетание клавиш Ctrl+Alt+$0 в ВМ $1"
 
 #: src/components/vm/vmEditDescriptionDialog.tsx:45
-#, fuzzy
-#| msgid "Failed to clone VM $0"
 msgid "Failed to set description of VM $0"
-msgstr "Не удалось клонировать ВМ $0"
+msgstr "Не удалось задать описание ВМ $0"
 
 #: src/components/vm/overview/cpuModal.tsx:259
 msgid "Fewer than the maximum number of virtual CPUs should be enabled."
@@ -1173,10 +1070,8 @@ msgid "File"
 msgstr "Файл"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:55
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Filesystem $0 could not be removed"
-msgstr "Не удалось удалить $0"
+msgstr "Файловая система $0 не удалена"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:79
 msgid "Filesystem directory"
@@ -1198,49 +1093,43 @@ msgid ""
 "For general guest connectivity on hosts with dynamic / wireless networking "
 "configs."
 msgstr ""
+"Для общего подключения гостей на хостах с динамической/беспроводной сетевой "
+"конфигурацией."
 
 #: src/components/vm/nics/nicBody.tsx:100
 msgid ""
 "For general guest connectivity on hosts with static wired networking configs."
 msgstr ""
+"Для общего подключения гостей на хостах со статической проводной сетевой "
+"конфигурацией."
 
 #: src/components/vm/disks/mediaEject.tsx:113
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force eject"
-msgstr "Принудительная перезагрузка"
+msgstr "Принудительно извлечь"
 
 #: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
 msgid "Force reboot"
 msgstr "Принудительная перезагрузка"
 
 #: src/components/vm/vmActions.tsx:328
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force reboot $0?"
-msgstr "Принудительная перезагрузка"
+msgstr "Принудительно перезагрузить $0?"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
-#, fuzzy
-#| msgid "Force reboot"
 msgid "Force revert"
-msgstr "Принудительная перезагрузка"
+msgstr "Принудительный возврат"
 
 #: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
 msgid "Force shut down"
 msgstr "Принудительное завершение работы"
 
 #: src/components/vm/vmActions.tsx:264
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shut down $0?"
-msgstr "Принудительное завершение работы"
+msgstr "Принудительно завершить работу $0?"
 
 #: src/components/vm/vmActions.tsx:527
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Force shutdown and restart"
-msgstr "Принудительное завершение работы"
+msgstr "Принудительное завершение работы и перезапуск"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:134
 #: src/components/storagePools/storageVolumeCreateBody.tsx:103
@@ -1253,10 +1142,8 @@ msgid "Forward mode"
 msgstr "Режим пересылки"
 
 #: src/components/vm/nics/nicBody.tsx:587
-#, fuzzy
-#| msgid "Forward mode"
 msgid "Forwarded ports"
-msgstr "Режим пересылки"
+msgstr "Перенаправленные порты"
 
 #: src/components/networks/networkList.tsx:62
 msgid "Forwarding mode"
@@ -1268,6 +1155,9 @@ msgid ""
 "writable disk images will be transferred. Unused storage will remain on the "
 "origin after migration."
 msgstr ""
+"Будут перенесены полные образы дисков и память домена. Будут переданы только "
+"неразделяемые, доступные для записи образы дисков. Неиспользуемое хранилище "
+"останется на исходном хосте после миграции."
 
 #: src/components/vm/overview/vmOverviewCard.tsx:154
 #: src/components/networks/networkOverviewTab.tsx:108
@@ -1280,7 +1170,7 @@ msgstr "Создать автоматически"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:616
 msgid "Get a new RHSM token."
-msgstr ""
+msgstr "Получите новый токен RHSM."
 
 #: src/components/vm/overview/memorySelectRow.tsx:95
 #: src/components/vm/disks/vmDisksCard.tsx:39
@@ -1296,35 +1186,31 @@ msgstr "Перейти к списку ВМ"
 
 #: src/components/common/machinesConnectionSelector.tsx:74
 msgid "Good choice for desktop virtualization"
-msgstr ""
+msgstr "Хороший выбор для виртуализации на рабочем столе"
 
 #: src/helpers.ts:273
-#, fuzzy
-#| msgid "Force shut down"
 msgid "Gracefully shutdown"
-msgstr "Принудительное завершение работы"
+msgstr "Корректное завершение работы"
 
 #: src/components/vm/consoles/consoles.tsx:182
 msgid "Graphical"
-msgstr ""
+msgstr "Графическая"
 
 #: src/components/vm/consoles/vnc.tsx:610
 msgid "Graphical console support not enabled"
-msgstr ""
+msgstr "Поддержка графической консоли не включена"
 
 #: src/components/vm/nics/nicBody.tsx:476
 msgid "Guest port"
-msgstr ""
+msgstr "Порт гостя"
 
 #: src/components/vm/nics/nicBody.tsx:480
 msgid "Guest port help"
-msgstr ""
+msgstr "Справка по порту гостя"
 
 #: src/app.tsx:133
-#, fuzzy
-#| msgid "Connecting to virtualization service"
 msgid "Hardware virtualization is disabled"
-msgstr "Подключение к службе виртуализации"
+msgstr "Аппаратная виртуализация отключена"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
 #: src/components/vm/disks/diskAdd.tsx:164
@@ -1343,40 +1229,32 @@ msgid "Host device"
 msgstr "Главное устройство"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:236
-#, fuzzy
-#| msgid "Boot order settings could not be saved"
 msgid "Host device could not be attached"
-msgstr "Не удалось сохранить параметры порядка загрузки"
+msgstr "Не удалось подключить хост-устройство"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:260
 msgid "Host device will be removed from $0:"
-msgstr ""
+msgstr "Хост-устройство будет удалено из $0:"
 
 #: src/components/vm/vmDetailsPage.tsx:176
-#, fuzzy
-#| msgid "Host device"
 msgid "Host devices"
-msgstr "Главное устройство"
+msgstr "Хост-устройства"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:157
 msgid "Host name"
 msgstr "Имя узла"
 
 #: src/components/vm/nics/nicBody.tsx:457
-#, fuzzy
-#| msgid "Host"
 msgid "Host port"
-msgstr "Узел"
+msgstr "Порт хоста"
 
 #: src/components/vm/nics/nicBody.tsx:402
-#, fuzzy
-#| msgid "Host should not be empty"
 msgid "Host port can not be empty."
-msgstr "Имя узла не должно быть пустым"
+msgstr "Порт хоста не может быть пустым."
 
 #: src/components/vm/nics/nicBody.tsx:462
 msgid "Host port help"
-msgstr ""
+msgstr "Справка по порту хоста"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:160
 msgid "Host should not be empty"
@@ -1388,11 +1266,11 @@ msgstr "Сведения о гипервизоре"
 
 #: src/components/vm/disks/diskEdit.tsx:44
 msgid "ID"
-msgstr "Идентификатор"
+msgstr "ID"
 
 #: src/components/networks/networkOverviewTab.tsx:65
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: src/components/vm/nics/nicBody.tsx:440
 #: src/components/vm/nics/vmNicsCard.tsx:574
@@ -1401,16 +1279,12 @@ msgid "IP address"
 msgstr "IP-адрес"
 
 #: src/components/vm/nics/nicBody.tsx:444
-#, fuzzy
-#| msgid "IP address"
 msgid "IP address help"
-msgstr "IP-адрес"
+msgstr "Справка по IP-адресу"
 
 #: src/components/networks/networkOverviewTab.tsx:261
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "IP address must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "IP-адрес не должен быть пустым"
 
 #: src/components/networks/createNetworkDialog.tsx:248
 msgid "IP configuration"
@@ -1423,7 +1297,7 @@ msgstr "IPv4-адрес"
 
 #: src/components/networks/createNetworkDialog.tsx:110
 msgid "IPv4 address cannot be same as the network's broadcast address"
-msgstr ""
+msgstr "IPv4-адрес не может совпадать с широковещательным адресом сети"
 
 #: src/components/networks/createNetworkDialog.tsx:256
 msgid "IPv4 and IPv6"
@@ -1438,14 +1312,12 @@ msgid "IPv4 only"
 msgstr "Только IPv4"
 
 #: src/components/networks/createNetworkDialog.tsx:93
-#, fuzzy
-#| msgid "Prefix length should not be empty"
 msgid "IPv4 prefix length must be 24 or less"
-msgstr "Длина префикса не должна быть пустой"
+msgstr "Длина префикса IPv4 должна быть 24 или меньше"
 
 #: src/components/networks/createNetworkDialog.tsx:90
 msgid "IPv4 prefix length must be a multiple of 8"
-msgstr ""
+msgstr "Длина префикса IPv4 должна быть кратной 8"
 
 #: src/components/networks/networkOverviewTab.tsx:156
 #: src/components/networks/createNetworkDialog.tsx:378
@@ -1462,21 +1334,23 @@ msgstr "Только IPv6"
 
 #: src/components/common/machinesConnectionSelector.tsx:57
 msgid "Ideal for server VMs"
-msgstr ""
+msgstr "Идеально для серверных ВМ"
 
 #: src/components/common/machinesConnectionSelector.tsx:63
 msgid "Ideal networking support"
-msgstr ""
+msgstr "Идеальная сетевая поддержка"
 
 #: src/components/vm/overview/vsock.tsx:65
 msgid ""
 "Identifier in use by $0. VMs with an identical identifier cannot run at the "
 "same time."
 msgstr ""
+"Идентификатор используется $0. ВМ с одинаковым идентификатором не могут "
+"запускаться одновременно."
 
 #: src/components/vm/disks/diskAdd.tsx:189
 msgid "Identifier may be silently truncated to $0 characters "
-msgstr ""
+msgstr "Идентификатор может быть незаметно усечён до $0 символов "
 
 #: src/helpers.ts:217
 msgid "Idle"
@@ -1487,10 +1361,12 @@ msgid ""
 "If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
 "all IPs on the host."
 msgstr ""
+"Если IP хоста установлен в 0.0.0.0 или не установлен, порт будет привязан ко "
+"всем IP-адресам на хосте."
 
 #: src/app.tsx:147
 msgid "Ignore"
-msgstr ""
+msgstr "Игнорировать"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1766
 msgid "Import VM"
@@ -1502,17 +1378,15 @@ msgstr "Импортировать виртуальную машину"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1696
 msgid "Import and edit"
-msgstr ""
+msgstr "Импортировать и редактировать"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1728
-#, fuzzy
-#| msgid "Import a virtual machine"
 msgid "Import and run"
-msgstr "Импортировать виртуальную машину"
+msgstr "Импортировать и запустить"
 
 #: src/components/vm/disks/diskAdd.tsx:394
 msgid "Importing an image with a backing file is unsupported"
-msgstr ""
+msgstr "Импорт образа с файлом-основой не поддерживается"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:392
 msgid ""
@@ -1520,42 +1394,36 @@ msgid ""
 "communication."
 msgstr ""
 "В большинстве конфигураций macvtap не работает при взаимодействии узла и "
-"гостевой сети"
+"гостевой сети."
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:177
 msgid "Initiator"
 msgstr "Инициатор"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:183
-#, fuzzy
-#| msgid "Initiator IQN should not be empty"
 msgid "Initiator should not be empty"
-msgstr "IQN инициатора не должно быть пустым"
+msgstr "Инициатор не должен быть пустым"
 
 #: src/helpers.ts:278
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Inject a non-maskable interrupt"
 msgstr "Отправить немаскируемое прерывание"
 
 #: src/libvirtApi/nodeDevice.ts:38
 msgid "Input Device Controller"
-msgstr ""
+msgstr "Контроллер устройства ввода"
 
 #: src/components/vm/disks/diskAdd.tsx:746
 #: src/components/vm/disks/vmDiskColumns.tsx:224
-#, fuzzy
-#| msgid "Ctrl+Insert"
 msgid "Insert"
-msgstr "Ctrl+Insert"
+msgstr "Вставить"
 
 #: src/components/vm/disks/diskAdd.tsx:737
 msgid "Insert disc media"
-msgstr ""
+msgstr "Вставить диск"
 
 #: src/components/vm/overview/helpers.tsx:28
 msgid "Inside the VM"
-msgstr ""
+msgstr "Внутри ВМ"
 
 #: src/components/vm/vmActions.tsx:371
 msgid "Install"
@@ -1575,23 +1443,19 @@ msgstr "Тип установки"
 
 #: src/libvirtApi/nodeDevice.ts:43
 msgid "Intelligent Controller"
-msgstr ""
+msgstr "Интеллектуальный контроллер"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:123
-#, fuzzy
-#| msgid "Interface type"
 msgid "Interface"
-msgstr "Тип интерфейса"
+msgstr "Интерфейс"
 
 #: src/components/vm/nics/nicBody.tsx:262
 msgid "Interface type"
 msgstr "Тип интерфейса"
 
 #: src/components/vm/nics/nicBody.tsx:387
-#, fuzzy
-#| msgid "Invalid IPv4 address"
 msgid "Invalid IP address"
-msgstr "Недопустимый IPv4-адрес"
+msgstr "Недопустимый IP-адрес"
 
 #: src/components/networks/createNetworkDialog.tsx:100
 #: src/components/networks/createNetworkDialog.tsx:116
@@ -1626,20 +1490,20 @@ msgid ""
 "It can also be used to enable the inline graphical console in the browser, "
 "which does not support SPICE."
 msgstr ""
+"Его также можно использовать для включения встроенной графической консоли в "
+"браузере, которая не поддерживает SPICE."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:918
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr ""
+msgstr "Ключи находятся в ~/.ssh/ и имеют расширение \".pub\"."
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:83
 msgid "LVM volume group"
 msgstr "Группа томов LVM"
 
 #: src/components/vm/consoles/common.tsx:182
-#, fuzzy
-#| msgid "Launch remote viewer"
 msgid "Launch viewer"
-msgstr "Запустить средство удалённого просмотра"
+msgstr "Запустить средство просмотра"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:772
 msgid ""
@@ -1671,16 +1535,12 @@ msgid "Libvirt or hypervisor does not support UEFI"
 msgstr "Libvirt или гипервизор не поддерживают UEFI"
 
 #: src/components/vm/nics/vmNicsCard.tsx:625
-#, fuzzy
-#| msgid "No network devices"
 msgid "Loading available network devices"
-msgstr "Сетевые устройства отсутствуют"
+msgstr "Загрузка доступных сетевых устройств"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1649
-#, fuzzy
-#| msgid "Loading system modifications..."
 msgid "Loading operating system information..."
-msgstr "Загрузка изменений системы..."
+msgstr "Загрузка информации об операционной системе..."
 
 #: src/app.tsx:160
 msgid "Loading resources"
@@ -1689,17 +1549,16 @@ msgstr "Загрузка ресурсов"
 #: src/components/create-vm-dialog/createVmDialog.tsx:449
 msgid "Local install media (ISO image or distro install tree)"
 msgstr ""
+"Локальный установочный носитель (образ ISO или дерево установки дистрибутива)"
 
 #: src/components/vm/consoles/vnc.tsx:223
 msgid "Local scaling"
-msgstr ""
+msgstr "Локальное масштабирование"
 
 # ctx::sourcefile::Navigation Menu
 #: src/components/vm/hostdevs/hostDevAdd.tsx:151
-#, fuzzy
-#| msgid "Connection"
 msgid "Location"
-msgstr "Подключение"
+msgstr "Расположение"
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
@@ -1718,26 +1577,21 @@ msgstr "MAC-адрес"
 
 #: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:99
 msgid "MAC address already in use"
-msgstr ""
+msgstr "MAC-адрес уже используется"
 
 #: src/components/networks/networkOverviewTab.tsx:252
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "MAC address must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "MAC-адрес не должен быть пустым"
 
 #: src/components/vm/disks/diskEdit.tsx:81
 msgid "Machine must be shut off before changing bus type"
 msgstr "Машина должна быть выключена перед сменой типа шины"
 
 #: org.cockpit_project.machines.metainfo.xml:5
-#, fuzzy
 msgid "Machines"
-msgstr "Виртуальные машины"
+msgstr "Машины"
 
 #: org.cockpit_project.machines.metainfo.xml:6
-#, fuzzy
-#| msgid "Managing virtual machines"
 msgid "Manage your virtual machines"
 msgstr "Управление виртуальными машинами"
 
@@ -1754,11 +1608,8 @@ msgid "Mask or prefix length should not be empty"
 msgstr "Маска или длина префикса не должна быть пустой"
 
 #: src/libvirtApi/nodeDevice.ts:30
-#, fuzzy
-#| msgid "$0 Storage pool"
-#| msgid_plural "$0 Storage pools"
 msgid "Mass Storage Controller"
-msgstr "$0 буфер устройств хранения"
+msgstr "Контроллер массового хранения"
 
 #: src/components/vm/overview/memoryModal.tsx:166
 msgid "Maximum allocation"
@@ -1769,11 +1620,9 @@ msgid "Maximum memory could not be saved"
 msgstr "Не удалось сохранить максимальное значение для памяти"
 
 #: src/components/vm/overview/cpuModal.tsx:241
-#, fuzzy
 msgid "Maximum number of virtual CPUs allocated for the guest OS"
 msgstr ""
-"Максимальное количество виртуальных процессоров, выделенных для гостевой ОС, "
-"которое должно быть в интервале между 1 и $0"
+"Максимальное количество виртуальных процессоров, выделенных для гостевой ОС"
 
 #: src/components/vm/overview/cpuModal.tsx:240
 msgid ""
@@ -1788,20 +1637,16 @@ msgid "Maximum transmission unit"
 msgstr "Максимальный передаваемый блок данных"
 
 #: src/components/vm/disks/mediaEject.tsx:101
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Media could not be ejected from $0"
-msgstr "Не удалось удалить $0"
+msgstr "Не удалось извлечь носитель из $0"
 
 #: src/components/vm/disks/diskAdd.tsx:639
-#, fuzzy
-#| msgid "VM $0 failed to get installed"
 msgid "Media failed to be inserted"
-msgstr "Не удалось установить виртуальную машину $0"
+msgstr "Не удалось вставить носитель"
 
 #: src/components/vm/disks/mediaEject.tsx:103
 msgid "Media will be ejected from $0:"
-msgstr ""
+msgstr "Носитель будет извлечён из $0:"
 
 #: src/components/vm/vmUsageCard.tsx:44
 #: src/components/vm/overview/vmOverviewCard.tsx:173
@@ -1812,10 +1657,8 @@ msgid "Memory"
 msgstr "Память"
 
 #: src/libvirtApi/nodeDevice.ts:34
-#, fuzzy
-#| msgid "Memory"
 msgid "Memory Controller"
-msgstr "Память"
+msgstr "Контроллер памяти"
 
 #: src/components/vm/overview/memoryModal.tsx:128
 #: src/components/vm/overview/memoryModal.tsx:144
@@ -1827,20 +1670,16 @@ msgid "Memory must not be 0"
 msgstr "Значение для памяти должно отличаться от нуля"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:251
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Memory save location can not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Путь сохранения памяти не может быть пустым"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:139
 msgid "Memory snapshot will use about $0."
-msgstr ""
+msgstr "Снимок памяти займёт около $0."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:149
-#, fuzzy
-#| msgid "Memory must not be 0"
 msgid "Memory state path"
-msgstr "Значение для памяти должно отличаться от нуля"
+msgstr "Путь к состоянию памяти"
 
 #: src/components/vm/overview/memorySelectRow.tsx:93
 #: src/components/common/dialog.tsx:104
@@ -1852,21 +1691,19 @@ msgstr "МиБ"
 #: src/components/vm/vmMigrateDialog.tsx:224
 #: src/components/vm/vmActions.tsx:406
 msgid "Migrate"
-msgstr ""
+msgstr "Мигрировать"
 
 #: src/components/vm/vmMigrateDialog.tsx:234
 msgid "Migrate VM to another host"
-msgstr ""
+msgstr "Мигрировать ВМ на другой хост"
 
 #: src/components/vm/vmMigrateDialog.tsx:190
-#, fuzzy
-#| msgid "Creation of VM $0 failed"
 msgid "Migration failed"
-msgstr "Ошибка создания виртуальной машины $0"
+msgstr "Миграция не удалась"
 
 #: src/libvirtApi/nodeDevice.ts:61
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Разное"
 
 #: src/components/vm/nics/nicBody.tsx:276
 #: src/components/vm/nics/vmNicsCard.tsx:168
@@ -1886,27 +1723,25 @@ msgstr "Тип модели"
 
 #: src/components/vm/nics/nicBody.tsx:119
 msgid "More info"
-msgstr ""
+msgstr "Подробнее"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:59
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
 msgid "Mount tag"
-msgstr ""
+msgstr "Метка монтирования"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:145
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Mount tag must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Метка монтирования не должна быть пустой"
 
 #: src/libvirtApi/nodeDevice.ts:33
 msgid "Multimedia Controller"
-msgstr ""
+msgstr "Мультимедийный контроллер"
 
 #: src/components/networks/createNetworkDialog.tsx:105
 msgid "Must be an address instead of the network identifier, such as $0"
-msgstr ""
+msgstr "Должен быть адрес, а не идентификатор сети, например $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.tsx:80
 msgid "NAT to $0"
@@ -1932,21 +1767,16 @@ msgid "Name"
 msgstr "Имя"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:246
-#, fuzzy
-#| msgid "VM $0 already exists"
 msgid "Name already exists"
-msgstr "ВМ $0 уже существует"
+msgstr "Имя уже существует"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:248
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Name can not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Имя не может быть пустым"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:64
-#, fuzzy
 msgid "Name contains invalid characters"
-msgstr "Имя не должно содержать знак «$0»."
+msgstr "Имя содержит недопустимые символы"
 
 #: src/components/vm/vmCloneDialog.tsx:51
 #: src/components/create-vm-dialog/createVmDialog.tsx:231
@@ -1967,10 +1797,8 @@ msgid "Netmask"
 msgstr "Маска сети"
 
 #: src/components/networks/network.tsx:117
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Network $0 could not be deleted"
-msgstr "Не удалось удалить $0"
+msgstr "Сеть $0 не удалось удалить"
 
 #: src/components/networks/network.tsx:87
 msgid "Network $0 failed to get activated"
@@ -1981,22 +1809,16 @@ msgid "Network $0 failed to get deactivated"
 msgstr "Не удалось отключить сеть $0"
 
 #: src/components/networks/network.tsx:118
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Network $0 will be permanently deleted."
-msgstr "Не удалось удалить $0"
+msgstr "Сеть $0 будет безвозвратно удалена."
 
 #: src/libvirtApi/nodeDevice.ts:31
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Network Controller"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Сетевой контроллер"
 
 #: src/components/vm/nics/nicAdd.tsx:123
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Network MAC can not be empty."
-msgstr "Имя не должно быть пустым"
+msgstr "Сетевой MAC-адрес не может быть пустым."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:454
 msgid "Network boot (PXE)"
@@ -2007,38 +1829,28 @@ msgid "Network file system"
 msgstr "Сетевая файловая система"
 
 #: src/components/common/needsShutdown.tsx:195
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Network interface"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Сетевой интерфейс"
 
 #: src/components/vm/nics/vmNicsCard.tsx:650
-#, fuzzy
-#| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 could not be removed"
-msgstr "Не удалось сохранить параметры сетевого интерфейса"
+msgstr "Сетевой интерфейс $0 не удалось удалить"
 
 #: src/components/vm/nics/vmNicsCard.tsx:651
-#, fuzzy
-#| msgid "Network interface settings could not be saved"
 msgid "Network interface $0 will be removed from $1"
-msgstr "Не удалось сохранить параметры сетевого интерфейса"
+msgstr "Сетевой интерфейс $0 будет удалён из $1"
 
 #: src/components/vm/nics/nicAdd.tsx:221 src/components/vm/nics/nicEdit.tsx:163
 msgid "Network interface settings could not be saved"
 msgstr "Не удалось сохранить параметры сетевого интерфейса"
 
 #: src/components/vm/vmDetailsPage.tsx:168
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Network interfaces"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Сетевые интерфейсы"
 
 #: src/components/vm/nics/nicBody.tsx:184
-#, fuzzy
-#| msgid "Network interface settings could not be saved"
 msgid "Network interfaces of type \"$0\" can not be edited here."
-msgstr "Не удалось сохранить параметры сетевого интерфейса"
+msgstr "Сетевые интерфейсы типа «$0» не могут быть отредактированы здесь."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:400
 msgid "Network selection does not support PXE."
@@ -2051,16 +1863,12 @@ msgid "Networks"
 msgstr "Сети"
 
 #: src/components/vm/vmRenameDialog.tsx:78
-#, fuzzy
-#| msgid "New volume name"
 msgid "New name"
-msgstr "Новое имя тома"
+msgstr "Новое имя"
 
 #: src/components/vm/vmRenameDialog.tsx:84
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "New name must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Новое имя не должно быть пустым"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:116
 msgid "New volume name"
@@ -2068,7 +1876,7 @@ msgstr "Новое имя тома"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:957
 msgid "No SSH keys specified"
-msgstr ""
+msgstr "SSH-ключи не указаны"
 
 #: src/components/vms/hostvmslist.tsx:319
 msgid "No VM is running or defined on this host"
@@ -2079,47 +1887,36 @@ msgid "No boot device found"
 msgstr "Загрузочное устройство не найдено"
 
 #: src/components/vm/nics/nicBody.tsx:101
-#, fuzzy
-#| msgid "host device"
 msgid "No bridge devices"
-msgstr "главное устройство"
+msgstr "Нет мостовых устройств"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
-#, fuzzy
 msgid "No description"
-msgstr "Описание"
+msgstr "Нет описания"
 
 #: src/components/vm/disks/vmDisksCard.tsx:281
-#, fuzzy
-#| msgid "disk"
 msgid "No disks"
-msgstr "диск"
+msgstr "Нет дисков"
 
 #: src/components/vm/disks/diskEdit.tsx:182
 msgid "No free targets for bus type $0."
-msgstr ""
+msgstr "Нет свободных целей для типа шины $0."
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:241
-#, fuzzy
-#| msgid "No boot device found"
 msgid "No host device selected"
-msgstr "Загрузочное устройство не найдено"
+msgstr "Хост-устройство не выбрано"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:319
-#, fuzzy
-#| msgid "host device"
 msgid "No host devices"
-msgstr "главное устройство"
+msgstr "Нет хост-устройств"
 
 #: src/components/vm/nics/nicBody.tsx:123
 msgid "No network devices"
 msgstr "Сетевые устройства отсутствуют"
 
 #: src/components/vm/nics/vmNicsCard.tsx:829
-#, fuzzy
-#| msgid "Add network interface"
 msgid "No network interfaces"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Нет сетевых интерфейсов"
 
 #: src/components/networks/networkList.tsx:66
 msgid "No network is defined on this host"
@@ -2130,39 +1927,32 @@ msgid "No networks available"
 msgstr "Нет доступных сетей"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:174
-#, fuzzy
 msgid "No parent"
-msgstr "Родительский элемент"
+msgstr "Нет родителя"
 
 #: src/components/vm/disks/diskAdd.tsx:210
-#, fuzzy
-#| msgid "Pool type doesn't support volume creation"
 msgid "No pools that allow volume creation"
-msgstr "Тип пула не поддерживает создание томов"
+msgstr "Нет пулов, поддерживающих создание томов"
 
 #: src/components/vm/nics/nicBody.tsx:595
 msgid "No ports forwarded"
-msgstr ""
+msgstr "Нет перенаправленных портов"
 
 #: src/components/vm/consoles/vnc.tsx:222
 msgid "No scaling or resizing"
-msgstr ""
+msgstr "Без масштабирования или изменения размера"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:87
-#, fuzzy
-#| msgid "Add shared directory"
 msgid "No shared directories"
-msgstr "Добавить общий каталог"
+msgstr "Нет общих каталогов"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
-#, fuzzy
 msgid "No snapshots"
-msgstr "Создание моментального снимка"
+msgstr "Нет снимков"
 
 #: src/helpers.ts:225
-#, fuzzy
 msgid "No state"
-msgstr "Нет хранилища"
+msgstr "Нет состояния"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1130
 msgid "No storage"
@@ -2177,24 +1967,20 @@ msgid "No storage volumes defined for this storage pool"
 msgstr "Для этого пула носителей не определены тома хранения"
 
 #: src/components/vm/disks/diskAdd.tsx:289
-#, fuzzy
-#| msgid "Create storage volume"
 msgid "No usable storage volumes"
-msgstr "Создание тома хранилища"
+msgstr "Нет доступных томов хранилища"
 
 #: src/components/vm/nics/nicBody.tsx:92
 msgid "No virtual networks"
 msgstr "Нет виртуальных сетей"
 
 #: src/components/storagePools/storagePoolDelete.tsx:184
-#, fuzzy
-#| msgid "No storage volumes defined for this storage pool"
 msgid "No volumes exist in this storage pool."
-msgstr "Для этого пула носителей не определены тома хранения"
+msgstr "В этом пуле хранилища нет томов."
 
 #: src/libvirtApi/nodeDevice.ts:48
 msgid "Non-Essential Instrumentation"
-msgstr ""
+msgstr "Необязательные инструменты"
 
 #: src/components/networks/network.tsx:125
 msgid ""
@@ -2222,23 +2008,19 @@ msgstr "Нет (изолированная сеть)"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:711
 msgid "Offline token"
-msgstr ""
+msgstr "Автономный токен"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:269
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Offline token must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Автономный токен не должен быть пустым"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:646
 msgid "Old token expired"
-msgstr ""
+msgstr "Старый токен истёк"
 
 #: src/components/vm/overview/helpers.tsx:22
-#, fuzzy
-#| msgid "Run when host boots"
 msgid "On the host"
-msgstr "Выполнять при загрузке узла"
+msgstr "На хосте"
 
 #: src/components/storagePools/storageVolumeDelete.tsx:68
 msgid ""
@@ -2269,7 +2051,7 @@ msgstr "Операция выполняется"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:108
 msgid "Other VMs using SPICE"
-msgstr ""
+msgstr "Другие ВМ, использующие SPICE"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
@@ -2280,18 +2062,15 @@ msgstr "Обзор"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:53
 msgid "PCI"
-msgstr ""
+msgstr "PCI"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:172
-#, fuzzy
 msgid "Parent snapshot"
-msgstr "Создание моментального снимка"
+msgstr "Родительский снимок"
 
 #: src/components/vm/consoles/vnc.tsx:159
-#, fuzzy
-#| msgid "Root password"
 msgid "Password"
-msgstr "Пароль root"
+msgstr "Пароль"
 
 #: src/components/vm/consoles/vnc.tsx:161
 msgid ""
@@ -2299,10 +2078,13 @@ msgid ""
 "encryption and are generally cryptographically weak. They can not be used to "
 "secure connections in untrusted networks."
 msgstr ""
+"Пароль должен содержать не более 8 символов. Пароли VNC не обеспечивают "
+"шифрование и, как правило, криптографически слабы. Их нельзя использовать "
+"для защиты соединений в ненадёжных сетях."
 
 #: src/components/vm/consoles/vnc.tsx:113
 msgid "Password must be at most 8 characters."
-msgstr ""
+msgstr "Пароль должен содержать не более 8 символов."
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:115
 #: src/components/vm/hostdevs/hostDevCard.tsx:119
@@ -2312,10 +2094,8 @@ msgid "Path"
 msgstr "Путь"
 
 #: src/components/vm/disks/diskAdd.tsx:390
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Path cannot be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Путь не может быть пустым"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:134
 msgid "Path on host's filesystem"
@@ -2326,37 +2106,32 @@ msgid "Path to ISO file on host's file system"
 msgstr "Путь к файлу ISO в файловой системе узла"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:373
-#, fuzzy
 msgid "Path to cloud image file on host's file system"
-msgstr "Путь к файлу ISO в файловой системе узла"
+msgstr "Путь к файлу облачного образа в файловой системе хоста"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:155
-#, fuzzy
-#| msgid "Path to file"
 msgid "Path to directory"
-msgstr "Путь к файлу"
+msgstr "Путь к каталогу"
 
 #: src/components/vm/disks/diskAdd.tsx:415
-#, fuzzy
 msgid "Path to file on host's file system"
-msgstr "Путь к файлу ISO в файловой системе узла"
+msgstr "Путь к файлу в файловой системе хоста"
 
 #: src/helpers.ts:275 src/components/vm/vmActions.tsx:191
 msgid "Pause"
 msgstr "Приостановить"
 
 #: src/helpers.ts:218
-#, fuzzy
 msgid "Paused"
-msgstr "Приостановить"
+msgstr "Приостановлена"
 
 #: src/components/vm/vmMigrateDialog.tsx:79
 msgid "Permanent (default)"
-msgstr ""
+msgstr "Постоянная (по умолчанию)"
 
 #: src/components/common/machinesConnectionSelector.tsx:66
 msgid "Permissions denied for disk images in home directories"
-msgstr ""
+msgstr "Отказано в доступе к образам дисков в домашних каталогах"
 
 #: src/components/vm/nics/nicAdd.tsx:137
 #: src/components/vm/disks/diskAdd.tsx:593
@@ -2378,7 +2153,7 @@ msgstr "Физическое дисковое устройство на узле
 
 #: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:100
 msgid "Please choose a different MAC address"
-msgstr ""
+msgstr "Пожалуйста, выберите другой MAC-адрес"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:56
 msgid "Please enter new volume name"
@@ -2386,7 +2161,7 @@ msgstr "Введите новое имя тома"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:86
 msgid "Please see $0 how to reconfigure your VM manually."
-msgstr ""
+msgstr "Пожалуйста, обратитесь к $0, чтобы перенастроить ВМ вручную."
 
 #: src/components/vm/overview/bootOrder.tsx:108
 #: src/components/vm/disks/mediaEject.tsx:85
@@ -2399,7 +2174,7 @@ msgstr "Пул"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:136
 msgid "Pool needs to be active to create volume"
-msgstr ""
+msgstr "Для создания тома пул должен быть активен"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:135
 msgid "Pool type doesn't support volume creation"
@@ -2419,38 +2194,36 @@ msgstr "Порт"
 
 #: src/components/vm/nics/vmNicsCard.tsx:281
 msgid "Port forwards"
-msgstr ""
+msgstr "Перенаправления портов"
 
 #: src/components/vm/nics/nicBody.tsx:396
-#, fuzzy
 msgid "Port must be 1 to 65535."
-msgstr "Количество часов должно лежать в интервале от 0 до 23"
+msgstr "Порт должен быть от 1 до 65535."
 
 #: src/components/vm/consoles/vnc.tsx:106
 msgid "Port must be 5900 or larger."
-msgstr ""
+msgstr "Порт должен быть 5900 или больше."
 
 #: src/components/vm/consoles/vnc.tsx:156
 msgid ""
 "Port must be a number that is at least 5900. Leave empty to automatically "
 "assign a free port when the machine starts."
 msgstr ""
+"Порт должен быть числом не менее 5900. Оставьте пустым для автоматического "
+"назначения свободного порта при запуске машины."
 
 #: src/components/vm/consoles/vnc.tsx:104
 #: src/components/vm/nics/nicBody.tsx:394
-#, fuzzy
 msgid "Port must be a number."
-msgstr "Количество часов должно лежать в интервале от 0 до 23"
+msgstr "Порт должен быть числом."
 
 #: src/helpers.ts:274
 msgid "Power off"
-msgstr ""
+msgstr "Выключить"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:84
-#, fuzzy
-#| msgid "redirected device"
 msgid "Pre-formatted block device"
-msgstr "перенаправленное устройство"
+msgstr "Предварительно отформатированное блочное устройство"
 
 #: src/components/vm/overview/cpuModal.tsx:277
 msgid "Preferred number of sockets to expose to the guest."
@@ -2470,15 +2243,15 @@ msgstr "Длина префикса не должна быть пустой"
 
 #: src/helpers.ts:258
 msgid "Private"
-msgstr "Частная"
+msgstr "Частный"
 
 #: src/libvirtApi/nodeDevice.ts:47
 msgid "Processing Accelerator"
-msgstr ""
+msgstr "Ускоритель обработки"
 
 #: src/libvirtApi/nodeDevice.ts:40
 msgid "Processor"
-msgstr ""
+msgstr "Процессор"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:151
 #: src/components/vm/hostdevs/hostDevCard.tsx:240
@@ -2502,26 +2275,24 @@ msgstr "Протокол"
 
 #: src/components/vm/nics/nicBody.tsx:133
 msgid "Provides a virtual LAN with NAT to the outside world."
-msgstr ""
+msgstr "Предоставляет виртуальную LAN с NAT во внешний мир."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:915
 msgid "Public SSH key"
-msgstr ""
+msgstr "Открытый SSH-ключ"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:911
 msgid "Public key"
-msgstr ""
+msgstr "Открытый ключ"
 
 #: src/components/networks/networkOverviewTab.tsx:298
-#, fuzzy
-#| msgid "Change"
 msgid "Range"
-msgstr "Изменить"
+msgstr "Диапазон"
 
 #: src/components/vm/disks/diskEdit.tsx:110
 #: src/components/vm/disks/vmDisksCard.tsx:249
 msgid "Read-only"
-msgstr "Только для чтения"
+msgstr "Только чтение"
 
 #: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
 #: src/components/vm/vmActions.tsx:320
@@ -2529,50 +2300,42 @@ msgid "Reboot"
 msgstr "Перезагрузка"
 
 #: src/components/vm/vmActions.tsx:308
-#, fuzzy
-#| msgid "Reboot"
 msgid "Reboot $0?"
-msgstr "Перезагрузка"
+msgstr "Перезагрузить $0?"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:536
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Recommended operating systems"
-msgstr "Выберите операционную систему"
+msgstr "Рекомендуемые операционные системы"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.tsx:76
 msgid "Released $0"
-msgstr ""
+msgstr "Выпущена $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:421
 msgid "Remote URL"
 msgstr "Удалённый URL-адрес"
 
 #: src/components/vm/consoles/common.tsx:75
-#, fuzzy
-#| msgid ""
-#| "$0 is available for most operating systems. To install it, search for it "
-#| "in GNOME Software or run the following:"
 msgid ""
 "Remote Viewer is available for most operating systems. To install it, search "
 "for \"Remote Viewer\" in GNOME Software, KDE Discover, or run the following:"
 msgstr ""
-"Средство $0 доступно для большинства операционных систем. Чтобы установить "
-"его, выполните поиск среди программного обеспечения GNOME или запустите "
-"следующую команду:"
+"Remote Viewer доступен для большинства операционных систем. Чтобы установить "
+"его, найдите «Remote Viewer» в GNOME Software, KDE Discover или выполните "
+"следующее:"
 
 #: src/components/vm/consoles/vnc.tsx:224
 msgid "Remote resizing"
-msgstr ""
+msgstr "Удалённое изменение размера"
 
 #: src/components/vm/consoles/common.tsx:143
-#, fuzzy
 msgid "Remote viewer"
-msgstr "Сведения о гипервизоре"
+msgstr "Средство удалённого просмотра"
 
 #: src/components/vm/consoles/common.tsx:107
 msgid "Remote viewer applications can connect to the following address:"
 msgstr ""
+"Приложения удалённого просмотра могут подключаться по следующему адресу:"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:256
 #: src/components/vm/hostdevs/hostDevCard.tsx:262
@@ -2590,105 +2353,92 @@ msgstr "Удалить"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:149
 msgid "Remove SPICE audio and host devices"
-msgstr ""
+msgstr "Удалить аудиоустройства SPICE и хост-устройства"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:182
-#, fuzzy
-#| msgid "Could not revert to snapshot"
 msgid "Remove disk and delete disk image"
-msgstr "Не удалось вернуться к снимку"
+msgstr "Удалить диск и удалить образ диска"
 
 #: src/components/vm/disks/vmDiskColumns.tsx:168
-#, fuzzy
-#| msgid "Removing $0"
 msgid "Remove disk from VM?"
-msgstr "Удаление $0"
+msgstr "Удалить диск из ВМ?"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
-#, fuzzy
-#| msgid "Network file system"
 msgid "Remove filesystem?"
-msgstr "Сетевая файловая система"
+msgstr "Удалить файловую систему?"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:258
-#, fuzzy
-#| msgid "host device"
 msgid "Remove host device from VM?"
-msgstr "главное устройство"
+msgstr "Удалить хост-устройство из ВМ?"
 
 #: src/components/vm/nics/nicBody.tsx:512
 #: src/components/vm/nics/nicBody.tsx:543
 #: src/components/create-vm-dialog/createVmDialog.tsx:927
-#, fuzzy
-#| msgid "Network file system"
 msgid "Remove item"
-msgstr "Сетевая файловая система"
+msgstr "Удалить элемент"
 
 #: src/components/vm/nics/vmNicsCard.tsx:649
-#, fuzzy
-#| msgid "Add network interface"
 msgid "Remove network interface?"
-msgstr "Добавить сетевой интерфейс"
+msgstr "Удалить сетевой интерфейс?"
 
 #: src/components/networks/networkOverviewTab.tsx:61
 msgid "Remove static host from DHCP"
-msgstr ""
+msgstr "Удалить статический хост из DHCP"
 
 #: src/components/vm/vmActions.tsx:430 src/components/vm/vmRenameDialog.tsx:93
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 #: src/components/vm/vmRenameDialog.tsx:65
 msgid "Rename VM $0"
-msgstr ""
+msgstr "Переименовать ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:168
 msgid "Replace"
-msgstr ""
+msgstr "Заменить"
 
 #: src/components/vm/usesSpice.tsx:42 src/components/vm/vmActions.tsx:417
 #: src/components/vm/vmReplaceSpiceDialog.tsx:133
 msgid "Replace SPICE devices"
-msgstr ""
+msgstr "Заменить устройства SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:133
 msgid "Replace SPICE devices in VM $0"
-msgstr ""
+msgstr "Заменить устройства SPICE в ВМ $0"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:140
 msgid "Replace SPICE on selected VMs."
-msgstr ""
+msgstr "Заменить SPICE на выбранных ВМ."
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:141
-#, fuzzy
-#| msgid "Create new virtual machine"
 msgid "Replace SPICE on the virtual machine."
-msgstr "Создание новой виртуальной машины"
+msgstr "Заменить SPICE на виртуальной машине."
 
 #: src/components/vm/consoles/spice.tsx:82
 msgid "Replace with VNC"
-msgstr ""
+msgstr "Заменить на VNC"
 
 #: src/helpers.ts:272
 msgid "Reset"
-msgstr ""
+msgstr "Сбросить"
 
 #: src/components/vm/consoles/vnc.tsx:643
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its graphical console"
-msgstr "Запустите виртуальную машину, чтобы получить доступ к её консоли."
+msgstr ""
+"Перезапустите эту виртуальную машину, чтобы получить доступ к её графической "
+"консоли"
 
 #: src/components/vm/consoles/serial.tsx:183
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Restart this virtual machine to access its serial console"
-msgstr "Запустите виртуальную машину, чтобы получить доступ к её консоли."
+msgstr ""
+"Перезапустите эту виртуальную машину, чтобы получить доступ к её "
+"последовательной консоли"
 
 #: src/components/common/machinesConnectionSelector.tsx:80
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
+"Ограничения в сети (эмуляция на основе SLIRP) и назначении устройств PCI"
 
 #: src/components/vm/vmActions.tsx:202
 msgid "Resume"
@@ -2696,18 +2446,16 @@ msgstr "Возобновить"
 
 #: src/components/vm/consoles/vnc.tsx:539
 msgid "Retry"
-msgstr ""
+msgstr "Повторить"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
-#, fuzzy
 msgid "Revert"
-msgstr "Никогда"
+msgstr "Вернуть"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:100
-#, fuzzy
 msgid "Revert to snapshot $0"
-msgstr "Создание моментального снимка"
+msgstr "Вернуться к снимку $0"
 
 #: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:109
 msgid ""
@@ -2715,6 +2463,9 @@ msgid ""
 "and the current state will be lost, along with any data not captured in a "
 "snapshot"
 msgstr ""
+"Возврат к этому снимку вернёт ВМ к состоянию на момент создания снимка, при "
+"этом текущее состояние будет потеряно вместе с любыми данными, не "
+"сохранёнными в снимке"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:802
 msgid "Root password"
@@ -2730,7 +2481,7 @@ msgstr "Сеть с маршрутизацией"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:150
 msgid "Row select"
-msgstr ""
+msgstr "Выбор строки"
 
 #: src/components/vm/vmActions.tsx:355
 msgid "Run"
@@ -2746,31 +2497,29 @@ msgid "Running"
 msgstr "Работает"
 
 #: src/components/common/needsShutdown.tsx:214
-#, fuzzy
 msgid "SPICE"
-msgstr "Порт SPICE:"
+msgstr "SPICE"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:142
 #: src/components/vm/vmReplaceSpiceDialog.tsx:144
-#, fuzzy
 msgid "SPICE conversion"
-msgstr "Порт SPICE:"
+msgstr "Преобразование SPICE"
 
 #: src/components/vm/usesSpice.tsx:36
 msgid ""
 "SPICE is not supported on this host and will cause this virtual machine to "
 "not boot."
 msgstr ""
+"SPICE не поддерживается на этом хосте, и это не позволит загрузить эту "
+"виртуальную машину."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:958
-#, fuzzy
-#| msgid "Send key"
 msgid "SSH keys"
-msgstr "Отправить клавишу"
+msgstr "SSH-ключи"
 
 #: src/libvirtApi/nodeDevice.ts:44
 msgid "Satellite Communication Controller"
-msgstr ""
+msgstr "Контроллер спутниковой связи"
 
 #: src/components/vm/consoles/vnc.tsx:167
 #: src/components/vm/nics/nicEdit.tsx:230
@@ -2786,11 +2535,11 @@ msgstr "Сохранить"
 
 #: src/components/vm/consoles/vnc.tsx:464
 msgid "Security failure"
-msgstr ""
+msgstr "Ошибка безопасности"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:124
 msgid "Select all"
-msgstr ""
+msgstr "Выбрать всё"
 
 #: src/components/vm/consoles/vnc.tsx:280
 msgid "Send key"
@@ -2801,30 +2550,22 @@ msgid "Send non-maskable interrupt"
 msgstr "Отправить немаскируемое прерывание"
 
 #: src/components/vm/vmActions.tsx:285
-#, fuzzy
-#| msgid "Send non-maskable interrupt"
 msgid "Send non-maskable interrupt to $0?"
-msgstr "Отправить немаскируемое прерывание"
+msgstr "Отправить немаскируемое прерывание в $0?"
 
 #: src/components/vm/consoles/consoles.tsx:275
 #: src/components/vm/consoles/consoles.tsx:292
 #: src/components/vm/disks/vmDiskColumns.tsx:133
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial"
-msgstr "Последовательная консоль"
+msgstr "Последовательный"
 
 #: src/components/vm/consoles/consoles.tsx:275
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial ($0)"
-msgstr "Последовательная консоль"
+msgstr "Последовательный ($0)"
 
 #: src/libvirtApi/nodeDevice.ts:41
-#, fuzzy
-#| msgid "Serial console"
 msgid "Serial Bus Controller"
-msgstr "Последовательная консоль"
+msgstr "Контроллер последовательной шины"
 
 #: src/components/common/needsShutdown.tsx:222
 msgid "Serial console"
@@ -2832,7 +2573,7 @@ msgstr "Последовательная консоль"
 
 #: src/components/vm/consoles/serial.tsx:154
 msgid "Serial console support not enabled"
-msgstr ""
+msgstr "Поддержка последовательной консоли не включена"
 
 #: src/components/networks/createNetworkDialog.tsx:300
 msgid "Set DHCP range"
@@ -2852,26 +2593,24 @@ msgstr ""
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
 msgid "Share"
-msgstr ""
+msgstr "Общий ресурс"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
 msgid "Share a host directory with the guest"
-msgstr ""
+msgstr "Предоставить общий каталог хоста гостю"
 
 #: src/components/vm/vmDetailsPage.tsx:198
 msgid "Shared directories"
-msgstr ""
+msgstr "Общие каталоги"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:178
 #: src/components/vm/vmDetailsPage.tsx:200
 msgid "Shared host directories need to be manually mounted inside the VM"
-msgstr ""
+msgstr "Общие каталоги хоста необходимо монтировать вручную внутри ВМ"
 
 #: src/components/vm/vmMigrateDialog.tsx:115
-#, fuzzy
-#| msgid "No storage"
 msgid "Shared storage"
-msgstr "Нет хранилища"
+msgstr "Общее хранилище"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
 #: src/components/vm/disks/diskAdd.tsx:164
@@ -2879,16 +2618,12 @@ msgid "Show additional options"
 msgstr "Показать дополнительные параметры"
 
 #: src/components/vm/overview/watchdog.tsx:53
-#, fuzzy
-#| msgid "show less"
 msgid "Show less"
-msgstr "показать меньше"
+msgstr "Показать меньше"
 
 #: src/components/vm/overview/watchdog.tsx:53
-#, fuzzy
-#| msgid "show more"
 msgid "Show more"
-msgstr "показать больше"
+msgstr "Показать больше"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
@@ -2900,15 +2635,12 @@ msgstr "Завершение работы"
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shut down $0?"
-msgstr "Завершение работы"
+msgstr "Завершить работу $0?"
 
 #: src/helpers.ts:220
-#, fuzzy
 msgid "Shut off"
-msgstr "отключена"
+msgstr "Выключена"
 
 #: src/components/vm/overview/firmware.tsx:157
 msgid "Shut off the VM in order to edit firmware configuration"
@@ -2919,28 +2651,25 @@ msgstr "Выключите ВМ для редактирования конфиг
 #: src/components/vm/vmActions.tsx:521
 #: src/components/common/needsShutdown.tsx:278
 msgid "Shutdown and restart"
-msgstr ""
+msgstr "Завершить работу и перезапустить"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: src/components/vm/vmActions.tsx:514
-#, fuzzy
-#| msgid "Shut down"
 msgid "Shutdown and restart $0?"
-msgstr "Завершение работы"
+msgstr "Завершить работу и перезапустить $0?"
 
 #: src/helpers.ts:219 src/components/vm/snapshots/vmSnapshotsCard.tsx:147
-#, fuzzy
 msgid "Shutting down"
-msgstr "Выключить"
+msgstr "Завершение работы"
 
 #: src/libvirtApi/nodeDevice.ts:46
 msgid "Signal Processing Controller"
-msgstr ""
+msgstr "Контроллер обработки сигналов"
 
 #: src/libvirtApi/nodeDevice.ts:36
 msgid "Simple Communication Controller"
-msgstr ""
+msgstr "Простой контроллер связи"
 
 #: src/components/vm/disks/vmDisksCard.tsx:160
 #: src/components/storagePools/storagePoolVolumesTab.tsx:77
@@ -2950,9 +2679,8 @@ msgid "Size"
 msgstr "Размер"
 
 #: src/components/storagePools/storageVolumeCreateBody.tsx:62
-#, fuzzy
 msgid "Size must be a number"
-msgstr "Количество часов должно лежать в интервале от 0 до 23"
+msgstr "Размер должен быть числом"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:112
 #: src/components/vm/hostdevs/hostDevCard.tsx:93
@@ -2960,26 +2688,22 @@ msgstr "Количество часов должно лежать в интер�
 #: src/components/vm/hostdevs/hostDevCard.tsx:241
 #: src/components/vm/overview/bootOrder.tsx:158
 msgid "Slot"
-msgstr ""
+msgstr "Слот"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:205
-#, fuzzy
-#| msgid "The $0 could not be deleted"
 msgid "Snapshot $0 could not be deleted"
-msgstr "Не удалось удалить $0"
+msgstr "Снимок $0 не удалось удалить"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:206
-#, fuzzy
-#| msgid "After deleting the snapshot, all its captured content will be lost."
 msgid ""
 "Snapshot $0 will be deleted from $1. All of its captured content will be "
 "lost."
-msgstr "После удаления снимка все захваченное содержимое будет потеряно."
+msgstr ""
+"Снимок $0 будет удалён из $1. Всё захваченное содержимое будет потеряно."
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:291
-#, fuzzy
 msgid "Snapshot failed to be created"
-msgstr "Не удалось создать диск"
+msgstr "Не удалось создать снимок"
 
 #: src/components/vm/vmDetailsPage.tsx:185
 msgid "Snapshots"
@@ -2987,7 +2711,7 @@ msgstr "Моментальные снимки"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:257
 msgid "Snapshots allow you to revert to an earlier state"
-msgstr ""
+msgstr "Снимки позволяют вернуться к более раннему состоянию"
 
 # translation auto-copied from project Satellite6 Katello, version Sam-1.3.0,
 # document katello, author ypoyarko
@@ -3000,6 +2724,8 @@ msgid ""
 "Some configuration changes only take effect after a complete shutdown and "
 "restart:"
 msgstr ""
+"Некоторые изменения конфигурации вступают в силу только после полного "
+"завершения работы и перезапуска:"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:217
 #: src/components/vm/nics/nicBody.tsx:269
@@ -3015,10 +2741,8 @@ msgid "Source format"
 msgstr "Формат источника"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:147
-#, fuzzy
-#| msgid "Name must not be empty"
 msgid "Source must not be empty"
-msgstr "Имя не должно быть пустым"
+msgstr "Источник не должен быть пустым"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
@@ -3060,22 +2784,17 @@ msgstr "Начало не должно быть пустым"
 
 #: src/components/vm/consoles/vnc.tsx:564
 #: src/components/vm/consoles/serial.tsx:116
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to access the console"
-msgstr "Запустите виртуальную машину, чтобы получить доступ к её консоли."
+msgstr "Запустите виртуальную машину для доступа к консоли"
 
 #: src/components/vm/consoles/spice.tsx:72
-#, fuzzy
-#| msgid "Please start the virtual machine to access its console."
 msgid "Start the virtual machine to launch remote viewer."
-msgstr "Запустите виртуальную машину, чтобы получить доступ к её консоли."
+msgstr ""
+"Запустите виртуальную машину, чтобы запустить средство удалённого просмотра."
 
 #: src/components/vm/confirmDialog.tsx:85
-#, fuzzy
-#| msgid "Start"
 msgid "Started"
-msgstr "Запустить"
+msgstr "Запущена"
 
 #: src/components/storagePools/createStoragePoolDialog.tsx:284
 msgid "Startup"
@@ -3092,13 +2811,11 @@ msgstr "Состояние"
 
 #: src/components/networks/networkOverviewTab.tsx:306
 msgid "Static host entries"
-msgstr ""
+msgstr "Записи статических хостов"
 
 #: src/components/networks/networkOverviewTab.tsx:62
-#, fuzzy
-#| msgid "Storage volumes could not be deleted"
 msgid "Static host from DHCP could not be removed"
-msgstr "Не удалось удалить тома хранилища"
+msgstr "Статический хост из DHCP не удалось удалить"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
@@ -3109,15 +2826,13 @@ msgstr "Хранилище"
 
 #: src/components/vm/vmMigrateDialog.tsx:127
 msgid "Storage is at a shared location"
-msgstr ""
+msgstr "Хранилище находится в общем расположении"
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager
 #: src/components/create-vm-dialog/createVmDialog.tsx:1167
-#, fuzzy
-#| msgid "Storage"
 msgid "Storage limit"
-msgstr "Хранилище"
+msgstr "Ограничение хранилища"
 
 #: src/components/storagePools/storagePool.tsx:113
 msgid "Storage pool $0 failed to get activated"
@@ -3153,6 +2868,7 @@ msgstr "Том хранилища"
 #: src/components/storagePools/storageVolumeCreateBody.tsx:65
 msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
 msgstr ""
+"Размер тома хранилища не должен превышать ёмкость пула хранилища ($0 $1)"
 
 #: src/components/storagePools/storagePool.tsx:66
 msgid "Storage volumes"
@@ -3165,13 +2881,11 @@ msgstr "Не удалось удалить тома хранилища"
 #: src/components/vm/vmMigrateDialog.tsx:235
 msgid ""
 "Storage volumes must be shared between this host and the destination host."
-msgstr ""
+msgstr "Тома хранилища должны быть общими для этого хоста и целевого хоста."
 
 #: src/components/vm/consoles/common.tsx:111
-#, fuzzy
-#| msgid "Copy to clipboard"
 msgid "Successfully copied to clipboard!"
-msgstr "Копировать в буфер обмена"
+msgstr "Успешно скопировано в буфер обмена!"
 
 #: src/helpers.ts:223
 msgid "Suspended (PM)"
@@ -3179,7 +2893,7 @@ msgstr "приостановлено (PM)"
 
 #: src/components/vm/usesSpice.tsx:37
 msgid "Switch to VNC to continue using this machine."
-msgstr ""
+msgstr "Переключитесь на VNC, чтобы продолжить использование этой машины."
 
 # translation auto-copied from project virt-manager, version 0.10.0, document
 # virt-manager, author ypoyarko
@@ -3188,24 +2902,20 @@ msgid "System"
 msgstr "Система"
 
 #: src/components/vm/nics/vmNicsCard.tsx:215
-#, fuzzy
-#| msgid "Host device"
 msgid "TAP device"
-msgstr "Главное устройство"
+msgstr "Устройство TAP"
 
 #: src/components/vm/nics/nicBody.tsx:502
-#, fuzzy
-#| msgid "CPU"
 msgid "TCP"
-msgstr "ЦП"
+msgstr "TCP"
 
 #: src/components/common/needsShutdown.tsx:226
 msgid "TPM"
-msgstr ""
+msgstr "TPM"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:147
 msgid "Table of selectable host devices"
-msgstr ""
+msgstr "Таблица выбираемых хост-устройств"
 
 # Этап передачи событий
 #: src/components/vm/hostdevs/hostDevCard.tsx:101
@@ -3227,22 +2937,19 @@ msgstr "Конечный путь не должен быть пустым"
 
 #: src/components/vm/vmMigrateDialog.tsx:83
 msgid "Temporary"
-msgstr ""
+msgstr "Временная"
 
 #: src/components/vm/vmMigrateDialog.tsx:91
 msgid "Temporary migration"
-msgstr ""
+msgstr "Временная миграция"
 
 #: src/components/vm/consoles/serial.tsx:92
 msgid "Terminal not available"
 msgstr "Терминал недоступен"
 
 #: src/components/vm/deleteDialog.tsx:95
-#, fuzzy
-#| msgid "The VM is running and will be forced off before deletion."
 msgid "The VM $0 is running and will be forced off before deletion."
-msgstr ""
-"Виртуальная машина работает и будет принудительно отключена перед удалением."
+msgstr "ВМ $0 работает и будет принудительно выключена перед удалением."
 
 #: src/components/vm/nics/vmNicsCard.tsx:668
 #: src/components/vm/nics/vmNicsCard.tsx:676
@@ -3257,24 +2964,30 @@ msgstr "Экспортируемый каталог на сервере"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
 msgid "The host path that is to be exported."
-msgstr ""
+msgstr "Путь хоста, который должен быть экспортирован."
 
 #: src/components/vm/vmMigrateDialog.tsx:80
 msgid ""
 "The migrated VM configuration is removed from the source host. The "
 "destination host is considered the new home of the VM."
 msgstr ""
+"Конфигурация мигрированной ВМ удаляется с исходного хоста. Целевой хост "
+"считается новым местом ВМ."
 
 #: src/components/vm/nics/nicBody.tsx:482
 msgid ""
 "The port on the guest. If left empty, the same port as on the host is used."
 msgstr ""
+"Порт на госте. Если оставить пустым, используется тот же порт, что и на "
+"хосте."
 
 #: src/components/vm/nics/nicBody.tsx:464
 msgid ""
 "The port on the host that is fotwarded into the guest. You can also specify "
 "a range of ports like 4000-4050."
 msgstr ""
+"Порт на хосте, который перенаправляется в гостя. Можно также указать "
+"диапазон портов, например 4000-4050."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:996
 msgid "The selected operating system has minimum memory requirement of $0 $1"
@@ -3288,7 +3001,7 @@ msgstr ""
 
 #: src/components/networks/networkOverviewTab.tsx:63
 msgid "The static host entry for $0 will be removed:"
-msgstr ""
+msgstr "Запись статического хоста для $0 будет удалена:"
 
 #: src/components/storagePools/storagePoolDelete.tsx:138
 #: src/components/storagePools/storagePoolDelete.tsx:142
@@ -3297,17 +3010,19 @@ msgstr "Не удалось удалить пул носителей"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:216
 msgid "The tag name to be used by the guest to mount this export point."
-msgstr ""
+msgstr "Имя метки, используемое гостем для монтирования этой точки экспорта."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:625
 msgid "Then copy and paste it above."
-msgstr ""
+msgstr "Затем скопируйте и вставьте его выше."
 
 #: src/components/vm/nics/nicBody.tsx:214
 msgid ""
 "There are no sources for virtual network interfaces on this host. You might "
 "want to create a virtual network."
 msgstr ""
+"На этом хосте нет источников для виртуальных сетевых интерфейсов. Возможно, "
+"вы захотите создать виртуальную сеть."
 
 #: src/components/vm/vmActions.tsx:462
 msgid "This VM is transient. Shut it down if you wish to delete it."
@@ -3319,33 +3034,37 @@ msgstr "Этот браузер не поддерживает WebGL2."
 
 #: src/components/vm/disks/vmDiskColumns.tsx:171
 msgid "This disk will be removed from $0:"
-msgstr ""
+msgstr "Этот диск будет удалён из $0:"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:56
 msgid "This filesystem will be removed from $0:"
-msgstr ""
+msgstr "Эта файловая система будет удалена из $0:"
 
 #: src/components/vm/vmReplaceSpiceDialog.tsx:154
 msgid ""
 "This is intended for a host which does not support SPICE due to upgrades or "
 "live migration."
 msgstr ""
+"Это предназначено для хоста, который не поддерживает SPICE из-за обновлений "
+"или живой миграции."
 
 #: src/components/vm/consoles/spice.tsx:68
 msgid "This machine has a SPICE graphical console that can not be shown here."
 msgstr ""
+"Эта машина имеет графическую консоль SPICE, которая не может быть показана "
+"здесь."
 
 #: org.cockpit_project.machines.metainfo.xml:8
 msgid ""
 "This tool manages virtual machines. With it, you can create, monitor, and "
 "control the virtual machines of the libvirt subsystem."
 msgstr ""
+"Этот инструмент управляет виртуальными машинами. С его помощью вы можете "
+"создавать, отслеживать и управлять виртуальными машинами подсистемы libvirt."
 
 #: src/components/vm/disks/diskAdd.tsx:77
-#, fuzzy
-#| msgid "This volume is already used by: "
 msgid "This volume is already used by $0."
-msgstr "Этот том уже используется: "
+msgstr "Этот том уже используется $0."
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1163
 msgid "This volume is already used by another VM."
@@ -3356,10 +3075,8 @@ msgid "Threads per core"
 msgstr "Потоков на ядро"
 
 #: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:143
-#, fuzzy
-#| msgid "Total size: $0"
 msgid "Total space available: $0."
-msgstr "Общий размер: $0"
+msgstr "Доступно всего: $0."
 
 #: src/components/vm/overview/firmware.tsx:163
 msgid "Transient VMs don't support editing firmware configuration"
@@ -3367,7 +3084,7 @@ msgstr "Временные ВМ не поддерживают редактиро
 
 #: src/app.tsx:173
 msgid "Troubleshoot"
-msgstr "Устранить неполадки"
+msgstr "Диагностика"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:43
 #: src/components/vm/hostdevs/hostDevCard.tsx:177
@@ -3385,37 +3102,35 @@ msgstr "Тип"
 
 #: src/components/vm/nics/nicBody.tsx:503
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:451
 msgid "URL (ISO image or distro install tree)"
-msgstr ""
+msgstr "URL (образ ISO или дерево установки дистрибутива)"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:48
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:111
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: src/libvirtApi/nodeDevice.ts:29
 msgid "Unclassified"
-msgstr ""
+msgstr "Неклассифицированное"
 
 #: src/components/vm/hostdevs/hostDevAdd.tsx:166
 msgid "Undefined"
-msgstr ""
+msgstr "Не определён"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:319
 msgid "Unique name"
 msgstr "Уникальное имя"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:319
-#, fuzzy
-#| msgid "Unique name"
 msgid "Unique name, default: $0"
-msgstr "Уникальное имя"
+msgstr "Уникальное имя, по умолчанию: $0"
 
 #: src/components/networks/createNetworkDialog.tsx:174
 msgid "Unique network name"
@@ -3434,13 +3149,11 @@ msgstr "Неизвестная микропрограмма"
 #: src/components/vm/overview/bootOrder.tsx:145
 #: src/components/vm/overview/bootOrder.tsx:146
 msgid "Unspecified"
-msgstr ""
+msgstr "Не указано"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:539
-#, fuzzy
-#| msgid "Choose an operating system"
 msgid "Unsupported and older operating systems"
-msgstr "Выберите операционную систему"
+msgstr "Неподдерживаемые и устаревшие операционные системы"
 
 #: src/components/vm/disks/diskEdit.tsx:48
 msgid "Url"
@@ -3458,7 +3171,7 @@ msgstr "Использовать существующий"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:233
 msgid "Use extended attributes on files and directories"
-msgstr ""
+msgstr "Использовать расширенные атрибуты для файлов и каталогов"
 
 #: src/components/vm/vmMigrateDialog.tsx:116
 msgid ""
@@ -3466,6 +3179,9 @@ msgid ""
 "storage. This can be a shared storage pool, NFS, or any other method of "
 "sharing storage."
 msgstr ""
+"Используйте одно и то же расположение на исходном и целевом хостах для "
+"вашего хранилища. Это может быть общий пул хранилища, NFS или любой другой "
+"способ совместного использования хранилища."
 
 #: src/components/storagePools/storagePoolVolumesTab.tsx:77
 msgid "Used by"
@@ -3473,20 +3189,20 @@ msgstr "Используется"
 
 #: src/components/vm/disks/vmDisksCard.tsx:161
 msgid "Used on host"
-msgstr ""
+msgstr "Используется на хосте"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:810
-#, fuzzy
 msgid "User login"
-msgstr "Последний вход"
+msgstr "Имя пользователя"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:293
 msgid "User login must not be empty when SSH keys are set"
-msgstr ""
+msgstr "Имя пользователя не должно быть пустым при установленных SSH-ключах"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:291
 msgid "User login must not be empty when user password is set"
 msgstr ""
+"Имя пользователя не должно быть пустым при установленном пароле пользователя"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:818
 msgid "User password"
@@ -3495,22 +3211,20 @@ msgstr "Пароль пользователя"
 #: src/components/create-vm-dialog/createVmDialog.tsx:288
 msgid "User password must not be empty when user login is set"
 msgstr ""
+"Пароль пользователя не должен быть пустым при установленном имени "
+"пользователя"
 
 #: src/helpers.ts:213
-#, fuzzy
-#| msgid "User password"
 msgid "User session"
-msgstr "Пароль пользователя"
+msgstr "Пользовательский сеанс"
 
 #: src/components/vm/usesSpice.tsx:26
 msgid "Uses SPICE"
-msgstr ""
+msgstr "Использует SPICE"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:316
-#, fuzzy
-#| msgid "Host device"
 msgid "VM $0 Host Devices"
-msgstr "Главное устройство"
+msgstr "Хост-устройства ВМ $0"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:233
 msgid "VM $0 already exists"
@@ -3518,7 +3232,7 @@ msgstr "ВМ $0 уже существует"
 
 #: src/app.tsx:220
 msgid "VM $0 does not exist on $1 connection"
-msgstr ""
+msgstr "ВМ $0 не существует в подключении $1"
 
 #: src/components/vm/vmActions.tsx:97
 msgid "VM $0 failed to force reboot"
@@ -3561,39 +3275,36 @@ msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
 msgstr ""
+"ВМ запускается с ограниченным доступом без привилегий, при этом процесс и "
+"PTY принадлежат вашей учётной записи"
 
 #: src/components/common/needsShutdown.tsx:283
-#, fuzzy
-#| msgid "VM $0 failed to shutdown"
 msgid "VM needs shutdown"
-msgstr "Не удалось завершить работу виртуальной машины $0"
+msgstr "ВМ требует завершения работы"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:138
-#, fuzzy
 msgid "VM state"
-msgstr "Состояние"
+msgstr "Состояние ВМ"
 
 #: src/components/common/machinesConnectionSelector.tsx:60
 msgid "VM will launch with root permissions"
-msgstr ""
+msgstr "ВМ будет запущена с правами root"
 
 #: src/components/common/needsShutdown.tsx:218
 msgid "VNC"
-msgstr ""
+msgstr "VNC"
 
 #: src/components/vm/consoles/vnc.tsx:134
-#, fuzzy
-#| msgid "Disk settings could not be saved"
 msgid "VNC settings could not be saved"
-msgstr "Не удалось сохранить параметры диска"
+msgstr "Не удалось сохранить настройки VNC"
 
 #: src/components/vm/consoles/vnc.tsx:450
 msgid "VNC with TLS is not supported by the in-page viewer"
-msgstr ""
+msgstr "VNC с TLS не поддерживается встроенным средством просмотра"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:650
 msgid "Valid token"
-msgstr ""
+msgstr "Действительный токен"
 
 # translation auto-copied from project subscription-manager, version 1.11.X,
 # document keys
@@ -3608,7 +3319,7 @@ msgstr "Производитель"
 
 #: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
 msgid "Vendor support ended $0"
-msgstr ""
+msgstr "Поддержка вендора завершена $0"
 
 #: src/components/vm/vmDetailsPage.tsx:249
 #: src/components/storagePools/storagePoolList.tsx:46
@@ -3636,6 +3347,9 @@ msgid ""
 "a socket. It still requires special vsock-aware software to communicate over "
 "the socket."
 msgstr ""
+"Поддержка виртуальных сокетов обеспечивает связь между хостом и гостем через "
+"сокет. Для связи через сокет всё ещё требуется специальное ПО, "
+"поддерживающее vsock."
 
 #: src/app.tsx:172
 msgid "Virtualization service (libvirt) is not active"
@@ -3664,7 +3378,7 @@ msgstr "Имя группы томов не должно быть пустым"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:210
 msgid "Vsock"
-msgstr ""
+msgstr "Vsock"
 
 #: src/components/vm/hostdevs/hostDevCard.tsx:107
 #: src/components/vm/overview/bootOrder.tsx:171
@@ -3674,7 +3388,7 @@ msgstr "WWPN"
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 #: src/components/common/needsShutdown.tsx:210
 msgid "Watchdog"
-msgstr ""
+msgstr "Сторож"
 
 #: src/components/vm/overview/helpers.tsx:16
 msgid ""
@@ -3682,10 +3396,13 @@ msgid ""
 "device, the guest system also needs to have an additional driver and a "
 "running watchdog service."
 msgstr ""
+"Сторожи срабатывают, когда системы перестают отвечать. Для использования "
+"этого виртуального устройства-сторожа гостевая система также должна иметь "
+"дополнительный драйвер и запущенную службу сторожа."
 
 #: src/libvirtApi/nodeDevice.ts:42
 msgid "Wireless Controller"
-msgstr ""
+msgstr "Беспроводной контроллер"
 
 #: src/components/vm/disks/diskEdit.tsx:114
 #: src/components/vm/disks/vmDisksCard.tsx:249
@@ -3694,7 +3411,7 @@ msgstr "Для записи"
 
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:180
 msgid "You can mount the shared folder using:"
-msgstr ""
+msgstr "Вы можете смонтировать общую папку с помощью:"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:236
 msgid "You need to select the most closely matching operating system"
@@ -3707,20 +3424,16 @@ msgstr "активно"
 
 #: src/components/vm/overview/vsock.tsx:315
 #: src/components/vm/overview/watchdog.tsx:265
-#, fuzzy
-#| msgid "Add"
 msgid "add"
-msgstr "Добавить"
+msgstr "добавить"
 
 #: src/components/networks/networkOverviewTab.tsx:193
 msgid "add entry"
-msgstr ""
+msgstr "добавить запись"
 
 #: src/components/vm/nics/nicBody.tsx:320
-#, fuzzy
-#| msgid "All"
 msgid "all"
-msgstr "Все"
+msgstr "все"
 
 #: src/helpers.ts:243
 msgid "bridge"
@@ -3736,7 +3449,7 @@ msgstr "другой"
 
 #: src/components/vm/nics/vmNicsCard.tsx:797
 msgid "default"
-msgstr ""
+msgstr "по умолчанию"
 
 #: src/helpers.ts:241
 msgid "direct"
@@ -3779,9 +3492,8 @@ msgid "host device"
 msgstr "главное устройство"
 
 #: src/helpers.ts:238
-#, fuzzy
 msgid "host passthrough"
-msgstr "к адресу узла"
+msgstr "прямой доступ хоста"
 
 #: src/helpers.ts:246
 msgid "hostdev"
@@ -3805,10 +3517,8 @@ msgstr "IQN цели iSCSI"
 
 #: src/components/storagePools/storagePool.tsx:53
 #: src/components/networks/network.tsx:54
-#, fuzzy
-#| msgid "active"
 msgid "inactive"
-msgstr "активно"
+msgstr "неактивно"
 
 #: src/manifest.json:0
 msgid "iso"
@@ -3829,11 +3539,12 @@ msgstr "доп. сведения"
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:188
 #: src/components/vm/vmDetailsPage.tsx:209
 msgid "mount point: The mount point inside the guest"
-msgstr ""
+msgstr "точка монтирования: точка монтирования внутри гостя"
 
 #: src/components/vm/vmDetailsPage.tsx:208
 msgid "mount tag: The tag associated to the exported mount point"
 msgstr ""
+"метка монтирования: метка, связанная с экспортированной точкой монтирования"
 
 #: src/helpers.ts:230 src/helpers.ts:242
 msgid "network"
@@ -3847,14 +3558,14 @@ msgstr "нет"
 
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:142
 msgid "no state saved"
-msgstr ""
+msgstr "состояние не сохранено"
 
 #: src/components/vm/nics/vmNicsCard.tsx:288
 #: src/components/vm/overview/vsock.tsx:297
 #: src/components/vm/overview/watchdog.tsx:261
 #: src/components/networks/networkOverviewTab.tsx:314
 msgid "none"
-msgstr ""
+msgstr "нет"
 
 #: src/manifest.json:0
 msgid "pxe"
@@ -3873,10 +3584,8 @@ msgid "redirected device"
 msgstr "перенаправленное устройство"
 
 #: src/components/networks/networkOverviewTab.tsx:57
-#, fuzzy
-#| msgid "Remove"
 msgid "remove"
-msgstr "Удалить"
+msgstr "удалить"
 
 #: src/helpers.ts:248
 msgid "server"
@@ -3895,10 +3604,8 @@ msgid "user"
 msgstr "пользователь"
 
 #: src/components/vm/overview/cpuModal.tsx:201
-#, fuzzy
-#| msgid "VCPU settings could not be saved"
 msgid "vCPU and CPU topology settings could not be saved"
-msgstr "Не удалось сохранить параметры виртуальных ЦП"
+msgstr "Не удалось сохранить настройки vCPU и топологии ЦП"
 
 #: src/components/vm/overview/cpuModal.tsx:257
 #: src/components/vm/overview/cpuModal.tsx:267
@@ -3920,13 +3627,10 @@ msgid "vhostuser"
 msgstr "vhostuser"
 
 #: src/components/vm/vmActions.tsx:393
-#, fuzzy
 msgid ""
 "virt-install package needs to be installed on the system in order to clone "
 "VMs"
-msgstr ""
-"Для создания новых виртуальных машин в системе должен быть установлен пакет "
-"virt-install"
+msgstr "Для клонирования ВМ в системе должен быть установлен пакет virt-install"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:1773
 msgid ""
@@ -3937,12 +3641,11 @@ msgstr ""
 "virt-install"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:131
-#, fuzzy
 msgid ""
 "virt-install package needs to be installed on the system in order to edit "
 "this attribute"
 msgstr ""
-"Для создания новых виртуальных машин в системе должен быть установлен пакет "
+"Для редактирования этого атрибута в системе должен быть установлен пакет "
 "virt-install"
 
 #: src/manifest.json:0
@@ -3951,11 +3654,11 @@ msgstr "ВМ"
 
 #: src/components/vm/overview/vmOverviewCard.tsx:214
 msgid "vsock requires special software"
-msgstr ""
+msgstr "vsock требует специального ПО"
 
 #: src/components/vm/vmUsageCard.tsx:26
 msgid "waiting"
-msgstr ""
+msgstr "ожидание"
 
 #: src/helpers.ts:264 src/components/storagePools/storagePoolOverviewTab.tsx:56
 #: src/components/storagePools/storagePoolOverviewTab.tsx:61
