@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  machines.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 07:37+0000\n"
+"POT-Creation-Date: 2026-09-19 07:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  machines.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 07:37+0000\n"
+"POT-Creation-Date: 2026-09-19 07:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,12 +53,12 @@ msgstr ""
 msgid " excluding "
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1091
+#: src/components/create-vm-dialog/details.tsx:855
 msgid "$0 $1 available at default location"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:281
-#: src/components/create-vm-dialog/createVmDialog.tsx:985
+#: src/components/create-vm-dialog/details.tsx:724
+#: src/components/create-vm-dialog/details.tsx:743
 msgid "$0 $1 available on host"
 msgstr ""
 
@@ -82,7 +82,7 @@ msgstr[1] ""
 msgid "$0 console"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1530
+#: src/components/create-vm-dialog/automation.tsx:313
 msgid "$0 does not support unattended installation."
 msgstr ""
 
@@ -115,6 +115,10 @@ msgid ""
 "shut off. Meanwhile, the origin host keeps its copy of the VM configuration."
 msgstr ""
 
+#: src/components/create-vm-dialog/passwordInput.tsx:94
+msgid "Acceptable password"
+msgstr ""
+
 #: src/components/vm/disks/vmDisksCard.tsx:246
 #: src/components/vm/disks/diskEdit.tsx:130
 msgid "Access"
@@ -129,7 +133,7 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:593
 #: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
 #: src/components/networks/networkList.tsx:64
-#: src/components/vms/hostvmslist.tsx:317
+#: src/components/vms/hostvmslist.tsx:311
 msgid "Actions"
 msgstr ""
 
@@ -151,7 +155,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:959
+#: src/components/create-vm-dialog/automation.tsx:270
 msgid "Add SSH keys"
 msgstr ""
 
@@ -226,8 +230,8 @@ msgstr ""
 msgid "Advanced interface type for high performance or enhanced security."
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:214
-#: src/components/vms/hostvmslist.tsx:232
+#: src/components/vms/hostvmslist.tsx:208
+#: src/components/vms/hostvmslist.tsx:226
 msgid "All"
 msgstr ""
 
@@ -264,7 +268,7 @@ msgstr ""
 msgid "Apply on next boot"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1050
+#: src/components/create-vm-dialog/automation.tsx:297
 msgid ""
 "Arguments passed to the booted kernel can often be used to control the "
 "installer. Refer to the documentation of the installer of $0."
@@ -278,7 +282,7 @@ msgstr ""
 msgid "Associated storage files"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1529
+#: src/components/create-vm-dialog/automation.tsx:312
 msgid ""
 "Automated installs are only available when downloading an image, an install "
 "tree or using cloud-init."
@@ -288,7 +292,7 @@ msgstr ""
 msgid "Automatic"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1668
+#: src/components/create-vm-dialog/createVmDialog.tsx:274
 msgid "Automation"
 msgstr ""
 
@@ -315,7 +319,7 @@ msgstr ""
 msgid "Blocked"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1039
+#: src/components/create-vm-dialog/automation.tsx:295
 msgid "Boot arguments"
 msgstr ""
 
@@ -352,7 +356,7 @@ msgstr ""
 
 #: src/components/vm/vmUsageCard.tsx:52
 #: src/components/vm/overview/vmOverviewCard.tsx:178
-#: src/components/vms/hostvmslist.tsx:86 src/components/vms/hostvmslist.tsx:294
+#: src/components/vms/hostvmslist.tsx:86 src/components/vms/hostvmslist.tsx:288
 #: src/components/common/needsShutdown.tsx:206
 msgid "CPU"
 msgstr ""
@@ -394,7 +398,7 @@ msgstr ""
 #: src/components/networks/createNetworkDialog.tsx:548
 #: src/components/networks/networkOverviewTab.tsx:271
 #: src/components/common/deleteResource.tsx:116
-#: src/components/create-vm-dialog/createVmDialog.tsx:1734
+#: src/components/create-vm-dialog/createVmDialog.tsx:347
 msgid "Cancel"
 msgstr ""
 
@@ -430,11 +434,11 @@ msgid ""
 "computer's manual for details."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:638
+#: src/components/create-vm-dialog/details.tsx:542
 msgid "Checking token validity..."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:563
+#: src/components/create-vm-dialog/details.tsx:495
 msgid "Choose an operating system"
 msgstr ""
 
@@ -452,7 +456,7 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:446
+#: src/components/create-vm-dialog/details.tsx:260
 msgid "Cloud base image"
 msgstr ""
 
@@ -489,8 +493,8 @@ msgstr ""
 #: src/components/vm/overview/vmOverviewCard.tsx:158
 #: src/components/networks/createNetworkDialog.tsx:34
 #: src/components/networks/networkList.tsx:61
-#: src/components/vms/hostvmslist.tsx:314
-#: src/components/common/machinesConnectionSelector.tsx:44
+#: src/components/vms/hostvmslist.tsx:308
+#: src/components/common/machinesConnectionSelector.tsx:46
 msgid "Connection"
 msgstr ""
 
@@ -554,15 +558,15 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1766
+#: src/components/create-vm-dialog/createVmDialog.tsx:378
 msgid "Create VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1786
+#: src/components/create-vm-dialog/createVmDialog.tsx:398
 msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1785
+#: src/components/create-vm-dialog/createVmDialog.tsx:397
 msgid "Create VM from local or network installation medium"
 msgstr ""
 
@@ -570,11 +574,11 @@ msgstr ""
 msgid "Create a clone VM based on $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1696
+#: src/components/create-vm-dialog/createVmDialog.tsx:314
 msgid "Create and edit"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1728
+#: src/components/create-vm-dialog/createVmDialog.tsx:340
 msgid "Create and run"
 msgstr ""
 
@@ -582,15 +586,15 @@ msgstr ""
 msgid "Create new"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1125
+#: src/components/create-vm-dialog/details.tsx:885
 msgid "Create new qcow2 volume"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1126
+#: src/components/create-vm-dialog/details.tsx:886
 msgid "Create new raw volume"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1713
+#: src/components/create-vm-dialog/createVmDialog.tsx:327
 msgid "Create new virtual machine"
 msgstr ""
 
@@ -632,7 +636,7 @@ msgid ""
 "running."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1504
+#: src/components/create-vm-dialog/createVmDialog.tsx:204
 msgid "Creation of VM $0 failed"
 msgstr ""
 
@@ -749,7 +753,7 @@ msgid ""
 "Detach the disks using this pool from any VMs before attempting deletion."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1662
+#: src/components/create-vm-dialog/createVmDialog.tsx:257
 msgid "Details"
 msgstr ""
 
@@ -797,7 +801,7 @@ msgstr ""
 msgid "Disk identifier"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:459
+#: src/components/create-vm-dialog/details.tsx:363
 msgid "Disk image"
 msgstr ""
 
@@ -805,11 +809,11 @@ msgstr ""
 msgid "Disk image file"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:263
+#: src/components/create-vm-dialog/details.tsx:239
 msgid "Disk image path must not be empty"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:83
+#: src/components/common/machinesConnectionSelector.tsx:86
 msgid "Disk images can be stored in user home directory"
 msgstr ""
 
@@ -850,7 +854,7 @@ msgstr ""
 msgid "Domain is blocked on resource"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:442
+#: src/components/create-vm-dialog/details.tsx:259
 msgid "Download an OS"
 msgstr ""
 
@@ -950,11 +954,11 @@ msgstr ""
 msgid "End should not be empty"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1528
+#: src/components/create-vm-dialog/automation.tsx:311
 msgid "Enter root and/or user information to enable unattended installation."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:642
+#: src/components/create-vm-dialog/details.tsx:546
 msgid "Error checking token"
 msgstr ""
 
@@ -962,7 +966,11 @@ msgstr ""
 msgid "Example, $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:383
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Excellent password"
+msgstr ""
+
+#: src/components/create-vm-dialog/details.tsx:365
 msgid "Existing disk image on host's file system"
 msgstr ""
 
@@ -1067,7 +1075,7 @@ msgstr ""
 msgid "Filesystem directory"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:255
+#: src/components/vms/hostvmslist.tsx:249
 msgid "Filter by name"
 msgstr ""
 
@@ -1149,15 +1157,14 @@ msgstr ""
 msgid "Generate automatically"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:616
+#: src/components/create-vm-dialog/details.tsx:520
 msgid "Get a new RHSM token."
 msgstr ""
 
 #: src/components/vm/disks/vmDisksCard.tsx:39
 #: src/components/vm/overview/memorySelectRow.tsx:95
 #: src/components/common/dialog.tsx:105
-#: src/components/create-vm-dialog/createVmDialog.tsx:1018
-#: src/components/create-vm-dialog/createVmDialog.tsx:1182
+#: src/components/create-vm-dialog/details.tsx:683
 msgid "GiB"
 msgstr ""
 
@@ -1165,7 +1172,7 @@ msgstr ""
 msgid "Go to VMs list"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:74
+#: src/components/common/machinesConnectionSelector.tsx:77
 msgid "Good choice for desktop virtualization"
 msgstr ""
 
@@ -1198,6 +1205,10 @@ msgstr ""
 msgid "Hide additional options"
 msgstr ""
 
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Hide password"
+msgstr ""
+
 #: src/components/storagePools/createStoragePoolDialog.tsx:154
 #: src/components/storagePools/storagePoolOverviewTab.tsx:23
 #: src/components/vm/disks/vmDiskColumns.tsx:44
@@ -1205,7 +1216,7 @@ msgstr ""
 msgid "Host"
 msgstr ""
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:149
+#: src/components/create-vm-dialog/pxe-helpers.tsx:152
 msgid "Host device"
 msgstr ""
 
@@ -1313,11 +1324,11 @@ msgstr ""
 msgid "IPv6 only"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:57
+#: src/components/common/machinesConnectionSelector.tsx:60
 msgid "Ideal for server VMs"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:63
+#: src/components/common/machinesConnectionSelector.tsx:66
 msgid "Ideal networking support"
 msgstr ""
 
@@ -1345,19 +1356,19 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1766
+#: src/components/create-vm-dialog/createVmDialog.tsx:378
 msgid "Import VM"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1713
+#: src/components/create-vm-dialog/createVmDialog.tsx:327
 msgid "Import a virtual machine"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1696
+#: src/components/create-vm-dialog/createVmDialog.tsx:314
 msgid "Import and edit"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1728
+#: src/components/create-vm-dialog/createVmDialog.tsx:340
 msgid "Import and run"
 msgstr ""
 
@@ -1365,7 +1376,7 @@ msgstr ""
 msgid "Importing an image with a backing file is unsupported"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:392
+#: src/components/create-vm-dialog/details.tsx:372
 msgid ""
 "In most configurations, macvtap does not work for host to guest network "
 "communication."
@@ -1404,15 +1415,18 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:459
+#: src/components/create-vm-dialog/details.tsx:343
+#: src/components/create-vm-dialog/details.tsx:353
+#: src/components/create-vm-dialog/details.tsx:382
+#: src/components/create-vm-dialog/details.tsx:393
 msgid "Installation source"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:265
+#: src/components/create-vm-dialog/details.tsx:241
 msgid "Installation source must not be empty"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:434
+#: src/components/create-vm-dialog/details.tsx:406
 msgid "Installation type"
 msgstr ""
 
@@ -1452,7 +1466,7 @@ msgstr ""
 msgid "Invalid IPv6 prefix"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:249
+#: src/components/create-vm-dialog/details.tsx:226
 msgid "Invalid filename"
 msgstr ""
 
@@ -1466,7 +1480,7 @@ msgid ""
 "which does not support SPICE."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:918
+#: src/components/create-vm-dialog/automation.tsx:163
 msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
 msgstr ""
 
@@ -1478,17 +1492,17 @@ msgstr ""
 msgid "Launch viewer"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:772
+#: src/components/create-vm-dialog/automation.tsx:229
 msgid ""
 "Leave the password blank if you do not wish to have a root account created"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:820
+#: src/components/create-vm-dialog/automation.tsx:71
 msgid ""
 "Leave the password blank if you do not wish to have a user account created"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:950
+#: src/components/create-vm-dialog/automation.tsx:265
 msgid "Leave the password blank if you do not wish to set a root password"
 msgstr ""
 
@@ -1505,7 +1519,7 @@ msgstr ""
 msgid "Loading available network devices"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1649
+#: src/components/create-vm-dialog/createVmDialog.tsx:235
 msgid "Loading operating system information..."
 msgstr ""
 
@@ -1513,7 +1527,7 @@ msgstr ""
 msgid "Loading resources"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:449
+#: src/components/create-vm-dialog/details.tsx:261
 msgid "Local install media (ISO image or distro install tree)"
 msgstr ""
 
@@ -1611,8 +1625,8 @@ msgstr ""
 #: src/components/vm/vmUsageCard.tsx:44
 #: src/components/vm/overview/vmOverviewCard.tsx:173
 #: src/components/vms/hostvmslist.tsx:104
-#: src/components/vms/hostvmslist.tsx:295
-#: src/components/create-vm-dialog/createVmDialog.tsx:1003
+#: src/components/vms/hostvmslist.tsx:289
+#: src/components/create-vm-dialog/details.tsx:761
 msgid "Memory"
 msgstr ""
 
@@ -1625,7 +1639,11 @@ msgstr ""
 msgid "Memory could not be saved"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:272
+#: src/components/create-vm-dialog/details.tsx:717
+msgid "Memory must be a number"
+msgstr ""
+
+#: src/components/create-vm-dialog/details.tsx:720
 msgid "Memory must not be 0"
 msgstr ""
 
@@ -1643,8 +1661,7 @@ msgstr ""
 
 #: src/components/vm/overview/memorySelectRow.tsx:93
 #: src/components/common/dialog.tsx:104
-#: src/components/create-vm-dialog/createVmDialog.tsx:1016
-#: src/components/create-vm-dialog/createVmDialog.tsx:1180
+#: src/components/create-vm-dialog/details.tsx:682
 msgid "MiB"
 msgstr ""
 
@@ -1720,8 +1737,8 @@ msgstr ""
 #: src/components/vm/vmCloneDialog.tsx:92
 #: src/components/networks/createNetworkDialog.tsx:172
 #: src/components/networks/networkList.tsx:59
-#: src/components/vms/hostvmslist.tsx:313
-#: src/components/create-vm-dialog/createVmDialog.tsx:313
+#: src/components/vms/hostvmslist.tsx:307
+#: src/components/create-vm-dialog/createVmDialog.tsx:245
 msgid "Name"
 msgstr ""
 
@@ -1738,7 +1755,7 @@ msgid "Name contains invalid characters"
 msgstr ""
 
 #: src/components/vm/vmCloneDialog.tsx:51
-#: src/components/create-vm-dialog/createVmDialog.tsx:231
+#: src/components/create-vm-dialog/createVmDialog.tsx:156
 msgid "Name must not be empty"
 msgstr ""
 
@@ -1779,7 +1796,7 @@ msgstr ""
 msgid "Network MAC can not be empty."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:454
+#: src/components/create-vm-dialog/details.tsx:263
 msgid "Network boot (PXE)"
 msgstr ""
 
@@ -1811,7 +1828,7 @@ msgstr ""
 msgid "Network interfaces of type \"$0\" can not be edited here."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:400
+#: src/components/create-vm-dialog/details.tsx:377
 msgid "Network selection does not support PXE."
 msgstr ""
 
@@ -1833,11 +1850,11 @@ msgstr ""
 msgid "New volume name"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:957
+#: src/components/create-vm-dialog/automation.tsx:268
 msgid "No SSH keys specified"
 msgstr ""
 
-#: src/components/vms/hostvmslist.tsx:319
+#: src/components/vms/hostvmslist.tsx:313
 msgid "No VM is running or defined on this host"
 msgstr ""
 
@@ -1881,7 +1898,7 @@ msgstr ""
 msgid "No network is defined on this host"
 msgstr ""
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:155
+#: src/components/create-vm-dialog/pxe-helpers.tsx:158
 msgid "No networks available"
 msgstr ""
 
@@ -1913,7 +1930,7 @@ msgstr ""
 msgid "No state"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1130
+#: src/components/create-vm-dialog/details.tsx:890
 msgid "No storage"
 msgstr ""
 
@@ -1961,15 +1978,15 @@ msgstr ""
 msgid "None (isolated network)"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:711
+#: src/components/create-vm-dialog/details.tsx:624
 msgid "Offline token"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:269
+#: src/components/create-vm-dialog/details.tsx:247
 msgid "Offline token must not be empty"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:646
+#: src/components/create-vm-dialog/details.tsx:550
 msgid "Old token expired"
 msgstr ""
 
@@ -1993,7 +2010,7 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:558
+#: src/components/create-vm-dialog/details.tsx:489
 msgid "Operating system"
 msgstr ""
 
@@ -2049,11 +2066,11 @@ msgstr ""
 msgid "Path on host's filesystem"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:363
+#: src/components/create-vm-dialog/details.tsx:345
 msgid "Path to ISO file on host's file system"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:373
+#: src/components/create-vm-dialog/details.tsx:355
 msgid "Path to cloud image file on host's file system"
 msgstr ""
 
@@ -2077,7 +2094,7 @@ msgstr ""
 msgid "Permanent (default)"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:66
+#: src/components/common/machinesConnectionSelector.tsx:69
 msgid "Permissions denied for disk images in home directories"
 msgstr ""
 
@@ -2207,7 +2224,7 @@ msgstr ""
 msgid "Product"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:749
+#: src/components/create-vm-dialog/automation.tsx:221
 msgid "Profile"
 msgstr ""
 
@@ -2223,11 +2240,11 @@ msgstr ""
 msgid "Provides a virtual LAN with NAT to the outside world."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:915
+#: src/components/create-vm-dialog/automation.tsx:157
 msgid "Public SSH key"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:911
+#: src/components/create-vm-dialog/automation.tsx:153
 msgid "Public key"
 msgstr ""
 
@@ -2249,15 +2266,15 @@ msgstr ""
 msgid "Reboot $0?"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:536
+#: src/components/create-vm-dialog/details.tsx:466
 msgid "Recommended operating systems"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:76
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:78
 msgid "Released $0"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:421
+#: src/components/create-vm-dialog/details.tsx:396
 msgid "Remote URL"
 msgstr ""
 
@@ -2315,7 +2332,7 @@ msgstr ""
 
 #: src/components/vm/nics/nicBody.tsx:512
 #: src/components/vm/nics/nicBody.tsx:543
-#: src/components/create-vm-dialog/createVmDialog.tsx:927
+#: src/components/create-vm-dialog/automation.tsx:178
 msgid "Remove item"
 msgstr ""
 
@@ -2373,7 +2390,7 @@ msgstr ""
 msgid "Restart this virtual machine to access its serial console"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:80
+#: src/components/common/machinesConnectionSelector.tsx:83
 msgid ""
 "Restrictions in networking (SLIRP-based emulation) and PCI device assignment"
 msgstr ""
@@ -2402,7 +2419,7 @@ msgid ""
 "snapshot"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:802
+#: src/components/create-vm-dialog/automation.tsx:59
 msgid "Root password"
 msgstr ""
 
@@ -2446,7 +2463,7 @@ msgid ""
 "not boot."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:958
+#: src/components/create-vm-dialog/automation.tsx:269
 msgid "SSH keys"
 msgstr ""
 
@@ -2516,7 +2533,7 @@ msgstr ""
 msgid "Set manually"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1703
+#: src/components/create-vm-dialog/createVmDialog.tsx:309
 msgid ""
 "Setting the user passwords for unattended installation requires starting the "
 "VM when creating it"
@@ -2554,6 +2571,10 @@ msgstr ""
 
 #: src/components/vm/overview/watchdog.tsx:53
 msgid "Show more"
+msgstr ""
+
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Show password"
 msgstr ""
 
 #: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
@@ -2679,7 +2700,7 @@ msgstr ""
 msgid "Source path should not be empty"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:257
+#: src/components/create-vm-dialog/details.tsx:233
 msgid "Source should start with http, ftp or nfs protocol"
 msgstr ""
 
@@ -2723,8 +2744,8 @@ msgstr ""
 #: src/components/vm/nics/vmNicsCard.tsx:586
 #: src/components/vm/overview/vmOverviewCard.tsx:163
 #: src/components/networks/networkList.tsx:63
-#: src/components/vms/hostvmslist.tsx:259
-#: src/components/vms/hostvmslist.tsx:315
+#: src/components/vms/hostvmslist.tsx:253
+#: src/components/vms/hostvmslist.tsx:309
 msgid "State"
 msgstr ""
 
@@ -2737,7 +2758,7 @@ msgid "Static host from DHCP could not be removed"
 msgstr ""
 
 #: src/components/vm/vmMigrateDialog.tsx:108
-#: src/components/create-vm-dialog/createVmDialog.tsx:1140
+#: src/components/create-vm-dialog/details.tsx:902
 msgid "Storage"
 msgstr ""
 
@@ -2745,8 +2766,12 @@ msgstr ""
 msgid "Storage is at a shared location"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1167
+#: src/components/create-vm-dialog/details.tsx:931
 msgid "Storage limit"
+msgstr ""
+
+#: src/components/create-vm-dialog/details.tsx:834
+msgid "Storage must be a number"
 msgstr ""
 
 #: src/components/storagePools/storagePool.tsx:113
@@ -2768,11 +2793,11 @@ msgstr ""
 #: src/components/storagePools/storagePoolList.tsx:49
 #: src/components/storagePools/storagePoolList.tsx:56
 #: src/components/storagePools/storagePoolList.tsx:58
-#: src/components/create-vm-dialog/createVmDialog.tsx:1135
+#: src/components/create-vm-dialog/details.tsx:895
 msgid "Storage pools"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:276
+#: src/components/create-vm-dialog/details.tsx:836
 msgid "Storage size must not be 0"
 msgstr ""
 
@@ -2795,6 +2820,10 @@ msgstr ""
 #: src/components/vm/vmMigrateDialog.tsx:235
 msgid ""
 "Storage volumes must be shared between this host and the destination host."
+msgstr ""
+
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Strong password"
 msgstr ""
 
 #: src/components/vm/consoles/common.tsx:111
@@ -2893,11 +2922,11 @@ msgid ""
 "a range of ports like 4000-4050."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:996
+#: src/components/create-vm-dialog/details.tsx:753
 msgid "The selected operating system has minimum memory requirement of $0 $1"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1102
+#: src/components/create-vm-dialog/details.tsx:865
 msgid ""
 "The selected operating system has minimum storage size requirement of $0 $1"
 msgstr ""
@@ -2915,7 +2944,7 @@ msgstr ""
 msgid "The tag name to be used by the guest to mount this export point."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:625
+#: src/components/create-vm-dialog/details.tsx:529
 msgid "Then copy and paste it above."
 msgstr ""
 
@@ -2961,7 +2990,7 @@ msgstr ""
 msgid "This volume is already used by $0."
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1163
+#: src/components/create-vm-dialog/details.tsx:925
 msgid "This volume is already used by another VM."
 msgstr ""
 
@@ -2999,7 +3028,7 @@ msgstr ""
 msgid "UDP"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:451
+#: src/components/create-vm-dialog/details.tsx:262
 msgid "URL (ISO image or distro install tree)"
 msgstr ""
 
@@ -3019,11 +3048,11 @@ msgstr ""
 msgid "Undefined"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:319
+#: src/components/create-vm-dialog/createVmDialog.tsx:249
 msgid "Unique name"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:319
+#: src/components/create-vm-dialog/createVmDialog.tsx:250
 msgid "Unique name, default: $0"
 msgstr ""
 
@@ -3046,7 +3075,7 @@ msgstr ""
 msgid "Unspecified"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:539
+#: src/components/create-vm-dialog/details.tsx:469
 msgid "Unsupported and older operating systems"
 msgstr ""
 
@@ -3081,23 +3110,23 @@ msgstr ""
 msgid "Used on host"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:810
+#: src/components/create-vm-dialog/automation.tsx:66
 msgid "User login"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:293
+#: src/components/create-vm-dialog/automation.tsx:244
 msgid "User login must not be empty when SSH keys are set"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:291
+#: src/components/create-vm-dialog/automation.tsx:242
 msgid "User login must not be empty when user password is set"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:818
+#: src/components/create-vm-dialog/automation.tsx:70
 msgid "User password"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:288
+#: src/components/create-vm-dialog/automation.tsx:240
 msgid "User password must not be empty when user login is set"
 msgstr ""
 
@@ -3113,7 +3142,7 @@ msgstr ""
 msgid "VM $0 Host Devices"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:233
+#: src/components/create-vm-dialog/createVmDialog.tsx:158
 msgid "VM $0 already exists"
 msgstr ""
 
@@ -3157,7 +3186,7 @@ msgstr ""
 msgid "VM $0 failed to start"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:77
+#: src/components/common/machinesConnectionSelector.tsx:80
 msgid ""
 "VM launched with unprivileged limited access, with the process and PTY owned "
 "by your user account"
@@ -3171,7 +3200,7 @@ msgstr ""
 msgid "VM state"
 msgstr ""
 
-#: src/components/common/machinesConnectionSelector.tsx:60
+#: src/components/common/machinesConnectionSelector.tsx:63
 msgid "VM will launch with root permissions"
 msgstr ""
 
@@ -3187,7 +3216,7 @@ msgstr ""
 msgid "VNC with TLS is not supported by the in-page viewer"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:650
+#: src/components/create-vm-dialog/details.tsx:554
 msgid "Valid token"
 msgstr ""
 
@@ -3200,15 +3229,15 @@ msgstr ""
 msgid "Vendor"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:76
 msgid "Vendor support ended $0"
 msgstr ""
 
 #: src/components/storagePools/storagePoolList.tsx:46
 #: src/components/vm/vmDetailsPage.tsx:249
 #: src/components/networks/networkList.tsx:44
-#: src/components/vms/hostvmslist.tsx:308
-#: src/components/vms/hostvmslist.tsx:310 src/manifest.json:0
+#: src/components/vms/hostvmslist.tsx:302
+#: src/components/vms/hostvmslist.tsx:304 src/manifest.json:0
 msgid "Virtual machines"
 msgstr ""
 
@@ -3216,7 +3245,7 @@ msgstr ""
 msgid "Virtual machines management"
 msgstr ""
 
-#: src/components/create-vm-dialog/pxe-helpers.tsx:140
+#: src/components/create-vm-dialog/pxe-helpers.tsx:143
 msgid "Virtual network"
 msgstr ""
 
@@ -3240,7 +3269,7 @@ msgstr ""
 #: src/components/vm/disks/vmDiskColumns.tsx:43
 #: src/components/vm/overview/bootOrder.tsx:109
 #: src/components/vm/deleteDialog.tsx:78
-#: src/components/create-vm-dialog/createVmDialog.tsx:1152
+#: src/components/create-vm-dialog/details.tsx:922
 msgid "Volume"
 msgstr ""
 
@@ -3277,6 +3306,10 @@ msgid ""
 "running watchdog service."
 msgstr ""
 
+#: src/components/create-vm-dialog/passwordInput.tsx:98
+msgid "Weak password"
+msgstr ""
+
 #: src/libvirtApi/nodeDevice.ts:42
 msgid "Wireless Controller"
 msgstr ""
@@ -3290,7 +3323,7 @@ msgstr ""
 msgid "You can mount the shared folder using:"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:236
+#: src/components/create-vm-dialog/details.tsx:214
 msgid "You need to select the most closely matching operating system"
 msgstr ""
 
@@ -3443,6 +3476,10 @@ msgstr ""
 msgid "none"
 msgstr ""
 
+#: src/components/create-vm-dialog/passwordInput.tsx:111
+msgid "password quality"
+msgstr ""
+
 #: src/manifest.json:0
 msgid "pxe"
 msgstr ""
@@ -3507,7 +3544,7 @@ msgid ""
 "VMs"
 msgstr ""
 
-#: src/components/create-vm-dialog/createVmDialog.tsx:1773
+#: src/components/create-vm-dialog/createVmDialog.tsx:385
 msgid ""
 "virt-install package needs to be installed on the system in order to create "
 "new VMs"
