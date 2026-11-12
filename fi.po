@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-03 10:05+0000\n"
-"PO-Revision-Date: 2026-10-01 14:17+0000\n"
+"PO-Revision-Date: 2026-11-12 17:30+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/cockpit/"
 "cockpit-machines/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: src/index.html:5
 msgid "Virtual machines management"
@@ -154,7 +154,7 @@ msgstr "Avaa"
 
 #: src/helpers.ts:255
 msgid "None (isolated network)"
-msgstr "Ei-eristetty verkko"
+msgstr "Ei mitään (eristetty verkko)"
 
 #: src/helpers.ts:258
 msgid "Private"
@@ -384,7 +384,7 @@ msgstr "Tälle isännälle ei ole määritetty varastointivarantoa"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:73
 msgid "Volume failed to be created"
-msgstr "Taltion luominen epäonnnistui"
+msgstr "Taltion luominen epäonnistui"
 
 #: src/components/storagePools/storageVolumeCreate.tsx:86
 msgid "Create storage volume"
@@ -739,11 +739,11 @@ msgstr "Pilvipohjainen levykuva"
 
 #: src/components/create-vm-dialog/details.tsx:261
 msgid "Local install media (ISO image or distro install tree)"
-msgstr "Paikallinen asennusmedia (ISO-kuvan tai jakelun asennuspuu)"
+msgstr "Paikallinen asennusmedia (ISO-levykuva tai jakelun asennuspuu)"
 
 #: src/components/create-vm-dialog/details.tsx:262
 msgid "URL (ISO image or distro install tree)"
-msgstr "URL (ISO-kuvan tai jakelun asennuspuu)"
+msgstr "URL (ISO-levykuva tai jakelun asennuspuu)"
 
 #: src/components/create-vm-dialog/details.tsx:263
 msgid "Network boot (PXE)"
@@ -770,7 +770,7 @@ msgstr "Levykuva"
 
 #: src/components/create-vm-dialog/details.tsx:365
 msgid "Existing disk image on host's file system"
-msgstr "Poistutaan levykuvasta isännän tiedostojärjestelmässä"
+msgstr "Olemassa oleva levykuva isännän tiedostojärjestelmässä"
 
 #: src/components/create-vm-dialog/details.tsx:372
 msgid ""
@@ -1275,7 +1275,7 @@ msgstr "Ei kelvollinen IPv6-osoite"
 
 #: src/components/networks/createNetworkDialog.tsx:136
 msgid "Prefix length should not be empty"
-msgstr "Etuliitteen pituuss ei tulisi olla tyhjä"
+msgstr "Etuliitteen pituus ei tulisi olla tyhjä"
 
 #: src/components/networks/createNetworkDialog.tsx:138
 msgid "Invalid IPv6 prefix"
@@ -1622,16 +1622,12 @@ msgid "Changes pending"
 msgstr "Muutokset odottavat"
 
 #: src/components/common/storage.tsx:21
-#, fuzzy
-#| msgid "Pool"
 msgid "Pool \"$0\""
-msgstr "Varanto"
+msgstr "Varanto \"$0\""
 
 #: src/components/common/storage.tsx:22
-#, fuzzy
-#| msgid "Please choose a volume"
 msgid "Pool has no volumes"
-msgstr "Valitse taltio"
+msgstr "Varannossa ei ole taltioita"
 
 #: src/components/common/infoPopover.tsx:21
 msgid "more info"
@@ -2948,7 +2944,7 @@ msgstr "VM:n $0 kloonaus epäonnistui"
 
 #: src/components/vm/vmCloneDialog.tsx:84
 msgid "Create a clone VM based on $0"
-msgstr "Luo $0:een perustuva klooninen virtuaalikone"
+msgstr "Luo kloonattu virtuaalikone, joka perustuu kohteeseen $0"
 
 #: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:383
 msgid "Clone"
@@ -2992,7 +2988,7 @@ msgstr "Virtuaalikone $0 epäonnistui lähettämään NMI"
 
 #: src/components/vm/vmActions.tsx:155
 msgid "Failed to add TPM to VM $0"
-msgstr "TPM:n lisäminen virtuaalikoneeseen $0 epäonnistui"
+msgstr "TPM:n lisääminen virtuaalikoneeseen $0 epäonnistui"
 
 #: src/components/vm/vmActions.tsx:202
 msgid "Resume"
@@ -3251,7 +3247,7 @@ msgstr "Luo uusi"
 
 #: src/components/vm/disks/diskAdd.tsx:556
 msgid "Use existing"
-msgstr "Käytä olemassaolevaa"
+msgstr "Käytä olemassa olevaa"
 
 #: src/components/vm/disks/diskAdd.tsx:606
 msgid "Failed to add disk"
@@ -3275,19 +3271,17 @@ msgid "Media failed to be inserted"
 msgstr "Median asettaminen sisään epäonnistui"
 
 #: src/components/vm/disks/diskAdd.tsx:741
-#, fuzzy
-#| msgid "Insert disc media"
 msgid "Insert media"
-msgstr "Aseta levyasema"
+msgstr "Aseta media"
 
 #: src/components/vm/disks/diskAdd.tsx:742
 #: src/components/vm/disks/vmDiskColumns.tsx:223
 msgid "Insert"
-msgstr "Insert"
+msgstr "Aseta"
 
 #: src/components/vm/disks/diskAdd.tsx:747
 msgid "ISO files"
-msgstr ""
+msgstr "ISO-tiedostot"
 
 #: src/components/vm/disks/vmDisksCard.tsx:161
 msgid "Used on host"
