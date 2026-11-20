@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:20+0000\n"
+"POT-Creation-Date: 2026-11-20 10:31+0000\n"
 "PO-Revision-Date: 2026-10-22 09:18+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/cockpit/"
@@ -23,686 +23,258 @@ msgstr ""
 msgid "Virtual machines management"
 msgstr "Hantering av virtuella maskiner"
 
-#: src/helpers.ts:208
-msgid "disabled"
-msgstr "avaktiverat"
-
-#: src/helpers.ts:209
-msgid "enabled"
-msgstr "aktiverat"
-
-#: src/helpers.ts:212
-msgid "System"
-msgstr "System"
-
-#: src/helpers.ts:213
-msgid "User session"
-msgstr "Användarsession"
-
-#: src/helpers.ts:216
-msgid "Running"
-msgstr "Kör"
-
-#: src/helpers.ts:217
-msgid "Idle"
-msgstr "Overksam"
-
-#: src/helpers.ts:218
-msgid "Paused"
-msgstr "Pausad"
-
-#: src/helpers.ts:219 src/components/vm/snapshots/vmSnapshotsCard.tsx:147
-msgid "Shutting down"
-msgstr "Stänger av"
-
-#: src/helpers.ts:220
-msgid "Shut off"
-msgstr "Stäng av"
-
-#: src/helpers.ts:221
-msgid "Crashed"
-msgstr "Kraschad"
-
-#: src/helpers.ts:222
-msgid "Dying"
-msgstr "Döende"
-
-#: src/helpers.ts:223
-msgid "Suspended (PM)"
-msgstr "vilande (SH)"
-
-#: src/helpers.ts:224
-msgid "Blocked"
-msgstr "Blockerat"
-
-#: src/helpers.ts:225
-msgid "No state"
-msgstr "Inget tillstånd"
-
-#: src/helpers.ts:228 src/helpers.ts:231
-msgid "disk"
-msgstr "disk"
-
-#: src/helpers.ts:229
-msgid "cdrom"
-msgstr "cdrom"
-
-#: src/helpers.ts:230 src/helpers.ts:242
-msgid "network"
-msgstr "nätverk"
-
-#: src/helpers.ts:232
-msgid "redirected device"
-msgstr "omdirigerad enhet"
-
-#: src/helpers.ts:233
-msgid "host device"
-msgstr "värdenhet"
-
-#: src/helpers.ts:236 src/components/vm/overview/cpuModal.tsx:322
-msgid "custom"
-msgstr "anpassad"
-
-#: src/helpers.ts:237
-msgid "host"
-msgstr "värd"
-
-#: src/helpers.ts:238
-msgid "host passthrough"
-msgstr "genomgång till värd"
-
-#: src/helpers.ts:241
-msgid "direct"
-msgstr "direkt"
-
-#: src/helpers.ts:243
-msgid "bridge"
-msgstr "brygga"
-
-#: src/helpers.ts:244
-msgid "user"
-msgstr "användare"
-
-#: src/helpers.ts:245
-msgid "ethernet"
-msgstr "ethernet"
-
-#: src/helpers.ts:246
-msgid "hostdev"
-msgstr "värdenhet"
-
-#: src/helpers.ts:247
-msgid "mcast"
-msgstr "mcast"
-
-#: src/helpers.ts:248
-msgid "server"
-msgstr "server"
-
-#: src/helpers.ts:249
-msgid "udp"
-msgstr "udp"
-
-#: src/helpers.ts:250
-msgid "vhostuser"
-msgstr "vhost-användare"
-
-#: src/helpers.ts:253
-msgid "Open"
-msgstr "Öppna"
-
-#: src/helpers.ts:255
-msgid "None (isolated network)"
-msgstr "Ingen (isolerat nätverk)"
-
-#: src/helpers.ts:258
-msgid "Private"
-msgstr "Privat"
-
-#: src/helpers.ts:264 src/components/storagePools/storagePoolOverviewTab.tsx:56
-#: src/components/storagePools/storagePoolOverviewTab.tsx:61
-#: src/components/networks/networkOverviewTab.tsx:113
-msgid "yes"
-msgstr "ja"
-
-#: src/helpers.ts:265 src/components/storagePools/storagePoolOverviewTab.tsx:56
-#: src/components/storagePools/storagePoolOverviewTab.tsx:61
-#: src/components/networks/networkOverviewTab.tsx:113
-msgid "no"
-msgstr "nej"
-
-#: src/helpers.ts:268
-msgid "up"
-msgstr "uppe"
-
-#: src/helpers.ts:269
-msgid "down"
-msgstr "nere"
-
-#: src/helpers.ts:272
-msgid "Reset"
-msgstr "Återställ"
-
-#: src/helpers.ts:273
-msgid "Gracefully shutdown"
-msgstr "Graciös avstängning"
-
-#: src/helpers.ts:274
-msgid "Power off"
-msgstr "Stäng av"
-
-#: src/helpers.ts:275 src/components/vm/vmActions.tsx:191
-msgid "Pause"
-msgstr "Pausa"
-
-#: src/helpers.ts:276
-msgid "Do nothing"
-msgstr "Gör ingenting"
-
-#: src/helpers.ts:277
-msgid "Dump core"
-msgstr "Dumpa minnet"
-
-#: src/helpers.ts:278
-msgid "Inject a non-maskable interrupt"
-msgstr "Injicera ett ej maskerbart avbrott"
-
-#: src/components/aggregateStatusCards.tsx:34
-msgid "$0 Storage pool"
-msgid_plural "$0 Storage pools"
-msgstr[0] "$0 Lagringspool"
-msgstr[1] "$0 Lagringspooler"
-
-#: src/components/aggregateStatusCards.tsx:56
-msgid "$0 Network"
-msgid_plural "$0 Networks"
-msgstr[0] "$0 Nätverk"
-msgstr[1] "$0 Nätverk"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:56
-msgid "Please enter new volume name"
-msgstr "Ange ett nytt volymnamn"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:62
-msgid "Size must be a number"
-msgstr "Storlek måste vara ett nummer"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:65
-msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
-"Lagringsvolymstorleken får inte överstiga lagringspoolens kapacitet ($0 $1)"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:103
-#: src/components/storagePools/createStoragePoolDialog.tsx:244
-#: src/components/vm/disks/vmDiskColumns.tsx:134
-msgid "Format"
-msgstr "Formater"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:113
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/storagePools/createStoragePoolDialog.tsx:58
-#: src/components/vms/hostvmslist.tsx:307
-#: src/components/create-vm-dialog/createVmDialog.tsx:245
-#: src/components/networks/networkList.tsx:59
-#: src/components/networks/createNetworkDialog.tsx:172
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
-#: src/components/vm/vmCloneDialog.tsx:92
-msgid "Name"
-msgstr "Namn"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:116
-msgid "New volume name"
-msgstr "Nytt volymnamn"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:120
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/storagePoolList.tsx:62
-#: src/components/vm/disks/vmDisksCard.tsx:160
-msgid "Size"
-msgstr "Storlek"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:23
-#: src/components/storagePools/createStoragePoolDialog.tsx:154
-#: src/components/vm/overview/bootOrder.tsx:110
-#: src/components/vm/disks/vmDiskColumns.tsx:44
-msgid "Host"
-msgstr "Värd"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:30
-#: src/components/storagePools/storagePoolOverviewTab.tsx:35
-#: src/components/storagePools/createStoragePoolDialog.tsx:218
-#: src/components/storagePools/createStoragePoolDialog.tsx:235
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:201
-msgid "Source path"
-msgstr "Källsökväg"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:40
-#: src/components/vm/nics/vmNicsCard.tsx:549
-#: src/components/vm/nics/nicBody.tsx:269
-#: src/components/vm/disks/diskAdd.tsx:570
-#: src/components/vm/disks/vmDisksCard.tsx:158
-#: src/components/vm/hostdevs/hostDevCard.tsx:217
-msgid "Source"
-msgstr "Källa"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:45
-msgid "Source format"
-msgstr "Källformat"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:50
-#: src/components/storagePools/createStoragePoolDialog.tsx:130
-msgid "Target path"
-msgstr "Målsökväg"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:55
-#: src/components/networks/networkOverviewTab.tsx:112
-msgid "Persistent"
-msgstr "Varaktig"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:60
-#: src/components/networks/networkOverviewTab.tsx:117
-#: src/components/vm/overview/vmOverviewCard.tsx:190
-msgid "Autostart"
-msgstr "Starta automatiskt"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:65
-#: src/components/storagePools/createStoragePoolDialog.tsx:102
-#: src/components/vm/overview/bootOrder.tsx:125
-#: src/components/vm/overview/bootOrder.tsx:139
-#: src/components/vm/overview/bootOrder.tsx:155
-#: src/components/vm/overview/bootOrder.tsx:162
-#: src/components/vm/overview/bootOrder.tsx:169
-#: src/components/vm/overview/bootOrder.tsx:175
-#: src/components/vm/nics/vmNicsCard.tsx:780
-#: src/components/vm/hostdevs/hostDevAdd.tsx:43
-#: src/components/vm/hostdevs/hostDevCard.tsx:177
-msgid "Type"
-msgstr "Typ"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-msgid "Used by"
-msgstr "Används av"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:111
-msgid "No storage volumes defined for this storage pool"
-msgstr "Inga lagringsvolymer är definierade för denna lagringspool"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:111
-msgid "Activate the storage pool to administer volumes"
-msgstr "Aktivera lagringspoolen för att administrera volymer"
-
-#: src/components/storagePools/storagePoolList.tsx:46
-#: src/components/vms/hostvmslist.tsx:302
-#: src/components/vms/hostvmslist.tsx:304
-#: src/components/networks/networkList.tsx:44
-#: src/components/vm/vmDetailsPage.tsx:249 src/manifest.json:0
-msgid "Virtual machines"
-msgstr "Virtuella maskiner"
-
-#: src/components/storagePools/storagePoolList.tsx:49
-#: src/components/storagePools/storagePoolList.tsx:56
-#: src/components/storagePools/storagePoolList.tsx:58
-#: src/components/create-vm-dialog/details.tsx:895
-msgid "Storage pools"
-msgstr "Lagringspooler"
-
-#: src/components/storagePools/storagePoolList.tsx:63
-#: src/components/vms/hostvmslist.tsx:308
-#: src/components/networks/networkList.tsx:61
-#: src/components/networks/createNetworkDialog.tsx:34
-#: src/components/common/machinesConnectionSelector.tsx:46
-#: src/components/vm/overview/vmOverviewCard.tsx:158
-msgid "Connection"
-msgstr "Anslutning"
-
-#: src/components/storagePools/storagePoolList.tsx:64
-#: src/components/vms/hostvmslist.tsx:253
-#: src/components/vms/hostvmslist.tsx:309
-#: src/components/networks/networkList.tsx:63
-#: src/components/vm/overview/vmOverviewCard.tsx:163
-#: src/components/vm/nics/vmNicsCard.tsx:586
-msgid "State"
-msgstr "Tillstånd"
-
-#: src/components/storagePools/storagePoolList.tsx:65
-#: src/components/vms/hostvmslist.tsx:311
-#: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:593
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
-#: src/components/vm/disks/vmDisksCard.tsx:162
-msgid "Actions"
-msgstr "Åtgärder"
-
-#: src/components/storagePools/storagePoolList.tsx:67
-msgid "No storage pool is defined on this host"
-msgstr "Ingen lagringspool är definierad på denna värd"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:73
-msgid "Volume failed to be created"
-msgstr "Volymen kunde inte skapas"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:86
-msgid "Create storage volume"
-msgstr "Skapa lagringsvolym"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:95
-#: src/components/storagePools/createStoragePoolDialog.tsx:509
-#: src/components/networks/createNetworkDialog.tsx:545
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:337
-msgid "Create"
-msgstr "Skapa"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:126
-#: src/components/storagePools/storageVolumeCreate.tsx:145
-msgid "Create volume"
-msgstr "Skapa volym"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:135
-msgid "Pool type doesn't support volume creation"
-msgstr "Pooltyp stödjer inte att skapa volymer"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:136
-msgid "Pool needs to be active to create volume"
-msgstr "Poolen måste vara aktiv för att skapa volym"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:60
-msgid "Storage pool name"
-msgstr "Lagringspoolsnamn"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:64
-#: src/components/networks/createNetworkDialog.tsx:77
-msgid "Name should not be empty"
-msgstr "Namnet får inte vara tomt"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:64
-msgid "Name contains invalid characters"
-msgstr "Namnet innehåller ogiltiga tecken"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:79
-msgid "Filesystem directory"
-msgstr "Filsystemskatalog"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:80
-msgid "Network file system"
-msgstr "Nätverksfilsystem"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:81
-msgid "iSCSI target"
-msgstr "iSCSI-mål"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:82
-msgid "Physical disk device"
-msgstr "Fysisk diskenhet"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:83
-msgid "LVM volume group"
-msgstr "LVM Volymgrupp"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:84
-msgid "Pre-formatted block device"
-msgstr "För-formaterad blockenhet"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:88
-msgid "iSCSI direct target"
-msgstr "iSCSI direktmål"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:134
-msgid "Path on host's filesystem"
-msgstr "Sökväg på värdens filsystem"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:136
-msgid "Target path should not be empty"
-msgstr "Målsökvägen får inte vara tom"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:157
-msgid "Host name"
-msgstr "Värdnamn"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:160
-msgid "Host should not be empty"
-msgstr "Värden får inte vara tom"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:177
-msgid "Initiator"
-msgstr "Initierare"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:179
-msgid "iSCSI initiator IQN"
-msgstr "iSCSI initierar-IQN"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:183
-msgid "Initiator should not be empty"
-msgstr "Initieraren skall inte vara tom"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:204
-msgid "The directory on the server being exported"
-msgstr "Katalogen på servern exporteras"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:207
-msgid "iSCSI target IQN"
-msgstr "iSCSI mål IQN"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:210
-msgid "Physical disk device on host"
-msgstr "Fysisk diskenhet på värd"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:213
-msgid "Volume group name"
-msgstr "Volym gruppnamn"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:229
-#: src/components/storagePools/createStoragePoolDialog.tsx:242
-msgid "Source path should not be empty"
-msgstr "Källsökvägen får inte vara tom"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:263
-msgid "Source volume group"
-msgstr "Källvolymgrupp"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:270
-msgid "Volume group name should not be empty"
-msgstr "Volymgruppens namn ska inte vara tomt"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:284
-msgid "Startup"
-msgstr "Uppstart"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:286
-msgid "Start pool when host boots"
-msgstr "Starta poolen när värden startar upp"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:464
-msgid "Storage pool failed to be created"
-msgstr "Lagringspoolen kunde inte skapas"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:503
-#: src/components/storagePools/createStoragePoolDialog.tsx:554
-msgid "Create storage pool"
-msgstr "Skapa en lagringspool"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:512
-#: src/components/storagePools/storagePoolDelete.tsx:207
-#: src/components/create-vm-dialog/createVmDialog.tsx:347
-#: src/components/networks/createNetworkDialog.tsx:548
-#: src/components/networks/networkOverviewTab.tsx:271
-#: src/components/common/deleteResource.tsx:116
-#: src/components/vm/overview/vsock.tsx:272
-#: src/components/vm/overview/cpuModal.tsx:341
-#: src/components/vm/overview/watchdog.tsx:228
-#: src/components/vm/overview/memoryModal.tsx:195
-#: src/components/vm/overview/firmware.tsx:107
-#: src/components/vm/overview/bootOrder.tsx:356
-#: src/components/vm/confirmDialog.tsx:66
-#: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
-#: src/components/vm/vmReplaceSpiceDialog.tsx:165
-#: src/components/vm/vmRenameDialog.tsx:96
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
-#: src/components/vm/vmCloneDialog.tsx:111
-#: src/components/vm/vmMigrateDialog.tsx:227
-#: src/components/vm/disks/mediaEject.tsx:116
-#: src/components/vm/deleteDialog.tsx:216
-#: src/components/vm/hostdevs/hostDevAdd.tsx:266
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: src/components/storagePools/storagePool.tsx:53
-#: src/components/networks/network.tsx:54
-msgid "active"
-msgstr "aktiv"
-
-#: src/components/storagePools/storagePool.tsx:53
-#: src/components/networks/network.tsx:54
-msgid "inactive"
-msgstr "inaktiv"
-
-#: src/components/storagePools/storagePool.tsx:60
-#: src/components/vm/vmDetailsPage.tsx:140
-msgid "Overview"
-msgstr "Översikt"
-
-#: src/components/storagePools/storagePool.tsx:66
-msgid "Storage volumes"
-msgstr "Lagringsvolymer"
-
-#: src/components/storagePools/storagePool.tsx:113
-msgid "Storage pool $0 failed to get activated"
-msgstr "Lagringspool $0 kunde inte aktiveras"
-
-#: src/components/storagePools/storagePool.tsx:129
-msgid "Storage pool $0 failed to get deactivated"
-msgstr "Lagringspool $0 kunde inte inaktiveras"
-
-#: src/components/storagePools/storagePool.tsx:146
-#: src/components/networks/network.tsx:145
-msgid "Deactivate"
-msgstr "Avaktivera"
-
-#: src/components/storagePools/storagePool.tsx:155
-#: src/components/networks/network.tsx:149
-msgid "Activate"
-msgstr "Aktivera"
-
-#: src/components/storagePools/storagePool.tsx:160
-#: src/components/storagePools/storagePool.tsx:167
-msgid "Operation is in progress"
-msgstr "Operation pågår"
-
-#: src/components/storagePools/storagePoolDelete.tsx:84
-msgid "Pool's volumes are used by VMs "
-msgstr "Poolens volymer används av VM:ar "
-
-#: src/components/storagePools/storagePoolDelete.tsx:86
+#: src/state.ts:263
+msgid "Failed to fetch some resources"
+msgstr "Misslyckades att hämta några resurser"
+
+#: src/app.tsx:133
+msgid "Hardware virtualization is disabled"
+msgstr "Hårdvaruvirtualisering är inaktiverad"
+
+#: src/app.tsx:136
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr "Aktivera virtualiseringsstöd i BIOS/EFI-inställningar."
+
+#: src/app.tsx:138
 msgid ""
-"Detach the disks using this pool from any VMs before attempting deletion."
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
 msgstr ""
-"Koppla bort diskarna från VM:er som använder denna pool innan du försöker ta "
-"bort poolen."
+"Att ändra BIOS/EFI-inställningarna är specifikt för varje tillverkare. Det "
+"innebär att man trycker på en snabbtangent under uppstart (ESC, F1, F12, "
+"Del). Aktivera en inställning som heter \"virtualisering\", \"VM\", \"VMX\", "
+"\"SVM\", \"VTX\", \"VTD\". Se din dators manual för detaljer."
 
-#: src/components/storagePools/storagePoolDelete.tsx:138
-#: src/components/storagePools/storagePoolDelete.tsx:142
-msgid "The storage pool could not be deleted"
-msgstr "Lagringspoolen kunde inte raderas"
+#: src/app.tsx:147
+msgid "Ignore"
+msgstr "Ignorera"
 
-#: src/components/storagePools/storagePoolDelete.tsx:175
-msgid "Also delete all volumes inside this pool:"
-msgstr "Ta också bort alla volymer i denna pool:"
+#: src/app.tsx:160
+msgid "Loading resources"
+msgstr "Laddar resurser"
 
-#: src/components/storagePools/storagePoolDelete.tsx:184
-msgid "No volumes exist in this storage pool."
-msgstr "Inga volymer finns i denna lagringspool."
+#: src/app.tsx:172
+msgid "Virtualization service (libvirt) is not active"
+msgstr "Virtualiseringstjänsten (libvirt) är inte aktiv"
 
-#: src/components/storagePools/storagePoolDelete.tsx:185
+#: src/app.tsx:173
+msgid "Troubleshoot"
+msgstr "Felsök"
+
+#: src/app.tsx:220
+msgid "VM $0 does not exist on $1 connection"
+msgstr "VM $0 finns inte på $1 -anslutning"
+
+#: src/app.tsx:221 src/app.tsx:233
+msgid "Go to VMs list"
+msgstr "Gå till VM-listan"
+
+#: src/app.tsx:232
+msgid "Downloading image for VM $0"
+msgstr "Hämtar avbilden för VM $0"
+
+#: src/app.tsx:232
+msgid "Creating VM $0"
+msgstr "Skapar VM $0"
+
+#: src/app.tsx:236
+msgid "Download progress"
+msgstr "Hämtningsförlopp"
+
+#: src/libvirtApi/nodeDevice.ts:29
+msgid "Unclassified"
+msgstr "Oklassificerad"
+
+#: src/libvirtApi/nodeDevice.ts:30
+msgid "Mass Storage Controller"
+msgstr "Masslagringskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:31
+msgid "Network Controller"
+msgstr "Nätverks kontroller"
+
+#: src/libvirtApi/nodeDevice.ts:32
+msgid "Display Controller"
+msgstr "Skärmkontroller"
+
+#: src/libvirtApi/nodeDevice.ts:33
+msgid "Multimedia Controller"
+msgstr "Multimediakontroller"
+
+#: src/libvirtApi/nodeDevice.ts:34
+msgid "Memory Controller"
+msgstr "Minneskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:35
+msgid "Bridge"
+msgstr "Brygga"
+
+#: src/libvirtApi/nodeDevice.ts:36
+msgid "Simple Communication Controller"
+msgstr "Simpel kommunikationskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:37
+msgid "Base System Peripheral"
+msgstr "Bassystemets kringutrustning"
+
+#: src/libvirtApi/nodeDevice.ts:38
+msgid "Input Device Controller"
+msgstr "Inmatningsenhetsstyrenhet"
+
+#: src/libvirtApi/nodeDevice.ts:39
+msgid "Docking Station"
+msgstr "Dockningsstation"
+
+#: src/libvirtApi/nodeDevice.ts:40
+msgid "Processor"
+msgstr "Processor"
+
+#: src/libvirtApi/nodeDevice.ts:41
+msgid "Serial Bus Controller"
+msgstr "Seriell busskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:42
+msgid "Wireless Controller"
+msgstr "Trådlös kontroller"
+
+#: src/libvirtApi/nodeDevice.ts:43
+msgid "Intelligent Controller"
+msgstr "Intelligent styrenhet"
+
+#: src/libvirtApi/nodeDevice.ts:44
+msgid "Satellite Communication Controller"
+msgstr "Satellitkommunikationskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:45
+msgid "Encryption Controller"
+msgstr "Krypteringskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:46
+msgid "Signal Processing Controller"
+msgstr "Signalbehandlingskontroller"
+
+#: src/libvirtApi/nodeDevice.ts:47
+msgid "Processing Accelerator"
+msgstr "Processaccelerator"
+
+#: src/libvirtApi/nodeDevice.ts:48
+msgid "Non-Essential Instrumentation"
+msgstr "Icke-väsentlig instrumentering"
+
+#: src/libvirtApi/nodeDevice.ts:59
+msgid "Co-Processor"
+msgstr "Medprocessor"
+
+#: src/libvirtApi/nodeDevice.ts:61
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: src/components/create-vm-dialog/automation.tsx:59
+msgid "Root password"
+msgstr "Root-lösenord"
+
+#: src/components/create-vm-dialog/automation.tsx:66
+msgid "User login"
+msgstr "Användarinloggning"
+
+#: src/components/create-vm-dialog/automation.tsx:70
+msgid "User password"
+msgstr "Användarens lösenord"
+
+#: src/components/create-vm-dialog/automation.tsx:71
 msgid ""
-"Deleting an inactive storage pool will only undefine the pool. Its content "
-"will not be deleted."
-msgstr ""
-"Att ta bort en inaktiv lagringspool kommer bara att odefiniera poolen. Dess "
-"innehåll kommer inte att raderas."
+"Leave the password blank if you do not wish to have a user account created"
+msgstr "Lämna lösenordet tomt om du inte vill skapa en användare"
 
-#: src/components/storagePools/storagePoolDelete.tsx:193
-msgid "Delete $0 storage pool?"
-msgstr "Ta bort lagringspoolen $0?"
+#: src/components/create-vm-dialog/automation.tsx:153
+msgid "Public key"
+msgstr "Publik nyckel"
 
-#: src/components/storagePools/storagePoolDelete.tsx:204
-#: src/components/storagePools/storagePoolDelete.tsx:234
-#: src/components/storagePools/storagePoolDelete.tsx:244
-#: src/components/networks/network.tsx:126
-#: src/components/networks/network.tsx:129
-#: src/components/common/deleteResource.tsx:104
-#: src/components/common/deleteResource.tsx:164
-#: src/components/common/deleteResource.tsx:175
-#: src/components/vm/vmActions.tsx:466 src/components/vm/vmActions.tsx:474
-#: src/components/vm/deleteDialog.tsx:213
-msgid "Delete"
-msgstr "Ta bort"
+#: src/components/create-vm-dialog/automation.tsx:157
+msgid "Public SSH key"
+msgstr "Publik SSH nyckel"
 
-#: src/components/storagePools/storagePoolDelete.tsx:223
+#: src/components/create-vm-dialog/automation.tsx:163
+msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
+msgstr "Nycklar finns i ~/.ssh/ och har filtillägget \".pub\"."
+
+#: src/components/create-vm-dialog/automation.tsx:178
+#: src/components/vm/nics/nicBody.tsx:512
+#: src/components/vm/nics/nicBody.tsx:543
+msgid "Remove item"
+msgstr "Ta bort objekt"
+
+#: src/components/create-vm-dialog/automation.tsx:221
+msgid "Profile"
+msgstr "Profil"
+
+#: src/components/create-vm-dialog/automation.tsx:229
 msgid ""
-"Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
-"deactivated."
+"Leave the password blank if you do not wish to have a root account created"
+msgstr "Lämna lösenordet tomt om du inte vill skapa en superanvändare"
+
+#: src/components/create-vm-dialog/automation.tsx:240
+msgid "User password must not be empty when user login is set"
 msgstr ""
-"Icke varaktig lagringspool kan inte raderas. Den slutar att finnas när den "
-"deaktiveras."
+"Användarlösenordet får inte vara tomt när användarinloggning är inställd"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:44
-msgid "Storage volumes could not be deleted"
-msgstr "Lagringsvolymer kunde inte raderas"
+#: src/components/create-vm-dialog/automation.tsx:242
+msgid "User login must not be empty when user password is set"
+msgstr ""
+"Användarinloggningen får inte vara tom när användarlösenordet är inställt"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:60
-msgid "Delete $0 volume"
-msgid_plural "Delete $0 volumes"
-msgstr[0] "Ta bort volymen $0"
-msgstr[1] "Ta bort volymerna $0"
+#: src/components/create-vm-dialog/automation.tsx:244
+msgid "User login must not be empty when SSH keys are set"
+msgstr "Användarinloggning får inte vara tom när SSH-nycklar är inställda"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:68
+#: src/components/create-vm-dialog/automation.tsx:265
+msgid "Leave the password blank if you do not wish to set a root password"
+msgstr "Lämna lösenordet tomt om du inte vill skapa en rootanvändare"
+
+#: src/components/create-vm-dialog/automation.tsx:268
+msgid "No SSH keys specified"
+msgstr "Inga SSH-nycklar specificerade"
+
+#: src/components/create-vm-dialog/automation.tsx:269
+msgid "SSH keys"
+msgstr "SSH-nycklar"
+
+#: src/components/create-vm-dialog/automation.tsx:270
+msgid "Add SSH keys"
+msgstr "Lägg till SSH nycklar"
+
+#: src/components/create-vm-dialog/automation.tsx:295
+msgid "Boot arguments"
+msgstr "Uppstarts argument"
+
+#: src/components/create-vm-dialog/automation.tsx:297
 msgid ""
-"One or more selected volumes are used by domains. Detach the disks first to "
-"allow volume deletion."
+"Arguments passed to the booted kernel can often be used to control the "
+"installer. Refer to the documentation of the installer of $0."
 msgstr ""
-"En eller flera valda volymer används av domäner. Koppla loss diskarna först "
-"för att tillåta radering av volymer."
+"Argument som skickas till den startade kärnan kan ofta användas för att "
+"styra installationsprogrammet. Se dokumentationen som tillhör "
+"installationsprogrammet för $0."
 
-#: src/components/vms/hostvmslist.tsx:60
-msgid "Downloading: $0%"
-msgstr "Hämtar: $0 %"
+#: src/components/create-vm-dialog/automation.tsx:311
+msgid "Enter root and/or user information to enable unattended installation."
+msgstr ""
+"Ange root och/eller användarinformation för att möjliggöra obevakad "
+"installation."
 
-#: src/components/vms/hostvmslist.tsx:62
-msgid "Creating VM"
-msgstr "Skapar VM"
+#: src/components/create-vm-dialog/automation.tsx:312
+msgid ""
+"Automated installs are only available when downloading an image, an install "
+"tree or using cloud-init."
+msgstr ""
+"Automatiska installationer är endast tillgängliga när du laddar ner en "
+"avbildning, ett installationsträd eller använder cloud-init."
 
-#: src/components/vms/hostvmslist.tsx:86 src/components/vms/hostvmslist.tsx:288
-#: src/components/common/needsShutdown.tsx:206
-#: src/components/vm/overview/vmOverviewCard.tsx:178
-#: src/components/vm/vmUsageCard.tsx:52
-msgid "CPU"
-msgstr "CPU"
-
-#: src/components/vms/hostvmslist.tsx:104
-#: src/components/vms/hostvmslist.tsx:289
-#: src/components/create-vm-dialog/details.tsx:761
-#: src/components/vm/overview/vmOverviewCard.tsx:173
-#: src/components/vm/vmUsageCard.tsx:44
-msgid "Memory"
-msgstr "Minne"
-
-#: src/components/vms/hostvmslist.tsx:208
-#: src/components/vms/hostvmslist.tsx:226
-msgid "All"
-msgstr "Alla"
-
-#: src/components/vms/hostvmslist.tsx:249
-msgid "Filter by name"
-msgstr "Filtrera efter namn"
-
-#: src/components/vms/hostvmslist.tsx:313
-msgid "No VM is running or defined on this host"
-msgstr "Ingen VM kör eller är definierad på denna värd"
+#: src/components/create-vm-dialog/automation.tsx:313
+msgid "$0 does not support unattended installation."
+msgstr "$0 stöder inte installation utan tillsyn."
 
 #: src/components/create-vm-dialog/details.tsx:214
 msgid "You need to select the most closely matching operating system"
@@ -843,8 +415,8 @@ msgstr "MiB"
 
 #: src/components/create-vm-dialog/details.tsx:683
 #: src/components/common/dialog.tsx:105
-#: src/components/vm/overview/memorySelectRow.tsx:95
 #: src/components/vm/disks/vmDisksCard.tsx:39
+#: src/components/vm/overview/memorySelectRow.tsx:95
 msgid "GiB"
 msgstr "GiB"
 
@@ -864,6 +436,13 @@ msgstr "$0 $1 tillgängligt på värden"
 #: src/components/create-vm-dialog/details.tsx:753
 msgid "The selected operating system has minimum memory requirement of $0 $1"
 msgstr "Det valda operativsystemet har ett minsta minneskrav på $0 $1"
+
+#: src/components/create-vm-dialog/details.tsx:761
+#: src/components/vm/overview/vmOverviewCard.tsx:173
+#: src/components/vm/vmUsageCard.tsx:44 src/components/vms/hostvmslist.tsx:104
+#: src/components/vms/hostvmslist.tsx:289
+msgid "Memory"
+msgstr "Minne"
 
 #: src/components/create-vm-dialog/details.tsx:834
 msgid "Storage must be a number"
@@ -894,17 +473,24 @@ msgstr "Skapa ny rå volym"
 msgid "No storage"
 msgstr "Ingen lagring"
 
+#: src/components/create-vm-dialog/details.tsx:895
+#: src/components/storagePools/storagePoolList.tsx:49
+#: src/components/storagePools/storagePoolList.tsx:56
+#: src/components/storagePools/storagePoolList.tsx:58
+msgid "Storage pools"
+msgstr "Lagringspooler"
+
 #: src/components/create-vm-dialog/details.tsx:902
 #: src/components/vm/vmMigrateDialog.tsx:108
 msgid "Storage"
 msgstr "Lagring"
 
 #: src/components/create-vm-dialog/details.tsx:922
-#: src/components/vm/overview/bootOrder.tsx:109
-#: src/components/vm/disks/diskAdd.tsx:336
-#: src/components/vm/disks/vmDiskColumns.tsx:43
 #: src/components/vm/disks/mediaEject.tsx:89
+#: src/components/vm/disks/vmDiskColumns.tsx:43
+#: src/components/vm/disks/diskAdd.tsx:336
 #: src/components/vm/deleteDialog.tsx:78
+#: src/components/vm/overview/bootOrder.tsx:109
 msgid "Volume"
 msgstr "Volym"
 
@@ -916,33 +502,13 @@ msgstr "Den här volymen används redan av en annan VM."
 msgid "Storage limit"
 msgstr "Lagringsgräns"
 
-#: src/components/create-vm-dialog/passwordInput.tsx:90
-msgid "Excellent password"
-msgstr "Utmärkt lösenord"
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:72
+msgid "Vendor support ended $0"
+msgstr "Leverantörssupport slutade $0"
 
-#: src/components/create-vm-dialog/passwordInput.tsx:90
-msgid "Strong password"
-msgstr "Starkt lösenord"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:94
-msgid "Acceptable password"
-msgstr "Godtagbart lösenord"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:98
-msgid "Weak password"
-msgstr "Svagt lösenord"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:111
-msgid "password quality"
-msgstr "lösenordskvalitet"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:161
-msgid "Show password"
-msgstr "Visa lösenord"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:161
-msgid "Hide password"
-msgstr "Dölj lösenord"
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
+msgid "Released $0"
+msgstr "Släppt $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.tsx:80
 msgid "NAT to $0"
@@ -976,6 +542,34 @@ msgstr "Värdenhet"
 msgid "No networks available"
 msgstr "Inga nätverk tillgängliga"
 
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Excellent password"
+msgstr "Utmärkt lösenord"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Strong password"
+msgstr "Starkt lösenord"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:94
+msgid "Acceptable password"
+msgstr "Godtagbart lösenord"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:98
+msgid "Weak password"
+msgstr "Svagt lösenord"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:111
+msgid "password quality"
+msgstr "lösenordskvalitet"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Show password"
+msgstr "Visa lösenord"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Hide password"
+msgstr "Dölj lösenord"
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:156
 #: src/components/vm/vmCloneDialog.tsx:51
 msgid "Name must not be empty"
@@ -992,6 +586,20 @@ msgstr "Misslyckades att skapa VM $0"
 #: src/components/create-vm-dialog/createVmDialog.tsx:235
 msgid "Loading operating system information..."
 msgstr "Laddar information om operativsystemet..."
+
+#: src/components/create-vm-dialog/createVmDialog.tsx:245
+#: src/components/networks/networkList.tsx:59
+#: src/components/networks/createNetworkDialog.tsx:172
+#: src/components/storagePools/storageVolumeCreateBody.tsx:113
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+#: src/components/storagePools/createStoragePoolDialog.tsx:58
+#: src/components/storagePools/storagePoolList.tsx:61
+#: src/components/vm/vmCloneDialog.tsx:92
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
+#: src/components/vms/hostvmslist.tsx:307
+msgid "Name"
+msgstr "Namn"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:249
 msgid "Unique name"
@@ -1041,6 +649,33 @@ msgstr "Skapa och kör"
 msgid "Import and run"
 msgstr "Importera och kör"
 
+#: src/components/create-vm-dialog/createVmDialog.tsx:347
+#: src/components/networks/networkOverviewTab.tsx:271
+#: src/components/networks/createNetworkDialog.tsx:548
+#: src/components/common/deleteResource.tsx:116
+#: src/components/storagePools/storagePoolDelete.tsx:207
+#: src/components/storagePools/createStoragePoolDialog.tsx:512
+#: src/components/vm/disks/mediaEject.tsx:116
+#: src/components/vm/deleteDialog.tsx:216
+#: src/components/vm/vmCloneDialog.tsx:111
+#: src/components/vm/hostdevs/hostDevAdd.tsx:266
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
+#: src/components/vm/overview/bootOrder.tsx:356
+#: src/components/vm/overview/memoryModal.tsx:195
+#: src/components/vm/overview/watchdog.tsx:228
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/cpuModal.tsx:341
+#: src/components/vm/overview/firmware.tsx:107
+#: src/components/vm/vmRenameDialog.tsx:96
+#: src/components/vm/vmMigrateDialog.tsx:227
+#: src/components/vm/confirmDialog.tsx:66
+#: src/components/vm/vmEditDescriptionDialog.tsx:81
+#: src/components/vm/vmReplaceSpiceDialog.tsx:165
+msgid "Cancel"
+msgstr "Avbryt"
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:378
 msgid "Create VM"
 msgstr "Skapa en VM"
@@ -1066,118 +701,86 @@ msgid "Create VM by importing a disk image of an existing VM installation"
 msgstr ""
 "Skapa en VM genom att importera en diskavbild av en befintlig VM-installation"
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:72
-msgid "Vendor support ended $0"
-msgstr "Leverantörssupport slutade $0"
+#: src/components/aggregateStatusCards.tsx:34
+msgid "$0 Storage pool"
+msgid_plural "$0 Storage pools"
+msgstr[0] "$0 Lagringspool"
+msgstr[1] "$0 Lagringspooler"
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
-msgid "Released $0"
-msgstr "Släppt $0"
+#: src/components/aggregateStatusCards.tsx:56
+msgid "$0 Network"
+msgid_plural "$0 Networks"
+msgstr[0] "$0 Nätverk"
+msgstr[1] "$0 Nätverk"
 
-#: src/components/create-vm-dialog/automation.tsx:59
-msgid "Root password"
-msgstr "Root-lösenord"
+#: src/components/networks/network.tsx:54
+#: src/components/storagePools/storagePool.tsx:53
+msgid "active"
+msgstr "aktiv"
 
-#: src/components/create-vm-dialog/automation.tsx:66
-msgid "User login"
-msgstr "Användarinloggning"
+#: src/components/networks/network.tsx:54
+#: src/components/storagePools/storagePool.tsx:53
+msgid "inactive"
+msgstr "inaktiv"
 
-#: src/components/create-vm-dialog/automation.tsx:70
-msgid "User password"
-msgstr "Användarens lösenord"
+#: src/components/networks/network.tsx:87
+msgid "Network $0 failed to get activated"
+msgstr "Kunde inte starta nätverk $0"
 
-#: src/components/create-vm-dialog/automation.tsx:71
+#: src/components/networks/network.tsx:101
+msgid "Network $0 failed to get deactivated"
+msgstr "Kunde inte stoppa nätverk $0"
+
+#: src/components/networks/network.tsx:116
+msgid "Delete network?"
+msgstr "Ta bort nätverket?"
+
+#: src/components/networks/network.tsx:117
+msgid "Network $0 could not be deleted"
+msgstr "Nätverk $0 kunde inte raderas"
+
+#: src/components/networks/network.tsx:118
+msgid "Network $0 will be permanently deleted."
+msgstr "Nätverk $0 kommer att raderas permanent."
+
+#: src/components/networks/network.tsx:125
 msgid ""
-"Leave the password blank if you do not wish to have a user account created"
-msgstr "Lämna lösenordet tomt om du inte vill skapa en användare"
-
-#: src/components/create-vm-dialog/automation.tsx:153
-msgid "Public key"
-msgstr "Publik nyckel"
-
-#: src/components/create-vm-dialog/automation.tsx:157
-msgid "Public SSH key"
-msgstr "Publik SSH nyckel"
-
-#: src/components/create-vm-dialog/automation.tsx:163
-msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr "Nycklar finns i ~/.ssh/ och har filtillägget \".pub\"."
-
-#: src/components/create-vm-dialog/automation.tsx:178
-#: src/components/vm/nics/nicBody.tsx:512
-#: src/components/vm/nics/nicBody.tsx:543
-msgid "Remove item"
-msgstr "Ta bort objekt"
-
-#: src/components/create-vm-dialog/automation.tsx:221
-msgid "Profile"
-msgstr "Profil"
-
-#: src/components/create-vm-dialog/automation.tsx:229
-msgid ""
-"Leave the password blank if you do not wish to have a root account created"
-msgstr "Lämna lösenordet tomt om du inte vill skapa en superanvändare"
-
-#: src/components/create-vm-dialog/automation.tsx:240
-msgid "User password must not be empty when user login is set"
+"Non-persistent network cannot be deleted. It ceases to exists when it's "
+"deactivated."
 msgstr ""
-"Användarlösenordet får inte vara tomt när användarinloggning är inställd"
+"Icke varaktiga nätverk kan inte raderas. Det slutar att finnas när det "
+"deaktiveras."
 
-#: src/components/create-vm-dialog/automation.tsx:242
-msgid "User login must not be empty when user password is set"
-msgstr ""
-"Användarinloggningen får inte vara tom när användarlösenordet är inställt"
+#: src/components/networks/network.tsx:126
+#: src/components/networks/network.tsx:129
+#: src/components/common/deleteResource.tsx:104
+#: src/components/common/deleteResource.tsx:164
+#: src/components/common/deleteResource.tsx:175
+#: src/components/storagePools/storagePoolDelete.tsx:204
+#: src/components/storagePools/storagePoolDelete.tsx:234
+#: src/components/storagePools/storagePoolDelete.tsx:244
+#: src/components/vm/deleteDialog.tsx:213 src/components/vm/vmActions.tsx:466
+#: src/components/vm/vmActions.tsx:474
+msgid "Delete"
+msgstr "Ta bort"
 
-#: src/components/create-vm-dialog/automation.tsx:244
-msgid "User login must not be empty when SSH keys are set"
-msgstr "Användarinloggning får inte vara tom när SSH-nycklar är inställda"
+#: src/components/networks/network.tsx:145
+#: src/components/storagePools/storagePool.tsx:146
+msgid "Deactivate"
+msgstr "Avaktivera"
 
-#: src/components/create-vm-dialog/automation.tsx:265
-msgid "Leave the password blank if you do not wish to set a root password"
-msgstr "Lämna lösenordet tomt om du inte vill skapa en rootanvändare"
+#: src/components/networks/network.tsx:149
+#: src/components/storagePools/storagePool.tsx:155
+msgid "Activate"
+msgstr "Aktivera"
 
-#: src/components/create-vm-dialog/automation.tsx:268
-msgid "No SSH keys specified"
-msgstr "Inga SSH-nycklar specificerade"
-
-#: src/components/create-vm-dialog/automation.tsx:269
-msgid "SSH keys"
-msgstr "SSH-nycklar"
-
-#: src/components/create-vm-dialog/automation.tsx:270
-msgid "Add SSH keys"
-msgstr "Lägg till SSH nycklar"
-
-#: src/components/create-vm-dialog/automation.tsx:295
-msgid "Boot arguments"
-msgstr "Uppstarts argument"
-
-#: src/components/create-vm-dialog/automation.tsx:297
-msgid ""
-"Arguments passed to the booted kernel can often be used to control the "
-"installer. Refer to the documentation of the installer of $0."
-msgstr ""
-"Argument som skickas till den startade kärnan kan ofta användas för att "
-"styra installationsprogrammet. Se dokumentationen som tillhör "
-"installationsprogrammet för $0."
-
-#: src/components/create-vm-dialog/automation.tsx:311
-msgid "Enter root and/or user information to enable unattended installation."
-msgstr ""
-"Ange root och/eller användarinformation för att möjliggöra obevakad "
-"installation."
-
-#: src/components/create-vm-dialog/automation.tsx:312
-msgid ""
-"Automated installs are only available when downloading an image, an install "
-"tree or using cloud-init."
-msgstr ""
-"Automatiska installationer är endast tillgängliga när du laddar ner en "
-"avbildning, ett installationsträd eller använder cloud-init."
-
-#: src/components/create-vm-dialog/automation.tsx:313
-msgid "$0 does not support unattended installation."
-msgstr "$0 stöder inte installation utan tillsyn."
+#: src/components/networks/networkList.tsx:44
+#: src/components/storagePools/storagePoolList.tsx:46
+#: src/components/vm/vmDetailsPage.tsx:249
+#: src/components/vms/hostvmslist.tsx:302
+#: src/components/vms/hostvmslist.tsx:304 src/manifest.json:0
+msgid "Virtual machines"
+msgstr "Virtuella maskiner"
 
 #: src/components/networks/networkList.tsx:47
 #: src/components/networks/networkList.tsx:54
@@ -1187,26 +790,223 @@ msgstr "Nätverk"
 
 #: src/components/networks/networkList.tsx:60
 #: src/components/networks/createNetworkDialog.tsx:218
-#: src/components/vm/overview/bootOrder.tsx:106
-#: src/components/vm/overview/bootOrder.tsx:113
-#: src/components/vm/overview/bootOrder.tsx:146
-#: src/components/vm/overview/bootOrder.tsx:149
 #: src/components/vm/disks/diskAdd.tsx:425
 #: src/components/vm/disks/vmDisksCard.tsx:238
 #: src/components/vm/hostdevs/hostDevAdd.tsx:99
 #: src/components/vm/hostdevs/hostDevAdd.tsx:144
 #: src/components/vm/hostdevs/hostDevCard.tsx:90
 #: src/components/vm/hostdevs/hostDevCard.tsx:249
+#: src/components/vm/overview/bootOrder.tsx:106
+#: src/components/vm/overview/bootOrder.tsx:113
+#: src/components/vm/overview/bootOrder.tsx:146
+#: src/components/vm/overview/bootOrder.tsx:149
 msgid "Device"
 msgstr "Enhet"
+
+#: src/components/networks/networkList.tsx:61
+#: src/components/networks/createNetworkDialog.tsx:34
+#: src/components/common/machinesConnectionSelector.tsx:46
+#: src/components/storagePools/storagePoolList.tsx:63
+#: src/components/vm/overview/vmOverviewCard.tsx:158
+#: src/components/vms/hostvmslist.tsx:308
+msgid "Connection"
+msgstr "Anslutning"
 
 #: src/components/networks/networkList.tsx:62
 msgid "Forwarding mode"
 msgstr "Vidarebefordransläge"
 
+#: src/components/networks/networkList.tsx:63
+#: src/components/storagePools/storagePoolList.tsx:64
+#: src/components/vm/overview/vmOverviewCard.tsx:163
+#: src/components/vm/nics/vmNicsCard.tsx:586
+#: src/components/vms/hostvmslist.tsx:253
+#: src/components/vms/hostvmslist.tsx:309
+msgid "State"
+msgstr "Tillstånd"
+
+#: src/components/networks/networkList.tsx:64
+#: src/components/storagePools/storagePoolList.tsx:65
+#: src/components/vm/disks/vmDisksCard.tsx:162
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
+#: src/components/vm/nics/vmNicsCard.tsx:593
+#: src/components/vms/hostvmslist.tsx:311
+msgid "Actions"
+msgstr "Åtgärder"
+
 #: src/components/networks/networkList.tsx:66
 msgid "No network is defined on this host"
 msgstr "Inget nätverk är definierat på den här värden"
+
+#: src/components/networks/networkOverviewTab.tsx:45
+msgid "Name: "
+msgstr "Namn: "
+
+#: src/components/networks/networkOverviewTab.tsx:57
+msgid "remove"
+msgstr "ta bort"
+
+#: src/components/networks/networkOverviewTab.tsx:61
+msgid "Remove static host from DHCP"
+msgstr "Ta bort statiska värdposter från DHCP"
+
+#: src/components/networks/networkOverviewTab.tsx:62
+msgid "Static host from DHCP could not be removed"
+msgstr "Statiska värdposter från DHCP kunde inte tas bort"
+
+#: src/components/networks/networkOverviewTab.tsx:63
+msgid "The static host entry for $0 will be removed:"
+msgstr "Den statiska värdposten för $0 kommer att tas bort:"
+
+#: src/components/networks/networkOverviewTab.tsx:65
+msgid "IP"
+msgstr "IP"
+
+#: src/components/networks/networkOverviewTab.tsx:66
+#: src/components/vm/overview/bootOrder.tsx:120
+msgid "MAC"
+msgstr "MAC"
+
+#: src/components/networks/networkOverviewTab.tsx:68
+#: src/components/vm/disks/vmDiskColumns.tsx:169
+#: src/components/vm/disks/vmDiskColumns.tsx:247
+#: src/components/vm/hostdevs/hostDevCard.tsx:256
+#: src/components/vm/hostdevs/hostDevCard.tsx:262
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
+#: src/components/vm/overview/watchdog.tsx:225
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/nics/vmNicsCard.tsx:652
+#: src/components/vm/nics/vmNicsCard.tsx:667
+msgid "Remove"
+msgstr "Avlägsna"
+
+#: src/components/networks/networkOverviewTab.tsx:108
+#: src/components/vm/overview/vmOverviewCard.tsx:154
+msgid "General"
+msgstr "Allmänt"
+
+#: src/components/networks/networkOverviewTab.tsx:112
+#: src/components/storagePools/storagePoolOverviewTab.tsx:55
+msgid "Persistent"
+msgstr "Varaktig"
+
+#: src/components/networks/networkOverviewTab.tsx:113
+#: src/components/storagePools/storagePoolOverviewTab.tsx:56
+#: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:264
+msgid "yes"
+msgstr "ja"
+
+#: src/components/networks/networkOverviewTab.tsx:113
+#: src/components/storagePools/storagePoolOverviewTab.tsx:56
+#: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:265
+msgid "no"
+msgstr "nej"
+
+#: src/components/networks/networkOverviewTab.tsx:117
+#: src/components/storagePools/storagePoolOverviewTab.tsx:60
+#: src/components/vm/overview/vmOverviewCard.tsx:190
+msgid "Autostart"
+msgstr "Starta automatiskt"
+
+#: src/components/networks/networkOverviewTab.tsx:122
+#: src/components/vm/overview/vmOverviewCard.tsx:107
+msgid "Run when host boots"
+msgstr "Kör när värd startar"
+
+#: src/components/networks/networkOverviewTab.tsx:127
+msgid "Maximum transmission unit"
+msgstr "Maximal överföringsstorlek"
+
+#: src/components/networks/networkOverviewTab.tsx:136
+#: src/components/networks/createNetworkDialog.tsx:337
+msgid "IPv4 address"
+msgstr "IPv4-adress"
+
+#: src/components/networks/networkOverviewTab.tsx:140
+#: src/components/networks/networkOverviewTab.tsx:160
+#: src/components/vm/nics/vmNicsCard.tsx:183
+msgid "Address"
+msgstr "Adress"
+
+#: src/components/networks/networkOverviewTab.tsx:145
+msgid "Netmask"
+msgstr "Nätmask"
+
+#: src/components/networks/networkOverviewTab.tsx:156
+#: src/components/networks/createNetworkDialog.tsx:378
+msgid "IPv6 address"
+msgstr "IPv6-adress"
+
+#: src/components/networks/networkOverviewTab.tsx:165
+msgid "Prefix"
+msgstr "Prefix"
+
+#: src/components/networks/networkOverviewTab.tsx:193
+msgid "add entry"
+msgstr "lägg till post"
+
+#: src/components/networks/networkOverviewTab.tsx:240
+msgid "Add a DHCP static host entry"
+msgstr "Lägg till en statisk DHCP-värdpost"
+
+#: src/components/networks/networkOverviewTab.tsx:245
+msgid "Failed to save network settings"
+msgstr "Misslyckades att spara nätverksinställningar"
+
+#: src/components/networks/networkOverviewTab.tsx:246
+#: src/components/vm/nics/nicAdd.tsx:84 src/components/vm/nics/nicEdit.tsx:45
+#: src/components/vm/nics/vmNicsCard.tsx:569
+#: src/components/vm/nics/vmNicsCard.tsx:767
+msgid "MAC address"
+msgstr "MAC-adress"
+
+#: src/components/networks/networkOverviewTab.tsx:252
+msgid "MAC address must not be empty"
+msgstr "MAC-adress kan inte vara tomt"
+
+#: src/components/networks/networkOverviewTab.tsx:255
+#: src/components/vm/nics/vmNicsCard.tsx:574
+#: src/components/vm/nics/nicBody.tsx:440
+msgid "IP address"
+msgstr "IP-adress"
+
+#: src/components/networks/networkOverviewTab.tsx:261
+msgid "IP address must not be empty"
+msgstr "IP address kan inte vara tomt"
+
+#: src/components/networks/networkOverviewTab.tsx:268
+#: src/components/vm/disks/diskAdd.tsx:701
+#: src/components/vm/hostdevs/hostDevAdd.tsx:261
+#: src/components/vm/overview/watchdog.tsx:167
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/nics/nicAdd.tsx:277 src/components/vm/nics/nicBody.tsx:577
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/components/networks/networkOverviewTab.tsx:294
+msgid "DHCP Settings"
+msgstr "DHCP Inställningar"
+
+#: src/components/networks/networkOverviewTab.tsx:298
+msgid "Range"
+msgstr "Räckvidd"
+
+#: src/components/networks/networkOverviewTab.tsx:306
+msgid "Static host entries"
+msgstr "Statiska värdposter"
+
+#: src/components/networks/networkOverviewTab.tsx:314
+#: src/components/vm/overview/watchdog.tsx:261
+#: src/components/vm/overview/vsock.tsx:297
+#: src/components/vm/nics/vmNicsCard.tsx:288
+msgid "none"
+msgstr "inget"
+
+#: src/components/networks/createNetworkDialog.tsx:77
+#: src/components/storagePools/createStoragePoolDialog.tsx:64
+msgid "Name should not be empty"
+msgstr "Namnet får inte vara tomt"
 
 #: src/components/networks/createNetworkDialog.tsx:83
 msgid "Mask or prefix length should not be empty"
@@ -1328,19 +1128,9 @@ msgstr "Starta"
 msgid "End"
 msgstr "Slut"
 
-#: src/components/networks/createNetworkDialog.tsx:337
-#: src/components/networks/networkOverviewTab.tsx:136
-msgid "IPv4 address"
-msgstr "IPv4-adress"
-
 #: src/components/networks/createNetworkDialog.tsx:344
 msgid "Mask or prefix length"
 msgstr "Mask eller prefixlängd"
-
-#: src/components/networks/createNetworkDialog.tsx:378
-#: src/components/networks/networkOverviewTab.tsx:156
-msgid "IPv6 address"
-msgstr "IPv6-adress"
 
 #: src/components/networks/createNetworkDialog.tsx:385
 msgid "Prefix length"
@@ -1355,166 +1145,16 @@ msgstr "Det gick inte att skapa ett virtuellt nätverk"
 msgid "Create virtual network"
 msgstr "Skapa virtuellt nätverk"
 
-#: src/components/networks/network.tsx:87
-msgid "Network $0 failed to get activated"
-msgstr "Kunde inte starta nätverk $0"
+#: src/components/networks/createNetworkDialog.tsx:545
+#: src/components/storagePools/createStoragePoolDialog.tsx:509
+#: src/components/storagePools/storageVolumeCreate.tsx:95
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:337
+msgid "Create"
+msgstr "Skapa"
 
-#: src/components/networks/network.tsx:101
-msgid "Network $0 failed to get deactivated"
-msgstr "Kunde inte stoppa nätverk $0"
-
-#: src/components/networks/network.tsx:116
-msgid "Delete network?"
-msgstr "Ta bort nätverket?"
-
-#: src/components/networks/network.tsx:117
-msgid "Network $0 could not be deleted"
-msgstr "Nätverk $0 kunde inte raderas"
-
-#: src/components/networks/network.tsx:118
-msgid "Network $0 will be permanently deleted."
-msgstr "Nätverk $0 kommer att raderas permanent."
-
-#: src/components/networks/network.tsx:125
-msgid ""
-"Non-persistent network cannot be deleted. It ceases to exists when it's "
-"deactivated."
-msgstr ""
-"Icke varaktiga nätverk kan inte raderas. Det slutar att finnas när det "
-"deaktiveras."
-
-#: src/components/networks/networkOverviewTab.tsx:45
-msgid "Name: "
-msgstr "Namn: "
-
-#: src/components/networks/networkOverviewTab.tsx:57
-msgid "remove"
-msgstr "ta bort"
-
-#: src/components/networks/networkOverviewTab.tsx:61
-msgid "Remove static host from DHCP"
-msgstr "Ta bort statiska värdposter från DHCP"
-
-#: src/components/networks/networkOverviewTab.tsx:62
-msgid "Static host from DHCP could not be removed"
-msgstr "Statiska värdposter från DHCP kunde inte tas bort"
-
-#: src/components/networks/networkOverviewTab.tsx:63
-msgid "The static host entry for $0 will be removed:"
-msgstr "Den statiska värdposten för $0 kommer att tas bort:"
-
-#: src/components/networks/networkOverviewTab.tsx:65
-msgid "IP"
-msgstr "IP"
-
-#: src/components/networks/networkOverviewTab.tsx:66
-#: src/components/vm/overview/bootOrder.tsx:120
-msgid "MAC"
-msgstr "MAC"
-
-#: src/components/networks/networkOverviewTab.tsx:68
-#: src/components/vm/overview/vsock.tsx:269
-#: src/components/vm/overview/watchdog.tsx:225
-#: src/components/vm/nics/vmNicsCard.tsx:652
-#: src/components/vm/nics/vmNicsCard.tsx:667
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
-#: src/components/vm/disks/vmDiskColumns.tsx:169
-#: src/components/vm/disks/vmDiskColumns.tsx:247
-#: src/components/vm/hostdevs/hostDevCard.tsx:256
-#: src/components/vm/hostdevs/hostDevCard.tsx:262
-msgid "Remove"
-msgstr "Avlägsna"
-
-#: src/components/networks/networkOverviewTab.tsx:108
-#: src/components/vm/overview/vmOverviewCard.tsx:154
-msgid "General"
-msgstr "Allmänt"
-
-#: src/components/networks/networkOverviewTab.tsx:122
-#: src/components/vm/overview/vmOverviewCard.tsx:107
-msgid "Run when host boots"
-msgstr "Kör när värd startar"
-
-#: src/components/networks/networkOverviewTab.tsx:127
-msgid "Maximum transmission unit"
-msgstr "Maximal överföringsstorlek"
-
-#: src/components/networks/networkOverviewTab.tsx:140
-#: src/components/networks/networkOverviewTab.tsx:160
-#: src/components/vm/nics/vmNicsCard.tsx:183
-msgid "Address"
-msgstr "Adress"
-
-#: src/components/networks/networkOverviewTab.tsx:145
-msgid "Netmask"
-msgstr "Nätmask"
-
-#: src/components/networks/networkOverviewTab.tsx:165
-msgid "Prefix"
-msgstr "Prefix"
-
-#: src/components/networks/networkOverviewTab.tsx:193
-msgid "add entry"
-msgstr "lägg till post"
-
-#: src/components/networks/networkOverviewTab.tsx:240
-msgid "Add a DHCP static host entry"
-msgstr "Lägg till en statisk DHCP-värdpost"
-
-#: src/components/networks/networkOverviewTab.tsx:245
-msgid "Failed to save network settings"
-msgstr "Misslyckades att spara nätverksinställningar"
-
-#: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/nicEdit.tsx:45
-#: src/components/vm/nics/vmNicsCard.tsx:569
-#: src/components/vm/nics/vmNicsCard.tsx:767
-#: src/components/vm/nics/nicAdd.tsx:84
-msgid "MAC address"
-msgstr "MAC-adress"
-
-#: src/components/networks/networkOverviewTab.tsx:252
-msgid "MAC address must not be empty"
-msgstr "MAC-adress kan inte vara tomt"
-
-#: src/components/networks/networkOverviewTab.tsx:255
-#: src/components/vm/nics/vmNicsCard.tsx:574
-#: src/components/vm/nics/nicBody.tsx:440
-msgid "IP address"
-msgstr "IP-adress"
-
-#: src/components/networks/networkOverviewTab.tsx:261
-msgid "IP address must not be empty"
-msgstr "IP address kan inte vara tomt"
-
-#: src/components/networks/networkOverviewTab.tsx:268
-#: src/components/vm/overview/vsock.tsx:223
-#: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/nics/nicBody.tsx:577 src/components/vm/nics/nicAdd.tsx:277
-#: src/components/vm/disks/diskAdd.tsx:701
-#: src/components/vm/hostdevs/hostDevAdd.tsx:261
-msgid "Add"
-msgstr "Lägg till"
-
-#: src/components/networks/networkOverviewTab.tsx:294
-msgid "DHCP Settings"
-msgstr "DHCP Inställningar"
-
-#: src/components/networks/networkOverviewTab.tsx:298
-msgid "Range"
-msgstr "Räckvidd"
-
-#: src/components/networks/networkOverviewTab.tsx:306
-msgid "Static host entries"
-msgstr "Statiska värdposter"
-
-#: src/components/networks/networkOverviewTab.tsx:314
-#: src/components/vm/overview/vsock.tsx:297
-#: src/components/vm/overview/watchdog.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:288
-msgid "none"
-msgstr "inget"
+#: src/components/common/infoPopover.tsx:21
+msgid "more info"
+msgstr "mer information"
 
 #: src/components/common/deleteResource.tsx:89
 msgid "Confirm this action"
@@ -1575,6 +1215,13 @@ msgstr "Nätverksgränssnitt"
 msgid "vCPUs"
 msgstr "vCPU:er"
 
+#: src/components/common/needsShutdown.tsx:206
+#: src/components/vm/overview/vmOverviewCard.tsx:178
+#: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:86
+#: src/components/vms/hostvmslist.tsx:288
+msgid "CPU"
+msgstr "CPU"
+
 #: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 msgid "Watchdog"
@@ -1626,9 +1273,315 @@ msgstr "Pool \"$0\""
 msgid "Pool has no volumes"
 msgstr "Pool har inga volymer"
 
-#: src/components/common/infoPopover.tsx:21
-msgid "more info"
-msgstr "mer information"
+#: src/components/storagePools/storageVolumeCreateBody.tsx:56
+msgid "Please enter new volume name"
+msgstr "Ange ett nytt volymnamn"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:62
+msgid "Size must be a number"
+msgstr "Storlek måste vara ett nummer"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:65
+msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
+msgstr ""
+"Lagringsvolymstorleken får inte överstiga lagringspoolens kapacitet ($0 $1)"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:103
+#: src/components/storagePools/createStoragePoolDialog.tsx:244
+#: src/components/vm/disks/vmDiskColumns.tsx:134
+msgid "Format"
+msgstr "Formater"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:116
+msgid "New volume name"
+msgstr "Nytt volymnamn"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:120
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+#: src/components/storagePools/storagePoolList.tsx:62
+#: src/components/vm/disks/vmDisksCard.tsx:160
+msgid "Size"
+msgstr "Storlek"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+msgid "Used by"
+msgstr "Används av"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:111
+msgid "No storage volumes defined for this storage pool"
+msgstr "Inga lagringsvolymer är definierade för denna lagringspool"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:111
+msgid "Activate the storage pool to administer volumes"
+msgstr "Aktivera lagringspoolen för att administrera volymer"
+
+#: src/components/storagePools/storagePoolDelete.tsx:84
+msgid "Pool's volumes are used by VMs "
+msgstr "Poolens volymer används av VM:ar "
+
+#: src/components/storagePools/storagePoolDelete.tsx:86
+msgid ""
+"Detach the disks using this pool from any VMs before attempting deletion."
+msgstr ""
+"Koppla bort diskarna från VM:er som använder denna pool innan du försöker ta "
+"bort poolen."
+
+#: src/components/storagePools/storagePoolDelete.tsx:138
+#: src/components/storagePools/storagePoolDelete.tsx:142
+msgid "The storage pool could not be deleted"
+msgstr "Lagringspoolen kunde inte raderas"
+
+#: src/components/storagePools/storagePoolDelete.tsx:175
+msgid "Also delete all volumes inside this pool:"
+msgstr "Ta också bort alla volymer i denna pool:"
+
+#: src/components/storagePools/storagePoolDelete.tsx:184
+msgid "No volumes exist in this storage pool."
+msgstr "Inga volymer finns i denna lagringspool."
+
+#: src/components/storagePools/storagePoolDelete.tsx:185
+msgid ""
+"Deleting an inactive storage pool will only undefine the pool. Its content "
+"will not be deleted."
+msgstr ""
+"Att ta bort en inaktiv lagringspool kommer bara att odefiniera poolen. Dess "
+"innehåll kommer inte att raderas."
+
+#: src/components/storagePools/storagePoolDelete.tsx:193
+msgid "Delete $0 storage pool?"
+msgstr "Ta bort lagringspoolen $0?"
+
+#: src/components/storagePools/storagePoolDelete.tsx:223
+msgid ""
+"Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
+"deactivated."
+msgstr ""
+"Icke varaktig lagringspool kan inte raderas. Den slutar att finnas när den "
+"deaktiveras."
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:60
+msgid "Storage pool name"
+msgstr "Lagringspoolsnamn"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:64
+msgid "Name contains invalid characters"
+msgstr "Namnet innehåller ogiltiga tecken"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:79
+msgid "Filesystem directory"
+msgstr "Filsystemskatalog"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:80
+msgid "Network file system"
+msgstr "Nätverksfilsystem"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:81
+msgid "iSCSI target"
+msgstr "iSCSI-mål"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:82
+msgid "Physical disk device"
+msgstr "Fysisk diskenhet"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:83
+msgid "LVM volume group"
+msgstr "LVM Volymgrupp"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:84
+msgid "Pre-formatted block device"
+msgstr "För-formaterad blockenhet"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:88
+msgid "iSCSI direct target"
+msgstr "iSCSI direktmål"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:102
+#: src/components/storagePools/storagePoolOverviewTab.tsx:65
+#: src/components/vm/hostdevs/hostDevAdd.tsx:43
+#: src/components/vm/hostdevs/hostDevCard.tsx:177
+#: src/components/vm/overview/bootOrder.tsx:125
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:155
+#: src/components/vm/overview/bootOrder.tsx:162
+#: src/components/vm/overview/bootOrder.tsx:169
+#: src/components/vm/overview/bootOrder.tsx:175
+#: src/components/vm/nics/vmNicsCard.tsx:780
+msgid "Type"
+msgstr "Typ"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:130
+#: src/components/storagePools/storagePoolOverviewTab.tsx:50
+msgid "Target path"
+msgstr "Målsökväg"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:134
+msgid "Path on host's filesystem"
+msgstr "Sökväg på värdens filsystem"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:136
+msgid "Target path should not be empty"
+msgstr "Målsökvägen får inte vara tom"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:154
+#: src/components/storagePools/storagePoolOverviewTab.tsx:23
+#: src/components/vm/disks/vmDiskColumns.tsx:44
+#: src/components/vm/overview/bootOrder.tsx:110
+msgid "Host"
+msgstr "Värd"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:157
+msgid "Host name"
+msgstr "Värdnamn"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:160
+msgid "Host should not be empty"
+msgstr "Värden får inte vara tom"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:177
+msgid "Initiator"
+msgstr "Initierare"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:179
+msgid "iSCSI initiator IQN"
+msgstr "iSCSI initierar-IQN"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:183
+msgid "Initiator should not be empty"
+msgstr "Initieraren skall inte vara tom"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:204
+msgid "The directory on the server being exported"
+msgstr "Katalogen på servern exporteras"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:207
+msgid "iSCSI target IQN"
+msgstr "iSCSI mål IQN"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:210
+msgid "Physical disk device on host"
+msgstr "Fysisk diskenhet på värd"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:213
+msgid "Volume group name"
+msgstr "Volym gruppnamn"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:218
+#: src/components/storagePools/createStoragePoolDialog.tsx:235
+#: src/components/storagePools/storagePoolOverviewTab.tsx:30
+#: src/components/storagePools/storagePoolOverviewTab.tsx:35
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:201
+msgid "Source path"
+msgstr "Källsökväg"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:229
+#: src/components/storagePools/createStoragePoolDialog.tsx:242
+msgid "Source path should not be empty"
+msgstr "Källsökvägen får inte vara tom"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:263
+msgid "Source volume group"
+msgstr "Källvolymgrupp"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:270
+msgid "Volume group name should not be empty"
+msgstr "Volymgruppens namn ska inte vara tomt"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:284
+msgid "Startup"
+msgstr "Uppstart"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:286
+msgid "Start pool when host boots"
+msgstr "Starta poolen när värden startar upp"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:464
+msgid "Storage pool failed to be created"
+msgstr "Lagringspoolen kunde inte skapas"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:503
+#: src/components/storagePools/createStoragePoolDialog.tsx:554
+msgid "Create storage pool"
+msgstr "Skapa en lagringspool"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:73
+msgid "Volume failed to be created"
+msgstr "Volymen kunde inte skapas"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:86
+msgid "Create storage volume"
+msgstr "Skapa lagringsvolym"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:126
+#: src/components/storagePools/storageVolumeCreate.tsx:145
+msgid "Create volume"
+msgstr "Skapa volym"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:135
+msgid "Pool type doesn't support volume creation"
+msgstr "Pooltyp stödjer inte att skapa volymer"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:136
+msgid "Pool needs to be active to create volume"
+msgstr "Poolen måste vara aktiv för att skapa volym"
+
+#: src/components/storagePools/storagePool.tsx:60
+#: src/components/vm/vmDetailsPage.tsx:140
+msgid "Overview"
+msgstr "Översikt"
+
+#: src/components/storagePools/storagePool.tsx:66
+msgid "Storage volumes"
+msgstr "Lagringsvolymer"
+
+#: src/components/storagePools/storagePool.tsx:113
+msgid "Storage pool $0 failed to get activated"
+msgstr "Lagringspool $0 kunde inte aktiveras"
+
+#: src/components/storagePools/storagePool.tsx:129
+msgid "Storage pool $0 failed to get deactivated"
+msgstr "Lagringspool $0 kunde inte inaktiveras"
+
+#: src/components/storagePools/storagePool.tsx:160
+#: src/components/storagePools/storagePool.tsx:167
+msgid "Operation is in progress"
+msgstr "Operation pågår"
+
+#: src/components/storagePools/storagePoolOverviewTab.tsx:40
+#: src/components/vm/disks/diskAdd.tsx:570
+#: src/components/vm/disks/vmDisksCard.tsx:158
+#: src/components/vm/hostdevs/hostDevCard.tsx:217
+#: src/components/vm/nics/vmNicsCard.tsx:549
+#: src/components/vm/nics/nicBody.tsx:269
+msgid "Source"
+msgstr "Källa"
+
+#: src/components/storagePools/storagePoolOverviewTab.tsx:45
+msgid "Source format"
+msgstr "Källformat"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:44
+msgid "Storage volumes could not be deleted"
+msgstr "Lagringsvolymer kunde inte raderas"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:60
+msgid "Delete $0 volume"
+msgid_plural "Delete $0 volumes"
+msgstr[0] "Ta bort volymen $0"
+msgstr[1] "Ta bort volymerna $0"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:68
+msgid ""
+"One or more selected volumes are used by domains. Detach the disks first to "
+"allow volume deletion."
+msgstr ""
+"En eller flera valda volymer används av domäner. Koppla loss diskarna först "
+"för att tillåta radering av volymer."
+
+#: src/components/storagePools/storagePoolList.tsx:67
+msgid "No storage pool is defined on this host"
+msgstr "Ingen lagringspool är definierad på denna värd"
 
 #: src/components/vm/vmDetailsPage.tsx:105
 msgid "$0 console"
@@ -1672,6 +1625,56 @@ msgstr ""
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:188
 msgid "mount point: The mount point inside the guest"
 msgstr "monteringspunkt: monteringspunkten inuti gästen"
+
+#: src/components/vm/consoles/spice.tsx:68
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr "Den här maskinen har en SPICE grafisk konsol som inte kan visas här."
+
+#: src/components/vm/consoles/spice.tsx:72
+msgid "Start the virtual machine to launch remote viewer."
+msgstr "Starta den virtuella maskinen för att starta fjärrvisaren."
+
+#: src/components/vm/consoles/spice.tsx:81
+msgid "Replace with VNC"
+msgstr "Ersätt med VNC"
+
+#: src/components/vm/consoles/consoles.tsx:182
+msgid "Graphical"
+msgstr "Grafisk"
+
+#: src/components/vm/consoles/consoles.tsx:275
+#: src/components/vm/consoles/consoles.tsx:292
+#: src/components/vm/disks/vmDiskColumns.tsx:133
+msgid "Serial"
+msgstr "Seriell"
+
+#: src/components/vm/consoles/consoles.tsx:275
+msgid "Serial ($0)"
+msgstr "Seriell ($0)"
+
+#: src/components/vm/consoles/consoles.tsx:310
+msgid "Disconnect"
+msgstr "Koppla ifrån"
+
+#: src/components/vm/consoles/consoles.tsx:326
+msgid "Compress"
+msgstr "Komprimera"
+
+#: src/components/vm/consoles/consoles.tsx:326
+msgid "Expand"
+msgstr "Expandera"
+
+#: src/components/vm/consoles/consoles.tsx:361
+msgid "Detach"
+msgstr "Koppla från"
+
+#: src/components/vm/consoles/consoles.tsx:367
+msgid "Console"
+msgstr "Konsol"
+
+#: src/components/vm/consoles/consoles.tsx:385
+msgid "Console type"
+msgstr "Konsol typ"
 
 #: src/components/vm/consoles/serial.tsx:83
 #: src/components/vm/consoles/vnc.tsx:533
@@ -1736,10 +1739,10 @@ msgid "Edit VNC settings"
 msgstr "Redigera VNC Inställningar"
 
 #: src/components/vm/consoles/vnc.tsx:154
+#: src/components/vm/disks/vmDiskColumns.tsx:45
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
 #: src/components/vm/nics/vmNicsCard.tsx:191
-#: src/components/vm/disks/vmDiskColumns.tsx:45
 msgid "Port"
 msgstr "Port"
 
@@ -1766,14 +1769,14 @@ msgstr ""
 "att säkra anslutningar i opålitliga nätverk."
 
 #: src/components/vm/consoles/vnc.tsx:167
-#: src/components/vm/overview/vsock.tsx:223
-#: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/overview/memoryModal.tsx:192
-#: src/components/vm/overview/firmware.tsx:104
-#: src/components/vm/overview/bootOrder.tsx:353
-#: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/nics/nicEdit.tsx:230
 #: src/components/vm/disks/diskEdit.tsx:238
+#: src/components/vm/overview/bootOrder.tsx:353
+#: src/components/vm/overview/memoryModal.tsx:192
+#: src/components/vm/overview/watchdog.tsx:167
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:104
+#: src/components/vm/nics/nicEdit.tsx:230
+#: src/components/vm/vmEditDescriptionDialog.tsx:78
 msgid "Save"
 msgstr "Spara"
 
@@ -1875,135 +1878,762 @@ msgstr "Fjärrvisare"
 msgid "Launch viewer"
 msgstr "Starta visare"
 
-#: src/components/vm/consoles/consoles.tsx:182
-msgid "Graphical"
-msgstr "Grafisk"
+#: src/components/vm/disks/mediaEject.tsx:85
+#: src/components/vm/disks/vmDiskColumns.tsx:42
+#: src/components/vm/disks/diskAdd.tsx:257
+#: src/components/vm/disks/diskAdd.tsx:330
+#: src/components/vm/deleteDialog.tsx:81
+#: src/components/vm/overview/bootOrder.tsx:108
+msgid "Pool"
+msgstr "Pool"
 
-#: src/components/vm/consoles/consoles.tsx:275
-#: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:133
-msgid "Serial"
-msgstr "Seriell"
+#: src/components/vm/disks/mediaEject.tsx:99
+msgid "Eject disc from VM?"
+msgstr "Ta bort disk från VM?"
 
-#: src/components/vm/consoles/consoles.tsx:275
-msgid "Serial ($0)"
-msgstr "Seriell ($0)"
+#: src/components/vm/disks/mediaEject.tsx:101
+msgid "Media could not be ejected from $0"
+msgstr "Media kunde inte matas ut från $0"
 
-#: src/components/vm/consoles/consoles.tsx:310
-msgid "Disconnect"
-msgstr "Koppla ifrån"
+#: src/components/vm/disks/mediaEject.tsx:103
+msgid "Media will be ejected from $0:"
+msgstr "Media kommer att matas ut från $0:"
 
-#: src/components/vm/consoles/consoles.tsx:326
-msgid "Compress"
-msgstr "Komprimera"
+#: src/components/vm/disks/mediaEject.tsx:109
+#: src/components/vm/disks/vmDiskColumns.tsx:231
+msgid "Eject"
+msgstr "Mata ut"
 
-#: src/components/vm/consoles/consoles.tsx:326
-msgid "Expand"
-msgstr "Expandera"
+#: src/components/vm/disks/mediaEject.tsx:113
+msgid "Force eject"
+msgstr "Tvinga utmatning"
 
-#: src/components/vm/consoles/consoles.tsx:361
-msgid "Detach"
-msgstr "Koppla från"
+#: src/components/vm/disks/diskEdit.tsx:44
+msgid "ID"
+msgstr "ID"
 
-#: src/components/vm/consoles/consoles.tsx:367
-msgid "Console"
-msgstr "Konsol"
+#: src/components/vm/disks/diskEdit.tsx:46
+#: src/components/vm/deleteDialog.tsx:68
+#: src/components/vm/hostdevs/hostDevCard.tsx:115
+#: src/components/vm/hostdevs/hostDevCard.tsx:119
+msgid "Path"
+msgstr "Sökväg"
 
-#: src/components/vm/consoles/consoles.tsx:385
-msgid "Console type"
-msgstr "Konsol typ"
+#: src/components/vm/disks/diskEdit.tsx:48
+msgid "Url"
+msgstr "Url"
 
-#: src/components/vm/consoles/spice.tsx:68
-msgid "This machine has a SPICE graphical console that can not be shown here."
-msgstr "Den här maskinen har en SPICE grafisk konsol som inte kan visas här."
+#: src/components/vm/disks/diskEdit.tsx:50
+msgid "Storage volume"
+msgstr "Lagringsvolym"
 
-#: src/components/vm/consoles/spice.tsx:72
-msgid "Start the virtual machine to launch remote viewer."
-msgstr "Starta den virtuella maskinen för att starta fjärrvisaren."
+#: src/components/vm/disks/diskEdit.tsx:81
+msgid "Machine must be shut off before changing bus type"
+msgstr "Maskinen måste vara avstängd innan det går att ändra busstyp"
 
-#: src/components/vm/consoles/spice.tsx:81
-msgid "Replace with VNC"
-msgstr "Ersätt med VNC"
+#: src/components/vm/disks/diskEdit.tsx:93
+#: src/components/vm/disks/diskAdd.tsx:186
+#: src/components/vm/disks/vmDisksCard.tsx:241
+#: src/components/vm/hostdevs/hostDevAdd.tsx:100
+#: src/components/vm/hostdevs/hostDevCard.tsx:91
+#: src/components/vm/hostdevs/hostDevCard.tsx:99
+#: src/components/vm/hostdevs/hostDevCard.tsx:250
+#: src/components/vm/overview/bootOrder.tsx:114
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:145
+#: src/components/vm/overview/bootOrder.tsx:148
+#: src/components/vm/overview/bootOrder.tsx:163
+msgid "Bus"
+msgstr "Buss"
 
+#: src/components/vm/disks/diskEdit.tsx:110
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Read-only"
+msgstr "Skrivskyddad"
+
+#: src/components/vm/disks/diskEdit.tsx:114
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Writeable"
+msgstr "Skrivbar"
+
+#: src/components/vm/disks/diskEdit.tsx:130
+#: src/components/vm/disks/vmDisksCard.tsx:246
+msgid "Access"
+msgstr "Åtkomst"
+
+#: src/components/vm/disks/diskEdit.tsx:167
+#: src/components/vm/disks/diskAdd.tsx:181
+#: src/components/vm/disks/vmDisksCard.tsx:257
+msgid "Cache"
+msgstr "Cache"
+
+#: src/components/vm/disks/diskEdit.tsx:182
+msgid "No free targets for bus type $0."
+msgstr "Inga fria mål för busstyp $0."
+
+#: src/components/vm/disks/diskEdit.tsx:216
+msgid "Disk settings could not be saved"
+msgstr "Inställningarna för disken kunde inte sparas"
+
+#: src/components/vm/disks/diskEdit.tsx:230
+msgid "Edit $0 attributes"
+msgstr "Redigera $0 attribut"
+
+#: src/components/vm/disks/diskEdit.tsx:275
+#: src/components/vm/nics/vmNicsCard.tsx:634
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:39
+#: src/components/vm/overview/bootOrder.tsx:105
+msgid "File"
+msgstr "Fil"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:40
+#: src/components/vm/deleteDialog.tsx:73
+msgid "Block device"
+msgstr "Blockenhet"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:41
+#: src/components/vm/hostdevs/hostDevCard.tsx:106
+#: src/components/vm/overview/bootOrder.tsx:107
+#: src/components/vm/overview/bootOrder.tsx:170
+#: src/components/vm/nics/nicBody.tsx:492
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:102
+msgid "(empty)"
+msgstr "(tom)"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:159
+msgid "Could not delete disk's storage"
+msgstr "Kunde inte ta bort diskens lagring"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:168
+msgid "Remove disk from VM?"
+msgstr "Ta bort en disk från VM:en?"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:170
+msgid "Disk $0 could not be removed"
+msgstr "Disk $0 kunde inte tas bort"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:171
+msgid "This disk will be removed from $0:"
+msgstr "Denna disk kommer tas bort från $0:"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:173
+#: src/components/vm/disks/vmDisksCard.tsx:159
+#: src/components/vm/hostdevs/hostDevCard.tsx:101
+#: src/components/vm/overview/bootOrder.tsx:164
+#: src/components/vm/nics/vmNicsCard.tsx:557
+msgid "Target"
+msgstr "Mål"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:182
+msgid "Remove disk and delete disk image"
+msgstr "Ta bort disk och radera diskavbild"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:223
+#: src/components/vm/disks/diskAdd.tsx:742
+msgid "Insert"
+msgstr "Insert"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:255
+#: src/components/vm/nics/vmNicsCard.tsx:668
+#: src/components/vm/nics/vmNicsCard.tsx:676
+msgid "The VM needs to be running or shut off to detach this device"
+msgstr ""
+"VM:en behöver köra eller vara avstängd för att koppla ifrån denna enhet"
+
+#: src/components/vm/disks/diskAdd.tsx:79
+msgid "This volume is already used by $0."
+msgstr "Denna volym används redan av $0."
+
+#: src/components/vm/disks/diskAdd.tsx:150
+msgid ""
+"Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
+"(-, _, +, .)"
+msgstr ""
+"Tillåtna tecken: grundläggande latinska alfabet, siffror och begränsad "
+"skiljetecken (-, _, +, .)"
+
+#: src/components/vm/disks/diskAdd.tsx:173
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
+msgid "Hide additional options"
+msgstr "Göm ytterligare inställningar"
+
+#: src/components/vm/disks/diskAdd.tsx:173
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
+msgid "Show additional options"
+msgstr "Visa ytterligare åtgärder"
+
+#: src/components/vm/disks/diskAdd.tsx:192
+msgid "Disk identifier"
+msgstr "Diskidentifierare"
+
+#: src/components/vm/disks/diskAdd.tsx:198
+msgid "Identifier may be silently truncated to $0 characters "
+msgstr "Identifierare kan tyst avkortas till $0 tecken "
+
+#: src/components/vm/disks/diskAdd.tsx:219
+msgid "No pools that allow volume creation"
+msgstr "Inga pooler som tillåter volymskapande"
+
+#: src/components/vm/disks/diskAdd.tsx:298
+msgid "No usable storage volumes"
+msgstr "Inga användbara lagringsvolymer"
+
+#: src/components/vm/disks/diskAdd.tsx:399
+msgid "Path cannot be empty"
+msgstr "Sökväg kan inte vara tom"
+
+#: src/components/vm/disks/diskAdd.tsx:403
+msgid "Importing an image with a backing file is unsupported"
+msgstr "Import av en avbild med en bakomliggande fil stödjs inte"
+
+#: src/components/vm/disks/diskAdd.tsx:420
+#: src/components/vm/disks/diskAdd.tsx:561
+msgid "Custom path"
+msgstr "Anpassad sökväg"
+
+#: src/components/vm/disks/diskAdd.tsx:422
+msgid "Path to file on host's file system"
+msgstr "Sökväg till fil på värdens filsystem"
+
+#: src/components/vm/disks/diskAdd.tsx:429
+msgid "Disk image file"
+msgstr "Diskavbilds fil"
+
+#: src/components/vm/disks/diskAdd.tsx:430
+msgid "CD/DVD disc"
+msgstr "CD/DVD skiva"
+
+#: src/components/vm/disks/diskAdd.tsx:551
+msgid "Create new"
+msgstr "Skapa ny"
+
+#: src/components/vm/disks/diskAdd.tsx:556
+msgid "Use existing"
+msgstr "Använd befintlig"
+
+#: src/components/vm/disks/diskAdd.tsx:589
+#: src/components/vm/nics/nicAdd.tsx:137
+msgid "Persistence"
+msgstr "Varaktighet"
+
+#: src/components/vm/disks/diskAdd.tsx:590
+#: src/components/vm/nics/nicAdd.tsx:138
+msgid "Always attach"
+msgstr "Anslut alltid"
+
+#: src/components/vm/disks/diskAdd.tsx:606
+msgid "Failed to add disk"
+msgstr "Misslyckades med att lägga till disk"
+
+#: src/components/vm/disks/diskAdd.tsx:606
+msgid "Can not determine guest device name"
+msgstr "Kan inte fastställa gästenhetens namn"
+
+#: src/components/vm/disks/diskAdd.tsx:682
+msgid "Disk failed to be added"
+msgstr "Disken misslyckades då den skulle läggas till"
+
+#: src/components/vm/disks/diskAdd.tsx:694
+#: src/components/vm/disks/vmDisksCard.tsx:69
+msgid "Add disk"
+msgstr "Lägg till disk"
+
+#: src/components/vm/disks/diskAdd.tsx:735
+msgid "Media failed to be inserted"
+msgstr "Media misslyckades att sättas in"
+
+#: src/components/vm/disks/diskAdd.tsx:741
+msgid "Insert media"
+msgstr "Sätt i media"
+
+#: src/components/vm/disks/diskAdd.tsx:747
+msgid "ISO files"
+msgstr "ISO filer"
+
+#: src/components/vm/disks/vmDisksCard.tsx:161
+msgid "Used on host"
+msgstr "Används på värd"
+
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Concurrently writeable"
+msgstr "Samtidigt skrivbar"
+
+#: src/components/vm/disks/vmDisksCard.tsx:281
+msgid "No disks"
+msgstr "Inga diskar"
+
+#: src/components/vm/deleteDialog.tsx:95
+msgid "The VM $0 is running and will be forced off before deletion."
+msgstr "VM:en $0 kör och kommer tvingande stängas av före den tas bort."
+
+#: src/components/vm/deleteDialog.tsx:97
+msgid "Delete associated storage files:"
+msgstr "Ta bort assoicierade lagringsfiler:"
+
+#: src/components/vm/deleteDialog.tsx:99
+msgid "Associated storage files"
+msgstr "Assoicierade lagringsfiler"
+
+#: src/components/vm/deleteDialog.tsx:186
+msgid "Could not delete all storage for $0"
+msgstr "Det gick inte att radera all lagring för $0"
+
+#: src/components/vm/deleteDialog.tsx:191
+msgid "Could not delete $0"
+msgstr "Det gick inte att radera $0"
+
+#: src/components/vm/deleteDialog.tsx:199
+msgid "Delete $0 VM?"
+msgstr "Ta bort VM $0?"
+
+#: src/components/vm/vmCloneDialog.tsx:77
+msgid "Failed to clone VM $0"
+msgstr "Misslyckades att klona VM $0"
+
+#: src/components/vm/vmCloneDialog.tsx:84
+msgid "Create a clone VM based on $0"
+msgstr "Skapa en klon-VM baserad på $0"
+
+#: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:383
+msgid "Clone"
+msgstr "Klona"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:48
+msgid "USB"
+msgstr "USB"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:53
+msgid "PCI"
+msgstr "PCI"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:112
+#: src/components/vm/hostdevs/hostDevCard.tsx:93
+#: src/components/vm/hostdevs/hostDevCard.tsx:100
+#: src/components/vm/hostdevs/hostDevCard.tsx:241
+#: src/components/vm/overview/bootOrder.tsx:158
+msgid "Slot"
+msgstr "Plats"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:147
+msgid "Table of selectable host devices"
+msgstr "Tabell över valbara värdenheter"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:150
+msgid "Row select"
+msgstr "Radval"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+#: src/components/vm/hostdevs/hostDevCard.tsx:240
+#: src/components/vm/hostdevs/hostDevCard.tsx:246
+#: src/components/vm/overview/bootOrder.tsx:141
+#: src/components/vm/overview/bootOrder.tsx:157
+msgid "Product"
+msgstr "Produkt"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+#: src/components/vm/hostdevs/hostDevCard.tsx:207
+#: src/components/vm/hostdevs/hostDevCard.tsx:239
+#: src/components/vm/hostdevs/hostDevCard.tsx:245
+#: src/components/vm/overview/bootOrder.tsx:140
+#: src/components/vm/overview/bootOrder.tsx:156
+msgid "Vendor"
+msgstr "Leverantör"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+msgid "Location"
+msgstr "Plats"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:166
+msgid "Undefined"
+msgstr "Odefinierad"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:236
+msgid "Host device could not be attached"
+msgstr "Värdenheten kunde inte anslutas"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:241
+msgid "No host device selected"
+msgstr "Ingen värdenhet vald"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:278
+#: src/components/vm/hostdevs/hostDevCard.tsx:140
+msgid "Add host device"
+msgstr "Lägg till värdenhet"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:84
+#: src/components/vm/hostdevs/hostDevCard.tsx:85
+#: src/components/vm/overview/bootOrder.tsx:145
+#: src/components/vm/overview/bootOrder.tsx:146
+msgid "Unspecified"
+msgstr "Ospecificerad"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:107
+#: src/components/vm/overview/bootOrder.tsx:171
+msgid "WWPN"
+msgstr "WWPN"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:111
+msgid "UUID"
+msgstr "UUID"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:123
+msgid "Interface"
+msgstr "Gränssnitt"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:187
+msgid "Class"
+msgstr "Klass"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:197
+#: src/components/vm/nics/nicBody.tsx:57
+msgid "Model"
+msgstr "Modell"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:258
+msgid "Remove host device from VM?"
+msgstr "Ta bort värdenhet från VM:en?"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:260
+msgid "Host device will be removed from $0:"
+msgstr "Värdenheter kommer tas bort från $0:"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:316
+msgid "VM $0 Host Devices"
+msgstr "VM $0 VärdEnheter"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:319
+msgid "No host devices"
+msgstr "Inga värdenheter"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:86
+msgid "Could not revert to snapshot"
+msgstr "Kunde inte återgå till ögonblicksbilden"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:100
+msgid "Revert to snapshot $0"
+msgstr "Återgå till ögonblicksbild $0"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:109
+msgid ""
+"Reverting to this snapshot will take the VM back to the time of the snapshot "
+"and the current state will be lost, along with any data not captured in a "
+"snapshot"
+msgstr ""
+"Om du återgår till den här ögonblicksbilden kommer den virtuella datorn att "
+"återgå till tiden för ögonblicksbilden och det aktuella tillståndet kommer "
+"att gå förlorat, tillsammans med all data som inte fångats i en "
+"ögonblicksbild"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
+msgid "Revert"
+msgstr "Återställ"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
+msgid "Force revert"
+msgstr "Framtvinga återställning"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
+#: src/components/vm/vmEditDescriptionDialog.tsx:66
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:139
+msgid "Memory snapshot will use about $0."
+msgstr "Minnesögonblicksbild kommer att använda ungefär $0."
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:143
+msgid "Total space available: $0."
+msgstr "Total storlek tillgänglig: $0."
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:149
+msgid "Memory state path"
+msgstr "Minnesstatussökväg"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:155
+msgid "Path to directory"
+msgstr "Sökväg till katalog"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:246
+msgid "Name already exists"
+msgstr "Namnet finns redan"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:248
+msgid "Name can not be empty"
+msgstr "Namnet får inte vara tomt"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:251
+msgid "Memory save location can not be empty"
+msgstr "Minnessparplatsen kan inte vara tom"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:291
+msgid "Snapshot failed to be created"
+msgstr "Misslyckades att skapa ögonblicksbild"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:324
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
+msgid "Create snapshot"
+msgstr "Skapa en ögonblicksbild"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:54
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+"Att skapa ögonblicksbilder av VM:ar med VFIO-enheter stödjs inte medan de "
+"kör."
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:96
+msgid "Creation time"
+msgstr "Skapandetidpunkt"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:105
+msgid "Current"
+msgstr "Nuvarande"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+msgid "No description"
+msgstr "Ingen beskrivning"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:138
+msgid "VM state"
+msgstr "VM-tillstånd"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:142
+msgid "no state saved"
+msgstr "inget tillstånd sparat"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:147 src/helpers.ts:219
+msgid "Shutting down"
+msgstr "Stänger av"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:148
+msgid "Disk-only snapshot"
+msgstr "Endast diskögonblicksbild"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:149
+msgid "Domain is blocked on resource"
+msgstr "Domänen är blockerad av en resurs"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:150
+msgid "Domain has crashed"
+msgstr "Domänen har kraschat"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:172
+msgid "Parent snapshot"
+msgstr "Föräldraögonblicksbild"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:174
+msgid "No parent"
+msgstr "Ingen förälder"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:204
+msgid "Delete snapshot?"
+msgstr "Ta bort ögonblicksbild?"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:205
+msgid "Snapshot $0 could not be deleted"
+msgstr "Ögonblicksbild $0 kunde inte raderas"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:206
+msgid ""
+"Snapshot $0 will be deleted from $1. All of its captured content will be "
+"lost."
+msgstr ""
+"Ögonblicksbilden $0 kommer raderas från $1. All dess fångade innehåll kommer "
+"att gå förlorat."
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
+msgid "No snapshots"
+msgstr "Inga ögonblicksbilder"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:257
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr "Med ögonblicksavbilder kan du återgå till ett tidigare tillstånd"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:59
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
+msgid "Mount tag"
+msgstr "Monteringstagg"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
+msgid "Remove filesystem?"
+msgstr "Ta bort filsysteme?"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:55
+msgid "Filesystem $0 could not be removed"
+msgstr "Filsystem $0 kunde inte raderas"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:56
+msgid "This filesystem will be removed from $0:"
+msgstr "Detta filsystem kommer tas bort från $0:"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:68
+msgid "Deleting shared directories is possible only when the guest is shut off"
+msgstr "Att ta bort delade kataloger är endast möjligt när gästen är avstängd"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:87
+msgid "No shared directories"
+msgstr "Inga delade kataloger"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:115
+msgid "Add shared directory"
+msgstr "Lägg till delad katalog"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:119
+msgid "Adding shared directories is possible only when the guest is shut off"
+msgstr ""
+"Att lägga till delade kataloger är endast möjligt när gästen är avstängd"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:145
+msgid "Mount tag must not be empty"
+msgstr "Monteringstaggen får inte vara tom"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:147
+msgid "Source must not be empty"
+msgstr "Källa kan inte vara tomt"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
+msgid "Share a host directory with the guest"
+msgstr "Dela en värdkatalog med gäst"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:180
+msgid "You can mount the shared folder using:"
+msgstr "Du kan montera den delade mappen med:"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:198
+msgid "Failed to add shared directory"
+msgstr "Misslyckades att lägga till delad katalog"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
+msgid "The host path that is to be exported."
+msgstr "Värdsökvägen som ska exporteras."
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:216
+msgid "The tag name to be used by the guest to mount this export point."
+msgstr ""
+"Taggnamnet som gästen skall använda för att montera denna exporteringspunkt."
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:230
+msgid "Extended attributes"
+msgstr "Utökade attribut"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:233
+msgid "Use extended attributes on files and directories"
+msgstr "Använd utökade attribut på filer och kataloger"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
+msgid "Share"
+msgstr "Dela"
+
+#: src/components/vm/overview/bootOrder.tsx:165
+msgid "Unit"
+msgstr "Enhet"
+
+#: src/components/vm/overview/bootOrder.tsx:272
+msgid "Boot order settings could not be saved"
+msgstr "Uppstartsordningen kunde inte sparas"
+
+#: src/components/vm/overview/bootOrder.tsx:341
+msgid "Change boot order"
+msgstr "Ändra uppstartsordning"
+
+#: src/components/vm/overview/bootOrder.tsx:368
+msgid "No boot device found"
+msgstr "Ingen startenhet hittades"
+
+#: src/components/vm/overview/bootOrder.tsx:387
+#: src/components/vm/overview/watchdog.tsx:265
+#: src/components/vm/overview/vsock.tsx:315
 #: src/components/vm/overview/vmOverviewCard.tsx:117
 #: src/components/vm/overview/vmOverviewCard.tsx:125
-#: src/components/vm/overview/vsock.tsx:315
-#: src/components/vm/overview/watchdog.tsx:265
-#: src/components/vm/overview/bootOrder.tsx:387
 msgid "edit"
 msgstr "redigera"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:131
-msgid ""
-"virt-install package needs to be installed on the system in order to edit "
-"this attribute"
+#: src/components/vm/overview/bootOrder.tsx:394
+#: src/components/vm/overview/memoryModal.tsx:173
+#: src/components/vm/nics/nicEdit.tsx:47
+msgid "Only editable when the guest is shut off"
+msgstr "Kan endast redigeras när gästen är avstängd"
+
+#: src/components/vm/overview/memoryModal.tsx:128
+#: src/components/vm/overview/memoryModal.tsx:144
+msgid "Memory could not be saved"
+msgstr "Minnet kunde inte sparas"
+
+#: src/components/vm/overview/memoryModal.tsx:131
+msgid "Maximum memory could not be saved"
+msgstr "Maximalt minne kunde inte sparas"
+
+#: src/components/vm/overview/memoryModal.tsx:157
+msgid "Current allocation"
+msgstr "Nuvarande indelning"
+
+#: src/components/vm/overview/memoryModal.tsx:166
+msgid "Maximum allocation"
+msgstr "Maximal tilldelning"
+
+#: src/components/vm/overview/memoryModal.tsx:180
+msgid "$0 memory adjustment"
+msgstr "$0 minnesjustering"
+
+#: src/components/vm/overview/watchdog.tsx:53
+msgid "Show less"
+msgstr "Visa mindre"
+
+#: src/components/vm/overview/watchdog.tsx:53
+msgid "Show more"
+msgstr "Visa mer"
+
+#: src/components/vm/overview/watchdog.tsx:105
+msgid "Failed to configure watchdog"
+msgstr "Misslyckades att konfigurera watchdog"
+
+#: src/components/vm/overview/watchdog.tsx:121
+msgid "Could not dynamically add watchdog"
+msgstr "Kunde inte lägga till vakthund dynamiskt"
+
+#: src/components/vm/overview/watchdog.tsx:122
+msgid "Adding a watchdog will require a reboot to take effect."
 msgstr ""
-"virt-install-paketet måste installeras på systemet för att kunna redigera "
-"detta attribut"
+"Att lägga till en vakthund kommer att kräva en omstart för att träda i kraft."
 
-#: src/components/vm/overview/vmOverviewCard.tsx:140
-#: src/components/vm/vmUsageCard.tsx:35
-msgid "$0 vCPU"
-msgid_plural "$0 vCPUs"
-msgstr[0] "$0 vCPU"
-msgstr[1] "$0 vCPU:er"
+#: src/components/vm/overview/watchdog.tsx:147
+msgid "Failed to detach watchdog"
+msgstr "Misslyckades att koppla ifrån vakthunden"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:183
-msgid "Boot order"
-msgstr "Uppstartsordning"
+#: src/components/vm/overview/watchdog.tsx:174
+msgid "Cannot edit watchdog device on a transient VM"
+msgstr "Kan inte redigera vakthundsenhet på en transient VM"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:210
-msgid "Vsock"
-msgstr "Vsock"
+#: src/components/vm/overview/watchdog.tsx:186
+msgid "Edit watchdog device type"
+msgstr "Redigera vakthundsenhetstypen"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:214
-msgid "vsock requires special software"
-msgstr "vsock kräver speciell programvara"
+#: src/components/vm/overview/watchdog.tsx:186
+msgid "Add watchdog device type"
+msgstr "Lägg till en vakthundsenhetstyp"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:234
-msgid "Hypervisor details"
-msgstr "Detaljer om hypervisorn"
+#: src/components/vm/overview/watchdog.tsx:194
+msgid "Action"
+msgstr "Åtgärd"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:238
-msgid "Emulated machine"
-msgstr "Emulerad maskin"
+#: src/components/vm/overview/watchdog.tsx:217
+msgid "Apply on next boot"
+msgstr "Applicera vid nästa uppstart"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:244
-#: src/components/vm/overview/firmware.tsx:90
-msgid "Firmware"
-msgstr "Hårdvaruprogram"
-
-#: src/components/vm/overview/helpers.tsx:16
-msgid ""
-"Watchdogs act when systems stop responding. To use this virtual watchdog "
-"device, the guest system also needs to have an additional driver and a "
-"running watchdog service."
-msgstr ""
-"Vakthundar agerar när system slutar svara. För att använda denna virtuella "
-"vakthundsenhet behöver gästsystemet även ha en ytterligare drivrutin och en "
-"körande vakthundstjänst."
-
-#: src/components/vm/overview/helpers.tsx:17
-msgid ""
-"Virtual socket support enables communication between the host and guest over "
-"a socket. It still requires special vsock-aware software to communicate over "
-"the socket."
-msgstr ""
-"Stöd för virtuella sockets möjliggör kommunikation mellan värden och gästen "
-"via en socket. Det kräver fortfarande speciell vsock-medveten programvara "
-"för att kommunicera över socketen."
-
-#: src/components/vm/overview/helpers.tsx:18
-msgid "An example of vsock-aware software is socat"
-msgstr "Ett exempel på vsock-medveten programvara är socat"
-
-#: src/components/vm/overview/helpers.tsx:22
-msgid "On the host"
-msgstr "På värden"
-
-#: src/components/vm/overview/helpers.tsx:28
-msgid "Inside the VM"
-msgstr "Inuti VM"
+#: src/components/vm/overview/watchdog.tsx:265
+#: src/components/vm/overview/vsock.tsx:315
+msgid "add"
+msgstr "lägg till"
 
 #: src/components/vm/overview/vsock.tsx:37
 msgid "Assign automatically"
@@ -2040,11 +2670,6 @@ msgstr "Redigera vsock gränssnitt"
 #: src/components/vm/overview/vsock.tsx:242
 msgid "Add vsock interface"
 msgstr "Lägg til vsock gränssnitt"
-
-#: src/components/vm/overview/vsock.tsx:315
-#: src/components/vm/overview/watchdog.tsx:265
-msgid "add"
-msgstr "lägg till"
 
 #: src/components/vm/overview/cpuModal.tsx:201
 msgid "vCPU and CPU topology settings could not be saved"
@@ -2103,6 +2728,10 @@ msgstr "Trådar per kärna"
 msgid "Mode"
 msgstr "Läge"
 
+#: src/components/vm/overview/cpuModal.tsx:322 src/helpers.ts:236
+msgid "custom"
+msgstr "anpassad"
+
 #: src/components/vm/overview/cpuModal.tsx:332
 msgid "$0 CPU details"
 msgstr "$0 CPU-detaljer"
@@ -2111,77 +2740,45 @@ msgstr "$0 CPU-detaljer"
 msgid "Apply"
 msgstr "Lägg på"
 
-#: src/components/vm/overview/watchdog.tsx:53
-msgid "Show less"
-msgstr "Visa mindre"
-
-#: src/components/vm/overview/watchdog.tsx:53
-msgid "Show more"
-msgstr "Visa mer"
-
-#: src/components/vm/overview/watchdog.tsx:105
-msgid "Failed to configure watchdog"
-msgstr "Misslyckades att konfigurera watchdog"
-
-#: src/components/vm/overview/watchdog.tsx:121
-msgid "Could not dynamically add watchdog"
-msgstr "Kunde inte lägga till vakthund dynamiskt"
-
-#: src/components/vm/overview/watchdog.tsx:122
-msgid "Adding a watchdog will require a reboot to take effect."
+#: src/components/vm/overview/vmOverviewCard.tsx:131
+msgid ""
+"virt-install package needs to be installed on the system in order to edit "
+"this attribute"
 msgstr ""
-"Att lägga till en vakthund kommer att kräva en omstart för att träda i kraft."
+"virt-install-paketet måste installeras på systemet för att kunna redigera "
+"detta attribut"
 
-#: src/components/vm/overview/watchdog.tsx:147
-msgid "Failed to detach watchdog"
-msgstr "Misslyckades att koppla ifrån vakthunden"
+#: src/components/vm/overview/vmOverviewCard.tsx:140
+#: src/components/vm/vmUsageCard.tsx:35
+msgid "$0 vCPU"
+msgid_plural "$0 vCPUs"
+msgstr[0] "$0 vCPU"
+msgstr[1] "$0 vCPU:er"
 
-#: src/components/vm/overview/watchdog.tsx:174
-msgid "Cannot edit watchdog device on a transient VM"
-msgstr "Kan inte redigera vakthundsenhet på en transient VM"
+#: src/components/vm/overview/vmOverviewCard.tsx:183
+msgid "Boot order"
+msgstr "Uppstartsordning"
 
-#: src/components/vm/overview/watchdog.tsx:186
-msgid "Edit watchdog device type"
-msgstr "Redigera vakthundsenhetstypen"
+#: src/components/vm/overview/vmOverviewCard.tsx:210
+msgid "Vsock"
+msgstr "Vsock"
 
-#: src/components/vm/overview/watchdog.tsx:186
-msgid "Add watchdog device type"
-msgstr "Lägg till en vakthundsenhetstyp"
+#: src/components/vm/overview/vmOverviewCard.tsx:214
+msgid "vsock requires special software"
+msgstr "vsock kräver speciell programvara"
 
-#: src/components/vm/overview/watchdog.tsx:194
-msgid "Action"
-msgstr "Åtgärd"
+#: src/components/vm/overview/vmOverviewCard.tsx:234
+msgid "Hypervisor details"
+msgstr "Detaljer om hypervisorn"
 
-#: src/components/vm/overview/watchdog.tsx:217
-msgid "Apply on next boot"
-msgstr "Applicera vid nästa uppstart"
+#: src/components/vm/overview/vmOverviewCard.tsx:238
+msgid "Emulated machine"
+msgstr "Emulerad maskin"
 
-#: src/components/vm/overview/memoryModal.tsx:128
-#: src/components/vm/overview/memoryModal.tsx:144
-msgid "Memory could not be saved"
-msgstr "Minnet kunde inte sparas"
-
-#: src/components/vm/overview/memoryModal.tsx:131
-msgid "Maximum memory could not be saved"
-msgstr "Maximalt minne kunde inte sparas"
-
-#: src/components/vm/overview/memoryModal.tsx:157
-msgid "Current allocation"
-msgstr "Nuvarande indelning"
-
-#: src/components/vm/overview/memoryModal.tsx:166
-msgid "Maximum allocation"
-msgstr "Maximal tilldelning"
-
-#: src/components/vm/overview/memoryModal.tsx:173
-#: src/components/vm/overview/bootOrder.tsx:394
-#: src/components/vm/nics/nicEdit.tsx:47
-msgid "Only editable when the guest is shut off"
-msgstr "Kan endast redigeras när gästen är avstängd"
-
-#: src/components/vm/overview/memoryModal.tsx:180
-msgid "$0 memory adjustment"
-msgstr "$0 minnesjustering"
+#: src/components/vm/overview/vmOverviewCard.tsx:244
+#: src/components/vm/overview/firmware.tsx:90
+msgid "Firmware"
+msgstr "Hårdvaruprogram"
 
 #: src/components/vm/overview/firmware.tsx:73
 msgid "Failed to change firmware"
@@ -2220,133 +2817,85 @@ msgid ""
 msgstr ""
 "Libvirt hittade inte något UEFI/OVMF hårdvaruprogram installerat på värden"
 
-#: src/components/vm/overview/bootOrder.tsx:105
-#: src/components/vm/disks/vmDiskColumns.tsx:39
-msgid "File"
-msgstr "Fil"
+#: src/components/vm/overview/helpers.tsx:16
+msgid ""
+"Watchdogs act when systems stop responding. To use this virtual watchdog "
+"device, the guest system also needs to have an additional driver and a "
+"running watchdog service."
+msgstr ""
+"Vakthundar agerar när system slutar svara. För att använda denna virtuella "
+"vakthundsenhet behöver gästsystemet även ha en ytterligare drivrutin och en "
+"körande vakthundstjänst."
 
-#: src/components/vm/overview/bootOrder.tsx:107
-#: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:492
-#: src/components/vm/disks/vmDiskColumns.tsx:41
-#: src/components/vm/hostdevs/hostDevCard.tsx:106
-msgid "Protocol"
-msgstr "Protokoll"
+#: src/components/vm/overview/helpers.tsx:17
+msgid ""
+"Virtual socket support enables communication between the host and guest over "
+"a socket. It still requires special vsock-aware software to communicate over "
+"the socket."
+msgstr ""
+"Stöd för virtuella sockets möjliggör kommunikation mellan värden och gästen "
+"via en socket. Det kräver fortfarande speciell vsock-medveten programvara "
+"för att kommunicera över socketen."
 
-#: src/components/vm/overview/bootOrder.tsx:108
-#: src/components/vm/disks/diskAdd.tsx:257
-#: src/components/vm/disks/diskAdd.tsx:330
-#: src/components/vm/disks/vmDiskColumns.tsx:42
-#: src/components/vm/disks/mediaEject.tsx:85
-#: src/components/vm/deleteDialog.tsx:81
-msgid "Pool"
-msgstr "Pool"
+#: src/components/vm/overview/helpers.tsx:18
+msgid "An example of vsock-aware software is socat"
+msgstr "Ett exempel på vsock-medveten programvara är socat"
 
-#: src/components/vm/overview/bootOrder.tsx:114
-#: src/components/vm/overview/bootOrder.tsx:126
-#: src/components/vm/overview/bootOrder.tsx:145
-#: src/components/vm/overview/bootOrder.tsx:148
-#: src/components/vm/overview/bootOrder.tsx:163
-#: src/components/vm/disks/diskAdd.tsx:186
-#: src/components/vm/disks/vmDisksCard.tsx:241
-#: src/components/vm/disks/diskEdit.tsx:93
-#: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/hostdevs/hostDevCard.tsx:91
-#: src/components/vm/hostdevs/hostDevCard.tsx:99
-#: src/components/vm/hostdevs/hostDevCard.tsx:250
-msgid "Bus"
-msgstr "Buss"
+#: src/components/vm/overview/helpers.tsx:22
+msgid "On the host"
+msgstr "På värden"
 
-#: src/components/vm/overview/bootOrder.tsx:140
-#: src/components/vm/overview/bootOrder.tsx:156
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-#: src/components/vm/hostdevs/hostDevCard.tsx:207
-#: src/components/vm/hostdevs/hostDevCard.tsx:239
-#: src/components/vm/hostdevs/hostDevCard.tsx:245
-msgid "Vendor"
-msgstr "Leverantör"
+#: src/components/vm/overview/helpers.tsx:28
+msgid "Inside the VM"
+msgstr "Inuti VM"
 
-#: src/components/vm/overview/bootOrder.tsx:141
-#: src/components/vm/overview/bootOrder.tsx:157
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-#: src/components/vm/hostdevs/hostDevCard.tsx:240
-#: src/components/vm/hostdevs/hostDevCard.tsx:246
-msgid "Product"
-msgstr "Produkt"
+#: src/components/vm/vmRenameDialog.tsx:59
+msgid "Failed to rename VM $0"
+msgstr "Misslyckades att byta namn på VM $0"
 
-#: src/components/vm/overview/bootOrder.tsx:145
-#: src/components/vm/overview/bootOrder.tsx:146
-#: src/components/vm/hostdevs/hostDevCard.tsx:84
-#: src/components/vm/hostdevs/hostDevCard.tsx:85
-msgid "Unspecified"
-msgstr "Ospecificerad"
+#: src/components/vm/vmRenameDialog.tsx:65
+msgid "Rename VM $0"
+msgstr "Byt namn på VM $0"
 
-#: src/components/vm/overview/bootOrder.tsx:158
-#: src/components/vm/hostdevs/hostDevAdd.tsx:112
-#: src/components/vm/hostdevs/hostDevCard.tsx:93
-#: src/components/vm/hostdevs/hostDevCard.tsx:100
-#: src/components/vm/hostdevs/hostDevCard.tsx:241
-msgid "Slot"
-msgstr "Plats"
+#: src/components/vm/vmRenameDialog.tsx:78
+msgid "New name"
+msgstr "Nytt namn"
 
-#: src/components/vm/overview/bootOrder.tsx:164
-#: src/components/vm/nics/vmNicsCard.tsx:557
-#: src/components/vm/disks/vmDisksCard.tsx:159
-#: src/components/vm/disks/vmDiskColumns.tsx:173
-#: src/components/vm/hostdevs/hostDevCard.tsx:101
-msgid "Target"
-msgstr "Mål"
+#: src/components/vm/vmRenameDialog.tsx:84
+msgid "New name must not be empty"
+msgstr "Namnet får inte vara tomt"
 
-#: src/components/vm/overview/bootOrder.tsx:165
-msgid "Unit"
-msgstr "Enhet"
+#: src/components/vm/vmRenameDialog.tsx:93 src/components/vm/vmActions.tsx:430
+msgid "Rename"
+msgstr "Byt namn"
 
-#: src/components/vm/overview/bootOrder.tsx:171
-#: src/components/vm/hostdevs/hostDevCard.tsx:107
-msgid "WWPN"
-msgstr "WWPN"
+#: src/components/vm/nics/nicAdd.tsx:93
+msgid "Generate automatically"
+msgstr "Skapa automatiskt"
 
-#: src/components/vm/overview/bootOrder.tsx:272
-msgid "Boot order settings could not be saved"
-msgstr "Uppstartsordningen kunde inte sparas"
+#: src/components/vm/nics/nicAdd.tsx:101
+msgid "Set manually"
+msgstr "Ställ in manuellt"
 
-#: src/components/vm/overview/bootOrder.tsx:341
-msgid "Change boot order"
-msgstr "Ändra uppstartsordning"
+#: src/components/vm/nics/nicAdd.tsx:123
+msgid "Network MAC can not be empty."
+msgstr "Nätverks MAC kan inte vara tomt."
 
-#: src/components/vm/overview/bootOrder.tsx:368
-msgid "No boot device found"
-msgstr "Ingen startenhet hittades"
-
-#: src/components/vm/confirmDialog.tsx:85
-msgid "Started"
-msgstr "Startad"
-
-#: src/components/vm/vmEditDescriptionDialog.tsx:45
-msgid "Failed to set description of VM $0"
-msgstr "Misslyckades med att spara en beskrivning för VM $0"
-
-#: src/components/vm/vmEditDescriptionDialog.tsx:53
-msgid "Edit description of VM $0"
-msgstr "Redigera beskrivning av VM $0"
-
-#: src/components/vm/vmEditDescriptionDialog.tsx:66
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
-msgid "Description"
-msgstr "Beskrivning"
-
-#: src/components/vm/nics/nicEdit.tsx:99 src/components/vm/nics/nicAdd.tsx:182
+#: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:99
 msgid "MAC address already in use"
 msgstr "MAC-adress används redan"
 
-#: src/components/vm/nics/nicEdit.tsx:100 src/components/vm/nics/nicAdd.tsx:182
+#: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:100
 msgid "Please choose a different MAC address"
 msgstr "Vänligen välj en annan MAC-adress"
 
-#: src/components/vm/nics/nicEdit.tsx:163 src/components/vm/nics/nicAdd.tsx:221
+#: src/components/vm/nics/nicAdd.tsx:221 src/components/vm/nics/nicEdit.tsx:163
 msgid "Network interface settings could not be saved"
 msgstr "Inställningar för nätverksgränssnitt kunde inte sparas"
+
+#: src/components/vm/nics/nicAdd.tsx:266
+msgid "Add virtual network interface"
+msgstr "Lägg till virtuell nätverksport"
 
 #: src/components/vm/nics/nicEdit.tsx:218
 msgid "$0 virtual network interface settings"
@@ -2384,11 +2933,6 @@ msgstr "Laddar tillgängliga nätverksenheter"
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Att redigera transienta nätverksgränssnit är inte tillåtet"
 
-#: src/components/vm/nics/vmNicsCard.tsx:634
-#: src/components/vm/disks/diskEdit.tsx:275
-msgid "Edit"
-msgstr "Redigera"
-
 #: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Remove network interface?"
 msgstr "Ta bort nätverksgränssnittet?"
@@ -2400,13 +2944,6 @@ msgstr "Nätverksgränssnitt $0 kunde inte tas bort"
 #: src/components/vm/nics/vmNicsCard.tsx:651
 msgid "Network interface $0 will be removed from $1"
 msgstr "Nätverksgränssnitt $0 kommer tas bort från $1"
-
-#: src/components/vm/nics/vmNicsCard.tsx:668
-#: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/vmDiskColumns.tsx:255
-msgid "The VM needs to be running or shut off to detach this device"
-msgstr ""
-"VM:en behöver köra eller vara avstängd för att koppla ifrån denna enhet"
 
 #: src/components/vm/nics/vmNicsCard.tsx:773
 msgid "Model type"
@@ -2423,11 +2960,6 @@ msgstr "standard"
 #: src/components/vm/nics/vmNicsCard.tsx:829
 msgid "No network interfaces"
 msgstr "Inga nätverksgränssnitt"
-
-#: src/components/vm/nics/nicBody.tsx:57
-#: src/components/vm/hostdevs/hostDevCard.tsx:197
-msgid "Model"
-msgstr "Modell"
 
 #: src/components/vm/nics/nicBody.tsx:91
 msgid ""
@@ -2565,32 +3097,6 @@ msgstr "Vidarebefordrade portar"
 msgid "No ports forwarded"
 msgstr "Inga portar vidarebefordrade"
 
-#: src/components/vm/nics/nicAdd.tsx:93
-msgid "Generate automatically"
-msgstr "Skapa automatiskt"
-
-#: src/components/vm/nics/nicAdd.tsx:101
-msgid "Set manually"
-msgstr "Ställ in manuellt"
-
-#: src/components/vm/nics/nicAdd.tsx:123
-msgid "Network MAC can not be empty."
-msgstr "Nätverks MAC kan inte vara tomt."
-
-#: src/components/vm/nics/nicAdd.tsx:137
-#: src/components/vm/disks/diskAdd.tsx:589
-msgid "Persistence"
-msgstr "Varaktighet"
-
-#: src/components/vm/nics/nicAdd.tsx:138
-#: src/components/vm/disks/diskAdd.tsx:590
-msgid "Always attach"
-msgstr "Anslut alltid"
-
-#: src/components/vm/nics/nicAdd.tsx:266
-msgid "Add virtual network interface"
-msgstr "Lägg till virtuell nätverksport"
-
 #: src/components/vm/usesSpice.tsx:26
 msgid "Uses SPICE"
 msgstr "Använder SPICE"
@@ -2607,466 +3113,10 @@ msgstr ""
 msgid "Switch to VNC to continue using this machine."
 msgstr "Byt till VNC för att fortsätta använda den här maskinen."
 
-#: src/components/vm/usesSpice.tsx:42
+#: src/components/vm/usesSpice.tsx:42 src/components/vm/vmActions.tsx:417
 #: src/components/vm/vmReplaceSpiceDialog.tsx:127
-#: src/components/vm/vmActions.tsx:417
 msgid "Replace SPICE devices"
 msgstr "Ersätt SPICE enheter"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:86
-msgid "Could not revert to snapshot"
-msgstr "Kunde inte återgå till ögonblicksbilden"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:100
-msgid "Revert to snapshot $0"
-msgstr "Återgå till ögonblicksbild $0"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:109
-msgid ""
-"Reverting to this snapshot will take the VM back to the time of the snapshot "
-"and the current state will be lost, along with any data not captured in a "
-"snapshot"
-msgstr ""
-"Om du återgår till den här ögonblicksbilden kommer den virtuella datorn att "
-"återgå till tiden för ögonblicksbilden och det aktuella tillståndet kommer "
-"att gå förlorat, tillsammans med all data som inte fångats i en "
-"ögonblicksbild"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
-msgid "Revert"
-msgstr "Återställ"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
-msgid "Force revert"
-msgstr "Framtvinga återställning"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:54
-msgid ""
-"Creating snapshots of VMs with VFIO devices is not supported while they are "
-"running."
-msgstr ""
-"Att skapa ögonblicksbilder av VM:ar med VFIO-enheter stödjs inte medan de "
-"kör."
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:324
-msgid "Create snapshot"
-msgstr "Skapa en ögonblicksbild"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:96
-msgid "Creation time"
-msgstr "Skapandetidpunkt"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:105
-msgid "Current"
-msgstr "Nuvarande"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
-msgid "No description"
-msgstr "Ingen beskrivning"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:138
-msgid "VM state"
-msgstr "VM-tillstånd"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:142
-msgid "no state saved"
-msgstr "inget tillstånd sparat"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:148
-msgid "Disk-only snapshot"
-msgstr "Endast diskögonblicksbild"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:149
-msgid "Domain is blocked on resource"
-msgstr "Domänen är blockerad av en resurs"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:150
-msgid "Domain has crashed"
-msgstr "Domänen har kraschat"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:172
-msgid "Parent snapshot"
-msgstr "Föräldraögonblicksbild"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:174
-msgid "No parent"
-msgstr "Ingen förälder"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:204
-msgid "Delete snapshot?"
-msgstr "Ta bort ögonblicksbild?"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:205
-msgid "Snapshot $0 could not be deleted"
-msgstr "Ögonblicksbild $0 kunde inte raderas"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:206
-msgid ""
-"Snapshot $0 will be deleted from $1. All of its captured content will be "
-"lost."
-msgstr ""
-"Ögonblicksbilden $0 kommer raderas från $1. All dess fångade innehåll kommer "
-"att gå förlorat."
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
-msgid "No snapshots"
-msgstr "Inga ögonblicksbilder"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:257
-msgid "Snapshots allow you to revert to an earlier state"
-msgstr "Med ögonblicksavbilder kan du återgå till ett tidigare tillstånd"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:139
-msgid "Memory snapshot will use about $0."
-msgstr "Minnesögonblicksbild kommer att använda ungefär $0."
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:143
-msgid "Total space available: $0."
-msgstr "Total storlek tillgänglig: $0."
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:149
-msgid "Memory state path"
-msgstr "Minnesstatussökväg"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:155
-msgid "Path to directory"
-msgstr "Sökväg till katalog"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:246
-msgid "Name already exists"
-msgstr "Namnet finns redan"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:248
-msgid "Name can not be empty"
-msgstr "Namnet får inte vara tomt"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:251
-msgid "Memory save location can not be empty"
-msgstr "Minnessparplatsen kan inte vara tom"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:291
-msgid "Snapshot failed to be created"
-msgstr "Misslyckades att skapa ögonblicksbild"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:78
-msgid "Failed to replace SPICE devices"
-msgstr "Misslyckades att ersätta SPICE-enheter"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:80
-msgid "Please see $0 how to reconfigure your VM manually."
-msgstr "Se $0 hur du konfigurerar om din VM manuellt."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:102
-msgid "Other VMs using SPICE"
-msgstr "Andra VMs använder SPICE"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:118
-msgid "Deselect others"
-msgstr "Avmarkera andra"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:118
-msgid "Select all"
-msgstr "Välj alla"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:127
-msgid "Replace SPICE devices in VM $0"
-msgstr "Ersätt SPICE enheter i VM $0"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:134
-msgid "Replace SPICE on selected VMs."
-msgstr "Ersätt SPICE på valda VMs."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:135
-msgid "Replace SPICE on the virtual machine."
-msgstr "Ersätt SPICE på den virtuella maskinen."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:136
-#: src/components/vm/vmReplaceSpiceDialog.tsx:138
-msgid "SPICE conversion"
-msgstr "SPICE konvertering"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:141
-msgid "Convert SPICE graphics console to VNC"
-msgstr "Konvertera SPICE grafikkonsol till VNC"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:142
-msgid "Convert QXL video card to VGA"
-msgstr "Konvertera QXL grafikkort till VGA"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:143
-msgid "Remove SPICE audio and host devices"
-msgstr "Ta bort SPICE-ljud- och värdenheter"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:148
-msgid ""
-"This is intended for a host which does not support SPICE due to upgrades or "
-"live migration."
-msgstr ""
-"Detta är avsett för en värd som inte stöder SPICE på grund av uppgraderingar "
-"eller livemigrering."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:151
-msgid ""
-"It can also be used to enable the inline graphical console in the browser, "
-"which does not support SPICE."
-msgstr ""
-"Den kan också användas för att aktivera den inbyggda grafiska konsolen i "
-"webbläsaren, som inte stöder SPICE."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:162
-msgid "Replace"
-msgstr "Ersätt"
-
-#: src/components/vm/vmUsageCard.tsx:26
-msgid "waiting"
-msgstr "väntar"
-
-#: src/components/vm/vmRenameDialog.tsx:59
-msgid "Failed to rename VM $0"
-msgstr "Misslyckades att byta namn på VM $0"
-
-#: src/components/vm/vmRenameDialog.tsx:65
-msgid "Rename VM $0"
-msgstr "Byt namn på VM $0"
-
-#: src/components/vm/vmRenameDialog.tsx:78
-msgid "New name"
-msgstr "Nytt namn"
-
-#: src/components/vm/vmRenameDialog.tsx:84
-msgid "New name must not be empty"
-msgstr "Namnet får inte vara tomt"
-
-#: src/components/vm/vmRenameDialog.tsx:93 src/components/vm/vmActions.tsx:430
-msgid "Rename"
-msgstr "Byt namn"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:59
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
-msgid "Mount tag"
-msgstr "Monteringstagg"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
-msgid "Remove filesystem?"
-msgstr "Ta bort filsysteme?"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:55
-msgid "Filesystem $0 could not be removed"
-msgstr "Filsystem $0 kunde inte raderas"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:56
-msgid "This filesystem will be removed from $0:"
-msgstr "Detta filsystem kommer tas bort från $0:"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:68
-msgid "Deleting shared directories is possible only when the guest is shut off"
-msgstr "Att ta bort delade kataloger är endast möjligt när gästen är avstängd"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:87
-msgid "No shared directories"
-msgstr "Inga delade kataloger"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:115
-msgid "Add shared directory"
-msgstr "Lägg till delad katalog"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:119
-msgid "Adding shared directories is possible only when the guest is shut off"
-msgstr ""
-"Att lägga till delade kataloger är endast möjligt när gästen är avstängd"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:145
-msgid "Mount tag must not be empty"
-msgstr "Monteringstaggen får inte vara tom"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:147
-msgid "Source must not be empty"
-msgstr "Källa kan inte vara tomt"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
-msgid "Share a host directory with the guest"
-msgstr "Dela en värdkatalog med gäst"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:180
-msgid "You can mount the shared folder using:"
-msgstr "Du kan montera den delade mappen med:"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:198
-msgid "Failed to add shared directory"
-msgstr "Misslyckades att lägga till delad katalog"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-msgid "The host path that is to be exported."
-msgstr "Värdsökvägen som ska exporteras."
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:216
-msgid "The tag name to be used by the guest to mount this export point."
-msgstr ""
-"Taggnamnet som gästen skall använda för att montera denna exporteringspunkt."
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
-#: src/components/vm/disks/diskAdd.tsx:173
-msgid "Hide additional options"
-msgstr "Göm ytterligare inställningar"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
-#: src/components/vm/disks/diskAdd.tsx:173
-msgid "Show additional options"
-msgstr "Visa ytterligare åtgärder"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:230
-msgid "Extended attributes"
-msgstr "Utökade attribut"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:233
-msgid "Use extended attributes on files and directories"
-msgstr "Använd utökade attribut på filer och kataloger"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
-msgid "Share"
-msgstr "Dela"
-
-#: src/components/vm/vmCloneDialog.tsx:77
-msgid "Failed to clone VM $0"
-msgstr "Misslyckades att klona VM $0"
-
-#: src/components/vm/vmCloneDialog.tsx:84
-msgid "Create a clone VM based on $0"
-msgstr "Skapa en klon-VM baserad på $0"
-
-#: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:383
-msgid "Clone"
-msgstr "Klona"
-
-#: src/components/vm/vmActions.tsx:69
-msgid "VM $0 failed to start"
-msgstr "VM:en $0 kunde inte starta"
-
-#: src/components/vm/vmActions.tsx:78
-msgid "VM $0 failed to get installed"
-msgstr "VM:en $0 kunde inte installeras"
-
-#: src/components/vm/vmActions.tsx:89
-msgid "VM $0 failed to reboot"
-msgstr "VM:en $0 kunde inte starta om"
-
-#: src/components/vm/vmActions.tsx:97
-msgid "VM $0 failed to force reboot"
-msgstr "VM $0 misslyckades med att tvinga omstart"
-
-#: src/components/vm/vmActions.tsx:108 src/components/vm/vmActions.tsx:508
-msgid "VM $0 failed to shutdown"
-msgstr "VM $0 kunde inte stängas av"
-
-#: src/components/vm/vmActions.tsx:116
-msgid "VM $0 failed to pause"
-msgstr "VM:en $0 kunde inte pausa"
-
-#: src/components/vm/vmActions.tsx:124
-msgid "VM $0 failed to resume"
-msgstr "VM:en $0 kunde inte återuppta"
-
-#: src/components/vm/vmActions.tsx:134
-msgid "VM $0 failed to force shutdown"
-msgstr "VM:en $0 kunde inte tvingande stängas av"
-
-#: src/components/vm/vmActions.tsx:142
-msgid "VM $0 failed to send NMI"
-msgstr "VM:en $0 kunde inte skicka NMI"
-
-#: src/components/vm/vmActions.tsx:155
-msgid "Failed to add TPM to VM $0"
-msgstr "Misslyckades att lägga till TPM för VM $0"
-
-#: src/components/vm/vmActions.tsx:202
-msgid "Resume"
-msgstr "Återuppta"
-
-#: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
-msgid "Shut down $0?"
-msgstr "Stäng av $0?"
-
-#: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
-#: src/components/vm/vmActions.tsx:251 src/components/vm/vmActions.tsx:256
-msgid "Shut down"
-msgstr "Stäng av"
-
-#: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
-#: src/components/vm/vmActions.tsx:320
-msgid "Reboot"
-msgstr "Starta om"
-
-#: src/components/vm/vmActions.tsx:264
-msgid "Force shut down $0?"
-msgstr "Framtvinga avstängning $0?"
-
-#: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
-msgid "Force shut down"
-msgstr "Framtvinga avstängning"
-
-#: src/components/vm/vmActions.tsx:285
-msgid "Send non-maskable interrupt to $0?"
-msgstr "Skicka ej maskerbart avbrott till $0?"
-
-#: src/components/vm/vmActions.tsx:291 src/components/vm/vmActions.tsx:296
-msgid "Send non-maskable interrupt"
-msgstr "Skicka ej maskerbart avbrott"
-
-#: src/components/vm/vmActions.tsx:308
-msgid "Reboot $0?"
-msgstr "Starta om $0?"
-
-#: src/components/vm/vmActions.tsx:328
-msgid "Force reboot $0?"
-msgstr "Tvinga omstart $0?"
-
-#: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
-msgid "Force reboot"
-msgstr "Tvinga omstart"
-
-#: src/components/vm/vmActions.tsx:355
-msgid "Run"
-msgstr "Kör"
-
-#: src/components/vm/vmActions.tsx:371
-msgid "Install"
-msgstr "Installera"
-
-#: src/components/vm/vmActions.tsx:393
-msgid ""
-"virt-install package needs to be installed on the system in order to clone "
-"VMs"
-msgstr ""
-"virt-install-paketet måste installeras på systemet för att kunna klona "
-"virtuella datorer"
-
-#: src/components/vm/vmActions.tsx:406
-#: src/components/vm/vmMigrateDialog.tsx:224
-msgid "Migrate"
-msgstr "Migrera"
-
-#: src/components/vm/vmActions.tsx:440
-msgid "Edit description"
-msgstr "Redigera beskrivning"
-
-#: src/components/vm/vmActions.tsx:453
-msgid "Add TPM"
-msgstr "Lägg till TPM"
-
-#: src/components/vm/vmActions.tsx:462
-msgid "This VM is transient. Shut it down if you wish to delete it."
-msgstr "Denna VM är transient. Stäng av den om du vill radera den."
-
-#: src/components/vm/vmActions.tsx:514
-msgid "Shutdown and restart $0?"
-msgstr "Avstängning och omstart $0?"
-
-#: src/components/vm/vmActions.tsx:527
-msgid "Force shutdown and restart"
-msgstr "Framtvinga avstängning och omstart"
 
 #: src/components/vm/vmMigrateDialog.tsx:51
 msgid "Destination URI"
@@ -3162,6 +3212,11 @@ msgstr ""
 "All VM-aktivitet, inklusive lagring, kommer vara tillfällig. Detta kommer "
 "resultera i dataförlust på destinationsvärden."
 
+#: src/components/vm/vmMigrateDialog.tsx:224
+#: src/components/vm/vmActions.tsx:406
+msgid "Migrate"
+msgstr "Migrera"
+
 #: src/components/vm/vmMigrateDialog.tsx:234
 msgid "Migrate VM to another host"
 msgstr "Migrera VM till en annan värd"
@@ -3171,455 +3226,397 @@ msgid ""
 "Storage volumes must be shared between this host and the destination host."
 msgstr "Lagringsvolymer måste delas mellan denna värd och destinationsvärden."
 
-#: src/components/vm/disks/diskAdd.tsx:79
-msgid "This volume is already used by $0."
-msgstr "Denna volym används redan av $0."
+#: src/components/vm/confirmDialog.tsx:85
+msgid "Started"
+msgstr "Startad"
 
-#: src/components/vm/disks/diskAdd.tsx:150
+#: src/components/vm/vmActions.tsx:69
+msgid "VM $0 failed to start"
+msgstr "VM:en $0 kunde inte starta"
+
+#: src/components/vm/vmActions.tsx:78
+msgid "VM $0 failed to get installed"
+msgstr "VM:en $0 kunde inte installeras"
+
+#: src/components/vm/vmActions.tsx:89
+msgid "VM $0 failed to reboot"
+msgstr "VM:en $0 kunde inte starta om"
+
+#: src/components/vm/vmActions.tsx:97
+msgid "VM $0 failed to force reboot"
+msgstr "VM $0 misslyckades med att tvinga omstart"
+
+#: src/components/vm/vmActions.tsx:108 src/components/vm/vmActions.tsx:508
+msgid "VM $0 failed to shutdown"
+msgstr "VM $0 kunde inte stängas av"
+
+#: src/components/vm/vmActions.tsx:116
+msgid "VM $0 failed to pause"
+msgstr "VM:en $0 kunde inte pausa"
+
+#: src/components/vm/vmActions.tsx:124
+msgid "VM $0 failed to resume"
+msgstr "VM:en $0 kunde inte återuppta"
+
+#: src/components/vm/vmActions.tsx:134
+msgid "VM $0 failed to force shutdown"
+msgstr "VM:en $0 kunde inte tvingande stängas av"
+
+#: src/components/vm/vmActions.tsx:142
+msgid "VM $0 failed to send NMI"
+msgstr "VM:en $0 kunde inte skicka NMI"
+
+#: src/components/vm/vmActions.tsx:155
+msgid "Failed to add TPM to VM $0"
+msgstr "Misslyckades att lägga till TPM för VM $0"
+
+#: src/components/vm/vmActions.tsx:191 src/helpers.ts:275
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/components/vm/vmActions.tsx:202
+msgid "Resume"
+msgstr "Återuppta"
+
+#: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
+msgid "Shut down $0?"
+msgstr "Stäng av $0?"
+
+#: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
+#: src/components/vm/vmActions.tsx:251 src/components/vm/vmActions.tsx:256
+msgid "Shut down"
+msgstr "Stäng av"
+
+#: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
+#: src/components/vm/vmActions.tsx:320
+msgid "Reboot"
+msgstr "Starta om"
+
+#: src/components/vm/vmActions.tsx:264
+msgid "Force shut down $0?"
+msgstr "Framtvinga avstängning $0?"
+
+#: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
+msgid "Force shut down"
+msgstr "Framtvinga avstängning"
+
+#: src/components/vm/vmActions.tsx:285
+msgid "Send non-maskable interrupt to $0?"
+msgstr "Skicka ej maskerbart avbrott till $0?"
+
+#: src/components/vm/vmActions.tsx:291 src/components/vm/vmActions.tsx:296
+msgid "Send non-maskable interrupt"
+msgstr "Skicka ej maskerbart avbrott"
+
+#: src/components/vm/vmActions.tsx:308
+msgid "Reboot $0?"
+msgstr "Starta om $0?"
+
+#: src/components/vm/vmActions.tsx:328
+msgid "Force reboot $0?"
+msgstr "Tvinga omstart $0?"
+
+#: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
+msgid "Force reboot"
+msgstr "Tvinga omstart"
+
+#: src/components/vm/vmActions.tsx:355
+msgid "Run"
+msgstr "Kör"
+
+#: src/components/vm/vmActions.tsx:371
+msgid "Install"
+msgstr "Installera"
+
+#: src/components/vm/vmActions.tsx:393
 msgid ""
-"Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
-"(-, _, +, .)"
+"virt-install package needs to be installed on the system in order to clone "
+"VMs"
 msgstr ""
-"Tillåtna tecken: grundläggande latinska alfabet, siffror och begränsad "
-"skiljetecken (-, _, +, .)"
-
-#: src/components/vm/disks/diskAdd.tsx:181
-#: src/components/vm/disks/vmDisksCard.tsx:257
-#: src/components/vm/disks/diskEdit.tsx:167
-msgid "Cache"
-msgstr "Cache"
-
-#: src/components/vm/disks/diskAdd.tsx:192
-msgid "Disk identifier"
-msgstr "Diskidentifierare"
-
-#: src/components/vm/disks/diskAdd.tsx:198
-msgid "Identifier may be silently truncated to $0 characters "
-msgstr "Identifierare kan tyst avkortas till $0 tecken "
-
-#: src/components/vm/disks/diskAdd.tsx:219
-msgid "No pools that allow volume creation"
-msgstr "Inga pooler som tillåter volymskapande"
-
-#: src/components/vm/disks/diskAdd.tsx:298
-msgid "No usable storage volumes"
-msgstr "Inga användbara lagringsvolymer"
-
-#: src/components/vm/disks/diskAdd.tsx:399
-msgid "Path cannot be empty"
-msgstr "Sökväg kan inte vara tom"
-
-#: src/components/vm/disks/diskAdd.tsx:403
-msgid "Importing an image with a backing file is unsupported"
-msgstr "Import av en avbild med en bakomliggande fil stödjs inte"
-
-#: src/components/vm/disks/diskAdd.tsx:420
-#: src/components/vm/disks/diskAdd.tsx:561
-msgid "Custom path"
-msgstr "Anpassad sökväg"
-
-#: src/components/vm/disks/diskAdd.tsx:422
-msgid "Path to file on host's file system"
-msgstr "Sökväg till fil på värdens filsystem"
-
-#: src/components/vm/disks/diskAdd.tsx:429
-msgid "Disk image file"
-msgstr "Diskavbilds fil"
-
-#: src/components/vm/disks/diskAdd.tsx:430
-msgid "CD/DVD disc"
-msgstr "CD/DVD skiva"
-
-#: src/components/vm/disks/diskAdd.tsx:551
-msgid "Create new"
-msgstr "Skapa ny"
-
-#: src/components/vm/disks/diskAdd.tsx:556
-msgid "Use existing"
-msgstr "Använd befintlig"
-
-#: src/components/vm/disks/diskAdd.tsx:606
-msgid "Failed to add disk"
-msgstr "Misslyckades med att lägga till disk"
-
-#: src/components/vm/disks/diskAdd.tsx:606
-msgid "Can not determine guest device name"
-msgstr "Kan inte fastställa gästenhetens namn"
-
-#: src/components/vm/disks/diskAdd.tsx:682
-msgid "Disk failed to be added"
-msgstr "Disken misslyckades då den skulle läggas till"
-
-#: src/components/vm/disks/diskAdd.tsx:694
-#: src/components/vm/disks/vmDisksCard.tsx:69
-msgid "Add disk"
-msgstr "Lägg till disk"
-
-#: src/components/vm/disks/diskAdd.tsx:735
-msgid "Media failed to be inserted"
-msgstr "Media misslyckades att sättas in"
-
-#: src/components/vm/disks/diskAdd.tsx:741
-msgid "Insert media"
-msgstr "Sätt i media"
-
-#: src/components/vm/disks/diskAdd.tsx:742
-#: src/components/vm/disks/vmDiskColumns.tsx:223
-msgid "Insert"
-msgstr "Insert"
-
-#: src/components/vm/disks/diskAdd.tsx:747
-msgid "ISO files"
-msgstr "ISO filer"
-
-#: src/components/vm/disks/vmDisksCard.tsx:161
-msgid "Used on host"
-msgstr "Används på värd"
-
-#: src/components/vm/disks/vmDisksCard.tsx:246
-#: src/components/vm/disks/diskEdit.tsx:130
-msgid "Access"
-msgstr "Åtkomst"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-#: src/components/vm/disks/diskEdit.tsx:110
-msgid "Read-only"
-msgstr "Skrivskyddad"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-msgid "Concurrently writeable"
-msgstr "Samtidigt skrivbar"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-#: src/components/vm/disks/diskEdit.tsx:114
-msgid "Writeable"
-msgstr "Skrivbar"
-
-#: src/components/vm/disks/vmDisksCard.tsx:281
-msgid "No disks"
-msgstr "Inga diskar"
-
-#: src/components/vm/disks/diskEdit.tsx:44
-msgid "ID"
-msgstr "ID"
-
-#: src/components/vm/disks/diskEdit.tsx:46
-#: src/components/vm/deleteDialog.tsx:68
-#: src/components/vm/hostdevs/hostDevCard.tsx:115
-#: src/components/vm/hostdevs/hostDevCard.tsx:119
-msgid "Path"
-msgstr "Sökväg"
-
-#: src/components/vm/disks/diskEdit.tsx:48
-msgid "Url"
-msgstr "Url"
-
-#: src/components/vm/disks/diskEdit.tsx:50
-msgid "Storage volume"
-msgstr "Lagringsvolym"
-
-#: src/components/vm/disks/diskEdit.tsx:81
-msgid "Machine must be shut off before changing bus type"
-msgstr "Maskinen måste vara avstängd innan det går att ändra busstyp"
-
-#: src/components/vm/disks/diskEdit.tsx:182
-msgid "No free targets for bus type $0."
-msgstr "Inga fria mål för busstyp $0."
-
-#: src/components/vm/disks/diskEdit.tsx:216
-msgid "Disk settings could not be saved"
-msgstr "Inställningarna för disken kunde inte sparas"
-
-#: src/components/vm/disks/diskEdit.tsx:230
-msgid "Edit $0 attributes"
-msgstr "Redigera $0 attribut"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:40
-#: src/components/vm/deleteDialog.tsx:73
-msgid "Block device"
-msgstr "Blockenhet"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:102
-msgid "(empty)"
-msgstr "(tom)"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:159
-msgid "Could not delete disk's storage"
-msgstr "Kunde inte ta bort diskens lagring"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:168
-msgid "Remove disk from VM?"
-msgstr "Ta bort en disk från VM:en?"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:170
-msgid "Disk $0 could not be removed"
-msgstr "Disk $0 kunde inte tas bort"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:171
-msgid "This disk will be removed from $0:"
-msgstr "Denna disk kommer tas bort från $0:"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:182
-msgid "Remove disk and delete disk image"
-msgstr "Ta bort disk och radera diskavbild"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:231
-#: src/components/vm/disks/mediaEject.tsx:109
-msgid "Eject"
-msgstr "Mata ut"
-
-#: src/components/vm/disks/mediaEject.tsx:99
-msgid "Eject disc from VM?"
-msgstr "Ta bort disk från VM?"
-
-#: src/components/vm/disks/mediaEject.tsx:101
-msgid "Media could not be ejected from $0"
-msgstr "Media kunde inte matas ut från $0"
-
-#: src/components/vm/disks/mediaEject.tsx:103
-msgid "Media will be ejected from $0:"
-msgstr "Media kommer att matas ut från $0:"
-
-#: src/components/vm/disks/mediaEject.tsx:113
-msgid "Force eject"
-msgstr "Tvinga utmatning"
-
-#: src/components/vm/deleteDialog.tsx:95
-msgid "The VM $0 is running and will be forced off before deletion."
-msgstr "VM:en $0 kör och kommer tvingande stängas av före den tas bort."
-
-#: src/components/vm/deleteDialog.tsx:97
-msgid "Delete associated storage files:"
-msgstr "Ta bort assoicierade lagringsfiler:"
-
-#: src/components/vm/deleteDialog.tsx:99
-msgid "Associated storage files"
-msgstr "Assoicierade lagringsfiler"
-
-#: src/components/vm/deleteDialog.tsx:186
-msgid "Could not delete all storage for $0"
-msgstr "Det gick inte att radera all lagring för $0"
-
-#: src/components/vm/deleteDialog.tsx:191
-msgid "Could not delete $0"
-msgstr "Det gick inte att radera $0"
-
-#: src/components/vm/deleteDialog.tsx:199
-msgid "Delete $0 VM?"
-msgstr "Ta bort VM $0?"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:48
-msgid "USB"
-msgstr "USB"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:53
-msgid "PCI"
-msgstr "PCI"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:147
-msgid "Table of selectable host devices"
-msgstr "Tabell över valbara värdenheter"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:150
-msgid "Row select"
-msgstr "Radval"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-msgid "Location"
-msgstr "Plats"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:166
-msgid "Undefined"
-msgstr "Odefinierad"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:236
-msgid "Host device could not be attached"
-msgstr "Värdenheten kunde inte anslutas"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:241
-msgid "No host device selected"
-msgstr "Ingen värdenhet vald"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:278
-#: src/components/vm/hostdevs/hostDevCard.tsx:140
-msgid "Add host device"
-msgstr "Lägg till värdenhet"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:111
-msgid "UUID"
-msgstr "UUID"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:123
-msgid "Interface"
-msgstr "Gränssnitt"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:187
-msgid "Class"
-msgstr "Klass"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:258
-msgid "Remove host device from VM?"
-msgstr "Ta bort värdenhet från VM:en?"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:260
-msgid "Host device will be removed from $0:"
-msgstr "Värdenheter kommer tas bort från $0:"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:316
-msgid "VM $0 Host Devices"
-msgstr "VM $0 VärdEnheter"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:319
-msgid "No host devices"
-msgstr "Inga värdenheter"
-
-#: src/libvirtApi/nodeDevice.ts:29
-msgid "Unclassified"
-msgstr "Oklassificerad"
-
-#: src/libvirtApi/nodeDevice.ts:30
-msgid "Mass Storage Controller"
-msgstr "Masslagringskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:31
-msgid "Network Controller"
-msgstr "Nätverks kontroller"
-
-#: src/libvirtApi/nodeDevice.ts:32
-msgid "Display Controller"
-msgstr "Skärmkontroller"
-
-#: src/libvirtApi/nodeDevice.ts:33
-msgid "Multimedia Controller"
-msgstr "Multimediakontroller"
-
-#: src/libvirtApi/nodeDevice.ts:34
-msgid "Memory Controller"
-msgstr "Minneskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:35
-msgid "Bridge"
-msgstr "Brygga"
-
-#: src/libvirtApi/nodeDevice.ts:36
-msgid "Simple Communication Controller"
-msgstr "Simpel kommunikationskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:37
-msgid "Base System Peripheral"
-msgstr "Bassystemets kringutrustning"
-
-#: src/libvirtApi/nodeDevice.ts:38
-msgid "Input Device Controller"
-msgstr "Inmatningsenhetsstyrenhet"
-
-#: src/libvirtApi/nodeDevice.ts:39
-msgid "Docking Station"
-msgstr "Dockningsstation"
-
-#: src/libvirtApi/nodeDevice.ts:40
-msgid "Processor"
-msgstr "Processor"
-
-#: src/libvirtApi/nodeDevice.ts:41
-msgid "Serial Bus Controller"
-msgstr "Seriell busskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:42
-msgid "Wireless Controller"
-msgstr "Trådlös kontroller"
-
-#: src/libvirtApi/nodeDevice.ts:43
-msgid "Intelligent Controller"
-msgstr "Intelligent styrenhet"
-
-#: src/libvirtApi/nodeDevice.ts:44
-msgid "Satellite Communication Controller"
-msgstr "Satellitkommunikationskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:45
-msgid "Encryption Controller"
-msgstr "Krypteringskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:46
-msgid "Signal Processing Controller"
-msgstr "Signalbehandlingskontroller"
-
-#: src/libvirtApi/nodeDevice.ts:47
-msgid "Processing Accelerator"
-msgstr "Processaccelerator"
-
-#: src/libvirtApi/nodeDevice.ts:48
-msgid "Non-Essential Instrumentation"
-msgstr "Icke-väsentlig instrumentering"
-
-#: src/libvirtApi/nodeDevice.ts:59
-msgid "Co-Processor"
-msgstr "Medprocessor"
-
-#: src/libvirtApi/nodeDevice.ts:61
-msgid "Miscellaneous"
-msgstr "Diverse"
-
-#: src/app.tsx:133
-msgid "Hardware virtualization is disabled"
-msgstr "Hårdvaruvirtualisering är inaktiverad"
-
-#: src/app.tsx:136
-msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr "Aktivera virtualiseringsstöd i BIOS/EFI-inställningar."
-
-#: src/app.tsx:138
+"virt-install-paketet måste installeras på systemet för att kunna klona "
+"virtuella datorer"
+
+#: src/components/vm/vmActions.tsx:440
+msgid "Edit description"
+msgstr "Redigera beskrivning"
+
+#: src/components/vm/vmActions.tsx:453
+msgid "Add TPM"
+msgstr "Lägg till TPM"
+
+#: src/components/vm/vmActions.tsx:462
+msgid "This VM is transient. Shut it down if you wish to delete it."
+msgstr "Denna VM är transient. Stäng av den om du vill radera den."
+
+#: src/components/vm/vmActions.tsx:514
+msgid "Shutdown and restart $0?"
+msgstr "Avstängning och omstart $0?"
+
+#: src/components/vm/vmActions.tsx:527
+msgid "Force shutdown and restart"
+msgstr "Framtvinga avstängning och omstart"
+
+#: src/components/vm/vmEditDescriptionDialog.tsx:45
+msgid "Failed to set description of VM $0"
+msgstr "Misslyckades med att spara en beskrivning för VM $0"
+
+#: src/components/vm/vmEditDescriptionDialog.tsx:53
+msgid "Edit description of VM $0"
+msgstr "Redigera beskrivning av VM $0"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:78
+msgid "Failed to replace SPICE devices"
+msgstr "Misslyckades att ersätta SPICE-enheter"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:80
+msgid "Please see $0 how to reconfigure your VM manually."
+msgstr "Se $0 hur du konfigurerar om din VM manuellt."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:102
+msgid "Other VMs using SPICE"
+msgstr "Andra VMs använder SPICE"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:118
+msgid "Deselect others"
+msgstr "Avmarkera andra"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:118
+msgid "Select all"
+msgstr "Välj alla"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:127
+msgid "Replace SPICE devices in VM $0"
+msgstr "Ersätt SPICE enheter i VM $0"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:134
+msgid "Replace SPICE on selected VMs."
+msgstr "Ersätt SPICE på valda VMs."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:135
+msgid "Replace SPICE on the virtual machine."
+msgstr "Ersätt SPICE på den virtuella maskinen."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:136
+#: src/components/vm/vmReplaceSpiceDialog.tsx:138
+msgid "SPICE conversion"
+msgstr "SPICE konvertering"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:141
+msgid "Convert SPICE graphics console to VNC"
+msgstr "Konvertera SPICE grafikkonsol till VNC"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:142
+msgid "Convert QXL video card to VGA"
+msgstr "Konvertera QXL grafikkort till VGA"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:143
+msgid "Remove SPICE audio and host devices"
+msgstr "Ta bort SPICE-ljud- och värdenheter"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:148
 msgid ""
-"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
-"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
-"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
-"computer's manual for details."
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
 msgstr ""
-"Att ändra BIOS/EFI-inställningarna är specifikt för varje tillverkare. Det "
-"innebär att man trycker på en snabbtangent under uppstart (ESC, F1, F12, "
-"Del). Aktivera en inställning som heter \"virtualisering\", \"VM\", \"VMX\", "
-"\"SVM\", \"VTX\", \"VTD\". Se din dators manual för detaljer."
+"Detta är avsett för en värd som inte stöder SPICE på grund av uppgraderingar "
+"eller livemigrering."
 
-#: src/app.tsx:147
-msgid "Ignore"
-msgstr "Ignorera"
+#: src/components/vm/vmReplaceSpiceDialog.tsx:151
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+"Den kan också användas för att aktivera den inbyggda grafiska konsolen i "
+"webbläsaren, som inte stöder SPICE."
 
-#: src/app.tsx:160
-msgid "Loading resources"
-msgstr "Laddar resurser"
+#: src/components/vm/vmReplaceSpiceDialog.tsx:162
+msgid "Replace"
+msgstr "Ersätt"
 
-#: src/app.tsx:172
-msgid "Virtualization service (libvirt) is not active"
-msgstr "Virtualiseringstjänsten (libvirt) är inte aktiv"
+#: src/components/vm/vmUsageCard.tsx:26
+msgid "waiting"
+msgstr "väntar"
 
-#: src/app.tsx:173
-msgid "Troubleshoot"
-msgstr "Felsök"
+#: src/components/vms/hostvmslist.tsx:60
+msgid "Downloading: $0%"
+msgstr "Hämtar: $0 %"
 
-#: src/app.tsx:220
-msgid "VM $0 does not exist on $1 connection"
-msgstr "VM $0 finns inte på $1 -anslutning"
+#: src/components/vms/hostvmslist.tsx:62
+msgid "Creating VM"
+msgstr "Skapar VM"
 
-#: src/app.tsx:221 src/app.tsx:233
-msgid "Go to VMs list"
-msgstr "Gå till VM-listan"
+#: src/components/vms/hostvmslist.tsx:208
+#: src/components/vms/hostvmslist.tsx:226
+msgid "All"
+msgstr "Alla"
 
-#: src/app.tsx:232
-msgid "Downloading image for VM $0"
-msgstr "Hämtar avbilden för VM $0"
+#: src/components/vms/hostvmslist.tsx:249
+msgid "Filter by name"
+msgstr "Filtrera efter namn"
 
-#: src/app.tsx:232
-msgid "Creating VM $0"
-msgstr "Skapar VM $0"
+#: src/components/vms/hostvmslist.tsx:313
+msgid "No VM is running or defined on this host"
+msgstr "Ingen VM kör eller är definierad på denna värd"
 
-#: src/app.tsx:236
-msgid "Download progress"
-msgstr "Hämtningsförlopp"
+#: src/helpers.ts:208
+msgid "disabled"
+msgstr "avaktiverat"
 
-#: src/state.ts:263
-msgid "Failed to fetch some resources"
-msgstr "Misslyckades att hämta några resurser"
+#: src/helpers.ts:209
+msgid "enabled"
+msgstr "aktiverat"
+
+#: src/helpers.ts:212
+msgid "System"
+msgstr "System"
+
+#: src/helpers.ts:213
+msgid "User session"
+msgstr "Användarsession"
+
+#: src/helpers.ts:216
+msgid "Running"
+msgstr "Kör"
+
+#: src/helpers.ts:217
+msgid "Idle"
+msgstr "Overksam"
+
+#: src/helpers.ts:218
+msgid "Paused"
+msgstr "Pausad"
+
+#: src/helpers.ts:220
+msgid "Shut off"
+msgstr "Stäng av"
+
+#: src/helpers.ts:221
+msgid "Crashed"
+msgstr "Kraschad"
+
+#: src/helpers.ts:222
+msgid "Dying"
+msgstr "Döende"
+
+#: src/helpers.ts:223
+msgid "Suspended (PM)"
+msgstr "vilande (SH)"
+
+#: src/helpers.ts:224
+msgid "Blocked"
+msgstr "Blockerat"
+
+#: src/helpers.ts:225
+msgid "No state"
+msgstr "Inget tillstånd"
+
+#: src/helpers.ts:228 src/helpers.ts:231
+msgid "disk"
+msgstr "disk"
+
+#: src/helpers.ts:229
+msgid "cdrom"
+msgstr "cdrom"
+
+#: src/helpers.ts:230 src/helpers.ts:242
+msgid "network"
+msgstr "nätverk"
+
+#: src/helpers.ts:232
+msgid "redirected device"
+msgstr "omdirigerad enhet"
+
+#: src/helpers.ts:233
+msgid "host device"
+msgstr "värdenhet"
+
+#: src/helpers.ts:237
+msgid "host"
+msgstr "värd"
+
+#: src/helpers.ts:238
+msgid "host passthrough"
+msgstr "genomgång till värd"
+
+#: src/helpers.ts:241
+msgid "direct"
+msgstr "direkt"
+
+#: src/helpers.ts:243
+msgid "bridge"
+msgstr "brygga"
+
+#: src/helpers.ts:244
+msgid "user"
+msgstr "användare"
+
+#: src/helpers.ts:245
+msgid "ethernet"
+msgstr "ethernet"
+
+#: src/helpers.ts:246
+msgid "hostdev"
+msgstr "värdenhet"
+
+#: src/helpers.ts:247
+msgid "mcast"
+msgstr "mcast"
+
+#: src/helpers.ts:248
+msgid "server"
+msgstr "server"
+
+#: src/helpers.ts:249
+msgid "udp"
+msgstr "udp"
+
+#: src/helpers.ts:250
+msgid "vhostuser"
+msgstr "vhost-användare"
+
+#: src/helpers.ts:253
+msgid "Open"
+msgstr "Öppna"
+
+#: src/helpers.ts:255
+msgid "None (isolated network)"
+msgstr "Ingen (isolerat nätverk)"
+
+#: src/helpers.ts:258
+msgid "Private"
+msgstr "Privat"
+
+#: src/helpers.ts:268
+msgid "up"
+msgstr "uppe"
+
+#: src/helpers.ts:269
+msgid "down"
+msgstr "nere"
+
+#: src/helpers.ts:272
+msgid "Reset"
+msgstr "Återställ"
+
+#: src/helpers.ts:273
+msgid "Gracefully shutdown"
+msgstr "Graciös avstängning"
+
+#: src/helpers.ts:274
+msgid "Power off"
+msgstr "Stäng av"
+
+#: src/helpers.ts:276
+msgid "Do nothing"
+msgstr "Gör ingenting"
+
+#: src/helpers.ts:277
+msgid "Dump core"
+msgstr "Dumpa minnet"
+
+#: src/helpers.ts:278
+msgid "Inject a non-maskable interrupt"
+msgstr "Injicera ett ej maskerbart avbrott"
 
 #: src/manifest.json:0
 msgid "iso"

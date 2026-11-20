@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:20+0000\n"
+"POT-Creation-Date: 2026-11-20 10:31+0000\n"
 "PO-Revision-Date: 2026-10-27 05:56+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/cockpit/"
@@ -28,738 +28,262 @@ msgstr ""
 msgid "Virtual machines management"
 msgstr "Správa virtuálních strojů"
 
-# auto translated by TM merge from project: dnf, version: master, DocId:
-# po/dnf
-#: src/helpers.ts:208
-msgid "disabled"
-msgstr "zakázáno"
-
-# auto translated by TM merge from project: dnf, version: master, DocId:
-# po/dnf
-#: src/helpers.ts:209
-msgid "enabled"
-msgstr "povoleno"
-
-# auto translated by TM merge from project: selinux (policycoreutils),
-# version: master, DocId: policycoreutils
-#: src/helpers.ts:212
-msgid "System"
-msgstr "Systém"
-
-#: src/helpers.ts:213
-msgid "User session"
-msgstr "Uživatelská relace"
-
-# auto translated by TM merge from project: dnf, version: master, DocId:
-# po/dnf
-#: src/helpers.ts:216
-msgid "Running"
-msgstr "Spuštěné"
-
-#: src/helpers.ts:217
-msgid "Idle"
-msgstr "Nečinné"
-
-#: src/helpers.ts:218
-msgid "Paused"
-msgstr "Pozastaveno"
-
-#: src/helpers.ts:219 src/components/vm/snapshots/vmSnapshotsCard.tsx:147
-msgid "Shutting down"
-msgstr "Vypínání"
-
-# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
-# cockpit
-#: src/helpers.ts:220
-msgid "Shut off"
-msgstr "Vypnuto"
-
-# auto translated by TM merge from project: libvirt, version: master, DocId:
-# libvirt
-#: src/helpers.ts:221
-msgid "Crashed"
-msgstr "Zhavarovalo"
-
-#: src/helpers.ts:222
-msgid "Dying"
-msgstr "Vypíná se"
-
-#: src/helpers.ts:223
-msgid "Suspended (PM)"
-msgstr "Uspáno (správou napájení)"
-
-#: src/helpers.ts:224
-msgid "Blocked"
-msgstr "Blokované"
-
-#: src/helpers.ts:225
-msgid "No state"
-msgstr "Žádný stav"
-
-#: src/helpers.ts:228 src/helpers.ts:231
-msgid "disk"
-msgstr "disk"
-
-#: src/helpers.ts:229
-msgid "cdrom"
-msgstr "cdrom"
-
-#: src/helpers.ts:230 src/helpers.ts:242
-msgid "network"
-msgstr "síť"
-
-#: src/helpers.ts:232
-msgid "redirected device"
-msgstr "přesměrované zařízení"
-
-#: src/helpers.ts:233
-msgid "host device"
-msgstr "zařízení hostitele"
-
-#: src/helpers.ts:236 src/components/vm/overview/cpuModal.tsx:322
-msgid "custom"
-msgstr "uživatelsky určené"
-
-#: src/helpers.ts:237
-msgid "host"
-msgstr "hostitel"
-
-#: src/helpers.ts:238
-msgid "host passthrough"
-msgstr "průchod na hostitele"
-
-#: src/helpers.ts:241
-msgid "direct"
-msgstr "přímé"
-
-# auto translated by TM merge from project: libguestfs, version: master,
-# DocId: po/libguestfs
-#: src/helpers.ts:243
-msgid "bridge"
-msgstr "most"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/helpers.ts:244
-msgid "user"
-msgstr "uživatel"
-
-#: src/helpers.ts:245
-msgid "ethernet"
-msgstr "ethernet"
-
-#: src/helpers.ts:246
-msgid "hostdev"
-msgstr "zařízení hostitele"
-
-#: src/helpers.ts:247
-msgid "mcast"
-msgstr "vícesměrvysílání"
-
-#: src/helpers.ts:248
-msgid "server"
-msgstr "server"
-
-# auto translated by TM merge from project: selinux (policycoreutils),
-# version: master, DocId: policycoreutils
-#: src/helpers.ts:249
-msgid "udp"
-msgstr "udp"
-
-#: src/helpers.ts:250
-msgid "vhostuser"
-msgstr "uzivatelhostitelevirtstroju"
-
-#: src/helpers.ts:253
-msgid "Open"
-msgstr "Otevřít"
-
-#: src/helpers.ts:255
-msgid "None (isolated network)"
-msgstr "Žádné (izolovaná síť)"
-
-#: src/helpers.ts:258
-msgid "Private"
-msgstr "Soukromé"
-
-# auto translated by TM merge from project: Pulseaudio, version: master,
-# DocId: pulseaudio.pot
-#: src/helpers.ts:264 src/components/storagePools/storagePoolOverviewTab.tsx:56
-#: src/components/storagePools/storagePoolOverviewTab.tsx:61
-#: src/components/networks/networkOverviewTab.tsx:113
-msgid "yes"
-msgstr "ano"
-
-#: src/helpers.ts:265 src/components/storagePools/storagePoolOverviewTab.tsx:56
-#: src/components/storagePools/storagePoolOverviewTab.tsx:61
-#: src/components/networks/networkOverviewTab.tsx:113
-msgid "no"
-msgstr "ne"
-
-#: src/helpers.ts:268
-msgid "up"
-msgstr "zapnuto"
-
-#: src/helpers.ts:269
-msgid "down"
-msgstr "vypnuté"
-
-#: src/helpers.ts:272
-msgid "Reset"
-msgstr "Vrátit na výchozí"
-
-#: src/helpers.ts:273
-msgid "Gracefully shutdown"
-msgstr "Vypnout prostřednictvím operačního systému"
-
-#: src/helpers.ts:274
-msgid "Power off"
-msgstr "Vypnout"
-
-#: src/helpers.ts:275 src/components/vm/vmActions.tsx:191
-msgid "Pause"
-msgstr "Pozastavit"
-
-#: src/helpers.ts:276
-msgid "Do nothing"
-msgstr "Nedělat nic"
-
-#: src/helpers.ts:277
-msgid "Dump core"
-msgstr "Uložit výpis obsahu paměti"
-
-#: src/helpers.ts:278
-msgid "Inject a non-maskable interrupt"
-msgstr "Vložit nemaskovatelné přerušení"
-
-#: src/components/aggregateStatusCards.tsx:34
-msgid "$0 Storage pool"
-msgid_plural "$0 Storage pools"
-msgstr[0] "$0 fond úložiště"
-msgstr[1] "$0 fondy úložiště"
-msgstr[2] "$0 fondů úložiště"
-
-#: src/components/aggregateStatusCards.tsx:56
-msgid "$0 Network"
-msgid_plural "$0 Networks"
-msgstr[0] "$0 síť"
-msgstr[1] "$0 sítě"
-msgstr[2] "$0 sítí"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:56
-msgid "Please enter new volume name"
-msgstr "Zadejte název pro nový svazek"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:62
-msgid "Size must be a number"
-msgstr "Je třeba, aby velikost byla číslo"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:65
-msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
-msgstr ""
-"Je třeba, aby velikost svazku úložiště nepřesahovala kapacitu fondu úložiště "
-"($0 $1)"
-
-# auto translated by TM merge from project: blivet-gui, version: f23-branch,
-# DocId: blivet-gui
-#: src/components/storagePools/storageVolumeCreateBody.tsx:103
-#: src/components/storagePools/createStoragePoolDialog.tsx:244
-#: src/components/vm/disks/vmDiskColumns.tsx:134
-msgid "Format"
-msgstr "Formát"
-
-# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
-# cockpit
-#: src/components/storagePools/storageVolumeCreateBody.tsx:113
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/storagePoolList.tsx:61
-#: src/components/storagePools/createStoragePoolDialog.tsx:58
-#: src/components/vms/hostvmslist.tsx:307
-#: src/components/create-vm-dialog/createVmDialog.tsx:245
-#: src/components/networks/networkList.tsx:59
-#: src/components/networks/createNetworkDialog.tsx:172
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
-#: src/components/vm/vmCloneDialog.tsx:92
-msgid "Name"
-msgstr "Název"
-
-#: src/components/storagePools/storageVolumeCreateBody.tsx:116
-msgid "New volume name"
-msgstr "Název pro nový svazek"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/storagePools/storageVolumeCreateBody.tsx:120
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-#: src/components/storagePools/storagePoolList.tsx:62
-#: src/components/vm/disks/vmDisksCard.tsx:160
-msgid "Size"
-msgstr "Velikost"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/storagePools/storagePoolOverviewTab.tsx:23
-#: src/components/storagePools/createStoragePoolDialog.tsx:154
-#: src/components/vm/overview/bootOrder.tsx:110
-#: src/components/vm/disks/vmDiskColumns.tsx:44
-msgid "Host"
-msgstr "Hostitel"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:30
-#: src/components/storagePools/storagePoolOverviewTab.tsx:35
-#: src/components/storagePools/createStoragePoolDialog.tsx:218
-#: src/components/storagePools/createStoragePoolDialog.tsx:235
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:201
-msgid "Source path"
-msgstr "Popis umístění zdroje"
-
-# auto translated by TM merge from project: dnf, version: master, DocId: dnf
-#: src/components/storagePools/storagePoolOverviewTab.tsx:40
-#: src/components/vm/nics/vmNicsCard.tsx:549
-#: src/components/vm/nics/nicBody.tsx:269
-#: src/components/vm/disks/diskAdd.tsx:570
-#: src/components/vm/disks/vmDisksCard.tsx:158
-#: src/components/vm/hostdevs/hostDevCard.tsx:217
-msgid "Source"
-msgstr "Zdroj"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:45
-msgid "Source format"
-msgstr "Formát zdroje"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:50
-#: src/components/storagePools/createStoragePoolDialog.tsx:130
-msgid "Target path"
-msgstr "Popis umístění cíle"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:55
-#: src/components/networks/networkOverviewTab.tsx:112
-msgid "Persistent"
-msgstr "Trvalé"
-
-#: src/components/storagePools/storagePoolOverviewTab.tsx:60
-#: src/components/networks/networkOverviewTab.tsx:117
-#: src/components/vm/overview/vmOverviewCard.tsx:190
-msgid "Autostart"
-msgstr "Automatické spouštění"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/storagePools/storagePoolOverviewTab.tsx:65
-#: src/components/storagePools/createStoragePoolDialog.tsx:102
-#: src/components/vm/overview/bootOrder.tsx:125
-#: src/components/vm/overview/bootOrder.tsx:139
-#: src/components/vm/overview/bootOrder.tsx:155
-#: src/components/vm/overview/bootOrder.tsx:162
-#: src/components/vm/overview/bootOrder.tsx:169
-#: src/components/vm/overview/bootOrder.tsx:175
-#: src/components/vm/nics/vmNicsCard.tsx:780
-#: src/components/vm/hostdevs/hostDevAdd.tsx:43
-#: src/components/vm/hostdevs/hostDevCard.tsx:177
-msgid "Type"
-msgstr "Typ"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:77
-msgid "Used by"
-msgstr "Používá"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:111
-msgid "No storage volumes defined for this storage pool"
-msgstr "Pro tento fond úložiště nejsou definované žádné úložné svazky"
-
-#: src/components/storagePools/storagePoolVolumesTab.tsx:111
-msgid "Activate the storage pool to administer volumes"
-msgstr "Pokud chcete spravovat svazky, aktivujte fond úložiště"
-
-#: src/components/storagePools/storagePoolList.tsx:46
-#: src/components/vms/hostvmslist.tsx:302
-#: src/components/vms/hostvmslist.tsx:304
-#: src/components/networks/networkList.tsx:44
-#: src/components/vm/vmDetailsPage.tsx:249 src/manifest.json:0
-msgid "Virtual machines"
-msgstr "Virtuální stroje"
-
-#: src/components/storagePools/storagePoolList.tsx:49
-#: src/components/storagePools/storagePoolList.tsx:56
-#: src/components/storagePools/storagePoolList.tsx:58
-#: src/components/create-vm-dialog/details.tsx:895
-msgid "Storage pools"
-msgstr "Fondy úložiště"
-
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/storagePools/storagePoolList.tsx:63
-#: src/components/vms/hostvmslist.tsx:308
-#: src/components/networks/networkList.tsx:61
-#: src/components/networks/createNetworkDialog.tsx:34
-#: src/components/common/machinesConnectionSelector.tsx:46
-#: src/components/vm/overview/vmOverviewCard.tsx:158
-msgid "Connection"
-msgstr "Spojení"
-
-# auto translated by TM merge from project: selinux (policycoreutils),
-# version: master, DocId: policycoreutils
-#: src/components/storagePools/storagePoolList.tsx:64
-#: src/components/vms/hostvmslist.tsx:253
-#: src/components/vms/hostvmslist.tsx:309
-#: src/components/networks/networkList.tsx:63
-#: src/components/vm/overview/vmOverviewCard.tsx:163
-#: src/components/vm/nics/vmNicsCard.tsx:586
-msgid "State"
-msgstr "Stav"
-
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/storagePools/storagePoolList.tsx:65
-#: src/components/vms/hostvmslist.tsx:311
-#: src/components/networks/networkList.tsx:64
-#: src/components/vm/nics/vmNicsCard.tsx:593
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
-#: src/components/vm/disks/vmDisksCard.tsx:162
-msgid "Actions"
-msgstr "Akce"
-
-#: src/components/storagePools/storagePoolList.tsx:67
-msgid "No storage pool is defined on this host"
-msgstr "Na tomto stroji není definován žádný fond úložiště"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:73
-msgid "Volume failed to be created"
-msgstr "Svazek se nepodařilo vytvořit"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:86
-msgid "Create storage volume"
-msgstr "Vytvořit svazek úložiště"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:95
-#: src/components/storagePools/createStoragePoolDialog.tsx:509
-#: src/components/networks/createNetworkDialog.tsx:545
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:337
-msgid "Create"
-msgstr "Vytvořit"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:126
-#: src/components/storagePools/storageVolumeCreate.tsx:145
-msgid "Create volume"
-msgstr "Vytvořit svazek"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:135
-msgid "Pool type doesn't support volume creation"
-msgstr "Typ fondu nepodporuje vytváření svazků"
-
-#: src/components/storagePools/storageVolumeCreate.tsx:136
-msgid "Pool needs to be active to create volume"
-msgstr "Aby bylo možné vytvořit svazek, fond je třeba aktivovat"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:60
-msgid "Storage pool name"
-msgstr "Název fondu úložiště"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:64
-#: src/components/networks/createNetworkDialog.tsx:77
-msgid "Name should not be empty"
-msgstr "Název je třeba vyplnit"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:64
-msgid "Name contains invalid characters"
-msgstr "Název obsahuje neplatné znaky"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:79
-msgid "Filesystem directory"
-msgstr "Složka v souborovém systému"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:80
-msgid "Network file system"
-msgstr "Síťový souborový systém"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:81
-msgid "iSCSI target"
-msgstr "iSCSI cíl"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:82
-msgid "Physical disk device"
-msgstr "Fyzické diskové zařízení"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:83
-msgid "LVM volume group"
-msgstr "LVM skupina svazků"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:84
-msgid "Pre-formatted block device"
-msgstr "Předformátované blokové zařízení"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:88
-msgid "iSCSI direct target"
-msgstr "Přímý cíl iSCSI"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:134
-msgid "Path on host's filesystem"
-msgstr "Umístění na souborovém systému hostitele"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:136
-msgid "Target path should not be empty"
-msgstr "Popis umístění cíle je třeba vyplnit"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/storagePools/createStoragePoolDialog.tsx:157
-msgid "Host name"
-msgstr "Název počítače"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:160
-msgid "Host should not be empty"
-msgstr "Hostitele je třeba vyplnit"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:177
-msgid "Initiator"
-msgstr "Iniciátor"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:179
-msgid "iSCSI initiator IQN"
-msgstr "IQN název iSCSI iniciátoru"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:183
-msgid "Initiator should not be empty"
-msgstr "Iniciátor by měl být vyplněný"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:204
-msgid "The directory on the server being exported"
-msgstr "Složka na serveru, kterou exportovat"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:207
-msgid "iSCSI target IQN"
-msgstr "IQN název iSCSI cíle"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:210
-msgid "Physical disk device on host"
-msgstr "Fyzické diskové zařízení na hostiteli"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:213
-msgid "Volume group name"
-msgstr "Název skupiny svazků"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:229
-#: src/components/storagePools/createStoragePoolDialog.tsx:242
-msgid "Source path should not be empty"
-msgstr "Popis umístění zdroje je třeba vyplnit"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:263
-msgid "Source volume group"
-msgstr "Zdrojová skupina svazků"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:270
-msgid "Volume group name should not be empty"
-msgstr "Název skupiny svazků je třeba vyplnit"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:284
-msgid "Startup"
-msgstr "Při spuštění"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:286
-msgid "Start pool when host boots"
-msgstr "Spustit fond při startu hostitele"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:464
-msgid "Storage pool failed to be created"
-msgstr "Fond úložiště se nepodařilo vytvořit"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:503
-#: src/components/storagePools/createStoragePoolDialog.tsx:554
-msgid "Create storage pool"
-msgstr "Vytvořit fond úložiště"
-
-#: src/components/storagePools/createStoragePoolDialog.tsx:512
-#: src/components/storagePools/storagePoolDelete.tsx:207
-#: src/components/create-vm-dialog/createVmDialog.tsx:347
-#: src/components/networks/createNetworkDialog.tsx:548
-#: src/components/networks/networkOverviewTab.tsx:271
-#: src/components/common/deleteResource.tsx:116
-#: src/components/vm/overview/vsock.tsx:272
-#: src/components/vm/overview/cpuModal.tsx:341
-#: src/components/vm/overview/watchdog.tsx:228
-#: src/components/vm/overview/memoryModal.tsx:195
-#: src/components/vm/overview/firmware.tsx:107
-#: src/components/vm/overview/bootOrder.tsx:356
-#: src/components/vm/confirmDialog.tsx:66
-#: src/components/vm/vmEditDescriptionDialog.tsx:81
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
-#: src/components/vm/vmReplaceSpiceDialog.tsx:165
-#: src/components/vm/vmRenameDialog.tsx:96
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
-#: src/components/vm/vmCloneDialog.tsx:111
-#: src/components/vm/vmMigrateDialog.tsx:227
-#: src/components/vm/disks/mediaEject.tsx:116
-#: src/components/vm/deleteDialog.tsx:216
-#: src/components/vm/hostdevs/hostDevAdd.tsx:266
-msgid "Cancel"
-msgstr "Storno"
-
-# auto translated by TM merge from project: libvirt, version: master, DocId:
-# libvirt
-#: src/components/storagePools/storagePool.tsx:53
-#: src/components/networks/network.tsx:54
-msgid "active"
-msgstr "aktivní"
-
-# auto translated by TM merge from project: libvirt, version: master, DocId:
-# libvirt
-#: src/components/storagePools/storagePool.tsx:53
-#: src/components/networks/network.tsx:54
-msgid "inactive"
-msgstr "neaktivní"
-
-# auto translated by TM merge from project: Fedora Release Notes, version:
-# f23, DocId: pot/Overview
-#: src/components/storagePools/storagePool.tsx:60
-#: src/components/vm/vmDetailsPage.tsx:140
-msgid "Overview"
-msgstr "Přehled"
-
-#: src/components/storagePools/storagePool.tsx:66
-msgid "Storage volumes"
-msgstr "Svazky úložiště"
-
-#: src/components/storagePools/storagePool.tsx:113
-msgid "Storage pool $0 failed to get activated"
-msgstr "Fond úložiště $0 se nepodařilo aktivovat"
-
-#: src/components/storagePools/storagePool.tsx:129
-msgid "Storage pool $0 failed to get deactivated"
-msgstr "Fond úložiště $0 se nepodařilo deaktivovat"
-
-#: src/components/storagePools/storagePool.tsx:146
-#: src/components/networks/network.tsx:145
-msgid "Deactivate"
-msgstr "Deaktivovat"
-
-#: src/components/storagePools/storagePool.tsx:155
-#: src/components/networks/network.tsx:149
-msgid "Activate"
-msgstr "Aktivovat"
-
-#: src/components/storagePools/storagePool.tsx:160
-#: src/components/storagePools/storagePool.tsx:167
-msgid "Operation is in progress"
-msgstr "Operace probíhá"
-
-#: src/components/storagePools/storagePoolDelete.tsx:84
-msgid "Pool's volumes are used by VMs "
-msgstr "Svazky z fondu jsou využívány virt. stroji "
-
-#: src/components/storagePools/storagePoolDelete.tsx:86
+#: src/state.ts:263
+msgid "Failed to fetch some resources"
+msgstr "Nepodařilo se stáhnout si některé prostředky"
+
+#: src/app.tsx:133
+msgid "Hardware virtualization is disabled"
+msgstr "Hardwarová podpora virtualizace je vypnutá"
+
+#: src/app.tsx:136
+msgid "Enable virtualization support in BIOS/EFI settings."
+msgstr "Zapněte podporu virtualizace v nastavení BIOS/EFI."
+
+#: src/app.tsx:138
 msgid ""
-"Detach the disks using this pool from any VMs before attempting deletion."
+"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
+"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
+"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
+"computer's manual for details."
 msgstr ""
-"Před pokusem o smazání odpojte veškeré disky, které využívají tento fond, z "
-"virt. strojů."
+"Změna nastavení v BIOS/EFI se u různých výrobců provádí různě. Zahrnuje "
+"stisknutí klávesové zkratky (ESC, F1, F12, Del) po zapnutí stroje. Zapněte "
+"nastavení nazvaná nějak jako „virtualization“, „VM“, „VMX“, „SVM“, „VTX“, "
+"„VTD“. Podrobnosti zjistíte z příručky k počítači (či jeho základní desce)."
 
-#: src/components/storagePools/storagePoolDelete.tsx:138
-#: src/components/storagePools/storagePoolDelete.tsx:142
-msgid "The storage pool could not be deleted"
-msgstr "Fond úložiště nebylo možné smazat"
+#: src/app.tsx:147
+msgid "Ignore"
+msgstr "Ignorovat"
 
-#: src/components/storagePools/storagePoolDelete.tsx:175
-msgid "Also delete all volumes inside this pool:"
-msgstr "Také smazat veškeré svazky v tomto fondu:"
+#: src/app.tsx:160
+msgid "Loading resources"
+msgstr "Načítání prostředků"
 
-#: src/components/storagePools/storagePoolDelete.tsx:184
-msgid "No volumes exist in this storage pool."
-msgstr "V tomto fondu úložiště neexistují žádné svazky."
+#: src/app.tsx:172
+msgid "Virtualization service (libvirt) is not active"
+msgstr "Služba virtualizace (libvirt) není aktivní"
 
-#: src/components/storagePools/storagePoolDelete.tsx:185
-msgid ""
-"Deleting an inactive storage pool will only undefine the pool. Its content "
-"will not be deleted."
-msgstr ""
-"Smazání neaktivního fondu úložiště pouze zruší jeho definici. Obsah fondu "
-"samotný smazán nebude."
+# auto translated by TM merge from project: SETroubleShoot, version: master,
+# DocId: framework/po/setroubleshoot
+#: src/app.tsx:173
+msgid "Troubleshoot"
+msgstr "Řešit potíže"
 
-#: src/components/storagePools/storagePoolDelete.tsx:193
-msgid "Delete $0 storage pool?"
-msgstr "Smazat fond úložiště $0?"
+#: src/app.tsx:220
+msgid "VM $0 does not exist on $1 connection"
+msgstr "Virt. stroj $0 na spojení $1 neexistuje"
 
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/storagePools/storagePoolDelete.tsx:204
-#: src/components/storagePools/storagePoolDelete.tsx:234
-#: src/components/storagePools/storagePoolDelete.tsx:244
-#: src/components/networks/network.tsx:126
-#: src/components/networks/network.tsx:129
-#: src/components/common/deleteResource.tsx:104
-#: src/components/common/deleteResource.tsx:164
-#: src/components/common/deleteResource.tsx:175
-#: src/components/vm/vmActions.tsx:466 src/components/vm/vmActions.tsx:474
-#: src/components/vm/deleteDialog.tsx:213
-msgid "Delete"
-msgstr "Smazat"
+#: src/app.tsx:221 src/app.tsx:233
+msgid "Go to VMs list"
+msgstr "Přejít na seznam virt. strojů"
 
-#: src/components/storagePools/storagePoolDelete.tsx:223
-msgid ""
-"Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
-"deactivated."
-msgstr ""
-"Netrvalý fond úložiště není možné smazat. Přestane existovat po vypnutí."
+#: src/app.tsx:232
+msgid "Downloading image for VM $0"
+msgstr "Stahuje se obraz pro virt. stroj $0"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:44
-msgid "Storage volumes could not be deleted"
-msgstr "Svazky úložiště nebylo možné smazat"
+#: src/app.tsx:232
+msgid "Creating VM $0"
+msgstr "Vytváří se virt. stroj $0"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:60
-msgid "Delete $0 volume"
-msgid_plural "Delete $0 volumes"
-msgstr[0] "Smazat $0 svazek"
-msgstr[1] "Smazat $0 svazky"
-msgstr[2] "Smazat $0 svazků"
+#: src/app.tsx:236
+msgid "Download progress"
+msgstr "Kolik už staženo"
 
-#: src/components/storagePools/storageVolumeDelete.tsx:68
-msgid ""
-"One or more selected volumes are used by domains. Detach the disks first to "
-"allow volume deletion."
-msgstr ""
-"Jeden či více z vybraných svazků je používán doménami. Aby bylo možné svazek "
-"smazat, je nejprve třeba odpojit z něj využívané disky."
+#: src/libvirtApi/nodeDevice.ts:29
+msgid "Unclassified"
+msgstr "Nezařazeno"
 
-#: src/components/vms/hostvmslist.tsx:60
-msgid "Downloading: $0%"
-msgstr "Stahování: $0%"
+#: src/libvirtApi/nodeDevice.ts:30
+msgid "Mass Storage Controller"
+msgstr "Řadič Mass Storage úložiště"
 
-#: src/components/vms/hostvmslist.tsx:62
-msgid "Creating VM"
-msgstr "Vytváří se virt. stroj"
+#: src/libvirtApi/nodeDevice.ts:31
+msgid "Network Controller"
+msgstr "Řadič sítě"
 
-#: src/components/vms/hostvmslist.tsx:86 src/components/vms/hostvmslist.tsx:288
-#: src/components/common/needsShutdown.tsx:206
-#: src/components/vm/overview/vmOverviewCard.tsx:178
-#: src/components/vm/vmUsageCard.tsx:52
-msgid "CPU"
-msgstr "Procesor"
+#: src/libvirtApi/nodeDevice.ts:32
+msgid "Display Controller"
+msgstr "Řadič zobrazení"
+
+#: src/libvirtApi/nodeDevice.ts:33
+msgid "Multimedia Controller"
+msgstr "Řadič multimédií"
 
 # auto translated by TM merge from project: virt-manager, version: master,
 # DocId: virt-manager
-#: src/components/vms/hostvmslist.tsx:104
-#: src/components/vms/hostvmslist.tsx:289
-#: src/components/create-vm-dialog/details.tsx:761
-#: src/components/vm/overview/vmOverviewCard.tsx:173
-#: src/components/vm/vmUsageCard.tsx:44
-msgid "Memory"
-msgstr "Paměť"
+#: src/libvirtApi/nodeDevice.ts:34
+msgid "Memory Controller"
+msgstr "Řadič paměti"
 
-#: src/components/vms/hostvmslist.tsx:208
-#: src/components/vms/hostvmslist.tsx:226
-msgid "All"
-msgstr "Vše"
+# auto translated by TM merge from project: libguestfs, version: master,
+# DocId: po/libguestfs
+#: src/libvirtApi/nodeDevice.ts:35
+msgid "Bridge"
+msgstr "Most"
 
-#: src/components/vms/hostvmslist.tsx:249
-msgid "Filter by name"
-msgstr "Filtrovat podle názvu"
+#: src/libvirtApi/nodeDevice.ts:36
+msgid "Simple Communication Controller"
+msgstr "Řadič jednoduché komunikace"
 
-#: src/components/vms/hostvmslist.tsx:313
-msgid "No VM is running or defined on this host"
-msgstr "Na tomto hostiteli nejsou spuštěné nebo definované žádné virt. stroje"
+#: src/libvirtApi/nodeDevice.ts:37
+msgid "Base System Peripheral"
+msgstr "Základní systémové periferie"
+
+#: src/libvirtApi/nodeDevice.ts:38
+msgid "Input Device Controller"
+msgstr "Řadič vstupního zařízení"
+
+#: src/libvirtApi/nodeDevice.ts:39
+msgid "Docking Station"
+msgstr "Dokovací stanice"
+
+#: src/libvirtApi/nodeDevice.ts:40
+msgid "Processor"
+msgstr "Procesor"
+
+#: src/libvirtApi/nodeDevice.ts:41
+msgid "Serial Bus Controller"
+msgstr "Řadič sériové sběrnice"
+
+#: src/libvirtApi/nodeDevice.ts:42
+msgid "Wireless Controller"
+msgstr "Řadič bezdrátové sítě"
+
+#: src/libvirtApi/nodeDevice.ts:43
+msgid "Intelligent Controller"
+msgstr "Inteligentní řadič"
+
+#: src/libvirtApi/nodeDevice.ts:44
+msgid "Satellite Communication Controller"
+msgstr "Řadič satelitní komunikace"
+
+#: src/libvirtApi/nodeDevice.ts:45
+msgid "Encryption Controller"
+msgstr "Řadič šifrování"
+
+#: src/libvirtApi/nodeDevice.ts:46
+msgid "Signal Processing Controller"
+msgstr "Řadič zpracovávání signálu"
+
+#: src/libvirtApi/nodeDevice.ts:47
+msgid "Processing Accelerator"
+msgstr "Urychlovač zpracovávání"
+
+#: src/libvirtApi/nodeDevice.ts:48
+msgid "Non-Essential Instrumentation"
+msgstr "Nezákladní instrumentace"
+
+#: src/libvirtApi/nodeDevice.ts:59
+msgid "Co-Processor"
+msgstr "Koprocesor"
+
+#: src/libvirtApi/nodeDevice.ts:61
+msgid "Miscellaneous"
+msgstr "Různé"
+
+#: src/components/create-vm-dialog/automation.tsx:59
+msgid "Root password"
+msgstr "Heslo pro účet root"
+
+#: src/components/create-vm-dialog/automation.tsx:66
+msgid "User login"
+msgstr "Uživatelské jméno"
+
+#: src/components/create-vm-dialog/automation.tsx:70
+msgid "User password"
+msgstr "Heslo uživatele"
+
+#: src/components/create-vm-dialog/automation.tsx:71
+msgid ""
+"Leave the password blank if you do not wish to have a user account created"
+msgstr "Pokud si nepřejete vytvořit uživatelský účet, nevyplňujte heslo k němu"
+
+#: src/components/create-vm-dialog/automation.tsx:153
+msgid "Public key"
+msgstr "Veřejná část klíče"
+
+#: src/components/create-vm-dialog/automation.tsx:157
+msgid "Public SSH key"
+msgstr "Veřejný SSH klíč"
+
+#: src/components/create-vm-dialog/automation.tsx:163
+msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
+msgstr "Klíče se nachází v ~/.ssh/ a mají příponu „.pub“."
+
+#: src/components/create-vm-dialog/automation.tsx:178
+#: src/components/vm/nics/nicBody.tsx:512
+#: src/components/vm/nics/nicBody.tsx:543
+msgid "Remove item"
+msgstr "Odebrat položku"
+
+#: src/components/create-vm-dialog/automation.tsx:221
+msgid "Profile"
+msgstr "Profil"
+
+#: src/components/create-vm-dialog/automation.tsx:229
+msgid ""
+"Leave the password blank if you do not wish to have a root account created"
+msgstr "Pokud si nepřejete vytvořit účet root, nevyplňujte heslo k němu"
+
+#: src/components/create-vm-dialog/automation.tsx:240
+msgid "User password must not be empty when user login is set"
+msgstr "Pokud je zadáno uživatelské jméno, je třeba k němu také vyplnit heslo"
+
+#: src/components/create-vm-dialog/automation.tsx:242
+msgid "User login must not be empty when user password is set"
+msgstr "Pokud je k němu zadáno heslo, je třeba vyplnit také uživatelské jméno"
+
+#: src/components/create-vm-dialog/automation.tsx:244
+msgid "User login must not be empty when SSH keys are set"
+msgstr ""
+"Pokud jsou k němu zadány SSH klíče, je třeba vyplnit také uživatelské jméno"
+
+#: src/components/create-vm-dialog/automation.tsx:265
+msgid "Leave the password blank if you do not wish to set a root password"
+msgstr "Pokud si nepřejete nastavit heslo pro účet root, nevyplňujte ho"
+
+#: src/components/create-vm-dialog/automation.tsx:268
+msgid "No SSH keys specified"
+msgstr "Neuvedeny žádné SSH klíče"
+
+#: src/components/create-vm-dialog/automation.tsx:269
+msgid "SSH keys"
+msgstr "SSH klíče"
+
+#: src/components/create-vm-dialog/automation.tsx:270
+msgid "Add SSH keys"
+msgstr "Přidat SSH klíče"
+
+#: src/components/create-vm-dialog/automation.tsx:295
+msgid "Boot arguments"
+msgstr "Argumenty při zavádění"
+
+#: src/components/create-vm-dialog/automation.tsx:297
+msgid ""
+"Arguments passed to the booted kernel can often be used to control the "
+"installer. Refer to the documentation of the installer of $0."
+msgstr ""
+"Argumenty předávané zaváděnému jádru je často možné použít pro ovládání "
+"instalátoru. Podívejte se do dokumentace k instalátoru $0."
+
+#: src/components/create-vm-dialog/automation.tsx:311
+msgid "Enter root and/or user information to enable unattended installation."
+msgstr ""
+"Pokud chcete zapnout bezobslužnou instalaci, zadejte informace o účtu "
+"správce (root) a/nebo uživatele."
+
+#: src/components/create-vm-dialog/automation.tsx:312
+msgid ""
+"Automated installs are only available when downloading an image, an install "
+"tree or using cloud-init."
+msgstr ""
+"Automatizované instalace jsou k dispozici pouze při stahování obrazu, "
+"instalačního stromu nebo použití cloud-init."
+
+#: src/components/create-vm-dialog/automation.tsx:313
+msgid "$0 does not support unattended installation."
+msgstr "$0 nepodporuje bezobslužnou instalaci."
 
 #: src/components/create-vm-dialog/details.tsx:214
 msgid "You need to select the most closely matching operating system"
@@ -904,8 +428,8 @@ msgstr "MiB"
 # DocId: virt-manager
 #: src/components/create-vm-dialog/details.tsx:683
 #: src/components/common/dialog.tsx:105
-#: src/components/vm/overview/memorySelectRow.tsx:95
 #: src/components/vm/disks/vmDisksCard.tsx:39
+#: src/components/vm/overview/memorySelectRow.tsx:95
 msgid "GiB"
 msgstr "GiB"
 
@@ -925,6 +449,15 @@ msgstr "$0 $1 k dispozici na hostiteli"
 #: src/components/create-vm-dialog/details.tsx:753
 msgid "The selected operating system has minimum memory requirement of $0 $1"
 msgstr "Zvolený operační systém vyžaduje přinejmenším $0 $1 operační paměti"
+
+# auto translated by TM merge from project: virt-manager, version: master,
+# DocId: virt-manager
+#: src/components/create-vm-dialog/details.tsx:761
+#: src/components/vm/overview/vmOverviewCard.tsx:173
+#: src/components/vm/vmUsageCard.tsx:44 src/components/vms/hostvmslist.tsx:104
+#: src/components/vms/hostvmslist.tsx:289
+msgid "Memory"
+msgstr "Paměť"
 
 #: src/components/create-vm-dialog/details.tsx:834
 msgid "Storage must be a number"
@@ -955,6 +488,13 @@ msgstr "Vytvořit nový prostý (raw) svazek"
 msgid "No storage"
 msgstr "Žádné úložiště"
 
+#: src/components/create-vm-dialog/details.tsx:895
+#: src/components/storagePools/storagePoolList.tsx:49
+#: src/components/storagePools/storagePoolList.tsx:56
+#: src/components/storagePools/storagePoolList.tsx:58
+msgid "Storage pools"
+msgstr "Fondy úložiště"
+
 # auto translated by TM merge from project: virt-manager, version: master,
 # DocId: virt-manager
 #: src/components/create-vm-dialog/details.tsx:902
@@ -965,11 +505,11 @@ msgstr "Úložiště"
 # auto translated by TM merge from project: anaconda, version: master, DocId:
 # main
 #: src/components/create-vm-dialog/details.tsx:922
-#: src/components/vm/overview/bootOrder.tsx:109
-#: src/components/vm/disks/diskAdd.tsx:336
-#: src/components/vm/disks/vmDiskColumns.tsx:43
 #: src/components/vm/disks/mediaEject.tsx:89
+#: src/components/vm/disks/vmDiskColumns.tsx:43
+#: src/components/vm/disks/diskAdd.tsx:336
 #: src/components/vm/deleteDialog.tsx:78
+#: src/components/vm/overview/bootOrder.tsx:109
 msgid "Volume"
 msgstr "Svazek"
 
@@ -983,33 +523,13 @@ msgstr "Tento svazek už je využíván jiným virt. strojem."
 msgid "Storage limit"
 msgstr "Limit úložiště"
 
-#: src/components/create-vm-dialog/passwordInput.tsx:90
-msgid "Excellent password"
-msgstr "Skvělé heslo"
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:72
+msgid "Vendor support ended $0"
+msgstr "Podpora od výrobce skončila $0"
 
-#: src/components/create-vm-dialog/passwordInput.tsx:90
-msgid "Strong password"
-msgstr "Odolné heslo"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:94
-msgid "Acceptable password"
-msgstr "Přijatelné heslo"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:98
-msgid "Weak password"
-msgstr "Snadno prolomitelné heslo"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:111
-msgid "password quality"
-msgstr "odolnost hesla"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:161
-msgid "Show password"
-msgstr "Zobrazit heslo"
-
-#: src/components/create-vm-dialog/passwordInput.tsx:161
-msgid "Hide password"
-msgstr "Skrýt heslo"
+#: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
+msgid "Released $0"
+msgstr "Vydáno $0"
 
 #: src/components/create-vm-dialog/pxe-helpers.tsx:80
 msgid "NAT to $0"
@@ -1043,6 +563,34 @@ msgstr "Zařízení hostitele"
 msgid "No networks available"
 msgstr "Nejsou k dispozici žádné sítě"
 
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Excellent password"
+msgstr "Skvělé heslo"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:90
+msgid "Strong password"
+msgstr "Odolné heslo"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:94
+msgid "Acceptable password"
+msgstr "Přijatelné heslo"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:98
+msgid "Weak password"
+msgstr "Snadno prolomitelné heslo"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:111
+msgid "password quality"
+msgstr "odolnost hesla"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Show password"
+msgstr "Zobrazit heslo"
+
+#: src/components/create-vm-dialog/passwordInput.tsx:161
+msgid "Hide password"
+msgstr "Skrýt heslo"
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:156
 #: src/components/vm/vmCloneDialog.tsx:51
 msgid "Name must not be empty"
@@ -1059,6 +607,22 @@ msgstr "Vytvoření virt. stroje $0 se nezdařilo"
 #: src/components/create-vm-dialog/createVmDialog.tsx:235
 msgid "Loading operating system information..."
 msgstr "Načítání informací o operačním systému…"
+
+# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
+# cockpit
+#: src/components/create-vm-dialog/createVmDialog.tsx:245
+#: src/components/networks/networkList.tsx:59
+#: src/components/networks/createNetworkDialog.tsx:172
+#: src/components/storagePools/storageVolumeCreateBody.tsx:113
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+#: src/components/storagePools/createStoragePoolDialog.tsx:58
+#: src/components/storagePools/storagePoolList.tsx:61
+#: src/components/vm/vmCloneDialog.tsx:92
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:57
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:113
+#: src/components/vms/hostvmslist.tsx:307
+msgid "Name"
+msgstr "Název"
 
 #: src/components/create-vm-dialog/createVmDialog.tsx:249
 msgid "Unique name"
@@ -1110,6 +674,33 @@ msgstr "Vytvořit a spustit"
 msgid "Import and run"
 msgstr "Naimportovat a spustit"
 
+#: src/components/create-vm-dialog/createVmDialog.tsx:347
+#: src/components/networks/networkOverviewTab.tsx:271
+#: src/components/networks/createNetworkDialog.tsx:548
+#: src/components/common/deleteResource.tsx:116
+#: src/components/storagePools/storagePoolDelete.tsx:207
+#: src/components/storagePools/createStoragePoolDialog.tsx:512
+#: src/components/vm/disks/mediaEject.tsx:116
+#: src/components/vm/deleteDialog.tsx:216
+#: src/components/vm/vmCloneDialog.tsx:111
+#: src/components/vm/hostdevs/hostDevAdd.tsx:266
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:127
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:340
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:248
+#: src/components/vm/overview/bootOrder.tsx:356
+#: src/components/vm/overview/memoryModal.tsx:195
+#: src/components/vm/overview/watchdog.tsx:228
+#: src/components/vm/overview/vsock.tsx:272
+#: src/components/vm/overview/cpuModal.tsx:341
+#: src/components/vm/overview/firmware.tsx:107
+#: src/components/vm/vmRenameDialog.tsx:96
+#: src/components/vm/vmMigrateDialog.tsx:227
+#: src/components/vm/confirmDialog.tsx:66
+#: src/components/vm/vmEditDescriptionDialog.tsx:81
+#: src/components/vm/vmReplaceSpiceDialog.tsx:165
+msgid "Cancel"
+msgstr "Storno"
+
 #: src/components/create-vm-dialog/createVmDialog.tsx:378
 msgid "Create VM"
 msgstr "Vytvořit virt. stroj"
@@ -1136,116 +727,92 @@ msgstr ""
 "Vytvořit virt. stroj naimportováním obrazu disku existující instalace virt. "
 "stroje"
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:72
-msgid "Vendor support ended $0"
-msgstr "Podpora od výrobce skončila $0"
+#: src/components/aggregateStatusCards.tsx:34
+msgid "$0 Storage pool"
+msgid_plural "$0 Storage pools"
+msgstr[0] "$0 fond úložiště"
+msgstr[1] "$0 fondy úložiště"
+msgstr[2] "$0 fondů úložiště"
 
-#: src/components/create-vm-dialog/createVmDialogUtils.tsx:74
-msgid "Released $0"
-msgstr "Vydáno $0"
+#: src/components/aggregateStatusCards.tsx:56
+msgid "$0 Network"
+msgid_plural "$0 Networks"
+msgstr[0] "$0 síť"
+msgstr[1] "$0 sítě"
+msgstr[2] "$0 sítí"
 
-#: src/components/create-vm-dialog/automation.tsx:59
-msgid "Root password"
-msgstr "Heslo pro účet root"
+# auto translated by TM merge from project: libvirt, version: master, DocId:
+# libvirt
+#: src/components/networks/network.tsx:54
+#: src/components/storagePools/storagePool.tsx:53
+msgid "active"
+msgstr "aktivní"
 
-#: src/components/create-vm-dialog/automation.tsx:66
-msgid "User login"
-msgstr "Uživatelské jméno"
+# auto translated by TM merge from project: libvirt, version: master, DocId:
+# libvirt
+#: src/components/networks/network.tsx:54
+#: src/components/storagePools/storagePool.tsx:53
+msgid "inactive"
+msgstr "neaktivní"
 
-#: src/components/create-vm-dialog/automation.tsx:70
-msgid "User password"
-msgstr "Heslo uživatele"
+#: src/components/networks/network.tsx:87
+msgid "Network $0 failed to get activated"
+msgstr "Síť $0 se nepodařilo aktivovat"
 
-#: src/components/create-vm-dialog/automation.tsx:71
+#: src/components/networks/network.tsx:101
+msgid "Network $0 failed to get deactivated"
+msgstr "Síť $0 se nepodařilo deaktivovat"
+
+#: src/components/networks/network.tsx:116
+msgid "Delete network?"
+msgstr "Smazat síť?"
+
+#: src/components/networks/network.tsx:117
+msgid "Network $0 could not be deleted"
+msgstr "Síť $0 nebylo možné smazat"
+
+#: src/components/networks/network.tsx:118
+msgid "Network $0 will be permanently deleted."
+msgstr "Síť $0 bude nenávratně smazána."
+
+#: src/components/networks/network.tsx:125
 msgid ""
-"Leave the password blank if you do not wish to have a user account created"
-msgstr "Pokud si nepřejete vytvořit uživatelský účet, nevyplňujte heslo k němu"
+"Non-persistent network cannot be deleted. It ceases to exists when it's "
+"deactivated."
+msgstr "Netrvalou síť není možné smazat. Přestane existovat po vypnutí."
 
-#: src/components/create-vm-dialog/automation.tsx:153
-msgid "Public key"
-msgstr "Veřejná část klíče"
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/networks/network.tsx:126
+#: src/components/networks/network.tsx:129
+#: src/components/common/deleteResource.tsx:104
+#: src/components/common/deleteResource.tsx:164
+#: src/components/common/deleteResource.tsx:175
+#: src/components/storagePools/storagePoolDelete.tsx:204
+#: src/components/storagePools/storagePoolDelete.tsx:234
+#: src/components/storagePools/storagePoolDelete.tsx:244
+#: src/components/vm/deleteDialog.tsx:213 src/components/vm/vmActions.tsx:466
+#: src/components/vm/vmActions.tsx:474
+msgid "Delete"
+msgstr "Smazat"
 
-#: src/components/create-vm-dialog/automation.tsx:157
-msgid "Public SSH key"
-msgstr "Veřejný SSH klíč"
+#: src/components/networks/network.tsx:145
+#: src/components/storagePools/storagePool.tsx:146
+msgid "Deactivate"
+msgstr "Deaktivovat"
 
-#: src/components/create-vm-dialog/automation.tsx:163
-msgid "Keys are located in ~/.ssh/ and have a \".pub\" extension."
-msgstr "Klíče se nachází v ~/.ssh/ a mají příponu „.pub“."
+#: src/components/networks/network.tsx:149
+#: src/components/storagePools/storagePool.tsx:155
+msgid "Activate"
+msgstr "Aktivovat"
 
-#: src/components/create-vm-dialog/automation.tsx:178
-#: src/components/vm/nics/nicBody.tsx:512
-#: src/components/vm/nics/nicBody.tsx:543
-msgid "Remove item"
-msgstr "Odebrat položku"
-
-#: src/components/create-vm-dialog/automation.tsx:221
-msgid "Profile"
-msgstr "Profil"
-
-#: src/components/create-vm-dialog/automation.tsx:229
-msgid ""
-"Leave the password blank if you do not wish to have a root account created"
-msgstr "Pokud si nepřejete vytvořit účet root, nevyplňujte heslo k němu"
-
-#: src/components/create-vm-dialog/automation.tsx:240
-msgid "User password must not be empty when user login is set"
-msgstr "Pokud je zadáno uživatelské jméno, je třeba k němu také vyplnit heslo"
-
-#: src/components/create-vm-dialog/automation.tsx:242
-msgid "User login must not be empty when user password is set"
-msgstr "Pokud je k němu zadáno heslo, je třeba vyplnit také uživatelské jméno"
-
-#: src/components/create-vm-dialog/automation.tsx:244
-msgid "User login must not be empty when SSH keys are set"
-msgstr ""
-"Pokud jsou k němu zadány SSH klíče, je třeba vyplnit také uživatelské jméno"
-
-#: src/components/create-vm-dialog/automation.tsx:265
-msgid "Leave the password blank if you do not wish to set a root password"
-msgstr "Pokud si nepřejete nastavit heslo pro účet root, nevyplňujte ho"
-
-#: src/components/create-vm-dialog/automation.tsx:268
-msgid "No SSH keys specified"
-msgstr "Neuvedeny žádné SSH klíče"
-
-#: src/components/create-vm-dialog/automation.tsx:269
-msgid "SSH keys"
-msgstr "SSH klíče"
-
-#: src/components/create-vm-dialog/automation.tsx:270
-msgid "Add SSH keys"
-msgstr "Přidat SSH klíče"
-
-#: src/components/create-vm-dialog/automation.tsx:295
-msgid "Boot arguments"
-msgstr "Argumenty při zavádění"
-
-#: src/components/create-vm-dialog/automation.tsx:297
-msgid ""
-"Arguments passed to the booted kernel can often be used to control the "
-"installer. Refer to the documentation of the installer of $0."
-msgstr ""
-"Argumenty předávané zaváděnému jádru je často možné použít pro ovládání "
-"instalátoru. Podívejte se do dokumentace k instalátoru $0."
-
-#: src/components/create-vm-dialog/automation.tsx:311
-msgid "Enter root and/or user information to enable unattended installation."
-msgstr ""
-"Pokud chcete zapnout bezobslužnou instalaci, zadejte informace o účtu "
-"správce (root) a/nebo uživatele."
-
-#: src/components/create-vm-dialog/automation.tsx:312
-msgid ""
-"Automated installs are only available when downloading an image, an install "
-"tree or using cloud-init."
-msgstr ""
-"Automatizované instalace jsou k dispozici pouze při stahování obrazu, "
-"instalačního stromu nebo použití cloud-init."
-
-#: src/components/create-vm-dialog/automation.tsx:313
-msgid "$0 does not support unattended installation."
-msgstr "$0 nepodporuje bezobslužnou instalaci."
+#: src/components/networks/networkList.tsx:44
+#: src/components/storagePools/storagePoolList.tsx:46
+#: src/components/vm/vmDetailsPage.tsx:249
+#: src/components/vms/hostvmslist.tsx:302
+#: src/components/vms/hostvmslist.tsx:304 src/manifest.json:0
+msgid "Virtual machines"
+msgstr "Virtuální stroje"
 
 #: src/components/networks/networkList.tsx:47
 #: src/components/networks/networkList.tsx:54
@@ -1257,26 +824,245 @@ msgstr "Sítě"
 # main
 #: src/components/networks/networkList.tsx:60
 #: src/components/networks/createNetworkDialog.tsx:218
-#: src/components/vm/overview/bootOrder.tsx:106
-#: src/components/vm/overview/bootOrder.tsx:113
-#: src/components/vm/overview/bootOrder.tsx:146
-#: src/components/vm/overview/bootOrder.tsx:149
 #: src/components/vm/disks/diskAdd.tsx:425
 #: src/components/vm/disks/vmDisksCard.tsx:238
 #: src/components/vm/hostdevs/hostDevAdd.tsx:99
 #: src/components/vm/hostdevs/hostDevAdd.tsx:144
 #: src/components/vm/hostdevs/hostDevCard.tsx:90
 #: src/components/vm/hostdevs/hostDevCard.tsx:249
+#: src/components/vm/overview/bootOrder.tsx:106
+#: src/components/vm/overview/bootOrder.tsx:113
+#: src/components/vm/overview/bootOrder.tsx:146
+#: src/components/vm/overview/bootOrder.tsx:149
 msgid "Device"
 msgstr "Zařízení"
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/networks/networkList.tsx:61
+#: src/components/networks/createNetworkDialog.tsx:34
+#: src/components/common/machinesConnectionSelector.tsx:46
+#: src/components/storagePools/storagePoolList.tsx:63
+#: src/components/vm/overview/vmOverviewCard.tsx:158
+#: src/components/vms/hostvmslist.tsx:308
+msgid "Connection"
+msgstr "Spojení"
 
 #: src/components/networks/networkList.tsx:62
 msgid "Forwarding mode"
 msgstr "Režim přeposílání"
 
+# auto translated by TM merge from project: selinux (policycoreutils),
+# version: master, DocId: policycoreutils
+#: src/components/networks/networkList.tsx:63
+#: src/components/storagePools/storagePoolList.tsx:64
+#: src/components/vm/overview/vmOverviewCard.tsx:163
+#: src/components/vm/nics/vmNicsCard.tsx:586
+#: src/components/vms/hostvmslist.tsx:253
+#: src/components/vms/hostvmslist.tsx:309
+msgid "State"
+msgstr "Stav"
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/networks/networkList.tsx:64
+#: src/components/storagePools/storagePoolList.tsx:65
+#: src/components/vm/disks/vmDisksCard.tsx:162
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:185
+#: src/components/vm/nics/vmNicsCard.tsx:593
+#: src/components/vms/hostvmslist.tsx:311
+msgid "Actions"
+msgstr "Akce"
+
 #: src/components/networks/networkList.tsx:66
 msgid "No network is defined on this host"
 msgstr "Na tomto hostiteli není definována žádná síť"
+
+#: src/components/networks/networkOverviewTab.tsx:45
+msgid "Name: "
+msgstr "Název: "
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/networks/networkOverviewTab.tsx:57
+msgid "remove"
+msgstr "odebrat"
+
+#: src/components/networks/networkOverviewTab.tsx:61
+msgid "Remove static host from DHCP"
+msgstr "Odebrat statickou položku hostitele z DHCP"
+
+#: src/components/networks/networkOverviewTab.tsx:62
+msgid "Static host from DHCP could not be removed"
+msgstr "Statickou položku hostitele z DHCP se nepodařilo odebrat"
+
+#: src/components/networks/networkOverviewTab.tsx:63
+msgid "The static host entry for $0 will be removed:"
+msgstr "Statická položka pro hostitele $0 bude odebrána:"
+
+#: src/components/networks/networkOverviewTab.tsx:65
+msgid "IP"
+msgstr "IP adresa"
+
+#: src/components/networks/networkOverviewTab.tsx:66
+#: src/components/vm/overview/bootOrder.tsx:120
+msgid "MAC"
+msgstr "MAC"
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/networks/networkOverviewTab.tsx:68
+#: src/components/vm/disks/vmDiskColumns.tsx:169
+#: src/components/vm/disks/vmDiskColumns.tsx:247
+#: src/components/vm/hostdevs/hostDevCard.tsx:256
+#: src/components/vm/hostdevs/hostDevCard.tsx:262
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
+#: src/components/vm/overview/watchdog.tsx:225
+#: src/components/vm/overview/vsock.tsx:269
+#: src/components/vm/nics/vmNicsCard.tsx:652
+#: src/components/vm/nics/vmNicsCard.tsx:667
+msgid "Remove"
+msgstr "Odebrat"
+
+# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
+# cockpit
+#: src/components/networks/networkOverviewTab.tsx:108
+#: src/components/vm/overview/vmOverviewCard.tsx:154
+msgid "General"
+msgstr "Obecné"
+
+#: src/components/networks/networkOverviewTab.tsx:112
+#: src/components/storagePools/storagePoolOverviewTab.tsx:55
+msgid "Persistent"
+msgstr "Trvalé"
+
+# auto translated by TM merge from project: Pulseaudio, version: master,
+# DocId: pulseaudio.pot
+#: src/components/networks/networkOverviewTab.tsx:113
+#: src/components/storagePools/storagePoolOverviewTab.tsx:56
+#: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:264
+msgid "yes"
+msgstr "ano"
+
+#: src/components/networks/networkOverviewTab.tsx:113
+#: src/components/storagePools/storagePoolOverviewTab.tsx:56
+#: src/components/storagePools/storagePoolOverviewTab.tsx:61 src/helpers.ts:265
+msgid "no"
+msgstr "ne"
+
+#: src/components/networks/networkOverviewTab.tsx:117
+#: src/components/storagePools/storagePoolOverviewTab.tsx:60
+#: src/components/vm/overview/vmOverviewCard.tsx:190
+msgid "Autostart"
+msgstr "Automatické spouštění"
+
+#: src/components/networks/networkOverviewTab.tsx:122
+#: src/components/vm/overview/vmOverviewCard.tsx:107
+msgid "Run when host boots"
+msgstr "Spustit při startu hostitele"
+
+#: src/components/networks/networkOverviewTab.tsx:127
+msgid "Maximum transmission unit"
+msgstr "Přenosová jednotka nejvýše (MTU)"
+
+#: src/components/networks/networkOverviewTab.tsx:136
+#: src/components/networks/createNetworkDialog.tsx:337
+msgid "IPv4 address"
+msgstr "IPv4 adresa"
+
+# auto translated by TM merge from project: firewalld, version: master, DocId:
+# po/firewalld
+#: src/components/networks/networkOverviewTab.tsx:140
+#: src/components/networks/networkOverviewTab.tsx:160
+#: src/components/vm/nics/vmNicsCard.tsx:183
+msgid "Address"
+msgstr "Adresa"
+
+#: src/components/networks/networkOverviewTab.tsx:145
+msgid "Netmask"
+msgstr "Maska sítě"
+
+#: src/components/networks/networkOverviewTab.tsx:156
+#: src/components/networks/createNetworkDialog.tsx:378
+msgid "IPv6 address"
+msgstr "IPv6 adresa"
+
+#: src/components/networks/networkOverviewTab.tsx:165
+msgid "Prefix"
+msgstr "Předpona"
+
+#: src/components/networks/networkOverviewTab.tsx:193
+msgid "add entry"
+msgstr "přidat položku"
+
+#: src/components/networks/networkOverviewTab.tsx:240
+msgid "Add a DHCP static host entry"
+msgstr "Přidat statickou DHCP položku pro hostitele"
+
+#: src/components/networks/networkOverviewTab.tsx:245
+msgid "Failed to save network settings"
+msgstr "Nepodařilo se uložit nastavení sítě"
+
+# auto translated by TM merge from project: libvirt, version: master, DocId:
+# libvirt
+#: src/components/networks/networkOverviewTab.tsx:246
+#: src/components/vm/nics/nicAdd.tsx:84 src/components/vm/nics/nicEdit.tsx:45
+#: src/components/vm/nics/vmNicsCard.tsx:569
+#: src/components/vm/nics/vmNicsCard.tsx:767
+msgid "MAC address"
+msgstr "MAC adresa"
+
+#: src/components/networks/networkOverviewTab.tsx:252
+msgid "MAC address must not be empty"
+msgstr "MAC adresu je třeba vyplnit"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/networks/networkOverviewTab.tsx:255
+#: src/components/vm/nics/vmNicsCard.tsx:574
+#: src/components/vm/nics/nicBody.tsx:440
+msgid "IP address"
+msgstr "IP adresa"
+
+#: src/components/networks/networkOverviewTab.tsx:261
+msgid "IP address must not be empty"
+msgstr "IP adresu je třeba vyplnit"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/networks/networkOverviewTab.tsx:268
+#: src/components/vm/disks/diskAdd.tsx:701
+#: src/components/vm/hostdevs/hostDevAdd.tsx:261
+#: src/components/vm/overview/watchdog.tsx:167
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/nics/nicAdd.tsx:277 src/components/vm/nics/nicBody.tsx:577
+msgid "Add"
+msgstr "Přidat"
+
+#: src/components/networks/networkOverviewTab.tsx:294
+msgid "DHCP Settings"
+msgstr "Nastavení pro DHCP"
+
+#: src/components/networks/networkOverviewTab.tsx:298
+msgid "Range"
+msgstr "Rozsah"
+
+#: src/components/networks/networkOverviewTab.tsx:306
+msgid "Static host entries"
+msgstr "Statické položky hostitelů"
+
+#: src/components/networks/networkOverviewTab.tsx:314
+#: src/components/vm/overview/watchdog.tsx:261
+#: src/components/vm/overview/vsock.tsx:297
+#: src/components/vm/nics/vmNicsCard.tsx:288
+msgid "none"
+msgstr "žádné"
+
+#: src/components/networks/createNetworkDialog.tsx:77
+#: src/components/storagePools/createStoragePoolDialog.tsx:64
+msgid "Name should not be empty"
+msgstr "Název je třeba vyplnit"
 
 #: src/components/networks/createNetworkDialog.tsx:83
 msgid "Mask or prefix length should not be empty"
@@ -1399,19 +1185,9 @@ msgstr "Spustit"
 msgid "End"
 msgstr "Konec"
 
-#: src/components/networks/createNetworkDialog.tsx:337
-#: src/components/networks/networkOverviewTab.tsx:136
-msgid "IPv4 address"
-msgstr "IPv4 adresa"
-
 #: src/components/networks/createNetworkDialog.tsx:344
 msgid "Mask or prefix length"
 msgstr "Maska nebo délka předpony"
-
-#: src/components/networks/createNetworkDialog.tsx:378
-#: src/components/networks/networkOverviewTab.tsx:156
-msgid "IPv6 address"
-msgstr "IPv6 adresa"
 
 #: src/components/networks/createNetworkDialog.tsx:385
 msgid "Prefix length"
@@ -1426,178 +1202,16 @@ msgstr "Vytvoření virtuální sítě se nezdařilo"
 msgid "Create virtual network"
 msgstr "Vytvořit virtuální síť"
 
-#: src/components/networks/network.tsx:87
-msgid "Network $0 failed to get activated"
-msgstr "Síť $0 se nepodařilo aktivovat"
+#: src/components/networks/createNetworkDialog.tsx:545
+#: src/components/storagePools/createStoragePoolDialog.tsx:509
+#: src/components/storagePools/storageVolumeCreate.tsx:95
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:337
+msgid "Create"
+msgstr "Vytvořit"
 
-#: src/components/networks/network.tsx:101
-msgid "Network $0 failed to get deactivated"
-msgstr "Síť $0 se nepodařilo deaktivovat"
-
-#: src/components/networks/network.tsx:116
-msgid "Delete network?"
-msgstr "Smazat síť?"
-
-#: src/components/networks/network.tsx:117
-msgid "Network $0 could not be deleted"
-msgstr "Síť $0 nebylo možné smazat"
-
-#: src/components/networks/network.tsx:118
-msgid "Network $0 will be permanently deleted."
-msgstr "Síť $0 bude nenávratně smazána."
-
-#: src/components/networks/network.tsx:125
-msgid ""
-"Non-persistent network cannot be deleted. It ceases to exists when it's "
-"deactivated."
-msgstr "Netrvalou síť není možné smazat. Přestane existovat po vypnutí."
-
-#: src/components/networks/networkOverviewTab.tsx:45
-msgid "Name: "
-msgstr "Název: "
-
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/networks/networkOverviewTab.tsx:57
-msgid "remove"
-msgstr "odebrat"
-
-#: src/components/networks/networkOverviewTab.tsx:61
-msgid "Remove static host from DHCP"
-msgstr "Odebrat statickou položku hostitele z DHCP"
-
-#: src/components/networks/networkOverviewTab.tsx:62
-msgid "Static host from DHCP could not be removed"
-msgstr "Statickou položku hostitele z DHCP se nepodařilo odebrat"
-
-#: src/components/networks/networkOverviewTab.tsx:63
-msgid "The static host entry for $0 will be removed:"
-msgstr "Statická položka pro hostitele $0 bude odebrána:"
-
-#: src/components/networks/networkOverviewTab.tsx:65
-msgid "IP"
-msgstr "IP adresa"
-
-#: src/components/networks/networkOverviewTab.tsx:66
-#: src/components/vm/overview/bootOrder.tsx:120
-msgid "MAC"
-msgstr "MAC"
-
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/networks/networkOverviewTab.tsx:68
-#: src/components/vm/overview/vsock.tsx:269
-#: src/components/vm/overview/watchdog.tsx:225
-#: src/components/vm/nics/vmNicsCard.tsx:652
-#: src/components/vm/nics/vmNicsCard.tsx:667
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:52
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:61
-#: src/components/vm/disks/vmDiskColumns.tsx:169
-#: src/components/vm/disks/vmDiskColumns.tsx:247
-#: src/components/vm/hostdevs/hostDevCard.tsx:256
-#: src/components/vm/hostdevs/hostDevCard.tsx:262
-msgid "Remove"
-msgstr "Odebrat"
-
-# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
-# cockpit
-#: src/components/networks/networkOverviewTab.tsx:108
-#: src/components/vm/overview/vmOverviewCard.tsx:154
-msgid "General"
-msgstr "Obecné"
-
-#: src/components/networks/networkOverviewTab.tsx:122
-#: src/components/vm/overview/vmOverviewCard.tsx:107
-msgid "Run when host boots"
-msgstr "Spustit při startu hostitele"
-
-#: src/components/networks/networkOverviewTab.tsx:127
-msgid "Maximum transmission unit"
-msgstr "Přenosová jednotka nejvýše (MTU)"
-
-# auto translated by TM merge from project: firewalld, version: master, DocId:
-# po/firewalld
-#: src/components/networks/networkOverviewTab.tsx:140
-#: src/components/networks/networkOverviewTab.tsx:160
-#: src/components/vm/nics/vmNicsCard.tsx:183
-msgid "Address"
-msgstr "Adresa"
-
-#: src/components/networks/networkOverviewTab.tsx:145
-msgid "Netmask"
-msgstr "Maska sítě"
-
-#: src/components/networks/networkOverviewTab.tsx:165
-msgid "Prefix"
-msgstr "Předpona"
-
-#: src/components/networks/networkOverviewTab.tsx:193
-msgid "add entry"
-msgstr "přidat položku"
-
-#: src/components/networks/networkOverviewTab.tsx:240
-msgid "Add a DHCP static host entry"
-msgstr "Přidat statickou DHCP položku pro hostitele"
-
-#: src/components/networks/networkOverviewTab.tsx:245
-msgid "Failed to save network settings"
-msgstr "Nepodařilo se uložit nastavení sítě"
-
-# auto translated by TM merge from project: libvirt, version: master, DocId:
-# libvirt
-#: src/components/networks/networkOverviewTab.tsx:246
-#: src/components/vm/nics/nicEdit.tsx:45
-#: src/components/vm/nics/vmNicsCard.tsx:569
-#: src/components/vm/nics/vmNicsCard.tsx:767
-#: src/components/vm/nics/nicAdd.tsx:84
-msgid "MAC address"
-msgstr "MAC adresa"
-
-#: src/components/networks/networkOverviewTab.tsx:252
-msgid "MAC address must not be empty"
-msgstr "MAC adresu je třeba vyplnit"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/networks/networkOverviewTab.tsx:255
-#: src/components/vm/nics/vmNicsCard.tsx:574
-#: src/components/vm/nics/nicBody.tsx:440
-msgid "IP address"
-msgstr "IP adresa"
-
-#: src/components/networks/networkOverviewTab.tsx:261
-msgid "IP address must not be empty"
-msgstr "IP adresu je třeba vyplnit"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/networks/networkOverviewTab.tsx:268
-#: src/components/vm/overview/vsock.tsx:223
-#: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/nics/nicBody.tsx:577 src/components/vm/nics/nicAdd.tsx:277
-#: src/components/vm/disks/diskAdd.tsx:701
-#: src/components/vm/hostdevs/hostDevAdd.tsx:261
-msgid "Add"
-msgstr "Přidat"
-
-#: src/components/networks/networkOverviewTab.tsx:294
-msgid "DHCP Settings"
-msgstr "Nastavení pro DHCP"
-
-#: src/components/networks/networkOverviewTab.tsx:298
-msgid "Range"
-msgstr "Rozsah"
-
-#: src/components/networks/networkOverviewTab.tsx:306
-msgid "Static host entries"
-msgstr "Statické položky hostitelů"
-
-#: src/components/networks/networkOverviewTab.tsx:314
-#: src/components/vm/overview/vsock.tsx:297
-#: src/components/vm/overview/watchdog.tsx:261
-#: src/components/vm/nics/vmNicsCard.tsx:288
-msgid "none"
-msgstr "žádné"
+#: src/components/common/infoPopover.tsx:21
+msgid "more info"
+msgstr "další informace"
 
 #: src/components/common/deleteResource.tsx:89
 msgid "Confirm this action"
@@ -1659,6 +1273,13 @@ msgstr "Síťové rozhraní"
 msgid "vCPUs"
 msgstr "virt. procesorů"
 
+#: src/components/common/needsShutdown.tsx:206
+#: src/components/vm/overview/vmOverviewCard.tsx:178
+#: src/components/vm/vmUsageCard.tsx:52 src/components/vms/hostvmslist.tsx:86
+#: src/components/vms/hostvmslist.tsx:288
+msgid "CPU"
+msgstr "Procesor"
+
 #: src/components/common/needsShutdown.tsx:210
 #: src/components/vm/overview/vmOverviewCard.tsx:196
 msgid "Watchdog"
@@ -1712,9 +1333,329 @@ msgstr "Fond „$0“"
 msgid "Pool has no volumes"
 msgstr "Fond neobsahuje žádné svazky"
 
-#: src/components/common/infoPopover.tsx:21
-msgid "more info"
-msgstr "další informace"
+#: src/components/storagePools/storageVolumeCreateBody.tsx:56
+msgid "Please enter new volume name"
+msgstr "Zadejte název pro nový svazek"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:62
+msgid "Size must be a number"
+msgstr "Je třeba, aby velikost byla číslo"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:65
+msgid "Storage volume size must not exceed the storage pool's capacity ($0 $1)"
+msgstr ""
+"Je třeba, aby velikost svazku úložiště nepřesahovala kapacitu fondu úložiště "
+"($0 $1)"
+
+# auto translated by TM merge from project: blivet-gui, version: f23-branch,
+# DocId: blivet-gui
+#: src/components/storagePools/storageVolumeCreateBody.tsx:103
+#: src/components/storagePools/createStoragePoolDialog.tsx:244
+#: src/components/vm/disks/vmDiskColumns.tsx:134
+msgid "Format"
+msgstr "Formát"
+
+#: src/components/storagePools/storageVolumeCreateBody.tsx:116
+msgid "New volume name"
+msgstr "Název pro nový svazek"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/storagePools/storageVolumeCreateBody.tsx:120
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+#: src/components/storagePools/storagePoolList.tsx:62
+#: src/components/vm/disks/vmDisksCard.tsx:160
+msgid "Size"
+msgstr "Velikost"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:77
+msgid "Used by"
+msgstr "Používá"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:111
+msgid "No storage volumes defined for this storage pool"
+msgstr "Pro tento fond úložiště nejsou definované žádné úložné svazky"
+
+#: src/components/storagePools/storagePoolVolumesTab.tsx:111
+msgid "Activate the storage pool to administer volumes"
+msgstr "Pokud chcete spravovat svazky, aktivujte fond úložiště"
+
+#: src/components/storagePools/storagePoolDelete.tsx:84
+msgid "Pool's volumes are used by VMs "
+msgstr "Svazky z fondu jsou využívány virt. stroji "
+
+#: src/components/storagePools/storagePoolDelete.tsx:86
+msgid ""
+"Detach the disks using this pool from any VMs before attempting deletion."
+msgstr ""
+"Před pokusem o smazání odpojte veškeré disky, které využívají tento fond, z "
+"virt. strojů."
+
+#: src/components/storagePools/storagePoolDelete.tsx:138
+#: src/components/storagePools/storagePoolDelete.tsx:142
+msgid "The storage pool could not be deleted"
+msgstr "Fond úložiště nebylo možné smazat"
+
+#: src/components/storagePools/storagePoolDelete.tsx:175
+msgid "Also delete all volumes inside this pool:"
+msgstr "Také smazat veškeré svazky v tomto fondu:"
+
+#: src/components/storagePools/storagePoolDelete.tsx:184
+msgid "No volumes exist in this storage pool."
+msgstr "V tomto fondu úložiště neexistují žádné svazky."
+
+#: src/components/storagePools/storagePoolDelete.tsx:185
+msgid ""
+"Deleting an inactive storage pool will only undefine the pool. Its content "
+"will not be deleted."
+msgstr ""
+"Smazání neaktivního fondu úložiště pouze zruší jeho definici. Obsah fondu "
+"samotný smazán nebude."
+
+#: src/components/storagePools/storagePoolDelete.tsx:193
+msgid "Delete $0 storage pool?"
+msgstr "Smazat fond úložiště $0?"
+
+#: src/components/storagePools/storagePoolDelete.tsx:223
+msgid ""
+"Non-persistent storage pool cannot be deleted. It ceases to exists when it's "
+"deactivated."
+msgstr ""
+"Netrvalý fond úložiště není možné smazat. Přestane existovat po vypnutí."
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:60
+msgid "Storage pool name"
+msgstr "Název fondu úložiště"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:64
+msgid "Name contains invalid characters"
+msgstr "Název obsahuje neplatné znaky"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:79
+msgid "Filesystem directory"
+msgstr "Složka v souborovém systému"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:80
+msgid "Network file system"
+msgstr "Síťový souborový systém"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:81
+msgid "iSCSI target"
+msgstr "iSCSI cíl"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:82
+msgid "Physical disk device"
+msgstr "Fyzické diskové zařízení"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:83
+msgid "LVM volume group"
+msgstr "LVM skupina svazků"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:84
+msgid "Pre-formatted block device"
+msgstr "Předformátované blokové zařízení"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:88
+msgid "iSCSI direct target"
+msgstr "Přímý cíl iSCSI"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/storagePools/createStoragePoolDialog.tsx:102
+#: src/components/storagePools/storagePoolOverviewTab.tsx:65
+#: src/components/vm/hostdevs/hostDevAdd.tsx:43
+#: src/components/vm/hostdevs/hostDevCard.tsx:177
+#: src/components/vm/overview/bootOrder.tsx:125
+#: src/components/vm/overview/bootOrder.tsx:139
+#: src/components/vm/overview/bootOrder.tsx:155
+#: src/components/vm/overview/bootOrder.tsx:162
+#: src/components/vm/overview/bootOrder.tsx:169
+#: src/components/vm/overview/bootOrder.tsx:175
+#: src/components/vm/nics/vmNicsCard.tsx:780
+msgid "Type"
+msgstr "Typ"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:130
+#: src/components/storagePools/storagePoolOverviewTab.tsx:50
+msgid "Target path"
+msgstr "Popis umístění cíle"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:134
+msgid "Path on host's filesystem"
+msgstr "Umístění na souborovém systému hostitele"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:136
+msgid "Target path should not be empty"
+msgstr "Popis umístění cíle je třeba vyplnit"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/storagePools/createStoragePoolDialog.tsx:154
+#: src/components/storagePools/storagePoolOverviewTab.tsx:23
+#: src/components/vm/disks/vmDiskColumns.tsx:44
+#: src/components/vm/overview/bootOrder.tsx:110
+msgid "Host"
+msgstr "Hostitel"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/storagePools/createStoragePoolDialog.tsx:157
+msgid "Host name"
+msgstr "Název počítače"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:160
+msgid "Host should not be empty"
+msgstr "Hostitele je třeba vyplnit"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:177
+msgid "Initiator"
+msgstr "Iniciátor"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:179
+msgid "iSCSI initiator IQN"
+msgstr "IQN název iSCSI iniciátoru"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:183
+msgid "Initiator should not be empty"
+msgstr "Iniciátor by měl být vyplněný"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:204
+msgid "The directory on the server being exported"
+msgstr "Složka na serveru, kterou exportovat"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:207
+msgid "iSCSI target IQN"
+msgstr "IQN název iSCSI cíle"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:210
+msgid "Physical disk device on host"
+msgstr "Fyzické diskové zařízení na hostiteli"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:213
+msgid "Volume group name"
+msgstr "Název skupiny svazků"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:218
+#: src/components/storagePools/createStoragePoolDialog.tsx:235
+#: src/components/storagePools/storagePoolOverviewTab.tsx:30
+#: src/components/storagePools/storagePoolOverviewTab.tsx:35
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:58
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:201
+msgid "Source path"
+msgstr "Popis umístění zdroje"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:229
+#: src/components/storagePools/createStoragePoolDialog.tsx:242
+msgid "Source path should not be empty"
+msgstr "Popis umístění zdroje je třeba vyplnit"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:263
+msgid "Source volume group"
+msgstr "Zdrojová skupina svazků"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:270
+msgid "Volume group name should not be empty"
+msgstr "Název skupiny svazků je třeba vyplnit"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:284
+msgid "Startup"
+msgstr "Při spuštění"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:286
+msgid "Start pool when host boots"
+msgstr "Spustit fond při startu hostitele"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:464
+msgid "Storage pool failed to be created"
+msgstr "Fond úložiště se nepodařilo vytvořit"
+
+#: src/components/storagePools/createStoragePoolDialog.tsx:503
+#: src/components/storagePools/createStoragePoolDialog.tsx:554
+msgid "Create storage pool"
+msgstr "Vytvořit fond úložiště"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:73
+msgid "Volume failed to be created"
+msgstr "Svazek se nepodařilo vytvořit"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:86
+msgid "Create storage volume"
+msgstr "Vytvořit svazek úložiště"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:126
+#: src/components/storagePools/storageVolumeCreate.tsx:145
+msgid "Create volume"
+msgstr "Vytvořit svazek"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:135
+msgid "Pool type doesn't support volume creation"
+msgstr "Typ fondu nepodporuje vytváření svazků"
+
+#: src/components/storagePools/storageVolumeCreate.tsx:136
+msgid "Pool needs to be active to create volume"
+msgstr "Aby bylo možné vytvořit svazek, fond je třeba aktivovat"
+
+# auto translated by TM merge from project: Fedora Release Notes, version:
+# f23, DocId: pot/Overview
+#: src/components/storagePools/storagePool.tsx:60
+#: src/components/vm/vmDetailsPage.tsx:140
+msgid "Overview"
+msgstr "Přehled"
+
+#: src/components/storagePools/storagePool.tsx:66
+msgid "Storage volumes"
+msgstr "Svazky úložiště"
+
+#: src/components/storagePools/storagePool.tsx:113
+msgid "Storage pool $0 failed to get activated"
+msgstr "Fond úložiště $0 se nepodařilo aktivovat"
+
+#: src/components/storagePools/storagePool.tsx:129
+msgid "Storage pool $0 failed to get deactivated"
+msgstr "Fond úložiště $0 se nepodařilo deaktivovat"
+
+#: src/components/storagePools/storagePool.tsx:160
+#: src/components/storagePools/storagePool.tsx:167
+msgid "Operation is in progress"
+msgstr "Operace probíhá"
+
+# auto translated by TM merge from project: dnf, version: master, DocId: dnf
+#: src/components/storagePools/storagePoolOverviewTab.tsx:40
+#: src/components/vm/disks/diskAdd.tsx:570
+#: src/components/vm/disks/vmDisksCard.tsx:158
+#: src/components/vm/hostdevs/hostDevCard.tsx:217
+#: src/components/vm/nics/vmNicsCard.tsx:549
+#: src/components/vm/nics/nicBody.tsx:269
+msgid "Source"
+msgstr "Zdroj"
+
+#: src/components/storagePools/storagePoolOverviewTab.tsx:45
+msgid "Source format"
+msgstr "Formát zdroje"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:44
+msgid "Storage volumes could not be deleted"
+msgstr "Svazky úložiště nebylo možné smazat"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:60
+msgid "Delete $0 volume"
+msgid_plural "Delete $0 volumes"
+msgstr[0] "Smazat $0 svazek"
+msgstr[1] "Smazat $0 svazky"
+msgstr[2] "Smazat $0 svazků"
+
+#: src/components/storagePools/storageVolumeDelete.tsx:68
+msgid ""
+"One or more selected volumes are used by domains. Detach the disks first to "
+"allow volume deletion."
+msgstr ""
+"Jeden či více z vybraných svazků je používán doménami. Aby bylo možné svazek "
+"smazat, je nejprve třeba odpojit z něj využívané disky."
+
+#: src/components/storagePools/storagePoolList.tsx:67
+msgid "No storage pool is defined on this host"
+msgstr "Na tomto stroji není definován žádný fond úložiště"
 
 #: src/components/vm/vmDetailsPage.tsx:105
 msgid "$0 console"
@@ -1761,6 +1702,59 @@ msgstr "štítek připojení: Štítek přiřazený k exportovanému přípojné
 #: src/components/vm/filesystems/vmFilesystemsCard.tsx:188
 msgid "mount point: The mount point inside the guest"
 msgstr "přípojný bod: Přípojný bod uvnitř hosta"
+
+#: src/components/vm/consoles/spice.tsx:68
+msgid "This machine has a SPICE graphical console that can not be shown here."
+msgstr ""
+"Tento stroj má SPICE grafickou konzoli, která zde nemůže být zobrazena."
+
+#: src/components/vm/consoles/spice.tsx:72
+msgid "Start the virtual machine to launch remote viewer."
+msgstr ""
+"Pokud chcete spustit prohlížeč vzdálených, je třeba virtuální stroj napřed "
+"zapnout."
+
+#: src/components/vm/consoles/spice.tsx:81
+msgid "Replace with VNC"
+msgstr "Nahradit za VNC"
+
+#: src/components/vm/consoles/consoles.tsx:182
+msgid "Graphical"
+msgstr "Grafická"
+
+#: src/components/vm/consoles/consoles.tsx:275
+#: src/components/vm/consoles/consoles.tsx:292
+#: src/components/vm/disks/vmDiskColumns.tsx:133
+msgid "Serial"
+msgstr "Sériové číslo"
+
+#: src/components/vm/consoles/consoles.tsx:275
+msgid "Serial ($0)"
+msgstr "Sériová ($0)"
+
+#: src/components/vm/consoles/consoles.tsx:310
+msgid "Disconnect"
+msgstr "Odpojit"
+
+#: src/components/vm/consoles/consoles.tsx:326
+msgid "Compress"
+msgstr "Komprimovat"
+
+#: src/components/vm/consoles/consoles.tsx:326
+msgid "Expand"
+msgstr "Zvětšit"
+
+#: src/components/vm/consoles/consoles.tsx:361
+msgid "Detach"
+msgstr "Odpojit"
+
+#: src/components/vm/consoles/consoles.tsx:367
+msgid "Console"
+msgstr "Konzole"
+
+#: src/components/vm/consoles/consoles.tsx:385
+msgid "Console type"
+msgstr "Typ konzole"
 
 #: src/components/vm/consoles/serial.tsx:83
 #: src/components/vm/consoles/vnc.tsx:533
@@ -1830,10 +1824,10 @@ msgstr "Upravit nastavení pro VNC"
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
 #: src/components/vm/consoles/vnc.tsx:154
+#: src/components/vm/disks/vmDiskColumns.tsx:45
 #: src/components/vm/overview/bootOrder.tsx:111
 #: src/components/vm/overview/bootOrder.tsx:127
 #: src/components/vm/nics/vmNicsCard.tsx:191
-#: src/components/vm/disks/vmDiskColumns.tsx:45
 msgid "Port"
 msgstr "Port"
 
@@ -1862,14 +1856,14 @@ msgstr ""
 # auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
 # cockpit
 #: src/components/vm/consoles/vnc.tsx:167
-#: src/components/vm/overview/vsock.tsx:223
-#: src/components/vm/overview/watchdog.tsx:167
-#: src/components/vm/overview/memoryModal.tsx:192
-#: src/components/vm/overview/firmware.tsx:104
-#: src/components/vm/overview/bootOrder.tsx:353
-#: src/components/vm/vmEditDescriptionDialog.tsx:78
-#: src/components/vm/nics/nicEdit.tsx:230
 #: src/components/vm/disks/diskEdit.tsx:238
+#: src/components/vm/overview/bootOrder.tsx:353
+#: src/components/vm/overview/memoryModal.tsx:192
+#: src/components/vm/overview/watchdog.tsx:167
+#: src/components/vm/overview/vsock.tsx:223
+#: src/components/vm/overview/firmware.tsx:104
+#: src/components/vm/nics/nicEdit.tsx:230
+#: src/components/vm/vmEditDescriptionDialog.tsx:78
 msgid "Save"
 msgstr "Uložit"
 
@@ -1973,143 +1967,793 @@ msgstr "Prohlížeč vzdálených"
 msgid "Launch viewer"
 msgstr "Spustit prohlížeč"
 
-#: src/components/vm/consoles/consoles.tsx:182
-msgid "Graphical"
-msgstr "Grafická"
+# auto translated by TM merge from project: anaconda, version: f25, DocId:
+# main
+#: src/components/vm/disks/mediaEject.tsx:85
+#: src/components/vm/disks/vmDiskColumns.tsx:42
+#: src/components/vm/disks/diskAdd.tsx:257
+#: src/components/vm/disks/diskAdd.tsx:330
+#: src/components/vm/deleteDialog.tsx:81
+#: src/components/vm/overview/bootOrder.tsx:108
+msgid "Pool"
+msgstr "Fond"
 
-#: src/components/vm/consoles/consoles.tsx:275
-#: src/components/vm/consoles/consoles.tsx:292
-#: src/components/vm/disks/vmDiskColumns.tsx:133
-msgid "Serial"
-msgstr "Sériové číslo"
+#: src/components/vm/disks/mediaEject.tsx:99
+msgid "Eject disc from VM?"
+msgstr "Vysunout disk z virt. stroje?"
 
-#: src/components/vm/consoles/consoles.tsx:275
-msgid "Serial ($0)"
-msgstr "Sériová ($0)"
+#: src/components/vm/disks/mediaEject.tsx:101
+msgid "Media could not be ejected from $0"
+msgstr "Médium se nepodařilo vysunout z $0"
 
-#: src/components/vm/consoles/consoles.tsx:310
-msgid "Disconnect"
-msgstr "Odpojit"
+#: src/components/vm/disks/mediaEject.tsx:103
+msgid "Media will be ejected from $0:"
+msgstr "Médium bude vysunuto z $0:"
 
-#: src/components/vm/consoles/consoles.tsx:326
-msgid "Compress"
-msgstr "Komprimovat"
+#: src/components/vm/disks/mediaEject.tsx:109
+#: src/components/vm/disks/vmDiskColumns.tsx:231
+msgid "Eject"
+msgstr "Vysunout"
 
-#: src/components/vm/consoles/consoles.tsx:326
-msgid "Expand"
-msgstr "Zvětšit"
+#: src/components/vm/disks/mediaEject.tsx:113
+msgid "Force eject"
+msgstr "Vynutit vysunutí"
 
-#: src/components/vm/consoles/consoles.tsx:361
-msgid "Detach"
-msgstr "Odpojit"
+#: src/components/vm/disks/diskEdit.tsx:44
+msgid "ID"
+msgstr "Identif."
 
-#: src/components/vm/consoles/consoles.tsx:367
-msgid "Console"
-msgstr "Konzole"
+# auto translated by TM merge from project: selinux (policycoreutils),
+# version: master, DocId: policycoreutils
+#: src/components/vm/disks/diskEdit.tsx:46
+#: src/components/vm/deleteDialog.tsx:68
+#: src/components/vm/hostdevs/hostDevCard.tsx:115
+#: src/components/vm/hostdevs/hostDevCard.tsx:119
+msgid "Path"
+msgstr "Popis umístění"
 
-#: src/components/vm/consoles/consoles.tsx:385
-msgid "Console type"
-msgstr "Typ konzole"
+#: src/components/vm/disks/diskEdit.tsx:48
+msgid "Url"
+msgstr "URL adresa"
 
-#: src/components/vm/consoles/spice.tsx:68
-msgid "This machine has a SPICE graphical console that can not be shown here."
+#: src/components/vm/disks/diskEdit.tsx:50
+msgid "Storage volume"
+msgstr "Svazek úložiště"
+
+#: src/components/vm/disks/diskEdit.tsx:81
+msgid "Machine must be shut off before changing bus type"
 msgstr ""
-"Tento stroj má SPICE grafickou konzoli, která zde nemůže být zobrazena."
+"Aby bylo možné změnit typ sběrnice je třeba, aby virt. stroj byl vypnutý"
 
-#: src/components/vm/consoles/spice.tsx:72
-msgid "Start the virtual machine to launch remote viewer."
-msgstr ""
-"Pokud chcete spustit prohlížeč vzdálených, je třeba virtuální stroj napřed "
-"zapnout."
+#: src/components/vm/disks/diskEdit.tsx:93
+#: src/components/vm/disks/diskAdd.tsx:186
+#: src/components/vm/disks/vmDisksCard.tsx:241
+#: src/components/vm/hostdevs/hostDevAdd.tsx:100
+#: src/components/vm/hostdevs/hostDevCard.tsx:91
+#: src/components/vm/hostdevs/hostDevCard.tsx:99
+#: src/components/vm/hostdevs/hostDevCard.tsx:250
+#: src/components/vm/overview/bootOrder.tsx:114
+#: src/components/vm/overview/bootOrder.tsx:126
+#: src/components/vm/overview/bootOrder.tsx:145
+#: src/components/vm/overview/bootOrder.tsx:148
+#: src/components/vm/overview/bootOrder.tsx:163
+msgid "Bus"
+msgstr "Sběrnice"
 
-#: src/components/vm/consoles/spice.tsx:81
-msgid "Replace with VNC"
-msgstr "Nahradit za VNC"
+#: src/components/vm/disks/diskEdit.tsx:110
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Read-only"
+msgstr "Pouze pro čtení"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:117
-#: src/components/vm/overview/vmOverviewCard.tsx:125
-#: src/components/vm/overview/vsock.tsx:315
-#: src/components/vm/overview/watchdog.tsx:265
-#: src/components/vm/overview/bootOrder.tsx:387
-msgid "edit"
-msgstr "upravit"
+#: src/components/vm/disks/diskEdit.tsx:114
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Writeable"
+msgstr "Zapisovatelné"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:131
-msgid ""
-"virt-install package needs to be installed on the system in order to edit "
-"this attribute"
-msgstr ""
-"Tento atribut lze upravovat pouze pokud je v systému nainstalovaný balíček "
-"virt-install"
+#: src/components/vm/disks/diskEdit.tsx:130
+#: src/components/vm/disks/vmDisksCard.tsx:246
+msgid "Access"
+msgstr "Přístup"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:140
-#: src/components/vm/vmUsageCard.tsx:35
-msgid "$0 vCPU"
-msgid_plural "$0 vCPUs"
-msgstr[0] "$0 virt. procesor"
-msgstr[1] "$0 virt. procesory"
-msgstr[2] "$0 virt. procesorů"
+#: src/components/vm/disks/diskEdit.tsx:167
+#: src/components/vm/disks/diskAdd.tsx:181
+#: src/components/vm/disks/vmDisksCard.tsx:257
+msgid "Cache"
+msgstr "Mezipaměť"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:183
-msgid "Boot order"
-msgstr "Pořadí zavádění"
+#: src/components/vm/disks/diskEdit.tsx:182
+msgid "No free targets for bus type $0."
+msgstr "Žádné volné cíle pro sběrnici typu $0."
 
-#: src/components/vm/overview/vmOverviewCard.tsx:210
-msgid "Vsock"
-msgstr "Virt. soket"
+#: src/components/vm/disks/diskEdit.tsx:216
+msgid "Disk settings could not be saved"
+msgstr "Nastavení disku nebylo možné uložit"
 
-#: src/components/vm/overview/vmOverviewCard.tsx:214
-msgid "vsock requires special software"
-msgstr "Virt. soket vyžaduje speciální software"
-
-# auto translated by TM merge from project: Fedora Websites, version:
-# getfedora.org, DocId: po/getfedora
-#: src/components/vm/overview/vmOverviewCard.tsx:234
-msgid "Hypervisor details"
-msgstr "Podrobnosti o hypervizoru"
-
-#: src/components/vm/overview/vmOverviewCard.tsx:238
-msgid "Emulated machine"
-msgstr "Emulovaný stroj"
+#: src/components/vm/disks/diskEdit.tsx:230
+msgid "Edit $0 attributes"
+msgstr "Upravit atributy $0"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
-#: src/components/vm/overview/vmOverviewCard.tsx:244
-#: src/components/vm/overview/firmware.tsx:90
-msgid "Firmware"
-msgstr "Firmware"
+#: src/components/vm/disks/diskEdit.tsx:275
+#: src/components/vm/nics/vmNicsCard.tsx:634
+msgid "Edit"
+msgstr "Upravit"
 
-#: src/components/vm/overview/helpers.tsx:16
-msgid ""
-"Watchdogs act when systems stop responding. To use this virtual watchdog "
-"device, the guest system also needs to have an additional driver and a "
-"running watchdog service."
+# auto translated by TM merge from project: system-config-firewall, version:
+# master, DocId: po/system-config-firewall
+#: src/components/vm/disks/vmDiskColumns.tsx:39
+#: src/components/vm/overview/bootOrder.tsx:105
+msgid "File"
+msgstr "Soubor"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:40
+#: src/components/vm/deleteDialog.tsx:73
+msgid "Block device"
+msgstr "Blokové zařízení"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/disks/vmDiskColumns.tsx:41
+#: src/components/vm/hostdevs/hostDevCard.tsx:106
+#: src/components/vm/overview/bootOrder.tsx:107
+#: src/components/vm/overview/bootOrder.tsx:170
+#: src/components/vm/nics/nicBody.tsx:492
+msgid "Protocol"
+msgstr "Protokol"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:102
+msgid "(empty)"
+msgstr "(prázdné)"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:159
+msgid "Could not delete disk's storage"
+msgstr "Nepodařilo se smazat úložiště daného disku"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:168
+msgid "Remove disk from VM?"
+msgstr "Odebrat disk z virt. stroje?"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:170
+msgid "Disk $0 could not be removed"
+msgstr "Disk $0 nebylo možné odebrat"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:171
+msgid "This disk will be removed from $0:"
+msgstr "Tento disk bude odebrán z $0:"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/disks/vmDiskColumns.tsx:173
+#: src/components/vm/disks/vmDisksCard.tsx:159
+#: src/components/vm/hostdevs/hostDevCard.tsx:101
+#: src/components/vm/overview/bootOrder.tsx:164
+#: src/components/vm/nics/vmNicsCard.tsx:557
+msgid "Target"
+msgstr "Cíl"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:182
+msgid "Remove disk and delete disk image"
+msgstr "Odebrat disk a smazat jeho obraz"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:223
+#: src/components/vm/disks/diskAdd.tsx:742
+msgid "Insert"
+msgstr "Vložit"
+
+#: src/components/vm/disks/vmDiskColumns.tsx:255
+#: src/components/vm/nics/vmNicsCard.tsx:668
+#: src/components/vm/nics/vmNicsCard.tsx:676
+msgid "The VM needs to be running or shut off to detach this device"
 msgstr ""
-"Resetátory zasahují pokud systémy přestanou odpovídat. Pokud chcete používat "
-"toto virtuální zařízení resetátoru je také třeba, aby systém v hostovi měl "
-"další ovladač a spuštěnou službu pro resetátor."
+"Pro odpojení tohoto zařízení je třeba, aby virt. stroj byl spuštěný nebo "
+"vypnutý"
 
-#: src/components/vm/overview/helpers.tsx:17
+#: src/components/vm/disks/diskAdd.tsx:79
+msgid "This volume is already used by $0."
+msgstr "Tento svazek už je využíván $0."
+
+#: src/components/vm/disks/diskAdd.tsx:150
 msgid ""
-"Virtual socket support enables communication between the host and guest over "
-"a socket. It still requires special vsock-aware software to communicate over "
-"the socket."
+"Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
+"(-, _, +, .)"
 msgstr ""
-"Podpora virtuálních soketů umožňuje komunikaci mezi hostitelem a hostem přes "
-"soket. I tak ale komunikace přes soket vyžaduje speciální software, který ho "
-"využívá."
+"Povolené znaky: ty z latinské abecedy (bez diakritiky), číslice a některá "
+"interpunkční znaménka (-, _, +, .)"
 
-#: src/components/vm/overview/helpers.tsx:18
-msgid "An example of vsock-aware software is socat"
-msgstr "Příkladem softwaru, který využívá vsock je nástroj socat"
+#: src/components/vm/disks/diskAdd.tsx:173
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
+msgid "Hide additional options"
+msgstr "Skrýt další možnosti"
 
-#: src/components/vm/overview/helpers.tsx:22
-msgid "On the host"
-msgstr "Na hostiteli"
+#: src/components/vm/disks/diskAdd.tsx:173
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
+msgid "Show additional options"
+msgstr "Zobrazit další možnosti"
 
-#: src/components/vm/overview/helpers.tsx:28
-msgid "Inside the VM"
-msgstr "Uvnitř virt. stroje"
+#: src/components/vm/disks/diskAdd.tsx:192
+msgid "Disk identifier"
+msgstr "Identifikátor disku"
+
+#: src/components/vm/disks/diskAdd.tsx:198
+msgid "Identifier may be silently truncated to $0 characters "
+msgstr ""
+"Může se stát, že identifikátor bude bez upozornění zkrácen na $0 znaků "
+
+#: src/components/vm/disks/diskAdd.tsx:219
+msgid "No pools that allow volume creation"
+msgstr "Žádné fondy které by umožňovaly vytváření svazků"
+
+#: src/components/vm/disks/diskAdd.tsx:298
+msgid "No usable storage volumes"
+msgstr "Žádné použitelné svazky úložiště"
+
+#: src/components/vm/disks/diskAdd.tsx:399
+msgid "Path cannot be empty"
+msgstr "Popis umístění je třeba vyplnit"
+
+#: src/components/vm/disks/diskAdd.tsx:403
+msgid "Importing an image with a backing file is unsupported"
+msgstr "Import obrazu se souborem, na kterém je založen, není podporováno"
+
+#: src/components/vm/disks/diskAdd.tsx:420
+#: src/components/vm/disks/diskAdd.tsx:561
+msgid "Custom path"
+msgstr "Uživatelsky určený popis umístění"
+
+#: src/components/vm/disks/diskAdd.tsx:422
+msgid "Path to file on host's file system"
+msgstr "Popis umístění souboru na souborovém systému hostitele"
+
+#: src/components/vm/disks/diskAdd.tsx:429
+msgid "Disk image file"
+msgstr "Soubor s obrazem disku"
+
+#: src/components/vm/disks/diskAdd.tsx:430
+msgid "CD/DVD disc"
+msgstr "CD/DVD disk"
+
+#: src/components/vm/disks/diskAdd.tsx:551
+msgid "Create new"
+msgstr "Vytvořit nový"
+
+#: src/components/vm/disks/diskAdd.tsx:556
+msgid "Use existing"
+msgstr "Použít existující"
+
+#: src/components/vm/disks/diskAdd.tsx:589
+#: src/components/vm/nics/nicAdd.tsx:137
+msgid "Persistence"
+msgstr "Trvalost"
+
+#: src/components/vm/disks/diskAdd.tsx:590
+#: src/components/vm/nics/nicAdd.tsx:138
+msgid "Always attach"
+msgstr "Vždy připojit"
+
+#: src/components/vm/disks/diskAdd.tsx:606
+msgid "Failed to add disk"
+msgstr "Nepodařilo se přidat disk"
+
+#: src/components/vm/disks/diskAdd.tsx:606
+msgid "Can not determine guest device name"
+msgstr "Nebylo možné zjistit název zařízení hosta"
+
+#: src/components/vm/disks/diskAdd.tsx:682
+msgid "Disk failed to be added"
+msgstr "Disk se nepodařilo přidat"
+
+#: src/components/vm/disks/diskAdd.tsx:694
+#: src/components/vm/disks/vmDisksCard.tsx:69
+msgid "Add disk"
+msgstr "Přidat disk"
+
+#: src/components/vm/disks/diskAdd.tsx:735
+msgid "Media failed to be inserted"
+msgstr "Médium se nepodařilo vložit"
+
+#: src/components/vm/disks/diskAdd.tsx:741
+msgid "Insert media"
+msgstr "Vložit médium"
+
+#: src/components/vm/disks/diskAdd.tsx:747
+msgid "ISO files"
+msgstr "ISO soubory"
+
+#: src/components/vm/disks/vmDisksCard.tsx:161
+msgid "Used on host"
+msgstr "Použito na hostiteli"
+
+#: src/components/vm/disks/vmDisksCard.tsx:249
+msgid "Concurrently writeable"
+msgstr "Možné zapisovat z vícero stran naráz"
+
+#: src/components/vm/disks/vmDisksCard.tsx:281
+msgid "No disks"
+msgstr "Žádné disky"
+
+#: src/components/vm/deleteDialog.tsx:95
+msgid "The VM $0 is running and will be forced off before deletion."
+msgstr "Virt. stroj $0 je spuštěný a před smazáním bude vynuceně vypnut."
+
+#: src/components/vm/deleteDialog.tsx:97
+msgid "Delete associated storage files:"
+msgstr "Smazat související soubory úložiště:"
+
+#: src/components/vm/deleteDialog.tsx:99
+msgid "Associated storage files"
+msgstr "Související soubory úložiště"
+
+#: src/components/vm/deleteDialog.tsx:186
+msgid "Could not delete all storage for $0"
+msgstr "Nepodařilo se smazat veškerá úložiště pro $0"
+
+#: src/components/vm/deleteDialog.tsx:191
+msgid "Could not delete $0"
+msgstr "$0 se nepodařilo smazat"
+
+#: src/components/vm/deleteDialog.tsx:199
+msgid "Delete $0 VM?"
+msgstr "Smazat virt. stroj $0?"
+
+#: src/components/vm/vmCloneDialog.tsx:77
+msgid "Failed to clone VM $0"
+msgstr "Nepodařilo se naklonovat virt. stroj $0"
+
+#: src/components/vm/vmCloneDialog.tsx:84
+msgid "Create a clone VM based on $0"
+msgstr "Vytvořit klon virt. stroje založený na $0"
+
+#: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:383
+msgid "Clone"
+msgstr "Klonovat"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:48
+msgid "USB"
+msgstr "USB"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:53
+msgid "PCI"
+msgstr "PCI"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:112
+#: src/components/vm/hostdevs/hostDevCard.tsx:93
+#: src/components/vm/hostdevs/hostDevCard.tsx:100
+#: src/components/vm/hostdevs/hostDevCard.tsx:241
+#: src/components/vm/overview/bootOrder.tsx:158
+msgid "Slot"
+msgstr "Slot"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:147
+msgid "Table of selectable host devices"
+msgstr "Tabulka zařízení hostitele, která je možné vybrat"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:150
+msgid "Row select"
+msgstr "Výběr řádku"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+#: src/components/vm/hostdevs/hostDevCard.tsx:240
+#: src/components/vm/hostdevs/hostDevCard.tsx:246
+#: src/components/vm/overview/bootOrder.tsx:141
+#: src/components/vm/overview/bootOrder.tsx:157
+msgid "Product"
+msgstr "Produkt"
+
+# auto translated by TM merge from project: libosinfo, version: master, DocId:
+# libosinfo
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+#: src/components/vm/hostdevs/hostDevCard.tsx:207
+#: src/components/vm/hostdevs/hostDevCard.tsx:239
+#: src/components/vm/hostdevs/hostDevCard.tsx:245
+#: src/components/vm/overview/bootOrder.tsx:140
+#: src/components/vm/overview/bootOrder.tsx:156
+msgid "Vendor"
+msgstr "Výrobce"
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/vm/hostdevs/hostDevAdd.tsx:151
+msgid "Location"
+msgstr "Umístění"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:166
+msgid "Undefined"
+msgstr "Neurčeno"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:236
+msgid "Host device could not be attached"
+msgstr "Zařízení hostitele se nepodařilo připojit"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:241
+msgid "No host device selected"
+msgstr "Nevybráno žádné zařízení hostitele"
+
+#: src/components/vm/hostdevs/hostDevAdd.tsx:278
+#: src/components/vm/hostdevs/hostDevCard.tsx:140
+msgid "Add host device"
+msgstr "Přidat zařízení hostitele"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:84
+#: src/components/vm/hostdevs/hostDevCard.tsx:85
+#: src/components/vm/overview/bootOrder.tsx:145
+#: src/components/vm/overview/bootOrder.tsx:146
+msgid "Unspecified"
+msgstr "Nespecifikováno"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:107
+#: src/components/vm/overview/bootOrder.tsx:171
+msgid "WWPN"
+msgstr "Neopakující se číslo portu"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:111
+msgid "UUID"
+msgstr "UUID"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:123
+msgid "Interface"
+msgstr "Rozhraní"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:187
+msgid "Class"
+msgstr "Třída"
+
+# auto translated by TM merge from project: Cockpit, version: master, DocId:
+# cockpit
+#: src/components/vm/hostdevs/hostDevCard.tsx:197
+#: src/components/vm/nics/nicBody.tsx:57
+msgid "Model"
+msgstr "Model"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:258
+msgid "Remove host device from VM?"
+msgstr "Odebrat zařízení hostitele z virt. stroje?"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:260
+msgid "Host device will be removed from $0:"
+msgstr "Zařízení hostitele bude odebráno z $0:"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:316
+msgid "VM $0 Host Devices"
+msgstr "Zařízení hostitele ve virt. stroji $0"
+
+#: src/components/vm/hostdevs/hostDevCard.tsx:319
+msgid "No host devices"
+msgstr "Žádná zařízení hostitele"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:86
+msgid "Could not revert to snapshot"
+msgstr "Nepodařilo se vrátit do podoby ze zachyceného stavu"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:100
+msgid "Revert to snapshot $0"
+msgstr "Vrátit zpět do podoby v zachyceném stavu $0"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:109
+msgid ""
+"Reverting to this snapshot will take the VM back to the time of the snapshot "
+"and the current state will be lost, along with any data not captured in a "
+"snapshot"
+msgstr ""
+"Vrácení zpět do podoby v tomto zachyceném stavu vezme virt. stroj zpět do "
+"okamžiku pořízení zachyceného stavu a stávající stav bude ztracen, včetně "
+"všech dat, která se nenacházejí v zachyceném stavu"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
+msgid "Revert"
+msgstr "Vrátit zpět"
+
+#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
+msgid "Force revert"
+msgstr "Vynutit vrácení k předchozímu stavu"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
+#: src/components/vm/vmEditDescriptionDialog.tsx:66
+msgid "Description"
+msgstr "Popis"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:139
+msgid "Memory snapshot will use about $0."
+msgstr "Zachycený stav obsahu paměti zabere přibližně $0."
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:143
+msgid "Total space available: $0."
+msgstr "Celkový prostor k dispozici: $0."
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:149
+msgid "Memory state path"
+msgstr "Popis umístění stavu paměti"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:155
+msgid "Path to directory"
+msgstr "Popis umístění složky"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:246
+msgid "Name already exists"
+msgstr "Takový název už je používán"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:248
+msgid "Name can not be empty"
+msgstr "Název je třeba vyplnit"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:251
+msgid "Memory save location can not be empty"
+msgstr "Umístění pro uložení obsahu operační paměti je třeba vyplnit"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:291
+msgid "Snapshot failed to be created"
+msgstr "Zachycený stav se nepodařilo pořídit"
+
+#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:324
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
+msgid "Create snapshot"
+msgstr "Pořídit zachycený stav"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:54
+msgid ""
+"Creating snapshots of VMs with VFIO devices is not supported while they are "
+"running."
+msgstr ""
+"Pořizování zachycených stavů v zapnutém stavu není u virt. strojů s VFIO "
+"zařízeními podporováno."
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:96
+msgid "Creation time"
+msgstr "Okamžik vytvoření"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:105
+msgid "Current"
+msgstr "Stávající"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
+msgid "No description"
+msgstr "Bez popisu"
+
+# auto translated by TM merge from project: selinux (policycoreutils),
+# version: master, DocId: policycoreutils
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:138
+msgid "VM state"
+msgstr "Stav virt. stroje"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:142
+msgid "no state saved"
+msgstr "neuložen žádný stav"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:147 src/helpers.ts:219
+msgid "Shutting down"
+msgstr "Vypínání"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:148
+msgid "Disk-only snapshot"
+msgstr "Zachycený stav pouze disku"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:149
+msgid "Domain is blocked on resource"
+msgstr "Doména je blokována kvůli prostředku"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:150
+msgid "Domain has crashed"
+msgstr "Doména zhavarovala"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:172
+msgid "Parent snapshot"
+msgstr "Nadřazený zachycený stav"
+
+# auto translated by TM merge from project: anaconda, version: f25, DocId:
+# main
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:174
+msgid "No parent"
+msgstr "Nic nenadřazeno"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:204
+msgid "Delete snapshot?"
+msgstr "Smazat zachycený stav?"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:205
+msgid "Snapshot $0 could not be deleted"
+msgstr "Zachycený stav $0 nebylo možné smazat"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:206
+msgid ""
+"Snapshot $0 will be deleted from $1. All of its captured content will be "
+"lost."
+msgstr "Zachycený stav $0 bude vymazán z $1. Veškerý obsah v něm bude ztracen."
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
+msgid "No snapshots"
+msgstr "Žádné zachycené stavy"
+
+#: src/components/vm/snapshots/vmSnapshotsCard.tsx:257
+msgid "Snapshots allow you to revert to an earlier state"
+msgstr "Zachycené stavy umožňují se vrátit k dřívějšímu stavu"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:59
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
+msgid "Mount tag"
+msgstr "Štítek připojování"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
+msgid "Remove filesystem?"
+msgstr "Odebrat souborový systém?"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:55
+msgid "Filesystem $0 could not be removed"
+msgstr "Souborový systém $0 nebylo možné odebrat"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:56
+msgid "This filesystem will be removed from $0:"
+msgstr "Tento souborový systém bude odebrán z $0:"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:68
+msgid "Deleting shared directories is possible only when the guest is shut off"
+msgstr "Mazání sdílených složek je možné pouze pokud je host vypnutý"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:87
+msgid "No shared directories"
+msgstr "Žádné sdílené složky"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:115
+msgid "Add shared directory"
+msgstr "Přidat sdílenou složku"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:119
+msgid "Adding shared directories is possible only when the guest is shut off"
+msgstr "Přidávání sdílených složek je možné pouze když je host vypnutý"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:145
+msgid "Mount tag must not be empty"
+msgstr "Štítek připojování je třeba vyplnit"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:147
+msgid "Source must not be empty"
+msgstr "Zdroj je třeba vyplnit"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
+msgid "Share a host directory with the guest"
+msgstr "Sdílet složku na hostiteli s hostem"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:180
+msgid "You can mount the shared folder using:"
+msgstr "Sdílenou složku je možné připojit pomocí:"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:198
+msgid "Failed to add shared directory"
+msgstr "Nepodařilo se přidat sdílenou složku"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
+msgid "The host path that is to be exported."
+msgstr "Popis umístění na hostiteli, které má být exportováno."
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:216
+msgid "The tag name to be used by the guest to mount this export point."
+msgstr ""
+"Název štítku, který má být používán hostem pro připojení tohoto exportního "
+"bodu."
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:230
+msgid "Extended attributes"
+msgstr "Rozšířené atributy"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:233
+msgid "Use extended attributes on files and directories"
+msgstr "Použít na souborech a složkách rozšířené atributy (xattr)"
+
+#: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
+msgid "Share"
+msgstr "Sdílení"
+
+#: src/components/vm/overview/bootOrder.tsx:165
+msgid "Unit"
+msgstr "Jednotka"
+
+#: src/components/vm/overview/bootOrder.tsx:272
+msgid "Boot order settings could not be saved"
+msgstr "Nastavení pořadí zavádění se nepodařilo uložit"
+
+#: src/components/vm/overview/bootOrder.tsx:341
+msgid "Change boot order"
+msgstr "Změnit pořadí zavádění"
+
+#: src/components/vm/overview/bootOrder.tsx:368
+msgid "No boot device found"
+msgstr "Nenalezeno žádné zařízení pro zavádění systému"
+
+#: src/components/vm/overview/bootOrder.tsx:387
+#: src/components/vm/overview/watchdog.tsx:265
+#: src/components/vm/overview/vsock.tsx:315
+#: src/components/vm/overview/vmOverviewCard.tsx:117
+#: src/components/vm/overview/vmOverviewCard.tsx:125
+msgid "edit"
+msgstr "upravit"
+
+#: src/components/vm/overview/bootOrder.tsx:394
+#: src/components/vm/overview/memoryModal.tsx:173
+#: src/components/vm/nics/nicEdit.tsx:47
+msgid "Only editable when the guest is shut off"
+msgstr "Upravit je možné pouze pokud je host vypnutý"
+
+#: src/components/vm/overview/memoryModal.tsx:128
+#: src/components/vm/overview/memoryModal.tsx:144
+msgid "Memory could not be saved"
+msgstr "Paměť se nepodařilo uložit"
+
+#: src/components/vm/overview/memoryModal.tsx:131
+msgid "Maximum memory could not be saved"
+msgstr "Horní limit paměti se nepodařilo uložit"
+
+#: src/components/vm/overview/memoryModal.tsx:157
+msgid "Current allocation"
+msgstr "Stávající přidělení"
+
+#: src/components/vm/overview/memoryModal.tsx:166
+msgid "Maximum allocation"
+msgstr "Přidělit nanejvýš"
+
+#: src/components/vm/overview/memoryModal.tsx:180
+msgid "$0 memory adjustment"
+msgstr "$0 úprava nastavení paměti"
+
+#: src/components/vm/overview/watchdog.tsx:53
+msgid "Show less"
+msgstr "Zobrazit méně"
+
+#: src/components/vm/overview/watchdog.tsx:53
+msgid "Show more"
+msgstr "Zobrazit více"
+
+#: src/components/vm/overview/watchdog.tsx:105
+msgid "Failed to configure watchdog"
+msgstr "Nepodařilo se nastavit resetátor"
+
+#: src/components/vm/overview/watchdog.tsx:121
+msgid "Could not dynamically add watchdog"
+msgstr "Resetátor nelze přidat za chodu"
+
+#: src/components/vm/overview/watchdog.tsx:122
+msgid "Adding a watchdog will require a reboot to take effect."
+msgstr ""
+"Aby se přidání resetátoru projevilo, bude zapotřebí virt. stroj zrestartovat."
+
+#: src/components/vm/overview/watchdog.tsx:147
+msgid "Failed to detach watchdog"
+msgstr "Nepodařilo se odpojit resetátor"
+
+#: src/components/vm/overview/watchdog.tsx:174
+msgid "Cannot edit watchdog device on a transient VM"
+msgstr ""
+"V případně přechodného virt. stroje není možné upravovat zařízení resetátoru"
+
+#: src/components/vm/overview/watchdog.tsx:186
+msgid "Edit watchdog device type"
+msgstr "Upravit typ zařízení resetátoru"
+
+#: src/components/vm/overview/watchdog.tsx:186
+msgid "Add watchdog device type"
+msgstr "Přidat typ zařízení resetátor"
+
+# auto translated by TM merge from project: system-config-printer, version:
+# master, DocId: system-config-printer
+#: src/components/vm/overview/watchdog.tsx:194
+msgid "Action"
+msgstr "Akce"
+
+#: src/components/vm/overview/watchdog.tsx:217
+msgid "Apply on next boot"
+msgstr "Použít při příštím startu"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/overview/watchdog.tsx:265
+#: src/components/vm/overview/vsock.tsx:315
+msgid "add"
+msgstr "přidat"
 
 #: src/components/vm/overview/vsock.tsx:37
 msgid "Assign automatically"
@@ -2146,13 +2790,6 @@ msgstr "Upravit vsock rozhraní"
 #: src/components/vm/overview/vsock.tsx:242
 msgid "Add vsock interface"
 msgstr "Přidat vsock rozhraní"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/overview/vsock.tsx:315
-#: src/components/vm/overview/watchdog.tsx:265
-msgid "add"
-msgstr "přidat"
 
 #: src/components/vm/overview/cpuModal.tsx:201
 msgid "vCPU and CPU topology settings could not be saved"
@@ -2214,6 +2851,10 @@ msgstr "Vláken na jádro"
 msgid "Mode"
 msgstr "Režim"
 
+#: src/components/vm/overview/cpuModal.tsx:322 src/helpers.ts:236
+msgid "custom"
+msgstr "uživatelsky určené"
+
 # auto translated by TM merge from project: libreport, version: master, DocId:
 # libreport
 #: src/components/vm/overview/cpuModal.tsx:332
@@ -2226,80 +2867,50 @@ msgstr "podrobnosti o procesoru $0"
 msgid "Apply"
 msgstr "Použít"
 
-#: src/components/vm/overview/watchdog.tsx:53
-msgid "Show less"
-msgstr "Zobrazit méně"
-
-#: src/components/vm/overview/watchdog.tsx:53
-msgid "Show more"
-msgstr "Zobrazit více"
-
-#: src/components/vm/overview/watchdog.tsx:105
-msgid "Failed to configure watchdog"
-msgstr "Nepodařilo se nastavit resetátor"
-
-#: src/components/vm/overview/watchdog.tsx:121
-msgid "Could not dynamically add watchdog"
-msgstr "Resetátor nelze přidat za chodu"
-
-#: src/components/vm/overview/watchdog.tsx:122
-msgid "Adding a watchdog will require a reboot to take effect."
+#: src/components/vm/overview/vmOverviewCard.tsx:131
+msgid ""
+"virt-install package needs to be installed on the system in order to edit "
+"this attribute"
 msgstr ""
-"Aby se přidání resetátoru projevilo, bude zapotřebí virt. stroj zrestartovat."
+"Tento atribut lze upravovat pouze pokud je v systému nainstalovaný balíček "
+"virt-install"
 
-#: src/components/vm/overview/watchdog.tsx:147
-msgid "Failed to detach watchdog"
-msgstr "Nepodařilo se odpojit resetátor"
+#: src/components/vm/overview/vmOverviewCard.tsx:140
+#: src/components/vm/vmUsageCard.tsx:35
+msgid "$0 vCPU"
+msgid_plural "$0 vCPUs"
+msgstr[0] "$0 virt. procesor"
+msgstr[1] "$0 virt. procesory"
+msgstr[2] "$0 virt. procesorů"
 
-#: src/components/vm/overview/watchdog.tsx:174
-msgid "Cannot edit watchdog device on a transient VM"
-msgstr ""
-"V případně přechodného virt. stroje není možné upravovat zařízení resetátoru"
+#: src/components/vm/overview/vmOverviewCard.tsx:183
+msgid "Boot order"
+msgstr "Pořadí zavádění"
 
-#: src/components/vm/overview/watchdog.tsx:186
-msgid "Edit watchdog device type"
-msgstr "Upravit typ zařízení resetátoru"
+#: src/components/vm/overview/vmOverviewCard.tsx:210
+msgid "Vsock"
+msgstr "Virt. soket"
 
-#: src/components/vm/overview/watchdog.tsx:186
-msgid "Add watchdog device type"
-msgstr "Přidat typ zařízení resetátor"
+#: src/components/vm/overview/vmOverviewCard.tsx:214
+msgid "vsock requires special software"
+msgstr "Virt. soket vyžaduje speciální software"
 
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/vm/overview/watchdog.tsx:194
-msgid "Action"
-msgstr "Akce"
+# auto translated by TM merge from project: Fedora Websites, version:
+# getfedora.org, DocId: po/getfedora
+#: src/components/vm/overview/vmOverviewCard.tsx:234
+msgid "Hypervisor details"
+msgstr "Podrobnosti o hypervizoru"
 
-#: src/components/vm/overview/watchdog.tsx:217
-msgid "Apply on next boot"
-msgstr "Použít při příštím startu"
+#: src/components/vm/overview/vmOverviewCard.tsx:238
+msgid "Emulated machine"
+msgstr "Emulovaný stroj"
 
-#: src/components/vm/overview/memoryModal.tsx:128
-#: src/components/vm/overview/memoryModal.tsx:144
-msgid "Memory could not be saved"
-msgstr "Paměť se nepodařilo uložit"
-
-#: src/components/vm/overview/memoryModal.tsx:131
-msgid "Maximum memory could not be saved"
-msgstr "Horní limit paměti se nepodařilo uložit"
-
-#: src/components/vm/overview/memoryModal.tsx:157
-msgid "Current allocation"
-msgstr "Stávající přidělení"
-
-#: src/components/vm/overview/memoryModal.tsx:166
-msgid "Maximum allocation"
-msgstr "Přidělit nanejvýš"
-
-#: src/components/vm/overview/memoryModal.tsx:173
-#: src/components/vm/overview/bootOrder.tsx:394
-#: src/components/vm/nics/nicEdit.tsx:47
-msgid "Only editable when the guest is shut off"
-msgstr "Upravit je možné pouze pokud je host vypnutý"
-
-#: src/components/vm/overview/memoryModal.tsx:180
-msgid "$0 memory adjustment"
-msgstr "$0 úprava nastavení paměti"
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/overview/vmOverviewCard.tsx:244
+#: src/components/vm/overview/firmware.tsx:90
+msgid "Firmware"
+msgstr "Firmware"
 
 #: src/components/vm/overview/firmware.tsx:73
 msgid "Failed to change firmware"
@@ -2334,147 +2945,85 @@ msgid ""
 "Libvirt did not detect any UEFI/OVMF firmware image installed on the host"
 msgstr "Libvirt nenalezlo na hostiteli žádný obraz UEFI/OVMF firmware"
 
-# auto translated by TM merge from project: system-config-firewall, version:
-# master, DocId: po/system-config-firewall
-#: src/components/vm/overview/bootOrder.tsx:105
-#: src/components/vm/disks/vmDiskColumns.tsx:39
-msgid "File"
-msgstr "Soubor"
+#: src/components/vm/overview/helpers.tsx:16
+msgid ""
+"Watchdogs act when systems stop responding. To use this virtual watchdog "
+"device, the guest system also needs to have an additional driver and a "
+"running watchdog service."
+msgstr ""
+"Resetátory zasahují pokud systémy přestanou odpovídat. Pokud chcete používat "
+"toto virtuální zařízení resetátoru je také třeba, aby systém v hostovi měl "
+"další ovladač a spuštěnou službu pro resetátor."
 
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/overview/bootOrder.tsx:107
-#: src/components/vm/overview/bootOrder.tsx:170
-#: src/components/vm/nics/nicBody.tsx:492
-#: src/components/vm/disks/vmDiskColumns.tsx:41
-#: src/components/vm/hostdevs/hostDevCard.tsx:106
-msgid "Protocol"
-msgstr "Protokol"
+#: src/components/vm/overview/helpers.tsx:17
+msgid ""
+"Virtual socket support enables communication between the host and guest over "
+"a socket. It still requires special vsock-aware software to communicate over "
+"the socket."
+msgstr ""
+"Podpora virtuálních soketů umožňuje komunikaci mezi hostitelem a hostem přes "
+"soket. I tak ale komunikace přes soket vyžaduje speciální software, který ho "
+"využívá."
 
-# auto translated by TM merge from project: anaconda, version: f25, DocId:
-# main
-#: src/components/vm/overview/bootOrder.tsx:108
-#: src/components/vm/disks/diskAdd.tsx:257
-#: src/components/vm/disks/diskAdd.tsx:330
-#: src/components/vm/disks/vmDiskColumns.tsx:42
-#: src/components/vm/disks/mediaEject.tsx:85
-#: src/components/vm/deleteDialog.tsx:81
-msgid "Pool"
-msgstr "Fond"
+#: src/components/vm/overview/helpers.tsx:18
+msgid "An example of vsock-aware software is socat"
+msgstr "Příkladem softwaru, který využívá vsock je nástroj socat"
 
-#: src/components/vm/overview/bootOrder.tsx:114
-#: src/components/vm/overview/bootOrder.tsx:126
-#: src/components/vm/overview/bootOrder.tsx:145
-#: src/components/vm/overview/bootOrder.tsx:148
-#: src/components/vm/overview/bootOrder.tsx:163
-#: src/components/vm/disks/diskAdd.tsx:186
-#: src/components/vm/disks/vmDisksCard.tsx:241
-#: src/components/vm/disks/diskEdit.tsx:93
-#: src/components/vm/hostdevs/hostDevAdd.tsx:100
-#: src/components/vm/hostdevs/hostDevCard.tsx:91
-#: src/components/vm/hostdevs/hostDevCard.tsx:99
-#: src/components/vm/hostdevs/hostDevCard.tsx:250
-msgid "Bus"
-msgstr "Sběrnice"
+#: src/components/vm/overview/helpers.tsx:22
+msgid "On the host"
+msgstr "Na hostiteli"
 
-# auto translated by TM merge from project: libosinfo, version: master, DocId:
-# libosinfo
-#: src/components/vm/overview/bootOrder.tsx:140
-#: src/components/vm/overview/bootOrder.tsx:156
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-#: src/components/vm/hostdevs/hostDevCard.tsx:207
-#: src/components/vm/hostdevs/hostDevCard.tsx:239
-#: src/components/vm/hostdevs/hostDevCard.tsx:245
-msgid "Vendor"
-msgstr "Výrobce"
+#: src/components/vm/overview/helpers.tsx:28
+msgid "Inside the VM"
+msgstr "Uvnitř virt. stroje"
 
-#: src/components/vm/overview/bootOrder.tsx:141
-#: src/components/vm/overview/bootOrder.tsx:157
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-#: src/components/vm/hostdevs/hostDevCard.tsx:240
-#: src/components/vm/hostdevs/hostDevCard.tsx:246
-msgid "Product"
-msgstr "Produkt"
+#: src/components/vm/vmRenameDialog.tsx:59
+msgid "Failed to rename VM $0"
+msgstr "Nepodařilo se přejmenovat virt. stroj $0"
 
-#: src/components/vm/overview/bootOrder.tsx:145
-#: src/components/vm/overview/bootOrder.tsx:146
-#: src/components/vm/hostdevs/hostDevCard.tsx:84
-#: src/components/vm/hostdevs/hostDevCard.tsx:85
-msgid "Unspecified"
-msgstr "Nespecifikováno"
+#: src/components/vm/vmRenameDialog.tsx:65
+msgid "Rename VM $0"
+msgstr "Přejmenovat virt. stroj $0"
 
-#: src/components/vm/overview/bootOrder.tsx:158
-#: src/components/vm/hostdevs/hostDevAdd.tsx:112
-#: src/components/vm/hostdevs/hostDevCard.tsx:93
-#: src/components/vm/hostdevs/hostDevCard.tsx:100
-#: src/components/vm/hostdevs/hostDevCard.tsx:241
-msgid "Slot"
-msgstr "Slot"
+#: src/components/vm/vmRenameDialog.tsx:78
+msgid "New name"
+msgstr "Nový název"
 
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/overview/bootOrder.tsx:164
-#: src/components/vm/nics/vmNicsCard.tsx:557
-#: src/components/vm/disks/vmDisksCard.tsx:159
-#: src/components/vm/disks/vmDiskColumns.tsx:173
-#: src/components/vm/hostdevs/hostDevCard.tsx:101
-msgid "Target"
-msgstr "Cíl"
+#: src/components/vm/vmRenameDialog.tsx:84
+msgid "New name must not be empty"
+msgstr "Nový název je třeba vyplnit"
 
-#: src/components/vm/overview/bootOrder.tsx:165
-msgid "Unit"
-msgstr "Jednotka"
+#: src/components/vm/vmRenameDialog.tsx:93 src/components/vm/vmActions.tsx:430
+msgid "Rename"
+msgstr "Přejmenovat"
 
-#: src/components/vm/overview/bootOrder.tsx:171
-#: src/components/vm/hostdevs/hostDevCard.tsx:107
-msgid "WWPN"
-msgstr "Neopakující se číslo portu"
+#: src/components/vm/nics/nicAdd.tsx:93
+msgid "Generate automatically"
+msgstr "Vytvořit automaticky"
 
-#: src/components/vm/overview/bootOrder.tsx:272
-msgid "Boot order settings could not be saved"
-msgstr "Nastavení pořadí zavádění se nepodařilo uložit"
+#: src/components/vm/nics/nicAdd.tsx:101
+msgid "Set manually"
+msgstr "Nastavit ručně"
 
-#: src/components/vm/overview/bootOrder.tsx:341
-msgid "Change boot order"
-msgstr "Změnit pořadí zavádění"
+#: src/components/vm/nics/nicAdd.tsx:123
+msgid "Network MAC can not be empty."
+msgstr "MAC adresu sítě je třeba vyplnit."
 
-#: src/components/vm/overview/bootOrder.tsx:368
-msgid "No boot device found"
-msgstr "Nenalezeno žádné zařízení pro zavádění systému"
-
-#: src/components/vm/confirmDialog.tsx:85
-msgid "Started"
-msgstr "Spuštěno"
-
-#: src/components/vm/vmEditDescriptionDialog.tsx:45
-msgid "Failed to set description of VM $0"
-msgstr "Nepodařilo se nastavit popis virt. stroje $0"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/vmEditDescriptionDialog.tsx:53
-msgid "Edit description of VM $0"
-msgstr "Upravit popis virt. stroje $0"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/vmEditDescriptionDialog.tsx:66
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:123
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:76
-msgid "Description"
-msgstr "Popis"
-
-#: src/components/vm/nics/nicEdit.tsx:99 src/components/vm/nics/nicAdd.tsx:182
+#: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:99
 msgid "MAC address already in use"
 msgstr "Tato MAC adresa už je používána jiným strojem"
 
-#: src/components/vm/nics/nicEdit.tsx:100 src/components/vm/nics/nicAdd.tsx:182
+#: src/components/vm/nics/nicAdd.tsx:182 src/components/vm/nics/nicEdit.tsx:100
 msgid "Please choose a different MAC address"
 msgstr "Zvolte jinou MAC adresu"
 
-#: src/components/vm/nics/nicEdit.tsx:163 src/components/vm/nics/nicAdd.tsx:221
+#: src/components/vm/nics/nicAdd.tsx:221 src/components/vm/nics/nicEdit.tsx:163
 msgid "Network interface settings could not be saved"
 msgstr "Nastavení síťového rozhraní se nepodařilo uložit"
+
+#: src/components/vm/nics/nicAdd.tsx:266
+msgid "Add virtual network interface"
+msgstr "Přidat virtuální síťové rozhraní"
 
 #: src/components/vm/nics/nicEdit.tsx:218
 msgid "$0 virtual network interface settings"
@@ -2512,13 +3061,6 @@ msgstr "Načítání sítových zařízení, která jsou k dispozici"
 msgid "Editing transient network interfaces is not allowed"
 msgstr "Upravování přechodných síťových rozhraní není možné"
 
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/nics/vmNicsCard.tsx:634
-#: src/components/vm/disks/diskEdit.tsx:275
-msgid "Edit"
-msgstr "Upravit"
-
 #: src/components/vm/nics/vmNicsCard.tsx:649
 msgid "Remove network interface?"
 msgstr "Odebrat síťové rozhraní?"
@@ -2530,14 +3072,6 @@ msgstr "Síťové rozhraní $0 nebylo možné odebrat"
 #: src/components/vm/nics/vmNicsCard.tsx:651
 msgid "Network interface $0 will be removed from $1"
 msgstr "Síťové rozhraní $0 bude odebráno z $1"
-
-#: src/components/vm/nics/vmNicsCard.tsx:668
-#: src/components/vm/nics/vmNicsCard.tsx:676
-#: src/components/vm/disks/vmDiskColumns.tsx:255
-msgid "The VM needs to be running or shut off to detach this device"
-msgstr ""
-"Pro odpojení tohoto zařízení je třeba, aby virt. stroj byl spuštěný nebo "
-"vypnutý"
 
 #: src/components/vm/nics/vmNicsCard.tsx:773
 msgid "Model type"
@@ -2554,13 +3088,6 @@ msgstr "výchozí"
 #: src/components/vm/nics/vmNicsCard.tsx:829
 msgid "No network interfaces"
 msgstr "Žádná síťová rozhraní"
-
-# auto translated by TM merge from project: Cockpit, version: master, DocId:
-# cockpit
-#: src/components/vm/nics/nicBody.tsx:57
-#: src/components/vm/hostdevs/hostDevCard.tsx:197
-msgid "Model"
-msgstr "Model"
 
 #: src/components/vm/nics/nicBody.tsx:91
 msgid ""
@@ -2703,32 +3230,6 @@ msgstr "Přeposílané porty"
 msgid "No ports forwarded"
 msgstr "Nepřeposílány žádné porty"
 
-#: src/components/vm/nics/nicAdd.tsx:93
-msgid "Generate automatically"
-msgstr "Vytvořit automaticky"
-
-#: src/components/vm/nics/nicAdd.tsx:101
-msgid "Set manually"
-msgstr "Nastavit ručně"
-
-#: src/components/vm/nics/nicAdd.tsx:123
-msgid "Network MAC can not be empty."
-msgstr "MAC adresu sítě je třeba vyplnit."
-
-#: src/components/vm/nics/nicAdd.tsx:137
-#: src/components/vm/disks/diskAdd.tsx:589
-msgid "Persistence"
-msgstr "Trvalost"
-
-#: src/components/vm/nics/nicAdd.tsx:138
-#: src/components/vm/disks/diskAdd.tsx:590
-msgid "Always attach"
-msgstr "Vždy připojit"
-
-#: src/components/vm/nics/nicAdd.tsx:266
-msgid "Add virtual network interface"
-msgstr "Přidat virtuální síťové rozhraní"
-
 #: src/components/vm/usesSpice.tsx:26
 msgid "Uses SPICE"
 msgstr "Používá SPICE"
@@ -2745,485 +3246,10 @@ msgstr ""
 msgid "Switch to VNC to continue using this machine."
 msgstr "Aby bylo možné pokračovat v používání tohoto stroje, přepněte na VNC."
 
-#: src/components/vm/usesSpice.tsx:42
+#: src/components/vm/usesSpice.tsx:42 src/components/vm/vmActions.tsx:417
 #: src/components/vm/vmReplaceSpiceDialog.tsx:127
-#: src/components/vm/vmActions.tsx:417
 msgid "Replace SPICE devices"
 msgstr "Nahradit SPICE zařízení"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:86
-msgid "Could not revert to snapshot"
-msgstr "Nepodařilo se vrátit do podoby ze zachyceného stavu"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:100
-msgid "Revert to snapshot $0"
-msgstr "Vrátit zpět do podoby v zachyceném stavu $0"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:109
-msgid ""
-"Reverting to this snapshot will take the VM back to the time of the snapshot "
-"and the current state will be lost, along with any data not captured in a "
-"snapshot"
-msgstr ""
-"Vrácení zpět do podoby v tomto zachyceném stavu vezme virt. stroj zpět do "
-"okamžiku pořízení zachyceného stavu a stávající stav bude ztracen, včetně "
-"všech dat, která se nenacházejí v zachyceném stavu"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:117
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:197
-msgid "Revert"
-msgstr "Vrátit zpět"
-
-#: src/components/vm/snapshots/vmSnapshotsRevertModal.tsx:124
-msgid "Force revert"
-msgstr "Vynutit vrácení k předchozímu stavu"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:54
-msgid ""
-"Creating snapshots of VMs with VFIO devices is not supported while they are "
-"running."
-msgstr ""
-"Pořizování zachycených stavů v zapnutém stavu není u virt. strojů s VFIO "
-"zařízeními podporováno."
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:61
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:324
-msgid "Create snapshot"
-msgstr "Pořídit zachycený stav"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:96
-msgid "Creation time"
-msgstr "Okamžik vytvoření"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:105
-msgid "Current"
-msgstr "Stávající"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:127
-msgid "No description"
-msgstr "Bez popisu"
-
-# auto translated by TM merge from project: selinux (policycoreutils),
-# version: master, DocId: policycoreutils
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:138
-msgid "VM state"
-msgstr "Stav virt. stroje"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:142
-msgid "no state saved"
-msgstr "neuložen žádný stav"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:148
-msgid "Disk-only snapshot"
-msgstr "Zachycený stav pouze disku"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:149
-msgid "Domain is blocked on resource"
-msgstr "Doména je blokována kvůli prostředku"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:150
-msgid "Domain has crashed"
-msgstr "Doména zhavarovala"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:172
-msgid "Parent snapshot"
-msgstr "Nadřazený zachycený stav"
-
-# auto translated by TM merge from project: anaconda, version: f25, DocId:
-# main
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:174
-msgid "No parent"
-msgstr "Nic nenadřazeno"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:204
-msgid "Delete snapshot?"
-msgstr "Smazat zachycený stav?"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:205
-msgid "Snapshot $0 could not be deleted"
-msgstr "Zachycený stav $0 nebylo možné smazat"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:206
-msgid ""
-"Snapshot $0 will be deleted from $1. All of its captured content will be "
-"lost."
-msgstr "Zachycený stav $0 bude vymazán z $1. Veškerý obsah v něm bude ztracen."
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:256
-msgid "No snapshots"
-msgstr "Žádné zachycené stavy"
-
-#: src/components/vm/snapshots/vmSnapshotsCard.tsx:257
-msgid "Snapshots allow you to revert to an earlier state"
-msgstr "Zachycené stavy umožňují se vrátit k dřívějšímu stavu"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:139
-msgid "Memory snapshot will use about $0."
-msgstr "Zachycený stav obsahu paměti zabere přibližně $0."
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:143
-msgid "Total space available: $0."
-msgstr "Celkový prostor k dispozici: $0."
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:149
-msgid "Memory state path"
-msgstr "Popis umístění stavu paměti"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:155
-msgid "Path to directory"
-msgstr "Popis umístění složky"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:246
-msgid "Name already exists"
-msgstr "Takový název už je používán"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:248
-msgid "Name can not be empty"
-msgstr "Název je třeba vyplnit"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:251
-msgid "Memory save location can not be empty"
-msgstr "Umístění pro uložení obsahu operační paměti je třeba vyplnit"
-
-#: src/components/vm/snapshots/vmSnapshotsCreateModal.tsx:291
-msgid "Snapshot failed to be created"
-msgstr "Zachycený stav se nepodařilo pořídit"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:78
-msgid "Failed to replace SPICE devices"
-msgstr "Nepodařilo se nahradit SPICE zařízení"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:80
-msgid "Please see $0 how to reconfigure your VM manually."
-msgstr "Podívejte se do $0 ohledně toho, jak virt. stroj přenastavit ručně."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:102
-msgid "Other VMs using SPICE"
-msgstr "Ostatní virt. stroje používající SPICE"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:118
-msgid "Deselect others"
-msgstr "Zrušit výběr ostatních"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:118
-msgid "Select all"
-msgstr "Vybrat vše"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:127
-msgid "Replace SPICE devices in VM $0"
-msgstr "Nahradit SPICE zařízení ve virt. stroji $0"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:134
-msgid "Replace SPICE on selected VMs."
-msgstr "Nahradit SPICE na označených virt. strojích."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:135
-msgid "Replace SPICE on the virtual machine."
-msgstr "Nahradit SPICE na virtuálním stroji."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:136
-#: src/components/vm/vmReplaceSpiceDialog.tsx:138
-msgid "SPICE conversion"
-msgstr "Převedení ze SPICE"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:141
-msgid "Convert SPICE graphics console to VNC"
-msgstr "Převést SPICE grafickou konzoli na VNC"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:142
-msgid "Convert QXL video card to VGA"
-msgstr "Převést QXL video kartu na VGA"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:143
-msgid "Remove SPICE audio and host devices"
-msgstr "Odebrat SPICE audio a zařízení hostitele"
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:148
-msgid ""
-"This is intended for a host which does not support SPICE due to upgrades or "
-"live migration."
-msgstr ""
-"Toto je zamýšleno pro hostitele, které nepodporují SPICE a to kvůli "
-"přechodům na novější verze nebo stěhování za chodu."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:151
-msgid ""
-"It can also be used to enable the inline graphical console in the browser, "
-"which does not support SPICE."
-msgstr ""
-"Je možné také použít pro zapnutí vestavěné grafické konzoli v prohlížeči, "
-"který nepodporuje SPICE."
-
-#: src/components/vm/vmReplaceSpiceDialog.tsx:162
-msgid "Replace"
-msgstr "Nahradit"
-
-#: src/components/vm/vmUsageCard.tsx:26
-msgid "waiting"
-msgstr "čeká se"
-
-#: src/components/vm/vmRenameDialog.tsx:59
-msgid "Failed to rename VM $0"
-msgstr "Nepodařilo se přejmenovat virt. stroj $0"
-
-#: src/components/vm/vmRenameDialog.tsx:65
-msgid "Rename VM $0"
-msgstr "Přejmenovat virt. stroj $0"
-
-#: src/components/vm/vmRenameDialog.tsx:78
-msgid "New name"
-msgstr "Nový název"
-
-#: src/components/vm/vmRenameDialog.tsx:84
-msgid "New name must not be empty"
-msgstr "Nový název je třeba vyplnit"
-
-#: src/components/vm/vmRenameDialog.tsx:93 src/components/vm/vmActions.tsx:430
-msgid "Rename"
-msgstr "Přejmenovat"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:41
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:59
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:213
-msgid "Mount tag"
-msgstr "Štítek připojování"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:54
-msgid "Remove filesystem?"
-msgstr "Odebrat souborový systém?"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:55
-msgid "Filesystem $0 could not be removed"
-msgstr "Souborový systém $0 nebylo možné odebrat"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:56
-msgid "This filesystem will be removed from $0:"
-msgstr "Tento souborový systém bude odebrán z $0:"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:68
-msgid "Deleting shared directories is possible only when the guest is shut off"
-msgstr "Mazání sdílených složek je možné pouze pokud je host vypnutý"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:87
-msgid "No shared directories"
-msgstr "Žádné sdílené složky"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:115
-msgid "Add shared directory"
-msgstr "Přidat sdílenou složku"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:119
-msgid "Adding shared directories is possible only when the guest is shut off"
-msgstr "Přidávání sdílených složek je možné pouze když je host vypnutý"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:145
-msgid "Mount tag must not be empty"
-msgstr "Štítek připojování je třeba vyplnit"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:147
-msgid "Source must not be empty"
-msgstr "Zdroj je třeba vyplnit"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:175
-msgid "Share a host directory with the guest"
-msgstr "Sdílet složku na hostiteli s hostem"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:180
-msgid "You can mount the shared folder using:"
-msgstr "Sdílenou složku je možné připojit pomocí:"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:198
-msgid "Failed to add shared directory"
-msgstr "Nepodařilo se přidat sdílenou složku"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:203
-msgid "The host path that is to be exported."
-msgstr "Popis umístění na hostiteli, které má být exportováno."
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:216
-msgid "The tag name to be used by the guest to mount this export point."
-msgstr ""
-"Název štítku, který má být používán hostem pro připojení tohoto exportního "
-"bodu."
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
-#: src/components/vm/disks/diskAdd.tsx:173
-msgid "Hide additional options"
-msgstr "Skrýt další možnosti"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:225
-#: src/components/vm/disks/diskAdd.tsx:173
-msgid "Show additional options"
-msgstr "Zobrazit další možnosti"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:230
-msgid "Extended attributes"
-msgstr "Rozšířené atributy"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:233
-msgid "Use extended attributes on files and directories"
-msgstr "Použít na souborech a složkách rozšířené atributy (xattr)"
-
-#: src/components/vm/filesystems/vmFilesystemsCard.tsx:243
-msgid "Share"
-msgstr "Sdílení"
-
-#: src/components/vm/vmCloneDialog.tsx:77
-msgid "Failed to clone VM $0"
-msgstr "Nepodařilo se naklonovat virt. stroj $0"
-
-#: src/components/vm/vmCloneDialog.tsx:84
-msgid "Create a clone VM based on $0"
-msgstr "Vytvořit klon virt. stroje založený na $0"
-
-#: src/components/vm/vmCloneDialog.tsx:108 src/components/vm/vmActions.tsx:383
-msgid "Clone"
-msgstr "Klonovat"
-
-#: src/components/vm/vmActions.tsx:69
-msgid "VM $0 failed to start"
-msgstr "Virt. stroj $0 se nepodařilo zapnout"
-
-#: src/components/vm/vmActions.tsx:78
-msgid "VM $0 failed to get installed"
-msgstr "Virt. stroj $0 se nepodařilo nainstalovat"
-
-#: src/components/vm/vmActions.tsx:89
-msgid "VM $0 failed to reboot"
-msgstr "Virt. stroj $0 se nepodařilo restartovat"
-
-#: src/components/vm/vmActions.tsx:97
-msgid "VM $0 failed to force reboot"
-msgstr "Nepodařilo se vynutit restart virt. stroje $0"
-
-#: src/components/vm/vmActions.tsx:108 src/components/vm/vmActions.tsx:508
-msgid "VM $0 failed to shutdown"
-msgstr "Virt. stroj $0 se nepodařilo vypnout"
-
-#: src/components/vm/vmActions.tsx:116
-msgid "VM $0 failed to pause"
-msgstr "Virt. stroj $0 se nepodařilo pozastavit"
-
-#: src/components/vm/vmActions.tsx:124
-msgid "VM $0 failed to resume"
-msgstr "Nepodařilo se navázat v chodu virt. stroje $0"
-
-#: src/components/vm/vmActions.tsx:134
-msgid "VM $0 failed to force shutdown"
-msgstr "Nepodařilo se vynutit vypnutí virt. stroje $0"
-
-#: src/components/vm/vmActions.tsx:142
-msgid "VM $0 failed to send NMI"
-msgstr "Nepodařilo se zaslat virt. stroji $0 nemaskovatelné přerušení"
-
-#: src/components/vm/vmActions.tsx:155
-msgid "Failed to add TPM to VM $0"
-msgstr "Nepodařilo se přidat TPM do VM $0"
-
-#: src/components/vm/vmActions.tsx:202
-msgid "Resume"
-msgstr "Navázat v chodu"
-
-# auto translated by TM merge from project: virt-manager, version: master,
-# DocId: virt-manager
-#: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
-msgid "Shut down $0?"
-msgstr "Vypnout $0?"
-
-# auto translated by TM merge from project: virt-manager, version: master,
-# DocId: virt-manager
-#: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
-#: src/components/vm/vmActions.tsx:251 src/components/vm/vmActions.tsx:256
-msgid "Shut down"
-msgstr "Vypnout"
-
-# auto translated by TM merge from project: system-config-kdump, version:
-# master, DocId: system-config-kdump
-#: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
-#: src/components/vm/vmActions.tsx:320
-msgid "Reboot"
-msgstr "Restartovat"
-
-#: src/components/vm/vmActions.tsx:264
-msgid "Force shut down $0?"
-msgstr "Vynutit vypnutí $0?"
-
-#: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
-msgid "Force shut down"
-msgstr "Vynutit vypnutí"
-
-#: src/components/vm/vmActions.tsx:285
-msgid "Send non-maskable interrupt to $0?"
-msgstr "Poslat $0 nemaskovatelné přerušení?"
-
-#: src/components/vm/vmActions.tsx:291 src/components/vm/vmActions.tsx:296
-msgid "Send non-maskable interrupt"
-msgstr "Poslat nemaskovatelné přerušení"
-
-# auto translated by TM merge from project: system-config-kdump, version:
-# master, DocId: system-config-kdump
-#: src/components/vm/vmActions.tsx:308
-msgid "Reboot $0?"
-msgstr "Restartovat $0?"
-
-#: src/components/vm/vmActions.tsx:328
-msgid "Force reboot $0?"
-msgstr "Vynutit restart $0?"
-
-#: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
-msgid "Force reboot"
-msgstr "Vynutit restart"
-
-# auto translated by TM merge from project: virt-manager, version: master,
-# DocId: virt-manager
-#: src/components/vm/vmActions.tsx:355
-msgid "Run"
-msgstr "Spustit"
-
-# auto translated by TM merge from project: dnf, version: master, DocId: dnf
-#: src/components/vm/vmActions.tsx:371
-msgid "Install"
-msgstr "Nainstalovat"
-
-#: src/components/vm/vmActions.tsx:393
-msgid ""
-"virt-install package needs to be installed on the system in order to clone "
-"VMs"
-msgstr ""
-"Klonovat virt. stroje lze pouze pokud je v systému nainstalovaný balíček "
-"virt-install"
-
-#: src/components/vm/vmActions.tsx:406
-#: src/components/vm/vmMigrateDialog.tsx:224
-msgid "Migrate"
-msgstr "Přestěhovat"
-
-# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
-# po/ipa
-#: src/components/vm/vmActions.tsx:440
-msgid "Edit description"
-msgstr "Upravit popis"
-
-#: src/components/vm/vmActions.tsx:453
-msgid "Add TPM"
-msgstr "Přidat TPM"
-
-#: src/components/vm/vmActions.tsx:462
-msgid "This VM is transient. Shut it down if you wish to delete it."
-msgstr ""
-"Tento vir. stroj je přechodný. Pokud ho chcete smazat, stačí ho vypnout."
-
-# auto translated by TM merge from project: virt-manager, version: master,
-# DocId: virt-manager
-#: src/components/vm/vmActions.tsx:514
-msgid "Shutdown and restart $0?"
-msgstr "Vypnout a opět nastartovat $0?"
-
-#: src/components/vm/vmActions.tsx:527
-msgid "Force shutdown and restart"
-msgstr "Vynutit vypnutí a opětovný start"
 
 # auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
 # po/ipa
@@ -3323,6 +3349,11 @@ msgstr ""
 "Veškerá aktivita virt. stroje, včetně úložiště, bude dočasná. Dojde tedy ke "
 "ztrátě všech dat za dobu chodu na cílovém hostiteli."
 
+#: src/components/vm/vmMigrateDialog.tsx:224
+#: src/components/vm/vmActions.tsx:406
+msgid "Migrate"
+msgstr "Přestěhovat"
+
 #: src/components/vm/vmMigrateDialog.tsx:234
 msgid "Migrate VM to another host"
 msgstr "Přestěhovat virt. stroj na jiného hostitele"
@@ -3333,467 +3364,433 @@ msgid ""
 msgstr ""
 "Je třeba, aby svazky úložiště byly sdíleny mezi tímto a cílovým hostitelem."
 
-#: src/components/vm/disks/diskAdd.tsx:79
-msgid "This volume is already used by $0."
-msgstr "Tento svazek už je využíván $0."
-
-#: src/components/vm/disks/diskAdd.tsx:150
-msgid ""
-"Allowed characters: basic Latin alphabet, numbers, and limited punctuation "
-"(-, _, +, .)"
-msgstr ""
-"Povolené znaky: ty z latinské abecedy (bez diakritiky), číslice a některá "
-"interpunkční znaménka (-, _, +, .)"
-
-#: src/components/vm/disks/diskAdd.tsx:181
-#: src/components/vm/disks/vmDisksCard.tsx:257
-#: src/components/vm/disks/diskEdit.tsx:167
-msgid "Cache"
-msgstr "Mezipaměť"
-
-#: src/components/vm/disks/diskAdd.tsx:192
-msgid "Disk identifier"
-msgstr "Identifikátor disku"
-
-#: src/components/vm/disks/diskAdd.tsx:198
-msgid "Identifier may be silently truncated to $0 characters "
-msgstr ""
-"Může se stát, že identifikátor bude bez upozornění zkrácen na $0 znaků "
-
-#: src/components/vm/disks/diskAdd.tsx:219
-msgid "No pools that allow volume creation"
-msgstr "Žádné fondy které by umožňovaly vytváření svazků"
-
-#: src/components/vm/disks/diskAdd.tsx:298
-msgid "No usable storage volumes"
-msgstr "Žádné použitelné svazky úložiště"
-
-#: src/components/vm/disks/diskAdd.tsx:399
-msgid "Path cannot be empty"
-msgstr "Popis umístění je třeba vyplnit"
-
-#: src/components/vm/disks/diskAdd.tsx:403
-msgid "Importing an image with a backing file is unsupported"
-msgstr "Import obrazu se souborem, na kterém je založen, není podporováno"
-
-#: src/components/vm/disks/diskAdd.tsx:420
-#: src/components/vm/disks/diskAdd.tsx:561
-msgid "Custom path"
-msgstr "Uživatelsky určený popis umístění"
-
-#: src/components/vm/disks/diskAdd.tsx:422
-msgid "Path to file on host's file system"
-msgstr "Popis umístění souboru na souborovém systému hostitele"
-
-#: src/components/vm/disks/diskAdd.tsx:429
-msgid "Disk image file"
-msgstr "Soubor s obrazem disku"
-
-#: src/components/vm/disks/diskAdd.tsx:430
-msgid "CD/DVD disc"
-msgstr "CD/DVD disk"
-
-#: src/components/vm/disks/diskAdd.tsx:551
-msgid "Create new"
-msgstr "Vytvořit nový"
-
-#: src/components/vm/disks/diskAdd.tsx:556
-msgid "Use existing"
-msgstr "Použít existující"
-
-#: src/components/vm/disks/diskAdd.tsx:606
-msgid "Failed to add disk"
-msgstr "Nepodařilo se přidat disk"
-
-#: src/components/vm/disks/diskAdd.tsx:606
-msgid "Can not determine guest device name"
-msgstr "Nebylo možné zjistit název zařízení hosta"
-
-#: src/components/vm/disks/diskAdd.tsx:682
-msgid "Disk failed to be added"
-msgstr "Disk se nepodařilo přidat"
-
-#: src/components/vm/disks/diskAdd.tsx:694
-#: src/components/vm/disks/vmDisksCard.tsx:69
-msgid "Add disk"
-msgstr "Přidat disk"
-
-#: src/components/vm/disks/diskAdd.tsx:735
-msgid "Media failed to be inserted"
-msgstr "Médium se nepodařilo vložit"
-
-#: src/components/vm/disks/diskAdd.tsx:741
-msgid "Insert media"
-msgstr "Vložit médium"
-
-#: src/components/vm/disks/diskAdd.tsx:742
-#: src/components/vm/disks/vmDiskColumns.tsx:223
-msgid "Insert"
-msgstr "Vložit"
-
-#: src/components/vm/disks/diskAdd.tsx:747
-msgid "ISO files"
-msgstr "ISO soubory"
-
-#: src/components/vm/disks/vmDisksCard.tsx:161
-msgid "Used on host"
-msgstr "Použito na hostiteli"
-
-#: src/components/vm/disks/vmDisksCard.tsx:246
-#: src/components/vm/disks/diskEdit.tsx:130
-msgid "Access"
-msgstr "Přístup"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-#: src/components/vm/disks/diskEdit.tsx:110
-msgid "Read-only"
-msgstr "Pouze pro čtení"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-msgid "Concurrently writeable"
-msgstr "Možné zapisovat z vícero stran naráz"
-
-#: src/components/vm/disks/vmDisksCard.tsx:249
-#: src/components/vm/disks/diskEdit.tsx:114
-msgid "Writeable"
-msgstr "Zapisovatelné"
-
-#: src/components/vm/disks/vmDisksCard.tsx:281
-msgid "No disks"
-msgstr "Žádné disky"
-
-#: src/components/vm/disks/diskEdit.tsx:44
-msgid "ID"
-msgstr "Identif."
-
-# auto translated by TM merge from project: selinux (policycoreutils),
-# version: master, DocId: policycoreutils
-#: src/components/vm/disks/diskEdit.tsx:46
-#: src/components/vm/deleteDialog.tsx:68
-#: src/components/vm/hostdevs/hostDevCard.tsx:115
-#: src/components/vm/hostdevs/hostDevCard.tsx:119
-msgid "Path"
-msgstr "Popis umístění"
-
-#: src/components/vm/disks/diskEdit.tsx:48
-msgid "Url"
-msgstr "URL adresa"
-
-#: src/components/vm/disks/diskEdit.tsx:50
-msgid "Storage volume"
-msgstr "Svazek úložiště"
-
-#: src/components/vm/disks/diskEdit.tsx:81
-msgid "Machine must be shut off before changing bus type"
-msgstr ""
-"Aby bylo možné změnit typ sběrnice je třeba, aby virt. stroj byl vypnutý"
-
-#: src/components/vm/disks/diskEdit.tsx:182
-msgid "No free targets for bus type $0."
-msgstr "Žádné volné cíle pro sběrnici typu $0."
-
-#: src/components/vm/disks/diskEdit.tsx:216
-msgid "Disk settings could not be saved"
-msgstr "Nastavení disku nebylo možné uložit"
-
-#: src/components/vm/disks/diskEdit.tsx:230
-msgid "Edit $0 attributes"
-msgstr "Upravit atributy $0"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:40
-#: src/components/vm/deleteDialog.tsx:73
-msgid "Block device"
-msgstr "Blokové zařízení"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:102
-msgid "(empty)"
-msgstr "(prázdné)"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:159
-msgid "Could not delete disk's storage"
-msgstr "Nepodařilo se smazat úložiště daného disku"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:168
-msgid "Remove disk from VM?"
-msgstr "Odebrat disk z virt. stroje?"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:170
-msgid "Disk $0 could not be removed"
-msgstr "Disk $0 nebylo možné odebrat"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:171
-msgid "This disk will be removed from $0:"
-msgstr "Tento disk bude odebrán z $0:"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:182
-msgid "Remove disk and delete disk image"
-msgstr "Odebrat disk a smazat jeho obraz"
-
-#: src/components/vm/disks/vmDiskColumns.tsx:231
-#: src/components/vm/disks/mediaEject.tsx:109
-msgid "Eject"
-msgstr "Vysunout"
-
-#: src/components/vm/disks/mediaEject.tsx:99
-msgid "Eject disc from VM?"
-msgstr "Vysunout disk z virt. stroje?"
-
-#: src/components/vm/disks/mediaEject.tsx:101
-msgid "Media could not be ejected from $0"
-msgstr "Médium se nepodařilo vysunout z $0"
-
-#: src/components/vm/disks/mediaEject.tsx:103
-msgid "Media will be ejected from $0:"
-msgstr "Médium bude vysunuto z $0:"
-
-#: src/components/vm/disks/mediaEject.tsx:113
-msgid "Force eject"
-msgstr "Vynutit vysunutí"
-
-#: src/components/vm/deleteDialog.tsx:95
-msgid "The VM $0 is running and will be forced off before deletion."
-msgstr "Virt. stroj $0 je spuštěný a před smazáním bude vynuceně vypnut."
-
-#: src/components/vm/deleteDialog.tsx:97
-msgid "Delete associated storage files:"
-msgstr "Smazat související soubory úložiště:"
-
-#: src/components/vm/deleteDialog.tsx:99
-msgid "Associated storage files"
-msgstr "Související soubory úložiště"
-
-#: src/components/vm/deleteDialog.tsx:186
-msgid "Could not delete all storage for $0"
-msgstr "Nepodařilo se smazat veškerá úložiště pro $0"
-
-#: src/components/vm/deleteDialog.tsx:191
-msgid "Could not delete $0"
-msgstr "$0 se nepodařilo smazat"
-
-#: src/components/vm/deleteDialog.tsx:199
-msgid "Delete $0 VM?"
-msgstr "Smazat virt. stroj $0?"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:48
-msgid "USB"
-msgstr "USB"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:53
-msgid "PCI"
-msgstr "PCI"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:147
-msgid "Table of selectable host devices"
-msgstr "Tabulka zařízení hostitele, která je možné vybrat"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:150
-msgid "Row select"
-msgstr "Výběr řádku"
-
-# auto translated by TM merge from project: system-config-printer, version:
-# master, DocId: system-config-printer
-#: src/components/vm/hostdevs/hostDevAdd.tsx:151
-msgid "Location"
-msgstr "Umístění"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:166
-msgid "Undefined"
-msgstr "Neurčeno"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:236
-msgid "Host device could not be attached"
-msgstr "Zařízení hostitele se nepodařilo připojit"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:241
-msgid "No host device selected"
-msgstr "Nevybráno žádné zařízení hostitele"
-
-#: src/components/vm/hostdevs/hostDevAdd.tsx:278
-#: src/components/vm/hostdevs/hostDevCard.tsx:140
-msgid "Add host device"
-msgstr "Přidat zařízení hostitele"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:111
-msgid "UUID"
-msgstr "UUID"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:123
-msgid "Interface"
-msgstr "Rozhraní"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:187
-msgid "Class"
-msgstr "Třída"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:258
-msgid "Remove host device from VM?"
-msgstr "Odebrat zařízení hostitele z virt. stroje?"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:260
-msgid "Host device will be removed from $0:"
-msgstr "Zařízení hostitele bude odebráno z $0:"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:316
-msgid "VM $0 Host Devices"
-msgstr "Zařízení hostitele ve virt. stroji $0"
-
-#: src/components/vm/hostdevs/hostDevCard.tsx:319
-msgid "No host devices"
-msgstr "Žádná zařízení hostitele"
-
-#: src/libvirtApi/nodeDevice.ts:29
-msgid "Unclassified"
-msgstr "Nezařazeno"
-
-#: src/libvirtApi/nodeDevice.ts:30
-msgid "Mass Storage Controller"
-msgstr "Řadič Mass Storage úložiště"
-
-#: src/libvirtApi/nodeDevice.ts:31
-msgid "Network Controller"
-msgstr "Řadič sítě"
-
-#: src/libvirtApi/nodeDevice.ts:32
-msgid "Display Controller"
-msgstr "Řadič zobrazení"
-
-#: src/libvirtApi/nodeDevice.ts:33
-msgid "Multimedia Controller"
-msgstr "Řadič multimédií"
+#: src/components/vm/confirmDialog.tsx:85
+msgid "Started"
+msgstr "Spuštěno"
+
+#: src/components/vm/vmActions.tsx:69
+msgid "VM $0 failed to start"
+msgstr "Virt. stroj $0 se nepodařilo zapnout"
+
+#: src/components/vm/vmActions.tsx:78
+msgid "VM $0 failed to get installed"
+msgstr "Virt. stroj $0 se nepodařilo nainstalovat"
+
+#: src/components/vm/vmActions.tsx:89
+msgid "VM $0 failed to reboot"
+msgstr "Virt. stroj $0 se nepodařilo restartovat"
+
+#: src/components/vm/vmActions.tsx:97
+msgid "VM $0 failed to force reboot"
+msgstr "Nepodařilo se vynutit restart virt. stroje $0"
+
+#: src/components/vm/vmActions.tsx:108 src/components/vm/vmActions.tsx:508
+msgid "VM $0 failed to shutdown"
+msgstr "Virt. stroj $0 se nepodařilo vypnout"
+
+#: src/components/vm/vmActions.tsx:116
+msgid "VM $0 failed to pause"
+msgstr "Virt. stroj $0 se nepodařilo pozastavit"
+
+#: src/components/vm/vmActions.tsx:124
+msgid "VM $0 failed to resume"
+msgstr "Nepodařilo se navázat v chodu virt. stroje $0"
+
+#: src/components/vm/vmActions.tsx:134
+msgid "VM $0 failed to force shutdown"
+msgstr "Nepodařilo se vynutit vypnutí virt. stroje $0"
+
+#: src/components/vm/vmActions.tsx:142
+msgid "VM $0 failed to send NMI"
+msgstr "Nepodařilo se zaslat virt. stroji $0 nemaskovatelné přerušení"
+
+#: src/components/vm/vmActions.tsx:155
+msgid "Failed to add TPM to VM $0"
+msgstr "Nepodařilo se přidat TPM do VM $0"
+
+#: src/components/vm/vmActions.tsx:191 src/helpers.ts:275
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: src/components/vm/vmActions.tsx:202
+msgid "Resume"
+msgstr "Navázat v chodu"
 
 # auto translated by TM merge from project: virt-manager, version: master,
 # DocId: virt-manager
-#: src/libvirtApi/nodeDevice.ts:34
-msgid "Memory Controller"
-msgstr "Řadič paměti"
+#: src/components/vm/vmActions.tsx:218 src/components/vm/vmActions.tsx:244
+msgid "Shut down $0?"
+msgstr "Vypnout $0?"
+
+# auto translated by TM merge from project: virt-manager, version: master,
+# DocId: virt-manager
+#: src/components/vm/vmActions.tsx:225 src/components/vm/vmActions.tsx:236
+#: src/components/vm/vmActions.tsx:251 src/components/vm/vmActions.tsx:256
+msgid "Shut down"
+msgstr "Vypnout"
+
+# auto translated by TM merge from project: system-config-kdump, version:
+# master, DocId: system-config-kdump
+#: src/components/vm/vmActions.tsx:231 src/components/vm/vmActions.tsx:315
+#: src/components/vm/vmActions.tsx:320
+msgid "Reboot"
+msgstr "Restartovat"
+
+#: src/components/vm/vmActions.tsx:264
+msgid "Force shut down $0?"
+msgstr "Vynutit vypnutí $0?"
+
+#: src/components/vm/vmActions.tsx:271 src/components/vm/vmActions.tsx:276
+msgid "Force shut down"
+msgstr "Vynutit vypnutí"
+
+#: src/components/vm/vmActions.tsx:285
+msgid "Send non-maskable interrupt to $0?"
+msgstr "Poslat $0 nemaskovatelné přerušení?"
+
+#: src/components/vm/vmActions.tsx:291 src/components/vm/vmActions.tsx:296
+msgid "Send non-maskable interrupt"
+msgstr "Poslat nemaskovatelné přerušení"
+
+# auto translated by TM merge from project: system-config-kdump, version:
+# master, DocId: system-config-kdump
+#: src/components/vm/vmActions.tsx:308
+msgid "Reboot $0?"
+msgstr "Restartovat $0?"
+
+#: src/components/vm/vmActions.tsx:328
+msgid "Force reboot $0?"
+msgstr "Vynutit restart $0?"
+
+#: src/components/vm/vmActions.tsx:335 src/components/vm/vmActions.tsx:340
+msgid "Force reboot"
+msgstr "Vynutit restart"
+
+# auto translated by TM merge from project: virt-manager, version: master,
+# DocId: virt-manager
+#: src/components/vm/vmActions.tsx:355
+msgid "Run"
+msgstr "Spustit"
+
+# auto translated by TM merge from project: dnf, version: master, DocId: dnf
+#: src/components/vm/vmActions.tsx:371
+msgid "Install"
+msgstr "Nainstalovat"
+
+#: src/components/vm/vmActions.tsx:393
+msgid ""
+"virt-install package needs to be installed on the system in order to clone "
+"VMs"
+msgstr ""
+"Klonovat virt. stroje lze pouze pokud je v systému nainstalovaný balíček "
+"virt-install"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/vmActions.tsx:440
+msgid "Edit description"
+msgstr "Upravit popis"
+
+#: src/components/vm/vmActions.tsx:453
+msgid "Add TPM"
+msgstr "Přidat TPM"
+
+#: src/components/vm/vmActions.tsx:462
+msgid "This VM is transient. Shut it down if you wish to delete it."
+msgstr ""
+"Tento vir. stroj je přechodný. Pokud ho chcete smazat, stačí ho vypnout."
+
+# auto translated by TM merge from project: virt-manager, version: master,
+# DocId: virt-manager
+#: src/components/vm/vmActions.tsx:514
+msgid "Shutdown and restart $0?"
+msgstr "Vypnout a opět nastartovat $0?"
+
+#: src/components/vm/vmActions.tsx:527
+msgid "Force shutdown and restart"
+msgstr "Vynutit vypnutí a opětovný start"
+
+#: src/components/vm/vmEditDescriptionDialog.tsx:45
+msgid "Failed to set description of VM $0"
+msgstr "Nepodařilo se nastavit popis virt. stroje $0"
+
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/components/vm/vmEditDescriptionDialog.tsx:53
+msgid "Edit description of VM $0"
+msgstr "Upravit popis virt. stroje $0"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:78
+msgid "Failed to replace SPICE devices"
+msgstr "Nepodařilo se nahradit SPICE zařízení"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:80
+msgid "Please see $0 how to reconfigure your VM manually."
+msgstr "Podívejte se do $0 ohledně toho, jak virt. stroj přenastavit ručně."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:102
+msgid "Other VMs using SPICE"
+msgstr "Ostatní virt. stroje používající SPICE"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:118
+msgid "Deselect others"
+msgstr "Zrušit výběr ostatních"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:118
+msgid "Select all"
+msgstr "Vybrat vše"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:127
+msgid "Replace SPICE devices in VM $0"
+msgstr "Nahradit SPICE zařízení ve virt. stroji $0"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:134
+msgid "Replace SPICE on selected VMs."
+msgstr "Nahradit SPICE na označených virt. strojích."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:135
+msgid "Replace SPICE on the virtual machine."
+msgstr "Nahradit SPICE na virtuálním stroji."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:136
+#: src/components/vm/vmReplaceSpiceDialog.tsx:138
+msgid "SPICE conversion"
+msgstr "Převedení ze SPICE"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:141
+msgid "Convert SPICE graphics console to VNC"
+msgstr "Převést SPICE grafickou konzoli na VNC"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:142
+msgid "Convert QXL video card to VGA"
+msgstr "Převést QXL video kartu na VGA"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:143
+msgid "Remove SPICE audio and host devices"
+msgstr "Odebrat SPICE audio a zařízení hostitele"
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:148
+msgid ""
+"This is intended for a host which does not support SPICE due to upgrades or "
+"live migration."
+msgstr ""
+"Toto je zamýšleno pro hostitele, které nepodporují SPICE a to kvůli "
+"přechodům na novější verze nebo stěhování za chodu."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:151
+msgid ""
+"It can also be used to enable the inline graphical console in the browser, "
+"which does not support SPICE."
+msgstr ""
+"Je možné také použít pro zapnutí vestavěné grafické konzoli v prohlížeči, "
+"který nepodporuje SPICE."
+
+#: src/components/vm/vmReplaceSpiceDialog.tsx:162
+msgid "Replace"
+msgstr "Nahradit"
+
+#: src/components/vm/vmUsageCard.tsx:26
+msgid "waiting"
+msgstr "čeká se"
+
+#: src/components/vms/hostvmslist.tsx:60
+msgid "Downloading: $0%"
+msgstr "Stahování: $0%"
+
+#: src/components/vms/hostvmslist.tsx:62
+msgid "Creating VM"
+msgstr "Vytváří se virt. stroj"
+
+#: src/components/vms/hostvmslist.tsx:208
+#: src/components/vms/hostvmslist.tsx:226
+msgid "All"
+msgstr "Vše"
+
+#: src/components/vms/hostvmslist.tsx:249
+msgid "Filter by name"
+msgstr "Filtrovat podle názvu"
+
+#: src/components/vms/hostvmslist.tsx:313
+msgid "No VM is running or defined on this host"
+msgstr "Na tomto hostiteli nejsou spuštěné nebo definované žádné virt. stroje"
+
+# auto translated by TM merge from project: dnf, version: master, DocId:
+# po/dnf
+#: src/helpers.ts:208
+msgid "disabled"
+msgstr "zakázáno"
+
+# auto translated by TM merge from project: dnf, version: master, DocId:
+# po/dnf
+#: src/helpers.ts:209
+msgid "enabled"
+msgstr "povoleno"
+
+# auto translated by TM merge from project: selinux (policycoreutils),
+# version: master, DocId: policycoreutils
+#: src/helpers.ts:212
+msgid "System"
+msgstr "Systém"
+
+#: src/helpers.ts:213
+msgid "User session"
+msgstr "Uživatelská relace"
+
+# auto translated by TM merge from project: dnf, version: master, DocId:
+# po/dnf
+#: src/helpers.ts:216
+msgid "Running"
+msgstr "Spuštěné"
+
+#: src/helpers.ts:217
+msgid "Idle"
+msgstr "Nečinné"
+
+#: src/helpers.ts:218
+msgid "Paused"
+msgstr "Pozastaveno"
+
+# auto translated by TM merge from project: Cockpit, version: rhel-7.4, DocId:
+# cockpit
+#: src/helpers.ts:220
+msgid "Shut off"
+msgstr "Vypnuto"
+
+# auto translated by TM merge from project: libvirt, version: master, DocId:
+# libvirt
+#: src/helpers.ts:221
+msgid "Crashed"
+msgstr "Zhavarovalo"
+
+#: src/helpers.ts:222
+msgid "Dying"
+msgstr "Vypíná se"
+
+#: src/helpers.ts:223
+msgid "Suspended (PM)"
+msgstr "Uspáno (správou napájení)"
+
+#: src/helpers.ts:224
+msgid "Blocked"
+msgstr "Blokované"
+
+#: src/helpers.ts:225
+msgid "No state"
+msgstr "Žádný stav"
+
+#: src/helpers.ts:228 src/helpers.ts:231
+msgid "disk"
+msgstr "disk"
+
+#: src/helpers.ts:229
+msgid "cdrom"
+msgstr "cdrom"
+
+#: src/helpers.ts:230 src/helpers.ts:242
+msgid "network"
+msgstr "síť"
+
+#: src/helpers.ts:232
+msgid "redirected device"
+msgstr "přesměrované zařízení"
+
+#: src/helpers.ts:233
+msgid "host device"
+msgstr "zařízení hostitele"
+
+#: src/helpers.ts:237
+msgid "host"
+msgstr "hostitel"
+
+#: src/helpers.ts:238
+msgid "host passthrough"
+msgstr "průchod na hostitele"
+
+#: src/helpers.ts:241
+msgid "direct"
+msgstr "přímé"
 
 # auto translated by TM merge from project: libguestfs, version: master,
 # DocId: po/libguestfs
-#: src/libvirtApi/nodeDevice.ts:35
-msgid "Bridge"
-msgstr "Most"
+#: src/helpers.ts:243
+msgid "bridge"
+msgstr "most"
 
-#: src/libvirtApi/nodeDevice.ts:36
-msgid "Simple Communication Controller"
-msgstr "Řadič jednoduché komunikace"
+# auto translated by TM merge from project: FreeIPA, version: ipa-4-5, DocId:
+# po/ipa
+#: src/helpers.ts:244
+msgid "user"
+msgstr "uživatel"
 
-#: src/libvirtApi/nodeDevice.ts:37
-msgid "Base System Peripheral"
-msgstr "Základní systémové periferie"
+#: src/helpers.ts:245
+msgid "ethernet"
+msgstr "ethernet"
 
-#: src/libvirtApi/nodeDevice.ts:38
-msgid "Input Device Controller"
-msgstr "Řadič vstupního zařízení"
+#: src/helpers.ts:246
+msgid "hostdev"
+msgstr "zařízení hostitele"
 
-#: src/libvirtApi/nodeDevice.ts:39
-msgid "Docking Station"
-msgstr "Dokovací stanice"
+#: src/helpers.ts:247
+msgid "mcast"
+msgstr "vícesměrvysílání"
 
-#: src/libvirtApi/nodeDevice.ts:40
-msgid "Processor"
-msgstr "Procesor"
+#: src/helpers.ts:248
+msgid "server"
+msgstr "server"
 
-#: src/libvirtApi/nodeDevice.ts:41
-msgid "Serial Bus Controller"
-msgstr "Řadič sériové sběrnice"
+# auto translated by TM merge from project: selinux (policycoreutils),
+# version: master, DocId: policycoreutils
+#: src/helpers.ts:249
+msgid "udp"
+msgstr "udp"
 
-#: src/libvirtApi/nodeDevice.ts:42
-msgid "Wireless Controller"
-msgstr "Řadič bezdrátové sítě"
+#: src/helpers.ts:250
+msgid "vhostuser"
+msgstr "uzivatelhostitelevirtstroju"
 
-#: src/libvirtApi/nodeDevice.ts:43
-msgid "Intelligent Controller"
-msgstr "Inteligentní řadič"
+#: src/helpers.ts:253
+msgid "Open"
+msgstr "Otevřít"
 
-#: src/libvirtApi/nodeDevice.ts:44
-msgid "Satellite Communication Controller"
-msgstr "Řadič satelitní komunikace"
+#: src/helpers.ts:255
+msgid "None (isolated network)"
+msgstr "Žádné (izolovaná síť)"
 
-#: src/libvirtApi/nodeDevice.ts:45
-msgid "Encryption Controller"
-msgstr "Řadič šifrování"
+#: src/helpers.ts:258
+msgid "Private"
+msgstr "Soukromé"
 
-#: src/libvirtApi/nodeDevice.ts:46
-msgid "Signal Processing Controller"
-msgstr "Řadič zpracovávání signálu"
+#: src/helpers.ts:268
+msgid "up"
+msgstr "zapnuto"
 
-#: src/libvirtApi/nodeDevice.ts:47
-msgid "Processing Accelerator"
-msgstr "Urychlovač zpracovávání"
+#: src/helpers.ts:269
+msgid "down"
+msgstr "vypnuté"
 
-#: src/libvirtApi/nodeDevice.ts:48
-msgid "Non-Essential Instrumentation"
-msgstr "Nezákladní instrumentace"
+#: src/helpers.ts:272
+msgid "Reset"
+msgstr "Vrátit na výchozí"
 
-#: src/libvirtApi/nodeDevice.ts:59
-msgid "Co-Processor"
-msgstr "Koprocesor"
+#: src/helpers.ts:273
+msgid "Gracefully shutdown"
+msgstr "Vypnout prostřednictvím operačního systému"
 
-#: src/libvirtApi/nodeDevice.ts:61
-msgid "Miscellaneous"
-msgstr "Různé"
+#: src/helpers.ts:274
+msgid "Power off"
+msgstr "Vypnout"
 
-#: src/app.tsx:133
-msgid "Hardware virtualization is disabled"
-msgstr "Hardwarová podpora virtualizace je vypnutá"
+#: src/helpers.ts:276
+msgid "Do nothing"
+msgstr "Nedělat nic"
 
-#: src/app.tsx:136
-msgid "Enable virtualization support in BIOS/EFI settings."
-msgstr "Zapněte podporu virtualizace v nastavení BIOS/EFI."
+#: src/helpers.ts:277
+msgid "Dump core"
+msgstr "Uložit výpis obsahu paměti"
 
-#: src/app.tsx:138
-msgid ""
-"Changing BIOS/EFI settings is specific to each manufacturer. It involves "
-"pressing a hotkey during boot (ESC, F1, F12, Del). Enable a setting called "
-"\"virtualization\", \"VM\", \"VMX\", \"SVM\", \"VTX\", \"VTD\". Consult your "
-"computer's manual for details."
-msgstr ""
-"Změna nastavení v BIOS/EFI se u různých výrobců provádí různě. Zahrnuje "
-"stisknutí klávesové zkratky (ESC, F1, F12, Del) po zapnutí stroje. Zapněte "
-"nastavení nazvaná nějak jako „virtualization“, „VM“, „VMX“, „SVM“, „VTX“, "
-"„VTD“. Podrobnosti zjistíte z příručky k počítači (či jeho základní desce)."
-
-#: src/app.tsx:147
-msgid "Ignore"
-msgstr "Ignorovat"
-
-#: src/app.tsx:160
-msgid "Loading resources"
-msgstr "Načítání prostředků"
-
-#: src/app.tsx:172
-msgid "Virtualization service (libvirt) is not active"
-msgstr "Služba virtualizace (libvirt) není aktivní"
-
-# auto translated by TM merge from project: SETroubleShoot, version: master,
-# DocId: framework/po/setroubleshoot
-#: src/app.tsx:173
-msgid "Troubleshoot"
-msgstr "Řešit potíže"
-
-#: src/app.tsx:220
-msgid "VM $0 does not exist on $1 connection"
-msgstr "Virt. stroj $0 na spojení $1 neexistuje"
-
-#: src/app.tsx:221 src/app.tsx:233
-msgid "Go to VMs list"
-msgstr "Přejít na seznam virt. strojů"
-
-#: src/app.tsx:232
-msgid "Downloading image for VM $0"
-msgstr "Stahuje se obraz pro virt. stroj $0"
-
-#: src/app.tsx:232
-msgid "Creating VM $0"
-msgstr "Vytváří se virt. stroj $0"
-
-#: src/app.tsx:236
-msgid "Download progress"
-msgstr "Kolik už staženo"
-
-#: src/state.ts:263
-msgid "Failed to fetch some resources"
-msgstr "Nepodařilo se stáhnout si některé prostředky"
+#: src/helpers.ts:278
+msgid "Inject a non-maskable interrupt"
+msgstr "Vložit nemaskovatelné přerušení"
 
 #: src/manifest.json:0
 msgid "iso"
